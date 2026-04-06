@@ -1,0 +1,86 @@
+===== RUN START: 2026-04-06 16:27:32 =====
+Command: hermes insights
+
+
+  ╔══════════════════════════════════════════════════════════╗
+  ║                    📊 Hermes Insights                    ║
+  ║                       Last 30 days                       ║
+  ╚══════════════════════════════════════════════════════════╝
+
+  Period: Apr 01, 2026 — Apr 06, 2026
+
+  📋 Overview
+  ────────────────────────────────────────────────────────
+  Sessions:          180           Messages:        7,491
+  Tool calls:        2,961         User messages:   937
+  Input tokens:      977,519       Output tokens:   918,875
+  Cache read:        361,865,044   Cache write:     14,874,239
+  Total tokens:      378,635,677   Est. cost:       $1.67 *
+  Active time:       ~13.1d        Avg session:     ~3h 30m
+  Avg msgs/session:  41.6
+
+  🤖 Models Used
+  ────────────────────────────────────────────────────────
+  Model                          Sessions       Tokens     Cost
+  claude-opus-4-6                      72  337,022,687      N/A
+  claude-3-haiku-20240307              83   26,726,629 $  1.67
+  claude-sonnet-4-6                    12   13,363,598      N/A
+  sonnet                                2      819,276      N/A
+  gemma4:e4b                            4      558,921      N/A
+  haiku                                 1       55,862      N/A
+  gemma4:31b-it-q8_0                    3       50,359      N/A
+  gemma4:26b-a4b-it-q8_0                2       38,345      N/A
+  unknown                               1            0      N/A
+  * Cost N/A for custom/self-hosted models
+
+  📱 Platforms
+  ────────────────────────────────────────────────────────
+  Platform       Sessions   Messages         Tokens
+  cli                  97      6,398    367,444,670
+  cron                 74        720      7,189,789
+  telegram              9        373      4,001,218
+
+  🔧 Top Tools
+  ────────────────────────────────────────────────────────
+  Tool                            Calls        %
+  terminal                        1,481    50.0%
+  read_file                         242     8.2%
+  patch                             206     7.0%
+  execute_code                      183     6.2%
+  write_file                        148     5.0%
+  search_files                      144     4.9%
+  cronjob                           126     4.3%
+  memory                             80     2.7%
+  session_search                     45     1.5%
+  browser_vision                     41     1.4%
+  browser_snapshot                   41     1.4%
+  browser_navigate                   40     1.4%
+  browser_click                      28     0.9%
+  skill_manage                       25     0.8%
+  todo                               24     0.8%
+  ... and 11 more tools
+
+  📅 Activity Patterns
+  ────────────────────────────────────────────────────────
+  Mon  ██              13
+  Tue                  0
+  Wed  █               8
+  Thu  ████████        45
+  Fri  ███             21
+  Sat  ███████████████ 82
+  Sun  ██              11
+
+  Peak hours: 7PM (33), 12AM (26), 5PM (26), 11PM (26), 6PM (14)
+  Active days: 6
+  Best streak: 6 consecutive days
+
+  🏆 Notable Sessions
+  ────────────────────────────────────────────────────────
+  Longest session      2.1d               (Apr 02, 20260402_133009_)
+  Most messages        1996 msgs          (Apr 02, 20260402_133009_)
+  Most tokens          326,116 tokens     (Apr 03, 20260403_093923_)
+  Most tool calls      765 calls          (Apr 02, 20260402_133009_)
+
+
+===== RUN END: 2026-04-06 16:27:32 | exit=0 | 0s =====
+

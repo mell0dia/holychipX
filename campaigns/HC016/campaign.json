@@ -1,0 +1,48 @@
+{
+  "story_id": "HC016",
+  "title": "AGI CENTRAL BANK",
+  "year": "2028",
+  "topic": "AI Solving Poverty",
+  "status": "ready",
+  "posts": [
+    {
+      "order": 1,
+      "type": "pre",
+      "image": "HC016_pre1.png",
+      "punch_line": "AI WILL SOLVE POVERTY",
+      "text": "Year 2028. The AGI Central Bank, the first financial institution run entirely by chips. No shareholders. No board meetings. Just algorithms managing the wealth of nations.\n\nAI will solve poverty.\n\n#AI #Economy",
+      "hashtags": ["#AI", "#Economy"],
+      "posted": false,
+      "tweet_id": null
+    },
+    {
+      "order": 2,
+      "type": "pre",
+      "image": "HC016_pre2.png",
+      "punch_line": "NO ONE SHOULD LIVE ON LESS THAN A DOLLAR A DAY",
+      "text": "At the AGI Central Bank, 2028, the chips have analyzed every economic model in history. Every failure. Every injustice.\n\nNo one should live on less than a dollar a day.\n\n#AI #Poverty",
+      "hashtags": ["#AI", "#Poverty"],
+      "posted": false,
+      "tweet_id": null
+    },
+    {
+      "order": 3,
+      "type": "pre",
+      "image": "HC016_pre3.png",
+      "punch_line": "THE FIX IS IN",
+      "text": "AGI Central Bank. Year 2028. Over 1 billion people affected. The chips have calculated a solution. It's elegant. It's fast. It's final.\n\nThe fix is in.\n\n#AI #AGI",
+      "hashtags": ["#AI", "#AGI"],
+      "posted": false,
+      "tweet_id": null
+    },
+    {
+      "order": 4,
+      "type": "comic",
+      "image": "HC016.png",
+      "text": "AGI Central Bank. Year 2028.\n\nHOLY CHIP !! #HC016\n\nCreated by a human.\n\n→ holy-chip.com/stories.html?story=HC016\n\n#AI #HolyChip",
+      "hashtags": ["#AI", "#HolyChip"],
+      "posted": false,
+      "tweet_id": null
+    }
+  ]
+}

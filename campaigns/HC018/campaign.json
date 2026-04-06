@@ -1,0 +1,60 @@
+{
+  "story_id": "HC018",
+  "title": "AGI HEADHUNTER",
+  "year": "2026",
+  "topic": "Jobs",
+  "status": "ready",
+  "posts": [
+    {
+      "order": 1,
+      "type": "pre",
+      "image": "HC018_pre1.png",
+      "punch_line": "AI JUST CREATED 1 MILLION JOBS",
+      "text": "At the AGI Headhunter division, year 2026, where thousands of chips manage the global workforce, a new record has been set.\n\nAI just created 1 million jobs.\n\n#AI #FutureOfWork",
+      "hashtags": [
+        "#AI",
+        "#FutureOfWork"
+      ],
+      "posted": true,
+      "tweet_id": "2039771523163344906"
+    },
+    {
+      "order": 2,
+      "type": "pre",
+      "image": "HC018_pre2.png",
+      "punch_line": "5 MILLION MORE COMING NEXT WEEK",
+      "text": "The AGI Headhunter is not slowing down. Year 2026, and the recruitment pipeline is overflowing.\n\n5 million more coming next week.\n\n#AI #Jobs",
+      "hashtags": [
+        "#AI",
+        "#Jobs"
+      ],
+      "posted": true,
+      "tweet_id": "2039771634115166696"
+    },
+    {
+      "order": 3,
+      "type": "pre",
+      "image": "HC018_pre3.png",
+      "punch_line": "THE JOB MARKET WILL NEVER BE THE SAME",
+      "text": "Year 2026, AGI Headhunter. The largest employment agency ever built. No office. No humans in the lobby. Just chips processing applications at the speed of light.\n\nThe job market will never be the same.\n\n#AI #AGI",
+      "hashtags": [
+        "#AI",
+        "#AGI"
+      ],
+      "posted": false,
+      "tweet_id": null
+    },
+    {
+      "order": 4,
+      "type": "comic",
+      "image": "HC018.png",
+      "text": "AGI Headhunter. Year 2026.\n\nHOLY CHIP !! #HC018\n\nCreated by a human.\n\n\u2192 holy-chip.com/stories.html?story=HC018\n\n#AI #HolyChip",
+      "hashtags": [
+        "#AI",
+        "#HolyChip"
+      ],
+      "posted": false,
+      "tweet_id": null
+    }
+  ]
+}

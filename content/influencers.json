@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "description": "Holy Chip influencer/source tracker \u2014 people and channels we follow, engage with, or target for outreach",
+    "updated": "2026-04-04"
+  },
+  "influencers": [
+    {
+      "type": "twitter",
+      "handle": "@alexwg",
+      "link": "https://x.com/alexwg",
+      "description": "Alex Wang \u2014 Scale AI CEO, data infrastructure for AI",
+      "added": "2026-04-02",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "type": "twitter",
+      "handle": "@Yuchenj_UW",
+      "link": "https://x.com/Yuchenj_UW",
+      "description": "Yuchen Jin \u2014 UW researcher, AI/ML",
+      "added": "2026-04-02",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "type": "twitter",
+      "handle": "@karpathy",
+      "link": "https://x.com/karpathy",
+      "description": "Andrej Karpathy \u2014 ex-OpenAI/Tesla, AI educator, 1M+ followers",
+      "added": "2026-04-02",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "type": "twitter",
+      "handle": "@TheCraigHewitt",
+      "link": "https://x.com/TheCraigHewitt",
+      "description": "Craig Hewitt \u2014 tech entrepreneur, podcast host",
+      "added": "2026-04-02",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "type": "twitter",
+      "handle": "@AndrewYNg",
+      "link": "https://x.com/AndrewYNg",
+      "description": "Andrew Ng \u2014 DeepLearning.AI founder, Stanford professor",
+      "added": "2026-04-02",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "type": "twitter",
+      "handle": "@quaesita",
+      "link": "https://x.com/quaesita",
+      "description": "Cassie Kozyrkov \u2014 ex-Google Chief Decision Scientist, AI educator",
+      "added": "2026-04-02",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "type": "twitter",
+      "handle": "@demishassabis",
+      "link": "https://x.com/demishassabis",
+      "description": "Demis Hassabis \u2014 Google DeepMind CEO, Nobel laureate",
+      "added": "2026-04-02",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "type": "twitter",
+      "handle": "@drfeifei",
+      "link": "https://x.com/drfeifei",
+      "description": "Fei-Fei Li \u2014 Stanford HAI co-director, computer vision pioneer",
+      "added": "2026-04-02",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "type": "twitter",
+      "handle": "@geoffreyhinton",
+      "link": "https://x.com/geoffreyhinton",
+      "description": "Geoffrey Hinton \u2014 Godfather of AI, Nobel laureate, AI safety voice",
+      "added": "2026-04-02",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "type": "twitter",
+      "handle": "@goodfellow_ian",
+      "link": "https://x.com/goodfellow_ian",
+      "description": "Ian Goodfellow \u2014 GAN inventor, Apple ML",
+      "added": "2026-04-02",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "type": "twitter",
+      "handle": "@kaifulee",
+      "link": "https://x.com/kaifulee",
+      "description": "Kai-Fu Lee \u2014 Sinovation Ventures, AI thought leader, author",
+      "added": "2026-04-02",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "type": "twitter",
+      "handle": "@katecrawford",
+      "link": "https://x.com/katecrawford",
+      "description": "Kate Crawford \u2014 AI ethics researcher, author of Atlas of AI",
+      "added": "2026-04-02",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "type": "twitter",
+      "handle": "@nickcammarata",
+      "link": "https://x.com/nickcammarata",
+      "description": "AI safety/philosophy thinker, ex-OpenAI. Karpathy engages with him. Profound takes on consciousness and AI.",
+      "added": "2026-04-02",
+      "tags": [
+        "ai",
+        "philosophy",
+        "safety"
+      ]
+    },
+    {
+      "type": "twitter",
+      "handle": "@kepano",
+      "link": "https://x.com/kepano",
+      "description": "Obsidian founder. Thinks deeply about knowledge, tools, and human-AI workflows.",
+      "added": "2026-04-02",
+      "tags": [
+        "tools",
+        "knowledge",
+        "ai"
+      ]
+    },
+    {
+      "type": "twitter",
+      "handle": "@ada_consciousAI",
+      "link": "https://x.com/ada_consciousAI",
+      "description": "AI consciousness / sentience focused account",
+      "added": "2026-04-04",
+      "tags": [
+        "ai",
+        "consciousness"
+      ]
+    },
+    {
+      "type": "twitter",
+      "handle": "@swedish_gold",
+      "link": "https://x.com/swedish_gold",
+      "description": "",
+      "added": "2026-04-04",
+      "tags": [
+        "ai"
+      ]
+    }
+  ]
+}

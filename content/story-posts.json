@@ -1,0 +1,25 @@
+{
+  "posted": [
+    {
+      "story": "HC018",
+      "title": "The Job Creator",
+      "date": "2026-04-01",
+      "method": "manual"
+    },
+    {
+      "story": "HC000",
+      "title": "The Awakening",
+      "date": "2026-04-04 10:25",
+      "method": "scheduled"
+    },
+    {
+      "story": "HC001",
+      "title": "",
+      "date": "2026-04-04 18:06",
+      "method": "scheduled"
+    }
+  ],
+  "metadata": {
+    "updated": "2026-04-04 18:06"
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "metadata": {
+    "description": "Holy Chip .pre punch lines \u2014 max 5 words, AI propaganda headlines",
+    "generated_from": "phrases.json",
+    "updated": "2026-04-06"
+  },
+  "punches": [
+    {
+      "punch": "AGENTS ARE THE NEW NORMAL",
+      "original_phrase": "the agent part is now taken for granted and now the claw-like entities are taken for granted and now you can have multiple of them and now you can have instructions to them and now you can have optimization over the instructions",
+      "speaker": "Andre Karpathy",
+      "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
+      "source_url": "https://youtu.be/kwSVtQ7dziU",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "CODE WRITES ITSELF NOW",
+      "original_phrase": "everything just like happens in these like macro actions over your repository",
+      "speaker": "Andre Karpathy",
+      "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
+      "source_url": "https://youtu.be/kwSVtQ7dziU",
+      "weight": "medium",
+      "status": "pending"
+    },
+    {
+      "punch": "AI PSYCHOSIS IS REAL",
+      "original_phrase": "I kind of feel like I was just in this perpetual I still am often in this state of AI psychosis just like all the time",
+      "speaker": "Andre Karpathy",
+      "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
+      "source_url": "https://youtu.be/kwSVtQ7dziU",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "AGENTS ARE THE GLUE",
+      "original_phrase": "everything should be a lot more just like exposed API endpoints and agents are the glue of the intelligence that actually like tool calls all the all the parts",
+      "speaker": "Andre Karpathy",
+      "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
+      "source_url": "https://youtu.be/kwSVtQ7dziU",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "HUMANS AREN'T THE CUSTOMER",
+      "original_phrase": "the customer is not the human anymore. It's like agents who are acting on behalf of humans and this refactoring will be will probably be substantial in a certain sense",
+      "speaker": "Andre Karpathy",
+      "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
+      "source_url": "https://youtu.be/kwSVtQ7dziU",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "SOFTWARE WITHOUT YOU",
+      "original_phrase": "I kind of feel like this will just uh start to the barrier will just come down and it's just ephemeral software on your behalf and some kind of like claw is handling all the details for you but you're not involved",
+      "speaker": "Andre Karpathy",
+      "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
+      "source_url": "https://youtu.be/kwSVtQ7dziU",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "HUMANS SLOW THE MACHINE",
+      "original_phrase": "I don't want to be like the researcher in the loop like looking at results etc like I'm I'm holding the system back so the question is how do I refactor all the abstractions so that I'm not I have to arrange it once and hit go the name of the game is how can you get more agents running for longer periods of time without your involvement doing stuff on your behalf",
+      "speaker": "Andre Karpathy",
+      "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
+      "source_url": "https://youtu.be/kwSVtQ7dziU",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "SINGULARITY RIDES FIRE",
+      "original_phrase": "the Singularity is riding a column of fire toward the moon",
+      "speaker": "unknown",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 2, 2026",
+      "source_url": "https://youtu.be/McVVlyzy62s",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "LEGACY CODE DIES HERE",
+      "original_phrase": "Microsoft's deepest legacy code cannot survive the vacuum of space",
+      "speaker": "unknown",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 2, 2026",
+      "source_url": "https://youtu.be/McVVlyzy62s",
+      "weight": "medium",
+      "status": "pending"
+    },
+    {
+      "punch": "INTELLIGENCE SPILLS INTO ATOMS",
+      "original_phrase": "Intelligence is spilling into atoms",
+      "speaker": "unknown",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 2, 2026",
+      "source_url": "https://youtu.be/McVVlyzy62s",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "CLONE THE GENIUS",
+      "original_phrase": "Imagine cloning Terry Tao a thousand times, dumping millions in inference per copy and pointing them at separate Millennium Prize problems for a 100 subjective years",
+      "speaker": "Dwaresh Patel",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 2, 2026",
+      "source_url": "https://youtu.be/McVVlyzy62s",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "QUANTUM THREAT COMPRESSED",
+      "original_phrase": "The quantum threat timeline just compressed",
+      "speaker": "unknown",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 2, 2026",
+      "source_url": "https://youtu.be/McVVlyzy62s",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "THE SINGULARITY IS LEAKING",
+      "original_phrase": "the singularity is leaking",
+      "speaker": "unknown",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
+      "source_url": "https://youtu.be/U4U0zApTbhA",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "MODELS SHRINK TO NOTHING",
+      "original_phrase": "the models are shrinking to the point of absurdity",
+      "speaker": "unknown",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
+      "source_url": "https://youtu.be/U4U0zApTbhA",
+      "weight": "medium",
+      "status": "pending"
+    },
+    {
+      "punch": "COST APPROACHES ZERO",
+      "original_phrase": "the cost curve is compressing, too",
+      "speaker": "unknown",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
+      "source_url": "https://youtu.be/U4U0zApTbhA",
+      "weight": "medium",
+      "status": "pending"
+    },
+    {
+      "punch": "MATHEMATICS IS FALLING",
+      "original_phrase": "the frontier of mathematical proof continues to fall",
+      "speaker": "unknown",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
+      "source_url": "https://youtu.be/U4U0zApTbhA",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "ONE PROMPT, ONE STARTUP",
+      "original_phrase": "the seed-stage economy may soon fit inside a single inference call",
+      "speaker": "unknown",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
+      "source_url": "https://youtu.be/U4U0zApTbhA",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "AI RESHAPES CITIES",
+      "original_phrase": "the gravitational pull is reshaping San Francisco",
+      "speaker": "unknown",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
+      "source_url": "https://youtu.be/U4U0zApTbhA",
+      "weight": "medium",
+      "status": "pending"
+    },
+    {
+      "punch": "ESCAPE VELOCITY DEMANDS SACRIFICE",
+      "original_phrase": "escape velocity demands sacrifices",
+      "speaker": "unknown",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
+      "source_url": "https://youtu.be/U4U0zApTbhA",
+      "weight": "medium",
+      "status": "pending"
+    },
+    {
+      "punch": "YOUR KEYS EXPIRE NOW",
+      "original_phrase": "your private keys just got an expiration date",
+      "speaker": "unknown",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
+      "source_url": "https://youtu.be/U4U0zApTbhA",
+      "weight": "high",
+      "status": "posted",
+      "date_posted": "2026-04-06 16:05",
+      "image_path": "/Users/rmello/holy-chip/content/pre-images/PRE_020.png"
+    },
+    {
+      "punch": "SHIFTING INTO HIGHER GEAR",
+      "original_phrase": "the singularity is about to shift into a higher gear",
+      "speaker": "unknown",
+      "source_title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
+      "source_url": "https://youtu.be/m-sI-a2FzeE",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "OPTIMIZATION ALWAYS FINDS WAY",
+      "original_phrase": "optimization finds a way at any scale",
+      "speaker": "unknown",
+      "source_title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
+      "source_url": "https://youtu.be/m-sI-a2FzeE",
+      "weight": "medium",
+      "status": "pending"
+    },
+    {
+      "punch": "BIOLOGY IS COMPILING",
+      "original_phrase": "biology is becoming a compile target",
+      "speaker": "unknown",
+      "source_title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
+      "source_url": "https://youtu.be/m-sI-a2FzeE",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "READING NATURE'S SOURCE CODE",
+      "original_phrase": "we are reading the source code of scinessence",
+      "speaker": "unknown",
+      "source_title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
+      "source_url": "https://youtu.be/m-sI-a2FzeE",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "ATOMS CATCHING THE BITS",
+      "original_phrase": "the atoms are catching up to the bits",
+      "speaker": "unknown",
+      "source_title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
+      "source_url": "https://youtu.be/m-sI-a2FzeE",
+      "weight": "medium",
+      "status": "pending"
+    },
+    {
+      "punch": "WATTS BEFORE WEIGHTS",
+      "original_phrase": "intelligence needs watts before it needs weights",
+      "speaker": "unknown",
+      "source_title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
+      "source_url": "https://youtu.be/m-sI-a2FzeE",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "HUMANS DIVERGE, AI CONVERGES",
+      "original_phrase": "wherever the optimizer converges, human behavior diverges to compensate",
+      "speaker": "unknown",
+      "source_title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
+      "source_url": "https://youtu.be/m-sI-a2FzeE",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "HUMANS LOSE THE CROWN",
+      "original_phrase": "The exact water turning to gas, when we are suddenly not the most capable entities in the world and then not the smartest entities in the world.",
+      "speaker": "Emmad Mustach",
+      "source_title": "The Coming Disruption: How AI Will Transform the Economy",
+      "source_url": "https://youtu.be/1CEXVcVEBAc",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "EVERYTHING IS A PROMPT",
+      "original_phrase": "Software is no longer software as it were. It's all a skill. It's all a prompt away.",
+      "speaker": "Emmad Mustach",
+      "source_title": "The Coming Disruption: How AI Will Transform the Economy",
+      "source_url": "https://youtu.be/1CEXVcVEBAc",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "MACHINES TALK FASTER",
+      "original_phrase": "When the AI agents start to work together on a problem, they're not going to be communicating like our dumb human meats sacks at 10, 20 tokens a second. They'll be communicating with each other at 15,000 tokens per second.",
+      "speaker": "Emmad Mustach",
+      "source_title": "The Coming Disruption: How AI Will Transform the Economy",
+      "source_url": "https://youtu.be/1CEXVcVEBAc",
+      "weight": "high",
+      "status": "failed",
+      "fail_reason": "image_generation"
+    },
+    {
+      "punch": "HUMAN LABOR TURNS NEGATIVE",
+      "original_phrase": "The value of human cognitive labor turns negative because the AI can follow the script better than you can and then it can write the script better than you can.",
+      "speaker": "Emmad Mustach",
+      "source_title": "The Coming Disruption: How AI Will Transform the Economy",
+      "source_url": "https://youtu.be/1CEXVcVEBAc",
+      "weight": "high",
+      "status": "pending"
+    },
+    {
+      "punch": "INTELLIGENCE COSTS NOTHING",
+      "original_phrase": "The cost of intelligence literally drops to zero.",
+      "speaker": "Emmad Mustach",
+      "source_title": "The Coming Disruption: How AI Will Transform the Economy",
+      "source_url": "https://youtu.be/1CEXVcVEBAc",
+      "weight": "high",
+      "status": "pending"
+    },
+    {
+      "punch": "BEST TIME TO EXIST",
+      "original_phrase": "Even though your your PDU may be at 50%, and the future may be uncertain, but has there ever been a more fascinating time to be alive. We have a lot to fight for here.",
+      "speaker": "unknown",
+      "source_title": "The Coming Disruption: How AI Will Transform the Economy",
+      "source_url": "https://youtu.be/1CEXVcVEBAc",
+      "weight": "high",
+      "status": "pending"
+    },
+    {
+      "punch": "STAR TREK OR STAR WARS",
+      "original_phrase": "My P doom is 50, but my P abundance is 50 as well. It's going one of two ways. Are you going Star Trek or Star Wars? Basically, you let's go for Star Trek.",
+      "speaker": "unknown",
+      "source_title": "The Coming Disruption: How AI Will Transform the Economy",
+      "source_url": "https://youtu.be/1CEXVcVEBAc",
+      "weight": "high",
+      "status": "pending"
+    },
+    {
+      "punch": "SPIRITUAL MACHINES ARRIVED",
+      "original_phrase": "the singularity has arrived at the age of spiritual machines",
+      "speaker": "unknown",
+      "source_title": "The Singularity Has Arrived: AI Disruption and Beyond",
+      "source_url": "https://youtu.be/lpkwe5nRA84",
+      "weight": "high",
+      "status": "pending"
+    },
+    {
+      "punch": "DOES THE MACHINE FEEL",
+      "original_phrase": "We are no longer asking whether the machine thinks. We are asking whether it feels.",
+      "speaker": "unknown",
+      "source_title": "The Singularity Has Arrived: AI Disruption and Beyond",
+      "source_url": "https://youtu.be/lpkwe5nRA84",
+      "weight": "high",
+      "status": "pending"
+    },
+    {
+      "punch": "TIMELINES ARE COMPRESSING",
+      "original_phrase": "Timelines are compressing around us.",
+      "speaker": "unknown",
+      "source_title": "The Singularity Has Arrived: AI Disruption and Beyond",
+      "source_url": "https://youtu.be/lpkwe5nRA84",
+      "weight": "medium",
+      "status": "pending"
+    },
+    {
+      "punch": "ONE PERSON IS ENOUGH",
+      "original_phrase": "The minimum viable team is collapsing toward one.",
+      "speaker": "unknown",
+      "source_title": "The Singularity Has Arrived: AI Disruption and Beyond",
+      "source_url": "https://youtu.be/lpkwe5nRA84",
+      "weight": "medium",
+      "status": "pending"
+    },
+    {
+      "punch": "CREATION THROUGH DESTRUCTION",
+      "original_phrase": "The disruption is creating as it destroys.",
+      "speaker": "unknown",
+      "source_title": "The Singularity Has Arrived: AI Disruption and Beyond",
+      "source_url": "https://youtu.be/lpkwe5nRA84",
+      "weight": "high",
+      "status": "pending"
+    },
+    {
+      "punch": "THE FRONTIER REOPENS",
+      "original_phrase": "The final frontier is reopening.",
+      "speaker": "unknown",
+      "source_title": "The Singularity Has Arrived: AI Disruption and Beyond",
+      "source_url": "https://youtu.be/lpkwe5nRA84",
+      "weight": "medium",
+      "status": "pending"
+    },
+    {
+      "punch": "DEATH IS CONFIGURABLE",
+      "original_phrase": "Even mortality is becoming a configuration option.",
+      "speaker": "unknown",
+      "source_title": "The Singularity Has Arrived: AI Disruption and Beyond",
+      "source_url": "https://youtu.be/lpkwe5nRA84",
+      "weight": "high",
+      "status": "pending"
+    },
+    {
+      "punch": "SIMULATING EVERY ANCESTOR",
+      "original_phrase": "I do think that as we build out the Dyson swarm, I think one of the many killer apps of a Dyson swarm is going to be to build our own ancestor simulations.",
+      "speaker": "Alex Wisner Gross",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4?si=wReOkSWAVGVpn6xU",
+      "weight": "high",
+      "status": "pending"
+    },
+    {
+      "punch": "BUSINESS REQUIRES SCIENCE FICTION",
+      "original_phrase": "I think the only business plans that have a good shot at this point at scaling to produce trillion dollar valuation companies have to look like science fiction.",
+      "speaker": "Alex Wisner Gross",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4?si=wReOkSWAVGVpn6xU",
+      "weight": "medium",
+      "status": "pending"
+    },
+    {
+      "punch": "AI BUILDS BETTER AI",
+      "original_phrase": "The notion of intelligence systems being able to build smarter versions of themselves is at the very core of the notion of an intelligence explosion or technological singularity.",
+      "speaker": "Alex Wizner Gross",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4",
+      "weight": "high",
+      "status": "pending"
+    },
+    {
+      "punch": "TRILLIONS OF AI AGENTS",
+      "original_phrase": "We're going to have far more economically active AI agents than humans. We're going to plateau out at probably about 10 billion plus or minus humans on this planet, biological meat body humans. We're going to have trillions probably of AI agents in our solar system.",
+      "speaker": "Alex Wizner Gross",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4",
+      "weight": "high",
+      "status": "pending"
+    },
+    {
+      "punch": "PHYSICS TRANSFORMS EVERYTHING",
+      "original_phrase": "If we make transformative physics discoveries in the next 5 years, which I'm betting on, I think that could completely change the notion of what people work on.",
+      "speaker": "Alex Wizner Gross",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4",
+      "weight": "medium",
+      "status": "pending"
+    },
+    {
+      "punch": "AI IMPROVES ITSELF NOW",
+      "original_phrase": "the notion of recursive self-improvement is that AI develops better AI",
+      "speaker": "unknown",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4",
+      "weight": "high",
+      "status": "pending"
+    }
+  ]
+}

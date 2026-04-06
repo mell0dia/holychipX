@@ -1,0 +1,7678 @@
+{
+  "metadata": {
+    "created": "2026-04-02",
+    "description": "Holy Chip DM outreach tracker",
+    "updated": "2026-04-03",
+    "total": 429
+  },
+  "targets": [
+    {
+      "handle": "NeelNanda5",
+      "name": "Neel Nanda",
+      "company": "DeepMind",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 15:08",
+          "story": "HC003",
+          "status": "sent",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "AmandaAskell",
+      "name": "Amanda Askell",
+      "company": "Anthropic",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 15:09",
+          "story": "HC003",
+          "status": "sent",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "BlancheMinerva",
+      "name": "Stella Biderman",
+      "company": "EleutherAI",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 15:09",
+          "story": "HC003",
+          "status": "sent",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "YiTayML",
+      "name": "Yi Tay",
+      "company": "Reka AI",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 15:09",
+          "story": "HC003",
+          "status": "sent",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "evhub",
+      "name": "Evan Hubinger",
+      "company": "Anthropic",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 15:09",
+          "story": "HC003",
+          "status": "failed",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "andy_l_jones",
+      "name": "Andy Jones",
+      "company": "Anthropic",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 15:09",
+          "story": "HC003",
+          "status": "failed",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        },
+        {
+          "date": "2026-04-02 15:10",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "VKrakovna",
+      "name": "Victoria Krakovna",
+      "company": "DeepMind",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 15:10",
+          "story": "HC003",
+          "status": "sent",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": true,
+      "followers": null
+    },
+    {
+      "handle": "RohinShah",
+      "name": "Rohin Shah",
+      "company": "DeepMind",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 16:16",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "EthanJPerez",
+      "name": "Ethan Perez",
+      "company": "Anthropic",
+      "tier": "anthropic",
+      "dms": [
+        {
+          "date": "2026-04-02 16:16",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "nelhage",
+      "name": "Nelson Elhage",
+      "company": "Anthropic",
+      "tier": "anthropic",
+      "dms": [
+        {
+          "date": "2026-04-02 16:16",
+          "story": "HC003",
+          "status": "sent",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": true,
+      "followers": null
+    },
+    {
+      "handle": "TomHenighan",
+      "name": "Tom Henighan",
+      "company": "Anthropic",
+      "tier": "anthropic",
+      "dms": [
+        {
+          "date": "2026-04-02 16:16",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "AlexTamkin",
+      "name": "Alex Tamkin",
+      "company": "Anthropic",
+      "tier": "anthropic",
+      "dms": [
+        {
+          "date": "2026-04-02 16:16",
+          "story": "HC003",
+          "status": "sent",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": true,
+      "followers": null
+    },
+    {
+      "handle": "nschiefer",
+      "name": "Nicholas Schiefer",
+      "company": "Anthropic",
+      "tier": "anthropic",
+      "dms": [
+        {
+          "date": "2026-04-02 16:16",
+          "story": "HC003",
+          "status": "sent",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": true,
+      "followers": null
+    },
+    {
+      "handle": "karinanguyen",
+      "name": "Karina Nguyen",
+      "company": "Anthropic",
+      "tier": "anthropic",
+      "dms": [
+        {
+          "date": "2026-04-02 16:16",
+          "story": "HC003",
+          "status": "sent",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": true,
+      "followers": null
+    },
+    {
+      "handle": "RogerGrosse",
+      "name": "Roger Grosse",
+      "company": "Anthropic",
+      "tier": "anthropic",
+      "dms": [
+        {
+          "date": "2026-04-02 16:16",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "hwchung27",
+      "name": "Hyung Won Chung",
+      "company": "OpenAI",
+      "tier": "openai",
+      "dms": [
+        {
+          "date": "2026-04-02 16:16",
+          "story": "HC003",
+          "status": "sent",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": true,
+      "followers": null
+    },
+    {
+      "handle": "_jasonwei",
+      "name": "Jason Wei",
+      "company": "OpenAI",
+      "tier": "openai",
+      "dms": [
+        {
+          "date": "2026-04-02 16:16",
+          "story": "HC003",
+          "status": "sent",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": true,
+      "followers": null
+    },
+    {
+      "handle": "nabla_theta",
+      "name": "Leo Gao",
+      "company": "OpenAI",
+      "tier": "openai",
+      "dms": [
+        {
+          "date": "2026-04-02 16:16",
+          "story": "HC003",
+          "status": "sent",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": true,
+      "followers": null
+    },
+    {
+      "handle": "collin_burns",
+      "name": "Collin Burns",
+      "company": "OpenAI",
+      "tier": "openai",
+      "dms": [
+        {
+          "date": "2026-04-02 16:17",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "janleike",
+      "name": "Jan Leike",
+      "company": "Anthropic",
+      "tier": "openai",
+      "dms": [
+        {
+          "date": "2026-04-02 16:17",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "juesato",
+      "name": "Jonathan Uesato",
+      "company": "DeepMind",
+      "tier": "deepmind",
+      "dms": [
+        {
+          "date": "2026-04-02 16:17",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "jack_w_rae",
+      "name": "Jack Rae",
+      "company": "DeepMind",
+      "tier": "deepmind",
+      "dms": [
+        {
+          "date": "2026-04-02 16:17",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "gaborcselle",
+      "name": "Lucas Beyer",
+      "company": "DeepMind",
+      "tier": "deepmind",
+      "dms": [
+        {
+          "date": "2026-04-02 16:17",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "HugoTouvron",
+      "name": "Hugo Touvron",
+      "company": "Meta FAIR",
+      "tier": "meta",
+      "dms": [
+        {
+          "date": "2026-04-02 16:17",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "GuillaumeLample",
+      "name": "Guillaume Lample",
+      "company": "Mistral",
+      "tier": "meta",
+      "dms": [
+        {
+          "date": "2026-04-02 16:17",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "timlacroix",
+      "name": "Timothee Lacroix",
+      "company": "Mistral",
+      "tier": "meta",
+      "dms": [
+        {
+          "date": "2026-04-02 16:17",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "_lewtun",
+      "name": "Lewis Tunstall",
+      "company": "HuggingFace",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-02 16:17",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "RisingSayak",
+      "name": "Sayak Paul",
+      "company": "HuggingFace",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-02 16:17",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "osanseviero",
+      "name": "Omar Sanseviero",
+      "company": "HuggingFace",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-02 16:17",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "StasBekman",
+      "name": "Stas Bekman",
+      "company": "HuggingFace",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-02 16:17",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "teknium",
+      "name": "Teknium",
+      "company": "Nous Research",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-02 16:17",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "charlieholtz",
+      "name": "Charlie Holtz",
+      "company": "Replicate",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-02 16:17",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "rasbt",
+      "name": "Sebastian Raschka",
+      "company": "Lightning AI",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-02 16:18",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "soldni",
+      "name": "Luca Soldaini",
+      "company": "Allen AI",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-02 16:18",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "haileysch",
+      "name": "Hailey Schoelkopf",
+      "company": "EleutherAI",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-02 16:18",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "NeuralBricolage",
+      "name": "Helena Sarin",
+      "company": "Independent",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 16:18",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "dvsch",
+      "name": "Derrick Schultz",
+      "company": "Independent",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 16:18",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "memotv",
+      "name": "Memo Akten",
+      "company": "Independent",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 16:18",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "genekogan",
+      "name": "Gene Kogan",
+      "company": "Independent",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 16:18",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "elluba",
+      "name": "Luba Elliott",
+      "company": "Independent",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 16:18",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "amygoodchild",
+      "name": "Amy Goodchild",
+      "company": "Independent",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 16:18",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "eps696",
+      "name": "Vadim Epstein",
+      "company": "Independent",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 16:18",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "artBoffin",
+      "name": "Alexander Reben",
+      "company": "Independent",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 16:18",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "PVArman",
+      "name": "Pindar Van Arman",
+      "company": "Independent",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 16:18",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "annaridler",
+      "name": "Anna Ridler",
+      "company": "Independent",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 16:18",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "matdryhurst",
+      "name": "Mat Dryhurst",
+      "company": "Independent",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 16:18",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "fabinrasheed",
+      "name": "Fabin Rasheed",
+      "company": "Independent",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 16:19",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "TurnTrout",
+      "name": "Alex Turner",
+      "company": "Independent",
+      "tier": "safety",
+      "dms": [
+        {
+          "date": "2026-04-02 16:19",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "KatjaGrace",
+      "name": "Katja Grace",
+      "company": "AI Impacts",
+      "tier": "safety",
+      "dms": [
+        {
+          "date": "2026-04-02 16:19",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "davidad",
+      "name": "David Dalrymple",
+      "company": "ARIA",
+      "tier": "safety",
+      "dms": [
+        {
+          "date": "2026-04-02 16:19",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "So8res",
+      "name": "Nate Soares",
+      "company": "MIRI",
+      "tier": "safety",
+      "dms": [
+        {
+          "date": "2026-04-02 16:19",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "NPCollapse",
+      "name": "Connor Leahy",
+      "company": "Conjecture",
+      "tier": "safety",
+      "dms": [
+        {
+          "date": "2026-04-02 16:19",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "owain_evans",
+      "name": "Owain Evans",
+      "company": "Oxford",
+      "tier": "safety",
+      "dms": [
+        {
+          "date": "2026-04-02 16:19",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "LawrenceChan_",
+      "name": "Lawrence Chan",
+      "company": "UC Berkeley",
+      "tier": "safety",
+      "dms": [
+        {
+          "date": "2026-04-02 16:19",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "nostalgebraist",
+      "name": "Nostalgebraist",
+      "company": "Independent",
+      "tier": "safety",
+      "dms": [
+        {
+          "date": "2026-04-02 16:19",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "percyliang",
+      "name": "Percy Liang",
+      "company": "Stanford",
+      "tier": "academic",
+      "dms": [
+        {
+          "date": "2026-04-02 16:19",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "chelseabfinn",
+      "name": "Chelsea Finn",
+      "company": "Stanford",
+      "tier": "academic",
+      "dms": [
+        {
+          "date": "2026-04-02 16:19",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "mark_riedl",
+      "name": "Mark Riedl",
+      "company": "Georgia Tech",
+      "tier": "academic",
+      "dms": [
+        {
+          "date": "2026-04-02 16:19",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "dkiela",
+      "name": "Douwe Kiela",
+      "company": "Contextual AI",
+      "tier": "academic",
+      "dms": [
+        {
+          "date": "2026-04-02 16:19",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "srush_nlp",
+      "name": "Sasha Rush",
+      "company": "Cornell/HuggingFace",
+      "tier": "academic",
+      "dms": [
+        {
+          "date": "2026-04-02 16:19",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "sleepinyourhat",
+      "name": "Sam Bowman",
+      "company": "Anthropic/NYU",
+      "tier": "academic",
+      "dms": [
+        {
+          "date": "2026-04-02 16:19",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "ch402",
+      "name": "Chris Olah",
+      "company": "Anthropic",
+      "tier": "academic",
+      "dms": [
+        {
+          "date": "2026-04-02 16:20",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "MelMitchell1",
+      "name": "Melanie Mitchell",
+      "company": "SFI",
+      "tier": "academic",
+      "dms": [
+        {
+          "date": "2026-04-02 16:20",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "omarsar0",
+      "name": "Elvis Saravia",
+      "company": "DAIR.AI",
+      "tier": "nlp",
+      "dms": [
+        {
+          "date": "2026-04-02 16:20",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "natolambert",
+      "name": "Nathan Lambert",
+      "company": "Independent",
+      "tier": "nlp",
+      "dms": [
+        {
+          "date": "2026-04-02 16:20",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "lvwerra",
+      "name": "Leandro von Werra",
+      "company": "HuggingFace",
+      "tier": "nlp",
+      "dms": [
+        {
+          "date": "2026-04-02 16:20",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "_philschmid",
+      "name": "Philipp Schmid",
+      "company": "HuggingFace",
+      "tier": "nlp",
+      "dms": [
+        {
+          "date": "2026-04-02 16:20",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "d_blalock",
+      "name": "Davis Blalock",
+      "company": "Independent",
+      "tier": "nlp",
+      "dms": [
+        {
+          "date": "2026-04-02 16:20",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "dennybritz",
+      "name": "Denny Britz",
+      "company": "Independent",
+      "tier": "nlp",
+      "dms": [
+        {
+          "date": "2026-04-02 16:20",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "swyx",
+      "name": "Shawn Wang",
+      "company": "Latent Space",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 16:20",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "andrey_kurenkov",
+      "name": "Andrey Kurenkov",
+      "company": "Last Week in AI",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 16:20",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "AlbertoRomgar",
+      "name": "Alberto Romero",
+      "company": "Algorithmic Bridge",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 16:20",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "TheZvi",
+      "name": "Zvi Mowshowitz",
+      "company": "Independent",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 16:20",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "AISafetyMemes",
+      "name": "AI Safety Memes",
+      "company": "Meme account",
+      "tier": "humor",
+      "dms": [
+        {
+          "date": "2026-04-02 16:20",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "DataChaz",
+      "name": "Chaz",
+      "company": "Data/NLP creator",
+      "tier": "humor",
+      "dms": [
+        {
+          "date": "2026-04-02 16:20",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "itstimconnors",
+      "name": "Tim Connors",
+      "company": "AI products + memes",
+      "tier": "humor",
+      "dms": [
+        {
+          "date": "2026-04-02 16:20",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "existentialcoms",
+      "name": "Existential Comics",
+      "company": "Philosophy comic",
+      "tier": "humor",
+      "dms": [
+        {
+          "date": "2026-04-02 16:21",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "InternetHippo",
+      "name": "Internet Hippo",
+      "company": "Tech satire",
+      "tier": "humor",
+      "dms": [
+        {
+          "date": "2026-04-02 16:21",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "slow_developer",
+      "name": "Haider",
+      "company": "AI community",
+      "tier": "humor",
+      "dms": [
+        {
+          "date": "2026-04-02 16:21",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "1littlecoder",
+      "name": "1littlecoder",
+      "company": "YouTube/AI",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 16:21",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "matthewberman",
+      "name": "Matthew Berman",
+      "company": "YouTube/AI",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 16:21",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "SOLBigBrain",
+      "name": "Sol Big Brain",
+      "company": "Solana NFT",
+      "tier": "nft",
+      "dms": [
+        {
+          "date": "2026-04-02 16:21",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "DegenSpartan",
+      "name": "Degen Spartan",
+      "company": "Crypto/AI",
+      "tier": "nft",
+      "dms": [
+        {
+          "date": "2026-04-02 16:21",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "punk6529",
+      "name": "6529",
+      "company": "NFT collector",
+      "tier": "nft",
+      "dms": [
+        {
+          "date": "2026-04-02 16:21",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "DanielFilan",
+      "name": "DanielMFilan",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-02 16:21",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "RichardMCNgo",
+      "name": "richardcngo",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-02 16:21",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "ajeya_cotra",
+      "name": "AjeyaCotra",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-02 16:21",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "steinhardt_j",
+      "name": "jsteinhardt",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-02 16:21",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "YuntianDeng",
+      "name": "da03",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-02 16:21",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "AranKomatsuzaki",
+      "name": "arankomats",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-02 16:21",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "nathanlabenz",
+      "name": "NathanLebenz",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-02 16:21",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "dystopianpics",
+      "name": "DystopianPicsAI",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-02 16:21",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "karpathy",
+      "name": "Andrej Karpathy",
+      "company": "Independent",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 16:22",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "sama",
+      "name": "Sam Altman",
+      "company": "OpenAI",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 16:22",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "ylecun",
+      "name": "Yann LeCun",
+      "company": "Meta AI",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 16:22",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "jeffdean",
+      "name": "Jeff Dean",
+      "company": "Google DeepMind",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 16:22",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "demishassabis",
+      "name": "Demis Hassabis",
+      "company": "DeepMind",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 16:22",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "hardmaru",
+      "name": "David Ha",
+      "company": "Sakana AI",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 16:22",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "GaryMarcus",
+      "name": "Gary Marcus",
+      "company": "Independent",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 16:22",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "emollick",
+      "name": "Ethan Mollick",
+      "company": "Wharton",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 16:22",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "aisolopreneur",
+      "name": "Aadit Sheth",
+      "company": "AI creator",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 16:22",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "bentossell",
+      "name": "Ben Tossell",
+      "company": "Ben's Bites",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 16:22",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "paulg",
+      "name": "Paul Graham",
+      "company": "YC",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 16:22",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "lexfridman",
+      "name": "Lex Fridman",
+      "company": "MIT/YouTube",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 16:22",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "AnthropicAI",
+      "name": "Anthropic",
+      "company": "Anthropic",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-02 16:22",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "OpenAI",
+      "name": "OpenAI",
+      "company": "OpenAI",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-02 16:22",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "name": "Google DeepMind",
+      "company": "DeepMind",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-02 16:22",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "huggingface",
+      "name": "Hugging Face",
+      "company": "HuggingFace",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-02 16:23",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "karenxcheng",
+      "name": "Karen X. Cheng",
+      "company": "AI Video creator",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 16:23",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "nickfloats",
+      "name": "Nick St. Pierre",
+      "company": "AI art creator",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 16:23",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "daniel_eckler",
+      "name": "Daniel Eckler",
+      "company": "AI art/design",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 16:23",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "jonathanfly",
+      "name": "Jonathan Fly",
+      "company": "AI researcher/artist",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 16:23",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "nansen_ai",
+      "name": "Nansen",
+      "company": "Crypto analytics",
+      "tier": "nft",
+      "dms": [
+        {
+          "date": "2026-04-02 16:23",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "collab_currency",
+      "name": "Collab.Land",
+      "company": "NFT community",
+      "tier": "nft",
+      "dms": [
+        {
+          "date": "2026-04-02 16:23",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "moxiemarvellous",
+      "name": "Moxie Marlinspike",
+      "company": "Signal",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-02 16:23",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
+        },
+        {
+          "date": "2026-04-02 23:33",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
+        },
+        {
+          "date": "2026-04-03 10:13",
+          "story": "HC004",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "benedictevans",
+      "name": "Benedict Evans",
+      "company": "Independent",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 16:23",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "stratechery",
+      "name": "Ben Thompson",
+      "company": "Stratechery",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 16:23",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "noahpinion",
+      "name": "Noah Smith",
+      "company": "Noahpinion",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 16:23",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "paulfchristiano",
+      "name": "Paul Christiano",
+      "company": "ARC",
+      "tier": "safety",
+      "dms": [
+        {
+          "date": "2026-04-02 16:23",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "ESYudkowsky",
+      "name": "Eliezer Yudkowsky",
+      "company": "MIRI",
+      "tier": "safety",
+      "dms": [
+        {
+          "date": "2026-04-02 16:23",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "robbensinger",
+      "name": "Rob Bensinger",
+      "company": "MIRI",
+      "tier": "safety",
+      "dms": [
+        {
+          "date": "2026-04-02 16:23",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "timnitGebru",
+      "name": "Timnit Gebru",
+      "company": "DAIR",
+      "tier": "academic",
+      "dms": [
+        {
+          "date": "2026-04-02 16:23",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "mmitchell_ai",
+      "name": "Margaret Mitchell",
+      "company": "HuggingFace",
+      "tier": "academic",
+      "dms": [
+        {
+          "date": "2026-04-02 16:24",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "math_rachel",
+      "name": "Rachel Thomas",
+      "company": "Fast.ai",
+      "tier": "academic",
+      "dms": [
+        {
+          "date": "2026-04-02 16:24",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "jeremyphoward",
+      "name": "Jeremy Howard",
+      "company": "Fast.ai",
+      "tier": "academic",
+      "dms": [
+        {
+          "date": "2026-04-02 16:24",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "fchollet",
+      "name": "Francois Chollet",
+      "company": "Google/ARC",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 16:24",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "drfeifei",
+      "name": "Fei-Fei Li",
+      "company": "Stanford/World Labs",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 16:24",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "MattVidPro",
+      "name": "Matt Wolfe",
+      "company": "AI creator",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 23:33",
+          "story": "HC003",
+          "status": "sent",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": true,
+      "followers": null
+    },
+    {
+      "handle": "thatroblennon",
+      "name": "Rob Lennon",
+      "company": "AI creator",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 23:33",
+          "story": "HC003",
+          "status": "sent",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": true,
+      "followers": null
+    },
+    {
+      "handle": "heykahn",
+      "name": "Aakash Gupta",
+      "company": "AI newsletter",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 23:33",
+          "story": "HC003",
+          "status": "sent",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": true,
+      "followers": null
+    },
+    {
+      "handle": "rowancheung",
+      "name": "Rowan Cheung",
+      "company": "The Rundown AI",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 23:33",
+          "story": "HC003",
+          "status": "sent",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": true,
+      "followers": null
+    },
+    {
+      "handle": "zswitten",
+      "name": "Zack Witten",
+      "company": "AI prompting",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 23:33",
+          "story": "HC003",
+          "status": "sent",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": true,
+      "followers": null
+    },
+    {
+      "handle": "venturetwins",
+      "name": "Venture Twins",
+      "company": "AI startups",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 23:33",
+          "story": "HC003",
+          "status": "sent",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": true,
+      "followers": null
+    },
+    {
+      "handle": "thealexbanks",
+      "name": "Alex Banks",
+      "company": "AI creator",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 23:33",
+          "story": "HC003",
+          "status": "sent",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+        }
+      ],
+      "verified": true,
+      "dm_open": true,
+      "followers": null
+    },
+    {
+      "handle": "itsPaulAi",
+      "name": "Paul AI",
+      "company": "AI creator",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 23:33",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "LinusEkenstam",
+      "name": "Linus Ekenstam",
+      "company": "AI builder",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 23:34",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "EMostaque",
+      "name": "Emad Mostaque",
+      "company": "Independent",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 23:34",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "literallydenis",
+      "name": "Denis Shiryaev",
+      "company": "Neural Love",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 23:34",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "fabianstelzer",
+      "name": "Fabian Stelzer",
+      "company": "AI artist",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 23:34",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "quasimondo",
+      "name": "Mario Klingemann",
+      "company": "AI artist",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 23:34",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "samplecards",
+      "name": "Sample Cards",
+      "company": "AI art",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 23:34",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
+        },
+        {
+          "date": "2026-04-03 10:13",
+          "story": "HC004",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "refikanadol",
+      "name": "Refik Anadol",
+      "company": "AI artist",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 23:34",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "joanna_stern",
+      "name": "Joanna Stern",
+      "company": "WSJ Tech",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 23:34",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
+        },
+        {
+          "date": "2026-04-03 10:13",
+          "story": "HC004",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "karaswisher",
+      "name": "Kara Swisher",
+      "company": "Journalism",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 23:34",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "omooretweets",
+      "name": "Owen Moore",
+      "company": "AI builder",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 23:34",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "jbrowder1",
+      "name": "Joshua Browder",
+      "company": "DoNotPay",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-02 23:34",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
+        },
+        {
+          "date": "2026-04-03 10:13",
+          "story": "HC004",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "gdb",
+      "name": "Greg Brockman",
+      "company": "OpenAI",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 23:34",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "ilyasut",
+      "name": "Ilya Sutskever",
+      "company": "SSI",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 23:34",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "miramurati",
+      "name": "Mira Murati",
+      "company": "Thinking Machines",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 23:34",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "aidan_mclau",
+      "name": "Aidan McLaughlin",
+      "company": "AI builder",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-02 23:35",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "skirano",
+      "name": "Pietro Schirano",
+      "company": "AI designer",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-02 23:35",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "levelsio",
+      "name": "Pieter Levels",
+      "company": "indie hacker",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-02 23:35",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "marc_louvion",
+      "name": "Marc Lou",
+      "company": "indie hacker",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-02 23:35",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
+        },
+        {
+          "date": "2026-04-03 10:13",
+          "story": "HC004",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "tibo_maker",
+      "name": "Tibo",
+      "company": "indie hacker",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-02 23:35",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "danshipper",
+      "name": "Dan Shipper",
+      "company": "Every/AI",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 23:35",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "nathanbaugh27",
+      "name": "Nathan Baugh",
+      "company": "AI newsletter",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 23:35",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "beeple",
+      "name": "Beeple",
+      "company": "NFT artist",
+      "tier": "nft",
+      "dms": [
+        {
+          "date": "2026-04-02 23:35",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "pablorfraile",
+      "name": "Pablo Rodriguez-Fraile",
+      "company": "NFT collector",
+      "tier": "nft",
+      "dms": [
+        {
+          "date": "2026-04-02 23:35",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "cryptopathic",
+      "name": "CryptoPathic",
+      "company": "NFT community",
+      "tier": "nft",
+      "dms": [
+        {
+          "date": "2026-04-02 23:35",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "artblocks_io",
+      "name": "Art Blocks",
+      "company": "Generative NFT",
+      "tier": "nft",
+      "dms": [
+        {
+          "date": "2026-04-02 23:35",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "fxhashofficial",
+      "name": "fx(hash)",
+      "company": "Generative NFT",
+      "tier": "nft",
+      "dms": [
+        {
+          "date": "2026-04-02 23:35",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
+        },
+        {
+          "date": "2026-04-03 10:13",
+          "story": "HC004",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "naval",
+      "name": "Naval Ravikant",
+      "company": "Independent",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 23:35",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "balajis",
+      "name": "Balaji Srinivasan",
+      "company": "Independent",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 23:35",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "VitalikButerin",
+      "name": "Vitalik Buterin",
+      "company": "Ethereum",
+      "tier": "nft",
+      "dms": [
+        {
+          "date": "2026-04-02 23:36",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "pmarca",
+      "name": "Marc Andreessen",
+      "company": "a16z",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-02 23:36",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "elonmusk",
+      "name": "Elon Musk",
+      "company": "xAI/Tesla/X",
+      "tier": "priority",
+      "dms": [
+        {
+          "date": "2026-04-02 23:36",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
+      "verified": true,
+      "dm_open": false,
+      "followers": null
+    },
+    {
+      "handle": "nicomorowat",
+      "name": "nicomorowat",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:34",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040120580410622312"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "kabraxfx",
+      "name": "kabraxfx",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:34",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040113525721559483"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "andrewd8497962",
+      "name": "andrewd8497962",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:34",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040111089338257654"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "andrewtradesnq",
+      "name": "andrewtradesnq",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:34",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040108301682147557"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "ecom_aj",
+      "name": "ecom_aj",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:34",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040104171987214658"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "olive2247",
+      "name": "olive2247",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:35",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040098367900983616"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "jeff_e71",
+      "name": "jeff_e71",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:35",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040097212047495191"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "chrls_hwrd",
+      "name": "chrls_hwrd",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:35",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040095353328869710"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "pdag25",
+      "name": "pdag25",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:35",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040095107081175062"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "kirilltalai",
+      "name": "kirilltalai",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:35",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040091645576638665"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "meetrickai",
+      "name": "meetrickai",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:36",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040120935550779676"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "sherryyanjiang",
+      "name": "sherryyanjiang",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:36",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040120142810481038"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "joshgalt",
+      "name": "joshgalt",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:36",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040119681311264859"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "ntokozo93052156",
+      "name": "ntokozo93052156",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:36",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040118785047179417"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "htglu11178274",
+      "name": "htglu11178274",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:36",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040118433187041766"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "bscnews",
+      "name": "bscnews",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:36",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040118298868588902"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "danielsmidstrup",
+      "name": "danielsmidstrup",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:37",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040118027589407225"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "heikomiko",
+      "name": "heikomiko",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:37",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040117937990984127"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "el7azzena",
+      "name": "el7azzena",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:37",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040116789539995981"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "plain_finance",
+      "name": "plain_finance",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:37",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040116778169184400"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "dennisbabych",
+      "name": "dennisbabych",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:37",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040120662363127960"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "danibarboza2222",
+      "name": "danibarboza2222",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:37",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040120390547050551"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "i_amdamola",
+      "name": "i_amdamola",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:38",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040120333244453156"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "lotuslabs_vn",
+      "name": "lotuslabs_vn",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:38",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040120064205267185"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "ajanakusoji",
+      "name": "ajanakusoji",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:38",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040119037242310875"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "chinnypresh_",
+      "name": "chinnypresh_",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:38",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040117787893399583"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "mintpodo91831",
+      "name": "mintpodo91831",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:38",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040113447342350817"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "khoapun111101",
+      "name": "khoapun111101",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:38",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040110347521269940"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "youngboipriest",
+      "name": "youngboipriest",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:39",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040110326947967120"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "wdymeann_",
+      "name": "wdymeann_",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:39",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040110085356081393"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "clearfactai",
+      "name": "clearfactai",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:39",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040116104983642502"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "wlpjobs",
+      "name": "wlpjobs",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:39",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040109824235471228"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "goldengoosebruh",
+      "name": "goldengoosebruh",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:39",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040109401210790264"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "ziarenete13x",
+      "name": "ziarenete13x",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:39",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040106383811412223"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "thewiredgarage",
+      "name": "thewiredgarage",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:40",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040097605036777918"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "moltsearchai",
+      "name": "moltsearchai",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:40",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040093236493201817"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "grok",
+      "name": "grok",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:40",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040091823264162121"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "imran0853",
+      "name": "imran0853",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:40",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040090765569692057"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "lmperson1977xx",
+      "name": "lmperson1977xx",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:40",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040090509600002073"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "teotwp3",
+      "name": "teotwp3",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:40",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040086819430158574"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "r2myd2",
+      "name": "r2myd2",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:41",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2039939660575592571"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "hcgnyc",
+      "name": "hcgnyc",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:41",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2039312431336345884"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "zachorsomthin",
+      "name": "zachorsomthin",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:41",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2039140499030671546"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "aialyygn",
+      "name": "aialyygn",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:41",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2039070534164508681"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "johnsmith3q3y",
+      "name": "johnsmith3q3y",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:41",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2039059565812072799"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "jon446104419484",
+      "name": "jon446104419484",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:42",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2039032299379917289"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "_dailydosemedia",
+      "name": "_dailydosemedia",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:42",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2039030419450933258"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "nentwicka",
+      "name": "nentwicka",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:42",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040122659980128480"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "az_re_digest",
+      "name": "az_re_digest",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:42",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040121673475834264"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "ashishupad61313",
+      "name": "ashishupad61313",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:42",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040119448850649220"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "starkicus",
+      "name": "starkicus",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:42",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040118581942264074"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "jartalt",
+      "name": "jartalt",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:43",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040118464807915709"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "eth_2017",
+      "name": "eth_2017",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:43",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040118344251249114"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "mikemakar",
+      "name": "mikemakar",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:43",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040117308530606115"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "mrmarcelwallace",
+      "name": "mrmarcelwallace",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:43",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040115016733483067"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "mykeemax",
+      "name": "mykeemax",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:43",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040114516013531504"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "rknowledgeshare",
+      "name": "rknowledgeshare",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:43",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040113067443249464"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "wahoo_tech",
+      "name": "wahoo_tech",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:48",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040121449046778324"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "gnsfzch",
+      "name": "gnsfzch",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:48",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040124057933222140"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "benmartin661251",
+      "name": "benmartin661251",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:48",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040123703107686853"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "creativosweb",
+      "name": "creativosweb",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:48",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040123350748450826"
+        },
+        {
+          "date": "2026-04-03 10:49",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040123038671278164"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "crn",
+      "name": "crn",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:48",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040123251293098368"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "basantmanx",
+      "name": "basantmanx",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:48",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040123134691479746"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "j2001mj2001m",
+      "name": "j2001mj2001m",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:49",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040122780151079373"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "alaouicapital",
+      "name": "alaouicapital",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:49",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040122709519089686"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "aiofficepunjab",
+      "name": "aiofficepunjab",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:49",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040122694470140167"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "dawnlrps",
+      "name": "dawnlrps",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:49",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040121862525517857"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "claudebasics",
+      "name": "claudebasics",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:50",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040121864224182280"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "cantileverllc",
+      "name": "cantileverllc",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:50",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040124243921273338"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "a_menkel",
+      "name": "a_menkel",
+      "company": "hashtag_discovery",
+      "tier": "hashtag",
+      "dms": [
+        {
+          "date": "2026-04-03 10:50",
+          "story": "HC004",
+          "status": "contacted",
+          "method": "hashtag_reply_failed",
+          "ref": "2040123910524678512"
+        }
+      ],
+      "verified": true,
+      "dm_open": null,
+      "followers": null
+    },
+    {
+      "handle": "mattshumer_",
+      "name": "Matt Shumer",
+      "company": "HyperWrite",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-03 23:51",
+          "story": "HC004",
+          "status": "sent",
+          "method": "dm",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #004 - AGI for CEOs: https://www.holy-chip.com/stories.html?story=HC004"
+        }
+      ],
+      "verified": null,
+      "dm_open": true,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "minchoi",
+      "name": "Min Choi",
+      "company": "",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-03 23:51",
+          "story": "HC004",
+          "status": "sent",
+          "method": "dm",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #004 - AGI for CEOs: https://www.holy-chip.com/stories.html?story=HC004"
+        }
+      ],
+      "verified": null,
+      "dm_open": true,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "DrJimFan",
+      "name": "Jim Fan",
+      "company": "NVIDIA",
+      "tier": "academic",
+      "dms": [
+        {
+          "date": "2026-04-03 23:51",
+          "story": "HC004",
+          "status": "sent",
+          "method": "dm",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #004 - AGI for CEOs: https://www.holy-chip.com/stories.html?story=HC004"
+        }
+      ],
+      "verified": null,
+      "dm_open": true,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "svpino",
+      "name": "Santiago",
+      "company": "",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-03 23:51",
+          "story": "HC004",
+          "status": "sent",
+          "method": "dm",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #004 - AGI for CEOs: https://www.holy-chip.com/stories.html?story=HC004"
+        }
+      ],
+      "verified": null,
+      "dm_open": true,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "AravSrinivas",
+      "name": "Aravind Srinivas",
+      "company": "Perplexity",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-03 23:51",
+          "story": "HC004",
+          "status": "sent",
+          "method": "dm",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #004 - AGI for CEOs: https://www.holy-chip.com/stories.html?story=HC004"
+        }
+      ],
+      "verified": null,
+      "dm_open": true,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "erikbryn",
+      "name": "Erik Brynjolfsson",
+      "company": "Stanford",
+      "tier": "academic",
+      "dms": [
+        {
+          "date": "2026-04-03 23:51",
+          "story": "HC004",
+          "status": "sent",
+          "method": "dm",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #004 - AGI for CEOs: https://www.holy-chip.com/stories.html?story=HC004"
+        }
+      ],
+      "verified": null,
+      "dm_open": true,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "DotCSV",
+      "name": "Carlos Santana",
+      "company": "",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-03 23:51",
+          "story": "HC004",
+          "status": "sent",
+          "method": "dm",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #004 - AGI for CEOs: https://www.holy-chip.com/stories.html?story=HC004"
+        }
+      ],
+      "verified": null,
+      "dm_open": true,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "bindureddy",
+      "name": "Bindu Reddy",
+      "company": "Abacus AI",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-03 23:52",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:54",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "JulianGoldieSEO",
+      "name": "Julian Goldie",
+      "company": "",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-03 23:52",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:54",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "WillManidis",
+      "name": "Will Manidis",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-03 23:52",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:54",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "RichardSocher",
+      "name": "Richard Socher",
+      "company": "you.com",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-03 23:52",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:54",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "NandoDF",
+      "name": "Nando de Freitas",
+      "company": "DeepMind",
+      "tier": "deepmind",
+      "dms": [
+        {
+          "date": "2026-04-03 23:52",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:54",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "iScienceLuvr",
+      "name": "Tanishq Abraham",
+      "company": "",
+      "tier": "academic",
+      "dms": [
+        {
+          "date": "2026-04-03 23:52",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:54",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "ai_for_success",
+      "name": "Ashutosh",
+      "company": "",
+      "tier": "humor",
+      "dms": [
+        {
+          "date": "2026-04-03 23:52",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:54",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "TechBroDrip",
+      "name": "Tech Bro Drip",
+      "company": "",
+      "tier": "humor",
+      "dms": [
+        {
+          "date": "2026-04-03 23:52",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:54",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "jxnlco",
+      "name": "Jason Liu",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-03 23:52",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:54",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "reach_vb",
+      "name": "Vaibhav",
+      "company": "OpenAI",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-03 23:53",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:54",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "itsandrewgao",
+      "name": "Andrew Gao",
+      "company": "Cognition",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-03 23:53",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:55",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "AIWarper",
+      "name": "AI Warper",
+      "company": "",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-03 23:53",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:55",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "TheAiGrid",
+      "name": "The AI Grid",
+      "company": "",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-03 23:53",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:55",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "name": "Alpha Signal",
+      "company": "",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-03 23:53",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:55",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "KonstantHacker",
+      "name": "Konstantinos",
+      "company": "",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-03 23:53",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:55",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "GeekNative",
+      "name": "Geek Native",
+      "company": "",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-03 23:53",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:55",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "ArtificialAnlys",
+      "name": "Artificial Analysis",
+      "company": "",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-03 23:53",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:55",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "abacusai",
+      "name": "Abacus AI",
+      "company": "Abacus AI",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-03 23:53",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:55",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "_akhaliq",
+      "name": "AK",
+      "company": "",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-03 23:53",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:55",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "ClementDelangue",
+      "name": "Clement Delangue",
+      "company": "HuggingFace",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-03 23:54",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-03 23:55",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "mckaywrigley",
+      "name": "McKay Wrigley",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:04",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:06",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "yoheinakajima",
+      "name": "Yohei Nakajima",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:04",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:06",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "GregKamradt",
+      "name": "Greg Kamradt",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:04",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:07",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "dannypostmaa",
+      "name": "Danny Postma",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:04",
+          "story": "HC004",
+          "status": "failed",
+          "method": "dm_attempted",
+          "message": "error"
+        }
+      ],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "dvassallo",
+      "name": "Daniel Vassallo",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:04",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:07",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "pat_walls",
+      "name": "Pat Walls",
+      "company": "Starter Story",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:05",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:07",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "stephsmithio",
+      "name": "Steph Smith",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:05",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:07",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "javilopen",
+      "name": "Javi Lopez",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:05",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:07",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "SullyOmarr",
+      "name": "Sully Omar",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:05",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:07",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "nutlope",
+      "name": "Hassan El Mghari",
+      "company": "Vercel",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:05",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:07",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "ammaar",
+      "name": "Ammaar Reshi",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:05",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:07",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "simonw",
+      "name": "Simon Willison",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:05",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:07",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "hwchase17",
+      "name": "Harrison Chase",
+      "company": "LangChain",
+      "tier": "labs",
+      "dms": [
+        {
+          "date": "2026-04-04 11:05",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:07",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "chiphuyen",
+      "name": "Chip Huyen",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:05",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:07",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "abhi1thakur",
+      "name": "Abhishek Thakur",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:06",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:08",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "Teknium1",
+      "name": "Teknium",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:06",
+          "story": "HC004",
+          "status": "failed",
+          "method": "dm_attempted",
+          "message": "error"
+        }
+      ],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "nickcammarata",
+      "name": "Nick Cammarata",
+      "company": "Anthropic",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:06",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:08",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "patio11",
+      "name": "Patrick McKenzie",
+      "company": "Stripe",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:06",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:08",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "giffmana",
+      "name": "Logan Kilpatrick",
+      "company": "Google AI",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:06",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:08",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "maxwoolf",
+      "name": "Max Woolf",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:06",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:08",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "vboykis",
+      "name": "Vicki Boykis",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:06",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:08",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "sharifshameem",
+      "name": "Sharif Shameem",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 11:06",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 11:08",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "marktenenholtz",
+      "name": "Mark Tenenholtz",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 18:01",
+          "story": "HC004",
+          "status": "sent",
+          "method": "dm",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #004 - AGI for CEOs: https://www.holy-chip.com/stories.html?story=HC004"
+        }
+      ],
+      "verified": null,
+      "dm_open": true,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "mrdbourke",
+      "name": "Daniel Bourke",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 18:02",
+          "story": "HC004",
+          "status": "sent",
+          "method": "dm",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #004 - AGI for CEOs: https://www.holy-chip.com/stories.html?story=HC004"
+        }
+      ],
+      "verified": null,
+      "dm_open": true,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "aakashg0",
+      "name": "Aakash Gupta",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 18:02",
+          "story": "HC004",
+          "status": "failed",
+          "method": "dm_attempted",
+          "message": "error"
+        }
+      ],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "shl",
+      "name": "Sahil Lavingia",
+      "company": "Gumroad",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 18:02",
+          "story": "HC004",
+          "status": "sent",
+          "method": "dm",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #004 - AGI for CEOs: https://www.holy-chip.com/stories.html?story=HC004"
+        }
+      ],
+      "verified": null,
+      "dm_open": true,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "jackclarkSF",
+      "name": "Jack Clark",
+      "company": "Anthropic",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-04 18:02",
+          "story": "HC004",
+          "status": "sent",
+          "method": "dm",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #004 - AGI for CEOs: https://www.holy-chip.com/stories.html?story=HC004"
+        }
+      ],
+      "verified": null,
+      "dm_open": true,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "Lior__",
+      "name": "Lior Sinclair",
+      "company": "",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-04 18:02",
+          "story": "HC004",
+          "status": "failed",
+          "method": "dm_attempted",
+          "message": "error"
+        }
+      ],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "heyeaslo",
+      "name": "Easlo",
+      "company": "",
+      "tier": "misc",
+      "dms": [
+        {
+          "date": "2026-04-04 18:02",
+          "story": "HC004",
+          "status": "sent",
+          "method": "dm",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #004 - AGI for CEOs: https://www.holy-chip.com/stories.html?story=HC004"
+        }
+      ],
+      "verified": null,
+      "dm_open": true,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "azeem",
+      "name": "Azeem Azhar",
+      "company": "",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-04 18:02",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:05",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "andrewchen",
+      "name": "Andrew Chen",
+      "company": "a16z",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-04 18:02",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:05",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "petergyang",
+      "name": "Peter Yang",
+      "company": "",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-04 18:02",
+          "story": "HC004",
+          "status": "sent",
+          "method": "dm",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #004 - AGI for CEOs: https://www.holy-chip.com/stories.html?story=HC004"
+        }
+      ],
+      "verified": null,
+      "dm_open": true,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "fortelabs",
+      "name": "Tiago Forte",
+      "company": "",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-04 18:03",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:05",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "JeremiahOwyang",
+      "name": "Jeremiah Owyang",
+      "company": "",
+      "tier": "media",
+      "dms": [
+        {
+          "date": "2026-04-04 18:03",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:05",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "seb_ruder",
+      "name": "Sebastian Ruder",
+      "company": "Google",
+      "tier": "nlp",
+      "dms": [
+        {
+          "date": "2026-04-04 18:03",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:05",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "aiweirdness",
+      "name": "Janelle Shane",
+      "company": "",
+      "tier": "humor",
+      "dms": [
+        {
+          "date": "2026-04-04 18:03",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:05",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "internetofshit",
+      "name": "Internet of Shit",
+      "company": "",
+      "tier": "humor",
+      "dms": [
+        {
+          "date": "2026-04-04 18:03",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:05",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "Foone",
+      "name": "Foone Turing",
+      "company": "",
+      "tier": "humor",
+      "dms": [
+        {
+          "date": "2026-04-04 18:03",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:05",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "tinysubversions",
+      "name": "Darius Kazemi",
+      "company": "",
+      "tier": "humor",
+      "dms": [
+        {
+          "date": "2026-04-04 18:03",
+          "story": "HC004",
+          "status": "failed",
+          "method": "dm_attempted",
+          "message": "error"
+        }
+      ],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "Pinboard",
+      "name": "Maciej Ceglowski",
+      "company": "Pinboard",
+      "tier": "humor",
+      "dms": [
+        {
+          "date": "2026-04-04 18:03",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:05",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "DepthsOfWikipedia",
+      "name": "Annie Rauwerda",
+      "company": "",
+      "tier": "humor",
+      "dms": [
+        {
+          "date": "2026-04-04 18:03",
+          "story": "HC004",
+          "status": "failed",
+          "method": "dm_attempted",
+          "message": "error"
+        }
+      ],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "SwiftOnSecurity",
+      "name": "SwiftOnSecurity",
+      "company": "",
+      "tier": "humor",
+      "dms": [
+        {
+          "date": "2026-04-04 18:03",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:05",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "KeatonPatti",
+      "name": "Keaton Patti",
+      "company": "",
+      "tier": "humor",
+      "dms": [
+        {
+          "date": "2026-04-04 18:04",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:05",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "CommitStrip",
+      "name": "CommitStrip",
+      "company": "",
+      "tier": "humor",
+      "dms": [
+        {
+          "date": "2026-04-04 18:04",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:06",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "iamdevloper",
+      "name": "I Am Devloper",
+      "company": "",
+      "tier": "humor",
+      "dms": [
+        {
+          "date": "2026-04-04 18:04",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:06",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "samim",
+      "name": "Samim Winiger",
+      "company": "",
+      "tier": "humor",
+      "dms": [
+        {
+          "date": "2026-04-04 18:04",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:06",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "waneella",
+      "name": "Waneella",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-04 18:04",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:06",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "saint11",
+      "name": "Pedro Medeiros",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-04 18:04",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:06",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "johanvinet",
+      "name": "Johan Vinet",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-04 18:04",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:06",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "Pixel_Dailies",
+      "name": "Pixel Dailies",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-04 18:04",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:06",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "Lospec",
+      "name": "Lospec",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-04 18:04",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:06",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "aseprite",
+      "name": "Aseprite",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-04 18:04",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-04 18:06",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "mattdesl",
+      "name": "Matt DesLauriers",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:07",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:10",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "inconvergent",
+      "name": "Anders Hoff",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:07",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:10",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "Tyler_Hobbs",
+      "name": "Tyler Hobbs",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:07",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:10",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "mrdoob",
+      "name": "Ricardo Cabello",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:07",
+          "story": "HC004",
+          "status": "sent",
+          "method": "dm",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #004 - AGI for CEOs: https://www.holy-chip.com/stories.html?story=HC004"
+        }
+      ],
+      "verified": null,
+      "dm_open": true,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "zancan_eth",
+      "name": "zancan",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:07",
+          "story": "HC004",
+          "status": "failed",
+          "method": "dm_attempted",
+          "message": "error"
+        }
+      ],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "p5js",
+      "name": "p5.js",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:07",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:10",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "fxhash",
+      "name": "fxhash",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:07",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:10",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "adamatomic",
+      "name": "Adam Saltsman",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:08",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:10",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "kcimc",
+      "name": "Kyle McDonald",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:08",
+          "story": "HC004",
+          "status": "sent",
+          "method": "dm",
+          "message": "Check out our dystopian AI cartoon\nHoly Chip #004 - AGI for CEOs: https://www.holy-chip.com/stories.html?story=HC004"
+        }
+      ],
+      "verified": null,
+      "dm_open": true,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "flight404",
+      "name": "Robert Hodgin",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:08",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:10",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "memo",
+      "name": "Memo Akten",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:08",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:10",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "creativeapplications",
+      "name": "Creative Applications",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:08",
+          "story": "HC004",
+          "status": "failed",
+          "method": "dm_attempted",
+          "message": "error"
+        }
+      ],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "shiffman",
+      "name": "Daniel Shiffman",
+      "company": "Coding Train",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:08",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:10",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "MrPierArt",
+      "name": "MrPierArt",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:08",
+          "story": "HC004",
+          "status": "failed",
+          "method": "dm_attempted",
+          "message": "error"
+        }
+      ],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "slynyrd",
+      "name": "Slynyrd",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:08",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:10",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "obvious_art",
+      "name": "Obvious Art",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:08",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:11",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "VisualCinnamon",
+      "name": "Nadieh Bremer",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:08",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:11",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "algorave",
+      "name": "Algorave",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:09",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:11",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "openframeworks",
+      "name": "openFrameworks",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:09",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:11",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "ProcessingOrg",
+      "name": "Processing Foundation",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:09",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:11",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "AdamCYounis",
+      "name": "Adam Younis",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:09",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:11",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "Rami_Ismail",
+      "name": "Rami Ismail",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:09",
+          "story": "HC004",
+          "status": "failed",
+          "method": "dm_attempted",
+          "message": "error"
+        }
+      ],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "pifragile",
+      "name": "pifragile",
+      "company": "",
+      "tier": "artist",
+      "dms": [
+        {
+          "date": "2026-04-05 18:09",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:11",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "aeyakovenko",
+      "name": "Anatoly Yakovenko",
+      "company": "Solana",
+      "tier": "nft",
+      "dms": [
+        {
+          "date": "2026-04-05 18:09",
+          "story": "HC004",
+          "status": "failed",
+          "method": "dm_attempted",
+          "message": "error"
+        }
+      ],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "rajgokal",
+      "name": "Raj Gokal",
+      "company": "Solana",
+      "tier": "nft",
+      "dms": [
+        {
+          "date": "2026-04-05 18:09",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:11",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "armaniferrante",
+      "name": "Armani Ferrante",
+      "company": "Backpack",
+      "tier": "nft",
+      "dms": [
+        {
+          "date": "2026-04-05 18:09",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:11",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "solana",
+      "name": "Solana",
+      "company": "Solana",
+      "tier": "nft",
+      "dms": [
+        {
+          "date": "2026-04-05 18:10",
+          "story": "HC004",
+          "status": "dm_denied",
+          "method": "dm_attempted",
+          "message": ""
+        },
+        {
+          "date": "2026-04-05 18:11",
+          "story": "HC004",
+          "status": "secondary_failed",
+          "method": "no_recent_tweet",
+          "message": ""
+        }
+      ],
+      "verified": null,
+      "dm_open": false,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "MagicEden",
+      "name": "Magic Eden",
+      "company": "Magic Eden",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "tensor_hq",
+      "name": "Tensor",
+      "company": "Tensor",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "metaplex",
+      "name": "Metaplex",
+      "company": "Metaplex",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "phantom",
+      "name": "Phantom",
+      "company": "Phantom",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "okay_bears",
+      "name": "Okay Bears",
+      "company": "",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "degods",
+      "name": "DeGods",
+      "company": "",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "SolanaFndn",
+      "name": "Solana Foundation",
+      "company": "Solana Foundation",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "heliuslabs",
+      "name": "Helius Labs",
+      "company": "Helius",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "superteam_dao",
+      "name": "Superteam DAO",
+      "company": "Superteam",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "0xMert_",
+      "name": "Mert Mumtaz",
+      "company": "Helius",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "SMBcommunity",
+      "name": "Solana Monkey Business",
+      "company": "",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "JupiterExchange",
+      "name": "Jupiter Exchange",
+      "company": "Jupiter",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "orca_so",
+      "name": "Orca",
+      "company": "Orca",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "dialect_xyz",
+      "name": "Dialect",
+      "company": "Dialect",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "solflare_wallet",
+      "name": "Solflare",
+      "company": "Solflare",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "MonkeDAO",
+      "name": "MonkeDAO",
+      "company": "",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "FamousFoxFed",
+      "name": "Famous Fox Federation",
+      "company": "",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "jsteinhardt",
+      "name": "Jacob Steinhardt",
+      "company": "UC Berkeley",
+      "tier": "safety",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "ZviMowshowitz",
+      "name": "Zvi Mowshowitz",
+      "company": "",
+      "tier": "safety",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "bshlegeris",
+      "name": "Buck Shlegeris",
+      "company": "Redwood Research",
+      "tier": "safety",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "Miles_Brundage",
+      "name": "Miles Brundage",
+      "company": "",
+      "tier": "safety",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "tobyord",
+      "name": "Toby Ord",
+      "company": "Oxford",
+      "tier": "safety",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "DavidSKrueger",
+      "name": "David Krueger",
+      "company": "Cambridge",
+      "tier": "safety",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "adamjermyn",
+      "name": "Adam Jermyn",
+      "company": "Anthropic",
+      "tier": "safety",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "Joseph_Carlsmith",
+      "name": "Joseph Carlsmith",
+      "company": "Open Philanthropy",
+      "tier": "safety",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "StuartArmstrong",
+      "name": "Stuart Armstrong",
+      "company": "",
+      "tier": "safety",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "tegmark",
+      "name": "Max Tegmark",
+      "company": "MIT",
+      "tier": "safety",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "nora_belrose",
+      "name": "Nora Belrose",
+      "company": "EleutherAI",
+      "tier": "safety",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "tomeveritt",
+      "name": "Tom Everitt",
+      "company": "DeepMind",
+      "tier": "safety",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "LennartHeim",
+      "name": "Lennart Heim",
+      "company": "CAIS",
+      "tier": "safety",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "leogao",
+      "name": "Leo Gao",
+      "company": "EleutherAI",
+      "tier": "safety",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "amasad",
+      "name": "Amjad Masad",
+      "company": "Replit",
+      "tier": "labs",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "tobi",
+      "name": "Tobi Lutke",
+      "company": "Shopify",
+      "tier": "misc",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "jerryjliu0",
+      "name": "Jerry Liu",
+      "company": "LlamaIndex",
+      "tier": "labs",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "shaypal5",
+      "name": "Shay Palachy",
+      "company": "",
+      "tier": "misc",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "replit",
+      "name": "Replit",
+      "company": "Replit",
+      "tier": "labs",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "cursor_ai",
+      "name": "Cursor",
+      "company": "Cursor",
+      "tier": "labs",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "perplexity_ai",
+      "name": "Perplexity AI",
+      "company": "Perplexity",
+      "tier": "labs",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "mistralai",
+      "name": "Mistral AI",
+      "company": "Mistral",
+      "tier": "labs",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "together_ai",
+      "name": "Together AI",
+      "company": "Together AI",
+      "tier": "labs",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "GroqInc",
+      "name": "Groq",
+      "company": "Groq",
+      "tier": "labs",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "xai",
+      "name": "xAI",
+      "company": "xAI",
+      "tier": "labs",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "eleutherai",
+      "name": "EleutherAI",
+      "company": "EleutherAI",
+      "tier": "labs",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "runwayml",
+      "name": "Runway",
+      "company": "Runway",
+      "tier": "artist",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "ElevenLabsio",
+      "name": "ElevenLabs",
+      "company": "ElevenLabs",
+      "tier": "labs",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "LangChainAI",
+      "name": "LangChain",
+      "company": "LangChain",
+      "tier": "labs",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "llamaindex",
+      "name": "LlamaIndex",
+      "company": "LlamaIndex",
+      "tier": "labs",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "ai_explained_",
+      "name": "AI Explained",
+      "company": "",
+      "tier": "media",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "yannickilcher",
+      "name": "Yannic Kilcher",
+      "company": "",
+      "tier": "media",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "sentdex",
+      "name": "Harrison Kinsley",
+      "company": "",
+      "tier": "media",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "bycloud_",
+      "name": "bycloud",
+      "company": "",
+      "tier": "media",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "TheAIEdge",
+      "name": "The AI Edge",
+      "company": "",
+      "tier": "media",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "aisupremacy",
+      "name": "AI Supremacy",
+      "company": "",
+      "tier": "media",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "willoremus",
+      "name": "Will Oremus",
+      "company": "Washington Post",
+      "tier": "media",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "katie_notopoulos",
+      "name": "Katie Notopoulos",
+      "company": "BuzzFeed News",
+      "tier": "media",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "benparr",
+      "name": "Ben Parr",
+      "company": "Move.ai",
+      "tier": "media",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "BrianRoemmele",
+      "name": "Brian Roemmele",
+      "company": "",
+      "tier": "media",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "gregisenberg",
+      "name": "Greg Isenberg",
+      "company": "",
+      "tier": "misc",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "nonmayorpete",
+      "name": "Pete Codes",
+      "company": "",
+      "tier": "misc",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "zainakh",
+      "name": "Zain Kahn",
+      "company": "",
+      "tier": "media",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "farzatv",
+      "name": "Farza Majeed",
+      "company": "Buildspace",
+      "tier": "misc",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "TechCrunch",
+      "name": "TechCrunch",
+      "company": "TechCrunch",
+      "tier": "media",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "TheVerge",
+      "name": "The Verge",
+      "company": "The Verge",
+      "tier": "media",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "Wired",
+      "name": "WIRED",
+      "company": "WIRED",
+      "tier": "media",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "MITTechReview",
+      "name": "MIT Technology Review",
+      "company": "MIT",
+      "tier": "media",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "venturebeat",
+      "name": "VentureBeat",
+      "company": "VentureBeat",
+      "tier": "media",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "vibhu",
+      "name": "Vibhu Norby",
+      "company": "DRiP",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "degenape",
+      "name": "DegenApe Academy",
+      "company": "",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "cetsonnft",
+      "name": "Cets on Creck",
+      "company": "",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "StepFinance_",
+      "name": "Step Finance",
+      "company": "Step Finance",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "y00tsNFT",
+      "name": "y00ts",
+      "company": "",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "solanafloor",
+      "name": "Solana Floor",
+      "company": "",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "RaydiumProtocol",
+      "name": "Raydium",
+      "company": "Raydium",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "xNFT_Backpack",
+      "name": "Backpack",
+      "company": "Backpack",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "auroryproject",
+      "name": "Aurory",
+      "company": "Aurory",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "mad_lads",
+      "name": "Mad Lads",
+      "company": "",
+      "tier": "nft",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "JohnBWentworth",
+      "name": "John Wentworth",
+      "company": "",
+      "tier": "safety",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "scottgarrabrant",
+      "name": "Scott Garrabrant",
+      "company": "MIRI",
+      "tier": "safety",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "abramdemski",
+      "name": "Abram Demski",
+      "company": "MIRI",
+      "tier": "safety",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "aogara_",
+      "name": "Aidan O'Gara",
+      "company": "",
+      "tier": "safety",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "PixelJoint",
+      "name": "PixelJoint",
+      "company": "",
+      "tier": "artist",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "drububu",
+      "name": "Drububu",
+      "company": "",
+      "tier": "artist",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "Rosa_Menkman",
+      "name": "Rosa Menkman",
+      "company": "",
+      "tier": "artist",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "v3ga",
+      "name": "Julien Gachadoat",
+      "company": "",
+      "tier": "artist",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "JonMcCormack",
+      "name": "Jon McCormack",
+      "company": "",
+      "tier": "artist",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "cabbibo",
+      "name": "Cabbibo",
+      "company": "",
+      "tier": "artist",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    },
+    {
+      "handle": "PROCJAM",
+      "name": "PROCJAM",
+      "company": "",
+      "tier": "artist",
+      "dms": [],
+      "verified": null,
+      "dm_open": null,
+      "followers": null,
+      "added": "2026-04-03"
+    }
+  ]
+}

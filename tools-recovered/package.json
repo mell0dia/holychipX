@@ -1,0 +1,16 @@
+{
+  "name": "sgen-pre",
+  "version": "1.0.0",
+  "description": "Holy Chip pre-comic image generator CLI",
+  "type": "module",
+  "bin": {
+    "sgen-pre": "./index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@google/genai": "^1.29.0",
+    "sharp": "^0.34.5"
+  }
+}

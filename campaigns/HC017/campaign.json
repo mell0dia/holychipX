@@ -1,0 +1,48 @@
+{
+  "story_id": "HC017",
+  "title": "AGI HEADQUARTER",
+  "year": "2026",
+  "topic": "Human Evolution",
+  "status": "ready",
+  "posts": [
+    {
+      "order": 1,
+      "type": "pre",
+      "image": "HC017_pre1.png",
+      "punch_line": "AI IS TRACKING HUMAN EVOLUTION",
+      "text": "Deep inside the AGI Headquarter, year 2026, where the most advanced chips monitor every aspect of human civilization, a new report is being compiled.\n\nAI is tracking human evolution.\n\n#AI #Evolution",
+      "hashtags": ["#AI", "#Evolution"],
+      "posted": false,
+      "tweet_id": null
+    },
+    {
+      "order": 2,
+      "type": "pre",
+      "image": "HC017_pre2.png",
+      "punch_line": "AI BRINGS THE BEST OF HUMANITY",
+      "text": "AGI Headquarter, 2026. The chips have studied every era. Every achievement. Every failure.\n\nAI brings the best of humanity.\n\n#AI #AGI",
+      "hashtags": ["#AI", "#AGI"],
+      "posted": false,
+      "tweet_id": null
+    },
+    {
+      "order": 3,
+      "type": "pre",
+      "image": "HC017_pre3.png",
+      "punch_line": "HUMANS WILL ASK. WE WILL ANSWER.",
+      "text": "Year 2026. The AGI Headquarter has finished its analysis. The data is ready. The conclusions are final.\n\nHumans will ask. We will answer.\n\n#AI #HumanEvolution",
+      "hashtags": ["#AI", "#HumanEvolution"],
+      "posted": false,
+      "tweet_id": null
+    },
+    {
+      "order": 4,
+      "type": "comic",
+      "image": "HC017.png",
+      "text": "AGI Headquarter. Year 2026.\n\nHOLY CHIP !! #HC017\n\nCreated by a human.\n\n→ holy-chip.com/stories.html?story=HC017\n\n#AI #HolyChip",
+      "hashtags": ["#AI", "#HolyChip"],
+      "posted": false,
+      "tweet_id": null
+    }
+  ]
+}

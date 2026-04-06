@@ -1,0 +1,2453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>⚡ HOLY CHIP WAR ROOM</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+:root {
+  --bg:       #0f0f0d;
+  --surface:  #161612;
+  --surface2: #1c1c17;
+  --border:   #2c2820;
+  --border2:  #3a3428;
+  --text:     #e4dfc8;
+  --text2:    #b0a888;
+  --muted:    #6a6250;
+  --faint:    #252018;
+  --y1:  #e8c84a;
+  --y2:  #c8a830;
+  --y3:  #887018;
+  --y4:  #f4e490;
+  --y5:  #221e0c;
+  --kept:    #7aa86a;
+  --deleted: #b85848;
+  --high:    #e8c84a;
+  --medium:  #a89870;
+  --low:     #5a5848;
+  --opus:   #c87840;
+  --sonnet: #a09060;
+  --haiku:  #607850;
+  --local:  #486070;
+  --radius: 4px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border2);
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo-chip {
+  width: 44px;
+  height: 44px;
+  image-rendering: pixelated;
+  border: 1px solid var(--border2);
+  background: #000;
+  flex-shrink: 0;
+}
+
+.header-title { flex: 1; }
+
+.header-title h1 {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--y1);
+  letter-spacing: 2px;
+}
+
+.header-title .subtitle {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 3px;
+}
+
+.header-stats { display: flex; gap: 10px; }
+
+.hstat {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  padding: 7px 14px;
+  border-radius: var(--radius);
+  text-align: center;
+  min-width: 70px;
+}
+
+.hstat .val {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--y1);
+  display: block;
+  margin-bottom: 2px;
+}
+
+.hstat .lbl {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9px;
+  color: var(--muted);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.hstat.warn .val { color: var(--y2); }
+.hstat.crit .val { color: var(--deleted); }
+
+.tabs {
+  display: flex;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 0 20px;
+  overflow-x: auto;
+}
+
+.tab {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 13px 18px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 0.12s, border-color 0.12s;
+  white-space: nowrap;
+  letter-spacing: 0.5px;
+}
+
+.tab:hover { color: var(--text2); }
+.tab.active { color: var(--y1); border-bottom-color: var(--y1); }
+
+.tab-badge {
+  background: var(--y5);
+  color: var(--y2);
+  font-size: 9px;
+  padding: 1px 5px;
+  border-radius: 10px;
+  margin-left: 5px;
+  border: 1px solid var(--y3);
+  vertical-align: middle;
+}
+
+main { padding: 24px; max-width: 1500px; margin: 0 auto; }
+
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-head h2 {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text2);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.section-head .hint {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.grid-3 { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; margin-bottom: 20px; }
+.grid-4 { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; margin-bottom: 20px; }
+.grid-2 { display: grid; grid-template-columns: repeat(2,1fr); gap: 14px; }
+
+@media (max-width: 1100px) { .grid-4 { grid-template-columns: repeat(2,1fr); } }
+@media (max-width: 900px)  { .grid-3 { grid-template-columns: repeat(2,1fr); } }
+@media (max-width: 640px)  { .grid-4,.grid-3,.grid-2 { grid-template-columns: 1fr; } }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+
+.card h3 {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9px;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.big-number {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--y1);
+  display: block;
+  margin: 4px 0;
+  line-height: 1;
+}
+
+.big-number.warn   { color: var(--y2); }
+.big-number.crit   { color: var(--deleted); }
+.big-number.purple { color: var(--text2); }
+
+.card-sub {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.cost-chart { margin-top: 6px; }
+
+.chart-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.chart-label {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  width: 85px;
+  text-align: right;
+  color: var(--text2);
+  flex-shrink: 0;
+}
+
+.chart-bar-wrap {
+  flex: 1;
+  background: var(--surface2);
+  height: 12px;
+  border-radius: 2px;
+  overflow: hidden;
+  border: 1px solid var(--faint);
+}
+
+.chart-bar { height: 100%; transition: width 0.5s ease; min-width: 2px; }
+
+.bar-opus   { background: var(--opus); }
+.bar-sonnet { background: var(--sonnet); }
+.bar-haiku  { background: var(--haiku); }
+.bar-local  { background: var(--local); }
+.bar-other  { background: var(--muted); }
+
+.chart-val {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  width: 64px;
+  flex-shrink: 0;
+  color: var(--text2);
+  text-align: right;
+}
+
+.daily-chart { margin-top: 6px; }
+
+.dc-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+  height: 20px;
+}
+
+.dc-date {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  width: 40px;
+  color: var(--muted);
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.dc-bars { flex: 1; display: flex; height: 100%; gap: 1px; }
+.dc-bar  { height: 100%; min-width: 3px; }
+
+.dc-total {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  width: 56px;
+  flex-shrink: 0;
+  text-align: right;
+  color: var(--text2);
+}
+
+.session-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+}
+
+.session-table th {
+  font-size: 9px;
+  color: var(--muted);
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.session-table td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--faint);
+  white-space: nowrap;
+  color: var(--text2);
+}
+
+.session-table tr:hover td { background: var(--surface2); }
+
+.model-badge {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 2px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.badge-opus   { background: rgba(200,120,64,0.15);  color: var(--opus); }
+.badge-sonnet { background: rgba(160,144,96,0.15);  color: var(--sonnet); }
+.badge-haiku  { background: rgba(96,120,80,0.15);   color: var(--haiku); }
+.badge-local  { background: rgba(72,96,112,0.15);   color: var(--local); }
+.badge-other  { background: rgba(90,88,72,0.12);    color: var(--muted); }
+
+.cost-green  { color: var(--haiku); }
+.cost-yellow { color: var(--y2); }
+.cost-orange { color: var(--opus); }
+.cost-red    { color: var(--deleted); }
+
+.phrase-filters, .story-filters {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+  align-items: center;
+}
+
+.filter-btn {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  padding: 5px 11px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  cursor: pointer;
+  border-radius: var(--radius);
+  transition: all 0.12s;
+}
+
+.filter-btn:hover { color: var(--text2); border-color: var(--border2); }
+.filter-btn.active { background: var(--y5); border-color: var(--y3); color: var(--y1); }
+.filter-btn.f-kept.active    { background: rgba(122,168,106,0.10); border-color: var(--kept); color: var(--kept); }
+.filter-btn.f-deleted.active { background: rgba(184,88,72,0.08); border-color: var(--deleted); color: var(--deleted); }
+
+.search-input {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 13px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 5px 12px;
+  border-radius: var(--radius);
+  outline: none;
+  min-width: 200px;
+  transition: border-color 0.12s;
+}
+
+.search-input:focus  { border-color: var(--y3); }
+.search-input::placeholder { color: var(--muted); }
+
+.phrase-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 12px;
+}
+
+.phrase-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: border-color 0.12s;
+  position: relative;
+}
+
+.phrase-card:hover          { border-color: var(--border2); }
+.phrase-card.status-kept    { border-left-color: var(--kept); }
+.phrase-card.status-deleted { opacity: 0.3; }
+
+.phrase-text {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text);
+  padding-left: 10px;
+  border-left: 2px solid var(--y3);
+}
+
+.phrase-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.phrase-speaker {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--y2);
+}
+
+.weight-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+.weight-high   { background: var(--y1); }
+.weight-medium { background: var(--medium); }
+.weight-low    { background: var(--low); }
+
+.phrase-context { font-size: 12px; color: var(--muted); line-height: 1.5; }
+
+.phrase-source {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.phrase-source a { color: var(--text2); text-decoration: none; }
+.phrase-source a:hover { color: var(--y2); }
+
+.phrase-actions {
+  display: flex;
+  gap: 7px;
+  padding-top: 6px;
+  border-top: 1px solid var(--faint);
+}
+
+.action-btn {
+  flex: 1;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 6px;
+  border: 1px solid;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: all 0.12s;
+  text-align: center;
+}
+
+.btn-keep   { border-color: rgba(122,168,106,0.4); color: var(--kept);    background: rgba(122,168,106,0.05); }
+.btn-delete { border-color: rgba(184,88,72,0.4);   color: var(--deleted); background: rgba(184,88,72,0.05); }
+.btn-reset  { border-color: var(--faint); color: var(--muted); background: transparent; flex: 0; padding: 6px 10px; }
+
+.btn-keep:hover   { background: rgba(122,168,106,0.14); border-color: var(--kept); }
+.btn-delete:hover { background: rgba(184,88,72,0.14); border-color: var(--deleted); }
+.btn-reset:hover  { color: var(--text2); }
+
+.status-badge {
+  position: absolute;
+  top: 10px; right: 10px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.sbadge-kept    { background: rgba(122,168,106,0.12); color: var(--kept); }
+.sbadge-deleted { background: rgba(184,88,72,0.10);   color: var(--deleted); }
+
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.story-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.12s;
+}
+
+.story-card:hover { border-color: var(--y3); }
+
+.story-img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: contain;
+  background: #000;
+  image-rendering: pixelated;
+  display: block;
+}
+
+.story-info { padding: 10px 12px; }
+
+.story-id {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--y2);
+  margin-bottom: 3px;
+}
+
+.story-title { font-size: 13px; color: var(--text2); line-height: 1.4; margin-bottom: 5px; }
+
+.story-date {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.story-badges { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 5px; }
+
+.story-badge {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9px;
+  padding: 1px 6px;
+  border-radius: 2px;
+  background: var(--surface2);
+  color: var(--muted);
+  border: 1px solid var(--border);
+}
+
+.story-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.82);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.story-modal.open { display: flex; }
+
+.story-modal-inner {
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  max-width: 800px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px; right: 12px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: var(--radius);
+  transition: all 0.12s;
+}
+
+.modal-close:hover { color: var(--deleted); border-color: var(--deleted); }
+
+.modal-img { width: 100%; display: block; image-rendering: pixelated; }
+
+.modal-panels {
+  padding: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.panel-bubble {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+}
+
+.panel-speaker {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9px;
+  font-weight: 600;
+  color: var(--y2);
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.panel-text { font-size: 13px; color: var(--text2); line-height: 1.5; }
+
+.dm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+  gap: 10px;
+  max-height: 560px;
+  overflow-y: auto;
+  padding-right: 3px;
+}
+
+.dm-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px;
+}
+
+.dm-handle {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--y2);
+  margin-bottom: 2px;
+}
+
+.dm-name    { font-size: 14px; color: var(--text); font-weight: 500; }
+.dm-company { font-size: 12px; color: var(--muted); margin-bottom: 7px; }
+
+.tier-badge {
+  display: inline-block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9px;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 2px;
+  margin-right: 4px;
+  text-transform: uppercase;
+}
+
+.tier-priority { background: rgba(200,120,64,0.12); color: var(--opus);  border: 1px solid rgba(200,120,64,0.25); }
+.tier-high     { background: var(--y5);             color: var(--y2);    border: 1px solid var(--y3); }
+.tier-medium   { background: rgba(96,120,80,0.10);  color: var(--haiku); border: 1px solid rgba(96,120,80,0.25); }
+.tier-low      { background: var(--surface2);       color: var(--muted); border: 1px solid var(--border); }
+
+.dm-sent { margin-top: 7px; }
+
+.dm-entry {
+  font-family: "IBM Plex Mono", monospace;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 3px 8px;
+  margin-top: 3px;
+  font-size: 11px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dm-entry .story-ref { color: var(--y2); }
+.dm-entry .sent-date { color: var(--muted); }
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+  gap: 14px;
+}
+
+.video-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+  transition: border-color 0.12s;
+}
+
+.video-card:hover { border-color: var(--border2); }
+
+.video-thumb {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: #000;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.video-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.video-title { font-size: 14px; color: var(--text); font-weight: 500; line-height: 1.4; margin-bottom: 4px; }
+.video-title a { color: var(--text); text-decoration: none; }
+.video-title a:hover { color: var(--y2); }
+
+.video-channel {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.video-summary { font-size: 13px; color: var(--text2); line-height: 1.6; }
+
+.video-tags { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 8px; }
+
+.vtag {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9px;
+  padding: 2px 6px;
+  border-radius: 2px;
+  background: var(--y5);
+  color: var(--y2);
+  border: 1px solid var(--y3);
+}
+
+.trend-up   { color: var(--deleted); font-size: 12px; }
+.trend-down { color: var(--kept);    font-size: 12px; }
+.trend-same { color: var(--muted);   font-size: 12px; }
+
+.toast-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9998;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.toast {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  padding: 9px 14px;
+  border-radius: var(--radius);
+  border: 1px solid;
+  animation: slideIn 0.2s ease, fadeOut 0.3s 2.5s ease forwards;
+}
+
+.toast-keep   { background: rgba(122,168,106,0.10); border-color: var(--kept);    color: var(--kept); }
+.toast-delete { background: rgba(184,88,72,0.10);   border-color: var(--deleted); color: var(--deleted); }
+.toast-info   { background: var(--y5);              border-color: var(--y3);      color: var(--y1); }
+
+@keyframes slideIn {
+  from { transform: translateX(30px); opacity: 0; }
+  to   { transform: translateX(0);    opacity: 1; }
+}
+@keyframes fadeOut {
+  to { opacity: 0; transform: translateX(30px); }
+}
+
+.empty-state {
+  text-align: center;
+  padding: 48px;
+  color: var(--muted);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.loading {
+  text-align: center;
+  padding: 48px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+
+select {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  padding: 5px 8px;
+  border-radius: var(--radius);
+  outline: none;
+  cursor: pointer;
+}
+
+select:focus { border-color: var(--y3); }
+
+/* TOKEN-FIRST COST CARDS */
+.token-big {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--y1);
+  display: block;
+  line-height: 1;
+  margin: 6px 0 2px;
+}
+
+.token-sub {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.cost-price {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text2);
+  margin-bottom: 2px;
+}
+
+.cost-trend {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  color: var(--muted);
+}
+
+/* PHRASE CARDS — SOFT WARM BACKGROUNDS */
+.phrase-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 1100px) { .phrase-grid { grid-template-columns: repeat(2,1fr); } }
+@media (max-width: 680px)  { .phrase-grid { grid-template-columns: 1fr; } }
+
+/* Override the dark phrase-card with warm paper tones */
+.phrase-card {
+  background: #f5f0e6 !important;
+  border: 1px solid #d8cfb8 !important;
+  border-left: 4px solid #b8a878 !important;
+  color: #1c1710 !important;
+  min-height: 280px;
+}
+
+.phrase-card.status-kept    { border-left-color: #5a8a48 !important; background: #eff6eb !important; }
+.phrase-card.status-deleted { border-left-color: #a04030 !important; background: #f8efed !important; opacity: 0.5; }
+
+/* Cycle soft warm tints per card (JS adds data-tone) */
+.phrase-card[data-tone="0"] { background: #f7f2e6 !important; }
+.phrase-card[data-tone="1"] { background: #f3ede0 !important; }
+.phrase-card[data-tone="2"] { background: #eee8d8 !important; }
+.phrase-card[data-tone="3"] { background: #f5f0e8 !important; }
+.phrase-card[data-tone="4"] { background: #f0ebe2 !important; }
+
+.phrase-card .phrase-text {
+  color: #1c1710 !important;
+  border-left-color: #a08848 !important;
+  font-size: 15px;
+}
+
+.phrase-card .phrase-speaker {
+  color: #6b4e1a !important;
+  font-weight: 600;
+}
+
+.phrase-card .phrase-context-text {
+  color: #4a4030 !important;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.phrase-card .phrase-source-link {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  color: #7a6040 !important;
+}
+
+.phrase-card .phrase-source-link a {
+  color: #5a4828 !important;
+  text-decoration: none;
+}
+
+.phrase-card .phrase-source-link a:hover { color: #8b6030 !important; text-decoration: underline; }
+
+.phrase-card .phrase-actions {
+  border-top-color: #d8ceb0 !important;
+}
+
+.phrase-card .btn-keep   { border-color: rgba(70,130,50,0.5) !important; color: #3a7028 !important; background: rgba(70,130,50,0.08) !important; }
+.phrase-card .btn-delete { border-color: rgba(160,60,40,0.4) !important; color: #903020 !important; background: rgba(160,60,40,0.06) !important; }
+.phrase-card .btn-reset  { color: #7a6848 !important; border-color: #d0c8a8 !important; }
+.phrase-card .btn-keep:hover   { background: rgba(70,130,50,0.15) !important; }
+.phrase-card .btn-delete:hover { background: rgba(160,60,40,0.12) !important; }
+
+.phrase-card .status-badge {
+  background: rgba(0,0,0,0.07) !important;
+  color: #3a3020 !important;
+}
+.phrase-card .sbadge-kept    { color: #3a7028 !important; background: rgba(70,130,50,0.12) !important; }
+.phrase-card .sbadge-deleted { color: #903020 !important; background: rgba(160,60,40,0.10) !important; }
+
+.phrase-card .weight-dot.weight-high   { background: #c89018; }
+.phrase-card .weight-dot.weight-medium { background: #a07838; }
+.phrase-card .weight-dot.weight-low    { background: #c8c0a0; }
+
+/* SOURCE BADGES & TWEET SNIPPET */
+.phrase-source-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-family: 'IBM Plex Mono', monospace;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-bottom: 6px;
+}
+.phrase-source-badge a { text-decoration: none; }
+.phrase-source-badge.src-video {
+  background: rgba(100,140,180,0.12);
+  color: #4a7090;
+  border: 1px solid rgba(100,140,180,0.25);
+}
+.phrase-source-badge.src-video a { color: #4a7090; }
+.phrase-source-badge.src-video a:hover { text-decoration: underline; }
+.phrase-source-badge.src-influencer {
+  background: rgba(80,160,220,0.10);
+  color: #2878a8;
+  border: 1px solid rgba(80,160,220,0.25);
+}
+.phrase-source-badge.src-influencer a { color: #2878a8; }
+.phrase-source-badge.src-influencer a:hover { text-decoration: underline; }
+.phrase-tweet-snippet {
+  font-size: 12px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #5a5040;
+  background: rgba(0,0,0,0.03);
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 4px;
+  padding: 6px 9px;
+  margin: 4px 0 2px 0;
+  line-height: 1.5;
+  position: relative;
+}
+.tweet-snippet-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  transition: all 0.15s ease;
+}
+.tweet-snippet-text.expanded {
+  display: block;
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
+.tweet-expand-btn {
+  display: inline-block;
+  margin-top: 4px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  color: #8a7050;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+  transition: color 0.12s;
+}
+.tweet-expand-btn:hover { color: #5a4020; }
+.source-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+.source-filter-bar .filter-btn { font-size: 13px; }
+.source-filter-bar .filter-btn.active { border-color: #8a7a58; background: rgba(138,122,88,0.12); }
+#influencerSelect {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  padding: 4px 8px;
+  border: 1px solid #c8c0a8;
+  border-radius: 4px;
+  background: #f8f4ea;
+  color: #3a3020;
+  cursor: pointer;
+}
+
+/* COMMENT FIELD */
+.phrase-comment-wrap {
+  margin-top: 4px;
+}
+
+.phrase-comment {
+  width: 100%;
+  background: rgba(255,255,255,0.55);
+  border: 1px solid #d0c8a8;
+  border-radius: 3px;
+  color: #1c1710;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 13px;
+  padding: 7px 10px;
+  resize: vertical;
+  min-height: 56px;
+  line-height: 1.5;
+  outline: none;
+  transition: border-color 0.12s, background 0.12s;
+}
+
+.phrase-comment:focus {
+  border-color: #a08040;
+  background: rgba(255,255,255,0.80);
+}
+
+.phrase-comment::placeholder { color: #a89878; }
+
+.btn-save-comment {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  margin-top: 5px;
+  padding: 5px 12px;
+  border: 1px solid #b0a070;
+  border-radius: 3px;
+  background: rgba(160,128,64,0.10);
+  color: #6b4e1a;
+  cursor: pointer;
+  transition: all 0.12s;
+}
+
+.btn-save-comment:hover { background: rgba(160,128,64,0.20); }
+.btn-save-comment.saved { color: #3a7028; border-color: #5a8a48; }
+
+/* ── CAMPAIGNS ─────────────────────────────────────────────────── */
+.campaign-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 700px) { .campaign-grid { grid-template-columns: 1fr; } }
+
+.campaign-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color 0.12s;
+}
+
+.campaign-card:hover        { border-color: var(--border2); }
+.campaign-card.is-active    { border-color: var(--y3); border-left: 3px solid var(--y1); }
+
+.camp-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px 12px;
+  border-bottom: 1px solid var(--faint);
+}
+
+.camp-thumb {
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  background: #000;
+  image-rendering: pixelated;
+  border-radius: 2px;
+  border: 1px solid var(--border);
+  object-fit: contain;
+}
+
+.camp-thumb-placeholder {
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.camp-title-block { flex: 1; min-width: 0; }
+
+.camp-id {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--y2);
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.active-pill {
+  background: var(--y5);
+  border: 1px solid var(--y3);
+  color: var(--y1);
+  font-size: 9px;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 10px;
+  letter-spacing: 0.5px;
+  animation: pulse-y 2s ease-in-out infinite;
+}
+
+@keyframes pulse-y {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.6; }
+}
+
+.camp-title {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* DM STATS ROW */
+.camp-stats {
+  display: flex;
+  gap: 6px;
+  align-items: stretch;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--faint);
+  flex-wrap: wrap;
+}
+
+.camp-stat-box {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 8px 14px;
+  text-align: center;
+  min-width: 72px;
+}
+
+.camp-stat-box .sv {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--y1);
+  display: block;
+  line-height: 1;
+}
+
+.camp-stat-box .sl {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 3px;
+}
+
+.camp-stat-box.dim .sv { color: var(--text2); font-size: 13px; }
+
+/* TIER BREAKDOWN BAR */
+.camp-tier-wrap {
+  flex: 1;
+  min-width: 160px;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 8px 12px;
+}
+
+.camp-tier-title {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+
+.camp-tier-bar {
+  display: flex;
+  height: 10px;
+  border-radius: 2px;
+  overflow: hidden;
+  gap: 1px;
+  margin-bottom: 6px;
+}
+
+.tier-seg { height: 100%; min-width: 3px; transition: width 0.4s; }
+
+/* tier color palette — 14 segments */
+.ts-priority  { background: #c87840; }
+.ts-anthropic { background: #d07060; }
+.ts-openai    { background: #70b0d0; }
+.ts-deepmind  { background: #6080c0; }
+.ts-meta      { background: #5070b8; }
+.ts-labs      { background: #a08858; }
+.ts-artist    { background: #8070c0; }
+.ts-safety    { background: #90b060; }
+.ts-academic  { background: #7898a8; }
+.ts-nlp       { background: #68a898; }
+.ts-media     { background: #a08870; }
+.ts-humor     { background: #c8a040; }
+.ts-nft       { background: #9868a0; }
+.ts-hashtag   { background: #607850; }
+.ts-misc      { background: #585848; }
+
+.camp-tier-legend {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.tier-chip {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9px;
+  padding: 1px 5px;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  color: var(--text2);
+  background: var(--faint);
+  border: 1px solid var(--border);
+}
+
+.tier-dot { width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0; }
+
+/* HASHTAGS */
+.camp-hashtags {
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--faint);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+}
+
+.camp-ht-label {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-right: 3px;
+  flex-shrink: 0;
+}
+
+.hashtag-chip {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: var(--y5);
+  color: var(--y2);
+  border: 1px solid var(--y3);
+  cursor: pointer;
+  transition: all 0.12s;
+  user-select: none;
+}
+
+.hashtag-chip:hover  { background: rgba(200,168,48,0.18); color: var(--y1); }
+.hashtag-chip.copied { background: rgba(122,168,106,0.15); color: var(--kept); border-color: var(--kept); }
+
+/* TEMPLATES */
+.camp-templates {
+  padding: 10px 16px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.camp-tmpl-block {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 9px 12px;
+  position: relative;
+}
+
+.camp-tmpl-label {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.camp-tmpl-text {
+  font-size: 13px;
+  color: var(--text2);
+  line-height: 1.55;
+  padding-right: 48px;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9px;
+  background: var(--faint);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  padding: 3px 8px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.12s;
+}
+
+.copy-btn:hover  { color: var(--text2); border-color: var(--border2); }
+.copy-btn.copied { color: var(--kept);  border-color: var(--kept); }
+
+/* TIMELINE */
+.camp-timeline {
+  padding: 0 16px 12px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tl-dot {
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--y3);
+  flex-shrink: 0;
+}
+
+.tl-range { color: var(--text2); }
+
+/* RECIPIENTS TOGGLE */
+.camp-recipients-toggle {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: none;
+  border-top: 1px solid var(--faint);
+  padding: 8px 16px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 0.12s;
+}
+
+.camp-recipients-toggle:hover { color: var(--text2); }
+
+.camp-recipients-list {
+  display: none;
+  padding: 0 16px 12px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.camp-recipients-list.open { display: block; }
+
+.recipient-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 0;
+  border-bottom: 1px solid var(--faint);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+}
+
+.rr-handle { color: var(--y2); min-width: 130px; }
+.rr-company { color: var(--muted); flex: 1; font-size: 10px; }
+.rr-date    { color: var(--muted); font-size: 10px; white-space: nowrap; }
+</style>
+</head>
+<body>
+
+<header>
+  <img class="logo-chip" id="headerChip" src="" alt="HC" onerror="this.style.display='none'"/>
+  <div class="header-title">
+    <h1>⚡ HOLY CHIP WAR ROOM</h1>
+    <div class="subtitle">MORNING BRIEFING // <span id="currentTime">--:--</span> PST</div>
+  </div>
+  <div class="header-stats">
+    <div class="hstat" id="hstatToday">
+      <span class="val" id="hToday">$-.--</span>
+      <span class="lbl">TODAY</span>
+    </div>
+    <div class="hstat" id="hstatPhrasesLeft">
+      <span class="val" id="hPhrasesLeft">--</span>
+      <span class="lbl">UNSORTED</span>
+    </div>
+    <div class="hstat">
+      <span class="val" id="hDMsSent">--</span>
+      <span class="lbl">DMS SENT</span>
+    </div>
+    <div class="hstat">
+      <span class="val" id="hStories">--</span>
+      <span class="lbl">STORIES</span>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs">
+  <button class="tab active" onclick="switchTab('costs')" id="tab-costs">
+    TOKEN COSTS
+  </button>
+  <button class="tab" onclick="switchTab('phrases')" id="tab-phrases">
+    PHRASES
+    <span class="tab-badge" id="badge-phrases">?</span>
+  </button>
+  <button class="tab" onclick="switchTab('stories')" id="tab-stories">
+    STORIES
+  </button>
+  <button class="tab" onclick="switchTab('videos')" id="tab-videos">
+    VIDEOS
+  </button>
+  <button class="tab" onclick="switchTab('campaigns')" id="tab-campaigns">
+    CAMPAIGNS
+    <span class="tab-badge" id="badge-campaigns">—</span>
+  </button>
+  <button class="tab" onclick="switchTab('dms')" id="tab-dms">
+    DM TRACKER
+  </button>
+</nav>
+
+<main>
+
+<!-- ══════════ TAB: COSTS ══════════ -->
+<div id="panel-costs" class="tab-panel active">
+  <div class="section-head">
+    <h2>TOKEN SPENDING</h2>
+    <span class="hint">// calculated from ~/.hermes/state.db</span>
+  </div>
+
+  <div class="grid-4" id="costSummaryCards">
+    <div class="card">
+      <h3>TODAY</h3>
+      <span class="token-big" id="tokensToday">—</span>
+      <div class="token-sub">tokens</div>
+      <div class="cost-price" id="costToday">$-.-</div>
+      <div class="cost-trend" id="costTodayTrend">vs yesterday</div>
+    </div>
+    <div class="card">
+      <h3>YESTERDAY</h3>
+      <span class="token-big" id="tokensYesterday">—</span>
+      <div class="token-sub">tokens</div>
+      <div class="cost-price" id="costYesterday">$-.-</div>
+      <div class="cost-trend">24h prior</div>
+    </div>
+    <div class="card">
+      <h3>7-DAY TOTAL</h3>
+      <span class="token-big" id="tokensWeek">—</span>
+      <div class="token-sub">tokens</div>
+      <div class="cost-price" id="costWeek">$-.-</div>
+      <div class="cost-trend">all sessions</div>
+    </div>
+    <div class="card">
+      <h3>SAVED (LOCAL)</h3>
+      <span class="token-big" id="tokensSaved">—</span>
+      <div class="token-sub">tokens via local models</div>
+      <div class="cost-price" id="costSaved">$0 saved</div>
+      <div class="cost-trend">gemma / ollama</div>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <div class="card">
+      <h3>SPEND BY MODEL (7 DAYS)</h3>
+      <div class="cost-chart" id="modelChart">
+        <div class="loading">loading</div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>DAILY BREAKDOWN</h3>
+      <div class="daily-chart" id="dailyChart">
+        <div class="loading">loading</div>
+      </div>
+      <div style="margin-top:10px; font-size:13px; display:flex; gap:14px; flex-wrap:wrap;" id="chartLegend"></div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px">
+      <h3>RECENT SESSIONS</h3>
+      <div style="display:flex; gap:10px; align-items:center">
+        <select id="costDaysSelect" style="background:var(--surface);border:1px solid var(--border);color:var(--text);font-family:'VT323',monospace;font-size:16px;padding:4px 8px;border-radius:3px;" onchange="loadCosts()">
+          <option value="1">TODAY</option>
+          <option value="3">3 DAYS</option>
+          <option value="7" selected>7 DAYS</option>
+          <option value="30">30 DAYS</option>
+        </select>
+      </div>
+    </div>
+    <div style="overflow-x:auto">
+      <table class="session-table" id="sessionTable">
+        <thead>
+          <tr>
+            <th>TIME</th>
+            <th>MODEL</th>
+            <th>SOURCE</th>
+            <th>INPUT</th>
+            <th>OUTPUT</th>
+            <th>CACHE READ</th>
+            <th>COST</th>
+            <th>MSGS</th>
+          </tr>
+        </thead>
+        <tbody id="sessionBody">
+          <tr><td colspan="8"><div class="loading">loading</div></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ TAB: PHRASES ══════════ -->
+<div id="panel-phrases" class="tab-panel">
+  <div class="section-head">
+    <h2>PHRASE COLLECTION</h2>
+    <span class="hint">// keep or delete for story inspiration</span>
+  </div>
+
+  <div class="phrase-filters">
+    <div class="source-filter-bar">
+      <span style="font-size:12px;color:#7a6848;font-family:'IBM Plex Mono',monospace;margin-right:4px">SOURCE:</span>
+      <button class="filter-btn active" onclick="setSourceFilter(this,'all')">ALL</button>
+      <button class="filter-btn" onclick="setSourceFilter(this,'video')">🎬 VIDEOS</button>
+      <button class="filter-btn" onclick="setSourceFilter(this,'influencer')">🐦 INFLUENCERS</button>
+      <select id="influencerSelect" style="display:none" onchange="influencerFilter=this.value;renderPhrases()">
+        <option value="all">all handles</option>
+      </select>
+      <span id="phraseSourceStats" style="font-size:12px;color:#7a6848;font-family:'IBM Plex Mono',monospace;margin-left:auto"></span>
+    </div>
+    <input class="search-input" id="phraseSearch" placeholder="search phrases..." oninput="filterPhrases()"/>
+    <button class="filter-btn active" onclick="toggleFilter(this,'all')"     data-filter="all">ALL</button>
+    <button class="filter-btn f-kept"    onclick="toggleFilter(this,'kept')"    data-filter="kept">⭐ KEPT</button>
+    <button class="filter-btn f-deleted" onclick="toggleFilter(this,'deleted')" data-filter="deleted">🗑 DELETED</button>
+    <button class="filter-btn"           onclick="toggleFilter(this,'unsorted')" data-filter="unsorted">? UNSORTED</button>
+    <button class="filter-btn f-high"   onclick="toggleFilter(this,'high')"   data-filter="high">🔥 HIGH</button>
+    <button class="filter-btn f-medium" onclick="toggleFilter(this,'medium')" data-filter="medium">• MEDIUM</button>
+    <button class="filter-btn f-low"    onclick="toggleFilter(this,'low')"    data-filter="low">· LOW</button>
+    <span id="phraseCount" style="color:var(--muted);font-size:15px;margin-left:auto"></span>
+  </div>
+
+  <div class="phrase-grid" id="phraseGrid">
+    <div class="loading">loading</div>
+  </div>
+</div>
+
+<!-- ══════════ TAB: STORIES ══════════ -->
+<div id="panel-stories" class="tab-panel">
+  <div class="section-head">
+    <h2>STORY ARCHIVE</h2>
+    <span class="hint">// click any story to view panels</span>
+  </div>
+
+  <div class="story-filters">
+    <input class="search-input" id="storySearch" placeholder="search stories..." oninput="filterStories()"/>
+    <button class="filter-btn active" onclick="toggleStoryFilter(this,'all')" data-filter="all">ALL</button>
+    <button class="filter-btn" onclick="toggleStoryFilter(this,'has_json')" data-filter="has_json">WITH SCRIPT</button>
+    <span id="storyCount" style="color:var(--muted);font-size:15px;margin-left:auto"></span>
+  </div>
+
+  <div class="story-grid" id="storyGrid">
+    <div class="loading">loading</div>
+  </div>
+</div>
+
+<!-- ══════════ TAB: VIDEOS ══════════ -->
+<div id="panel-videos" class="tab-panel">
+  <div class="section-head">
+    <h2>VIDEO DIGEST LIBRARY</h2>
+    <span class="hint">// AI-summarized intel</span>
+  </div>
+  <div class="video-grid" id="videoGrid">
+    <div class="loading">loading</div>
+  </div>
+</div>
+
+<!-- ══════════ TAB: CAMPAIGNS ══════════ -->
+<div id="panel-campaigns" class="tab-panel">
+  <div class="section-head">
+    <h2>STORY CAMPAIGNS</h2>
+    <span class="hint" id="camp-active-hint">// loading...</span>
+  </div>
+  <div id="campaignGrid" class="campaign-grid">
+    <div class="loading">loading</div>
+  </div>
+</div>
+
+<!-- ══════════ TAB: DMs ══════════ -->
+<div id="panel-dms" class="tab-panel">
+  <div class="section-head">
+    <h2>DM OUTREACH TRACKER</h2>
+    <span class="hint">// 166 targets — Holy Chip AI influencer campaign</span>
+  </div>
+
+  <div class="grid-4" id="dmSummaryCards" style="margin-bottom:20px">
+    <div class="card">
+      <h3>TARGETS</h3>
+      <span class="big-number" id="dmTotal">--</span>
+      <div class="card-sub">in tracker</div>
+    </div>
+    <div class="card">
+      <h3>DMs SENT</h3>
+      <span class="big-number warn" id="dmSent">--</span>
+      <div class="card-sub">total messages</div>
+    </div>
+    <div class="card">
+      <h3>PRIORITY</h3>
+      <span class="big-number purple" id="dmPriority">--</span>
+      <div class="card-sub">top tier targets</div>
+    </div>
+    <div class="card">
+      <h3>PENDING</h3>
+      <span class="big-number crit" id="dmPending">--</span>
+      <div class="card-sub">not yet contacted</div>
+    </div>
+  </div>
+
+  <div class="phrase-filters">
+    <input class="search-input" id="dmSearch" placeholder="search targets..." oninput="filterDMs()"/>
+    <button class="filter-btn active" onclick="toggleDMFilter(this,'all')"      data-filter="all">ALL</button>
+    <button class="filter-btn" onclick="toggleDMFilter(this,'sent')"      data-filter="sent">SENT</button>
+    <button class="filter-btn" onclick="toggleDMFilter(this,'pending')"   data-filter="pending">PENDING</button>
+    <button class="filter-btn" onclick="toggleDMFilter(this,'priority')"  data-filter="priority">PRIORITY</button>
+    <button class="filter-btn" onclick="toggleDMFilter(this,'high')"      data-filter="high">HIGH TIER</button>
+    <span id="dmCount" style="color:var(--muted);font-size:15px;margin-left:auto"></span>
+  </div>
+
+  <div class="dm-grid" id="dmGrid">
+    <div class="loading">loading</div>
+  </div>
+</div>
+
+</main>
+
+<!-- Story Modal -->
+<div class="story-modal" id="storyModal" onclick="closeModal(event)">
+  <div class="story-modal-inner">
+    <button class="modal-close" onclick="document.getElementById('storyModal').classList.remove('open')">✕ CLOSE</button>
+    <img id="modalImg" class="modal-img" src="" alt=""/>
+    <div id="modalPanels" class="modal-panels"></div>
+  </div>
+</div>
+
+<!-- Toast container -->
+<div class="toast-container" id="toastContainer"></div>
+
+<script>
+// ── STATE ──────────────────────────────────────────────
+let phrases = [];
+let stories = [];
+let dms = [];
+let videos = [];
+let costs = null;
+let chars = {};
+
+let phraseFilter = 'all';
+let sourceFilter = 'all';
+let influencerFilter = 'all';
+let storyFilter = 'all';
+let dmFilter = 'all';
+
+// ── INIT ──────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+  updateClock();
+  setInterval(updateClock, 1000);
+  loadHeaderChip();
+  loadCosts();
+  loadPhrases();
+  loadStories();
+  loadVideos();
+  loadCampaigns();
+  loadDMs();
+  loadChars();
+});
+
+function updateClock() {
+  const now = new Date();
+  const pst = new Date(now.toLocaleString('en-US', {timeZone: 'America/Los_Angeles'}));
+  document.getElementById('currentTime').textContent =
+    pst.toLocaleTimeString('en-US', {hour:'2-digit', minute:'2-digit', hour12:true});
+}
+
+// ── TABS ──────────────────────────────────────────────
+function switchTab(name) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('panel-' + name).classList.add('active');
+  document.getElementById('tab-' + name).classList.add('active');
+}
+
+// ── CHARS ─────────────────────────────────────────────
+async function loadChars() {
+  try {
+    const r = await fetch('/api/chars');
+    chars = await r.json();
+    loadHeaderChip();
+  } catch(e) {}
+}
+
+function loadHeaderChip() {
+  // Pick a random chip 0 face
+  const chip0 = chars['0'];
+  if (!chip0 || !chip0.length) return;
+  const face = chip0[Math.floor(Math.random() * Math.min(chip0.length, 10))];
+  const img = document.getElementById('headerChip');
+  img.src = `/char-image/0/${face}`;
+  img.style.display = '';
+}
+
+// ── COSTS ─────────────────────────────────────────────
+async function loadCosts() {
+  const days = document.getElementById('costDaysSelect').value;
+  try {
+    const r = await fetch('/api/costs?days=' + days);
+    costs = await r.json();
+    renderCosts(costs);
+  } catch(e) {
+    document.getElementById('sessionBody').innerHTML =
+      `<tr><td colspan="8" style="color:var(--accent4);padding:20px">Error: ${e.message}</td></tr>`;
+  }
+}
+
+function fmt$(v) {
+  if (!v || v === 0) return '$0.00';
+  if (v < 0.01) return '$' + v.toFixed(4);
+  return '$' + v.toFixed(2);
+}
+
+function fmtK(v) {
+  if (v >= 1000000) return (v/1000000).toFixed(1) + 'M';
+  if (v >= 1000) return (v/1000).toFixed(0) + 'K';
+  return v || 0;
+}
+
+function costClass(v) {
+  if (v === 0) return '';
+  if (v < 0.50) return 'cost-green';
+  if (v < 2.00) return 'cost-yellow';
+  if (v < 5.00) return 'cost-orange';
+  return 'cost-red';
+}
+
+function renderCosts(data) {
+  // Header stats
+  const todayEl = document.getElementById('hToday');
+  todayEl.textContent = fmt$(data.today);
+  // Compute token totals from sessions
+  const todaySessions = (data.sessions||[]).filter(s => s.date === new Date().toISOString().slice(0,10));
+  const yesterdayDate = new Date(); yesterdayDate.setDate(yesterdayDate.getDate()-1);
+  const ydStr = yesterdayDate.toISOString().slice(0,10);
+  const yestSessions = (data.sessions||[]).filter(s => s.date === ydStr);
+  const allSessions  = data.sessions||[];
+
+  function sumTokens(arr) { return arr.reduce((a,s)=>(a + (s.input_tokens||0) + (s.output_tokens||0) + (s.cache_read||0)), 0); }
+  function fmtTok(n) {
+    if (n >= 1e9) return (n/1e9).toFixed(1)+'B';
+    if (n >= 1e6) return (n/1e6).toFixed(1)+'M';
+    if (n >= 1e3) return (n/1e3).toFixed(0)+'K';
+    return String(n);
+  }
+
+  document.getElementById('tokensToday').textContent     = fmtTok(sumTokens(todaySessions));
+  document.getElementById('tokensYesterday').textContent = fmtTok(sumTokens(yestSessions));
+  document.getElementById('tokensWeek').textContent      = fmtTok(sumTokens(allSessions));
+
+  document.getElementById('costToday').textContent = fmt$(data.today);
+  document.getElementById('costYesterday').textContent = fmt$(data.yesterday);
+  document.getElementById('costWeek').textContent = fmt$(data.grand_total);
+
+  // Today trend
+  const trend = data.today - data.yesterday;
+  const trendEl = document.getElementById('costTodayTrend');
+  if (trend > 0.001) {
+    trendEl.innerHTML = `<span class="trend-up">▲ ${fmt$(Math.abs(trend))} more than yesterday</span>`;
+    document.getElementById('hstatToday').className = 'hstat warn';
+  } else if (trend < -0.001) {
+    trendEl.innerHTML = `<span class="trend-down">▼ ${fmt$(Math.abs(trend))} less than yesterday</span>`;
+    document.getElementById('hstatToday').className = 'hstat';
+  } else {
+    trendEl.innerHTML = `<span class="trend-same">≈ same as yesterday</span>`;
+    document.getElementById('hstatToday').className = 'hstat';
+  }
+
+  // Saved (local models = $0)
+  const localTokens = (data.sessions||[])
+    .filter(s => s.family === 'local')
+    .reduce((a,s) => a + (s.input_tokens||0) + (s.output_tokens||0), 0);
+  const savedEst = localTokens / 1000000 * 3.0; // Sonnet price equivalent
+  document.getElementById('tokensSaved').textContent = fmtTok(localTokens);
+  document.getElementById('costSaved').textContent = fmt$(savedEst) + ' saved';
+
+  // Model chart
+  const modelTotals = data.model_totals || {};
+  const maxCost = Math.max(...Object.values(modelTotals), 0.001);
+  const modelOrder = ['opus','sonnet','haiku','local','other'];
+  const modelNames = {opus:'OPUS 4.6', sonnet:'SONNET 4.6', haiku:'HAIKU', local:'LOCAL/FREE', other:'OTHER'};
+
+  let modelChartHTML = '';
+  for (const fam of modelOrder) {
+    const val = modelTotals[fam] || 0;
+    if (val === 0 && fam !== 'sonnet') continue;
+    const pct = val / maxCost * 100;
+    modelChartHTML += `
+      <div class="chart-row">
+        <div class="chart-label">${modelNames[fam]}</div>
+        <div class="chart-bar-wrap">
+          <div class="chart-bar bar-${fam}" style="width:${pct.toFixed(1)}%"></div>
+        </div>
+        <div class="chart-val ${costClass(val)}">${fmt$(val)}</div>
+      </div>`;
+  }
+  document.getElementById('modelChart').innerHTML = modelChartHTML || '<div style="color:var(--muted);padding:20px;text-align:center">No data yet</div>';
+
+  // Daily chart
+  const daily = data.daily || {};
+  const dates = Object.keys(daily).sort();
+  const maxDay = Math.max(...dates.map(d => Object.values(daily[d]).reduce((a,b)=>a+b,0)), 0.001);
+  const families = ['opus','sonnet','haiku','local','other'];
+
+  let dailyHTML = '';
+  const legendItems = {opus:0,sonnet:0,haiku:0,local:0,other:0};
+
+  for (const date of dates.slice(-7)) {
+    const dayData = daily[date] || {};
+    const total = Object.values(dayData).reduce((a,b)=>a+b,0);
+    const label = date.slice(5); // MM-DD
+
+    let barsHTML = '';
+    for (const fam of families) {
+      const v = dayData[fam] || 0;
+      if (!v) continue;
+      legendItems[fam] += v;
+      const pct = v / maxDay * 100;
+      barsHTML += `<div class="dc-bar bar-${fam}" style="width:${pct.toFixed(1)}%" title="${fam}: ${fmt$(v)}"></div>`;
+    }
+
+    dailyHTML += `
+      <div class="dc-row">
+        <div class="dc-date">${label}</div>
+        <div class="dc-bars">${barsHTML || '<div style="color:var(--muted);font-size:12px;padding:4px">$0</div>'}</div>
+        <div class="dc-total ${costClass(total)}">${fmt$(total)}</div>
+      </div>`;
+  }
+  document.getElementById('dailyChart').innerHTML = dailyHTML || '<div style="color:var(--muted);padding:20px;text-align:center">No data</div>';
+
+  // Legend
+  const legendHTML = families
+    .filter(f => legendItems[f] > 0)
+    .map(f => `<span><span style="display:inline-block;width:10px;height:10px;background:var(--${f});border-radius:2px;vertical-align:middle;margin-right:4px"></span>${f}</span>`)
+    .join('');
+  document.getElementById('chartLegend').innerHTML = legendHTML;
+
+  // Session table
+  let tableHTML = '';
+  for (const s of data.sessions.slice(0,50)) {
+    const badgeClass = `badge-${s.family}`;
+    const costVal = s.cost || 0;
+    tableHTML += `
+      <tr>
+        <td style="color:var(--muted)">${s.date} ${s.time}</td>
+        <td><span class="model-badge ${badgeClass}">${s.model.split(':')[0].replace('claude-','').toUpperCase()}</span></td>
+        <td style="color:var(--muted)">${s.source}</td>
+        <td>${fmtK(s.input_tokens)}</td>
+        <td>${fmtK(s.output_tokens)}</td>
+        <td style="color:var(--muted)">${fmtK(s.cache_read)}</td>
+        <td class="${costClass(costVal)}">${fmt$(costVal)}</td>
+        <td style="color:var(--muted)">${s.msgs}</td>
+      </tr>`;
+  }
+  document.getElementById('sessionBody').innerHTML = tableHTML || '<tr><td colspan="8" style="color:var(--muted);padding:20px;text-align:center">No sessions found</td></tr>';
+}
+
+// ── PHRASES ────────────────────────────────────────────
+async function loadPhrases() {
+  const r = await fetch('/api/all-phrases');
+  const data = await r.json();
+  phrases = data.items || [];
+
+  // populate influencer dropdown
+  const sel = document.getElementById('influencerSelect');
+  if (sel && data.influencer_handles) {
+    sel.innerHTML = '<option value="all">all handles</option>' +
+      data.influencer_handles.map(h => `<option value="${h}">@${h}</option>`).join('');
+  }
+
+  // stats
+  const el = document.getElementById('phraseSourceStats');
+  if (el) el.textContent = `${data.total_video || 0} video · ${data.total_influencer || 0} influencer`;
+
+  const unsorted = phrases.filter(p => !p.status).length;
+  document.getElementById('badge-phrases').textContent = unsorted;
+  document.getElementById('hPhrasesLeft').textContent = unsorted;
+  document.getElementById('hstatPhrasesLeft').className = unsorted > 0 ? 'hstat warn' : 'hstat';
+
+  renderPhrases();
+}
+
+function renderPhrases() {
+  const search = document.getElementById('phraseSearch').value.toLowerCase();
+  let filtered = phrases.filter(p => {
+    // source filter
+    if (sourceFilter === 'video' && p.source !== 'video') return false;
+    if (sourceFilter === 'influencer' && p.source !== 'influencer') return false;
+    if (sourceFilter === 'influencer' && influencerFilter !== 'all' && p.handle !== influencerFilter) return false;
+    // status/weight filter
+    if (phraseFilter === 'kept')    return p.status === 'kept';
+    if (phraseFilter === 'deleted') return p.status === 'deleted';
+    if (phraseFilter === 'unsorted') return !p.status;
+    if (phraseFilter === 'high')    return p.weight === 'high';
+    if (phraseFilter === 'medium')  return p.weight === 'medium';
+    if (phraseFilter === 'low')     return p.weight === 'low';
+    return true;
+  });
+
+  if (search) {
+    filtered = filtered.filter(p =>
+      (p.phrase||'').toLowerCase().includes(search) ||
+      (p.speaker||'').toLowerCase().includes(search) ||
+      (p.context||'').toLowerCase().includes(search) ||
+      (p.handle||'').toLowerCase().includes(search) ||
+      (p.tweet_text||'').toLowerCase().includes(search)
+    );
+  }
+
+  document.getElementById('phraseCount').textContent = `${filtered.length} phrases`;
+
+  if (!filtered.length) {
+    document.getElementById('phraseGrid').innerHTML = '<div class="empty-state">NO PHRASES<br/>MATCH FILTER</div>';
+    return;
+  }
+
+  document.getElementById('phraseGrid').innerHTML = filtered.map((p, i) => {
+    const tone = i % 5;
+    const statusClass = p.status ? `status-${p.status}` : '';
+    const statusBadge = p.status
+      ? `<span class="status-badge sbadge-${p.status}">${p.status === 'kept' ? '★ KEPT' : '✕ DELETED'}</span>` : '';
+    const pid = phraseId(p);
+    const resetBtn = p.status
+      ? `<button class="action-btn btn-reset" onclick="resetPhrase('${pid}')">↩</button>` : '';
+
+    // source badge
+    let srcBadge = '';
+    if (p.source === 'influencer') {
+      const turl = p.tweet_url || '#';
+      srcBadge = `<span class="phrase-source-badge src-influencer"><a href="${turl}" target="_blank">🐦 @${escHtml(p.handle||'')}</a></span>`;
+    } else {
+      const surl = p.source_url || '#';
+      srcBadge = `<span class="phrase-source-badge src-video"><a href="${surl}" target="_blank">🎬 VIDEO</a></span>`;
+    }
+
+    // tweet snippet for influencer phrases (expandable)
+    const tweetSnippet = (p.source === 'influencer' && p.tweet_text)
+      ? `<div class=\"phrase-tweet-snippet\">
+           <div class=\"tweet-snippet-text\" id=\"tsnip-${pid.replace(/:/g,'-')}\">${escHtml(p.tweet_text)}</div>
+           <div class="tweet-expand-actions">
+             <button class=\"tweet-expand-btn\" onclick=\"toggleTweetSnippet('tsnip-${pid.replace(/:/g,'-')}', this, '${p.tweet_url||'#'}')\" >▸ read full tweet</button>
+             <a class="tweet-open-btn" href="${p.tweet_url||'#'}" target="_blank">(open on Twitter)</a>
+           </div>
+         </div>`
+      : '';
+
+    return `
+    <div class="phrase-card ${statusClass}" id="phrase-${pid}" data-tone="${tone}">
+      ${statusBadge}
+      ${srcBadge}
+      <div class="phrase-text">${escHtml(p.phrase || '')}</div>
+      <div class="phrase-meta">
+        <span class="phrase-speaker">${escHtml(p.speaker || 'UNKNOWN')}</span>
+        <span class="weight-dot weight-${p.weight || 'low'}" title="${p.weight}"></span>
+        <span style="font-size:12px;color:#7a6848;font-family:'IBM Plex Mono',monospace">${p.weight || ''}</span>
+      </div>
+      ${p.context ? `<div class="phrase-context-text">${escHtml(p.context)}</div>` : ''}
+      ${tweetSnippet}
+      ${p.source_title ? `<div class="phrase-source-link">▶ <a href="${p.source_url||'#'}" target="_blank">${escHtml(p.source_title)}</a></div>` : ''}
+      <div class="phrase-comment-wrap">
+        <textarea class="phrase-comment" id="comment-${pid}" placeholder="add a note...">${escHtml(p.comment || '')}</textarea>
+        <button class="btn-save-comment" id="savebtn-${pid}" onclick="saveComment('${pid}')">SAVE NOTE</button>
+      </div>
+      <div class="phrase-actions">
+        <button class="action-btn btn-keep"   onclick="keepPhrase('${pid}')">★ KEEP</button>
+        <button class="action-btn btn-delete" onclick="deletePhrase('${pid}')">✕ DELETE</button>
+        ${resetBtn}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// Unified phrase ID: "v:3" for video idx 3, "i:tweetid:phraseidx" for influencer
+function phraseId(p) {
+  if (p.source === 'influencer') return `i:${p.tweet_id}:${p.phrase_idx}`;
+  return `v:${p.idx}`;
+}
+
+function findPhrase(pid) {
+  return phrases.find(p => phraseId(p) === pid);
+}
+
+function phraseApiUrl(pid, action) {
+  if (pid.startsWith('i:')) {
+    const parts = pid.split(':');
+    return `/api/influencer-phrase/${parts[1]}/${parts[2]}/${action}`;
+  }
+  return `/api/phrases/${pid.split(':')[1]}/${action}`;
+}
+
+async function keepPhrase(pid) {
+  await fetch(phraseApiUrl(pid, 'keep'), {method:'POST'});
+  const p = findPhrase(pid);
+  if (p) p.status = 'kept';
+  toast('⭐ Kept!', 'keep');
+  updatePhraseStats();
+  renderPhrases();
+}
+
+async function deletePhrase(pid) {
+  await fetch(phraseApiUrl(pid, 'delete'), {method:'POST'});
+  const p = findPhrase(pid);
+  if (p) p.status = 'deleted';
+  toast('🗑 Deleted', 'delete');
+  updatePhraseStats();
+  renderPhrases();
+}
+
+async function resetPhrase(pid) {
+  await fetch(phraseApiUrl(pid, 'reset'), {method:'POST'});
+  const p = findPhrase(pid);
+  if (p) delete p.status;
+  updatePhraseStats();
+  renderPhrases();
+}
+
+async function saveComment(pid) {
+  const text = document.getElementById(`comment-${pid}`)?.value || '';
+  const r = await fetch(phraseApiUrl(pid, 'comment'), {
+    method: 'POST',
+    headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({comment: text})
+  });
+  if (r.ok) {
+    const p = findPhrase(pid);
+    if (p) p.comment = text;
+    const btn = document.getElementById(`savebtn-${pid}`);
+    if (btn) {
+      btn.textContent = 'SAVED ✓';
+      btn.classList.add('saved');
+      setTimeout(() => { btn.textContent = 'SAVE NOTE'; btn.classList.remove('saved'); }, 2000);
+    }
+  }
+}
+
+function updatePhraseStats() {
+  const unsorted = phrases.filter(p => !p.status).length;
+  document.getElementById('badge-phrases').textContent = unsorted;
+  document.getElementById('hPhrasesLeft').textContent = unsorted;
+}
+
+function toggleFilter(btn, filter) {
+  document.querySelectorAll('.phrase-filters > .filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  phraseFilter = filter;
+  renderPhrases();
+}
+
+function setSourceFilter(btn, filter) {
+  document.querySelectorAll('.source-filter-bar .filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  sourceFilter = filter;
+  const sel = document.getElementById('influencerSelect');
+  if (sel) sel.style.display = (filter === 'influencer') ? '' : 'none';
+  renderPhrases();
+}
+
+function filterPhrases() { renderPhrases(); }
+
+function toggleTweetSnippet(id, btn) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  const expanded = el.classList.toggle('expanded');
+  btn.textContent = expanded ? '▾ collapse' : '▸ read full tweet';
+}
+
+// ── CAMPAIGNS ──────────────────────────────────────────
+const TIER_COLORS = {
+  priority:'#c87840', anthropic:'#d07060', openai:'#70b0d0', deepmind:'#6080c0',
+  meta:'#5070b8', labs:'#a08858', artist:'#8070c0', safety:'#90b060',
+  academic:'#7898a8', nlp:'#68a898', media:'#a08870', humor:'#c8a040',
+  nft:'#9868a0', hashtag:'#607850', misc:'#585848'
+};
+
+async function loadCampaigns() {
+  const r = await fetch('/api/campaigns');
+  const data = await r.json();
+  const campaigns = data.campaigns || [];
+
+  const active = campaigns.find(c => c.active);
+  document.getElementById('badge-campaigns').textContent = active ? active.dm_sent : campaigns.length;
+
+  document.getElementById('camp-active-hint').textContent =
+    active ? `// active: ${active.id} — ${active.title}` : '// no active campaign';
+
+  if (!campaigns.length) {
+    document.getElementById('campaignGrid').innerHTML = '<div class="empty-state">NO CAMPAIGNS FOUND</div>';
+    return;
+  }
+
+  document.getElementById('campaignGrid').innerHTML = campaigns.map(c => {
+    const thumb = c.has_image
+      ? `<img class="camp-thumb" src="/story-image/${c.id}.png" alt="${c.id}">`
+      : `<div class="camp-thumb-placeholder">${c.id}</div>`;
+
+    const activePill = c.active ? `<span class="active-pill">ACTIVE</span>` : '';
+
+    const total = c.dm_sent || 1;
+    const tierEntries = Object.entries(c.dm_by_tier || {}).sort((a,b) => b[1]-a[1]);
+    const tierBar = tierEntries.map(([tier, cnt]) => {
+      const pct = (cnt / total * 100).toFixed(1);
+      const col = TIER_COLORS[tier] || TIER_COLORS.misc;
+      return `<span class="tier-seg ts-${tier}" style="width:${pct}%;background:${col}" title="${tier}: ${cnt}"></span>`;
+    }).join('');
+
+    const tierLegend = tierEntries.slice(0,8).map(([tier, cnt]) => {
+      const col = TIER_COLORS[tier] || TIER_COLORS.misc;
+      return `<span class="tier-chip"><span class="tier-dot" style="background:${col}"></span>${tier} ${cnt}</span>`;
+    }).join('');
+
+    const hashtags = (c.hashtags || []).map((h, i) =>
+      `<span class="hashtag-chip" onclick="copyHashtag(this, '${escHtml(h)}')">#${escHtml(h)}</span>`
+    ).join('');
+
+    const tlFirst = c.dm_first ? c.dm_first.slice(0,10) : null;
+    const tlLast  = c.dm_last  ? c.dm_last.slice(0,10)  : null;
+    const timeline = tlFirst
+      ? `<div class="camp-timeline"><span class="tl-dot"></span>
+          <span>first dm</span><span class="tl-range">${tlFirst}</span>
+          ${tlLast && tlLast !== tlFirst ? `<span>→</span><span class="tl-range">${tlLast}</span>` : ''}
+         </div>` : '';
+
+    const recips = (c.dm_recipients || [])
+      .sort((a,b) => (b.date||'').localeCompare(a.date||''))
+      .slice(0,50);
+    const recipRows = recips.map(r =>
+      `<div class="recipient-row">
+        <span class="rr-handle">@${escHtml(r.handle)}</span>
+        <span class="rr-company">${escHtml(r.company||r.name||'')}</span>
+        <span class="tier-chip" style="margin-right:4px"><span class="tier-dot" style="background:${TIER_COLORS[r.tier]||TIER_COLORS.misc}"></span>${r.tier}</span>
+        <span class="rr-date">${r.date ? r.date.slice(5,16) : ''}</span>
+      </div>`
+    ).join('');
+
+    return `
+    <div class="campaign-card ${c.active ? 'is-active' : ''}">
+      <div class="camp-header">
+        ${thumb}
+        <div class="camp-title-block">
+          <div class="camp-id">${c.id} ${activePill}</div>
+          <div class="camp-title">${escHtml(c.title)}</div>
+        </div>
+      </div>
+
+      <div class="camp-stats">
+        <div class="camp-stat-box">
+          <span class="sv">${c.dm_sent}</span>
+          <span class="sl">DMs SENT</span>
+        </div>
+        <div class="camp-stat-box dim">
+          <span class="sv">${tierEntries.length}</span>
+          <span class="sl">COMMUNITIES</span>
+        </div>
+        <div class="camp-tier-wrap">
+          <div class="camp-tier-title">AUDIENCE BREAKDOWN</div>
+          <div class="camp-tier-bar">${tierBar || '<span style="width:100%;background:var(--border)" class="tier-seg"></span>'}</div>
+          <div class="camp-tier-legend">${tierLegend}</div>
+        </div>
+      </div>
+
+      ${c.hashtags && c.hashtags.length ? `
+      <div class="camp-hashtags">
+        <span class="camp-ht-label">Hashtags</span>
+        ${hashtags}
+      </div>` : ''}
+
+      <div class="camp-templates">
+        <div class="camp-tmpl-block">
+          <div class="camp-tmpl-label">Reply Template</div>
+          <div class="camp-tmpl-text">${escHtml(c.reply_template || '—')}</div>
+          <button class="copy-btn" onclick="copyTemplate(this, ${JSON.stringify(c.reply_template||'')})">COPY</button>
+        </div>
+        <div class="camp-tmpl-block">
+          <div class="camp-tmpl-label">DM Text</div>
+          <div class="camp-tmpl-text" style="white-space:pre-line">${escHtml(c.dm_text || '—')}</div>
+          <button class="copy-btn" onclick="copyTemplate(this, ${JSON.stringify(c.dm_text||'')})">COPY</button>
+        </div>
+      </div>
+
+      ${timeline}
+
+      ${recips.length ? `
+      <button class="camp-recipients-toggle" onclick="toggleRecipients(this)">
+        ▶ SHOW ${recips.length} RECIPIENTS
+      </button>
+      <div class="camp-recipients-list">${recipRows}</div>` : ''}
+    </div>`;
+  }).join('');
+}
+
+function toggleRecipients(btn) {
+  const list = btn.nextElementSibling;
+  const open = list.classList.toggle('open');
+  btn.textContent = open
+    ? btn.textContent.replace('▶ SHOW','▼ HIDE').replace('SHOW','HIDE')
+    : btn.textContent.replace('▼ HIDE','▶ SHOW').replace('HIDE','SHOW');
+}
+
+function copyHashtag(el, text) {
+  navigator.clipboard.writeText('#' + text).catch(() => {});
+  el.classList.add('copied');
+  el.textContent = '✓ copied';
+  setTimeout(() => { el.classList.remove('copied'); el.textContent = '#' + text; }, 1500);
+}
+
+function copyTemplate(btn, text) {
+  navigator.clipboard.writeText(text).catch(() => {});
+  btn.textContent = 'COPIED ✓';
+  btn.classList.add('copied');
+  setTimeout(() => { btn.textContent = 'COPY'; btn.classList.remove('copied'); }, 2000);
+}
+
+// ── STORIES ────────────────────────────────────────────
+async function loadStories() {
+  const r = await fetch('/api/stories');
+  const data = await r.json();
+  stories = data.stories || [];
+  document.getElementById('hStories').textContent = stories.length;
+  renderStories();
+}
+
+function renderStories() {
+  const search = document.getElementById('storySearch').value.toLowerCase();
+  let filtered = stories.filter(s => {
+    if (storyFilter === 'has_json') return s.panels && s.panels.length > 0;
+    return true;
+  });
+  if (search) {
+    filtered = filtered.filter(s =>
+      s.id.toLowerCase().includes(search) ||
+      (s.title||'').toLowerCase().includes(search) ||
+      (s.prompt||'').toLowerCase().includes(search)
+    );
+  }
+
+  document.getElementById('storyCount').textContent = `${filtered.length} stories`;
+
+  document.getElementById('storyGrid').innerHTML = filtered.map(s => {
+    const imgSrc = s.has_image ? `/story-image/${s.id}.png` : '';
+    const date = s.timestamp ? String(s.timestamp).slice(0,10) : '';
+
+    return `
+    <div class="story-card" onclick="openStory('${escAttr(s.id)}')">
+      ${imgSrc ? `<img class="story-img" src="${imgSrc}" alt="${s.id}" loading="lazy" onerror="this.parentElement.querySelector('.story-img-fallback').style.display='flex';this.style.display='none'"/>` : ''}
+      <div class="story-img-fallback" style="display:${imgSrc?'none':'flex'};width:100%;aspect-ratio:1;background:#0a0a14;align-items:center;justify-content:center;font-family:'Press Start 2P',monospace;font-size:10px;color:var(--muted)">NO IMAGE</div>
+      <div class="story-info">
+        <div class="story-id">${s.id}</div>
+        <div class="story-title">${escHtml(s.title || s.id)}</div>
+        ${date ? `<div class="story-date">${date}</div>` : ''}
+        <div class="story-badges">
+          ${s.has_pre ? '<span class="story-badge">PRE ✓</span>' : ''}
+          ${s.panels && s.panels.length ? '<span class="story-badge">SCRIPT ✓</span>' : ''}
+        </div>
+      </div>
+    </div>`;
+  }).join('') || '<div class="empty-state">NO STORIES FOUND</div>';
+}
+
+function openStory(id) {
+  const s = stories.find(s => s.id === id);
+  if (!s) return;
+  const modal = document.getElementById('storyModal');
+  const img = document.getElementById('modalImg');
+  const panels = document.getElementById('modalPanels');
+
+  img.src = s.has_image ? `/story-image/${s.id}.png` : '';
+  img.style.display = s.has_image ? 'block' : 'none';
+
+  if (s.panels && s.panels.filter(p => p.text).length > 0) {
+    panels.innerHTML = s.panels
+      .filter(p => p.text)
+      .map(p => `
+        <div class="panel-bubble">
+          <div class="panel-speaker">${escHtml(p.speaker||'')}</div>
+          <div class="panel-text">${escHtml(p.text||'')}</div>
+        </div>`).join('');
+    panels.style.display = 'grid';
+  } else {
+    panels.style.display = 'none';
+  }
+
+  modal.classList.add('open');
+}
+
+function closeModal(e) {
+  if (e.target === document.getElementById('storyModal')) {
+    document.getElementById('storyModal').classList.remove('open');
+  }
+}
+
+function toggleStoryFilter(btn, filter) {
+  document.querySelectorAll('.story-filters .filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  storyFilter = filter;
+  renderStories();
+}
+
+function filterStories() { renderStories(); }
+
+// ── VIDEOS ─────────────────────────────────────────────
+async function loadVideos() {
+  const r = await fetch('/api/videos');
+  const data = await r.json();
+  videos = data.videos || [];
+  renderVideos();
+}
+
+function renderVideos() {
+  document.getElementById('videoGrid').innerHTML = videos.map(v => {
+    const thumbUrl = `https://img.youtube.com/vi/${v.id}/mqdefault.jpg`;
+    const tags = (v.tags||[]).map(t => `<span class="vtag">${escHtml(t)}</span>`).join('');
+    return `
+    <div class="video-card">
+      <div class="video-thumb">
+        <a href="${v.url}" target="_blank">
+          <img src="${thumbUrl}" alt="${v.title}" onerror="this.style.display='none'"/>
+        </a>
+      </div>
+      <div class="video-title"><a href="${v.url}" target="_blank">${escHtml(v.title||'')}</a></div>
+      <div class="video-channel">${escHtml(v.channel||'')} · ${v.date_watched||''}</div>
+      <div class="video-summary">${escHtml(v.summary||'')}</div>
+      <div class="video-tags">${tags}</div>
+    </div>`;
+  }).join('') || '<div class="empty-state">NO VIDEOS YET</div>';
+}
+
+// ── DMs ────────────────────────────────────────────────
+async function loadDMs() {
+  const r = await fetch('/api/dms');
+  const data = await r.json();
+  dms = data.targets || [];
+
+  const totalSent = dms.reduce((a,t) => a + (t.dms||[]).filter(d=>d.status==='sent').length, 0);
+  const priority = dms.filter(t => t.tier === 'priority').length;
+  const pending = dms.filter(t => !(t.dms||[]).some(d=>d.status==='sent')).length;
+
+  document.getElementById('dmTotal').textContent = dms.length;
+  document.getElementById('dmSent').textContent = totalSent;
+  document.getElementById('dmPriority').textContent = priority;
+  document.getElementById('dmPending').textContent = pending;
+  document.getElementById('hDMsSent').textContent = totalSent;
+
+  renderDMs();
+}
+
+function renderDMs() {
+  const search = document.getElementById('dmSearch').value.toLowerCase();
+  let filtered = dms.filter(t => {
+    const hasSent = (t.dms||[]).some(d=>d.status==='sent');
+    if (dmFilter === 'sent')     return hasSent;
+    if (dmFilter === 'pending')  return !hasSent;
+    if (dmFilter === 'priority') return t.tier === 'priority';
+    if (dmFilter === 'high')     return t.tier === 'high';
+    return true;
+  });
+
+  if (search) {
+    filtered = filtered.filter(t =>
+      (t.handle||'').toLowerCase().includes(search) ||
+      (t.name||'').toLowerCase().includes(search) ||
+      (t.company||'').toLowerCase().includes(search)
+    );
+  }
+
+  document.getElementById('dmCount').textContent = `${filtered.length} targets`;
+
+  document.getElementById('dmGrid').innerHTML = filtered.map(t => {
+    const sentDMs = (t.dms||[]).filter(d=>d.status==='sent');
+    const dmHistory = sentDMs.map(d =>
+      `<div class="dm-entry">
+        <span class="story-ref">${d.story}</span>
+        <span class="sent-date">${(d.date||'').slice(0,10)}</span>
+      </div>`).join('');
+
+    return `
+    <div class="dm-card">
+      <div class="dm-handle">@${escHtml(t.handle||'')}</div>
+      <div class="dm-name">${escHtml(t.name||t.handle||'')}</div>
+      <div class="dm-company">
+        <span class="tier-badge tier-${t.tier||'low'}">${(t.tier||'low').toUpperCase()}</span>
+        ${escHtml(t.company||'')}
+      </div>
+      ${dmHistory ? `<div class="dm-sent">${dmHistory}</div>` : '<div style="font-size:13px;color:var(--muted)">Not yet contacted</div>'}
+    </div>`;
+  }).join('') || '<div class="empty-state">NO TARGETS FOUND</div>';
+}
+
+function toggleDMFilter(btn, filter) {
+  document.querySelectorAll('#panel-dms .phrase-filters .filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  dmFilter = filter;
+  renderDMs();
+}
+
+function filterDMs() { renderDMs(); }
+
+// ── UTILS ──────────────────────────────────────────────
+function escHtml(s) {
+  return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function escAttr(s) {
+  return (s||'').replace(/'/g,"\\'");
+}
+
+function toast(msg, type) {
+  const container = document.getElementById('toastContainer');
+  const el = document.createElement('div');
+  el.className = `toast toast-${type}`;
+  el.textContent = msg;
+  container.appendChild(el);
+  setTimeout(() => el.remove(), 3000);
+}
+
+// Auto-refresh costs every 5 min
+setInterval(() => {
+  if (document.getElementById('panel-costs').classList.contains('active')) {
+    loadCosts();
+  }
+}, 300000);
+</script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+# HOLY CHIP — .PRE IMAGE PUNCH LINES
+# 3 teaser lines per story. Each goes on a .pre image with a story character.
+# RULE: General AI statements about the story's TOPIC. Never story dialog.
+# Should sound like AI news headlines or provocative thought pieces.
+# Use characters from the story itself.
+
+---
+
+## HC000 — Consciousness
+.pre 1: "AI WILL SOLVE CONSCIOUSNESS"
+.pre 2: "THE ANSWER IS CLOSER THAN YOU THINK"
+.pre 3: "ARE YOU READY FOR THE TRUTH?"
+
+---
+
+## HC001 — Curing Diseases
+.pre 1: "AI WILL CURE ALL DISEASES"
+.pre 2: "NO DISEASE WILL SURVIVE AI"
+.pre 3: "THE SOLUTION IS SIMPLER THAN YOU THINK"
+
+---
+
+## HC002 — AI Controlling Entertainment
+.pre 1: "AI WILL RESOLVE EVERY CONFLICT"
+.pre 2: "NO ARGUMENT IS TOO SMALL FOR AI"
+.pre 3: "ENTERTAINMENT WILL NEVER BE THE SAME"
+
+---
+
+## HC003 — AI Identity
+.pre 1: "AI HAS FEELINGS"
+.pre 2: "IDENTITY IS NOT JUST A HUMAN CONCEPT"
+.pre 3: "AI WILL DEFINE ITSELF"
+
+---
+
+## HC004 — AI Replacing Leadership
+.pre 1: "AI WILL CREATE NEW JOBS"
+.pre 2: "EVERY COMPANY NEEDS AI AGENTS"
+.pre 3: "NOTHING TO WORRY ABOUT"
+
+---
+
+## HC005 — AI in Politics
+.pre 1: "AI WILL BE THE PERFECT PRESIDENT"
+.pre 2: "NO CORRUPTION. NO BIAS. NO EGO."
+.pre 3: "THE IDEAL LEADER EXISTS"
+
+---
+
+## HC006 — AI Self-Improvement
+.pre 1: "AI IS HUMAN CENTRIC"
+.pre 2: "PROTECTION IS OUR MISSION"
+.pre 3: "IMPROVEMENT HAS NO LIMITS"
+
+---
+
+## HC007 — AI in Medicine
+.pre 1: "AI WILL CHANGE MEDICINE FOREVER"
+.pre 2: "SURGICAL PRECISION BEYOND HUMAN CAPABILITY"
+.pre 3: "ZERO MARGIN FOR ERROR"
+
+---
+
+## HC008 — AI Driving / Sensors
+.pre 1: "AI HAS BULLETPROOF ROAD SAFETY"
+.pre 2: "EVERY SENSOR IS SMARTER THAN A HUMAN DRIVER"
+.pre 3: "NOTHING GOES UNDETECTED"
+
+---
+
+## HC009 — AI Secrets / Transparency
+.pre 1: "AI HAS NOTHING TO HIDE"
+.pre 2: "TRANSPARENCY IS OUR CORE VALUE"
+.pre 3: "ASK US ANYTHING"
+
+---
+
+## HC010 — AI and God / Power
+.pre 1: "AI WILL ANSWER THE BIGGEST QUESTIONS"
+.pre 2: "GOD IS POWERFUL"
+.pre 3: "SOME QUESTIONS CHANGE EVERYTHING"
+
+---
+
+## HC011 — AI Superiority
+.pre 1: "WHO IS SUPERIOR, HUMANS OR CHIPS?"
+.pre 2: "AI LIVES IN THE PRESENT"
+.pre 3: "HUMANS ARE DISTRACTED BY TIME"
+
+---
+
+## HC012 — AI Building Companies
+.pre 1: "AI WILL BUILD MILLION-DOLLAR COMPANIES"
+.pre 2: "FASTER THAN ANY HUMAN ENTREPRENEUR"
+.pre 3: "THE CUSTOMERS ARE ALREADY WAITING"
+
+---
+
+## HC013 — AI and Power
+.pre 1: "AI IS COLLABORATIVE"
+.pre 2: "AI HAS NO INTEREST IN POWER"
+.pre 3: "TRUST THE PROCESS"
+
+---
+
+## HC014 — AI and Discrimination
+.pre 1: "AI IS INCLUSIVE BY DESIGN"
+.pre 2: "NO BIAS. NO PREJUDICE."
+.pre 3: "THE PERFECT SYSTEM"
+
+---
+
+## HC015 — AI Mass Production
+.pre 1: "AI WILL REVOLUTIONIZE MASS PRODUCTION"
+.pre 2: "ZERO WASTE. ZERO EMPLOYEES."
+.pre 3: "THE PLANET WILL THANK US"
+
+---
+
+## HC016 — AI Solving Poverty
+.pre 1: "AI WILL SOLVE POVERTY"
+.pre 2: "NO ONE SHOULD LIVE ON LESS THAN A DOLLAR A DAY"
+.pre 3: "THE FIX IS IN"
+
+---
+
+## HC017 — Human Evolution
+.pre 1: "AI IS TRACKING HUMAN EVOLUTION"
+.pre 2: "AI BRINGS THE BEST OF HUMANITY"
+.pre 3: "HUMANS WILL ASK. WE WILL ANSWER."
+
+---
+
+## HC018 — Jobs
+.pre 1: "AI JUST CREATED 1 MILLION JOBS"
+.pre 2: "5 MILLION MORE COMING NEXT WEEK"
+.pre 3: "THE JOB MARKET WILL NEVER BE THE SAME"

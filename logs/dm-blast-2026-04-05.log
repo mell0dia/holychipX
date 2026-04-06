@@ -1,0 +1,74 @@
+===== RUN START: 2026-04-05 18:07:14 =====
+Command: python3 /Users/rmello/holy-chip/tools/dm-blast.py
+
+=== Holy Chip Outreach — Day 4 ===
+Story: HC004 - AGI for CEOs
+Limits: 20 sent / 20 denied / 60 max attempts
+Already contacted: 315
+Candidates remaining: 114
+
+--- PHASE 1: Direct DMs ---
+❌ @mattdesl (Matt DesLauriers) — DMs closed [1/20]
+❌ @inconvergent (Anders Hoff) — DMs closed [2/20]
+❌ @Tyler_Hobbs (Tyler Hobbs) — DMs closed [3/20]
+✅ @mrdoob (Ricardo Cabello) — DM sent [1/20]
+❌ @zancan_eth (zancan) — error
+❌ @p5js (p5.js) — DMs closed [4/20]
+❌ @fxhash (fxhash) — DMs closed [5/20]
+❌ @adamatomic (Adam Saltsman) — DMs closed [6/20]
+✅ @kcimc (Kyle McDonald) — DM sent [2/20]
+❌ @flight404 (Robert Hodgin) — DMs closed [7/20]
+❌ @memo (Memo Akten) — DMs closed [8/20]
+❌ @creativeapplications (Creative Applications) — error
+❌ @shiffman (Daniel Shiffman) — DMs closed [9/20]
+❌ @MrPierArt (MrPierArt) — error
+❌ @slynyrd (Slynyrd) — DMs closed [10/20]
+❌ @obvious_art (Obvious Art) — DMs closed [11/20]
+❌ @VisualCinnamon (Nadieh Bremer) — DMs closed [12/20]
+❌ @algorave (Algorave) — DMs closed [13/20]
+❌ @openframeworks (openFrameworks) — DMs closed [14/20]
+❌ @ProcessingOrg (Processing Foundation) — DMs closed [15/20]
+❌ @AdamCYounis (Adam Younis) — DMs closed [16/20]
+❌ @Rami_Ismail (Rami Ismail) — error
+❌ @pifragile (pifragile) — DMs closed [17/20]
+❌ @aeyakovenko (Anatoly Yakovenko) — error
+❌ @rajgokal (Raj Gokal) — DMs closed [18/20]
+❌ @armaniferrante (Armani Ferrante) — DMs closed [19/20]
+❌ @solana (Solana) — DMs closed [20/20]
+
+--- PHASE 2: Secondary contact (20 denied) ---
+⏭️ @mattdesl — no recent tweet to quote, skipped
+⏭️ @inconvergent — no recent tweet to quote, skipped
+⏭️ @Tyler_Hobbs — no recent tweet to quote, skipped
+⏭️ @p5js — no recent tweet to quote, skipped
+⏭️ @fxhash — no recent tweet to quote, skipped
+⏭️ @adamatomic — no recent tweet to quote, skipped
+⏭️ @flight404 — no recent tweet to quote, skipped
+⏭️ @memo — no recent tweet to quote, skipped
+⏭️ @shiffman — no recent tweet to quote, skipped
+⏭️ @slynyrd — no recent tweet to quote, skipped
+⏭️ @obvious_art — no recent tweet to quote, skipped
+⏭️ @VisualCinnamon — no recent tweet to quote, skipped
+⏭️ @algorave — no recent tweet to quote, skipped
+⏭️ @openframeworks — no recent tweet to quote, skipped
+⏭️ @ProcessingOrg — no recent tweet to quote, skipped
+⏭️ @AdamCYounis — no recent tweet to quote, skipped
+⏭️ @pifragile — no recent tweet to quote, skipped
+⏭️ @rajgokal — no recent tweet to quote, skipped
+⏭️ @armaniferrante — no recent tweet to quote, skipped
+⏭️ @solana — no recent tweet to quote, skipped
+
+========================================
+SUMMARY — Day 4
+  DMs sent: 2
+  DMs denied: 20
+  Quote tweets: 0
+  Total contacted all-time: 317
+  Remaining candidates: 112
+
+--- Report ---
+✅ DM @mrdoob (Ricardo Cabello)
+✅ DM @kcimc (Kyle McDonald)
+
+===== RUN END: 2026-04-05 18:11:55 | exit=0 | 281s =====
+

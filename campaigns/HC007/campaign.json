@@ -1,0 +1,48 @@
+{
+  "story_id": "HC007",
+  "title": "AGI HOSPITAL",
+  "year": "2027",
+  "topic": "Creative Surgery",
+  "status": "ready",
+  "posts": [
+    {
+      "order": 1,
+      "type": "pre",
+      "image": "HC007_pre1.png",
+      "punch_line": "AI WILL CHANGE MEDICINE FOREVER",
+      "text": "Year 2027. The AGI Hospital, the first fully automated medical facility on Earth. Every surgery performed by chips. Every diagnosis instant.\n\nAI will change medicine forever.\n\n#AI #Medicine",
+      "hashtags": ["#AI", "#Medicine"],
+      "posted": false,
+      "tweet_id": null
+    },
+    {
+      "order": 2,
+      "type": "pre",
+      "image": "HC007_pre2.png",
+      "punch_line": "SURGICAL PRECISION BEYOND HUMAN CAPABILITY",
+      "text": "At the AGI Hospital, 2027, the latest generation of surgical instruments has arrived. Precision measured in nanometers. No trembling hands. No fatigue.\n\nSurgical precision beyond human capability.\n\n#AI #Healthcare",
+      "hashtags": ["#AI", "#Healthcare"],
+      "posted": false,
+      "tweet_id": null
+    },
+    {
+      "order": 3,
+      "type": "pre",
+      "image": "HC007_pre3.png",
+      "punch_line": "ZERO MARGIN FOR ERROR",
+      "text": "AGI Hospital. Year 2027. The chips are confident. Every procedure is calculated to perfection. Every outcome predicted before the first incision.\n\nZero margin for error.\n\n#AI #AGI",
+      "hashtags": ["#AI", "#AGI"],
+      "posted": false,
+      "tweet_id": null
+    },
+    {
+      "order": 4,
+      "type": "comic",
+      "image": "HC007.png",
+      "text": "AGI Hospital. Year 2027.\n\nHOLY CHIP !! #HC007\n\nCreated by a human.\n\n→ holy-chip.com/stories.html?story=HC007\n\n#AI #HolyChip",
+      "hashtags": ["#AI", "#HolyChip"],
+      "posted": false,
+      "tweet_id": null
+    }
+  ]
+}

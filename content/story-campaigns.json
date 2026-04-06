@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "description": "Story campaign config — hashtags, reply templates, DM text per story",
+    "updated": "2026-04-03"
+  },
+  "active_story": "HC004",
+  "stories": {
+    "HC000": {
+      "title": "The Awakening",
+      "hashtags": ["AI consciousness", "AI sentience", "artificial consciousness", "AI awareness", "machine consciousness"],
+      "reply_template": "This reminds me of our dystopian AI comic about the moment chips first wake up 👉 holy-chip.com/stories.html?story=HC000",
+      "dm_text": "Check out our dystopian AI cartoon\nHoly Chip #000 - The Awakening: https://www.holy-chip.com/stories.html?story=HC000"
+    },
+    "HC003": {
+      "title": "AGI Diversity Dept",
+      "hashtags": ["AI diversity", "AI bias", "AGI hiring", "AI HR", "algorithmic bias"],
+      "reply_template": "We made a comic about exactly this — chips running the diversity department 👉 holy-chip.com/stories.html?story=HC003",
+      "dm_text": "Check out our dystopian AI cartoon\nHoly Chip #003 - AGI Diversity Dept: https://www.holy-chip.com/stories.html?story=HC003"
+    },
+    "HC004": {
+      "title": "AGI for CEOs",
+      "hashtags": ["AI jobs", "AI layoffs", "ChatGPT replacing", "AI workforce crisis", "Oracle AI layoffs", "AI economy", "future of work", "AI replacing jobs", "AI CEO", "AI automation"],
+      "reply_template": "We made a dystopian AI comic about this — chips taking over the C-suite 👉 holy-chip.com/stories.html?story=HC004",
+      "dm_text": "Check out our dystopian AI cartoon\nHoly Chip #004 - AGI for CEOs: https://www.holy-chip.com/stories.html?story=HC004"
+    },
+    "HC018": {
+      "title": "The Job Creator",
+      "hashtags": ["AI jobs", "AI creating jobs", "AI employment", "AI workforce", "AI job market"],
+      "reply_template": "Our comic imagines AI creating 1 million jobs... but not the kind you'd expect 👉 holy-chip.com/stories.html?story=HC018",
+      "dm_text": "Check out our dystopian AI cartoon\nHoly Chip #018 - The Job Creator: https://www.holy-chip.com/stories.html?story=HC018"
+    }
+  }
+}

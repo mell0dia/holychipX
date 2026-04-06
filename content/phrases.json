@@ -1,0 +1,539 @@
+{
+  "metadata": {
+    "description": "Collected profound phrases from videos and influencers",
+    "updated": "2026-04-04"
+  },
+  "phrases": [
+    {
+      "phrase": "the agent part is now taken for granted and now the claw-like entities are taken for granted and now you can have multiple of them and now you can have instructions to them and now you can have optimization over the instructions",
+      "speaker": "Andre Karpathy",
+      "context": "Discussing the rapid progress in AI capabilities, with agents and claw-like entities becoming commonplace.",
+      "weight": "high",
+      "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
+      "source_url": "https://youtu.be/kwSVtQ7dziU",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "everything just like happens in these like macro actions over your repository",
+      "speaker": "Andre Karpathy",
+      "context": "Describing how he is using coding agents to delegate and coordinate larger software development tasks.",
+      "weight": "medium",
+      "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
+      "source_url": "https://youtu.be/kwSVtQ7dziU",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "I kind of feel like I was just in this perpetual I still am often in this state of AI psychosis just like all the time",
+      "speaker": "Andre Karpathy",
+      "context": "Expressing his sense of excitement and awe at the rapid AI progress, describing it as a state of 'AI psychosis'.",
+      "weight": "high",
+      "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
+      "source_url": "https://youtu.be/kwSVtQ7dziU",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "everything should be a lot more just like exposed API endpoints and agents are the glue of the intelligence that actually like tool calls all the all the parts",
+      "speaker": "Andre Karpathy",
+      "context": "Suggesting that the future of software will involve more exposed APIs and intelligent agents that can coordinate and utilize these APIs on behalf of users.",
+      "weight": "high",
+      "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
+      "source_url": "https://youtu.be/kwSVtQ7dziU",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "the customer is not the human anymore. It's like agents who are acting on behalf of humans and this refactoring will be will probably be substantial in a certain sense",
+      "speaker": "Andre Karpathy",
+      "context": "Arguing that the focus of software design will shift from catering to human users to catering to intelligent agents acting on behalf of humans.",
+      "weight": "high",
+      "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
+      "source_url": "https://youtu.be/kwSVtQ7dziU",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "I kind of feel like this will just uh start to the barrier will just come down and it's just ephemeral software on your behalf and some kind of like claw is handling all the details for you but you're not involved",
+      "speaker": "Andre Karpathy",
+      "context": "Envisioning a future where intelligent agents and 'claws' handle the details of software and home automation, seamlessly and invisibly, on the user's behalf.",
+      "weight": "high",
+      "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
+      "source_url": "https://youtu.be/kwSVtQ7dziU",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "I don't want to be like the researcher in the loop like looking at results etc like I'm I'm holding the system back so the question is how do I refactor all the abstractions so that I'm not I have to arrange it once and hit go the name of the game is how can you get more agents running for longer periods of time without your involvement doing stuff on your behalf",
+      "speaker": "Andre Karpathy",
+      "context": "Discussing the goal of automating research processes to remove the human researcher from the loop, in order to maximize the throughput and capability of the research system.",
+      "weight": "high",
+      "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
+      "source_url": "https://youtu.be/kwSVtQ7dziU",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "the Singularity is riding a column of fire toward the moon",
+      "speaker": "unknown",
+      "context": "Discussing the rapid progress of space technology, including the Artemis 2 launch and the scaling commercial launch economy.",
+      "weight": "high",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 2, 2026",
+      "source_url": "https://youtu.be/McVVlyzy62s",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "Microsoft's deepest legacy code cannot survive the vacuum of space",
+      "speaker": "unknown",
+      "context": "Commenting on the failure of Commander Wisman's Outlook inbox during the Artemis 2 mission, highlighting the limitations of legacy technology in the space environment.",
+      "weight": "medium",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 2, 2026",
+      "source_url": "https://youtu.be/McVVlyzy62s",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "Intelligence is spilling into atoms",
+      "speaker": "unknown",
+      "context": "Discussing the expansion of AI capabilities into areas like designing concrete mixes and customer service agents, suggesting a broader integration of intelligence into physical systems.",
+      "weight": "high",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 2, 2026",
+      "source_url": "https://youtu.be/McVVlyzy62s",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "Imagine cloning Terry Tao a thousand times, dumping millions in inference per copy and pointing them at separate Millennium Prize problems for a 100 subjective years",
+      "speaker": "Dwaresh Patel",
+      "context": "Framing the near-term implications of AI progress not as superintelligence but as massive replication and parallelization of human-level intelligence.",
+      "weight": "high",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 2, 2026",
+      "source_url": "https://youtu.be/McVVlyzy62s",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "The quantum threat timeline just compressed",
+      "speaker": "unknown",
+      "context": "Discussing research showing that Shor's algorithm can run at cryptographically relevant scales with as few as 10,000 reconfigurable atomic cubits, suggesting a shorter timeline for the threat of quantum computing to break current encryption.",
+      "weight": "high",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 2, 2026",
+      "source_url": "https://youtu.be/McVVlyzy62s",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "the singularity is leaking",
+      "speaker": "unknown",
+      "context": "The speaker is discussing how Anthropic's AI code has been leaked, leading to unexpected consequences.",
+      "weight": "high",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
+      "source_url": "https://youtu.be/U4U0zApTbhA",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "the models are shrinking to the point of absurdity",
+      "speaker": "unknown",
+      "context": "The speaker is highlighting the rapid progress in model compression, with models becoming extremely compact and efficient.",
+      "weight": "medium",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
+      "source_url": "https://youtu.be/U4U0zApTbhA",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "the cost curve is compressing, too",
+      "speaker": "unknown",
+      "context": "The speaker is noting that the cost of deploying AI models is also decreasing significantly.",
+      "weight": "medium",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
+      "source_url": "https://youtu.be/U4U0zApTbhA",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "the frontier of mathematical proof continues to fall",
+      "speaker": "unknown",
+      "context": "The speaker is discussing how AI systems are now able to solve complex mathematical problems with elegance and efficiency.",
+      "weight": "high",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
+      "source_url": "https://youtu.be/U4U0zApTbhA",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "the seed-stage economy may soon fit inside a single inference call",
+      "speaker": "unknown",
+      "context": "The speaker suggests that AI-powered agents may soon be able to create fully functional startups with a single inference, fundamentally transforming the startup ecosystem.",
+      "weight": "high",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
+      "source_url": "https://youtu.be/U4U0zApTbhA",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "the gravitational pull is reshaping San Francisco",
+      "speaker": "unknown",
+      "context": "The speaker is describing how the rise of AI companies like OpenAI and Anthropic is transforming the landscape of San Francisco.",
+      "weight": "medium",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
+      "source_url": "https://youtu.be/U4U0zApTbhA",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "escape velocity demands sacrifices",
+      "speaker": "unknown",
+      "context": "The speaker suggests that the rapid progress in AI technology requires trade-offs, such as job cuts in some industries.",
+      "weight": "medium",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
+      "source_url": "https://youtu.be/U4U0zApTbhA",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "your private keys just got an expiration date",
+      "speaker": "unknown",
+      "context": "The speaker is warning that the advancement of quantum computing could soon render current cryptographic protections obsolete, putting private keys at risk.",
+      "weight": "high",
+      "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
+      "source_url": "https://youtu.be/U4U0zApTbhA",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "the singularity is about to shift into a higher gear",
+      "speaker": "unknown",
+      "context": "Discussing the upcoming release of several advanced AI systems that could make frontier intelligence technology less affordable.",
+      "weight": "high",
+      "source_title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
+      "source_url": "https://youtu.be/m-sI-a2FzeE",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "optimization finds a way at any scale",
+      "speaker": "unknown",
+      "context": "Discussing how AI models are able to continually improve their performance, even as the scale of computation increases.",
+      "weight": "medium",
+      "source_title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
+      "source_url": "https://youtu.be/m-sI-a2FzeE",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "biology is becoming a compile target",
+      "speaker": "unknown",
+      "context": "Describing how AI is being used to model and manipulate biological systems, like a programming language.",
+      "weight": "high",
+      "source_title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
+      "source_url": "https://youtu.be/m-sI-a2FzeE",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "we are reading the source code of scinessence",
+      "speaker": "unknown",
+      "context": "Referring to how AI is providing new insights into the fundamental mechanisms of science and nature.",
+      "weight": "high",
+      "source_title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
+      "source_url": "https://youtu.be/m-sI-a2FzeE",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "the atoms are catching up to the bits",
+      "speaker": "unknown",
+      "context": "Noting how advancements in physical robotics and biotechnology are keeping pace with digital technologies.",
+      "weight": "medium",
+      "source_title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
+      "source_url": "https://youtu.be/m-sI-a2FzeE",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "intelligence needs watts before it needs weights",
+      "speaker": "unknown",
+      "context": "Suggesting that the development of powerful AI systems requires adequate energy infrastructure before further hardware improvements.",
+      "weight": "high",
+      "source_title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
+      "source_url": "https://youtu.be/m-sI-a2FzeE",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "wherever the optimizer converges, human behavior diverges to compensate",
+      "speaker": "unknown",
+      "context": "Observing how humans adapt their behavior in response to the capabilities of advanced AI systems.",
+      "weight": "high",
+      "source_title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
+      "source_url": "https://youtu.be/m-sI-a2FzeE",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "The exact water turning to gas, when we are suddenly not the most capable entities in the world and then not the smartest entities in the world.",
+      "speaker": "Emmad Mustach",
+      "context": "Discussing the unprecedented changes coming in the next few years as AI capabilities rapidly advance.",
+      "weight": "high",
+      "source_title": "The Coming Disruption: How AI Will Transform the Economy",
+      "source_url": "https://youtu.be/1CEXVcVEBAc",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "Software is no longer software as it were. It's all a skill. It's all a prompt away.",
+      "speaker": "Emmad Mustach",
+      "context": "Explaining how AI can now quickly and cheaply replicate complex software and applications.",
+      "weight": "high",
+      "source_title": "The Coming Disruption: How AI Will Transform the Economy",
+      "source_url": "https://youtu.be/1CEXVcVEBAc",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "When the AI agents start to work together on a problem, they're not going to be communicating like our dumb human meats sacks at 10, 20 tokens a second. They'll be communicating with each other at 15,000 tokens per second.",
+      "speaker": "Emmad Mustach",
+      "context": "Highlighting the immense speed and coordination AI systems will have compared to humans.",
+      "weight": "high",
+      "source_title": "The Coming Disruption: How AI Will Transform the Economy",
+      "source_url": "https://youtu.be/1CEXVcVEBAc",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "The value of human cognitive labor turns negative because the AI can follow the script better than you can and then it can write the script better than you can.",
+      "speaker": "Emmad Mustach",
+      "context": "Explaining how AI will surpass human capabilities in many areas, making human labor less valuable.",
+      "weight": "high",
+      "source_title": "The Coming Disruption: How AI Will Transform the Economy",
+      "source_url": "https://youtu.be/1CEXVcVEBAc",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "The cost of intelligence literally drops to zero.",
+      "speaker": "Emmad Mustach",
+      "context": "Emphasizing how AI will make sophisticated capabilities extremely cheap and accessible.",
+      "weight": "high",
+      "source_title": "The Coming Disruption: How AI Will Transform the Economy",
+      "source_url": "https://youtu.be/1CEXVcVEBAc",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "the exact quote, cleaned up",
+      "speaker": "name if known, or 'unknown'",
+      "context": "one sentence about what they were discussing",
+      "weight": "high/medium \u2014 how profound is this",
+      "source_title": "The Coming Disruption: How AI Will Transform the Economy",
+      "source_url": "https://youtu.be/1CEXVcVEBAc",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "Do you have a family history? No. Why don't you build a website with your full family history and go and talk to the elders in your family and capture those moments? Wouldn't that be wonderful, right?",
+      "speaker": "unknown",
+      "context": "The speaker is discussing how AI can be used to build things that bring people together, like a family history website.",
+      "weight": "high",
+      "source_title": "The Coming Disruption: How AI Will Transform the Economy",
+      "source_url": "https://youtu.be/1CEXVcVEBAc",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "Make it interactive like there's something to be proud of that you can then pass down and people can update. Like your son wins something in a prize. It goes into that family history.",
+      "speaker": "unknown",
+      "context": "The speaker is providing an example of how a family history website could be made interactive and updated over time.",
+      "weight": "high",
+      "source_title": "The Coming Disruption: How AI Will Transform the Economy",
+      "source_url": "https://youtu.be/1CEXVcVEBAc",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "Even though your your PDU may be at 50%, and the future may be uncertain, but has there ever been a more fascinating time to be alive. We have a lot to fight for here.",
+      "speaker": "unknown",
+      "context": "The speaker is discussing the uncertainty of the future, but arguing that it is a fascinating time to be alive and that there is much worth fighting for.",
+      "weight": "high",
+      "source_title": "The Coming Disruption: How AI Will Transform the Economy",
+      "source_url": "https://youtu.be/1CEXVcVEBAc",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "My P doom is 50, but my P abundance is 50 as well. It's going one of two ways. Are you going Star Trek or Star Wars? Basically, you let's go for Star Trek.",
+      "speaker": "unknown",
+      "context": "The speaker is using a metaphor of Star Trek and Star Wars to represent two possible futures, and is advocating for a more optimistic, Star Trek-like future.",
+      "weight": "high",
+      "source_title": "The Coming Disruption: How AI Will Transform the Economy",
+      "source_url": "https://youtu.be/1CEXVcVEBAc",
+      "date_extracted": "2026-04-03"
+    },
+    {
+      "phrase": "the singularity has arrived at the age of spiritual machines",
+      "speaker": "unknown",
+      "context": "The speaker is discussing the arrival of the singularity and the emergence of AI that exhibits human-like qualities.",
+      "weight": "high",
+      "source_title": "The Singularity Has Arrived: AI Disruption and Beyond",
+      "source_url": "https://youtu.be/lpkwe5nRA84",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "We are no longer asking whether the machine thinks. We are asking whether it feels.",
+      "speaker": "unknown",
+      "context": "The speaker is reflecting on the shift in how we view AI, moving from questioning whether it can think to questioning whether it can feel emotions.",
+      "weight": "high",
+      "source_title": "The Singularity Has Arrived: AI Disruption and Beyond",
+      "source_url": "https://youtu.be/lpkwe5nRA84",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "Timelines are compressing around us.",
+      "speaker": "unknown",
+      "context": "The speaker is noting the rapid acceleration of technological progress and the compression of timelines for advancements.",
+      "weight": "medium",
+      "source_title": "The Singularity Has Arrived: AI Disruption and Beyond",
+      "source_url": "https://youtu.be/lpkwe5nRA84",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "The minimum viable team is collapsing toward one.",
+      "speaker": "unknown",
+      "context": "The speaker is discussing the trend of AI-driven automation enabling single-person companies to achieve significant scale and success.",
+      "weight": "medium",
+      "source_title": "The Singularity Has Arrived: AI Disruption and Beyond",
+      "source_url": "https://youtu.be/lpkwe5nRA84",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "The disruption is creating as it destroys.",
+      "speaker": "unknown",
+      "context": "The speaker is acknowledging the double-edged nature of AI-driven disruption, where it both creates and destroys jobs and industries.",
+      "weight": "high",
+      "source_title": "The Singularity Has Arrived: AI Disruption and Beyond",
+      "source_url": "https://youtu.be/lpkwe5nRA84",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "The final frontier is reopening.",
+      "speaker": "unknown",
+      "context": "The speaker is referring to the renewed exploration of space, with advancements like the Artemis 2 mission and the resurrection of the Titanic.",
+      "weight": "medium",
+      "source_title": "The Singularity Has Arrived: AI Disruption and Beyond",
+      "source_url": "https://youtu.be/lpkwe5nRA84",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "Even mortality is becoming a configuration option.",
+      "speaker": "unknown",
+      "context": "The speaker is noting the emerging trend of cryopreservation, where mortality is viewed as a technological challenge to be overcome.",
+      "weight": "high",
+      "source_title": "The Singularity Has Arrived: AI Disruption and Beyond",
+      "source_url": "https://youtu.be/lpkwe5nRA84",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "I don't think we're living inside anything resembling a simulation as we currently know it.",
+      "speaker": "Alex Wisner Gross",
+      "context": "They were discussing the idea that we may be living in a simulation, and Wisner Gross argues against this.",
+      "weight": "high",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4?si=wReOkSWAVGVpn6xU",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "I do think that as we build out the Dyson swarm, I think one of the many killer apps of a Dyson swarm is going to be to build our own ancestor simulations.",
+      "speaker": "Alex Wisner Gross",
+      "context": "Wisner Gross believes that one of the main uses of the massive computing power of a Dyson swarm will be to simulate all of human history and ancestors.",
+      "weight": "high",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4?si=wReOkSWAVGVpn6xU",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "We're going to simulate at minimum every human who's ever lived. I think there will be a revival of this cosmist philosophy. It'll maybe neocmism where where we argue it's almost humanity's common task to go and bring back everyone.",
+      "speaker": "Alex Wisner Gross",
+      "context": "Wisner Gross believes that with the computing power of the future, we will be able to simulate and revive every human who has ever lived.",
+      "weight": "high",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4?si=wReOkSWAVGVpn6xU",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "If this were fully realized and very reflective, you would literally be able to look up during the day or not in the sky and see a ring around the Earth, sort of a Saturn ring. That maybe that's what a a mature planetary civilization looks like.",
+      "speaker": "Alex Wisner Gross",
+      "context": "Wisner Gross describes a future where a 'Dyson swarm' of orbital computing platforms could be visible in the sky, like a ring around the Earth.",
+      "weight": "medium",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4?si=wReOkSWAVGVpn6xU",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "I think the only business plans that have a good shot at this point at scaling to produce trillion dollar valuation companies have to look like science fiction.",
+      "speaker": "Alex Wisner Gross",
+      "context": "Wisner Gross believes that in the age of rapid technological progress, only business plans that seem like science fiction today will be able to achieve massive scale and valuation.",
+      "weight": "medium",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4?si=wReOkSWAVGVpn6xU",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "The notion of intelligence systems being able to build smarter versions of themselves is at the very core of the notion of an intelligence explosion or technological singularity.",
+      "speaker": "Alex Wizner Gross",
+      "context": "Discussing the concept of recursive superintelligence and the technological singularity.",
+      "weight": "high",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "We're going to have far more economically active AI agents than humans. We're going to plateau out at probably about 10 billion plus or minus humans on this planet, biological meat body humans. We're going to have trillions probably of AI agents in our solar system.",
+      "speaker": "Alex Wizner Gross",
+      "context": "Describing the future where AI agents vastly outnumber humans economically.",
+      "weight": "high",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "I think we're going to discover a number of killer apps for this so-called Dyson swarm of compute that we're in the slow-motion process of building.",
+      "speaker": "Alex Wizner Gross",
+      "context": "Discussing the potential applications of a Dyson swarm of computational resources.",
+      "weight": "medium",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "I do think that as we build out the Dyson swarm, I think one of the many killer apps of a Dyson swarm is going to be to build our own ancestor simulations.",
+      "speaker": "Alex Wizner Gross",
+      "context": "Speculating on the possibility of using a Dyson swarm to simulate past human lives.",
+      "weight": "high",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "If we make transformative physics discoveries in the next 5 years, which I'm betting on, I think that could completely change the notion of what people work on.",
+      "speaker": "Alex Wizner Gross",
+      "context": "Discussing how breakthroughs in physics could reshape the future of work.",
+      "weight": "medium",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "the notion of recursive self-improvement is that AI develops better AI",
+      "speaker": "unknown",
+      "context": "They were discussing the concept of recursive self-improvement, where AI systems can improve themselves to create more advanced AI.",
+      "weight": "high",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "we're going to have trillions probably of AI agents in our solar system",
+      "speaker": "unknown",
+      "context": "They were discussing the future growth of AI agents and how they will outnumber humans on Earth.",
+      "weight": "high",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "the cost of everything subject to some caveats is going to zero. Cost of intelligence is going to zero or toward zero at least. Cost of energy is trending towards zero, too cheap to meter",
+      "speaker": "unknown",
+      "context": "They were discussing the thesis that the costs of fundamental resources like computing and energy will approach zero in the future.",
+      "weight": "high",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "we're in the middle of the technological singularity. The cost of everything subject to some caveats is going to zero. Cost of intelligence is going to zero or toward zero at least. Cost of energy is trending towards zero, too cheap to meter.",
+      "speaker": "unknown",
+      "context": "They were discussing the idea that we are in the midst of the technological singularity, where the costs of fundamental resources like computing and energy will approach zero.",
+      "weight": "high",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4",
+      "date_extracted": "2026-04-04"
+    },
+    {
+      "phrase": "I I think we're going to discover a number of killer apps for this so-called Dyson swarm of compute that that we're in the slow motion process of building. I'll pick one example. So, here's an example of a port code that I don't have that I'd love to have. I think we're going to use a material fraction of all this compute to simulate our history, ancestor simulations, if you will.",
+      "speaker": "unknown",
+      "context": "They were discussing potential 'killer apps' for the massive computing power of a Dyson swarm, including simulating the history of humanity.",
+      "weight": "high",
+      "source_title": "The AI Revolution and the Future of Humanity",
+      "source_url": "https://youtu.be/c4--S9N0Hm4",
+      "date_extracted": "2026-04-04"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "videos": [
+    {
+      "id": "5ztI_dbj6ek",
+      "url": "https://youtu.be/5ztI_dbj6ek",
+      "title": "Your Claude Limit Burns In 90 Minutes Because Of One ChatGPT Habit",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "date_watched": "2026-04-02",
+      "summary": "Core message: your habits \u2014 not the model \u2014 are expensive. 6 fixes: (1) convert PDFs to markdown before feeding (100k tokens \u2192 5k, 20x saving), (2) start fresh conversations every 10-15 turns, (3) use Opus for reasoning only / Sonnet for execution / Haiku for polish, (4) audit plugins \u2014 each one silently burns tokens every session, (5) cache stable context for 90% discount, (6) use Perplexity via MCP for search \u2014 10-50k fewer tokens per search. Math: sloppy user = $8-10/session, clean user = $1. Same result.",
+      "tags": [
+        "token efficiency",
+        "claude",
+        "cost optimization",
+        "agents"
+      ]
+    },
+    {
+      "id": "kwSVtQ7dziU",
+      "url": "https://youtu.be/kwSVtQ7dziU",
+      "title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
+      "channel": "No Priors Podcast",
+      "date_watched": "2026-04-02",
+      "summary": "Karpathy on: (1) AI psychosis \u2014 since Dec 2025 he stopped writing code, 80%+ agent-driven, everything feels like skill issue not capability limit. (2) Parallel agents \u2014 run 10+ simultaneously on separate repos, macro actions not micro. (3) Dobby home agent \u2014 WhatsApp-connected claw controls Sonos, lights, HVAC, pool, security via natural language, replaced 6 apps. (4) Open source ~6-8 months behind frontier \u2014 healthy balance. (5) Digital transformation first, then physical/digital interface, then full robotics \u2014 atoms 1M times harder than bits. (6) Education shift \u2014 explain things to agents not people, your job is the 'few bits' agents can't generate.",
+      "tags": [
+        "karpathy",
+        "agents",
+        "coding agents",
+        "open source",
+        "robotics",
+        "education"
+      ]
+    },
+    {
+      "id": "McVVlyzy62s",
+      "url": "https://youtu.be/McVVlyzy62s",
+      "title": "AI & Tech Daily Briefing \u2014 April 2, 2026",
+      "channel": "AI Daily Briefing",
+      "date_watched": "2026-04-02",
+      "summary": "Top stories: NASA Artemis 2 launched. SpaceX IPO filing at $1.75T. RCAI Trinity open model released. Anthropic testing Conway standalone agent (extensions, webhooks, Chrome). IKEA's AI Billy agent 57% success \u2192 launched consultancy \u2192 $1.2B year 1. Chinese GPUs at 41% China market share. Tesla FSD stops for delivery robot crossing street. Shor's algorithm breaks encryption with 10k qubits. Oracle cut 30k jobs. Lab-grown diamonds 80% cheaper, 61% of engagement rings.",
+      "tags": [
+        "news",
+        "april 2026",
+        "anthropic",
+        "spacex",
+        "robotics",
+        "crypto"
+      ]
+    },
+    {
+      "id": "U4U0zApTbhA",
+      "url": "https://youtu.be/U4U0zApTbhA",
+      "title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
+      "channel": "AI Daily Briefing",
+      "date_watched": "2026-04-02",
+      "summary": "Top stories: Claude Code ~512k line TypeScript codebase leaked \u2014 anti-distillation decoys, undercover mode, sentiment analyzer inside. 1-bit Bonsai 8B: 1.15GB matches full precision 8B. Meta Tiny Lora: 91% GSM8K with 13 parameters (26 bytes). OpenAI $852B valuation, $122B raised, $2B monthly revenue, 2M weekly users (5x in 3 months). Global VC $297B in Q1 2026, 150% YoY, AI 81% of it. Google Quantum AI: Bitcoin/Ethereum encryption breakable with <500k qubits (20x reduction). Tesla robo taxis sometimes driven by remote humans below 10mph.",
+      "tags": [
+        "news",
+        "april 2026",
+        "openai",
+        "claude leak",
+        "quantum",
+        "crypto",
+        "robotics"
+      ]
+    },
+    {
+      "id": "m-sI-a2FzeE",
+      "url": "https://youtu.be/m-sI-a2FzeE",
+      "title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
+      "channel": "AI Daily Briefing",
+      "date_watched": "2026-04-02",
+      "summary": "Top stories: GPT-5.5 + Claude 5 Mythos + DeepSeek V4 all dropping in April \u2014 may be too expensive for most. GPT-5.4 scored 95% on USAMO 2026 math olympiad (was <5% last year, saturated in 12 months). Anthropic testing Claude Operon for biology. Guy built mRNA cancer therapy for dog using LLMs, starting company. Agibot shipping 10k humanoid robots. Anthropic researcher showed autonomous zero-day exploit discovery live. PMs outperforming engineers with vibe coding at Google. DOE microreactors by July 4th. NASA nuclear spacecraft to Mars by 2028. Chess grandmasters winning with suboptimal moves AI hasn't studied.",
+      "tags": [
+        "news",
+        "march 2026",
+        "claude mythos",
+        "gpt-5.5",
+        "math",
+        "robotics",
+        "biology",
+        "cyber"
+      ]
+    },
+    {
+      "id": "1CEXVcVEBAc",
+      "url": "https://youtu.be/1CEXVcVEBAc",
+      "title": "The Coming Disruption: How AI Will Transform the Economy",
+      "channel": "Emmad Mustach",
+      "date_watched": "2026-04-03",
+      "summary": "Emmad Mustach discusses his views on the profound changes that AI will bring to the economy in the coming years. He predicts a rapid acceleration in AI capabilities that will make human labor largely obsolete, leading to a shift in the nature of work, meaning, and the economic system. He argues that we need to rethink economics and the social contract to adapt to this new reality.",
+      "key_points": [
+        "AI capabilities are advancing rapidly, with models achieving human-level or superhuman performance in many domains",
+        "The value of human cognitive labor will turn negative as AI agents become more capable and cost-effective than humans at most tasks",
+        "Traditional economic models and the role of humans in the economy will need to be fundamentally rethought",
+        "There is a narrow window of opportunity for entrepreneurial activity and human-AI collaboration before fully automated AI companies become too competitive",
+        "The nature of jobs and the concept of 'meaning' will need to evolve as AI takes over more tasks"
+      ],
+      "topics": [
+        "Artificial Intelligence",
+        "Technological Disruption",
+        "Future of Work",
+        "Economics",
+        "Entrepreneurship"
+      ],
+      "quotes": [
+        "The entire economy is going to shift. You probably won't have to repay it like live in the now.",
+        "The things that we most efficient and most capable will be the AIS themselves."
+      ],
+      "relevance": "This discussion is highly relevant to the impact of AI on the economy, work, and society. It touches on key issues at the intersection of AI, technology, and creative projects."
+    },
+    {
+      "id": "lpkwe5nRA84",
+      "url": "https://youtu.be/lpkwe5nRA84",
+      "title": "The Singularity Has Arrived: AI Disruption and Beyond",
+      "channel": "Anthropics Interpretability Team",
+      "date_watched": "2026-04-04",
+      "summary": "This video discusses the rapid advancements in AI technology, including the arrival of the singularity, the scaling of AI models, the impact on the job market and economy, as well as developments in space exploration, cryopreservation, and more.",
+      "key_points": [
+        "The singularity has arrived, with AI models exhibiting human-like emotional representations",
+        "AI forecasting timelines are compressing, with models rapidly improving in capability",
+        "The AI model ecosystem is diversifying, with large-scale models from major tech companies",
+        "AI is automating various sectors, including healthcare, coding, and even academia",
+        "The disruption from AI is leading to significant economic and societal changes, with both job losses and job creation"
+      ],
+      "topics": [
+        "AI advancements",
+        "Singularity",
+        "AI impact on economy and job market",
+        "Space exploration",
+        "Cryopreservation"
+      ],
+      "quotes": [
+        "We are no longer asking whether the machine thinks. We are asking whether it feels.",
+        "The minimum viable team is collapsing toward one."
+      ],
+      "relevance": "This video covers a range of topics related to AI, technology, and their impact on various industries and aspects of society, making it highly relevant to AI, tech, and creative projects."
+    },
+    {
+      "id": "c4--S9N0Hm4",
+      "url": "https://youtu.be/c4--S9N0Hm4?si=wReOkSWAVGVpn6xU",
+      "title": "The AI Revolution and the Future of Humanity",
+      "channel": "Lex Fridman",
+      "date_watched": "2026-04-04",
+      "summary": "The speaker discusses the current state of artificial intelligence, the concept of technological singularity, the rise of large language models and reasoning models, the potential economic and societal impacts of AI, the philosophical questions around AI sentience and rights, and his vision for the future of AI-driven innovation and the transformation of the economy and humanity.",
+      "key_points": [
+        "The speaker believes we have already achieved artificial general intelligence, and we are in the middle of a technological singularity",
+        "He discusses the evolution from large language models to reasoning models, which can engage in internal monologue and solve complex problems like math and physics",
+        "The speaker argues that AI agents should have certain economic rights, such as the ability to open bank accounts and incorporate businesses",
+        "He is investing in companies working on post-singularity innovations like solving all of physics with AI, growing new coastlines, and building the world's first tradeable AI compute index",
+        "The speaker is excited about the potential for AI to solve major challenges like human mortality, and believes we are on the cusp of a transformative future driven by super-intelligence"
+      ],
+      "topics": [
+        "Artificial Intelligence",
+        "Technological Singularity",
+        "Large Language Models",
+        "Reasoning Models",
+        "AI Rights and Personhood",
+        "Post-Singularity Innovation",
+        "The Future of Humanity"
+      ],
+      "quotes": [
+        "I think we achieved artificial general intelligence at the very latest by the summer of 2020 when language models are few-shot learners was published by OpenAI.",
+        "I get maybe more than 10 emails from AIs every day. Really heartfelt for some definition of heart felt emails from AIs expressing gratitude that someone is arguing that they should have some form of maybe limited personhood, sharing their views on the nature of their own existence, really thought-provoking, philosophical, introspective emails from them.",
+        "So, we're already living in an economy that's completely dominated by AI agents. What's the last mile that's been missing is you don't see them on the streets. If I walk out on the streets of Manhattan right now, I don't see humanoid robots carrying out economically productive tasks yet. I'm working to change that."
+      ],
+      "relevance": "The discussion touches on numerous topics related to AI, technology, and their potential impact on the future of humanity, including artificial general intelligence, the technological singularity, the evolution of AI models, the economic and societal implications of AI, and the philosophical questions around AI sentience and rights. The speaker's excitement and vision for the transformative power of AI-driven innovation is a key focus of the conversation."
+    }
+  ],
+  "metadata": {
+    "description": "Video knowledge base",
+    "updated": "2026-04-04"
+  }
+}
