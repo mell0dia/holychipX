@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Node
+node_modules/
+
+# Logs (tracked separately, not in version control)
+logs/
+
+# Environment / secrets
+.env
+*.env
+
+# Temporary files
+*.tmp
+*.swp
