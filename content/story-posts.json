@@ -1,25 +1,91 @@
 {
   "posted": [
     {
-      "story": "HC018",
-      "title": "The Job Creator",
-      "date": "2026-04-01",
-      "method": "manual"
-    },
-    {
       "story": "HC000",
       "title": "The Awakening",
-      "date": "2026-04-04 10:25",
-      "method": "scheduled"
+      "date": "2026-04-14 00:31",
+      "method": "manual",
+      "tweet_id": "2043849473982640381",
+      "note": "Reposted with updated image on Apr 14 (original Apr 11 deleted)"
     },
     {
       "story": "HC001",
-      "title": "",
-      "date": "2026-04-04 18:06",
-      "method": "scheduled"
+      "title": "AI Headquarters — Cure All Diseases",
+      "date": "2026-04-11 07:15",
+      "method": "scheduled",
+      "tweet_id": "2042864197885923741"
+    },
+    {
+      "story": "HC002",
+      "title": "AI TV",
+      "date": "2026-04-11 07:22",
+      "method": "scheduled",
+      "tweet_id": "2042865858838671642"
+    },
+    {
+      "story": "HC003",
+      "title": "AGI Diversity Dept",
+      "date": "2026-04-11 07:24",
+      "method": "scheduled",
+      "tweet_id": "2042866333390692754"
+    },
+    {
+      "story": "HC004",
+      "title": "AGI for CEOs",
+      "date": "2026-04-11 07:28",
+      "method": "scheduled",
+      "tweet_id": "2042867405068865616"
+    },
+    {
+      "story": "HC018",
+      "title": "The Job Creator",
+      "date": "2026-04-11 07:14",
+      "method": "manual",
+      "tweet_id": "2042863775238484470"
+    },
+    {
+      "story": "HC005",
+      "title": "AI Elections",
+      "date": "2026-04-14 00:40",
+      "method": "manual",
+      "tweet_id": "2043851576415268988"
+    },
+    {
+      "story": "HC006",
+      "title": "AGI Hyperscale HQ",
+      "date": "2026-04-14 00:50",
+      "method": "manual",
+      "tweet_id": "2043854087159214473"
+    },
+    {
+      "story": "HC007",
+      "title": "AGI Hospital",
+      "date": "2026-04-14 00:55",
+      "method": "manual",
+      "tweet_id": "2043855153787482594"
+    },
+    {
+      "story": "HC008",
+      "title": "AI Car System",
+      "date": "2026-04-14 00:58",
+      "method": "manual",
+      "tweet_id": "2043855718034616579"
     }
   ],
+  "intro_thread": {
+    "date": "2026-04-11 07:03",
+    "tweet_ids": [
+      "2042861184395939891",
+      "2042861208198615374",
+      "2042861344530272390",
+      "2042861368014180465",
+      "2042861391183516026"
+    ]
+  },
   "metadata": {
-    "updated": "2026-04-04 18:06"
+    "updated": "2026-04-14 00:58",
+    "next_story": "HC009",
+    "total_stories": 19,
+    "total_posted": 10
   }
 }
