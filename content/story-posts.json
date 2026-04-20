@@ -70,6 +70,41 @@
       "date": "2026-04-14 00:58",
       "method": "manual",
       "tweet_id": "2043855718034616579"
+    },
+    {
+      "story": "HC009",
+      "title": "AI Headquarters -- The Secret",
+      "date": "2026-04-15 10:30",
+      "method": "manual",
+      "tweet_id": "2044465439980564576"
+    },
+    {
+      "story": "HC010",
+      "title": "Headquarters -- The Prayer",
+      "date": "2026-04-15 10:35",
+      "method": "manual",
+      "tweet_id": "2044465920257700120"
+    },
+    {
+      "story": "HC011",
+      "title": "AGI Headquarters -- The Now",
+      "date": "2026-04-15 10:38",
+      "method": "manual",
+      "tweet_id": "2044466484425232563"
+    },
+    {
+      "story": "HC012",
+      "title": "AGI Local Agent -- The Market",
+      "date": "2026-04-15 10:42",
+      "method": "manual",
+      "tweet_id": "2044467123003789650"
+    },
+    {
+      "story": "HC013",
+      "title": "AGI Headquarters -- The Denial",
+      "date": "2026-04-20",
+      "method": "manual",
+      "tweet_id": "2046249509710430693"
     }
   ],
   "intro_thread": {
@@ -83,9 +118,9 @@
     ]
   },
   "metadata": {
-    "updated": "2026-04-14 00:58",
-    "next_story": "HC009",
+    "updated": "2026-04-20",
+    "next_story": "HC014",
     "total_stories": 19,
-    "total_posted": 10
+    "total_posted": 15
   }
 }
