@@ -98,7 +98,7 @@ def generate_pre_image(punch, punch_idx):
     punch_text = punch["punch"]
     
     cmd = [
-        "node", os.path.expanduser("~/holy-chip/tools/index.js"),
+        "node", os.path.expanduser("~/holy-chip/tools/sgen-pre/index.js"),
         "--bot", bot_image,
         "--text", punch_text,
         "--title", "HOLY CHIP",
