@@ -1,0 +1,1088 @@
+{
+  "timestamp": "2026-03-26T00:14:00.020Z",
+  "total": 251,
+  "ok": 143,
+  "broken": 108,
+  "brokenList": [
+    {
+      "mintAddress": "HxxigXYx6QfkRC1Ns7yCLB1R6Sd2maZddUFURTYrgM24",
+      "originalName": "Holy Chip #000 - CONTADOR",
+      "onChainName": "Holy Chip #000",
+      "uri": "https://gateway.irys.xyz/mg4cPT4TZR2fAxRtvk8cXsr-dcz15daiJjXM7DHs8q8",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "5z717Cm7mhY4Gfo4134cZji4NL6KTX61ab1T3phViavP",
+      "originalName": "Holy Chip #001 - ROBOT",
+      "onChainName": "Holy Chip #001",
+      "uri": "https://gateway.irys.xyz/C70uho8VQ6vJpOikTfGaj59O0rgzZLkUyaxNHW5Nr6Q",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "4TGXBPEWnxiSjj6fjNjNdtXDaj162ABiS2P5cgM61Kb2",
+      "originalName": "Holy Chip #002 - POLICE-V1",
+      "onChainName": "Holy Chip #002",
+      "uri": "https://gateway.irys.xyz/96jac6jcwem44GAoStqL0eVGWVQf9m4lg-ucSGj41U4",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "GrQ1jzohV3wJwfDFFaVZGB5kb4NG6EXULkgyeiSZQgLS",
+      "originalName": "Holy Chip #003 - MADMAX",
+      "onChainName": "Holy Chip #003",
+      "uri": "https://gateway.irys.xyz/dgPS9C6sCVs1BCy1INUqiAaCdPPmmqYFi1NJlWbpR8M",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "6gHXZysaFs4TghSCQQZuu1kU9MTKwAxfGZsQpKKBNNGe",
+      "originalName": "Holy Chip #004 - MACACO-SPACE",
+      "onChainName": "Holy Chip #004",
+      "uri": "https://gateway.irys.xyz/rj6y1MMAJvtE03V0BscJIpvijkFtJSJUw-ABYhKnBrw",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "CPTXfi7UAwuSn4Lqeu7pTacpqR6Zm5g7wX6E9EU8N9pf",
+      "originalName": "Holy Chip #005 - ZURETA",
+      "onChainName": "Holy Chip #005",
+      "uri": "https://gateway.irys.xyz/m4YrXUQtPqA1TjdOt-BRgjCbo4ZZk5-1b607wlZc2jo",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "Etis9AYBpjyyiWnvcnCeMzHhmguBnDgz7DgopXe9e1MD",
+      "originalName": "Holy Chip #006 - BOT2",
+      "onChainName": "Holy Chip #006",
+      "uri": "https://gateway.irys.xyz/9sS0hJHQkq-6HTkmzU9JEvZwURhRzM4-dQ3-34ugF0U",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "C73djQQbidFiynTAEZGAEzcPEj4YPJAbZvjfGaYb14wZ",
+      "originalName": "Holy Chip #007 - VISION",
+      "onChainName": "Holy Chip #007",
+      "uri": "https://gateway.irys.xyz/goERBvAJIe63phHE4b0Q4B98oUgw8tl4xR_i3Y_HIf8",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "4yuSJ7J5KRYif4pw3bxoXSS1GQ9bCDuLaC81gDaDv8jM",
+      "originalName": "Holy Chip #008 - CONTADOR",
+      "onChainName": "Holy Chip #008",
+      "uri": "https://gateway.irys.xyz/FJWEYNzZIM9fFYWNh7RZmALU3RnLfdTjPwN_1BeuwzM",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "H3gqSjhaNejHGbYwxazQTuffo8KeVu9KNXsoT2hUA2wa",
+      "originalName": "Holy Chip #009 - JASON-MAD",
+      "onChainName": "Holy Chip #009",
+      "uri": "https://gateway.irys.xyz/0HLw_dxWusPkTF0cDVQyzwDnF9WygakgIWV5gsYEuYg",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "B9CkXav1DwsG5bhRac4bGdZAAnd5KPNE6LhS2mx1kPA3",
+      "originalName": "Holy Chip #010 - CICLOPE",
+      "onChainName": "Holy Chip #010",
+      "uri": "https://gateway.irys.xyz/2jMiV3Ate1cmOaNW_LZfM_CxKs2iLL84YLY3uD1vREM",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "6kzYwTb799oeDUjEvK9fx8ifbz1u5kDTr2ZFGvuVRTyW",
+      "originalName": "Holy Chip #011 - POLICE-V1",
+      "onChainName": "Holy Chip #011",
+      "uri": "https://gateway.irys.xyz/ddop0TxfJMytPv05DrP_fXoY65s-bZfxJeN6DKbcstg",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "DLr47XGjHSdJppHHQxM6s7BP3af2zLsKsGvUAKcsYW3w",
+      "originalName": "Holy Chip #012 - POLICE-V1",
+      "onChainName": "Holy Chip #012",
+      "uri": "https://gateway.irys.xyz/SwLMZ2pNMO-8mD3_CUxLTm1bkI7z3hM1KdovSy5uQww",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "G5LayKzk5aXnyo1dPzu65iBB3h7Smb1wD3cjfhhbUvbb",
+      "originalName": "Holy Chip #013 - ASTRONAUTA",
+      "onChainName": "Holy Chip #013",
+      "uri": "https://gateway.irys.xyz/IhPSGlwStP03MUzh5QXKDluAMMGPtWA6bbve1F4-cJE",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "3V6CGFP9UCyMUm713MDtJFFdgBhFfh2tT2fmB9M5d5rB",
+      "originalName": "Holy Chip #014 - CICLOPE",
+      "onChainName": "Holy Chip #014",
+      "uri": "https://gateway.irys.xyz/pYmiBLmUEF13lgrlXpN-z7BMLT3eO6PQOhvL34Ysazg",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "T7X4GXxwwCcDZhJwJ8u6yZGkhai2amEHsCgCLTPgatT",
+      "originalName": "Holy Chip #015 - JASON-MAD",
+      "onChainName": "Holy Chip #015",
+      "uri": "https://gateway.irys.xyz/Rh3oiRhAq_Z8B4a_xRHJj38Be2dP3Uynla3aZXKZe1A",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "CnJXcALAjcS6wYh8pbx1jyWEm3nzQSz3w8vBFLVKtQKB",
+      "originalName": "Holy Chip #016 - MACACO-SPACE",
+      "onChainName": "Holy Chip #016",
+      "uri": "https://gateway.irys.xyz/rlAun_xNVdVSFSQbVrGoi89B_VnILP9z_hdZvo3Fwio",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "Egu5LgDNYMHJh45271dUzNe1Z8Ya6aApr1LqqnbFuwPA",
+      "originalName": "Holy Chip #017 - MACHINE",
+      "onChainName": "Holy Chip #017",
+      "uri": "https://gateway.irys.xyz/Wq4CNYXNyC9snfqUPXf-8uWSv-H-4944kxdblJoFtRg",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "Gaar5QHyUq3uTsXqF54Kf2UEmaawbhBb3LwLEQJ3FAJ1",
+      "originalName": "Holy Chip #018 - BABY",
+      "onChainName": "Holy Chip #018",
+      "uri": "https://gateway.irys.xyz/9HSoCgqFT7txtH78eVHsfVoIoiqtIqvHqELRFLeGNKM",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "EFGddJTuRRYZ7CtRwFPy8V2yeWoBDz7Wsv9zcrPb5NNK",
+      "originalName": "Holy Chip #019 - ZURETA",
+      "onChainName": "Holy Chip #019",
+      "uri": "https://gateway.irys.xyz/lZXWy9aTqlphFFNuvrH8T_qYfxxIJcB9c-VhXpduXQo",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "E9GND8f4gowW9isr8kMKToZnYSqpEBZ2CBizVcnjxmfj",
+      "originalName": "Holy Chip #020 - MADMAX",
+      "onChainName": "Holy Chip #020",
+      "uri": "https://gateway.irys.xyz/1bPqE3OgcSYqI_8oW17YI3xsA39ukE2bFtUTOZhzBcA",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "HqgjV1RwBo7jQ8fUeer4Jzx89AFT49bSDrvg3wDn4QEV",
+      "originalName": "Holy Chip #021 - EYES-OF-LOVE",
+      "onChainName": "Holy Chip #021",
+      "uri": "https://gateway.irys.xyz/A6R7joAViraKpqJ3_nckaw5OqEyB2ERUMgVtpDMraXg",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "Gcf27NAeeDVTroSoS9FhqoNc2mqPYYnehmKcA6rZ48DV",
+      "originalName": "Holy Chip #022 - CICLOPE",
+      "onChainName": "Holy Chip #022",
+      "uri": "https://gateway.irys.xyz/jjauEW-PcHo4UvdwxMdryDusc9gdx-W40YEVpmgihcU",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "nJSwt42BdXRDpFA8NrkmgwAUNc1H2NU8tKyRCg3iqoB",
+      "originalName": "Holy Chip #023 - MEDICO-V1",
+      "onChainName": "Holy Chip #023",
+      "uri": "https://gateway.irys.xyz/kwhfhJB_cGoV1EVlrVblaU3-6joLAg6t4C_-9xoCHoA",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "FwyWYaS9h8ZDXdAX4VLFaZLZgBPwYwFNWDYSejceGn7q",
+      "originalName": "Holy Chip #024 - CICLOPE",
+      "onChainName": "Holy Chip #024",
+      "uri": "https://gateway.irys.xyz/0hoQgfVZWmYdAmJZXUw-jzHUk-YHJ40e6bsGvCMD8GI",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "53V2pZ19vnYdh1ite1W21XGyRLRy3AuSqFUjWbXXf3Yi",
+      "originalName": "Holy Chip #025 - IRMAO-DO-PIRATA",
+      "onChainName": "Holy Chip #025",
+      "uri": "https://gateway.irys.xyz/NjZ225ba4PeNyfyMrdtnV9F5uhpwP1w4mZnyc2P9y98",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "BaV4cbj8rp64KzPLVUFHD8FL2QPGu7erRWMQuGJBgK9Z",
+      "originalName": "Holy Chip #026 - JASON-MAD",
+      "onChainName": "Holy Chip #026",
+      "uri": "https://gateway.irys.xyz/1km0CMHPJsLj3IKqeCHscfWtk-FZICSeftcSBDRCj3c",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "3xNvRsH2FEBqvXbCH525PpoJjwdMs6rwob58tZgVtixv",
+      "originalName": "Holy Chip #027 - POLICE-V1",
+      "onChainName": "Holy Chip #027",
+      "uri": "https://gateway.irys.xyz/UQr0HS7P8ZltRKifON8ImXmWZkIGu-igNxpHCKSynHo",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "C9B3dau85odicb7YoVUGaZuYyPHw7PTouDKc6WtCkNvG",
+      "originalName": "Holy Chip #028 - BOT1",
+      "onChainName": "Holy Chip #028",
+      "uri": "https://gateway.irys.xyz/lk0ULXc-jqOmypuwBZ5iRn4NpsrRmV2GvJ8nB2Y_9xc",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "BvsLZAApC2pnKo4UgpPZQ6j7T6kHdC9s34Ptmz8eHqcA",
+      "originalName": "Holy Chip #029 - CICLOPE",
+      "onChainName": "Holy Chip #029",
+      "uri": "https://gateway.irys.xyz/h_P8hRikrUAPC6ydIu-myJlvtLpCAI2AazSW6DFILXg",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "WwdC17uXkciBVWYaNpb4tc2yQujPazNpKRGvpyXhQUL",
+      "originalName": "Holy Chip #030 - BOT1",
+      "onChainName": "Holy Chip #030",
+      "uri": "https://gateway.irys.xyz/yp2S2GjMXjnmtn1pr0qtHkSk3DzFTFRZPVYjsbq8lDI",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "t4Sdf4hwBSafy4U5bmKqhD8zWZw6wqEYsLZaEzUMKov",
+      "originalName": "Holy Chip #031 - MADMAX",
+      "onChainName": "Holy Chip #031",
+      "uri": "https://gateway.irys.xyz/_FRTWHRx9nQEM9LHMFgbpzB_fa70EPkHSyRFi3F-03Q",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "8axnhcTNjaX2FXcG33k8pV3VW6dRkzCH83GZwemmm5mG",
+      "originalName": "Holy Chip #032 - POLICE-V1",
+      "onChainName": "Holy Chip #032",
+      "uri": "https://gateway.irys.xyz/qbcFidvCUY_T3DBr-db-fzDmVG6PlX9umCDrv8YXHbM",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "4sP2kexCR7aBfEB1ZU4JixkVXUFuKZBXJCzsLbYVJjqt",
+      "originalName": "Holy Chip #033 - BUDA-MONGE-V1",
+      "onChainName": "Holy Chip #033",
+      "uri": "https://gateway.irys.xyz/pZv-V9TV-ZUX8_3el023f4VuZw8ADwCFD9wMW9WLaCc",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "Bs8rYnTGQfEDVwCP35PYkWH6FyCnnLqgUMXEyja66wTe",
+      "originalName": "Holy Chip #034 - JASON",
+      "onChainName": "Holy Chip #034",
+      "uri": "https://gateway.irys.xyz/9DGho4-6uXjma5PydpUi4L_OuF6jtGfrFnzrHm2RQi0",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "H7N16DhhM5QVRf6heav5bjeoRizabrEMJnfXrrRWtHTU",
+      "originalName": "Holy Chip #035 - JASON-MAD",
+      "onChainName": "Holy Chip #035",
+      "uri": "https://gateway.irys.xyz/8xSLog3likHgmz709RNyoxfiWavE6lgsyZeQeuDEDs8",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "HsNiAnDja4BEiZybSpQhFdtLYMZy8hs3YE4aQ5cdXvef",
+      "originalName": "Holy Chip #036 - BOT1",
+      "onChainName": "Holy Chip #036",
+      "uri": "https://gateway.irys.xyz/nBh89KIpkHSTa6Y5SGK1xBQ9cj0wgOxhmP3p4-UU_Xw",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "3CFqFkR3rbE2uU2TBTv8hhjq7bwwhsG45htVVMDbVggT",
+      "originalName": "Holy Chip #037 - MACHINE",
+      "onChainName": "Holy Chip #037",
+      "uri": "https://gateway.irys.xyz/FOEFizURoazi2jNJeBqZyCeP6Vm6lV9dqXi6zDU7dxo",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "5LvurhFh5uhxtXJ7ueFNqdWPFnc85qAJLnEhZWQF8bXt",
+      "originalName": "Holy Chip #038 - ROBOT",
+      "onChainName": "Holy Chip #038",
+      "uri": "https://gateway.irys.xyz/i4W8ZkYpFX3jLzPXsvUjNB7ON_0ahSYq0fyach99V6E",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "4LAv5Sb2zpFnCUCmrUmrypLGf5qaTw3NLUpQCc4DMmsy",
+      "originalName": "Holy Chip #039 - JASON",
+      "onChainName": "Holy Chip #039",
+      "uri": "https://gateway.irys.xyz/NH8GoSnRSs58emha2i2kpVCRL3IjEYq-PhNCIarllRo",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "CmNNm28UiqrLZFWHGo56nVR1xgoAQTJJrtm9nEAvQnFD",
+      "originalName": "Holy Chip #040 - BUDA-MONGE-V1",
+      "onChainName": "Holy Chip #040",
+      "uri": "https://gateway.irys.xyz/Y_MQcdJpCvfpB883ZUYaqOSg1JGwi7b8DQHAo4ULQjk",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "2nCPqqwTGRnq65Fzhx973evuYnz9UqEdveMjdtyj4NKY",
+      "originalName": "Holy Chip #041 - BOT1",
+      "onChainName": "Holy Chip #041",
+      "uri": "https://gateway.irys.xyz/TD36wLIz189G66GS5-qG3trE1AL8b4g_1k-NOjO8GJI",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "2WWPEDoEorQfTXJeiLtmn5mZB51pMpjVhP5fRsbp3PTA",
+      "originalName": "Holy Chip #042 - CICLOPE",
+      "onChainName": "Holy Chip #042",
+      "uri": "https://gateway.irys.xyz/h87lSQeoE-igdjK1iUGcm5bjkd0vlAiq9xpOXGGEZic",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "435HQG4dSvX3kpcxCS4UnfSqdYx6oiVNR5ELpy2rBjdn",
+      "originalName": "Holy Chip #043 - JASON-MAD",
+      "onChainName": "Holy Chip #043",
+      "uri": "https://gateway.irys.xyz/f6fmu1ny5LsKHo_zIZUuoIfRPj0QDqZlaDKmnfSNP3w",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "7F5rrrNR8eLBw4ieRW9dp4AHj65bRpWzQTuf568QKzTP",
+      "originalName": "Holy Chip #044 - JASON",
+      "onChainName": "Holy Chip #044",
+      "uri": "https://gateway.irys.xyz/l_UfBoCHZBVrl-gMY-CA4Tu_0RIQVwusJi6U1aYz9r4",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "49npyJa8egEaYqq3QFkkDfBN3dCDQGfRzNFta71SYSbT",
+      "originalName": "Holy Chip #045 - JASON",
+      "onChainName": "Holy Chip #045",
+      "uri": "https://gateway.irys.xyz/XsrDkqG4zyZ_3QUj8_lWz-utMjbsUSPQNgQMnj6IpT0",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "FkvyqwGnYK3VF6mDaUspQQqj7EKmDpSt2vc5qZ6bhgQg",
+      "originalName": "Holy Chip #046 - MADMAX",
+      "onChainName": "Holy Chip #046",
+      "uri": "https://gateway.irys.xyz/S8K1JVaY2BDN9BzatFurtDwk-sVoKDILEIlrM_tpNww",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "2N6yxy5ooUwjXxjmpye7g7KEk2ZG2XnpVxTQc8GHfvu5",
+      "originalName": "Holy Chip #047 - EYES-OF-LOVE",
+      "onChainName": "Holy Chip #047",
+      "uri": "https://gateway.irys.xyz/v3ne9nAJq8Dgie9zhmTqnahP5dN2SjdVL00el9zAQe8",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "278aQ6fBc45ioiX8Vef9gF3Rpz2HqHdNiULGNMBwULnj",
+      "originalName": "Holy Chip #048 - MACACO-SPACE",
+      "onChainName": "Holy Chip #048",
+      "uri": "https://gateway.irys.xyz/c2MVaSIeOVQf6BSbvl_qKDW4AbsGHGwMLpFgPbOTQfo",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "7duXjeaXzSigX7aERpRnKCWtk8W3y3amqpQWGnXdMtDY",
+      "originalName": "Holy Chip #049 - CICLOPE",
+      "onChainName": "Holy Chip #049",
+      "uri": "https://gateway.irys.xyz/3eHFmOZ4C5Q1QPwnXFM0D4ZWBb9O4Uyn3rfeMLD9_8s",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "BAAmk3cwdN8AsgDrdpSvaDLkTMw8k6XbsLn9wN3pRrsD",
+      "originalName": "Holy Chip #050 - BOT2",
+      "onChainName": "Holy Chip #050",
+      "uri": "https://gateway.irys.xyz/BoFeVxfNBPnomrPIXb0O85ohdgZCH0vX-RSsuqS7Ewk",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "CdhD5yd3tghwAjKHrs7a3WmNxp7S6WMRh5FikdaHv4hY",
+      "originalName": "Holy Chip #051 - ROBOT",
+      "onChainName": "Holy Chip #051",
+      "uri": "https://gateway.irys.xyz/PMxXmGHSUJ2cgk26YfGsvV1QRBRmcRg3bh5ySLg_Flo",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "34qoxbcAFdKZEbshwpPhXc2taG8F1BKvNbJKyEmdo6Ub",
+      "originalName": "Holy Chip #052 - ROBOT",
+      "onChainName": "Holy Chip #052",
+      "uri": "https://gateway.irys.xyz/Z8hK3X1tKtHF-mkw8ySPiKaCJ33x0b5ROF0VVl46SWk",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "6DF4MW7q2j3Q8gszb2hhL5ZufJGy9xtjKhkeKxnJy7Gd",
+      "originalName": "Holy Chip #053 - CONTADOR",
+      "onChainName": "Holy Chip #053",
+      "uri": "https://gateway.irys.xyz/BN_NfiQXNWCh3jIAoO_YCByXP3SXjGGvHNVOkEJHanc",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "93LM2iqWDvbGTbuK1bAentjFeGZgKBRFfGJdTSPnNqWS",
+      "originalName": "Holy Chip #054 - IRMAO-DO-PIRATA",
+      "onChainName": "Holy Chip #054",
+      "uri": "https://gateway.irys.xyz/1cK7R573W7jjWr8M8es7W1VreDaheu72gpWEG2QYfyg",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "HJuiKwH6ewYQE1KuhkPw2vtfoTC5J3raG2e8STRELuBk",
+      "originalName": "Holy Chip #055 - POLICE-V1",
+      "onChainName": "Holy Chip #055",
+      "uri": "https://gateway.irys.xyz/QxYpstR1cfR-DzDQKr5hkZSr6Mn5GQiYk5ly0fe3qyA",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "kT4fFicPJMaVyD8bqpurRNnRUDuDVXfqDPjx8eVdTbr",
+      "originalName": "Holy Chip #056 - MACACO-SPACE",
+      "onChainName": "Holy Chip #056",
+      "uri": "https://gateway.irys.xyz/OaNx23E9CwoXHgWZZZFThIjWCg04toqt7hmcXbLReSE",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "4WLQFYKiNvMTnq3Q98217k19yp8SnoCG2ZNW9e1bdrqX",
+      "originalName": "Holy Chip #057 - ASTRONAUTA",
+      "onChainName": "Holy Chip #057",
+      "uri": "https://gateway.irys.xyz/6gQ8P1BK-Af-3E53mTdNnq33_V9yOJbsq9FnRw31qK8",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "2SxjsXFNb3JhQGCRXHh7jUnzPvdghkAFarcYVjGuxQTu",
+      "originalName": "Holy Chip #058 - BOT2",
+      "onChainName": "Holy Chip #058",
+      "uri": "https://gateway.irys.xyz/jeZsY3x7NSMcR7RvdvvV8DCMkIGyldAr91wWldQQZgE",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "97jTRWmyYo4yvT7Bp6mgAvKt1Ri4ysk8x1JK2Yne3ySs",
+      "originalName": "Holy Chip #059 - ROBOT",
+      "onChainName": "Holy Chip #059",
+      "uri": "https://gateway.irys.xyz/JYCHNrJLXP6D-g5oYUlyzzLkDeoH7LQ0YEBDBjLdSnQ",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "FMkpxawKri4qGzJRsDSa1rZCwhzUTD2X51VTWd5mJ1EV",
+      "originalName": "Holy Chip #060 - BABY",
+      "onChainName": "Holy Chip #060",
+      "uri": "https://gateway.irys.xyz/fIVWo6L0dUnoGsKMoiBb1zub2X9QaO3l0wSi_RBre8c",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "DeM92wo291dUkTwD4RciiCZ1o2wywiC2JdG4wptpm2PH",
+      "originalName": "Holy Chip #061 - ASTRONAUTA",
+      "onChainName": "Holy Chip #061",
+      "uri": "https://gateway.irys.xyz/R0vvtADwKq3t_CJdI8CScUWnxn1pqMDt1VwGEOmphgs",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "3ngyyLSnVbdPQSL2WjCWxR9D5W7pgHSWbqzZ7wKDwibj",
+      "originalName": "Holy Chip #062 - MACACO-SPACE",
+      "onChainName": "Holy Chip #062",
+      "uri": "https://gateway.irys.xyz/OHz5Bht5VpBXcSBplsmDpHxlxGSYlVO2kbEn0NivErQ",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "E8cpMc7vSmoa6gfvWowEzT7LjWhCKMKY9sPanRQCkPrT",
+      "originalName": "Holy Chip #063 - ESPIROCADO",
+      "onChainName": "Holy Chip #063",
+      "uri": "https://gateway.irys.xyz/7-t_hwfZutwc5OiuYe7-qrtZYRXF7Dq3-TeyovwBLdc",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "9xZZxddcruQLH4fw7cNBNFi5ZCKWEHyxXbdAEJaJRVsd",
+      "originalName": "Holy Chip #064 - JASON",
+      "onChainName": "Holy Chip #064",
+      "uri": "https://gateway.irys.xyz/H8dtHfMOVFWQ5URW2kMyiMHxXi7V29I4jNOAhkC4OQA",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "CYVWoMSP3M3axQSZMsoneh9ibddgjavnd422VePdaDs",
+      "originalName": "Holy Chip #065 - BUDA-MONGE-V1",
+      "onChainName": "Holy Chip #065",
+      "uri": "https://gateway.irys.xyz/AtdqcxvrwakEysaGVaddS-5aII6KLRf-KkeBaPyVdrk",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "GHCoJ9keFTKcTjifVPvH39dpxMxGnfNx5uuV3NqBsXb7",
+      "originalName": "Holy Chip #066 - EYES-OF-LOVE",
+      "onChainName": "Holy Chip #066",
+      "uri": "https://gateway.irys.xyz/9SNvv9eRr0FPCpRSc8DfJZAqFMb9jAUx3qI1Z_e3Nx4",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "5FXPmtuLh5Z3xNQhgqAvRt2bhqr7SyCTV1yviK2N2Jny",
+      "originalName": "Holy Chip #067 - TRUMP",
+      "onChainName": "Holy Chip #067",
+      "uri": "https://gateway.irys.xyz/dqP-F6T-kVmsPrwFZ4KaGuuT9KBS8uytuqVVZcRti9c",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "9ydDAamq8m844zgK3ZgceZriTU3RJvFnJGgHVsxfLWb4",
+      "originalName": "Holy Chip #068 - CICLOPE",
+      "onChainName": "Holy Chip #068",
+      "uri": "https://gateway.irys.xyz/MxKWgounvCOxPjEQlym5wUYzmKITR94NJ0sUZ4KXsj4",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "7jMFy4fUCLtpYEmKHkEwGx9P6Q5LimdNxwghPZu3m2Sk",
+      "originalName": "Holy Chip #069 - TRUMP",
+      "onChainName": "Holy Chip #069",
+      "uri": "https://gateway.irys.xyz/HcLZ7Rz4ulonQFnhqjjE3RLFvLgs8w1wl8rpom9ZLf0",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "6VnhqCa3MwCGAtD5BGt3cw1pfzYdZ395SBdXvXLx1J5b",
+      "originalName": "Holy Chip #070 - MEDICO-V1",
+      "onChainName": "Holy Chip #070",
+      "uri": "https://gateway.irys.xyz/gGeKd6mQzBk6t7AmGDDH0foZ0A-kH9KdH7Zd8RxG1cs",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "3ES7fMGecbHWw3mdTMJKba49Ycq1TF2BNa4674WofJyt",
+      "originalName": "Holy Chip #071 - MACACO-SPACE",
+      "onChainName": "Holy Chip #071",
+      "uri": "https://gateway.irys.xyz/ISNvGJVQjKdiNK2y64a0SWhsv5XKAl0b4qJnmnleiLQ",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "DA9uP9eveFQKu9YqLHc3fMzHpzSnBHP9etxwoovTTNRq",
+      "originalName": "Holy Chip #072 - MADMAX",
+      "onChainName": "Holy Chip #072",
+      "uri": "https://gateway.irys.xyz/G3vRaX2bFhuwBmr605tcXNe8lMppUZBECigHjlS8nLA",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "Bs7BwtbgxY9NoHkVwT4je6ERnJ58wuHMhhkWRMXEawsT",
+      "originalName": "Holy Chip #073 - JASON-MAD",
+      "onChainName": "Holy Chip #073",
+      "uri": "https://gateway.irys.xyz/3q229W3nb-F45XMuD_N0USaLxvZQDDE55ilImFNWBGc",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "FF4FHMUxdWVYsCPuf6GCJNKEq7ERj285nsoLGqVFKSFV",
+      "originalName": "Holy Chip #074 - JASON-MAD",
+      "onChainName": "Holy Chip #074",
+      "uri": "https://gateway.irys.xyz/LcYfGHYyzblV3xOhMD5Lsf_m5tdTBec83BkM5p9hXMQ",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "FE4VcMtBqPF9e3cytVofS1kYf3JsGQwau6x4yt3o9FFp",
+      "originalName": "Holy Chip #075 - TRUMP",
+      "onChainName": "Holy Chip #075",
+      "uri": "https://gateway.irys.xyz/aqJG6B7u98r87ynhSyUUBOelPBg5XuuFj8-WpHTpUic",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "DdhraMN7NZR38CZnFmY21dZa22H2X7D4q6t6ggXEccN5",
+      "originalName": "Holy Chip #076 - BOT2",
+      "onChainName": "Holy Chip #076",
+      "uri": "https://gateway.irys.xyz/CHPzlV8xSw-t8IjH5niNekz9Wjz3PGclhppxwZBTQsI",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "FsSem8NF6GaP1WXPH9XeHcnbrdm84kq2UG494HPWUvtq",
+      "originalName": "Holy Chip #077 - JASON",
+      "onChainName": "Holy Chip #077",
+      "uri": "https://gateway.irys.xyz/HOZEmdFFgJIpf3B1v5WyB16nhZgewSg2yxGLryR47WQ",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "4rL4SJMJ1HsYahT5FcTPpFQztPajvTLoT1FtWGNTwF4R",
+      "originalName": "Holy Chip #078 - IRMAO-DO-PIRATA",
+      "onChainName": "Holy Chip #078",
+      "uri": "https://gateway.irys.xyz/JF-Bc7Zcqplx4mk2vpyaCX5Oa6TWS1aHPGU_d-ykIGk",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "D8DF8tHGLNmP8zg6CM2e1dNgdZ68VXzzU36SjvckNhxb",
+      "originalName": "Holy Chip #079 - CONTADOR",
+      "onChainName": "Holy Chip #079",
+      "uri": "https://gateway.irys.xyz/t2fcf_NAIwcp_3wFYFlA6ET5m5FPREecdYkuy5u8Gtw",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "8aQxeiAiqCEozGM8RcsBiiMWpuCfuhYQWoJgg7WDruJc",
+      "originalName": "Holy Chip #080 - CICLOPE",
+      "onChainName": "Holy Chip #080",
+      "uri": "https://gateway.irys.xyz/o4NaTq9RHL7sAO-dDqaphK-KmlEvSCptXikZKM_iqak",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "AbsKwqNwJieqUKnJV9XP1u73iYyJQcugnmLS6nJ8s2pg",
+      "originalName": "Holy Chip #081 - BOT1",
+      "onChainName": "Holy Chip #081",
+      "uri": "https://gateway.irys.xyz/ZOKCIIUuGG3jTYwVQkP0mbjWAsbh1-N5OyzGhJYTF6I",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "8WgXDUfTGE3UCTvRFkrcvdynNVQsHjACeVchpwTE89WA",
+      "originalName": "Holy Chip #082 - MACHINE",
+      "onChainName": "Holy Chip #082",
+      "uri": "https://gateway.irys.xyz/M_DUnlHcblWkET6FClkNvuSFmthfV8j804Jfk8klLRU",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "2vby1NhR138xQLJWgghSwXMunGnCgsm5thJCd6kQmAC9",
+      "originalName": "Holy Chip #083 - BOT1",
+      "onChainName": "Holy Chip #083",
+      "uri": "https://gateway.irys.xyz/PfhemPELFKZtl-mt2UNO9OqSXyjinli-vSCSueY-c9U",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "As7m14KfdizQznxCgMzS4Sne9x5MFjHALDezfdwmthQq",
+      "originalName": "Holy Chip #084 - MACACO-SPACE",
+      "onChainName": "Holy Chip #084",
+      "uri": "https://gateway.irys.xyz/JdoDZbvJEuzBfJsUamiYMOYHJHNv9ZZVCW7WIsTUgfU",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "3VNbN67dFj5ZEB9rCpeD8BUFJ2CAdV73kEi2Jr7ewTTC",
+      "originalName": "Holy Chip #085 - IRMAO-DO-PIRATA",
+      "onChainName": "Holy Chip #085",
+      "uri": "https://gateway.irys.xyz/U28XuFO7nWeDj7EedUw98s-7a-c3L4_1qQTT5JVMlnA",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "6bPH87aQ51X8TSj4ecgjQe11PT9vfEcDLwYoXFxpX8ev",
+      "originalName": "Holy Chip #086 - ROBOT",
+      "onChainName": "Holy Chip #086",
+      "uri": "https://gateway.irys.xyz/H0K72BPjYAruuHbO-Jw0EhHqdEzpsQdiraj6OYcSlxU",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "He3dxRxhKe3RjsEdNrbm3xDz2zme2MjUnmPxAHzy3vPe",
+      "originalName": "Holy Chip #087 - ASTRONAUTA",
+      "onChainName": "Holy Chip #087",
+      "uri": "https://gateway.irys.xyz/hhKJnJ65H8bqHlygispMCifyLkxg93YbRxyUyDWGJEQ",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "GaqfR62qfR2bSSY8Fpam8NzaSHSEZnPuF4UoFKgePZoe",
+      "originalName": "Holy Chip #088 - BABY",
+      "onChainName": "Holy Chip #088",
+      "uri": "https://gateway.irys.xyz/qya2aJkD7AuuRBclOb_kqdvYBlwGXjnQzSIhATViwrM",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "EL3H8sRwPVqBPRkjB7PByQMXTXjaN3LWLHCxuw9zPduJ",
+      "originalName": "Holy Chip #089 - POLICE-V1",
+      "onChainName": "Holy Chip #089",
+      "uri": "https://gateway.irys.xyz/MMTo8RxB3NatYeX__UvbY-A7vsd2zSk4WqdeM8lVGN0",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "14HCNuoGp7kVXUf3XpnZDeD4ATLH5EzJACcdhf2XTtmZ",
+      "originalName": "Holy Chip #090 - CONTADOR",
+      "onChainName": "Holy Chip #090",
+      "uri": "https://gateway.irys.xyz/qlQwRyZh7QlA-s28CEWAZPhlYt_yWsPur7iyiBxtdX4",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "FczmUsEtpmoR8RXxMMCU3VxgBkgimHtPHKYBAeWEzwwX",
+      "originalName": "Holy Chip #091 - MACHINE",
+      "onChainName": "Holy Chip #091",
+      "uri": "https://gateway.irys.xyz/01zop88j1lG6sGne5i9U_l86I61sYK7hSfuFCdaQfTo",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "DDbqNmdce9guDaLpndA2xnQuaygsk3HAr8wxc2R8ddMg",
+      "originalName": "Holy Chip #092 - ASTRONAUTA",
+      "onChainName": "Holy Chip #092",
+      "uri": "https://gateway.irys.xyz/VyQELwHu_2qK-W7y3dRm1tgue2jPwHSeyQFwERtxVOM",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "6ZnaeFyHCh1DVSnFw4HVeg4wrRyJX4mMHA8Q6YVgNoip",
+      "originalName": "Holy Chip #093 - CICLOPE",
+      "onChainName": "Holy Chip #093",
+      "uri": "https://gateway.irys.xyz/s_K3p3CM2WWA67OafUC9pDObtpVewLaD1OWgjs0423c",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "Hoy85oDSARijGxksD644fZgskVGkhZ6ZLB6J3SPF4m92",
+      "originalName": "Holy Chip #094 - JASON-MAD",
+      "onChainName": "Holy Chip #094",
+      "uri": "https://gateway.irys.xyz/zwGRYD8tSMV_V13xztCRcALaHwZbCxbhpkfxFKR-hI4",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "5HSdBgGvsCNNJ3sY67yks3PGKsoVuUr2dfpEbFQXJD1G",
+      "originalName": "Holy Chip #095 - BOT2",
+      "onChainName": "Holy Chip #095",
+      "uri": "https://gateway.irys.xyz/tKAr9beoW-4E9Xp2okJTj97lIPwieKtTuTTVPsDMUtw",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "CqzypPoSgaxUiuNBRY5jNsCegdZp3c71zDsC8XMyrAnh",
+      "originalName": "Holy Chip #096 - ASTRONAUTA",
+      "onChainName": "Holy Chip #096",
+      "uri": "https://gateway.irys.xyz/zkLLrrj5WSKVlzLamsdF7ntpPW7i-vtGaGullu4GnyY",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "9gXYjGGam6gz2McXYKc9xk5hH5HV21c2vLKRQmoY1wdA",
+      "originalName": "Holy Chip #097 - MACACO-SPACE",
+      "onChainName": "Holy Chip #097",
+      "uri": "https://gateway.irys.xyz/XRc28v9rg6UnAWL0k8vrB9GZqi9cdatwdDLgrTmgR9w",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "93Doo85gcYrzsCMDtc1X96FEhcyKsfofQxR6K8uYDey8",
+      "originalName": "Holy Chip #098 - CICLOPE",
+      "onChainName": "Holy Chip #098",
+      "uri": "https://gateway.irys.xyz/Q2DgiL1gLaT-_BExvuuECh6t-JzuC02DvtcZ_dDyeBM",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "GwTMgr4Fuo1CsU9fsa5WESWAbVGbUAUx3TEJkMWCn9Uf",
+      "originalName": "Holy Chip #099 - ROBOT",
+      "onChainName": "Holy Chip #099",
+      "uri": "https://gateway.irys.xyz/Z4aD3IUB-ULIOO0jqVe0FfxSvXJnF4xc9TJ69C0DQvY",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "C8AUrHYCpUtgxuwBWzV21t7iKEqucPF78NwuK9D52nBj",
+      "originalName": "Holy Chip #100 - JASON",
+      "onChainName": "Holy Chip #100",
+      "uri": "https://gateway.irys.xyz/HO8mB9yJavr-xbas_9RwQ3Kx1c0MWX0S8wShSgKz_wo",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "7CuXdC17ajdDuiCyHyr71ZFUrz4rLqwW3somMNscg8B",
+      "originalName": "Holy Chip #101 - VISION",
+      "onChainName": "Holy Chip #101",
+      "uri": "https://gateway.irys.xyz/H1piLm4X7lQFwe0yMriZAul14wUGYzCFZyiuPfaLuWI",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "7TEd4CYMZbTFpprnMmjtAEQCbrN48Kr1a9iCaGhJ8peG",
+      "originalName": "Holy Chip #102 - PIRATA",
+      "onChainName": "Holy Chip #102",
+      "uri": "https://gateway.irys.xyz/7rr_A9I9MuTTTBWiCwPSwQsIPFKS-Po5Q2hBQytyEEA",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "EWGYwFSCfDrauMeagnAVsPNDk5FCQKfSFME2HRLufX2C",
+      "originalName": "Holy Chip #103 - MADMAX",
+      "onChainName": "Holy Chip #103",
+      "uri": "https://gateway.irys.xyz/DjZ_EZsleYeJ-KJqYN0hZxY1GBgxA75Qu9x5mK6blSI",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "7oWv2Z8CBrgVQMUmXYCmob7RzQroKtidaUcoXf1AtYAz",
+      "originalName": "Holy Chip #104 - BOT1",
+      "onChainName": "Holy Chip #104",
+      "uri": "https://gateway.irys.xyz/HhSBdLW_162dxurS190TkAdLiuR1tDJQWpo74RhJ6nk",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "9m4r7MwY997DHnPoRyEdQ3Yhetfa7gFuSu8CY13efzFR",
+      "originalName": "Holy Chip #105 - MACACO-SPACE",
+      "onChainName": "Holy Chip #105",
+      "uri": "https://gateway.irys.xyz/WVg-d_A6mTg0xLe46bdDFJlWABh2I5aVNjuRagDZBps",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "5HoaaoWdHYMEXfQA9EfucrdZnWYPC7wBVt3eaNAcnC2Q",
+      "originalName": "Holy Chip #106 - ASTRONAUTA",
+      "onChainName": "Holy Chip #106",
+      "uri": "https://gateway.irys.xyz/4OEZOzePa7yGG_D6LfCFHU5COlGmhMXP9lWiKvaVPqQ",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    },
+    {
+      "mintAddress": "EmJtPFNkbFoyYMAEpikvb5XAxWaG6ywYwYWhndDFhL3H",
+      "originalName": "Holy Chip #231 - MACACO-SPACE",
+      "onChainName": "Holy Chip #231",
+      "uri": "https://gateway.irys.xyz/AQH4F95D1ZVLwM4YHhjPRaT-NtW1k66lDe8rGuRHF1w",
+      "reasons": [
+        "Missing `image` field",
+        "Missing `Character` attribute"
+      ]
+    }
+  ]
+}

@@ -30,6 +30,7 @@ NFT_DIR = Path.home() / "holy-chip/nft/collection/assets"
 BLOGS = SITE / "stories/analysis"
 TRACKER = Path.home() / "holy-chip/content/story-posts.json"
 HISTORY = Path.home() / "holy-chip/content/gm-history.json"
+PHRASES_FILE = Path.home() / "holy-chip/content/gm-phrases.md"
 ORIGIN_BASE = "holy-chip.com/origins"
 
 FONT_PSTART = str(TOOLS / "fonts/PressStart2P-Regular.ttf")
@@ -68,14 +69,52 @@ def blog_paragraphs(sid):
     return out
 
 
+def load_phrases():
+    """Approved GM phrases from content/gm-phrases.md.
+    Each numbered line is 'N. <phrase> (HC0xx)'. The (HC0xx) tag is the source
+    story (drives the 'read the full blog post' CTA). Returns [(phrase, sid)]."""
+    out = []
+    if not PHRASES_FILE.exists():
+        return out
+    for line in PHRASES_FILE.read_text().splitlines():
+        m = re.match(r"^\s*\d+\.\s+(.*\S)\s*$", line)
+        if not m:
+            continue
+        text = m.group(1).strip()
+        sid = ""
+        sm = re.search(r"\s*\((HC\d+)\)\s*$", text)
+        if sm:
+            sid = sm.group(1)
+            text = text[:sm.start()].strip()
+        out.append((text, sid))
+    return out
+
+
 def pick_thought(sid=None):
-    candidates = [sid] if sid else released_story_ids()
-    random.shuffle(candidates)
-    for s in candidates:
-        paras = blog_paragraphs(s)
-        if paras:
-            return random.choice(paras), s
-    return "AI WILL FIGURE IT OUT.", "HC000"
+    """Pick an approved phrase, no repeats until the whole list cycles. Falls
+    back to a random blog paragraph only if the approved list is missing/empty."""
+    phrases = load_phrases()
+    if not phrases:
+        candidates = [sid] if sid else released_story_ids()
+        random.shuffle(candidates)
+        for s in candidates:
+            paras = blog_paragraphs(s)
+            if paras:
+                return random.choice(paras), s
+        return "AI WILL FIGURE IT OUT.", "HC000"
+    if sid:                                   # optional: force a phrase from one story
+        filtered = [p for p in phrases if p[1] == sid]
+        if filtered:
+            phrases = filtered
+    data = json.loads(HISTORY.read_text()) if HISTORY.exists() else {}
+    used = set(data.get("used_phrases", []))
+    unused = [(t, s) for (t, s) in phrases if t not in used]
+    if not unused:                            # cycled through all — reset rotation
+        unused = phrases
+        if HISTORY.exists():
+            data["used_phrases"] = []
+            HISTORY.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
+    return random.choice(unused)
 
 
 def load_nft(nft_id):
@@ -110,6 +149,9 @@ def record_use(nft_id, thought, source_sid, out_path):
     data.setdefault("log", [])
     if nft_id not in data["used_ids"]:
         data["used_ids"].append(nft_id)
+    data.setdefault("used_phrases", [])
+    if thought not in data["used_phrases"]:
+        data["used_phrases"].append(thought)
     data["log"].append({"nft_id": nft_id, "source": source_sid,
                         "thought": thought, "out": str(out_path)})
     HISTORY.write_text(json.dumps(data, indent=2, ensure_ascii=False)+"\n")

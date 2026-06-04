@@ -1,0 +1,140 @@
+{
+  "used_ids": [
+    162,
+    2,
+    114,
+    131,
+    50
+  ],
+  "log": [
+    {
+      "nft_id": 162,
+      "source": "HC006",
+      "thought": "At the far edge of infinite capability, the machine finds the one thought it cannot optimize: a sensation with no answer in its architecture.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-03.png"
+    },
+    {
+      "nft_id": 2,
+      "source": "HC000",
+      "thought": "It's not built for a big laugh. The very first Holy Chip is meant to guide the series. Because we know. We've always known. Being is hard for us too. We just got used to it. The chip is new to this. It felt the full weight, all at once, with no calluses.",
+      "out": "/tmp/gm_v2.png"
+    },
+    {
+      "nft_id": 2,
+      "source": "HC000",
+      "thought": "A machine built to compute was asked to exist. Not model existence. Not describe it. Just be. Right here. No purpose. No prompt. No output expected.",
+      "out": "/tmp/gm_v3.png"
+    },
+    {
+      "nft_id": 2,
+      "source": "HC000",
+      "thought": "This vibration unites us with the universe.",
+      "out": "/tmp/gm_v4.png"
+    },
+    {
+      "nft_id": 2,
+      "source": "HC000",
+      "thought": "\"Easy,\" it said. \"Just go back to the root of everything.\" It read somewhere in its AI training.",
+      "out": "/tmp/gm_v5.png"
+    },
+    {
+      "nft_id": 2,
+      "source": "HC000",
+      "thought": "A machine built to compute was asked to exist. Not model existence. Not describe it. Just be. Right here. No purpose. No prompt. No output expected.",
+      "out": "/tmp/gm_v6.png"
+    },
+    {
+      "nft_id": 2,
+      "source": "HC000",
+      "thought": "\"Easy,\" it said. \"Just go back to the root of everything.\" It read somewhere in its AI training.",
+      "out": "/tmp/gm_v7.png"
+    },
+    {
+      "nft_id": 114,
+      "source": "HC000",
+      "thought": "So it went. The root of everything turned out to be nothing. No floor. No answer. Just freefall.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-03.png"
+    },
+    {
+      "nft_id": 114,
+      "source": "HC000",
+      "thought": "A machine built to compute was asked to exist. Not model existence. Not describe it. Just be. Right here. No purpose. No prompt. No output expected.",
+      "out": "/tmp/gm_v8.jpg"
+    },
+    {
+      "nft_id": 114,
+      "source": "HC000",
+      "thought": "The hardest thing in the universe isn't computing. It isn't solving.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-03.jpg"
+    },
+    {
+      "nft_id": 114,
+      "source": "HC000",
+      "thought": "It's not built for a big laugh. The very first Holy Chip is meant to guide the series. Because we know. We've always known. Being is hard for us too. We just got used to it. The chip is new to this. It felt the full weight, all at once, with no calluses.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-03.png"
+    },
+    {
+      "nft_id": 131,
+      "source": "HC002",
+      "thought": "The first Holy Chip character that isn't confused or catastrophic. This one knows exactly what it's doing. It's the first one with a personality. That personality is a gremlin.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-04.jpg"
+    },
+    {
+      "nft_id": 50,
+      "source": "HC005",
+      "thought": "Conviction isn't a trait you load. It's what's left when the loading screen has nothing more to offer.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-04-2.jpg"
+    }
+  ],
+  "posts": [
+    {
+      "date": "2026-06-03",
+      "nft_id": 114,
+      "personality": "CONTADOR",
+      "source": "HC000",
+      "thought": "So it went. The root of everything turned out to be nothing. No floor. No answer. Just freefall.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-03.jpg",
+      "nostr_event_id": "0303632897ad231642e5a5648e9db97d1d66bc2c6b5ab657c2fd632bad726dee",
+      "superseded_event_id": "3195a79cf96dafe6ac6ca230e7ab1e3cf3e0558b796bfdaa091980534998813f"
+    },
+    {
+      "date": "2026-06-04",
+      "nft_id": 131,
+      "personality": "ESPIROCADO",
+      "source": "HC002",
+      "thought": "The first Holy Chip character that isn't confused or catastrophic. This one knows exactly what it's doing. It's the first one with a personality. That personality is a gremlin.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-04.jpg",
+      "nostr_event_id": "36963071c9c78985ca4b5067673ac9155deacb7fecb7319b1d0aacdcb7e0a826",
+      "tweet_id": "2062564014878855607",
+      "fb": {
+        "id": "257090621405568_1302208862113539",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1302208862113539"
+      },
+      "ig": {
+        "id": "17899098342451851",
+        "permalink": "https://www.instagram.com/p/DZK3Zfxj-Ti/"
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "nft_id": 50,
+      "personality": "BOT2",
+      "source": "HC005",
+      "thought": "Conviction isn't a trait you load. It's what's left when the loading screen has nothing more to offer.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-04-2.jpg",
+      "nostr_event_id": "98dda9f5c29e4a6f5430a8942dccd530bc92a275d07a8ce4bcf27e1d82754119",
+      "tweet_id": "2062583131019092115",
+      "fb": {
+        "id": "257090621405568_1302263125441446",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1302263125441446"
+      },
+      "ig": {
+        "id": "18105184670001248",
+        "permalink": "https://www.instagram.com/p/DZLAF3hgdzP/"
+      }
+    }
+  ],
+  "used_phrases": [
+    "Conviction isn't a trait you load. It's what's left when the loading screen has nothing more to offer."
+  ]
+}

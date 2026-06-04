@@ -1,0 +1,16 @@
+{
+  "name": "Holy Chip #005 — Chip_110",
+  "symbol": "HCHIP",
+  "description": "Chip_110 — The Six. Harmony and duality in the binary universe.",
+  "image": "4.png",
+  "attributes": [
+    { "trait_type": "Character", "value": "Chip_110" },
+    { "trait_type": "Binary", "value": "110" },
+    { "trait_type": "Series", "value": "Genesis" },
+    { "trait_type": "Rarity", "value": "Common" }
+  ],
+  "properties": {
+    "files": [{ "uri": "4.png", "type": "image/png" }],
+    "creators": [{ "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx", "share": 100 }]
+  }
+}

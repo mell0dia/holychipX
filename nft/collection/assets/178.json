@@ -1,0 +1,54 @@
+{
+  "name": "Holy Chip #178 - MACHINE",
+  "symbol": "HCHIP",
+  "description": "MACHINE - Holy Chip NFT Collection. Binary ID: 10110010",
+  "image": "178.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "MACHINE"
+    },
+    {
+      "trait_type": "Binary",
+      "value": "10110010"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "374"
+    },
+    {
+      "trait_type": "Background",
+      "value": "89"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "173"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "1"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "114"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "178.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}

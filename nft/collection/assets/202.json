@@ -1,0 +1,54 @@
+{
+  "name": "Holy Chip #202 - MACACO-SPACE",
+  "symbol": "HCHIP",
+  "description": "MACACO-SPACE - Holy Chip NFT Collection. Binary ID: 11001010",
+  "image": "202.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "MACACO-SPACE"
+    },
+    {
+      "trait_type": "Binary",
+      "value": "11001010"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "20"
+    },
+    {
+      "trait_type": "Background",
+      "value": "292"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "177"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "3"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "1"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "202.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}

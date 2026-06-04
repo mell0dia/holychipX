@@ -1,0 +1,3265 @@
+{
+  "0": {
+    "id": 0,
+    "binary": "0",
+    "character": "CONTADOR",
+    "original": "o327.b267.r001.m005.a016.png",
+    "attributes": {
+      "o": 327,
+      "b": 267,
+      "r": 1,
+      "m": 5,
+      "a": 16
+    }
+  },
+  "1": {
+    "id": 1,
+    "binary": "1",
+    "character": "ROBOT",
+    "original": "o370.b341.r199.m001.a309.png",
+    "attributes": {
+      "o": 370,
+      "b": 341,
+      "r": 199,
+      "m": 1,
+      "a": 309
+    }
+  },
+  "10": {
+    "id": 2,
+    "binary": "10",
+    "character": "POLICE-V1",
+    "original": "o115.b152.r018.m2031.a306.png",
+    "attributes": {
+      "o": 115,
+      "b": 152,
+      "r": 18,
+      "m": 2031,
+      "a": 306
+    }
+  },
+  "11": {
+    "id": 3,
+    "binary": "11",
+    "character": "MADMAX",
+    "original": "o019.b312.r121.m001.a328.png",
+    "attributes": {
+      "o": 19,
+      "b": 312,
+      "r": 121,
+      "m": 1,
+      "a": 328
+    }
+  },
+  "100": {
+    "id": 4,
+    "binary": "100",
+    "character": "MACACO-SPACE",
+    "original": "o094.b292.r052.m003.a001.png",
+    "attributes": {
+      "o": 94,
+      "b": 292,
+      "r": 52,
+      "m": 3,
+      "a": 1
+    }
+  },
+  "101": {
+    "id": 5,
+    "binary": "101",
+    "character": "ZURETA",
+    "original": "o308.b198.r215.m001.a108.png",
+    "attributes": {
+      "o": 308,
+      "b": 198,
+      "r": 215,
+      "m": 1,
+      "a": 108
+    }
+  },
+  "110": {
+    "id": 6,
+    "binary": "110",
+    "character": "BOT2",
+    "original": "o005.b003.r054.m001.a093.png",
+    "attributes": {
+      "o": 5,
+      "b": 3,
+      "r": 54,
+      "m": 1,
+      "a": 93
+    }
+  },
+  "111": {
+    "id": 7,
+    "binary": "111",
+    "character": "VISION",
+    "original": "o367.b224.r325.m001.a268.png",
+    "attributes": {
+      "o": 367,
+      "b": 224,
+      "r": 325,
+      "m": 1,
+      "a": 268
+    }
+  },
+  "1000": {
+    "id": 8,
+    "binary": "1000",
+    "character": "CONTADOR",
+    "original": "o044.b297.r001.m005.a045.png",
+    "attributes": {
+      "o": 44,
+      "b": 297,
+      "r": 1,
+      "m": 5,
+      "a": 45
+    }
+  },
+  "1001": {
+    "id": 9,
+    "binary": "1001",
+    "character": "JASON-MAD",
+    "original": "o019.b107.r138.m001.a293.png",
+    "attributes": {
+      "o": 19,
+      "b": 107,
+      "r": 138,
+      "m": 1,
+      "a": 293
+    }
+  },
+  "1010": {
+    "id": 10,
+    "binary": "1010",
+    "character": "CICLOPE",
+    "original": "o187.b009.r299.m001.a264.png",
+    "attributes": {
+      "o": 187,
+      "b": 9,
+      "r": 299,
+      "m": 1,
+      "a": 264
+    }
+  },
+  "1011": {
+    "id": 11,
+    "binary": "1011",
+    "character": "POLICE-V1",
+    "original": "o083.b2021.r130.m2031.a306.png",
+    "attributes": {
+      "o": 83,
+      "b": 2021,
+      "r": 130,
+      "m": 2031,
+      "a": 306
+    }
+  },
+  "1100": {
+    "id": 12,
+    "binary": "1100",
+    "character": "POLICE-V1",
+    "original": "o065.b252.r130.m2031.a306.png",
+    "attributes": {
+      "o": 65,
+      "b": 252,
+      "r": 130,
+      "m": 2031,
+      "a": 306
+    }
+  },
+  "1101": {
+    "id": 13,
+    "binary": "1101",
+    "character": "ASTRONAUTA",
+    "original": "o315.b297.r001.m004.a001.png",
+    "attributes": {
+      "o": 315,
+      "b": 297,
+      "r": 1,
+      "m": 4,
+      "a": 1
+    }
+  },
+  "1110": {
+    "id": 14,
+    "binary": "1110",
+    "character": "CICLOPE",
+    "original": "o187.b341.r031.m001.a026.png",
+    "attributes": {
+      "o": 187,
+      "b": 341,
+      "r": 31,
+      "m": 1,
+      "a": 26
+    }
+  },
+  "1111": {
+    "id": 15,
+    "binary": "1111",
+    "character": "JASON-MAD",
+    "original": "o019.b009.r087.m001.a293.png",
+    "attributes": {
+      "o": 19,
+      "b": 9,
+      "r": 87,
+      "m": 1,
+      "a": 293
+    }
+  },
+  "10000": {
+    "id": 16,
+    "binary": "10000",
+    "character": "MACACO-SPACE",
+    "original": "o153.b292.r269.m003.a001.png",
+    "attributes": {
+      "o": 153,
+      "b": 292,
+      "r": 269,
+      "m": 3,
+      "a": 1
+    }
+  },
+  "10001": {
+    "id": 17,
+    "binary": "10001",
+    "character": "MACHINE",
+    "original": "o374.b310.r257.m001.a289.png",
+    "attributes": {
+      "o": 374,
+      "b": 310,
+      "r": 257,
+      "m": 1,
+      "a": 289
+    }
+  },
+  "10010": {
+    "id": 18,
+    "binary": "10010",
+    "character": "BABY",
+    "original": "o203.b311.r016.m001.a318.png",
+    "attributes": {
+      "o": 203,
+      "b": 311,
+      "r": 16,
+      "m": 1,
+      "a": 318
+    }
+  },
+  "10011": {
+    "id": 19,
+    "binary": "10011",
+    "character": "ZURETA",
+    "original": "o304.b295.r215.m001.a026.png",
+    "attributes": {
+      "o": 304,
+      "b": 295,
+      "r": 215,
+      "m": 1,
+      "a": 26
+    }
+  },
+  "10100": {
+    "id": 20,
+    "binary": "10100",
+    "character": "MADMAX",
+    "original": "o019.b312.r157.m001.a332.png",
+    "attributes": {
+      "o": 19,
+      "b": 312,
+      "r": 157,
+      "m": 1,
+      "a": 332
+    }
+  },
+  "10101": {
+    "id": 21,
+    "binary": "10101",
+    "character": "EYES-OF-LOVE",
+    "original": "o322.b012.r027.m001.a226.png",
+    "attributes": {
+      "o": 322,
+      "b": 12,
+      "r": 27,
+      "m": 1,
+      "a": 226
+    }
+  },
+  "10110": {
+    "id": 22,
+    "binary": "10110",
+    "character": "CICLOPE",
+    "original": "o187.b215.r134.m001.a009.png",
+    "attributes": {
+      "o": 187,
+      "b": 215,
+      "r": 134,
+      "m": 1,
+      "a": 9
+    }
+  },
+  "10111": {
+    "id": 23,
+    "binary": "10111",
+    "character": "MEDICO-V1",
+    "original": "o071.b036.r027.m006.a342.png",
+    "attributes": {
+      "o": 71,
+      "b": 36,
+      "r": 27,
+      "m": 6,
+      "a": 342
+    }
+  },
+  "11000": {
+    "id": 24,
+    "binary": "11000",
+    "character": "CICLOPE",
+    "original": "o187.b105.r134.m001.a264.png",
+    "attributes": {
+      "o": 187,
+      "b": 105,
+      "r": 134,
+      "m": 1,
+      "a": 264
+    }
+  },
+  "11001": {
+    "id": 25,
+    "binary": "11001",
+    "character": "IRMAO-DO-PIRATA",
+    "original": "o036.b322.r321.m107.a001.png",
+    "attributes": {
+      "o": 36,
+      "b": 322,
+      "r": 321,
+      "m": 107,
+      "a": 1
+    }
+  },
+  "11010": {
+    "id": 26,
+    "binary": "11010",
+    "character": "JASON-MAD",
+    "original": "o019.b216.r043.m001.a144.png",
+    "attributes": {
+      "o": 19,
+      "b": 216,
+      "r": 43,
+      "m": 1,
+      "a": 144
+    }
+  },
+  "11011": {
+    "id": 27,
+    "binary": "11011",
+    "character": "POLICE-V1",
+    "original": "o026.b346.r007.m2031.a306.png",
+    "attributes": {
+      "o": 26,
+      "b": 346,
+      "r": 7,
+      "m": 2031,
+      "a": 306
+    }
+  },
+  "11100": {
+    "id": 28,
+    "binary": "11100",
+    "character": "BOT1",
+    "original": "o217.b257.r057.m001.a110.png",
+    "attributes": {
+      "o": 217,
+      "b": 257,
+      "r": 57,
+      "m": 1,
+      "a": 110
+    }
+  },
+  "11101": {
+    "id": 29,
+    "binary": "11101",
+    "character": "CICLOPE",
+    "original": "o187.b009.r280.m001.a332.png",
+    "attributes": {
+      "o": 187,
+      "b": 9,
+      "r": 280,
+      "m": 1,
+      "a": 332
+    }
+  },
+  "11110": {
+    "id": 30,
+    "binary": "11110",
+    "character": "BOT1",
+    "original": "o217.b305.r087.m001.a110.png",
+    "attributes": {
+      "o": 217,
+      "b": 305,
+      "r": 87,
+      "m": 1,
+      "a": 110
+    }
+  },
+  "11111": {
+    "id": 31,
+    "binary": "11111",
+    "character": "MADMAX",
+    "original": "o019.b214.r121.m001.a328.png",
+    "attributes": {
+      "o": 19,
+      "b": 214,
+      "r": 121,
+      "m": 1,
+      "a": 328
+    }
+  },
+  "100000": {
+    "id": 32,
+    "binary": "100000",
+    "character": "POLICE-V1",
+    "original": "o115.b186.r007.m2031.a108.png",
+    "attributes": {
+      "o": 115,
+      "b": 186,
+      "r": 7,
+      "m": 2031,
+      "a": 108
+    }
+  },
+  "100001": {
+    "id": 33,
+    "binary": "100001",
+    "character": "BUDA-MONGE-V1",
+    "original": "o116.b225.r031.m2021.a2021.png",
+    "attributes": {
+      "o": 116,
+      "b": 225,
+      "r": 31,
+      "m": 2021,
+      "a": 2021
+    }
+  },
+  "100010": {
+    "id": 34,
+    "binary": "100010",
+    "character": "JASON",
+    "original": "o047.b144.r143.m001.a212.png",
+    "attributes": {
+      "o": 47,
+      "b": 144,
+      "r": 143,
+      "m": 1,
+      "a": 212
+    }
+  },
+  "100011": {
+    "id": 35,
+    "binary": "100011",
+    "character": "JASON-MAD",
+    "original": "o019.b080.r144.m001.a126.png",
+    "attributes": {
+      "o": 19,
+      "b": 80,
+      "r": 144,
+      "m": 1,
+      "a": 126
+    }
+  },
+  "100100": {
+    "id": 36,
+    "binary": "100100",
+    "character": "BOT1",
+    "original": "o217.b238.r031.m001.a110.png",
+    "attributes": {
+      "o": 217,
+      "b": 238,
+      "r": 31,
+      "m": 1,
+      "a": 110
+    }
+  },
+  "100101": {
+    "id": 37,
+    "binary": "100101",
+    "character": "MACHINE",
+    "original": "o374.b089.r138.m001.a002.png",
+    "attributes": {
+      "o": 374,
+      "b": 89,
+      "r": 138,
+      "m": 1,
+      "a": 2
+    }
+  },
+  "100110": {
+    "id": 38,
+    "binary": "100110",
+    "character": "ROBOT",
+    "original": "o373.b146.r263.m001.a066.png",
+    "attributes": {
+      "o": 373,
+      "b": 146,
+      "r": 263,
+      "m": 1,
+      "a": 66
+    }
+  },
+  "100111": {
+    "id": 39,
+    "binary": "100111",
+    "character": "JASON",
+    "original": "o106.b144.r082.m001.a115.png",
+    "attributes": {
+      "o": 106,
+      "b": 144,
+      "r": 82,
+      "m": 1,
+      "a": 115
+    }
+  },
+  "101000": {
+    "id": 40,
+    "binary": "101000",
+    "character": "BUDA-MONGE-V1",
+    "original": "o111.b2021.r111.m2021.a2021.png",
+    "attributes": {
+      "o": 111,
+      "b": 2021,
+      "r": 111,
+      "m": 2021,
+      "a": 2021
+    }
+  },
+  "101001": {
+    "id": 41,
+    "binary": "101001",
+    "character": "BOT1",
+    "original": "o217.b093.r087.m001.a110.png",
+    "attributes": {
+      "o": 217,
+      "b": 93,
+      "r": 87,
+      "m": 1,
+      "a": 110
+    }
+  },
+  "101010": {
+    "id": 42,
+    "binary": "101010",
+    "character": "CICLOPE",
+    "original": "o187.b295.r280.m001.a180.png",
+    "attributes": {
+      "o": 187,
+      "b": 295,
+      "r": 280,
+      "m": 1,
+      "a": 180
+    }
+  },
+  "101011": {
+    "id": 43,
+    "binary": "101011",
+    "character": "JASON-MAD",
+    "original": "o019.b080.r162.m001.a293.png",
+    "attributes": {
+      "o": 19,
+      "b": 80,
+      "r": 162,
+      "m": 1,
+      "a": 293
+    }
+  },
+  "101100": {
+    "id": 44,
+    "binary": "101100",
+    "character": "JASON",
+    "original": "o314.b144.r299.m001.a291.png",
+    "attributes": {
+      "o": 314,
+      "b": 144,
+      "r": 299,
+      "m": 1,
+      "a": 291
+    }
+  },
+  "101101": {
+    "id": 45,
+    "binary": "101101",
+    "character": "JASON",
+    "original": "o314.b144.r082.m001.a041.png",
+    "attributes": {
+      "o": 314,
+      "b": 144,
+      "r": 82,
+      "m": 1,
+      "a": 41
+    }
+  },
+  "101110": {
+    "id": 46,
+    "binary": "101110",
+    "character": "MADMAX",
+    "original": "o019.b149.r318.m001.a276.png",
+    "attributes": {
+      "o": 19,
+      "b": 149,
+      "r": 318,
+      "m": 1,
+      "a": 276
+    }
+  },
+  "101111": {
+    "id": 47,
+    "binary": "101111",
+    "character": "EYES-OF-LOVE",
+    "original": "o322.b224.r109.m001.a046.png",
+    "attributes": {
+      "o": 322,
+      "b": 224,
+      "r": 109,
+      "m": 1,
+      "a": 46
+    }
+  },
+  "110000": {
+    "id": 48,
+    "binary": "110000",
+    "character": "MACACO-SPACE",
+    "original": "o171.b099.r288.m003.a001.png",
+    "attributes": {
+      "o": 171,
+      "b": 99,
+      "r": 288,
+      "m": 3,
+      "a": 1
+    }
+  },
+  "110001": {
+    "id": 49,
+    "binary": "110001",
+    "character": "CICLOPE",
+    "original": "o187.b340.r031.m001.a105.png",
+    "attributes": {
+      "o": 187,
+      "b": 340,
+      "r": 31,
+      "m": 1,
+      "a": 105
+    }
+  },
+  "110010": {
+    "id": 50,
+    "binary": "110010",
+    "character": "BOT2",
+    "original": "o005.b154.r170.m001.a093.png",
+    "attributes": {
+      "o": 5,
+      "b": 154,
+      "r": 170,
+      "m": 1,
+      "a": 93
+    }
+  },
+  "110011": {
+    "id": 51,
+    "binary": "110011",
+    "character": "ROBOT",
+    "original": "o370.b126.r185.m001.a331.png",
+    "attributes": {
+      "o": 370,
+      "b": 126,
+      "r": 185,
+      "m": 1,
+      "a": 331
+    }
+  },
+  "110100": {
+    "id": 52,
+    "binary": "110100",
+    "character": "ROBOT",
+    "original": "o373.b152.r146.m001.a170.png",
+    "attributes": {
+      "o": 373,
+      "b": 152,
+      "r": 146,
+      "m": 1,
+      "a": 170
+    }
+  },
+  "110101": {
+    "id": 53,
+    "binary": "110101",
+    "character": "CONTADOR",
+    "original": "o095.b198.r001.m005.a318.png",
+    "attributes": {
+      "o": 95,
+      "b": 198,
+      "r": 1,
+      "m": 5,
+      "a": 318
+    }
+  },
+  "110110": {
+    "id": 54,
+    "binary": "110110",
+    "character": "IRMAO-DO-PIRATA",
+    "original": "o305.b170.r027.m107.a001.png",
+    "attributes": {
+      "o": 305,
+      "b": 170,
+      "r": 27,
+      "m": 107,
+      "a": 1
+    }
+  },
+  "110111": {
+    "id": 55,
+    "binary": "110111",
+    "character": "POLICE-V1",
+    "original": "o083.b165.r018.m2031.a108.png",
+    "attributes": {
+      "o": 83,
+      "b": 165,
+      "r": 18,
+      "m": 2031,
+      "a": 108
+    }
+  },
+  "111000": {
+    "id": 56,
+    "binary": "111000",
+    "character": "MACACO-SPACE",
+    "original": "o153.b262.r269.m003.a001.png",
+    "attributes": {
+      "o": 153,
+      "b": 262,
+      "r": 269,
+      "m": 3,
+      "a": 1
+    }
+  },
+  "111001": {
+    "id": 57,
+    "binary": "111001",
+    "character": "ASTRONAUTA",
+    "original": "o330.b087.r001.m004.a001.png",
+    "attributes": {
+      "o": 330,
+      "b": 87,
+      "r": 1,
+      "m": 4,
+      "a": 1
+    }
+  },
+  "111010": {
+    "id": 58,
+    "binary": "111010",
+    "character": "BOT2",
+    "original": "o005.b095.r203.m001.a093.png",
+    "attributes": {
+      "o": 5,
+      "b": 95,
+      "r": 203,
+      "m": 1,
+      "a": 93
+    }
+  },
+  "111011": {
+    "id": 59,
+    "binary": "111011",
+    "character": "ROBOT",
+    "original": "o373.b061.r128.m001.a178.png",
+    "attributes": {
+      "o": 373,
+      "b": 61,
+      "r": 128,
+      "m": 1,
+      "a": 178
+    }
+  },
+  "111100": {
+    "id": 60,
+    "binary": "111100",
+    "character": "BABY",
+    "original": "o114.b311.r011.m001.a301.png",
+    "attributes": {
+      "o": 114,
+      "b": 311,
+      "r": 11,
+      "m": 1,
+      "a": 301
+    }
+  },
+  "111101": {
+    "id": 61,
+    "binary": "111101",
+    "character": "ASTRONAUTA",
+    "original": "o362.b064.r001.m004.a001.png",
+    "attributes": {
+      "o": 362,
+      "b": 64,
+      "r": 1,
+      "m": 4,
+      "a": 1
+    }
+  },
+  "111110": {
+    "id": 62,
+    "binary": "111110",
+    "character": "MACACO-SPACE",
+    "original": "o153.b252.r288.m003.a001.png",
+    "attributes": {
+      "o": 153,
+      "b": 252,
+      "r": 288,
+      "m": 3,
+      "a": 1
+    }
+  },
+  "111111": {
+    "id": 63,
+    "binary": "111111",
+    "character": "ESPIROCADO",
+    "original": "o358.b002.r280.m001.a177.png",
+    "attributes": {
+      "o": 358,
+      "b": 2,
+      "r": 280,
+      "m": 1,
+      "a": 177
+    }
+  },
+  "1000000": {
+    "id": 64,
+    "binary": "1000000",
+    "character": "JASON",
+    "original": "o130.b144.r294.m001.a115.png",
+    "attributes": {
+      "o": 130,
+      "b": 144,
+      "r": 294,
+      "m": 1,
+      "a": 115
+    }
+  },
+  "1000001": {
+    "id": 65,
+    "binary": "1000001",
+    "character": "BUDA-MONGE-V1",
+    "original": "o366.b2022.r2022.m2021.a2021.png",
+    "attributes": {
+      "o": 366,
+      "b": 2022,
+      "r": 2022,
+      "m": 2021,
+      "a": 2021
+    }
+  },
+  "1000010": {
+    "id": 66,
+    "binary": "1000010",
+    "character": "EYES-OF-LOVE",
+    "original": "o322.b224.r280.m001.a008.png",
+    "attributes": {
+      "o": 322,
+      "b": 224,
+      "r": 280,
+      "m": 1,
+      "a": 8
+    }
+  },
+  "1000011": {
+    "id": 67,
+    "binary": "1000011",
+    "character": "TRUMP",
+    "original": "o2002.b2003.r2003.m2001.a2003.png",
+    "attributes": {
+      "o": 2002,
+      "b": 2003,
+      "r": 2003,
+      "m": 2001,
+      "a": 2003
+    }
+  },
+  "1000100": {
+    "id": 68,
+    "binary": "1000100",
+    "character": "CICLOPE",
+    "original": "o187.b009.r323.m001.a332.png",
+    "attributes": {
+      "o": 187,
+      "b": 9,
+      "r": 323,
+      "m": 1,
+      "a": 332
+    }
+  },
+  "1000101": {
+    "id": 69,
+    "binary": "1000101",
+    "character": "TRUMP",
+    "original": "o2004.b2003.r2002.m2001.a2001.png",
+    "attributes": {
+      "o": 2004,
+      "b": 2003,
+      "r": 2002,
+      "m": 2001,
+      "a": 2001
+    }
+  },
+  "1000110": {
+    "id": 70,
+    "binary": "1000110",
+    "character": "MEDICO-V1",
+    "original": "o375.b349.r328.m006.a342.png",
+    "attributes": {
+      "o": 375,
+      "b": 349,
+      "r": 328,
+      "m": 6,
+      "a": 342
+    }
+  },
+  "1000111": {
+    "id": 71,
+    "binary": "1000111",
+    "character": "MACACO-SPACE",
+    "original": "o171.b335.r324.m003.a001.png",
+    "attributes": {
+      "o": 171,
+      "b": 335,
+      "r": 324,
+      "m": 3,
+      "a": 1
+    }
+  },
+  "1001000": {
+    "id": 72,
+    "binary": "1001000",
+    "character": "MADMAX",
+    "original": "o019.b044.r078.m001.a276.png",
+    "attributes": {
+      "o": 19,
+      "b": 44,
+      "r": 78,
+      "m": 1,
+      "a": 276
+    }
+  },
+  "1001001": {
+    "id": 73,
+    "binary": "1001001",
+    "character": "JASON-MAD",
+    "original": "o019.b216.r087.m001.a126.png",
+    "attributes": {
+      "o": 19,
+      "b": 216,
+      "r": 87,
+      "m": 1,
+      "a": 126
+    }
+  },
+  "1001010": {
+    "id": 74,
+    "binary": "1001010",
+    "character": "JASON-MAD",
+    "original": "o019.b047.r043.m001.a328.png",
+    "attributes": {
+      "o": 19,
+      "b": 47,
+      "r": 43,
+      "m": 1,
+      "a": 328
+    }
+  },
+  "1001011": {
+    "id": 75,
+    "binary": "1001011",
+    "character": "TRUMP",
+    "original": "o2001.b2003.r2003.m2001.a2003.png",
+    "attributes": {
+      "o": 2001,
+      "b": 2003,
+      "r": 2003,
+      "m": 2001,
+      "a": 2003
+    }
+  },
+  "1001100": {
+    "id": 76,
+    "binary": "1001100",
+    "character": "BOT2",
+    "original": "o005.b002.r322.m001.a093.png",
+    "attributes": {
+      "o": 5,
+      "b": 2,
+      "r": 322,
+      "m": 1,
+      "a": 93
+    }
+  },
+  "1001101": {
+    "id": 77,
+    "binary": "1001101",
+    "character": "JASON",
+    "original": "o056.b144.r294.m001.a061.png",
+    "attributes": {
+      "o": 56,
+      "b": 144,
+      "r": 294,
+      "m": 1,
+      "a": 61
+    }
+  },
+  "1001110": {
+    "id": 78,
+    "binary": "1001110",
+    "character": "IRMAO-DO-PIRATA",
+    "original": "o073.b280.r035.m107.a001.png",
+    "attributes": {
+      "o": 73,
+      "b": 280,
+      "r": 35,
+      "m": 107,
+      "a": 1
+    }
+  },
+  "1001111": {
+    "id": 79,
+    "binary": "1001111",
+    "character": "CONTADOR",
+    "original": "o067.b198.r001.m005.a009.png",
+    "attributes": {
+      "o": 67,
+      "b": 198,
+      "r": 1,
+      "m": 5,
+      "a": 9
+    }
+  },
+  "1010000": {
+    "id": 80,
+    "binary": "1010000",
+    "character": "CICLOPE",
+    "original": "o187.b215.r193.m001.a264.png",
+    "attributes": {
+      "o": 187,
+      "b": 215,
+      "r": 193,
+      "m": 1,
+      "a": 264
+    }
+  },
+  "1010001": {
+    "id": 81,
+    "binary": "1010001",
+    "character": "BOT1",
+    "original": "o217.b257.r085.m001.a110.png",
+    "attributes": {
+      "o": 217,
+      "b": 257,
+      "r": 85,
+      "m": 1,
+      "a": 110
+    }
+  },
+  "1010010": {
+    "id": 82,
+    "binary": "1010010",
+    "character": "MACHINE",
+    "original": "o374.b025.r051.m001.a114.png",
+    "attributes": {
+      "o": 374,
+      "b": 25,
+      "r": 51,
+      "m": 1,
+      "a": 114
+    }
+  },
+  "1010011": {
+    "id": 83,
+    "binary": "1010011",
+    "character": "BOT1",
+    "original": "o217.b005.r085.m001.a110.png",
+    "attributes": {
+      "o": 217,
+      "b": 5,
+      "r": 85,
+      "m": 1,
+      "a": 110
+    }
+  },
+  "1010100": {
+    "id": 84,
+    "binary": "1010100",
+    "character": "MACACO-SPACE",
+    "original": "o229.b252.r011.m003.a001.png",
+    "attributes": {
+      "o": 229,
+      "b": 252,
+      "r": 11,
+      "m": 3,
+      "a": 1
+    }
+  },
+  "1010101": {
+    "id": 85,
+    "binary": "1010101",
+    "character": "IRMAO-DO-PIRATA",
+    "original": "o118.b297.r129.m107.a001.png",
+    "attributes": {
+      "o": 118,
+      "b": 297,
+      "r": 129,
+      "m": 107,
+      "a": 1
+    }
+  },
+  "1010110": {
+    "id": 86,
+    "binary": "1010110",
+    "character": "ROBOT",
+    "original": "o368.b014.r070.m001.a095.png",
+    "attributes": {
+      "o": 368,
+      "b": 14,
+      "r": 70,
+      "m": 1,
+      "a": 95
+    }
+  },
+  "1010111": {
+    "id": 87,
+    "binary": "1010111",
+    "character": "ASTRONAUTA",
+    "original": "o366.b009.r001.m004.a001.png",
+    "attributes": {
+      "o": 366,
+      "b": 9,
+      "r": 1,
+      "m": 4,
+      "a": 1
+    }
+  },
+  "1011000": {
+    "id": 88,
+    "binary": "1011000",
+    "character": "BABY",
+    "original": "o336.b311.r242.m001.a113.png",
+    "attributes": {
+      "o": 336,
+      "b": 311,
+      "r": 242,
+      "m": 1,
+      "a": 113
+    }
+  },
+  "1011001": {
+    "id": 89,
+    "binary": "1011001",
+    "character": "POLICE-V1",
+    "original": "o115.b191.r007.m2031.a306.png",
+    "attributes": {
+      "o": 115,
+      "b": 191,
+      "r": 7,
+      "m": 2031,
+      "a": 306
+    }
+  },
+  "1011010": {
+    "id": 90,
+    "binary": "1011010",
+    "character": "CONTADOR",
+    "original": "o040.b134.r001.m005.a180.png",
+    "attributes": {
+      "o": 40,
+      "b": 134,
+      "r": 1,
+      "m": 5,
+      "a": 180
+    }
+  },
+  "1011011": {
+    "id": 91,
+    "binary": "1011011",
+    "character": "MACHINE",
+    "original": "o374.b325.r138.m001.a305.png",
+    "attributes": {
+      "o": 374,
+      "b": 325,
+      "r": 138,
+      "m": 1,
+      "a": 305
+    }
+  },
+  "1011100": {
+    "id": 92,
+    "binary": "1011100",
+    "character": "ASTRONAUTA",
+    "original": "o330.b305.r001.m004.a001.png",
+    "attributes": {
+      "o": 330,
+      "b": 305,
+      "r": 1,
+      "m": 4,
+      "a": 1
+    }
+  },
+  "1011101": {
+    "id": 93,
+    "binary": "1011101",
+    "character": "CICLOPE",
+    "original": "o187.b105.r279.m001.a219.png",
+    "attributes": {
+      "o": 187,
+      "b": 105,
+      "r": 279,
+      "m": 1,
+      "a": 219
+    }
+  },
+  "1011110": {
+    "id": 94,
+    "binary": "1011110",
+    "character": "JASON-MAD",
+    "original": "o019.b329.r279.m001.a144.png",
+    "attributes": {
+      "o": 19,
+      "b": 329,
+      "r": 279,
+      "m": 1,
+      "a": 144
+    }
+  },
+  "1011111": {
+    "id": 95,
+    "binary": "1011111",
+    "character": "BOT2",
+    "original": "o005.b003.r322.m001.a093.png",
+    "attributes": {
+      "o": 5,
+      "b": 3,
+      "r": 322,
+      "m": 1,
+      "a": 93
+    }
+  },
+  "1100000": {
+    "id": 96,
+    "binary": "1100000",
+    "character": "ASTRONAUTA",
+    "original": "o006.b228.r001.m004.a001.png",
+    "attributes": {
+      "o": 6,
+      "b": 228,
+      "r": 1,
+      "m": 4,
+      "a": 1
+    }
+  },
+  "1100001": {
+    "id": 97,
+    "binary": "1100001",
+    "character": "MACACO-SPACE",
+    "original": "o095.b292.r324.m003.a001.png",
+    "attributes": {
+      "o": 95,
+      "b": 292,
+      "r": 324,
+      "m": 3,
+      "a": 1
+    }
+  },
+  "1100010": {
+    "id": 98,
+    "binary": "1100010",
+    "character": "CICLOPE",
+    "original": "o187.b216.r043.m001.a240.png",
+    "attributes": {
+      "o": 187,
+      "b": 216,
+      "r": 43,
+      "m": 1,
+      "a": 240
+    }
+  },
+  "1100011": {
+    "id": 99,
+    "binary": "1100011",
+    "character": "ROBOT",
+    "original": "o368.b009.r089.m001.a120.png",
+    "attributes": {
+      "o": 368,
+      "b": 9,
+      "r": 89,
+      "m": 1,
+      "a": 120
+    }
+  },
+  "1100100": {
+    "id": 100,
+    "binary": "1100100",
+    "character": "JASON",
+    "original": "o130.b144.r171.m001.a041.png",
+    "attributes": {
+      "o": 130,
+      "b": 144,
+      "r": 171,
+      "m": 1,
+      "a": 41
+    }
+  },
+  "1100101": {
+    "id": 101,
+    "binary": "1100101",
+    "character": "VISION",
+    "original": "o367.b341.r315.m001.a196.png",
+    "attributes": {
+      "o": 367,
+      "b": 341,
+      "r": 315,
+      "m": 1,
+      "a": 196
+    }
+  },
+  "1100110": {
+    "id": 102,
+    "binary": "1100110",
+    "character": "PIRATA",
+    "original": "o030.b310.r294.m107.a001.png",
+    "attributes": {
+      "o": 30,
+      "b": 310,
+      "r": 294,
+      "m": 107,
+      "a": 1
+    }
+  },
+  "1100111": {
+    "id": 103,
+    "binary": "1100111",
+    "character": "MADMAX",
+    "original": "o019.b014.r289.m001.a276.png",
+    "attributes": {
+      "o": 19,
+      "b": 14,
+      "r": 289,
+      "m": 1,
+      "a": 276
+    }
+  },
+  "1101000": {
+    "id": 104,
+    "binary": "1101000",
+    "character": "BOT1",
+    "original": "o217.b297.r085.m001.a110.png",
+    "attributes": {
+      "o": 217,
+      "b": 297,
+      "r": 85,
+      "m": 1,
+      "a": 110
+    }
+  },
+  "1101001": {
+    "id": 105,
+    "binary": "1101001",
+    "character": "MACACO-SPACE",
+    "original": "o229.b126.r288.m003.a001.png",
+    "attributes": {
+      "o": 229,
+      "b": 126,
+      "r": 288,
+      "m": 3,
+      "a": 1
+    }
+  },
+  "1101010": {
+    "id": 106,
+    "binary": "1101010",
+    "character": "ASTRONAUTA",
+    "original": "o105.b228.r001.m004.a001.png",
+    "attributes": {
+      "o": 105,
+      "b": 228,
+      "r": 1,
+      "m": 4,
+      "a": 1
+    }
+  },
+  "1101011": {
+    "id": 107,
+    "binary": "1101011",
+    "character": "EYES-OF-LOVE",
+    "original": "o322.b115.r027.m001.a046.png",
+    "attributes": {
+      "o": 322,
+      "b": 115,
+      "r": 27,
+      "m": 1,
+      "a": 46
+    }
+  },
+  "1101100": {
+    "id": 108,
+    "binary": "1101100",
+    "character": "MACHINE",
+    "original": "o374.b216.r294.m001.a268.png",
+    "attributes": {
+      "o": 374,
+      "b": 216,
+      "r": 294,
+      "m": 1,
+      "a": 268
+    }
+  },
+  "1101101": {
+    "id": 109,
+    "binary": "1101101",
+    "character": "MEDICO-V1",
+    "original": "o375.b337.r327.m006.a343.png",
+    "attributes": {
+      "o": 375,
+      "b": 337,
+      "r": 327,
+      "m": 6,
+      "a": 343
+    }
+  },
+  "1101110": {
+    "id": 110,
+    "binary": "1101110",
+    "character": "ASTRONAUTA",
+    "original": "o149.b071.r001.m004.a001.png",
+    "attributes": {
+      "o": 149,
+      "b": 71,
+      "r": 1,
+      "m": 4,
+      "a": 1
+    }
+  },
+  "1101111": {
+    "id": 111,
+    "binary": "1101111",
+    "character": "JASON",
+    "original": "o130.b144.r082.m001.a061.png",
+    "attributes": {
+      "o": 130,
+      "b": 144,
+      "r": 82,
+      "m": 1,
+      "a": 61
+    }
+  },
+  "1110000": {
+    "id": 112,
+    "binary": "1110000",
+    "character": "BOT1",
+    "original": "o217.b231.r081.m001.a110.png",
+    "attributes": {
+      "o": 217,
+      "b": 231,
+      "r": 81,
+      "m": 1,
+      "a": 110
+    }
+  },
+  "1110001": {
+    "id": 113,
+    "binary": "1110001",
+    "character": "POLICE-V1",
+    "original": "o130.b186.r018.m2031.a306.png",
+    "attributes": {
+      "o": 130,
+      "b": 186,
+      "r": 18,
+      "m": 2031,
+      "a": 306
+    }
+  },
+  "1110010": {
+    "id": 114,
+    "binary": "1110010",
+    "character": "CONTADOR",
+    "original": "o067.b134.r001.m005.a296.png",
+    "attributes": {
+      "o": 67,
+      "b": 134,
+      "r": 1,
+      "m": 5,
+      "a": 296
+    }
+  },
+  "1110011": {
+    "id": 115,
+    "binary": "1110011",
+    "character": "ZURETA",
+    "original": "o277.b198.r267.m001.a276.png",
+    "attributes": {
+      "o": 277,
+      "b": 198,
+      "r": 267,
+      "m": 1,
+      "a": 276
+    }
+  },
+  "1110100": {
+    "id": 116,
+    "binary": "1110100",
+    "character": "ASTRONAUTA",
+    "original": "o357.b073.r001.m004.a001.png",
+    "attributes": {
+      "o": 357,
+      "b": 73,
+      "r": 1,
+      "m": 4,
+      "a": 1
+    }
+  },
+  "1110101": {
+    "id": 117,
+    "binary": "1110101",
+    "character": "POLICE-V1",
+    "original": "o142.b152.r130.m2031.a306.png",
+    "attributes": {
+      "o": 142,
+      "b": 152,
+      "r": 130,
+      "m": 2031,
+      "a": 306
+    }
+  },
+  "1110110": {
+    "id": 118,
+    "binary": "1110110",
+    "character": "CONTADOR",
+    "original": "o217.b255.r001.m005.a045.png",
+    "attributes": {
+      "o": 217,
+      "b": 255,
+      "r": 1,
+      "m": 5,
+      "a": 45
+    }
+  },
+  "1110111": {
+    "id": 119,
+    "binary": "1110111",
+    "character": "VISION",
+    "original": "o367.b314.r031.m001.a332.png",
+    "attributes": {
+      "o": 367,
+      "b": 314,
+      "r": 31,
+      "m": 1,
+      "a": 332
+    }
+  },
+  "1111000": {
+    "id": 120,
+    "binary": "1111000",
+    "character": "CICLOPE",
+    "original": "o187.b091.r134.m001.a240.png",
+    "attributes": {
+      "o": 187,
+      "b": 91,
+      "r": 134,
+      "m": 1,
+      "a": 240
+    }
+  },
+  "1111001": {
+    "id": 121,
+    "binary": "1111001",
+    "character": "BABY",
+    "original": "o095.b311.r111.m001.a123.png",
+    "attributes": {
+      "o": 95,
+      "b": 311,
+      "r": 111,
+      "m": 1,
+      "a": 123
+    }
+  },
+  "1111010": {
+    "id": 122,
+    "binary": "1111010",
+    "character": "CICLOPE",
+    "original": "o187.b215.r031.m001.a332.png",
+    "attributes": {
+      "o": 187,
+      "b": 215,
+      "r": 31,
+      "m": 1,
+      "a": 332
+    }
+  },
+  "1111011": {
+    "id": 123,
+    "binary": "1111011",
+    "character": "ZURETA",
+    "original": "o353.b295.r203.m001.a009.png",
+    "attributes": {
+      "o": 353,
+      "b": 295,
+      "r": 203,
+      "m": 1,
+      "a": 9
+    }
+  },
+  "1111100": {
+    "id": 124,
+    "binary": "1111100",
+    "character": "POLICE-V1",
+    "original": "o026.b186.r007.m2031.a306.png",
+    "attributes": {
+      "o": 26,
+      "b": 186,
+      "r": 7,
+      "m": 2031,
+      "a": 306
+    }
+  },
+  "1111101": {
+    "id": 125,
+    "binary": "1111101",
+    "character": "MEDICO-V1",
+    "original": "o004.b337.r011.m006.a342.png",
+    "attributes": {
+      "o": 4,
+      "b": 337,
+      "r": 11,
+      "m": 6,
+      "a": 342
+    }
+  },
+  "1111110": {
+    "id": 126,
+    "binary": "1111110",
+    "character": "TRUMP",
+    "original": "o2004.b2006.r2002.m2001.a2003.png",
+    "attributes": {
+      "o": 2004,
+      "b": 2006,
+      "r": 2002,
+      "m": 2001,
+      "a": 2003
+    }
+  },
+  "1111111": {
+    "id": 127,
+    "binary": "1111111",
+    "character": "PIRATA",
+    "original": "o030.b241.r263.m107.a001.png",
+    "attributes": {
+      "o": 30,
+      "b": 241,
+      "r": 263,
+      "m": 107,
+      "a": 1
+    }
+  },
+  "10000000": {
+    "id": 128,
+    "binary": "10000000",
+    "character": "CONTADOR",
+    "original": "o356.b198.r001.m005.a008.png",
+    "attributes": {
+      "o": 356,
+      "b": 198,
+      "r": 1,
+      "m": 5,
+      "a": 8
+    }
+  },
+  "10000001": {
+    "id": 129,
+    "binary": "10000001",
+    "character": "ASTRONAUTA",
+    "original": "o093.b071.r001.m004.a001.png",
+    "attributes": {
+      "o": 93,
+      "b": 71,
+      "r": 1,
+      "m": 4,
+      "a": 1
+    }
+  },
+  "10000010": {
+    "id": 130,
+    "binary": "10000010",
+    "character": "CICLOPE",
+    "original": "o187.b055.r082.m001.a219.png",
+    "attributes": {
+      "o": 187,
+      "b": 55,
+      "r": 82,
+      "m": 1,
+      "a": 219
+    }
+  },
+  "10000011": {
+    "id": 131,
+    "binary": "10000011",
+    "character": "ESPIROCADO",
+    "original": "o358.b002.r200.m001.a340.png",
+    "attributes": {
+      "o": 358,
+      "b": 2,
+      "r": 200,
+      "m": 1,
+      "a": 340
+    }
+  },
+  "10000100": {
+    "id": 132,
+    "binary": "10000100",
+    "character": "VISION",
+    "original": "o367.b044.r242.m001.a332.png",
+    "attributes": {
+      "o": 367,
+      "b": 44,
+      "r": 242,
+      "m": 1,
+      "a": 332
+    }
+  },
+  "10000101": {
+    "id": 133,
+    "binary": "10000101",
+    "character": "ROBOT",
+    "original": "o368.b181.r315.m001.a014.png",
+    "attributes": {
+      "o": 368,
+      "b": 181,
+      "r": 315,
+      "m": 1,
+      "a": 14
+    }
+  },
+  "10000110": {
+    "id": 134,
+    "binary": "10000110",
+    "character": "MACHINE",
+    "original": "o374.b345.r138.m001.a114.png",
+    "attributes": {
+      "o": 374,
+      "b": 345,
+      "r": 138,
+      "m": 1,
+      "a": 114
+    }
+  },
+  "10000111": {
+    "id": 135,
+    "binary": "10000111",
+    "character": "BOT2",
+    "original": "o005.b329.r187.m001.a093.png",
+    "attributes": {
+      "o": 5,
+      "b": 329,
+      "r": 187,
+      "m": 1,
+      "a": 93
+    }
+  },
+  "10001000": {
+    "id": 136,
+    "binary": "10001000",
+    "character": "EYES-OF-LOVE",
+    "original": "o322.b224.r027.m001.a260.png",
+    "attributes": {
+      "o": 322,
+      "b": 224,
+      "r": 27,
+      "m": 1,
+      "a": 260
+    }
+  },
+  "10001001": {
+    "id": 137,
+    "binary": "10001001",
+    "character": "MEDICO-V1",
+    "original": "o164.b036.r328.m006.a343.png",
+    "attributes": {
+      "o": 164,
+      "b": 36,
+      "r": 328,
+      "m": 6,
+      "a": 343
+    }
+  },
+  "10001010": {
+    "id": 138,
+    "binary": "10001010",
+    "character": "MACACO-SPACE",
+    "original": "o094.b335.r251.m003.a001.png",
+    "attributes": {
+      "o": 94,
+      "b": 335,
+      "r": 251,
+      "m": 3,
+      "a": 1
+    }
+  },
+  "10001011": {
+    "id": 139,
+    "binary": "10001011",
+    "character": "IRMAO-DO-PIRATA",
+    "original": "o036.b297.r321.m107.a001.png",
+    "attributes": {
+      "o": 36,
+      "b": 297,
+      "r": 321,
+      "m": 107,
+      "a": 1
+    }
+  },
+  "10001100": {
+    "id": 140,
+    "binary": "10001100",
+    "character": "ESPIROCADO",
+    "original": "o358.b064.r128.m001.a266.png",
+    "attributes": {
+      "o": 358,
+      "b": 64,
+      "r": 128,
+      "m": 1,
+      "a": 266
+    }
+  },
+  "10001101": {
+    "id": 141,
+    "binary": "10001101",
+    "character": "MACACO-SPACE",
+    "original": "o171.b126.r324.m003.a001.png",
+    "attributes": {
+      "o": 171,
+      "b": 126,
+      "r": 324,
+      "m": 3,
+      "a": 1
+    }
+  },
+  "10001110": {
+    "id": 142,
+    "binary": "10001110",
+    "character": "BABY",
+    "original": "o171.b311.r111.m001.a066.png",
+    "attributes": {
+      "o": 171,
+      "b": 311,
+      "r": 111,
+      "m": 1,
+      "a": 66
+    }
+  },
+  "10001111": {
+    "id": 143,
+    "binary": "10001111",
+    "character": "POLICE-V1",
+    "original": "o118.b152.r018.m2031.a007.png",
+    "attributes": {
+      "o": 118,
+      "b": 152,
+      "r": 18,
+      "m": 2031,
+      "a": 7
+    }
+  },
+  "10010000": {
+    "id": 144,
+    "binary": "10010000",
+    "character": "JASON",
+    "original": "o106.b144.r034.m001.a291.png",
+    "attributes": {
+      "o": 106,
+      "b": 144,
+      "r": 34,
+      "m": 1,
+      "a": 291
+    }
+  },
+  "10010001": {
+    "id": 145,
+    "binary": "10010001",
+    "character": "ASTRONAUTA",
+    "original": "o362.b320.r001.m004.a001.png",
+    "attributes": {
+      "o": 362,
+      "b": 320,
+      "r": 1,
+      "m": 4,
+      "a": 1
+    }
+  },
+  "10010010": {
+    "id": 146,
+    "binary": "10010010",
+    "character": "VISION",
+    "original": "o367.b009.r031.m001.a001.png",
+    "attributes": {
+      "o": 367,
+      "b": 9,
+      "r": 31,
+      "m": 1,
+      "a": 1
+    }
+  },
+  "10010011": {
+    "id": 147,
+    "binary": "10010011",
+    "character": "CONTADOR",
+    "original": "o108.b255.r001.m005.a318.png",
+    "attributes": {
+      "o": 108,
+      "b": 255,
+      "r": 1,
+      "m": 5,
+      "a": 318
+    }
+  },
+  "10010100": {
+    "id": 148,
+    "binary": "10010100",
+    "character": "MACHINE",
+    "original": "o374.b345.r021.m001.a305.png",
+    "attributes": {
+      "o": 374,
+      "b": 345,
+      "r": 21,
+      "m": 1,
+      "a": 305
+    }
+  },
+  "10010101": {
+    "id": 149,
+    "binary": "10010101",
+    "character": "PIRATA",
+    "original": "o030.b300.r129.m107.a001.png",
+    "attributes": {
+      "o": 30,
+      "b": 300,
+      "r": 129,
+      "m": 107,
+      "a": 1
+    }
+  },
+  "10010110": {
+    "id": 150,
+    "binary": "10010110",
+    "character": "BUDA-MONGE-V1",
+    "original": "o111.b225.r232.m2021.a2021.png",
+    "attributes": {
+      "o": 111,
+      "b": 225,
+      "r": 232,
+      "m": 2021,
+      "a": 2021
+    }
+  },
+  "10010111": {
+    "id": 151,
+    "binary": "10010111",
+    "character": "POLICE-V1",
+    "original": "o025.b252.r007.m2031.a162.png",
+    "attributes": {
+      "o": 25,
+      "b": 252,
+      "r": 7,
+      "m": 2031,
+      "a": 162
+    }
+  },
+  "10011000": {
+    "id": 152,
+    "binary": "10011000",
+    "character": "CICLOPE",
+    "original": "o187.b295.r279.m001.a264.png",
+    "attributes": {
+      "o": 187,
+      "b": 295,
+      "r": 279,
+      "m": 1,
+      "a": 264
+    }
+  },
+  "10011001": {
+    "id": 153,
+    "binary": "10011001",
+    "character": "BOT1",
+    "original": "o217.b297.r027.m001.a110.png",
+    "attributes": {
+      "o": 217,
+      "b": 297,
+      "r": 27,
+      "m": 1,
+      "a": 110
+    }
+  },
+  "10011010": {
+    "id": 154,
+    "binary": "10011010",
+    "character": "ASTRONAUTA",
+    "original": "o348.b297.r001.m004.a001.png",
+    "attributes": {
+      "o": 348,
+      "b": 297,
+      "r": 1,
+      "m": 4,
+      "a": 1
+    }
+  },
+  "10011011": {
+    "id": 155,
+    "binary": "10011011",
+    "character": "BOT1",
+    "original": "o217.b295.r087.m001.a110.png",
+    "attributes": {
+      "o": 217,
+      "b": 295,
+      "r": 87,
+      "m": 1,
+      "a": 110
+    }
+  },
+  "10011100": {
+    "id": 156,
+    "binary": "10011100",
+    "character": "BUDA-MONGE-V1",
+    "original": "o171.b048.r001.m2021.a2021.png",
+    "attributes": {
+      "o": 171,
+      "b": 48,
+      "r": 1,
+      "m": 2021,
+      "a": 2021
+    }
+  },
+  "10011101": {
+    "id": 157,
+    "binary": "10011101",
+    "character": "BOT1",
+    "original": "o217.b220.r104.m001.a110.png",
+    "attributes": {
+      "o": 217,
+      "b": 220,
+      "r": 104,
+      "m": 1,
+      "a": 110
+    }
+  },
+  "10011110": {
+    "id": 158,
+    "binary": "10011110",
+    "character": "BOT1",
+    "original": "o217.b305.r027.m001.a110.png",
+    "attributes": {
+      "o": 217,
+      "b": 305,
+      "r": 27,
+      "m": 1,
+      "a": 110
+    }
+  },
+  "10011111": {
+    "id": 159,
+    "binary": "10011111",
+    "character": "ESPIROCADO",
+    "original": "o358.b135.r012.m001.a177.png",
+    "attributes": {
+      "o": 358,
+      "b": 135,
+      "r": 12,
+      "m": 1,
+      "a": 177
+    }
+  },
+  "10100000": {
+    "id": 160,
+    "binary": "10100000",
+    "character": "ESPIROCADO",
+    "original": "o358.b069.r081.m001.a328.png",
+    "attributes": {
+      "o": 358,
+      "b": 69,
+      "r": 81,
+      "m": 1,
+      "a": 328
+    }
+  },
+  "10100001": {
+    "id": 161,
+    "binary": "10100001",
+    "character": "POLICE-V1",
+    "original": "o118.b186.r018.m2031.a162.png",
+    "attributes": {
+      "o": 118,
+      "b": 186,
+      "r": 18,
+      "m": 2031,
+      "a": 162
+    }
+  },
+  "10100010": {
+    "id": 162,
+    "binary": "10100010",
+    "character": "JASON-MAD",
+    "original": "o019.b006.r058.m001.a293.png",
+    "attributes": {
+      "o": 19,
+      "b": 6,
+      "r": 58,
+      "m": 1,
+      "a": 293
+    }
+  },
+  "10100011": {
+    "id": 163,
+    "binary": "10100011",
+    "character": "ESPIROCADO",
+    "original": "o358.b012.r031.m001.a017.png",
+    "attributes": {
+      "o": 358,
+      "b": 12,
+      "r": 31,
+      "m": 1,
+      "a": 17
+    }
+  },
+  "10100100": {
+    "id": 164,
+    "binary": "10100100",
+    "character": "CONTADOR",
+    "original": "o327.b297.r001.m005.a037.png",
+    "attributes": {
+      "o": 327,
+      "b": 297,
+      "r": 1,
+      "m": 5,
+      "a": 37
+    }
+  },
+  "10100101": {
+    "id": 165,
+    "binary": "10100101",
+    "character": "BABY",
+    "original": "o355.b311.r131.m001.a123.png",
+    "attributes": {
+      "o": 355,
+      "b": 311,
+      "r": 131,
+      "m": 1,
+      "a": 123
+    }
+  },
+  "10100110": {
+    "id": 166,
+    "binary": "10100110",
+    "character": "BOT1",
+    "original": "o217.b238.r081.m001.a110.png",
+    "attributes": {
+      "o": 217,
+      "b": 238,
+      "r": 81,
+      "m": 1,
+      "a": 110
+    }
+  },
+  "10100111": {
+    "id": 167,
+    "binary": "10100111",
+    "character": "CONTADOR",
+    "original": "o040.b005.r001.m005.a296.png",
+    "attributes": {
+      "o": 40,
+      "b": 5,
+      "r": 1,
+      "m": 5,
+      "a": 296
+    }
+  },
+  "10101000": {
+    "id": 168,
+    "binary": "10101000",
+    "character": "TRUMP",
+    "original": "o2001.b2001.r2001.m2001.a2001.png",
+    "attributes": {
+      "o": 2001,
+      "b": 2001,
+      "r": 2001,
+      "m": 2001,
+      "a": 2001
+    }
+  },
+  "10101001": {
+    "id": 169,
+    "binary": "10101001",
+    "character": "JASON",
+    "original": "o161.b144.r299.m001.a041.png",
+    "attributes": {
+      "o": 161,
+      "b": 144,
+      "r": 299,
+      "m": 1,
+      "a": 41
+    }
+  },
+  "10101010": {
+    "id": 170,
+    "binary": "10101010",
+    "character": "ESPIROCADO",
+    "original": "o358.b337.r081.m001.a340.png",
+    "attributes": {
+      "o": 358,
+      "b": 337,
+      "r": 81,
+      "m": 1,
+      "a": 340
+    }
+  },
+  "10101011": {
+    "id": 171,
+    "binary": "10101011",
+    "character": "POLICE-V1",
+    "original": "o130.b252.r007.m2031.a007.png",
+    "attributes": {
+      "o": 130,
+      "b": 252,
+      "r": 7,
+      "m": 2031,
+      "a": 7
+    }
+  },
+  "10101100": {
+    "id": 172,
+    "binary": "10101100",
+    "character": "IRMAO-DO-PIRATA",
+    "original": "o290.b297.r027.m107.a001.png",
+    "attributes": {
+      "o": 290,
+      "b": 297,
+      "r": 27,
+      "m": 107,
+      "a": 1
+    }
+  },
+  "10101101": {
+    "id": 173,
+    "binary": "10101101",
+    "character": "MACHINE",
+    "original": "o374.b215.r138.m001.a002.png",
+    "attributes": {
+      "o": 374,
+      "b": 215,
+      "r": 138,
+      "m": 1,
+      "a": 2
+    }
+  },
+  "10101110": {
+    "id": 174,
+    "binary": "10101110",
+    "character": "MACHINE",
+    "original": "o374.b337.r138.m001.a080.png",
+    "attributes": {
+      "o": 374,
+      "b": 337,
+      "r": 138,
+      "m": 1,
+      "a": 80
+    }
+  },
+  "10101111": {
+    "id": 175,
+    "binary": "10101111",
+    "character": "EYES-OF-LOVE",
+    "original": "o322.b031.r012.m001.a318.png",
+    "attributes": {
+      "o": 322,
+      "b": 31,
+      "r": 12,
+      "m": 1,
+      "a": 318
+    }
+  },
+  "10110000": {
+    "id": 176,
+    "binary": "10110000",
+    "character": "PIRATA",
+    "original": "o030.b221.r317.m107.a001.png",
+    "attributes": {
+      "o": 30,
+      "b": 221,
+      "r": 317,
+      "m": 107,
+      "a": 1
+    }
+  },
+  "10110001": {
+    "id": 177,
+    "binary": "10110001",
+    "character": "MACACO-SPACE",
+    "original": "o171.b126.r251.m003.a001.png",
+    "attributes": {
+      "o": 171,
+      "b": 126,
+      "r": 251,
+      "m": 3,
+      "a": 1
+    }
+  },
+  "10110010": {
+    "id": 178,
+    "binary": "10110010",
+    "character": "MACHINE",
+    "original": "o374.b089.r173.m001.a114.png",
+    "attributes": {
+      "o": 374,
+      "b": 89,
+      "r": 173,
+      "m": 1,
+      "a": 114
+    }
+  },
+  "10110011": {
+    "id": 179,
+    "binary": "10110011",
+    "character": "JASON-MAD",
+    "original": "o019.b144.r300.m001.a079.png",
+    "attributes": {
+      "o": 19,
+      "b": 144,
+      "r": 300,
+      "m": 1,
+      "a": 79
+    }
+  },
+  "10110100": {
+    "id": 180,
+    "binary": "10110100",
+    "character": "MACACO-SPACE",
+    "original": "o171.b262.r324.m003.a001.png",
+    "attributes": {
+      "o": 171,
+      "b": 262,
+      "r": 324,
+      "m": 3,
+      "a": 1
+    }
+  },
+  "10110101": {
+    "id": 181,
+    "binary": "10110101",
+    "character": "CICLOPE",
+    "original": "o187.b009.r082.m001.a026.png",
+    "attributes": {
+      "o": 187,
+      "b": 9,
+      "r": 82,
+      "m": 1,
+      "a": 26
+    }
+  },
+  "10110110": {
+    "id": 182,
+    "binary": "10110110",
+    "character": "IRMAO-DO-PIRATA",
+    "original": "o290.b322.r173.m107.a001.png",
+    "attributes": {
+      "o": 290,
+      "b": 322,
+      "r": 173,
+      "m": 107,
+      "a": 1
+    }
+  },
+  "10110111": {
+    "id": 183,
+    "binary": "10110111",
+    "character": "MEDICO-V1",
+    "original": "o376.b348.r327.m006.a343.png",
+    "attributes": {
+      "o": 376,
+      "b": 348,
+      "r": 327,
+      "m": 6,
+      "a": 343
+    }
+  },
+  "10111000": {
+    "id": 184,
+    "binary": "10111000",
+    "character": "PIRATA",
+    "original": "o030.b280.r294.m107.a001.png",
+    "attributes": {
+      "o": 30,
+      "b": 280,
+      "r": 294,
+      "m": 107,
+      "a": 1
+    }
+  },
+  "10111001": {
+    "id": 185,
+    "binary": "10111001",
+    "character": "POLICE-V1",
+    "original": "o180.b252.r018.m2031.a306.png",
+    "attributes": {
+      "o": 180,
+      "b": 252,
+      "r": 18,
+      "m": 2031,
+      "a": 306
+    }
+  },
+  "10111010": {
+    "id": 186,
+    "binary": "10111010",
+    "character": "CICLOPE",
+    "original": "o187.b295.r299.m001.a001.png",
+    "attributes": {
+      "o": 187,
+      "b": 295,
+      "r": 299,
+      "m": 1,
+      "a": 1
+    }
+  },
+  "10111011": {
+    "id": 187,
+    "binary": "10111011",
+    "character": "BABY",
+    "original": "o203.b311.r242.m001.a105.png",
+    "attributes": {
+      "o": 203,
+      "b": 311,
+      "r": 242,
+      "m": 1,
+      "a": 105
+    }
+  },
+  "10111100": {
+    "id": 188,
+    "binary": "10111100",
+    "character": "IRMAO-DO-PIRATA",
+    "original": "o362.b322.r255.m107.a001.png",
+    "attributes": {
+      "o": 362,
+      "b": 322,
+      "r": 255,
+      "m": 107,
+      "a": 1
+    }
+  },
+  "10111101": {
+    "id": 189,
+    "binary": "10111101",
+    "character": "VISION",
+    "original": "o367.b316.r263.m001.a090.png",
+    "attributes": {
+      "o": 367,
+      "b": 316,
+      "r": 263,
+      "m": 1,
+      "a": 90
+    }
+  },
+  "10111110": {
+    "id": 190,
+    "binary": "10111110",
+    "character": "IRMAO-DO-PIRATA",
+    "original": "o229.b329.r027.m107.a001.png",
+    "attributes": {
+      "o": 229,
+      "b": 329,
+      "r": 27,
+      "m": 107,
+      "a": 1
+    }
+  },
+  "10111111": {
+    "id": 191,
+    "binary": "10111111",
+    "character": "MADMAX",
+    "original": "o019.b115.r017.m001.a276.png",
+    "attributes": {
+      "o": 19,
+      "b": 115,
+      "r": 17,
+      "m": 1,
+      "a": 276
+    }
+  },
+  "11000000": {
+    "id": 192,
+    "binary": "11000000",
+    "character": "CICLOPE",
+    "original": "o187.b243.r299.m001.a332.png",
+    "attributes": {
+      "o": 187,
+      "b": 243,
+      "r": 299,
+      "m": 1,
+      "a": 332
+    }
+  },
+  "11000001": {
+    "id": 193,
+    "binary": "11000001",
+    "character": "TRUMP",
+    "original": "o2004.b2006.r2002.m2001.a2001.png",
+    "attributes": {
+      "o": 2004,
+      "b": 2006,
+      "r": 2002,
+      "m": 2001,
+      "a": 2001
+    }
+  },
+  "11000010": {
+    "id": 194,
+    "binary": "11000010",
+    "character": "BOT2",
+    "original": "o005.b195.r170.m001.a093.png",
+    "attributes": {
+      "o": 5,
+      "b": 195,
+      "r": 170,
+      "m": 1,
+      "a": 93
+    }
+  },
+  "11000011": {
+    "id": 195,
+    "binary": "11000011",
+    "character": "EYES-OF-LOVE",
+    "original": "o322.b130.r299.m001.a046.png",
+    "attributes": {
+      "o": 322,
+      "b": 130,
+      "r": 299,
+      "m": 1,
+      "a": 46
+    }
+  },
+  "11000100": {
+    "id": 196,
+    "binary": "11000100",
+    "character": "POLICE-V1",
+    "original": "o142.b341.r007.m2031.a108.png",
+    "attributes": {
+      "o": 142,
+      "b": 341,
+      "r": 7,
+      "m": 2031,
+      "a": 108
+    }
+  },
+  "11000101": {
+    "id": 197,
+    "binary": "11000101",
+    "character": "PIRATA",
+    "original": "o030.b273.r255.m107.a001.png",
+    "attributes": {
+      "o": 30,
+      "b": 273,
+      "r": 255,
+      "m": 107,
+      "a": 1
+    }
+  },
+  "11000110": {
+    "id": 198,
+    "binary": "11000110",
+    "character": "CONTADOR",
+    "original": "o040.b297.r001.m005.a060.png",
+    "attributes": {
+      "o": 40,
+      "b": 297,
+      "r": 1,
+      "m": 5,
+      "a": 60
+    }
+  },
+  "11000111": {
+    "id": 199,
+    "binary": "11000111",
+    "character": "ROBOT",
+    "original": "o373.b125.r118.m001.a162.png",
+    "attributes": {
+      "o": 373,
+      "b": 125,
+      "r": 118,
+      "m": 1,
+      "a": 162
+    }
+  },
+  "11001000": {
+    "id": 200,
+    "binary": "11001000",
+    "character": "PIRATA",
+    "original": "o030.b002.r021.m107.a001.png",
+    "attributes": {
+      "o": 30,
+      "b": 2,
+      "r": 21,
+      "m": 107,
+      "a": 1
+    }
+  },
+  "11001001": {
+    "id": 201,
+    "binary": "11001001",
+    "character": "ZURETA",
+    "original": "o353.b238.r267.m001.a026.png",
+    "attributes": {
+      "o": 353,
+      "b": 238,
+      "r": 267,
+      "m": 1,
+      "a": 26
+    }
+  },
+  "11001010": {
+    "id": 202,
+    "binary": "11001010",
+    "character": "MACACO-SPACE",
+    "original": "o020.b292.r177.m003.a001.png",
+    "attributes": {
+      "o": 20,
+      "b": 292,
+      "r": 177,
+      "m": 3,
+      "a": 1
+    }
+  },
+  "11001011": {
+    "id": 203,
+    "binary": "11001011",
+    "character": "BUDA-MONGE-V1",
+    "original": "o330.b2021.r2021.m2021.a2021.png",
+    "attributes": {
+      "o": 330,
+      "b": 2021,
+      "r": 2021,
+      "m": 2021,
+      "a": 2021
+    }
+  },
+  "11001100": {
+    "id": 204,
+    "binary": "11001100",
+    "character": "CICLOPE",
+    "original": "o187.b091.r280.m001.a001.png",
+    "attributes": {
+      "o": 187,
+      "b": 91,
+      "r": 280,
+      "m": 1,
+      "a": 1
+    }
+  },
+  "11001101": {
+    "id": 205,
+    "binary": "11001101",
+    "character": "BUDA-MONGE-V1",
+    "original": "o322.b2022.r2022.m2021.a2021.png",
+    "attributes": {
+      "o": 322,
+      "b": 2022,
+      "r": 2022,
+      "m": 2021,
+      "a": 2021
+    }
+  },
+  "11001110": {
+    "id": 206,
+    "binary": "11001110",
+    "character": "ZURETA",
+    "original": "o252.b273.r031.m001.a276.png",
+    "attributes": {
+      "o": 252,
+      "b": 273,
+      "r": 31,
+      "m": 1,
+      "a": 276
+    }
+  },
+  "11001111": {
+    "id": 207,
+    "binary": "11001111",
+    "character": "MEDICO-V1",
+    "original": "o004.b351.r328.m006.a342.png",
+    "attributes": {
+      "o": 4,
+      "b": 351,
+      "r": 328,
+      "m": 6,
+      "a": 342
+    }
+  },
+  "11010000": {
+    "id": 208,
+    "binary": "11010000",
+    "character": "VISION",
+    "original": "o367.b181.r315.m001.a268.png",
+    "attributes": {
+      "o": 367,
+      "b": 181,
+      "r": 315,
+      "m": 1,
+      "a": 268
+    }
+  },
+  "11010001": {
+    "id": 209,
+    "binary": "11010001",
+    "character": "BOT2",
+    "original": "o005.b045.r203.m001.a093.png",
+    "attributes": {
+      "o": 5,
+      "b": 45,
+      "r": 203,
+      "m": 1,
+      "a": 93
+    }
+  },
+  "11010010": {
+    "id": 210,
+    "binary": "11010010",
+    "character": "EYES-OF-LOVE",
+    "original": "o322.b337.r315.m001.a046.png",
+    "attributes": {
+      "o": 322,
+      "b": 337,
+      "r": 315,
+      "m": 1,
+      "a": 46
+    }
+  },
+  "11010011": {
+    "id": 211,
+    "binary": "11010011",
+    "character": "POLICE-V1",
+    "original": "o180.b346.r007.m2031.a162.png",
+    "attributes": {
+      "o": 180,
+      "b": 346,
+      "r": 7,
+      "m": 2031,
+      "a": 162
+    }
+  },
+  "11010100": {
+    "id": 212,
+    "binary": "11010100",
+    "character": "BOT2",
+    "original": "o005.b064.r170.m001.a093.png",
+    "attributes": {
+      "o": 5,
+      "b": 64,
+      "r": 170,
+      "m": 1,
+      "a": 93
+    }
+  },
+  "11010101": {
+    "id": 213,
+    "binary": "11010101",
+    "character": "MACHINE",
+    "original": "o374.b215.r138.m001.a113.png",
+    "attributes": {
+      "o": 374,
+      "b": 215,
+      "r": 138,
+      "m": 1,
+      "a": 113
+    }
+  },
+  "11010110": {
+    "id": 214,
+    "binary": "11010110",
+    "character": "ZURETA",
+    "original": "o304.b238.r297.m001.a276.png",
+    "attributes": {
+      "o": 304,
+      "b": 238,
+      "r": 297,
+      "m": 1,
+      "a": 276
+    }
+  },
+  "11010111": {
+    "id": 215,
+    "binary": "11010111",
+    "character": "MACHINE",
+    "original": "o374.b345.r138.m001.a080.png",
+    "attributes": {
+      "o": 374,
+      "b": 345,
+      "r": 138,
+      "m": 1,
+      "a": 80
+    }
+  },
+  "11011000": {
+    "id": 216,
+    "binary": "11011000",
+    "character": "ESPIROCADO",
+    "original": "o358.b345.r018.m001.a328.png",
+    "attributes": {
+      "o": 358,
+      "b": 345,
+      "r": 18,
+      "m": 1,
+      "a": 328
+    }
+  },
+  "11011001": {
+    "id": 217,
+    "binary": "11011001",
+    "character": "MADMAX",
+    "original": "o019.b171.r090.m001.a135.png",
+    "attributes": {
+      "o": 19,
+      "b": 171,
+      "r": 90,
+      "m": 1,
+      "a": 135
+    }
+  },
+  "11011010": {
+    "id": 218,
+    "binary": "11011010",
+    "character": "POLICE-V1",
+    "original": "o026.b191.r130.m2031.a007.png",
+    "attributes": {
+      "o": 26,
+      "b": 191,
+      "r": 130,
+      "m": 2031,
+      "a": 7
+    }
+  },
+  "11011011": {
+    "id": 219,
+    "binary": "11011011",
+    "character": "MACHINE",
+    "original": "o374.b215.r317.m001.a332.png",
+    "attributes": {
+      "o": 374,
+      "b": 215,
+      "r": 317,
+      "m": 1,
+      "a": 332
+    }
+  },
+  "11011100": {
+    "id": 220,
+    "binary": "11011100",
+    "character": "TRUMP",
+    "original": "o2003.b2003.r2003.m2001.a2003.png",
+    "attributes": {
+      "o": 2003,
+      "b": 2003,
+      "r": 2003,
+      "m": 2001,
+      "a": 2003
+    }
+  },
+  "11011101": {
+    "id": 221,
+    "binary": "11011101",
+    "character": "ASTRONAUTA",
+    "original": "o297.b297.r001.m004.a001.png",
+    "attributes": {
+      "o": 297,
+      "b": 297,
+      "r": 1,
+      "m": 4,
+      "a": 1
+    }
+  },
+  "11011110": {
+    "id": 222,
+    "binary": "11011110",
+    "character": "MACACO-SPACE",
+    "original": "o171.b099.r321.m003.a001.png",
+    "attributes": {
+      "o": 171,
+      "b": 99,
+      "r": 321,
+      "m": 3,
+      "a": 1
+    }
+  },
+  "11011111": {
+    "id": 223,
+    "binary": "11011111",
+    "character": "CICLOPE",
+    "original": "o187.b340.r299.m001.a332.png",
+    "attributes": {
+      "o": 187,
+      "b": 340,
+      "r": 299,
+      "m": 1,
+      "a": 332
+    }
+  },
+  "11100000": {
+    "id": 224,
+    "binary": "11100000",
+    "character": "ROBOT",
+    "original": "o370.b005.r002.m001.a287.png",
+    "attributes": {
+      "o": 370,
+      "b": 5,
+      "r": 2,
+      "m": 1,
+      "a": 287
+    }
+  },
+  "11100001": {
+    "id": 225,
+    "binary": "11100001",
+    "character": "ASTRONAUTA",
+    "original": "o267.b297.r001.m004.a001.png",
+    "attributes": {
+      "o": 267,
+      "b": 297,
+      "r": 1,
+      "m": 4,
+      "a": 1
+    }
+  },
+  "11100010": {
+    "id": 226,
+    "binary": "11100010",
+    "character": "MADMAX",
+    "original": "o019.b115.r267.m001.a277.png",
+    "attributes": {
+      "o": 19,
+      "b": 115,
+      "r": 267,
+      "m": 1,
+      "a": 277
+    }
+  },
+  "11100011": {
+    "id": 227,
+    "binary": "11100011",
+    "character": "BOT2",
+    "original": "o005.b012.r074.m001.a093.png",
+    "attributes": {
+      "o": 5,
+      "b": 12,
+      "r": 74,
+      "m": 1,
+      "a": 93
+    }
+  },
+  "11100100": {
+    "id": 228,
+    "binary": "11100100",
+    "character": "BUDA-MONGE-V1",
+    "original": "o044.b225.r325.m2021.a2021.png",
+    "attributes": {
+      "o": 44,
+      "b": 225,
+      "r": 325,
+      "m": 2021,
+      "a": 2021
+    }
+  },
+  "11100101": {
+    "id": 229,
+    "binary": "11100101",
+    "character": "TRUMP",
+    "original": "o2001.b2006.r2003.m2001.a2003.png",
+    "attributes": {
+      "o": 2001,
+      "b": 2006,
+      "r": 2003,
+      "m": 2001,
+      "a": 2003
+    }
+  },
+  "11100110": {
+    "id": 230,
+    "binary": "11100110",
+    "character": "MACACO-SPACE",
+    "original": "o058.b262.r011.m003.a001.png",
+    "attributes": {
+      "o": 58,
+      "b": 262,
+      "r": 11,
+      "m": 3,
+      "a": 1
+    }
+  },
+  "11100111": {
+    "id": 231,
+    "binary": "11100111",
+    "character": "MACACO-SPACE",
+    "original": "o229.b060.r011.m003.a001.png",
+    "attributes": {
+      "o": 229,
+      "b": 60,
+      "r": 11,
+      "m": 3,
+      "a": 1
+    }
+  },
+  "11101000": {
+    "id": 232,
+    "binary": "11101000",
+    "character": "MADMAX",
+    "original": "o019.b295.r318.m001.a276.png",
+    "attributes": {
+      "o": 19,
+      "b": 295,
+      "r": 318,
+      "m": 1,
+      "a": 276
+    }
+  },
+  "11101001": {
+    "id": 233,
+    "binary": "11101001",
+    "character": "CONTADOR",
+    "original": "o095.b305.r001.m005.a043.png",
+    "attributes": {
+      "o": 95,
+      "b": 305,
+      "r": 1,
+      "m": 5,
+      "a": 43
+    }
+  },
+  "11101010": {
+    "id": 234,
+    "binary": "11101010",
+    "character": "MACACO-SPACE",
+    "original": "o171.b224.r269.m003.a001.png",
+    "attributes": {
+      "o": 171,
+      "b": 224,
+      "r": 269,
+      "m": 3,
+      "a": 1
+    }
+  },
+  "11101011": {
+    "id": 235,
+    "binary": "11101011",
+    "character": "BABY",
+    "original": "o029.b311.r272.m001.a059.png",
+    "attributes": {
+      "o": 29,
+      "b": 311,
+      "r": 272,
+      "m": 1,
+      "a": 59
+    }
+  },
+  "11101100": {
+    "id": 236,
+    "binary": "11101100",
+    "character": "JASON-MAD",
+    "original": "o019.b006.r162.m001.a293.png",
+    "attributes": {
+      "o": 19,
+      "b": 6,
+      "r": 162,
+      "m": 1,
+      "a": 293
+    }
+  },
+  "11101101": {
+    "id": 237,
+    "binary": "11101101",
+    "character": "JASON-MAD",
+    "original": "o019.b216.r300.m001.a037.png",
+    "attributes": {
+      "o": 19,
+      "b": 216,
+      "r": 300,
+      "m": 1,
+      "a": 37
+    }
+  },
+  "11101110": {
+    "id": 238,
+    "binary": "11101110",
+    "character": "JASON",
+    "original": "o180.b144.r294.m001.a115.png",
+    "attributes": {
+      "o": 180,
+      "b": 144,
+      "r": 294,
+      "m": 1,
+      "a": 115
+    }
+  },
+  "11101111": {
+    "id": 239,
+    "binary": "11101111",
+    "character": "ASTRONAUTA",
+    "original": "o214.b297.r001.m004.a001.png",
+    "attributes": {
+      "o": 214,
+      "b": 297,
+      "r": 1,
+      "m": 4,
+      "a": 1
+    }
+  },
+  "11110000": {
+    "id": 240,
+    "binary": "11110000",
+    "character": "MACACO-SPACE",
+    "original": "o040.b099.r025.m003.a001.png",
+    "attributes": {
+      "o": 40,
+      "b": 99,
+      "r": 25,
+      "m": 3,
+      "a": 1
+    }
+  },
+  "11110001": {
+    "id": 241,
+    "binary": "11110001",
+    "character": "TRUMP",
+    "original": "o2002.b2006.r2002.m2001.a2002.png",
+    "attributes": {
+      "o": 2002,
+      "b": 2006,
+      "r": 2002,
+      "m": 2001,
+      "a": 2002
+    }
+  },
+  "11110010": {
+    "id": 242,
+    "binary": "11110010",
+    "character": "JASON",
+    "original": "o314.b144.r279.m001.a114.png",
+    "attributes": {
+      "o": 314,
+      "b": 144,
+      "r": 279,
+      "m": 1,
+      "a": 114
+    }
+  },
+  "11110011": {
+    "id": 243,
+    "binary": "11110011",
+    "character": "CICLOPE",
+    "original": "o187.b216.r031.m001.a026.png",
+    "attributes": {
+      "o": 187,
+      "b": 216,
+      "r": 31,
+      "m": 1,
+      "a": 26
+    }
+  },
+  "11110100": {
+    "id": 244,
+    "binary": "11110100",
+    "character": "BOT2",
+    "original": "o005.b042.r269.m001.a093.png",
+    "attributes": {
+      "o": 5,
+      "b": 42,
+      "r": 269,
+      "m": 1,
+      "a": 93
+    }
+  },
+  "11110101": {
+    "id": 245,
+    "binary": "11110101",
+    "character": "MACHINE",
+    "original": "o374.b009.r087.m001.a305.png",
+    "attributes": {
+      "o": 374,
+      "b": 9,
+      "r": 87,
+      "m": 1,
+      "a": 305
+    }
+  },
+  "11110110": {
+    "id": 246,
+    "binary": "11110110",
+    "character": "IRMAO-DO-PIRATA",
+    "original": "o124.b322.r255.m107.a001.png",
+    "attributes": {
+      "o": 124,
+      "b": 322,
+      "r": 255,
+      "m": 107,
+      "a": 1
+    }
+  },
+  "11110111": {
+    "id": 247,
+    "binary": "11110111",
+    "character": "ESPIROCADO",
+    "original": "o358.b064.r018.m001.a117.png",
+    "attributes": {
+      "o": 358,
+      "b": 64,
+      "r": 18,
+      "m": 1,
+      "a": 117
+    }
+  },
+  "11111000": {
+    "id": 248,
+    "binary": "11111000",
+    "character": "CONTADOR",
+    "original": "o111.b027.r001.m005.a016.png",
+    "attributes": {
+      "o": 111,
+      "b": 27,
+      "r": 1,
+      "m": 5,
+      "a": 16
+    }
+  },
+  "11111001": {
+    "id": 249,
+    "binary": "11111001",
+    "character": "JASON",
+    "original": "o056.b144.r082.m001.a234.png",
+    "attributes": {
+      "o": 56,
+      "b": 144,
+      "r": 82,
+      "m": 1,
+      "a": 234
+    }
+  },
+  "11111010": {
+    "id": 250,
+    "binary": "11111010",
+    "character": "TRUMP",
+    "original": "o2002.b2002.r2002.m2001.a2002.png",
+    "attributes": {
+      "o": 2002,
+      "b": 2002,
+      "r": 2002,
+      "m": 2001,
+      "a": 2002
+    }
+  }
+}

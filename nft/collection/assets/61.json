@@ -1,0 +1,54 @@
+{
+  "name": "Holy Chip #061 - ASTRONAUTA",
+  "symbol": "HCHIP",
+  "description": "ASTRONAUTA - Holy Chip NFT Collection. Binary ID: 111101",
+  "image": "61.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "ASTRONAUTA"
+    },
+    {
+      "trait_type": "Binary",
+      "value": "111101"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "362"
+    },
+    {
+      "trait_type": "Background",
+      "value": "64"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "1"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "4"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "1"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "61.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}

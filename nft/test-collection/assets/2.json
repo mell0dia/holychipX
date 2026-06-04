@@ -1,0 +1,16 @@
+{
+  "name": "Holy Chip #003 — Chip_100",
+  "symbol": "HCHIP",
+  "description": "Chip_100 — The Four. Balance and structure in the binary universe.",
+  "image": "2.png",
+  "attributes": [
+    { "trait_type": "Character", "value": "Chip_100" },
+    { "trait_type": "Binary", "value": "100" },
+    { "trait_type": "Series", "value": "Genesis" },
+    { "trait_type": "Rarity", "value": "Rare" }
+  ],
+  "properties": {
+    "files": [{ "uri": "2.png", "type": "image/png" }],
+    "creators": [{ "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx", "share": 100 }]
+  }
+}

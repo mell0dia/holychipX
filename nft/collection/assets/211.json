@@ -1,0 +1,54 @@
+{
+  "name": "Holy Chip #211 - POLICE-V1",
+  "symbol": "HCHIP",
+  "description": "POLICE-V1 - Holy Chip NFT Collection. Binary ID: 11010011",
+  "image": "211.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "POLICE-V1"
+    },
+    {
+      "trait_type": "Binary",
+      "value": "11010011"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "180"
+    },
+    {
+      "trait_type": "Background",
+      "value": "346"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "7"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "2031"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "162"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "211.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}

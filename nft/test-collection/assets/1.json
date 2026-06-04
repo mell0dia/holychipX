@@ -1,0 +1,16 @@
+{
+  "name": "Holy Chip #002 — Chip_1",
+  "symbol": "HCHIP",
+  "description": "Chip_1 — The One. A singular force in the binary universe.",
+  "image": "1.png",
+  "attributes": [
+    { "trait_type": "Character", "value": "Chip_1" },
+    { "trait_type": "Binary", "value": "1" },
+    { "trait_type": "Series", "value": "Genesis" },
+    { "trait_type": "Rarity", "value": "Legendary" }
+  ],
+  "properties": {
+    "files": [{ "uri": "1.png", "type": "image/png" }],
+    "creators": [{ "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx", "share": 100 }]
+  }
+}

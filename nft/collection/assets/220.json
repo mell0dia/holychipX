@@ -1,0 +1,54 @@
+{
+  "name": "Holy Chip #220 - TRUMP",
+  "symbol": "HCHIP",
+  "description": "TRUMP - Holy Chip NFT Collection. Binary ID: 11011100",
+  "image": "220.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "TRUMP"
+    },
+    {
+      "trait_type": "Binary",
+      "value": "11011100"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "2003"
+    },
+    {
+      "trait_type": "Background",
+      "value": "2003"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "2003"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "2001"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "2003"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "220.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}

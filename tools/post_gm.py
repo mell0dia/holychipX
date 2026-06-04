@@ -190,11 +190,17 @@ def main():
     if "NOSTR_NSEC" not in os.environ:
         sys.exit("NOSTR_NSEC not in env")
 
+    force = "--force" in sys.argv          # allow an extra same-day post (testing/manual)
     today = datetime.now().strftime("%Y-%m-%d")
     out_path = GM_DIR / f"gm-{today}.jpg"
     if out_path.exists():
-        print(f"already exists: {out_path}")
-        sys.exit(0)
+        if not force:
+            print(f"already exists: {out_path}")
+            sys.exit(0)
+        i = 2                               # forced extra post — give it a unique filename
+        while (GM_DIR / f"gm-{today}-{i}.jpg").exists():
+            i += 1
+        out_path = GM_DIR / f"gm-{today}-{i}.jpg"
 
     print(f"generating {out_path}")
     r = run([str(HC / "venv/nostr/bin/python"), str(TOOLS / "gm_card.py"), str(out_path)])

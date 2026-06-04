@@ -1,0 +1,54 @@
+{
+  "name": "Holy Chip #228 - BUDA-MONGE-V1",
+  "symbol": "HCHIP",
+  "description": "BUDA-MONGE-V1 - Holy Chip NFT Collection. Binary ID: 11100100",
+  "image": "228.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "BUDA-MONGE-V1"
+    },
+    {
+      "trait_type": "Binary",
+      "value": "11100100"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "44"
+    },
+    {
+      "trait_type": "Background",
+      "value": "225"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "325"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "2021"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "2021"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "228.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}

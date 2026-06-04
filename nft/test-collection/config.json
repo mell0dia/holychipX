@@ -1,0 +1,16 @@
+{
+  "price": 0.5,
+  "number": 5,
+  "symbol": "HCHIP",
+  "sellerFeeBasisPoints": 500,
+  "goLiveDate": "2026-02-25T00:00:00Z",
+  "creators": [
+    { "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx", "share": 100 }
+  ],
+  "uploadMethod": "bundlr",
+  "isMutable": true,
+  "isSequential": false,
+  "hiddenSettings": null,
+  "guards": null,
+  "ruleSet": null
+}

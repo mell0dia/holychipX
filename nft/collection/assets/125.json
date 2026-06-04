@@ -1,0 +1,54 @@
+{
+  "name": "Holy Chip #125 - MEDICO-V1",
+  "symbol": "HCHIP",
+  "description": "MEDICO-V1 - Holy Chip NFT Collection. Binary ID: 1111101",
+  "image": "125.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "MEDICO-V1"
+    },
+    {
+      "trait_type": "Binary",
+      "value": "1111101"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "4"
+    },
+    {
+      "trait_type": "Background",
+      "value": "337"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "11"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "6"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "342"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "125.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}

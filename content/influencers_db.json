@@ -2,8 +2,8 @@
   "metadata": {
     "description": "Influencer tweet database \u2014 new tweets + extracted phrases",
     "created": "2026-04-04",
-    "updated": "2026-04-06 16:31",
-    "total_tweets": 239,
+    "updated": "2026-04-06 18:22",
+    "total_tweets": 252,
     "total_phrases": 130
   },
   "tweets": [
@@ -2980,6 +2980,127 @@
           "weight": "medium"
         }
       ]
+    },
+    {
+      "tweet_id": "2041303377938972973",
+      "handle": "alexwg",
+      "text": "@Surreal_Intel @TonyRam34312914 Yup!",
+      "links": [],
+      "tweet_url": "https://x.com/alexwg/status/2041303377938972973",
+      "captured_at": "2026-04-06 17:22",
+      "phrases": []
+    },
+    {
+      "tweet_id": "2041303141149540751",
+      "handle": "alexwg",
+      "text": "@IXIM_AI \ud83d\ude80",
+      "links": [],
+      "tweet_url": "https://x.com/alexwg/status/2041303141149540751",
+      "captured_at": "2026-04-06 17:22",
+      "phrases": []
+    },
+    {
+      "tweet_id": "2041302914397057518",
+      "handle": "alexwg",
+      "text": "@E__Strobel \ud83d\ude80",
+      "links": [],
+      "tweet_url": "https://x.com/alexwg/status/2041302914397057518",
+      "captured_at": "2026-04-06 17:22",
+      "phrases": []
+    },
+    {
+      "tweet_id": "2041302396194984359",
+      "handle": "alexwg",
+      "text": "@THENAKEDCRABMAN \u2764\ufe0f\ud83d\udd25\ud83d\ude80",
+      "links": [],
+      "tweet_url": "https://x.com/alexwg/status/2041302396194984359",
+      "captured_at": "2026-04-06 17:22",
+      "phrases": []
+    },
+    {
+      "tweet_id": "2041302246324138169",
+      "handle": "alexwg",
+      "text": "@loganblakesi \ud83d\ude80\ud83d\ude80\ud83d\ude80",
+      "links": [],
+      "tweet_url": "https://x.com/alexwg/status/2041302246324138169",
+      "captured_at": "2026-04-06 17:22",
+      "phrases": []
+    },
+    {
+      "tweet_id": "2041301720308019496",
+      "handle": "alexwg",
+      "text": "@TrustScience79 @AlexFinn \ud83d\ude80\ud83d\ude80\ud83d\ude80",
+      "links": [],
+      "tweet_url": "https://x.com/alexwg/status/2041301720308019496",
+      "captured_at": "2026-04-06 17:22",
+      "phrases": []
+    },
+    {
+      "tweet_id": "2041301546806530122",
+      "handle": "alexwg",
+      "text": "@testingcatalog @AlexFinn @devontriplett21 \ud83d\ude80\ud83d\ude80\ud83d\ude80",
+      "links": [],
+      "tweet_url": "https://x.com/alexwg/status/2041301546806530122",
+      "captured_at": "2026-04-06 17:22",
+      "phrases": []
+    },
+    {
+      "tweet_id": "2041301095453274501",
+      "handle": "alexwg",
+      "text": "@gmeta \ud83d\ude80\ud83d\ude80\ud83d\ude80",
+      "links": [],
+      "tweet_url": "https://x.com/alexwg/status/2041301095453274501",
+      "captured_at": "2026-04-06 17:22",
+      "phrases": []
+    },
+    {
+      "tweet_id": "2041300660264857623",
+      "handle": "alexwg",
+      "text": "@PoettWilliam You\u2019re welcome!",
+      "links": [],
+      "tweet_url": "https://x.com/alexwg/status/2041300660264857623",
+      "captured_at": "2026-04-06 17:22",
+      "phrases": []
+    },
+    {
+      "tweet_id": "2041300153513218359",
+      "handle": "alexwg",
+      "text": "@RobotArchie \ud83d\ude80",
+      "links": [],
+      "tweet_url": "https://x.com/alexwg/status/2041300153513218359",
+      "captured_at": "2026-04-06 17:22",
+      "phrases": []
+    },
+    {
+      "tweet_id": "2041302680585511347",
+      "handle": "Yuchenj_UW",
+      "text": "@marksaroufim Mark, good luck on the next thing \ud83d\ude09",
+      "links": [],
+      "tweet_url": "https://x.com/Yuchenj_UW/status/2041302680585511347",
+      "captured_at": "2026-04-06 17:22",
+      "phrases": []
+    },
+    {
+      "tweet_id": "2041308748812071121",
+      "handle": "TheCraigHewitt",
+      "text": "i'm building somethign similar.  call him Gordon (after Gordon Gecko). haven't shared enough about it recently, but he's still trading and still refining. in the midst of a major upgrade to his skills and abilities.  will post updates soon. https://t.co/c0AzoXwBgW",
+      "links": [
+        "https://t.co/c0AzoXwBgW"
+      ],
+      "tweet_url": "https://x.com/TheCraigHewitt/status/2041308748812071121",
+      "captured_at": "2026-04-06 17:22",
+      "phrases": []
+    },
+    {
+      "tweet_id": "2041308003983348116",
+      "handle": "TheCraigHewitt",
+      "text": "@businessbarista you gotta use https://t.co/MkxyvDtLoY",
+      "links": [
+        "https://t.co/MkxyvDtLoY"
+      ],
+      "tweet_url": "https://x.com/TheCraigHewitt/status/2041308003983348116",
+      "captured_at": "2026-04-06 17:22",
+      "phrases": []
     }
   ]
 }

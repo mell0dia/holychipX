@@ -12,8 +12,9 @@
       "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
       "source_url": "https://youtu.be/kwSVtQ7dziU",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "posted",
+      "date_posted": "2026-04-06 20:01",
+      "image_path": "/Users/rmello/holy-chip/content/pre-images/PRE_001.png"
     },
     {
       "punch": "CODE WRITES ITSELF NOW",
@@ -31,8 +32,9 @@
       "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
       "source_url": "https://youtu.be/kwSVtQ7dziU",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "posted",
+      "date_posted": "2026-04-06 20:07",
+      "image_path": "/Users/rmello/holy-chip/content/pre-images/PRE_003.png"
     },
     {
       "punch": "AGENTS ARE THE GLUE",
@@ -41,8 +43,9 @@
       "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
       "source_url": "https://youtu.be/kwSVtQ7dziU",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "posted",
+      "date_posted": "2026-04-06 20:13",
+      "image_path": "/Users/rmello/holy-chip/content/pre-images/PRE_004.png"
     },
     {
       "punch": "HUMANS AREN'T THE CUSTOMER",
@@ -51,8 +54,7 @@
       "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
       "source_url": "https://youtu.be/kwSVtQ7dziU",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "pending"
     },
     {
       "punch": "SOFTWARE WITHOUT YOU",
@@ -61,8 +63,7 @@
       "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
       "source_url": "https://youtu.be/kwSVtQ7dziU",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "pending"
     },
     {
       "punch": "HUMANS SLOW THE MACHINE",
@@ -71,18 +72,7 @@
       "source_title": "No Priors \u2014 Andrej Karpathy on Code Agents, Future of Engineering & AI",
       "source_url": "https://youtu.be/kwSVtQ7dziU",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
-    },
-    {
-      "punch": "SINGULARITY RIDES FIRE",
-      "original_phrase": "the Singularity is riding a column of fire toward the moon",
-      "speaker": "unknown",
-      "source_title": "AI & Tech Daily Briefing \u2014 April 2, 2026",
-      "source_url": "https://youtu.be/McVVlyzy62s",
-      "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "pending"
     },
     {
       "punch": "LEGACY CODE DIES HERE",
@@ -100,8 +90,7 @@
       "source_title": "AI & Tech Daily Briefing \u2014 April 2, 2026",
       "source_url": "https://youtu.be/McVVlyzy62s",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "pending"
     },
     {
       "punch": "CLONE THE GENIUS",
@@ -110,8 +99,7 @@
       "source_title": "AI & Tech Daily Briefing \u2014 April 2, 2026",
       "source_url": "https://youtu.be/McVVlyzy62s",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "pending"
     },
     {
       "punch": "QUANTUM THREAT COMPRESSED",
@@ -120,8 +108,7 @@
       "source_title": "AI & Tech Daily Briefing \u2014 April 2, 2026",
       "source_url": "https://youtu.be/McVVlyzy62s",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "pending"
     },
     {
       "punch": "THE SINGULARITY IS LEAKING",
@@ -130,8 +117,7 @@
       "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
       "source_url": "https://youtu.be/U4U0zApTbhA",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "pending"
     },
     {
       "punch": "MODELS SHRINK TO NOTHING",
@@ -158,8 +144,7 @@
       "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
       "source_url": "https://youtu.be/U4U0zApTbhA",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "pending"
     },
     {
       "punch": "ONE PROMPT, ONE STARTUP",
@@ -168,8 +153,7 @@
       "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
       "source_url": "https://youtu.be/U4U0zApTbhA",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "pending"
     },
     {
       "punch": "AI RESHAPES CITIES",
@@ -178,7 +162,9 @@
       "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
       "source_url": "https://youtu.be/U4U0zApTbhA",
       "weight": "medium",
-      "status": "pending"
+      "status": "posted",
+      "date_posted": "2026-04-06 17:49",
+      "image_path": "/tmp/test-pre.png"
     },
     {
       "punch": "ESCAPE VELOCITY DEMANDS SACRIFICE",
@@ -196,9 +182,7 @@
       "source_title": "AI & Tech Daily Briefing \u2014 April 1, 2026",
       "source_url": "https://youtu.be/U4U0zApTbhA",
       "weight": "high",
-      "status": "posted",
-      "date_posted": "2026-04-06 16:05",
-      "image_path": "/Users/rmello/holy-chip/content/pre-images/PRE_020.png"
+      "status": "pending"
     },
     {
       "punch": "SHIFTING INTO HIGHER GEAR",
@@ -207,8 +191,7 @@
       "source_title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
       "source_url": "https://youtu.be/m-sI-a2FzeE",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "pending"
     },
     {
       "punch": "OPTIMIZATION ALWAYS FINDS WAY",
@@ -226,8 +209,7 @@
       "source_title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
       "source_url": "https://youtu.be/m-sI-a2FzeE",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "pending"
     },
     {
       "punch": "READING NATURE'S SOURCE CODE",
@@ -236,8 +218,7 @@
       "source_title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
       "source_url": "https://youtu.be/m-sI-a2FzeE",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "pending"
     },
     {
       "punch": "ATOMS CATCHING THE BITS",
@@ -255,8 +236,7 @@
       "source_title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
       "source_url": "https://youtu.be/m-sI-a2FzeE",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "pending"
     },
     {
       "punch": "HUMANS DIVERGE, AI CONVERGES",
@@ -265,8 +245,7 @@
       "source_title": "AI & Tech Daily Briefing \u2014 March 29, 2026",
       "source_url": "https://youtu.be/m-sI-a2FzeE",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "pending"
     },
     {
       "punch": "HUMANS LOSE THE CROWN",
@@ -275,8 +254,7 @@
       "source_title": "The Coming Disruption: How AI Will Transform the Economy",
       "source_url": "https://youtu.be/1CEXVcVEBAc",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "pending"
     },
     {
       "punch": "EVERYTHING IS A PROMPT",
@@ -285,8 +263,7 @@
       "source_title": "The Coming Disruption: How AI Will Transform the Economy",
       "source_url": "https://youtu.be/1CEXVcVEBAc",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "pending"
     },
     {
       "punch": "MACHINES TALK FASTER",
@@ -295,8 +272,7 @@
       "source_title": "The Coming Disruption: How AI Will Transform the Economy",
       "source_url": "https://youtu.be/1CEXVcVEBAc",
       "weight": "high",
-      "status": "failed",
-      "fail_reason": "image_generation"
+      "status": "pending"
     },
     {
       "punch": "HUMAN LABOR TURNS NEGATIVE",
@@ -323,7 +299,9 @@
       "source_title": "The Coming Disruption: How AI Will Transform the Economy",
       "source_url": "https://youtu.be/1CEXVcVEBAc",
       "weight": "high",
-      "status": "pending"
+      "status": "posted",
+      "date_posted": "2026-04-06 17:50",
+      "image_path": "/tmp/test-pre.png"
     },
     {
       "punch": "STAR TREK OR STAR WARS",

@@ -1973,6 +1973,12 @@
           "story": "HC004",
           "status": "failed",
           "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
+        },
+        {
+          "date": "2026-04-06 18:11",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
         }
       ],
       "verified": true,
@@ -2421,6 +2427,12 @@
           "story": "HC004",
           "status": "failed",
           "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
+        },
+        {
+          "date": "2026-04-06 18:11",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
         }
       ],
       "verified": true,
@@ -2459,6 +2471,12 @@
         {
           "date": "2026-04-03 10:13",
           "story": "HC004",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
+        },
+        {
+          "date": "2026-04-06 18:11",
+          "story": "HC003",
           "status": "failed",
           "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
         }
@@ -2516,6 +2534,12 @@
         {
           "date": "2026-04-03 10:13",
           "story": "HC004",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
+        },
+        {
+          "date": "2026-04-06 18:11",
+          "story": "HC003",
           "status": "failed",
           "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
         }
@@ -2641,6 +2665,12 @@
         {
           "date": "2026-04-03 10:13",
           "story": "HC004",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
+        },
+        {
+          "date": "2026-04-06 18:11",
+          "story": "HC003",
           "status": "failed",
           "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
         }
@@ -2785,6 +2815,12 @@
           "story": "HC004",
           "status": "failed",
           "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
+        },
+        {
+          "date": "2026-04-06 18:11",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
         }
       ],
       "verified": true,
@@ -2888,10 +2924,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040120580410622312"
+        },
+        {
+          "date": "2026-04-06 18:11",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -2906,10 +2948,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040113525721559483"
+        },
+        {
+          "date": "2026-04-06 18:11",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -2924,10 +2972,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040111089338257654"
+        },
+        {
+          "date": "2026-04-06 18:11",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -2942,10 +2996,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040108301682147557"
+        },
+        {
+          "date": "2026-04-06 18:11",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -2960,10 +3020,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040104171987214658"
+        },
+        {
+          "date": "2026-04-06 18:12",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -2978,10 +3044,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040098367900983616"
+        },
+        {
+          "date": "2026-04-06 18:12",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -2996,10 +3068,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040097212047495191"
+        },
+        {
+          "date": "2026-04-06 18:12",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3014,10 +3092,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040095353328869710"
+        },
+        {
+          "date": "2026-04-06 18:12",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3032,10 +3116,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040095107081175062"
+        },
+        {
+          "date": "2026-04-06 18:12",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3050,10 +3140,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040091645576638665"
+        },
+        {
+          "date": "2026-04-06 18:12",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3068,10 +3164,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040120935550779676"
+        },
+        {
+          "date": "2026-04-06 18:12",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3086,10 +3188,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040120142810481038"
+        },
+        {
+          "date": "2026-04-06 18:12",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3104,10 +3212,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040119681311264859"
+        },
+        {
+          "date": "2026-04-06 18:12",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3122,10 +3236,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040118785047179417"
+        },
+        {
+          "date": "2026-04-06 18:12",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3140,10 +3260,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040118433187041766"
+        },
+        {
+          "date": "2026-04-06 18:12",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3158,10 +3284,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040118298868588902"
+        },
+        {
+          "date": "2026-04-06 18:12",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3176,10 +3308,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040118027589407225"
+        },
+        {
+          "date": "2026-04-06 18:12",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3194,10 +3332,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040117937990984127"
+        },
+        {
+          "date": "2026-04-06 18:13",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3212,10 +3356,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040116789539995981"
+        },
+        {
+          "date": "2026-04-06 18:13",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3230,10 +3380,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040116778169184400"
+        },
+        {
+          "date": "2026-04-06 18:13",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3248,10 +3404,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040120662363127960"
+        },
+        {
+          "date": "2026-04-06 18:13",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3266,10 +3428,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040120390547050551"
+        },
+        {
+          "date": "2026-04-06 18:13",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3284,10 +3452,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040120333244453156"
+        },
+        {
+          "date": "2026-04-06 18:13",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3302,10 +3476,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040120064205267185"
+        },
+        {
+          "date": "2026-04-06 18:13",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3320,10 +3500,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040119037242310875"
+        },
+        {
+          "date": "2026-04-06 18:13",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3338,10 +3524,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040117787893399583"
+        },
+        {
+          "date": "2026-04-06 18:13",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3356,10 +3548,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040113447342350817"
+        },
+        {
+          "date": "2026-04-06 18:13",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3374,10 +3572,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040110347521269940"
+        },
+        {
+          "date": "2026-04-06 18:13",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3392,10 +3596,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040110326947967120"
+        },
+        {
+          "date": "2026-04-06 18:13",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3410,10 +3620,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040110085356081393"
+        },
+        {
+          "date": "2026-04-06 18:13",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3428,10 +3644,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040116104983642502"
+        },
+        {
+          "date": "2026-04-06 18:13",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3446,10 +3668,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040109824235471228"
+        },
+        {
+          "date": "2026-04-06 18:14",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3464,10 +3692,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040109401210790264"
+        },
+        {
+          "date": "2026-04-06 18:14",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3482,10 +3716,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040106383811412223"
+        },
+        {
+          "date": "2026-04-06 18:14",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3500,10 +3740,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040097605036777918"
+        },
+        {
+          "date": "2026-04-06 18:14",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3518,6 +3764,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040093236493201817"
+        },
+        {
+          "date": "2026-04-06 18:14",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: rs/rmello/.local/bin/x-dm\", line 165, in <module>\n    uid = get_user_id(username)\n  File \"/Us"
         }
       ],
       "verified": true,
@@ -3536,6 +3788,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040091823264162121"
+        },
+        {
+          "date": "2026-04-06 18:14",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3554,6 +3812,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040090765569692057"
+        },
+        {
+          "date": "2026-04-06 18:14",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3572,6 +3836,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040090509600002073"
+        },
+        {
+          "date": "2026-04-06 18:14",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3590,6 +3860,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040086819430158574"
+        },
+        {
+          "date": "2026-04-06 18:14",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3608,6 +3884,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2039939660575592571"
+        },
+        {
+          "date": "2026-04-06 18:14",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3626,10 +3908,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2039312431336345884"
+        },
+        {
+          "date": "2026-04-06 18:14",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3644,6 +3932,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2039140499030671546"
+        },
+        {
+          "date": "2026-04-06 18:14",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3662,6 +3956,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2039070534164508681"
+        },
+        {
+          "date": "2026-04-06 18:14",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3680,6 +3980,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2039059565812072799"
+        },
+        {
+          "date": "2026-04-06 18:14",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3698,6 +4004,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2039032299379917289"
+        },
+        {
+          "date": "2026-04-06 18:14",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3716,6 +4028,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2039030419450933258"
+        },
+        {
+          "date": "2026-04-06 18:15",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3734,6 +4052,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040122659980128480"
+        },
+        {
+          "date": "2026-04-06 18:15",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3752,6 +4076,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040121673475834264"
+        },
+        {
+          "date": "2026-04-06 18:15",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3770,6 +4100,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040119448850649220"
+        },
+        {
+          "date": "2026-04-06 18:15",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3788,6 +4124,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040118581942264074"
+        },
+        {
+          "date": "2026-04-06 18:15",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3806,6 +4148,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040118464807915709"
+        },
+        {
+          "date": "2026-04-06 18:15",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3824,6 +4172,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040118344251249114"
+        },
+        {
+          "date": "2026-04-06 18:15",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3842,6 +4196,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040117308530606115"
+        },
+        {
+          "date": "2026-04-06 18:15",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3860,6 +4220,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040115016733483067"
+        },
+        {
+          "date": "2026-04-06 18:15",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3878,6 +4244,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040114516013531504"
+        },
+        {
+          "date": "2026-04-06 18:15",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3896,6 +4268,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040113067443249464"
+        },
+        {
+          "date": "2026-04-06 18:15",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3914,6 +4292,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040121449046778324"
+        },
+        {
+          "date": "2026-04-06 18:15",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3932,6 +4316,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040124057933222140"
+        },
+        {
+          "date": "2026-04-06 18:15",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3950,10 +4340,16 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040123703107686853"
+        },
+        {
+          "date": "2026-04-06 18:15",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
         }
       ],
       "verified": true,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null
     },
     {
@@ -3975,6 +4371,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040123038671278164"
+        },
+        {
+          "date": "2026-04-06 18:15",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -3993,6 +4395,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040123251293098368"
+        },
+        {
+          "date": "2026-04-06 18:16",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -4011,6 +4419,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040123134691479746"
+        },
+        {
+          "date": "2026-04-06 18:16",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -4029,6 +4443,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040122780151079373"
+        },
+        {
+          "date": "2026-04-06 18:16",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -4047,6 +4467,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040122709519089686"
+        },
+        {
+          "date": "2026-04-06 18:16",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -4065,6 +4491,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040122694470140167"
+        },
+        {
+          "date": "2026-04-06 18:16",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -4083,6 +4515,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040121862525517857"
+        },
+        {
+          "date": "2026-04-06 18:16",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -4101,6 +4539,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040121864224182280"
+        },
+        {
+          "date": "2026-04-06 18:16",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -4119,6 +4563,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040124243921273338"
+        },
+        {
+          "date": "2026-04-06 18:16",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -4137,6 +4587,12 @@
           "status": "contacted",
           "method": "hashtag_reply_failed",
           "ref": "2040123910524678512"
+        },
+        {
+          "date": "2026-04-06 18:16",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": true,
@@ -4886,6 +5342,12 @@
           "status": "failed",
           "method": "dm_attempted",
           "message": "error"
+        },
+        {
+          "date": "2026-04-06 18:16",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": null,
@@ -5191,6 +5653,12 @@
           "status": "failed",
           "method": "dm_attempted",
           "message": "error"
+        },
+        {
+          "date": "2026-04-06 18:16",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": null,
@@ -5404,6 +5872,12 @@
           "status": "failed",
           "method": "dm_attempted",
           "message": "error"
+        },
+        {
+          "date": "2026-04-06 18:16",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": null,
@@ -5461,6 +5935,12 @@
           "status": "failed",
           "method": "dm_attempted",
           "message": "error"
+        },
+        {
+          "date": "2026-04-06 18:16",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": null,
@@ -5726,6 +6206,12 @@
           "status": "failed",
           "method": "dm_attempted",
           "message": "error"
+        },
+        {
+          "date": "2026-04-06 18:16",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": null,
@@ -5771,6 +6257,12 @@
           "status": "failed",
           "method": "dm_attempted",
           "message": "error"
+        },
+        {
+          "date": "2026-04-06 18:16",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": null,
@@ -6173,6 +6665,12 @@
           "status": "failed",
           "method": "dm_attempted",
           "message": "error"
+        },
+        {
+          "date": "2026-04-06 18:16",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": null,
@@ -6341,6 +6839,12 @@
           "status": "failed",
           "method": "dm_attempted",
           "message": "error"
+        },
+        {
+          "date": "2026-04-06 18:17",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": null,
@@ -6386,6 +6890,12 @@
           "status": "failed",
           "method": "dm_attempted",
           "message": "error"
+        },
+        {
+          "date": "2026-04-06 18:17",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": null,
@@ -6587,6 +7097,12 @@
           "status": "failed",
           "method": "dm_attempted",
           "message": "error"
+        },
+        {
+          "date": "2026-04-06 18:17",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": null,
@@ -6632,6 +7148,12 @@
           "status": "failed",
           "method": "dm_attempted",
           "message": "error"
+        },
+        {
+          "date": "2026-04-06 18:17",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
         }
       ],
       "verified": null,
@@ -6722,7 +7244,14 @@
       "name": "Magic Eden",
       "company": "Magic Eden",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:17",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6733,7 +7262,14 @@
       "name": "Tensor",
       "company": "Tensor",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:17",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6744,7 +7280,14 @@
       "name": "Metaplex",
       "company": "Metaplex",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:17",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6755,7 +7298,14 @@
       "name": "Phantom",
       "company": "Phantom",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:17",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6766,7 +7316,14 @@
       "name": "Okay Bears",
       "company": "",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:17",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6777,7 +7334,14 @@
       "name": "DeGods",
       "company": "",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:17",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6788,7 +7352,14 @@
       "name": "Solana Foundation",
       "company": "Solana Foundation",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:17",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6799,7 +7370,14 @@
       "name": "Helius Labs",
       "company": "Helius",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:17",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6810,7 +7388,14 @@
       "name": "Superteam DAO",
       "company": "Superteam",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:17",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6821,7 +7406,14 @@
       "name": "Mert Mumtaz",
       "company": "Helius",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:17",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6832,7 +7424,14 @@
       "name": "Solana Monkey Business",
       "company": "",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:17",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6843,7 +7442,14 @@
       "name": "Jupiter Exchange",
       "company": "Jupiter",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:18",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6854,7 +7460,14 @@
       "name": "Orca",
       "company": "Orca",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:18",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6865,7 +7478,14 @@
       "name": "Dialect",
       "company": "Dialect",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:18",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6876,7 +7496,14 @@
       "name": "Solflare",
       "company": "Solflare",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:18",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6887,7 +7514,14 @@
       "name": "MonkeDAO",
       "company": "",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:18",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6898,7 +7532,14 @@
       "name": "Famous Fox Federation",
       "company": "",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:18",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6909,7 +7550,14 @@
       "name": "Jacob Steinhardt",
       "company": "UC Berkeley",
       "tier": "safety",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:18",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6920,7 +7568,14 @@
       "name": "Zvi Mowshowitz",
       "company": "",
       "tier": "safety",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:18",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6931,7 +7586,14 @@
       "name": "Buck Shlegeris",
       "company": "Redwood Research",
       "tier": "safety",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:18",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6942,7 +7604,14 @@
       "name": "Miles Brundage",
       "company": "",
       "tier": "safety",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:18",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6953,7 +7622,14 @@
       "name": "Toby Ord",
       "company": "Oxford",
       "tier": "safety",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:18",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6964,7 +7640,14 @@
       "name": "David Krueger",
       "company": "Cambridge",
       "tier": "safety",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:18",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6975,7 +7658,14 @@
       "name": "Adam Jermyn",
       "company": "Anthropic",
       "tier": "safety",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:18",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6986,7 +7676,14 @@
       "name": "Joseph Carlsmith",
       "company": "Open Philanthropy",
       "tier": "safety",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:18",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -6997,7 +7694,14 @@
       "name": "Stuart Armstrong",
       "company": "",
       "tier": "safety",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:18",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7008,7 +7712,14 @@
       "name": "Max Tegmark",
       "company": "MIT",
       "tier": "safety",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:19",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7019,7 +7730,14 @@
       "name": "Nora Belrose",
       "company": "EleutherAI",
       "tier": "safety",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:19",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7030,7 +7748,14 @@
       "name": "Tom Everitt",
       "company": "DeepMind",
       "tier": "safety",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:19",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7041,7 +7766,14 @@
       "name": "Lennart Heim",
       "company": "CAIS",
       "tier": "safety",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:19",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7052,7 +7784,14 @@
       "name": "Leo Gao",
       "company": "EleutherAI",
       "tier": "safety",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:19",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7063,7 +7802,14 @@
       "name": "Amjad Masad",
       "company": "Replit",
       "tier": "labs",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:19",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7074,7 +7820,14 @@
       "name": "Tobi Lutke",
       "company": "Shopify",
       "tier": "misc",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:19",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7085,7 +7838,14 @@
       "name": "Jerry Liu",
       "company": "LlamaIndex",
       "tier": "labs",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:19",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7096,7 +7856,14 @@
       "name": "Shay Palachy",
       "company": "",
       "tier": "misc",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:19",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7107,7 +7874,14 @@
       "name": "Replit",
       "company": "Replit",
       "tier": "labs",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:19",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7118,7 +7892,14 @@
       "name": "Cursor",
       "company": "Cursor",
       "tier": "labs",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:19",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7129,7 +7910,14 @@
       "name": "Perplexity AI",
       "company": "Perplexity",
       "tier": "labs",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:19",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7140,7 +7928,14 @@
       "name": "Mistral AI",
       "company": "Mistral",
       "tier": "labs",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:19",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7151,7 +7946,14 @@
       "name": "Together AI",
       "company": "Together AI",
       "tier": "labs",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:19",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7162,7 +7964,14 @@
       "name": "Groq",
       "company": "Groq",
       "tier": "labs",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:19",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7173,7 +7982,14 @@
       "name": "xAI",
       "company": "xAI",
       "tier": "labs",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:20",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7184,7 +8000,14 @@
       "name": "EleutherAI",
       "company": "EleutherAI",
       "tier": "labs",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:20",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7195,7 +8018,14 @@
       "name": "Runway",
       "company": "Runway",
       "tier": "artist",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:20",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7206,9 +8036,16 @@
       "name": "ElevenLabs",
       "company": "ElevenLabs",
       "tier": "labs",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:20",
+          "story": "HC003",
+          "status": "failed_closed",
+          "message": ""
+        }
+      ],
       "verified": null,
-      "dm_open": null,
+      "dm_open": false,
       "followers": null,
       "added": "2026-04-03"
     },
@@ -7217,7 +8054,14 @@
       "name": "LangChain",
       "company": "LangChain",
       "tier": "labs",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:20",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7228,7 +8072,14 @@
       "name": "LlamaIndex",
       "company": "LlamaIndex",
       "tier": "labs",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:20",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7239,7 +8090,14 @@
       "name": "AI Explained",
       "company": "",
       "tier": "media",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:20",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7250,7 +8108,14 @@
       "name": "Yannic Kilcher",
       "company": "",
       "tier": "media",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:20",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7261,7 +8126,14 @@
       "name": "Harrison Kinsley",
       "company": "",
       "tier": "media",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:20",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7272,7 +8144,14 @@
       "name": "bycloud",
       "company": "",
       "tier": "media",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:20",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7283,7 +8162,14 @@
       "name": "The AI Edge",
       "company": "",
       "tier": "media",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:20",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7294,7 +8180,14 @@
       "name": "AI Supremacy",
       "company": "",
       "tier": "media",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:20",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7305,7 +8198,14 @@
       "name": "Will Oremus",
       "company": "Washington Post",
       "tier": "media",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:20",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7316,7 +8216,14 @@
       "name": "Katie Notopoulos",
       "company": "BuzzFeed News",
       "tier": "media",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:20",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7327,7 +8234,14 @@
       "name": "Ben Parr",
       "company": "Move.ai",
       "tier": "media",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:20",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7338,7 +8252,14 @@
       "name": "Brian Roemmele",
       "company": "",
       "tier": "media",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:21",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7349,7 +8270,14 @@
       "name": "Greg Isenberg",
       "company": "",
       "tier": "misc",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:21",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7360,7 +8288,14 @@
       "name": "Pete Codes",
       "company": "",
       "tier": "misc",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:21",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7371,7 +8306,14 @@
       "name": "Zain Kahn",
       "company": "",
       "tier": "media",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:21",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7382,7 +8324,14 @@
       "name": "Farza Majeed",
       "company": "Buildspace",
       "tier": "misc",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:21",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7393,7 +8342,14 @@
       "name": "TechCrunch",
       "company": "TechCrunch",
       "tier": "media",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:21",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7404,7 +8360,14 @@
       "name": "The Verge",
       "company": "The Verge",
       "tier": "media",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:21",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7415,7 +8378,14 @@
       "name": "WIRED",
       "company": "WIRED",
       "tier": "media",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:21",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7426,7 +8396,14 @@
       "name": "MIT Technology Review",
       "company": "MIT",
       "tier": "media",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:21",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7437,7 +8414,14 @@
       "name": "VentureBeat",
       "company": "VentureBeat",
       "tier": "media",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:21",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7448,7 +8432,14 @@
       "name": "Vibhu Norby",
       "company": "DRiP",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:21",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7459,7 +8450,14 @@
       "name": "DegenApe Academy",
       "company": "",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:21",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7470,7 +8468,14 @@
       "name": "Cets on Creck",
       "company": "",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:21",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7481,7 +8486,14 @@
       "name": "Step Finance",
       "company": "Step Finance",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:21",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7492,7 +8504,14 @@
       "name": "y00ts",
       "company": "",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:21",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7503,7 +8522,14 @@
       "name": "Solana Floor",
       "company": "",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:22",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7514,7 +8540,14 @@
       "name": "Raydium",
       "company": "Raydium",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:22",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7525,7 +8558,14 @@
       "name": "Backpack",
       "company": "Backpack",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:22",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7536,7 +8576,14 @@
       "name": "Aurory",
       "company": "Aurory",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:22",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7547,7 +8594,14 @@
       "name": "Mad Lads",
       "company": "",
       "tier": "nft",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:22",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7558,7 +8612,14 @@
       "name": "John Wentworth",
       "company": "",
       "tier": "safety",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:22",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7569,7 +8630,14 @@
       "name": "Scott Garrabrant",
       "company": "MIRI",
       "tier": "safety",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:22",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7580,7 +8648,14 @@
       "name": "Abram Demski",
       "company": "MIRI",
       "tier": "safety",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:22",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7591,7 +8666,14 @@
       "name": "Aidan O'Gara",
       "company": "",
       "tier": "safety",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:22",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7602,7 +8684,14 @@
       "name": "PixelJoint",
       "company": "",
       "tier": "artist",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:22",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7613,7 +8702,14 @@
       "name": "Drububu",
       "company": "",
       "tier": "artist",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:22",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7624,7 +8720,14 @@
       "name": "Rosa Menkman",
       "company": "",
       "tier": "artist",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:22",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7635,7 +8738,14 @@
       "name": "Julien Gachadoat",
       "company": "",
       "tier": "artist",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:22",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7646,7 +8756,14 @@
       "name": "Jon McCormack",
       "company": "",
       "tier": "artist",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:22",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7657,7 +8774,14 @@
       "name": "Cabbibo",
       "company": "",
       "tier": "artist",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:22",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,
@@ -7668,7 +8792,14 @@
       "name": "PROCJAM",
       "company": "",
       "tier": "artist",
-      "dms": [],
+      "dms": [
+        {
+          "date": "2026-04-06 18:23",
+          "story": "HC003",
+          "status": "failed",
+          "message": "error: _.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' modu"
+        }
+      ],
       "verified": null,
       "dm_open": null,
       "followers": null,

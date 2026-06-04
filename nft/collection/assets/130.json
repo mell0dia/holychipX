@@ -1,0 +1,54 @@
+{
+  "name": "Holy Chip #130 - CICLOPE",
+  "symbol": "HCHIP",
+  "description": "CICLOPE - Holy Chip NFT Collection. Binary ID: 10000010",
+  "image": "130.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "CICLOPE"
+    },
+    {
+      "trait_type": "Binary",
+      "value": "10000010"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "187"
+    },
+    {
+      "trait_type": "Background",
+      "value": "55"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "82"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "1"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "219"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "130.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Holy Chip #191 - MADMAX",
+  "symbol": "HCHIP",
+  "description": "MADMAX - Holy Chip NFT Collection. Binary ID: 10111111",
+  "image": "191.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "MADMAX"
+    },
+    {
+      "trait_type": "Binary",
+      "value": "10111111"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "19"
+    },
+    {
+      "trait_type": "Background",
+      "value": "115"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "17"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "1"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "276"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "191.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}

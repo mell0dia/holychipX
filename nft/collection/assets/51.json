@@ -1,0 +1,54 @@
+{
+  "name": "Holy Chip #051 - ROBOT",
+  "symbol": "HCHIP",
+  "description": "ROBOT - Holy Chip NFT Collection. Binary ID: 110011",
+  "image": "51.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "ROBOT"
+    },
+    {
+      "trait_type": "Binary",
+      "value": "110011"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "370"
+    },
+    {
+      "trait_type": "Background",
+      "value": "126"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "185"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "1"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "331"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "51.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}

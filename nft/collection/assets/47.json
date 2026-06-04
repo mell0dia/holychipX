@@ -1,0 +1,54 @@
+{
+  "name": "Holy Chip #047 - EYES-OF-LOVE",
+  "symbol": "HCHIP",
+  "description": "EYES-OF-LOVE - Holy Chip NFT Collection. Binary ID: 101111",
+  "image": "47.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "EYES-OF-LOVE"
+    },
+    {
+      "trait_type": "Binary",
+      "value": "101111"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "322"
+    },
+    {
+      "trait_type": "Background",
+      "value": "224"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "109"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "1"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "46"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "47.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Holy Chip",
+  "symbol": "HCHIP",
+  "description": "AI-generated characters from the binary universe. Each Holy Chip is a unique digital being born from code.",
+  "image": "collection.png",
+  "attributes": [],
+  "properties": {
+    "files": [{ "uri": "collection.png", "type": "image/png" }],
+    "creators": [{ "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx", "share": 100 }]
+  }
+}

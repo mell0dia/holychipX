@@ -1,0 +1,54 @@
+{
+  "name": "Holy Chip #102 - PIRATA",
+  "symbol": "HCHIP",
+  "description": "PIRATA - Holy Chip NFT Collection. Binary ID: 1100110",
+  "image": "102.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "PIRATA"
+    },
+    {
+      "trait_type": "Binary",
+      "value": "1100110"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "30"
+    },
+    {
+      "trait_type": "Background",
+      "value": "310"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "294"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "107"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "1"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "102.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}

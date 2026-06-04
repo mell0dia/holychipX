@@ -1,0 +1,54 @@
+{
+  "name": "Holy Chip #169 - JASON",
+  "symbol": "HCHIP",
+  "description": "JASON - Holy Chip NFT Collection. Binary ID: 10101001",
+  "image": "169.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "JASON"
+    },
+    {
+      "trait_type": "Binary",
+      "value": "10101001"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "161"
+    },
+    {
+      "trait_type": "Background",
+      "value": "144"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "299"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "1"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "41"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "169.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}

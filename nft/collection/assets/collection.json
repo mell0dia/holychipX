@@ -1,0 +1,25 @@
+{
+  "name": "Holy Chip",
+  "symbol": "HCHIP",
+  "description": "Holy Chip - AI-generated characters in the binary universe. 251 unique NFTs.",
+  "image": "collection.png",
+  "attributes": [],
+  "properties": {
+    "files": [
+      {
+        "uri": "collection.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}

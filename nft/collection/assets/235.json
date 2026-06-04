@@ -1,0 +1,54 @@
+{
+  "name": "Holy Chip #235 - BABY",
+  "symbol": "HCHIP",
+  "description": "BABY - Holy Chip NFT Collection. Binary ID: 11101011",
+  "image": "235.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "BABY"
+    },
+    {
+      "trait_type": "Binary",
+      "value": "11101011"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "29"
+    },
+    {
+      "trait_type": "Background",
+      "value": "311"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "272"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "1"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "59"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "235.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "program": {
+    "candyMachine": "2B95WXRt69heDiY6in4nKmBNTdWbgqqFHJiUYPnwqfvH",
+    "candyGuard": "",
+    "candyMachineCreator": "HmCDpK2gukKSbN1yqD8FT6yE3femUUZg7z9GiQNThGxd",
+    "collectionMint": "6eWMqCpCXUTUHE4qbbfCXRdnsKUM9DxtvxxXNnVBEGaG"
+  },
+  "items": {
+    "-1": {
+      "name": "Holy Chip",
+      "image_hash": "38d3e34c076698b4ee9c5634ffcc3ec9b9a96b8e7ae80f453e6eb378f7797972",
+      "image_link": "https://gateway.irys.xyz/Xs7x6xPz_K6gGtSwqYYo1rJbqyBTpw-ddI7dcGvokvk?ext=png",
+      "metadata_hash": "96e2a6f20e9776a7ec9f342aa1b3fc72a2de4fc78dc920b1a639b3aba51f1752",
+      "metadata_link": "https://gateway.irys.xyz/y5J5ChW8SjuJTS_t6s1pcZQPdpPVGkB2IkEaCMjS9J8",
+      "onChain": true
+    },
+    "0": {
+      "name": "Holy Chip #001 — Chip_0",
+      "image_hash": "38d3e34c076698b4ee9c5634ffcc3ec9b9a96b8e7ae80f453e6eb378f7797972",
+      "image_link": "https://gateway.irys.xyz/Em00ZT0xyxu-94poVTUSbQDmx0-s_0aeC-SzcUKM14c?ext=png",
+      "metadata_hash": "ceb170ab1288a57cec4b7b078bf728e742b06562c9cc4773822edaa3b5650422",
+      "metadata_link": "https://gateway.irys.xyz/3s24xEQHIS2R8dYV2x-9AKNb4WTxwwNSKmBbKr4Q4gg",
+      "onChain": true
+    },
+    "1": {
+      "name": "Holy Chip #002 — Chip_1",
+      "image_hash": "7e9f71a26bcc8c52b84dfaae872f3d9e47ef18cae17d8f8612972eeb85671c61",
+      "image_link": "https://gateway.irys.xyz/u8DriBkFNZCb4ZvtawoM1MAi3d6W7ktiFS4XHbUf15M?ext=png",
+      "metadata_hash": "424d41729c6196418a2eb0aad8db2745f7991a4237e0b8e8b7493bc3a2e3c3c7",
+      "metadata_link": "https://gateway.irys.xyz/tCSu2sOIjGrqSfZWoRbJGO8ouav3GoJgOjO5pcxoQso",
+      "onChain": true
+    },
+    "2": {
+      "name": "Holy Chip #003 — Chip_100",
+      "image_hash": "5f935bc2159e08fb9976736100639877205558630f77402e8b4217177885047c",
+      "image_link": "https://gateway.irys.xyz/wFPW5M8HLwuvNCKthCz0rTkgv2hUZN0iOl_E9YYwgy4?ext=png",
+      "metadata_hash": "144a2abe80dcce473ef3eb27a3e5655d9055cbe97b1e1a8cc412b88887789672",
+      "metadata_link": "https://gateway.irys.xyz/ICZefZiItp_0qCRfPQOp4T5gixKtAI4jfhErTT8f1AU",
+      "onChain": true
+    },
+    "3": {
+      "name": "Holy Chip #004 — Chip_101",
+      "image_hash": "7af0428a6507ea266fb7ef45f1fd154dc1e6a037d8c408c00d2e542743295c8e",
+      "image_link": "https://gateway.irys.xyz/z-nFMy4d3I8v0tbqhYsu7ncd0rbcIH4JWBDw-tFUv3o?ext=png",
+      "metadata_hash": "7cfbc225d956d7b6f2f8e3f2f3a6e113aa95881d5eb7d502edea4307e79cd1d6",
+      "metadata_link": "https://gateway.irys.xyz/tc9hpYXQHDiHQ6EzV-NuwSKRRTNuPjcfUQVHKyCmDQ4",
+      "onChain": true
+    },
+    "4": {
+      "name": "Holy Chip #005 — Chip_110",
+      "image_hash": "fe92a8174d36cc55827b5c9e949d4e8ce49540905393597897478a0be89b83ae",
+      "image_link": "https://gateway.irys.xyz/JQl332nyuk6rw0O8rAIIX0jh164x6PsbrCiOsx00PX4?ext=png",
+      "metadata_hash": "1aa91360df8efc3f038f20cdf06063dce0cfb0d032ed929fb26194cc2df89494",
+      "metadata_link": "https://gateway.irys.xyz/_J7NrSHA2Oi8ep57KWwdYhjs7KF3IVXv5oEgoZmFjN4",
+      "onChain": true
+    }
+  }
+}

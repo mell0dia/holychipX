@@ -1,0 +1,18 @@
+{
+  "name": "nft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "copy-images.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.20.1",
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
+    "@solana/web3.js": "^1.98.4",
+    "bs58": "^6.0.0"
+  }
+}

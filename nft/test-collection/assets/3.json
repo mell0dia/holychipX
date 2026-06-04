@@ -1,0 +1,16 @@
+{
+  "name": "Holy Chip #004 — Chip_101",
+  "symbol": "HCHIP",
+  "description": "Chip_101 — The Five. A dynamic presence in the binary universe.",
+  "image": "3.png",
+  "attributes": [
+    { "trait_type": "Character", "value": "Chip_101" },
+    { "trait_type": "Binary", "value": "101" },
+    { "trait_type": "Series", "value": "Genesis" },
+    { "trait_type": "Rarity", "value": "Rare" }
+  ],
+  "properties": {
+    "files": [{ "uri": "3.png", "type": "image/png" }],
+    "creators": [{ "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx", "share": 100 }]
+  }
+}

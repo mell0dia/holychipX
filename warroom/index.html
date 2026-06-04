@@ -1433,6 +1433,10 @@ select:focus { border-color: var(--y3); }
   <button class="tab" onclick="switchTab('dms')" id="tab-dms">
     DM TRACKER
   </button>
+  <button class="tab" onclick="switchTab('punches')" id="tab-punches">
+    PUNCHES
+    <span class="tab-badge" id="badge-punches">?</span>
+  </button>
 </nav>
 
 <main>
@@ -1645,6 +1649,55 @@ select:focus { border-color: var(--y3); }
   </div>
 </div>
 
+<!-- ══════════ TAB: PUNCHES ══════════ -->
+<div id="panel-punches" class="tab-panel">
+  <div class="section-head">
+    <h2>PUNCH LINES</h2>
+    <span class="hint">// max-5-word AI propaganda headlines from pre-punches.json</span>
+  </div>
+
+  <div class="grid-4" id="punchSummaryCards" style="margin-bottom:20px">
+    <div class="card">
+      <h3>TOTAL</h3>
+      <span class="big-number" id="punchTotal">--</span>
+      <div class="card-sub">punch lines</div>
+    </div>
+    <div class="card">
+      <h3>PENDING</h3>
+      <span class="big-number warn" id="punchPending">--</span>
+      <div class="card-sub">awaiting post</div>
+    </div>
+    <div class="card">
+      <h3>POSTED</h3>
+      <span class="big-number" id="punchPosted" style="color:#0f0">--</span>
+      <div class="card-sub">published</div>
+    </div>
+    <div class="card">
+      <h3>FAILED</h3>
+      <span class="big-number crit" id="punchFailed">--</span>
+      <div class="card-sub">need attention</div>
+    </div>
+  </div>
+
+  <div class="phrase-filters">
+    <input class="search-input" id="punchSearch" placeholder="search punches..." oninput="filterPunches()"/>
+    <button class="filter-btn active" onclick="togglePunchFilter(this,'all')" data-filter="all">ALL</button>
+    <button class="filter-btn" onclick="togglePunchFilter(this,'pending')" data-filter="pending">PENDING</button>
+    <button class="filter-btn" onclick="togglePunchFilter(this,'posted')" data-filter="posted">POSTED</button>
+    <button class="filter-btn" onclick="togglePunchFilter(this,'failed')" data-filter="failed">FAILED</button>
+    <span style="border-left:1px solid var(--border);height:20px;margin:0 4px"></span>
+    <button class="filter-btn active" onclick="togglePunchSource(this,'all')" data-source="all">ALL SRC</button>
+    <button class="filter-btn" onclick="togglePunchSource(this,'twitter')" data-source="twitter">TWITTER</button>
+    <button class="filter-btn" onclick="togglePunchSource(this,'video')" data-source="video">VIDEO</button>
+    <button class="filter-btn" onclick="resetAllFailed()" style="margin-left:auto;border-color:var(--crit);color:var(--crit)">RESET FAILED</button>
+    <span id="punchCount" style="color:var(--muted);font-size:15px;margin-left:12px"></span>
+  </div>
+
+  <div id="punchGrid" style="display:flex;flex-direction:column;gap:8px;margin-top:12px">
+    <div class="loading">loading</div>
+  </div>
+</div>
+
 </main>
 
 <!-- Story Modal -->
@@ -1673,6 +1726,9 @@ let sourceFilter = 'all';
 let influencerFilter = 'all';
 let storyFilter = 'all';
 let dmFilter = 'all';
+let punches = [];
+let punchFilter = 'all';
+let punchSource = 'all';
 
 // ── INIT ──────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
@@ -1686,6 +1742,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loadCampaigns();
   loadDMs();
   loadChars();
+  loadPunches();
 });
 
 function updateClock() {
@@ -2423,6 +2480,139 @@ function toggleDMFilter(btn, filter) {
 }
 
 function filterDMs() { renderDMs(); }
+
+// ── PUNCHES ──────────────────────────────────────────────
+async function loadPunches() {
+  const r = await fetch('/api/punches');
+  const data = await r.json();
+  punches = data.punches || [];
+
+  const pending = punches.filter(p => p.status === 'pending').length;
+  const posted = punches.filter(p => p.status === 'posted').length;
+  const failed = punches.filter(p => p.status === 'failed').length;
+
+  document.getElementById('punchTotal').textContent = punches.length;
+  document.getElementById('punchPending').textContent = pending;
+  document.getElementById('punchPosted').textContent = posted;
+  document.getElementById('punchFailed').textContent = failed;
+  document.getElementById('badge-punches').textContent = punches.length;
+
+  renderPunches();
+}
+
+function renderPunches() {
+  const search = (document.getElementById('punchSearch').value || '').toLowerCase();
+  let filtered = punches.map((p, i) => ({...p, _idx: i})).filter(p => {
+    if (punchFilter !== 'all' && p.status !== punchFilter) return false;
+    if (punchSource === 'twitter' && !(p.speaker||'').startsWith('@')) return false;
+    if (punchSource === 'video' && (p.speaker||'').startsWith('@')) return false;
+    if (search && !((p.punch||'')+(p.speaker||'')+(p.source_title||'')).toLowerCase().includes(search)) return false;
+    return true;
+  });
+
+  document.getElementById('punchCount').textContent = filtered.length + ' / ' + punches.length;
+
+  const grid = document.getElementById('punchGrid');
+  if (!filtered.length) {
+    grid.innerHTML = '<div class="empty-state">NO PUNCHES FOUND</div>';
+    return;
+  }
+
+  const statusColor = s => s === 'posted' ? '#0f0' : s === 'failed' ? 'var(--crit)' : 'var(--y1)';
+  const weightColor = w => w === 'high' ? 'var(--y1)' : w === 'medium' ? 'var(--muted)' : '#555';
+
+  grid.innerHTML = filtered.map(p => `
+    <div class="card" style="cursor:pointer;padding:12px 16px;border-left:3px solid ${statusColor(p.status)}" onclick="togglePunchEditor(${p._idx}, this)">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <span style="font-size:16px;font-weight:700;color:var(--y1);letter-spacing:1px">${escHtml(p.punch)}</span>
+        <span style="font-size:12px;padding:2px 8px;border-radius:3px;background:${statusColor(p.status)}22;color:${statusColor(p.status)};border:1px solid ${statusColor(p.status)}44;text-transform:uppercase">${escHtml(p.status||'pending')}</span>
+      </div>
+      <div style="display:flex;gap:16px;margin-top:6px;font-size:13px;color:var(--muted);flex-wrap:wrap">
+        <span>🎤 ${escHtml(p.speaker||'unknown')}</span>
+        <span style="color:${weightColor(p.weight)};font-weight:600">⚖ ${escHtml(p.weight||'?')}</span>
+        <span style="max-width:400px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">📺 ${escHtml(p.source_title||'')}</span>
+        ${p.date_posted ? '<span>📅 '+escHtml(p.date_posted)+'</span>' : ''}
+      </div>
+      <div class="punch-editor" style="display:none" onclick="event.stopPropagation()"></div>
+    </div>
+  `).join('');
+}
+
+function togglePunchEditor(idx, cardEl) {
+  const editorDiv = cardEl.querySelector('.punch-editor');
+  if (editorDiv.style.display === 'block') {
+    editorDiv.style.display = 'none';
+    editorDiv.innerHTML = '';
+    return;
+  }
+  const p = punches[idx];
+  editorDiv.style.display = 'block';
+  editorDiv.innerHTML = `
+    <textarea id="punchEdit-${idx}" style="width:100%;min-height:200px;margin-top:10px;background:var(--bg2);color:var(--fg);border:1px solid var(--border);font-family:'IBM Plex Mono',monospace;font-size:13px;padding:10px;border-radius:4px;resize:vertical">${escHtml(JSON.stringify(p, null, 2))}</textarea>
+    <div style="display:flex;gap:8px;margin-top:8px">
+      <button onclick="savePunch(${idx})" style="padding:6px 16px;background:var(--y1);color:#000;border:none;font-family:inherit;font-weight:700;cursor:pointer;border-radius:3px">SAVE</button>
+      <button onclick="deletePunch(${idx})" style="padding:6px 16px;background:var(--deleted);color:#fff;border:none;font-family:inherit;font-weight:700;cursor:pointer;border-radius:3px">DELETE</button>
+      <button onclick="this.closest('.punch-editor').style.display='none'" style="padding:6px 16px;background:transparent;color:var(--muted);border:1px solid var(--border);font-family:inherit;cursor:pointer;border-radius:3px">CANCEL</button>
+    </div>
+  `;
+}
+
+async function savePunch(idx) {
+  const ta = document.getElementById('punchEdit-' + idx);
+  let obj;
+  try {
+    obj = JSON.parse(ta.value);
+  } catch(e) {
+    toast('Invalid JSON: ' + e.message, 'error');
+    return;
+  }
+  const r = await fetch('/api/punches/' + idx + '/update', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify(obj)
+  });
+  if (r.ok) {
+    toast('Punch #' + idx + ' saved', 'ok');
+    loadPunches();
+  } else {
+    toast('Save failed', 'error');
+  }
+}
+
+async function deletePunch(idx) {
+  if (!confirm('Delete punch #' + idx + ' permanently?')) return;
+  const r = await fetch('/api/punches/' + idx + '/delete', {method:'POST'});
+  if (r.ok) {
+    toast('Punch #' + idx + ' deleted', 'ok');
+    loadPunches();
+  } else {
+    toast('Delete failed', 'error');
+  }
+}
+
+async function resetAllFailed() {
+  if (!confirm('Reset all FAILED punches back to PENDING?')) return;
+  const r = await fetch('/api/punches/reset-all-failed', {method:'POST'});
+  const data = await r.json();
+  toast('Reset ' + (data.reset||0) + ' failed punches', 'ok');
+  loadPunches();
+}
+
+function togglePunchFilter(btn, filter) {
+  document.querySelectorAll('#panel-punches .phrase-filters .filter-btn[data-filter]').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  punchFilter = filter;
+  renderPunches();
+}
+
+function filterPunches() { renderPunches(); }
+
+function togglePunchSource(btn, source) {
+  document.querySelectorAll('#panel-punches .phrase-filters .filter-btn[data-source]').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  punchSource = source;
+  renderPunches();
+}
 
 // ── UTILS ──────────────────────────────────────────────
 function escHtml(s) {

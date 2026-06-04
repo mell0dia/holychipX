@@ -1,0 +1,16 @@
+{
+  "name": "Holy Chip #001 — Chip_0",
+  "symbol": "HCHIP",
+  "description": "Chip_0 — The Origin. The first character in the Holy Chip binary universe.",
+  "image": "0.png",
+  "attributes": [
+    { "trait_type": "Character", "value": "Chip_0" },
+    { "trait_type": "Binary", "value": "0" },
+    { "trait_type": "Series", "value": "Genesis" },
+    { "trait_type": "Rarity", "value": "Legendary" }
+  ],
+  "properties": {
+    "files": [{ "uri": "0.png", "type": "image/png" }],
+    "creators": [{ "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx", "share": 100 }]
+  }
+}

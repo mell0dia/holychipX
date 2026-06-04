@@ -1,0 +1,54 @@
+{
+  "name": "Holy Chip #189 - VISION",
+  "symbol": "HCHIP",
+  "description": "VISION - Holy Chip NFT Collection. Binary ID: 10111101",
+  "image": "189.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "VISION"
+    },
+    {
+      "trait_type": "Binary",
+      "value": "10111101"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "367"
+    },
+    {
+      "trait_type": "Background",
+      "value": "316"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "263"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "1"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "90"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "189.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}

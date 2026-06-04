@@ -1,0 +1,54 @@
+{
+  "name": "Holy Chip #246 - IRMAO-DO-PIRATA",
+  "symbol": "HCHIP",
+  "description": "IRMAO-DO-PIRATA - Holy Chip NFT Collection. Binary ID: 11110110",
+  "image": "246.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "IRMAO-DO-PIRATA"
+    },
+    {
+      "trait_type": "Binary",
+      "value": "11110110"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "124"
+    },
+    {
+      "trait_type": "Background",
+      "value": "322"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "255"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "107"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "1"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "246.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}

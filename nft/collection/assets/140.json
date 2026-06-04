@@ -1,0 +1,54 @@
+{
+  "name": "Holy Chip #140 - ESPIROCADO",
+  "symbol": "HCHIP",
+  "description": "ESPIROCADO - Holy Chip NFT Collection. Binary ID: 10001100",
+  "image": "140.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "ESPIROCADO"
+    },
+    {
+      "trait_type": "Binary",
+      "value": "10001100"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "358"
+    },
+    {
+      "trait_type": "Background",
+      "value": "64"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "128"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "1"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "266"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "140.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}

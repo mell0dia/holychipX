@@ -19,6 +19,7 @@ VIDEOS_FILE = os.path.join(BASE, "content/video-library.json")
 DM_FILE = os.path.join(BASE, "content/dm-tracker.json")
 INFLUENCER_DB = os.path.join(BASE, "content/influencers_db.json")
 INFLUENCERS_FILE = os.path.join(BASE, "content/influencers.json")
+PUNCHES_FILE_PRE = os.path.join(BASE, "content/pre-punches.json")
 STORIES_DIR = os.path.join(BASE, "stories")
 CHARS_DIR = os.path.join(BASE, "characters")
 DB_PATH = os.path.expanduser("~/.hermes/state.db")
@@ -464,6 +465,87 @@ def get_chars():
         result[chip_num] = [os.path.basename(i) for i in images]
     return jsonify(result)
 
+# ─── API: PUNCHES ────────────────────────────────────────────────
+@app.route("/api/punches")
+def get_punches():
+    punches = []
+    
+    # Load punches from pre-punches.json
+    if os.path.exists(PUNCHES_FILE_PRE):
+        with open(PUNCHES_FILE_PRE) as f:
+            data = json.load(f)
+        punches.extend(data.get("punches", []))
+    
+    # Load punches from influencers_db.json
+    if os.path.exists(INFLUENCER_DB):
+        with open(INFLUENCER_DB) as f:
+            db = json.load(f)
+        for tweet in db.get("tweets", []):
+            for phrase in tweet.get("phrases", []):
+                punches.append({
+                    "punch": phrase.get("phrase", ""),
+                    "speaker": "@" + tweet.get("handle", "unknown"),
+                    "source_title": tweet.get("tweet_url", ""),
+                    "status": phrase.get("status", "pending"),
+                    "date_posted": tweet.get("captured_at", ""),
+                    "weight": phrase.get("weight", "medium"),
+                })
+    
+    return jsonify({"punches": punches})
+
+@app.route("/api/punches/<int:idx>/delete", methods=["POST"])
+def delete_punch(idx):
+    with open(PUNCHES_FILE_PRE) as f:
+        data = json.load(f)
+    
+    punches = data.get("punches", [])
+    if idx < 0 or idx >= len(punches):
+        return jsonify({"error": "index out of range"}), 400
+    
+    del punches[idx]
+    data["punches"] = punches
+    
+    with open(PUNCHES_FILE_PRE, "w") as f:
+        json.dump(data, f, indent=2)
+    
+    return jsonify({"ok": True, "deleted": idx})
+
+@app.route("/api/punches/<int:idx>/update", methods=["POST"])
+def update_punch(idx):
+    with open(PUNCHES_FILE_PRE) as f:
+        data = json.load(f)
+    punches = data.get("punches", [])
+    if idx < 0 or idx >= len(punches):
+        return jsonify({"error": "index out of range"}), 400
+    body = request.get_json(force=True)
+    punches[idx] = body
+    data["punches"] = punches
+    with open(PUNCHES_FILE_PRE, "w") as f:
+        json.dump(data, f, indent=2)
+    return jsonify({"ok": True})
+
+@app.route("/api/punches/reset-all-failed", methods=["POST"])
+def reset_failed_punches():
+    with open(PUNCHES_FILE_PRE) as f:
+        data = json.load(f)
+    count = 0
+    for p in data.get("punches", []):
+        if p.get("status") == "failed":
+            p["status"] = "pending"
+            count += 1
+    with open(PUNCHES_FILE_PRE, "w") as f:
+        json.dump(data, f, indent=2)
+    return jsonify({"ok": True, "reset": count})
+
+import logging
+
+logging.basicConfig(
+    filename='server.py.log',
+    level=logging.INFO,
+    format='%(asctime)s %(levelname)s: %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+
 if __name__ == "__main__":
-    print("🤖 HOLY CHIP WAR ROOM — http://localhost:8888")
+    logging.info("🤖 HOLY CHIP WAR ROOM — http://localhost:8888")
     app.run(port=8888, debug=False)

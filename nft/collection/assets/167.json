@@ -1,0 +1,54 @@
+{
+  "name": "Holy Chip #167 - CONTADOR",
+  "symbol": "HCHIP",
+  "description": "CONTADOR - Holy Chip NFT Collection. Binary ID: 10100111",
+  "image": "167.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "CONTADOR"
+    },
+    {
+      "trait_type": "Binary",
+      "value": "10100111"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "40"
+    },
+    {
+      "trait_type": "Background",
+      "value": "5"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "1"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "5"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "296"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "167.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}

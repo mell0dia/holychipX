@@ -1,0 +1,54 @@
+{
+  "name": "Holy Chip #179 - JASON-MAD",
+  "symbol": "HCHIP",
+  "description": "JASON-MAD - Holy Chip NFT Collection. Binary ID: 10110011",
+  "image": "179.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "JASON-MAD"
+    },
+    {
+      "trait_type": "Binary",
+      "value": "10110011"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "19"
+    },
+    {
+      "trait_type": "Background",
+      "value": "144"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "300"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "1"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "79"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "179.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "4NDUZsbuGie7CsTLASP2vzcciz9gxGFSrs4W1SSck2wx",
+        "share": 75
+      },
+      {
+        "address": "6dXJtUWHVqqxCgaFdJb71AYW6TfE5fVxAEp7gpZXQjFz",
+        "share": 25
+      }
+    ]
+  }
+}
