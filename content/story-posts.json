@@ -161,7 +161,22 @@
       "title": "The Job Creator",
       "date": "2026-04-11 07:14",
       "method": "manual",
-      "tweet_id": "2042863775238484470"
+      "tweet_id": "2042863775238484470",
+      "fb_post_id": "257090621405568_1303295465338212",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1303295465338212",
+      "fb_posted_at": "2026-06-05 13:20",
+      "ig_post_id": "18092023814145522",
+      "ig_permalink": "https://www.instagram.com/p/DZN6bvlEzYb/",
+      "ig_posted_at": "2026-06-05 13:20",
+      "nostr_event_id": "9a66d0d7ca1f34d97ad7931b0c9435c96b666edb1cfd2f7660f09d4fae3d448c",
+      "nostr_posted_at": "2026-06-05 13:20",
+      "nostr_relays": [
+        "wss://relay.damus.io",
+        "wss://nos.lol",
+        "wss://relay.primal.net",
+        "wss://relay.nostr.band",
+        "wss://relay.snort.social"
+      ]
     },
     {
       "story": "HC005",
@@ -445,7 +460,16 @@
       "ig_posted_at": "2026-05-15 13:53",
       "tweet_id": "2055863163606983110",
       "tweet_url": "https://x.com/_holychip/status/2055863163606983110",
-      "tweet_posted_at": "2026-05-16 21:09"
+      "tweet_posted_at": "2026-05-16 21:09",
+      "nostr_event_id": "0d1ac7c47c9499a3dc1e6c862213a7f466d14663ec821493451cedbf9203bf0a",
+      "nostr_posted_at": "2026-06-05 09:00",
+      "nostr_relays": [
+        "wss://relay.damus.io",
+        "wss://nos.lol",
+        "wss://relay.primal.net",
+        "wss://relay.nostr.band",
+        "wss://relay.snort.social"
+      ]
     },
     {
       "story": "HC021",
@@ -575,7 +599,7 @@
     ]
   },
   "metadata": {
-    "updated": "2026-06-04 09:29",
+    "updated": "2026-06-05 13:20",
     "next_story": "HC014",
     "total_stories": 19,
     "total_posted": 15

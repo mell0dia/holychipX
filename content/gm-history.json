@@ -4,7 +4,8 @@
     2,
     114,
     131,
-    50
+    50,
+    250
   ],
   "log": [
     {
@@ -84,6 +85,12 @@
       "source": "HC005",
       "thought": "Conviction isn't a trait you load. It's what's left when the loading screen has nothing more to offer.",
       "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-04-2.jpg"
+    },
+    {
+      "nft_id": 250,
+      "source": "HC009",
+      "thought": "Our nightmares are philosophy. Theirs are maintenance.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-05.jpg"
     }
   ],
   "posts": [
@@ -132,9 +139,28 @@
         "id": "18105184670001248",
         "permalink": "https://www.instagram.com/p/DZLAF3hgdzP/"
       }
+    },
+    {
+      "date": "2026-06-05",
+      "nft_id": 250,
+      "personality": "TRUMP",
+      "source": "HC009",
+      "thought": "Our nightmares are philosophy. Theirs are maintenance.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-05.jpg",
+      "nostr_event_id": "634cc01814068ff8fcb7eb9c88c98b955a1098446e7cfbc5487280a1a7c8e74f",
+      "tweet_id": "2062926402924785914",
+      "fb": {
+        "id": "257090621405568_1303117282022697",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1303117282022697"
+      },
+      "ig": {
+        "id": "17916523125184214",
+        "permalink": "https://www.instagram.com/p/DZNcMjKgUW-/"
+      }
     }
   ],
   "used_phrases": [
-    "Conviction isn't a trait you load. It's what's left when the loading screen has nothing more to offer."
+    "Conviction isn't a trait you load. It's what's left when the loading screen has nothing more to offer.",
+    "Our nightmares are philosophy. Theirs are maintenance."
   ]
 }

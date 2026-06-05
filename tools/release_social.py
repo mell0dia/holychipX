@@ -21,7 +21,7 @@ TRACKER = HC / "content" / "story-posts.json"
 IMG_DIR = HC / "stories"
 SITE_WWW = "https://www.holy-chip.com"   # IG rejects redirects, needs canonical www host
 
-HASHTAGS = "#HolyChip #AI #AGI #DailyComic #Evolution #Humanity"
+HASHTAGS = "#HolyChip #AI #AGI #DailyComic"   # base; per-story theme tags appended via argv
 IG_LIMIT = 2200
 
 
@@ -100,6 +100,8 @@ def main():
     if len(sys.argv) < 2:
         sys.exit("usage: release_social.py HC###")
     sid = sys.argv[1]
+    if len(sys.argv) > 2:                       # optional per-story theme hashtags
+        globals()["HASHTAGS"] = HASHTAGS + " " + " ".join(sys.argv[2:])
     fb_cap, ig_cap, ig_comment = build(sid)
     img_local = str(IMG_DIR / f"{sid}.png")
     ig_url = f"{SITE_WWW}/stories/{sid}.square.jpg"
@@ -116,7 +118,7 @@ def main():
     entry = next((e for e in data["posted"] if e.get("story") == sid), None)
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     if entry is None:
-        entry = {"story": sid, "title": "The Evolution"}
+        entry = {"story": sid}
         data["posted"].append(entry)
     if fb_id:
         entry["fb_post_id"], entry["fb_permalink"], entry["fb_posted_at"] = fb_id, fb_link, now
