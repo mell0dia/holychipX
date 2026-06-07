@@ -26,7 +26,7 @@ HASHTAGS = "#HolyChip #AI #AGI #DailyComic"   # base; per-story theme tags appen
 
 
 def caption(sid):
-    return f"READ THE BLOG: holy-chip.com/origins/{sid}.html\n\n{HASHTAGS}"
+    return f"Read the full blog post (EN · ES · PT · FR): holy-chip.com/origins/{sid}\n{HASHTAGS}"
 
 
 def blog_title(sid):
