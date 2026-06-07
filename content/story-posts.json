@@ -622,7 +622,9 @@
         "wss://relay.nostr.band",
         "wss://relay.snort.social"
       ],
-      "title": "The President of Nagu"
+      "title": "The President of Nagu",
+      "tweet_id": "2063666454789280155",
+      "method": "manual"
     }
   ],
   "intro_thread": {
@@ -636,7 +638,7 @@
     ]
   },
   "metadata": {
-    "updated": "2026-06-07 09:39",
+    "updated": "2026-06-07 09:56",
     "next_story": "HC014",
     "total_stories": 19,
     "total_posted": 15
