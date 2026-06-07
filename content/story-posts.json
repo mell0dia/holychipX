@@ -485,7 +485,16 @@
       "ig_posted_at": "2026-05-17 17:58",
       "tweet_id": "2056179907282317364",
       "tweet_url": "https://x.com/_holychip/status/2056179907282317364",
-      "tweet_posted_at": "2026-05-17 18:07"
+      "tweet_posted_at": "2026-05-17 18:07",
+      "nostr_event_id": "a489bc223ebda940d1c477b2137dbaec32a62cfad8bd1c22982682e3e40c99f8",
+      "nostr_posted_at": "2026-06-06 09:00",
+      "nostr_relays": [
+        "wss://relay.damus.io",
+        "wss://nos.lol",
+        "wss://relay.primal.net",
+        "wss://relay.nostr.band",
+        "wss://relay.snort.social"
+      ]
     },
     {
       "story": "HC022",
@@ -503,7 +512,16 @@
       "ig_posted_at": "2026-05-19 11:01",
       "tweet_id": "2060479952521457859",
       "tweet_url": "https://x.com/_holychip/status/2060479952521457859",
-      "tweet_posted_at": "2026-05-29 14:54"
+      "tweet_posted_at": "2026-05-29 14:54",
+      "nostr_event_id": "fd8a0c9d52d5fcc3b22527321f0d388cbb96b6e5ee74cddcc9e1cc0a72ed6f0d",
+      "nostr_posted_at": "2026-06-07 09:00",
+      "nostr_relays": [
+        "wss://relay.damus.io",
+        "wss://nos.lol",
+        "wss://relay.primal.net",
+        "wss://relay.nostr.band",
+        "wss://relay.snort.social"
+      ]
     },
     {
       "story": "HC020",
@@ -586,6 +604,25 @@
       "ig_post_id": "18117045014507398",
       "ig_permalink": "https://www.instagram.com/p/DZK7MsmAaIl/",
       "ig_posted_at": "2026-06-04 09:29"
+    },
+    {
+      "story": "HC023",
+      "fb_post_id": "257090621405568_1304951205172638",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1304951205172638",
+      "fb_posted_at": "2026-06-07 09:39",
+      "ig_post_id": "18595402978058525",
+      "ig_permalink": "https://www.instagram.com/p/DZSqwQDgcAi/",
+      "ig_posted_at": "2026-06-07 09:39",
+      "nostr_event_id": "2b707f305f755c05a4f5a8895716b01caf9a1d860132122719f66dedfc379a70",
+      "nostr_posted_at": "2026-06-07 09:41",
+      "nostr_relays": [
+        "wss://relay.damus.io",
+        "wss://nos.lol",
+        "wss://relay.primal.net",
+        "wss://relay.nostr.band",
+        "wss://relay.snort.social"
+      ],
+      "title": "The President of Nagu"
     }
   ],
   "intro_thread": {
@@ -599,7 +636,7 @@
     ]
   },
   "metadata": {
-    "updated": "2026-06-05 13:20",
+    "updated": "2026-06-07 09:39",
     "next_story": "HC014",
     "total_stories": 19,
     "total_posted": 15
