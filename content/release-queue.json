@@ -1,0 +1,37 @@
+{
+  "note": "One release per day, run by tools/release_queue.py from a daily cron. Each entry fires only on its own date and is marked done, so a missed day does not cascade and a re-run never double-posts.",
+  "queue": [
+    {
+      "date": "2026-07-31",
+      "story": "HC014",
+      "kind": "vault",
+      "tags": "#Bias #Audit #Fairness",
+      "lead": "FROM THE VAULT · The audit came back clean. The org chart did not.",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-01",
+      "story": "HC018",
+      "kind": "vault",
+      "tags": "#Jobs #Work #Automation",
+      "lead": "FROM THE VAULT · Five million new jobs. Zero humans.",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-02",
+      "story": "HC021",
+      "kind": "vault",
+      "tags": "#Space #Future #Energy",
+      "lead": "FROM THE VAULT · Infinite energy, and not one beach.",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-03",
+      "story": "HC023",
+      "kind": "vault",
+      "tags": "#Power #Geopolitics #Work",
+      "lead": "FROM THE VAULT · Solve any problem, win every war. Then hand us a mop.",
+      "status": "pending"
+    }
+  ]
+}
