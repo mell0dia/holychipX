@@ -21,6 +21,34 @@ ENV_FILE = HOME / "claude-agent/.env"
 SITE_URL = "https://holy-chip.com"
 SITE_URL_WWW = "https://www.holy-chip.com"   # IG rejects redirects, needs canonical www host
 
+# House-promo phrases carry a PROMO-* tag instead of an HC### story id. Route
+# each to its real destination so the CTA is never a broken "/origins/" link.
+PROMO_CTA = {
+    "PROMO-BUILDER": ("BUILD YOUR OWN HOLY CHIP STRIP:", "holy-chip.com/builder.html"),
+    "PROMO-SHOP":    ("VISIT THE SHOP:",                 "holy-chip.com/store.html"),
+    "PROMO-BLOG":    ("READ THE BLOG:",                  "holy-chip.com/origins"),
+}
+
+
+def cta_lines(source_sid):
+    """Two-line CTA (label + arrow URL) routed by the phrase's source tag:
+    a PROMO-* type, an HC### story, or empty (blog hub)."""
+    if source_sid in PROMO_CTA:
+        label, url = PROMO_CTA[source_sid]
+        return f"{label}\n→ {url}"
+    if source_sid:
+        return f"READ THE FULL BLOG POST:\n→ holy-chip.com/origins/{source_sid}"
+    return "READ THE BLOG:\n→ holy-chip.com/origins"
+
+
+def cta_url(source_sid):
+    """Bare destination URL for the same routing (Nostr 'r' tag / link refs)."""
+    if source_sid in PROMO_CTA:
+        return "https://" + PROMO_CTA[source_sid][1]
+    if source_sid:
+        return f"{SITE_URL}/origins/{source_sid}"
+    return f"{SITE_URL}/origins"
+
 RELAYS = [
     "wss://relay.damus.io",
     "wss://nos.lol",
@@ -70,16 +98,30 @@ def push_to_ghpages(filename):
 
     import urllib.request
     url = f"{SITE_URL}/{rel}"
-    for i in range(20):
+    # holy-chip.com 301-redirects to www; check the canonical host directly.
+    # GitHub Pages builds can take several minutes (sometimes longer when queued),
+    # so wait up to ~15 min before giving up — the old 160s window was far too short
+    # and caused the card to deploy but never get posted.
+    check_url = f"{SITE_URL_WWW}/{rel}"
+    for i in range(90):
         try:
-            req = urllib.request.Request(url, method="HEAD")
+            req = urllib.request.Request(check_url, method="HEAD")
             resp = urllib.request.urlopen(req, timeout=10)
             if resp.status == 200:
                 return url
         except Exception:
             pass
-        time.sleep(8)
-    raise RuntimeError(f"{url} never went live")
+        # If it still hasn't deployed after ~5 min, the Pages build likely hit a
+        # transient error (happens occasionally). Force a fresh build with an empty
+        # commit and keep waiting — this self-heals without manual intervention.
+        if i == 30:
+            subprocess.run(["git", "-C", str(SITE), "commit", "--allow-empty",
+                            "-m", f"Retrigger Pages build for {filename}"],
+                           capture_output=True, text=True)
+            subprocess.run(["git", "-C", str(SITE), "push", "origin", "gh-pages"],
+                           capture_output=True, text=True)
+        time.sleep(10)
+    raise RuntimeError(f"{check_url} never went live")
 
 
 def with_cache_bust(url):
@@ -100,13 +142,12 @@ def post_to_nostr(image_url, info):
 
     phrase = info["thought"].strip()
     source_sid = info.get("source", "")
-    blog_url = f"{SITE_URL}/origins/{source_sid}" if source_sid else f"{SITE_URL}/origins"
+    blog_url = cta_url(source_sid)
     # Caption — link CTA first, then image URL (so it renders below the CTA),
     # then hashtags. The phrase stays in the bubble inside the image, no repeat.
     content = (
         f"gm 🟧\n\n"
-        f"READ THE FULL BLOG POST:\n"
-        f"→ holy-chip.com/origins/{source_sid}\n\n"
+        f"{cta_lines(source_sid)}\n\n"
         f"{image_url}\n\n"
         f"#HolyChip #Bitcoin #AI #gm"
     )
@@ -133,7 +174,7 @@ def post_to_x(local_path, info):
     so we ship a short caption rather than the full paragraph."""
     sid = info.get("source", "")
     caption = (
-        f"Read the full story → holy-chip.com/origins/{sid}\n\n"
+        f"{cta_lines(sid)}\n\n"
         f"#HolyChip #Bitcoin #AI"
     )
     r = subprocess.run([str(HC/"venv/nostr/bin/python"), str(TOOLS/"tweet_image.py"),
@@ -150,8 +191,7 @@ def post_to_x(local_path, info):
 def post_to_facebook(local_path, info):
     sid = info.get("source", "")
     caption = (
-        f"READ THE FULL BLOG POST:\n"
-        f"→ holy-chip.com/origins/{sid}\n\n"
+        f"{cta_lines(sid)}\n\n"
         f"#HolyChip #Bitcoin #AI"
     )
     r = subprocess.run(["python3", str(TOOLS/"post_facebook.py"),
@@ -169,8 +209,7 @@ def post_to_facebook(local_path, info):
 def post_to_instagram(image_url, info):
     sid = info.get("source", "")
     caption = (
-        f"READ THE FULL BLOG POST:\n"
-        f"→ holy-chip.com/origins/{sid}\n\n"
+        f"{cta_lines(sid)}\n\n"
         f"#HolyChip #Bitcoin #AI"
     )
     r = subprocess.run(["python3", str(TOOLS/"post_instagram.py"),
@@ -246,6 +285,40 @@ def main():
         data = {"used_ids": [], "log": []}
     data.setdefault("posts", []).append(log_entry)
     HISTORY.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
+
+    # Delete-on-use — ONLY now that at least one platform actually posted. This
+    # is the correct gate: on an offline day the script dies at push_to_ghpages
+    # before reaching here, so the phrase is preserved and reused next run.
+    posted_ok = bool(event_id) or bool(fb and fb.get("id")) or bool(ig and ig.get("id"))
+    if posted_ok:
+        remove_gm_phrase(info["thought"])
+        print("phrase consumed (removed from gm-phrases.md)")
+    else:
+        print("no platform confirmed a post — phrase NOT consumed")
+
+
+def remove_gm_phrase(text):
+    """Remove the used phrase line from gm-phrases.md and renumber survivors.
+    Plain text-file edit (no PIL), so it runs safely under post_gm's python."""
+    ph = HC / "content" / "gm-phrases.md"
+    if not ph.exists():
+        return
+    target = (text or "").strip()
+    result, removed, n = [], False, 0
+    for line in ph.read_text().splitlines():
+        m = re.match(r"^\s*\d+\.\s+(.*\S)\s*$", line)
+        if m:
+            body = m.group(1).strip()
+            core = re.sub(r"\s*\((?:HC\d+|PROMO-[A-Z]+)\)\s*$", "", body).strip()
+            if not removed and core == target:
+                removed = True
+                continue
+            n += 1
+            result.append(f"{n}. {body}")
+        else:
+            result.append(line)
+    if removed:
+        ph.write_text("\n".join(result) + "\n")
 
 
 if __name__ == "__main__":

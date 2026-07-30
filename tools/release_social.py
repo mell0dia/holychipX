@@ -11,7 +11,7 @@ No long text, no PT comment (changed 2026-06-07 per user).
 Posts FB then IG (IG uses the 1080x1350 square.jpg variant), records the post IDs
 to story-posts.json, auto-fills the story title from the blog footer if missing.
 """
-import json, re, subprocess, sys
+import json, os, re, subprocess, sys
 from datetime import datetime
 from pathlib import Path
 
@@ -26,7 +26,11 @@ HASHTAGS = "#HolyChip #AI #AGI #DailyComic"   # base; per-story theme tags appen
 
 
 def caption(sid):
-    return f"Read the full blog post (EN · ES · PT · FR): holy-chip.com/origins/{sid}\n{HASHTAGS}"
+    # Optional throwback/"From the Vault" lead line, set via env by
+    # throwback_release.sh. Empty for normal releases (no behavior change).
+    lead = os.environ.get("THROWBACK_LEAD", "").strip()
+    head = f"{lead}\n\n" if lead else ""
+    return f"{head}BLOG POST [EN,PT,FR,ES]: holy-chip.com/origins/{sid}.html\n\n{HASHTAGS}"
 
 
 def blog_title(sid):

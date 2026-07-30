@@ -19,3 +19,8 @@ logs/
 # Temporary files
 *.tmp
 *.swp
+
+# Voice-over working files. The chosen take is copied to voice/HC###.vo.*
+# and IS tracked; the raw studio takes are large intermediates (~20 MB for two
+# stories) and are not worth keeping in history.
+voice/studio/

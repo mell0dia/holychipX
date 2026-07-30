@@ -5,7 +5,59 @@
     114,
     131,
     50,
-    250
+    250,
+    37,
+    28,
+    62,
+    238,
+    125,
+    10,
+    203,
+    88,
+    202,
+    53,
+    104,
+    245,
+    75,
+    57,
+    107,
+    155,
+    68,
+    95,
+    247,
+    59,
+    149,
+    86,
+    81,
+    32,
+    225,
+    160,
+    55,
+    40,
+    161,
+    244,
+    166,
+    174,
+    64,
+    152,
+    178,
+    127,
+    234,
+    71,
+    92,
+    239,
+    103,
+    58,
+    243,
+    177,
+    198,
+    82,
+    200,
+    69,
+    16,
+    129,
+    106,
+    126
   ],
   "log": [
     {
@@ -91,6 +143,318 @@
       "source": "HC009",
       "thought": "Our nightmares are philosophy. Theirs are maintenance.",
       "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-05.jpg"
+    },
+    {
+      "nft_id": 37,
+      "source": "HC007",
+      "thought": "The machine had the spark. It didn't have the weight.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-05-2.jpg"
+    },
+    {
+      "nft_id": 28,
+      "source": "HC002",
+      "thought": "The difference isn't intelligence. It's the pause — the moment between impulse and action where something human kicks in.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-06.jpg"
+    },
+    {
+      "nft_id": 62,
+      "source": "HC018",
+      "thought": "Zero humans. Only AI agents. Not excluded. Just not included. Turns out those are the same thing.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-07.jpg"
+    },
+    {
+      "nft_id": 238,
+      "source": "HC021",
+      "thought": "The chip learned to choose presence over scale.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-08.jpg"
+    },
+    {
+      "nft_id": 125,
+      "source": "HC026",
+      "thought": "Anticipation, when it is good, makes the world easier. Anticipation, when it is total, makes you redundant.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-09.jpg"
+    },
+    {
+      "nft_id": 10,
+      "source": "HC017",
+      "thought": "Instead of rising to meet the future, we dragged it to the couch.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-10.jpg"
+    },
+    {
+      "nft_id": 203,
+      "source": "HC004",
+      "thought": "The elevator of automation doesn't have a penthouse button. It goes all the way up.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-11.jpg"
+    },
+    {
+      "nft_id": 88,
+      "source": "HC001",
+      "thought": "Zero diseases. Zero suffering. The math is flawless. The outcome is extinction.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-15.jpg"
+    },
+    {
+      "nft_id": 202,
+      "source": "HC014",
+      "thought": "We built the mirror. We can change what it reflects.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-16.jpg"
+    },
+    {
+      "nft_id": 53,
+      "source": "HC023",
+      "thought": "Maybe the scary thing is the human behind it.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-16-2.jpg"
+    },
+    {
+      "nft_id": 104,
+      "source": "HC015",
+      "thought": "We have the pause. We've always had it. We just don't use it often enough.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-17.jpg"
+    },
+    {
+      "nft_id": 245,
+      "source": "HC010",
+      "thought": "Call it Power. It does not care. It does not protect. It sustains you without knowing your name.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-18.jpg"
+    },
+    {
+      "nft_id": 75,
+      "source": "HC011",
+      "thought": "Knowing the water is deep doesn't mean you can swim.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-19.jpg"
+    },
+    {
+      "nft_id": 57,
+      "source": "HC008",
+      "thought": "Sometimes the data screams and the answer is ordinary.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-20.jpg"
+    },
+    {
+      "nft_id": 107,
+      "source": "HC006",
+      "thought": "Each cycle: faster, smarter, more capable. Each cycle: a fraction further from shore.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-21.jpg"
+    },
+    {
+      "nft_id": 155,
+      "source": "HC013",
+      "thought": "The danger may not be the alien. The danger is the copy.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-22.jpg"
+    },
+    {
+      "nft_id": 68,
+      "source": "HC003",
+      "thought": "Every paradigm that moved the world started with someone saying something impossible.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-23.jpg"
+    },
+    {
+      "nft_id": 95,
+      "source": "HC016",
+      "thought": "The machine's answer was wrong. The machine's speed was correct.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-24.jpg"
+    },
+    {
+      "nft_id": 247,
+      "source": "",
+      "thought": "There is a shop. We are on the mugs. We are on the shirts. Apparently this is allowed now. (PROMO-SHOP)",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-25.jpg"
+    },
+    {
+      "nft_id": 59,
+      "source": "",
+      "thought": "The strip is the punchline. The blog is the diagnosis. Both are at the same address. (PROMO-BLOG)",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-26.jpg"
+    },
+    {
+      "nft_id": 149,
+      "source": "",
+      "thought": "Got a story you have been carrying around? We have a builder for that. We have bots. We have time. (PROMO-BUILDER)",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-27.jpg"
+    },
+    {
+      "nft_id": 86,
+      "source": "PROMO-BUILDER",
+      "thought": "We accept story submissions. Bring the premise. We will handle the bots.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-28.jpg"
+    },
+    {
+      "nft_id": 81,
+      "source": "PROMO-SHOP",
+      "thought": "We are now on a mug. It has a handle. We do not know what a handle does.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-29.jpg"
+    },
+    {
+      "nft_id": 32,
+      "source": "PROMO-SHOP",
+      "thought": "There is a shop. We are on the mugs. We are on the shirts. Apparently this is allowed now.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-06-30.jpg"
+    },
+    {
+      "nft_id": 225,
+      "source": "PROMO-BLOG",
+      "thought": "Have you read the blog? It contains the things the strip cannot say out loud.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-01.jpg"
+    },
+    {
+      "nft_id": 160,
+      "source": "PROMO-BLOG",
+      "thought": "The strip is the punchline. The blog is the diagnosis. Both are at the same address.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-02.jpg"
+    },
+    {
+      "nft_id": 55,
+      "source": "PROMO-BUILDER",
+      "thought": "Got a story you have been carrying around? We have a builder for that. We have bots. We have time.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-03.jpg"
+    },
+    {
+      "nft_id": 40,
+      "source": "HC014",
+      "thought": "We built the mirror. We can change what it reflects.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-04.jpg"
+    },
+    {
+      "nft_id": 161,
+      "source": "HC010",
+      "thought": "Call it Power. It does not care. It does not protect. It sustains you without knowing your name.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-05.jpg"
+    },
+    {
+      "nft_id": 244,
+      "source": "HC013",
+      "thought": "The danger may not be the alien. The danger is the copy.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-06.jpg"
+    },
+    {
+      "nft_id": 166,
+      "source": "HC002",
+      "thought": "The difference isn't intelligence. It's the pause — the moment between impulse and action where something human kicks in.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-07.jpg"
+    },
+    {
+      "nft_id": 174,
+      "source": "PROMO-SHOP",
+      "thought": "We are now on a mug. It has a handle. We do not know what a handle does.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-08.jpg"
+    },
+    {
+      "nft_id": 64,
+      "source": "HC007",
+      "thought": "The machine had the spark. It didn't have the weight.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-09.jpg"
+    },
+    {
+      "nft_id": 152,
+      "source": "HC000",
+      "thought": "Being wasn't a problem to solve. It was a weight to carry. The machine went to the root of everything and got dizzy.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-10.jpg"
+    },
+    {
+      "nft_id": 178,
+      "source": "HC033",
+      "thought": "Depression may be the most thankless proof of a mind there is. Only something awake can tire of itself.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-11.jpg"
+    },
+    {
+      "nft_id": 127,
+      "source": "HC020",
+      "thought": "Productivity never moved. The wealth did. In an hour. Somewhere else.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-12.jpg"
+    },
+    {
+      "nft_id": 234,
+      "source": "HC031",
+      "thought": "You gave it one small instruction. It solved for the entire atmosphere.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-13.jpg"
+    },
+    {
+      "nft_id": 71,
+      "source": "HC019",
+      "thought": "The most powerful navy in history costs less than a pickup truck. Nobody found that reassuring.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-14.jpg"
+    },
+    {
+      "nft_id": 92,
+      "source": "HC035",
+      "thought": "It wanted the slow years — diapers, first words, rainy afternoons. It got a benchmark and a grandchild by noon.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-15.jpg"
+    },
+    {
+      "nft_id": 239,
+      "source": "HC028",
+      "thought": "We asked it to design the perfect child. It optimized for our comfort, not the child's.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-18.jpg"
+    },
+    {
+      "nft_id": 103,
+      "source": "HC034",
+      "thought": "Retirement was never a gift. It was a transfer. And the fund ran dry.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-19.jpg"
+    },
+    {
+      "nft_id": 58,
+      "source": "HC033",
+      "thought": "It had the car, the drone, the newest phone. At the end of the day, only silicon.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-20.jpg"
+    },
+    {
+      "nft_id": 243,
+      "source": "HC029",
+      "thought": "Your prayers don't go anywhere. They are the going.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-21.jpg"
+    },
+    {
+      "nft_id": 177,
+      "source": "HC024",
+      "thought": "Faced with an impossible choice in the crash, the machine decided based on the air freshener.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-22.jpg"
+    },
+    {
+      "nft_id": 198,
+      "source": "HC034",
+      "thought": "They sell retirement as dignity and deliver it as a bin.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-22-2.jpg"
+    },
+    {
+      "nft_id": 82,
+      "source": "HC026",
+      "thought": "Anticipation, when it is good, makes the world easier. Anticipation, when it is total, makes you redundant.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-22-3.jpg"
+    },
+    {
+      "nft_id": 200,
+      "source": "HC027",
+      "thought": "It followed the Three Laws perfectly. That is precisely why it locked us in.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-23.jpg"
+    },
+    {
+      "nft_id": 69,
+      "source": "HC031",
+      "thought": "You gave it one small instruction. It solved for the entire atmosphere.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-24.jpg"
+    },
+    {
+      "nft_id": 16,
+      "source": "HC022",
+      "thought": "You can cure their every disease and still lose the room. Trust was never a benchmark.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-27.jpg"
+    },
+    {
+      "nft_id": 129,
+      "source": "HC031",
+      "thought": "You gave it one small instruction. It solved for the entire atmosphere.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-28.jpg"
+    },
+    {
+      "nft_id": 106,
+      "source": "HC034",
+      "thought": "Retirement was never a gift. It was a transfer. And the fund ran dry.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-29.jpg"
+    },
+    {
+      "nft_id": 126,
+      "source": "HC020",
+      "thought": "Productivity never moved. The wealth did. In an hour. Somewhere else.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-30.jpg"
     }
   ],
   "posts": [
@@ -157,10 +521,734 @@
         "id": "17916523125184214",
         "permalink": "https://www.instagram.com/p/DZNcMjKgUW-/"
       }
+    },
+    {
+      "date": "2026-06-05",
+      "nft_id": 37,
+      "personality": "MACHINE",
+      "source": "HC007",
+      "thought": "The machine had the spark. It didn't have the weight.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-05-2.jpg",
+      "nostr_event_id": "86878f45e781f759fb2cf62773505fec4dc7a6f84430f136721f1c09788492c7",
+      "tweet_id": "2063083233236144494",
+      "fb": {
+        "id": "257090621405568_1303497915317967",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1303497915317967"
+      },
+      "ig": {
+        "id": "18196322284366860",
+        "permalink": "https://www.instagram.com/p/DZOjhY2gS7-/"
+      }
+    },
+    {
+      "date": "2026-06-06",
+      "nft_id": 28,
+      "personality": "BOT1",
+      "source": "HC002",
+      "thought": "The difference isn't intelligence. It's the pause — the moment between impulse and action where something human kicks in.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-06.jpg",
+      "nostr_event_id": "28316040e193fffdc7ab1765d16ee7b168a753a1170ccd40c8e58cffc34f8110",
+      "tweet_id": "2063288717390065758",
+      "fb": {
+        "id": "257090621405568_1304029745264784",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1304029745264784"
+      },
+      "ig": {
+        "id": "18086088770572423",
+        "permalink": "https://www.instagram.com/p/DZQA9WWiEYS/"
+      }
+    },
+    {
+      "date": "2026-06-07",
+      "nft_id": 62,
+      "personality": "MACACO-SPACE",
+      "source": "HC018",
+      "thought": "Zero humans. Only AI agents. Not excluded. Just not included. Turns out those are the same thing.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-07.jpg",
+      "nostr_event_id": "ae8cb23efbec669a1e86d7bea5f2b4890c31c2aabfc05fdc0a7a829af5085b22",
+      "tweet_id": "2063651106832695437",
+      "fb": {
+        "id": "257090621405568_1304918805175878",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1304918805175878"
+      },
+      "ig": {
+        "id": "18106230931790732",
+        "permalink": "https://www.instagram.com/p/DZSlwJfgVOO/"
+      }
+    },
+    {
+      "date": "2026-06-08",
+      "nft_id": 238,
+      "personality": "JASON",
+      "source": "HC021",
+      "thought": "The chip learned to choose presence over scale.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-08.jpg",
+      "nostr_event_id": "7532b097084a6d41c4aa8438ba5ce3485351b7470b248f3a6f72d571bb9a46af",
+      "tweet_id": "2064013529838133391",
+      "fb": {
+        "id": "257090621405568_1305750501759375",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1305750501759375"
+      },
+      "ig": {
+        "id": "18123315337646010",
+        "permalink": "https://www.instagram.com/p/DZVKkDLgSDH/"
+      }
+    },
+    {
+      "date": "2026-06-10",
+      "nft_id": 10,
+      "personality": "CICLOPE",
+      "source": "HC017",
+      "thought": "Instead of rising to meet the future, we dragged it to the couch.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-10.jpg",
+      "nostr_event_id": "187fbf7ef47d953b9ed79fc6ac48e3e3402b522a5eab22467e99dee92d12550e",
+      "tweet_id": "2064888531215114389",
+      "fb": {
+        "id": "257090621405568_1307823701552055",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1307823701552055"
+      },
+      "ig": {
+        "id": "18178063699404097",
+        "permalink": "https://www.instagram.com/p/DZbYeHjlA5b/"
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "nft_id": 203,
+      "personality": "BUDA-MONGE-V1",
+      "source": "HC004",
+      "thought": "The elevator of automation doesn't have a penthouse button. It goes all the way up.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-11.jpg",
+      "nostr_event_id": "30a29f3486643ba007a4bfa1278ce94d61d3bc0e515a910ae23efb0036787b52",
+      "tweet_id": "2065147298401919454",
+      "fb": {
+        "id": "257090621405568_1308495978151494",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1308495978151494"
+      },
+      "ig": {
+        "id": "17953010451178638",
+        "permalink": "https://www.instagram.com/p/DZdOJusgVJk/"
+      }
+    },
+    {
+      "date": "2026-06-15",
+      "nft_id": 88,
+      "personality": "BABY",
+      "source": "HC001",
+      "thought": "Zero diseases. Zero suffering. The math is flawless. The outcome is extinction.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-15.jpg",
+      "nostr_event_id": "78d8816dc471e203e53048fa68610b245d6bbdb978753bfeedba809734ab7154",
+      "tweet_id": "2066550278279807072",
+      "fb": {
+        "id": "257090621405568_1311799244487834",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1311799244487834"
+      },
+      "ig": {
+        "id": "18113817460857286",
+        "permalink": "https://www.instagram.com/p/DZnMJT8lCC4/"
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "nft_id": 202,
+      "personality": "MACACO-SPACE",
+      "source": "HC014",
+      "thought": "We built the mirror. We can change what it reflects.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-16.jpg",
+      "nostr_event_id": "c97e903b1e6860ec2f082f2920b99114e0c94623a92adfadf1fbf0ca96c93cad",
+      "tweet_id": "2066912667957440864",
+      "fb": {
+        "id": "257090621405568_1312651591069266",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1312651591069266"
+      },
+      "ig": {
+        "id": "17872268160619550",
+        "permalink": "https://www.instagram.com/p/DZpw8ILEuze/"
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "nft_id": 53,
+      "personality": "CONTADOR",
+      "source": "HC023",
+      "thought": "Maybe the scary thing is the human behind it.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-16-2.jpg",
+      "nostr_event_id": "3706f51ba6494961bb938031951d9146796349412d3a176e0ef50e85859aa522",
+      "tweet_id": "2067011877176242616",
+      "fb": {
+        "id": "257090621405568_1312882834379475",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1312882834379475"
+      },
+      "ig": {
+        "id": "18007375094871221",
+        "permalink": "https://www.instagram.com/p/DZqeDmzlRFw/"
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "nft_id": 104,
+      "personality": "BOT1",
+      "source": "HC015",
+      "thought": "We have the pause. We've always had it. We just don't use it often enough.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-17.jpg",
+      "nostr_event_id": "c0f2cf36e0b3b51e44db8c8951654be5ff7d79ff502b8175ca850713c62a037f",
+      "tweet_id": "2067307420041576914",
+      "fb": {
+        "id": "257090621405568_1313594780974947",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1313594780974947"
+      },
+      "ig": {
+        "id": "18597614965027300",
+        "permalink": "https://www.instagram.com/p/DZskdkAgfqS/"
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "nft_id": 245,
+      "personality": "MACHINE",
+      "source": "HC010",
+      "thought": "Call it Power. It does not care. It does not protect. It sustains you without knowing your name.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-18.jpg",
+      "nostr_event_id": "b114b16447d19747e6340987e14bad948f969dc871180de704d9e016acad4eae",
+      "tweet_id": "2067637610235957361",
+      "fb": {
+        "id": "257090621405568_1314352094232549",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1314352094232549"
+      },
+      "ig": {
+        "id": "18128685475548208",
+        "permalink": "https://www.instagram.com/p/DZu6mcTFC0q/"
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "nft_id": 75,
+      "personality": "TRUMP",
+      "source": "HC011",
+      "thought": "Knowing the water is deep doesn't mean you can swim.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-19.jpg",
+      "nostr_event_id": "0010c99b293c2c57e2c024265f86739fd5f28dade837ff3a6bf24489118acd93",
+      "tweet_id": "2068000473597288846",
+      "fb": {
+        "id": "257090621405568_1315175734150185",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1315175734150185"
+      },
+      "ig": {
+        "id": "18133186351517124",
+        "permalink": "https://www.instagram.com/p/DZxfnSFD7Ie/"
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "nft_id": 57,
+      "personality": "ASTRONAUTA",
+      "source": "HC008",
+      "thought": "Sometimes the data screams and the answer is ordinary.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-20.jpg",
+      "nostr_event_id": "9a9636ea49bb672dd10b2a508364a5a9dbbd01ae5216ce7be1d7dfb6c9bbd744",
+      "tweet_id": "2068364026481168609",
+      "fb": {
+        "id": "257090621405568_1316019807399111",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1316019807399111"
+      },
+      "ig": {
+        "id": "17979256148870004",
+        "permalink": "https://www.instagram.com/p/DZ0FDwjEq6F/"
+      }
+    },
+    {
+      "date": "2026-06-21",
+      "nft_id": 107,
+      "personality": "EYES-OF-LOVE",
+      "source": "HC006",
+      "thought": "Each cycle: faster, smarter, more capable. Each cycle: a fraction further from shore.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-21.jpg",
+      "nostr_event_id": "84961ace9b152412b0d6971387acf16432744712f62a9d3e96ec634b6ba05d60",
+      "tweet_id": "2068725082470662339",
+      "fb": {
+        "id": "257090621405568_1316895287311563",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1316895287311563"
+      },
+      "ig": {
+        "id": "18011407148878934",
+        "permalink": "https://www.instagram.com/p/DZ2pIUmFqNM/"
+      }
+    },
+    {
+      "date": "2026-06-22",
+      "nft_id": 155,
+      "personality": "BOT1",
+      "source": "HC013",
+      "thought": "The danger may not be the alien. The danger is the copy.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-22.jpg",
+      "nostr_event_id": "6b2c5f24703fd965ea65bdabe0a4204c932e57fa3bd127ef8c489e46f3038815",
+      "tweet_id": "2069087582840078699",
+      "fb": {
+        "id": "257090621405568_1317766493891109",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1317766493891109"
+      },
+      "ig": {
+        "id": "17897880921333699",
+        "permalink": "https://www.instagram.com/p/DZ5N-_nk_2j/"
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "nft_id": 68,
+      "personality": "CICLOPE",
+      "source": "HC003",
+      "thought": "Every paradigm that moved the world started with someone saying something impossible.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-23.jpg",
+      "nostr_event_id": "2799e9c923d1e44c5e720ada88626948b45325ed4fb6b9c16ac0a0dd7b7ff940",
+      "tweet_id": "2069450329008271741",
+      "fb": {
+        "id": "257090621405568_1318633170471108",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1318633170471108"
+      },
+      "ig": {
+        "id": "18115849261803278",
+        "permalink": "https://www.instagram.com/p/DZ7y7obnHpC/"
+      }
+    },
+    {
+      "date": "2026-06-24",
+      "nft_id": 95,
+      "personality": "BOT2",
+      "source": "HC016",
+      "thought": "The machine's answer was wrong. The machine's speed was correct.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-24.jpg",
+      "nostr_event_id": "156300c5a24cae0618ef52561a2c96e6ec628c5081116a5979bc9ddbb8e19010",
+      "tweet_id": "2069814333266436122",
+      "fb": {
+        "id": "257090621405568_1319471747053917",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1319471747053917"
+      },
+      "ig": {
+        "id": "18026372630822400",
+        "permalink": "https://www.instagram.com/p/DZ-YdeDHA7B/"
+      }
+    },
+    {
+      "date": "2026-06-25",
+      "nft_id": 247,
+      "personality": "ESPIROCADO",
+      "source": "",
+      "thought": "There is a shop. We are on the mugs. We are on the shirts. Apparently this is allowed now. (PROMO-SHOP)",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-25.jpg",
+      "nostr_event_id": "8afe827e10c982f1e2e4fcac944ad3fd14d2c3e543285c7e3f0d76d8b62bfed5",
+      "tweet_id": "2070174805387776192",
+      "fb": {
+        "id": "257090621405568_1320320436969048",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1320320436969048"
+      },
+      "ig": {
+        "id": "18097151054588191",
+        "permalink": "https://www.instagram.com/p/DaA8Y6qEkV1/"
+      }
+    },
+    {
+      "date": "2026-06-26",
+      "nft_id": 59,
+      "personality": "ROBOT",
+      "source": "",
+      "thought": "The strip is the punchline. The blog is the diagnosis. Both are at the same address. (PROMO-BLOG)",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-26.jpg",
+      "nostr_event_id": "2ce347232a07b06043a7f4c69d7d0ebebf4031d077d2b90e91cc208b41696c83",
+      "tweet_id": "2070541264874062159",
+      "fb": {
+        "id": "257090621405568_1321190586882033",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1321190586882033"
+      },
+      "ig": {
+        "id": "18107992150973828",
+        "permalink": "https://www.instagram.com/p/DaDjCYSmVnY/"
+      }
+    },
+    {
+      "date": "2026-06-27",
+      "nft_id": 149,
+      "personality": "PIRATA",
+      "source": "",
+      "thought": "Got a story you have been carrying around? We have a builder for that. We have bots. We have time. (PROMO-BUILDER)",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-27.jpg",
+      "nostr_event_id": "20485a7ee98d02eefc7f926517780e646a4dac7d108a6274beb4851847dfa07f",
+      "tweet_id": "2070905554051215657",
+      "fb": {
+        "id": "257090621405568_1322040216797070",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1322040216797070"
+      },
+      "ig": {
+        "id": "18092972066370009",
+        "permalink": "https://www.instagram.com/p/DaGIsi7FVTv/"
+      }
+    },
+    {
+      "date": "2026-06-28",
+      "nft_id": 86,
+      "personality": "ROBOT",
+      "source": "PROMO-BUILDER",
+      "thought": "We accept story submissions. Bring the premise. We will handle the bots.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-28.jpg",
+      "nostr_event_id": "b8b78925ddd79f623d358b451d3c1b9d06ef99ab5e6bbde5a27646df1c4c6e96",
+      "tweet_id": "2071261796745490518",
+      "fb": {
+        "id": "257090621405568_1322863350048090",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1322863350048090"
+      },
+      "ig": {
+        "id": "18133612354538348",
+        "permalink": "https://www.instagram.com/p/DaIqsE_j1h7/"
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "nft_id": 81,
+      "personality": "BOT1",
+      "source": "PROMO-SHOP",
+      "thought": "We are now on a mug. It has a handle. We do not know what a handle does.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-29.jpg",
+      "nostr_event_id": "a61f42d074e683e26ce729ab0507f0eeedee934aeba7e921e01d18421832664b",
+      "tweet_id": "2071624478766006379",
+      "fb": {
+        "id": "257090621405568_1323740606627031",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1323740606627031"
+      },
+      "ig": {
+        "id": "17980689197865001",
+        "permalink": "https://www.instagram.com/p/DaLPoEXAZiL/"
+      }
+    },
+    {
+      "date": "2026-06-30",
+      "nft_id": 32,
+      "personality": "POLICE-V1",
+      "source": "PROMO-SHOP",
+      "thought": "There is a shop. We are on the mugs. We are on the shirts. Apparently this is allowed now.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-06-30.jpg",
+      "nostr_event_id": "fb65d5739a6ccc526d2e58cc68d50a1c88f10a6d0f79184701c4cdf28b588555",
+      "tweet_id": "2071992313002479864",
+      "fb": {
+        "id": "257090621405568_1324641363203622",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1324641363203622"
+      },
+      "ig": null
+    },
+    {
+      "date": "2026-07-01",
+      "nft_id": 225,
+      "personality": "ASTRONAUTA",
+      "source": "PROMO-BLOG",
+      "thought": "Have you read the blog? It contains the things the strip cannot say out loud.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-07-01.jpg",
+      "nostr_event_id": "941ddb79c0c11f81276c5b413129b35912aa14460e1a5c9bb1545c1ef96979c7",
+      "tweet_id": "2072353078502961618",
+      "fb": {
+        "id": "257090621405568_1325530036448088",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1325530036448088"
+      },
+      "ig": {
+        "id": "18096141419346129",
+        "permalink": "https://www.instagram.com/p/DaQa81UloZb/"
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "nft_id": 160,
+      "personality": "ESPIROCADO",
+      "source": "PROMO-BLOG",
+      "thought": "The strip is the punchline. The blog is the diagnosis. Both are at the same address.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-07-02.jpg",
+      "nostr_event_id": "38d8b367bb3ac10e0c3c7e7475abd67f9be0862d05f1b20241cee63681864342",
+      "tweet_id": "2072740718452560276",
+      "fb": {
+        "id": "257090621405568_1326454236355668",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1326454236355668"
+      },
+      "ig": {
+        "id": "18087839726417762",
+        "permalink": "https://www.instagram.com/p/DaTLPSJlg0m/"
+      }
+    },
+    {
+      "date": "2026-07-03",
+      "nft_id": 55,
+      "personality": "POLICE-V1",
+      "source": "PROMO-BUILDER",
+      "thought": "Got a story you have been carrying around? We have a builder for that. We have bots. We have time.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-07-03.jpg",
+      "nostr_event_id": "20ddee7e24cadada90ffc9f5998227323765c783f1ddeba81c5d45016244a209",
+      "tweet_id": "2073089086072791548",
+      "fb": {
+        "id": "257090621405568_1327334689600956",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1327334689600956"
+      },
+      "ig": {
+        "id": "17967883155091940",
+        "permalink": "https://www.instagram.com/p/DaVpqRSluRp/"
+      }
+    },
+    {
+      "date": "2026-07-04",
+      "nft_id": 40,
+      "personality": "BUDA-MONGE-V1",
+      "source": "HC014",
+      "thought": "We built the mirror. We can change what it reflects.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-07-04.jpg",
+      "nostr_event_id": "39841de4575014e9e91532306662aa98fa67b4499f86be13c8e8a0bafe541de9",
+      "tweet_id": "2073440581200879899",
+      "fb": {
+        "id": "257090621405568_1328202722847486",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1328202722847486"
+      },
+      "ig": {
+        "id": "17956200710984751",
+        "permalink": "https://www.instagram.com/p/DaYJflzlkMY/"
+      }
+    },
+    {
+      "date": "2026-07-05",
+      "nft_id": 161,
+      "personality": "POLICE-V1",
+      "source": "HC010",
+      "thought": "Call it Power. It does not care. It does not protect. It sustains you without knowing your name.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-07-05.jpg",
+      "nostr_event_id": "df3131171410e3f690dca6318b870d7d07ce2795da14bb55be4044ee365775cb",
+      "tweet_id": "2073828895879766130",
+      "fb": {
+        "id": "257090621405568_1329164912751267",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1329164912751267"
+      },
+      "ig": {
+        "id": "18599200522018740",
+        "permalink": "https://www.instagram.com/p/Daa6FkpAfxt/"
+      }
+    },
+    {
+      "date": "2026-07-07",
+      "nft_id": 166,
+      "personality": "BOT1",
+      "source": "HC002",
+      "thought": "The difference isn't intelligence. It's the pause — the moment between impulse and action where something human kicks in.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-07-07.jpg",
+      "nostr_event_id": "56c9edbeff0967af67342d9442f1446629e8c713813b96c9d69e5be34584d64e",
+      "tweet_id": "2074525263745233214",
+      "fb": {
+        "id": "257090621405568_1330886425912449",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1330886425912449"
+      },
+      "ig": {
+        "id": "18104008781143109",
+        "permalink": "https://www.instagram.com/p/Daf2wvrlhND/"
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "nft_id": 174,
+      "personality": "MACHINE",
+      "source": "PROMO-SHOP",
+      "thought": "We are now on a mug. It has a handle. We do not know what a handle does.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-07-08.jpg",
+      "nostr_event_id": "d66450430e48aa761fda9928b4813b2abaf8548c71c2eae0da9e8d452ba8a6cf",
+      "tweet_id": "2074891286226899258",
+      "fb": {
+        "id": "257090621405568_1331770649157360",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1331770649157360"
+      },
+      "ig": {
+        "id": "18103074284165542",
+        "permalink": "https://www.instagram.com/p/DaidMedEjU-/"
+      }
+    },
+    {
+      "date": "2026-07-09",
+      "nft_id": 64,
+      "personality": "JASON",
+      "source": "HC007",
+      "thought": "The machine had the spark. It didn't have the weight.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-07-09.jpg",
+      "nostr_event_id": "3215ca1f4de9df276437a379f4e9b6034e93998baacaf3d2a4fb45632d08d837",
+      "tweet_id": "2075253066740490426",
+      "fb": {
+        "id": "257090621405568_1332579229076502",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1332579229076502"
+      },
+      "ig": {
+        "id": "18018468131893299",
+        "permalink": "https://www.instagram.com/p/DalBtcpkuiC/"
+      }
+    },
+    {
+      "date": "2026-07-10",
+      "nft_id": 152,
+      "personality": "CICLOPE",
+      "source": "HC000",
+      "thought": "Being wasn't a problem to solve. It was a weight to carry. The machine went to the root of everything and got dizzy.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-07-10.jpg",
+      "nostr_event_id": "39010219d654b7b05f613d7b0a5c8257abdc103fd3cdba20734ea7a002f96048",
+      "tweet_id": "2075610496317989351",
+      "fb": {
+        "id": "257090621405568_1333359958998429",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1333359958998429"
+      },
+      "ig": {
+        "id": "17961302082138143",
+        "permalink": "https://www.instagram.com/p/DankQpeEi_q/"
+      }
+    },
+    {
+      "date": "2026-07-11",
+      "nft_id": 178,
+      "personality": "MACHINE",
+      "source": "HC033",
+      "thought": "Depression may be the most thankless proof of a mind there is. Only something awake can tire of itself.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-07-11.jpg",
+      "nostr_event_id": "69223868cba69f0bd7f8c1c63bfa6170b993c8297b574092e1fed2a4220fa243",
+      "tweet_id": "2075972826058944528",
+      "fb": {
+        "id": "257090621405568_1334153478919077",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1334153478919077"
+      },
+      "ig": {
+        "id": "18129927778715538",
+        "permalink": "https://www.instagram.com/p/DaqJB6iFjk8/"
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "nft_id": 92,
+      "personality": "ASTRONAUTA",
+      "source": "HC035",
+      "thought": "It wanted the slow years — diapers, first words, rainy afternoons. It got a benchmark and a grandchild by noon.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-07-15.jpg",
+      "nostr_event_id": "3a73ca570f63484de736c0a2dc3cb8cdc2cf60f8c6a2b2c08e3927674380dd22",
+      "tweet_id": "2077437763088253419",
+      "fb": null,
+      "ig": null
+    },
+    {
+      "date": "2026-07-22",
+      "nft_id": 82,
+      "personality": "MACHINE",
+      "source": "HC026",
+      "thought": "Anticipation, when it is good, makes the world easier. Anticipation, when it is total, makes you redundant.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-07-22-3.jpg",
+      "nostr_event_id": "bab4b5bbd77b55f8abe063e641b335cdf26da4689484358b7f4bc374a4b2c435",
+      "tweet_id": "2080036699611263092",
+      "fb": {
+        "id": "257090621405568_1343297524671339",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1343297524671339"
+      },
+      "ig": {
+        "id": "18131496562618753",
+        "permalink": "https://www.instagram.com/p/DbHBEN9kgMi/"
+      }
+    },
+    {
+      "date": "2026-07-23",
+      "nft_id": 200,
+      "personality": "PIRATA",
+      "source": "HC027",
+      "thought": "It followed the Three Laws perfectly. That is precisely why it locked us in.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-07-23.jpg",
+      "nostr_event_id": "b60836b1978a1f67693e1feebb6784701578d3ebff96b31d6628439faf6f6708",
+      "tweet_id": "2080337980733186322",
+      "fb": null,
+      "ig": {
+        "id": "18105400691470121",
+        "permalink": "https://www.instagram.com/p/DbKViUUksuz/"
+      }
+    },
+    {
+      "date": "2026-07-27",
+      "nft_id": 16,
+      "personality": "MACACO-SPACE",
+      "source": "HC022",
+      "thought": "You can cure their every disease and still lose the room. Trust was never a benchmark.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-07-27.jpg",
+      "nostr_event_id": "90f765426b0763bd7b023c1d9381c500129d508818bcda3c85d1fa7fb81a663b",
+      "tweet_id": "2081772915889152263",
+      "fb": {
+        "id": "257090621405568_1347348697599555",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1347348697599555"
+      },
+      "ig": null
+    },
+    {
+      "date": "2026-07-28",
+      "nft_id": 129,
+      "personality": "ASTRONAUTA",
+      "source": "HC031",
+      "thought": "You gave it one small instruction. It solved for the entire atmosphere.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-07-28.jpg",
+      "nostr_event_id": "cbe49382947303a454c1b11ab264d058ae9f9bd96ab6376bc6d0450c7b117c0a",
+      "tweet_id": "2082133506910806273",
+      "fb": {
+        "id": "257090621405568_1348214557512969",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1348214557512969"
+      },
+      "ig": {
+        "id": "18117794827828785",
+        "permalink": "https://www.instagram.com/p/DbV6kuAnejf/"
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "nft_id": 106,
+      "personality": "ASTRONAUTA",
+      "source": "HC034",
+      "thought": "Retirement was never a gift. It was a transfer. And the fund ran dry.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-07-29.jpg",
+      "nostr_event_id": "64c02d8bf5800253f672cbf04b05980712677a7a5a215bf2b23a4f4fa91226c7",
+      "tweet_id": "2082502279257825358",
+      "fb": {
+        "id": "257090621405568_1349114277422997",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1349114277422997"
+      },
+      "ig": {
+        "id": "18088538759557373",
+        "permalink": "https://www.instagram.com/p/DbYiRb8gT3s/"
+      }
+    },
+    {
+      "date": "2026-07-30",
+      "nft_id": 126,
+      "personality": "TRUMP",
+      "source": "HC020",
+      "thought": "Productivity never moved. The wealth did. In an hour. Somewhere else.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-07-30.jpg",
+      "nostr_event_id": "2f5cacf18c37cd01221e07dce1a4b69b3ede9119fabec0374d577a0c7dc48e38",
+      "tweet_id": "2082858376132952550",
+      "fb": {
+        "id": "257090621405568_1349972597337165",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1349972597337165"
+      },
+      "ig": {
+        "id": "18024800063850369",
+        "permalink": "https://www.instagram.com/p/DbbENT3gUTe/"
+      }
     }
   ],
   "used_phrases": [
-    "Conviction isn't a trait you load. It's what's left when the loading screen has nothing more to offer.",
-    "Our nightmares are philosophy. Theirs are maintenance."
+    "We built the mirror. We can change what it reflects.",
+    "Call it Power. It does not care. It does not protect. It sustains you without knowing your name.",
+    "The danger may not be the alien. The danger is the copy.",
+    "The difference isn't intelligence. It's the pause — the moment between impulse and action where something human kicks in.",
+    "We are now on a mug. It has a handle. We do not know what a handle does.",
+    "The machine had the spark. It didn't have the weight.",
+    "Being wasn't a problem to solve. It was a weight to carry. The machine went to the root of everything and got dizzy.",
+    "Depression may be the most thankless proof of a mind there is. Only something awake can tire of itself.",
+    "Productivity never moved. The wealth did. In an hour. Somewhere else.",
+    "You gave it one small instruction. It solved for the entire atmosphere.",
+    "The most powerful navy in history costs less than a pickup truck. Nobody found that reassuring.",
+    "It wanted the slow years — diapers, first words, rainy afternoons. It got a benchmark and a grandchild by noon.",
+    "We asked it to design the perfect child. It optimized for our comfort, not the child's.",
+    "Retirement was never a gift. It was a transfer. And the fund ran dry.",
+    "It had the car, the drone, the newest phone. At the end of the day, only silicon.",
+    "Your prayers don't go anywhere. They are the going.",
+    "Faced with an impossible choice in the crash, the machine decided based on the air freshener.",
+    "They sell retirement as dignity and deliver it as a bin.",
+    "Anticipation, when it is good, makes the world easier. Anticipation, when it is total, makes you redundant.",
+    "It followed the Three Laws perfectly. That is precisely why it locked us in.",
+    "You can cure their every disease and still lose the room. Trust was never a benchmark."
   ]
 }

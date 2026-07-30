@@ -71,8 +71,10 @@ def blog_paragraphs(sid):
 
 def load_phrases():
     """Approved GM phrases from content/gm-phrases.md.
-    Each numbered line is 'N. <phrase> (HC0xx)'. The (HC0xx) tag is the source
-    story (drives the 'read the full blog post' CTA). Returns [(phrase, sid)]."""
+    Each numbered line is 'N. <phrase> (TAG)' where TAG is either a source story
+    (HC0xx) or a house-promo type (PROMO-BLOG / PROMO-BUILDER / PROMO-SHOP). The
+    tag drives the post's CTA and is STRIPPED from the rendered phrase text — it
+    must never appear on the card. Returns [(phrase, sid)]."""
     out = []
     if not PHRASES_FILE.exists():
         return out
@@ -82,7 +84,7 @@ def load_phrases():
             continue
         text = m.group(1).strip()
         sid = ""
-        sm = re.search(r"\s*\((HC\d+)\)\s*$", text)
+        sm = re.search(r"\s*\((HC\d+|PROMO-[A-Z]+)\)\s*$", text)
         if sm:
             sid = sm.group(1)
             text = text[:sm.start()].strip()
@@ -91,8 +93,9 @@ def load_phrases():
 
 
 def pick_thought(sid=None):
-    """Pick an approved phrase, no repeats until the whole list cycles. Falls
-    back to a random blog paragraph only if the approved list is missing/empty."""
+    """Pick an approved phrase at random. Phrases are DELETED from gm-phrases.md
+    on use (see remove_phrase), so the file only ever holds UNUSED phrases and
+    nothing repeats. Falls back to a blog paragraph only if the list runs empty."""
     phrases = load_phrases()
     if not phrases:
         candidates = [sid] if sid else released_story_ids()
@@ -106,15 +109,7 @@ def pick_thought(sid=None):
         filtered = [p for p in phrases if p[1] == sid]
         if filtered:
             phrases = filtered
-    data = json.loads(HISTORY.read_text()) if HISTORY.exists() else {}
-    used = set(data.get("used_phrases", []))
-    unused = [(t, s) for (t, s) in phrases if t not in used]
-    if not unused:                            # cycled through all — reset rotation
-        unused = phrases
-        if HISTORY.exists():
-            data["used_phrases"] = []
-            HISTORY.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
-    return random.choice(unused)
+    return random.choice(phrases)
 
 
 def load_nft(nft_id):
@@ -141,6 +136,30 @@ def pick_nft():
     return load_nft(chosen), chosen
 
 
+def remove_phrase(text):
+    """Delete-on-use: remove the approved-phrase line matching `text` from
+    gm-phrases.md and renumber the survivors. No-op if not found (e.g. a
+    blog-paragraph fallback), so it's safe to call after every post."""
+    if not PHRASES_FILE.exists():
+        return
+    target = (text or "").strip()
+    result, removed, n = [], False, 0
+    for line in PHRASES_FILE.read_text().splitlines():
+        m = re.match(r"^\s*\d+\.\s+(.*\S)\s*$", line)
+        if m:
+            body = m.group(1).strip()
+            core = re.sub(r"\s*\((?:HC\d+|PROMO-[A-Z]+)\)\s*$", "", body).strip()
+            if not removed and core == target:
+                removed = True
+                continue                      # drop the used phrase
+            n += 1
+            result.append(f"{n}. {body}")     # renumber survivors
+        else:
+            result.append(line)
+    if removed:
+        PHRASES_FILE.write_text("\n".join(result) + "\n")
+
+
 def record_use(nft_id, thought, source_sid, out_path):
     data = {"used_ids": [], "log": []}
     if HISTORY.exists():
@@ -155,6 +174,10 @@ def record_use(nft_id, thought, source_sid, out_path):
     data["log"].append({"nft_id": nft_id, "source": source_sid,
                         "thought": thought, "out": str(out_path)})
     HISTORY.write_text(json.dumps(data, indent=2, ensure_ascii=False)+"\n")
+    # NOTE: phrase deletion moved OUT of generation. It now happens in post_gm.py
+    # ONLY after a successful social post — otherwise an offline/failed run (git
+    # push dies before posting) would silently burn a phrase that never posted.
+    # remove_phrase() is still defined above and is called by post_gm.py.
 
 
 def wrap_to_width(text, font, draw, max_w):

@@ -1,0 +1,66 @@
+{
+ "lead": 3000,
+ "pace": 1,
+ "cues": [
+  {
+   "i": 0,
+   "ms": 550,
+   "kind": "frame"
+  },
+  {
+   "i": 1,
+   "ms": 2450,
+   "kind": "header"
+  },
+  {
+   "i": 2,
+   "ms": 2380,
+   "kind": "bubble"
+  },
+  {
+   "i": 3,
+   "ms": 1516,
+   "kind": "bubble"
+  },
+  {
+   "i": 4,
+   "ms": 2428,
+   "kind": "bubble"
+  },
+  {
+   "i": 5,
+   "ms": 2188,
+   "kind": "bubble"
+  },
+  {
+   "i": 6,
+   "ms": 2092,
+   "kind": "bubble"
+  },
+  {
+   "i": 7,
+   "ms": 2428,
+   "kind": "bubble"
+  },
+  {
+   "i": 8,
+   "ms": 4236,
+   "kind": "bubble"
+  },
+  {
+   "i": 9,
+   "ms": 2860,
+   "kind": "bubble"
+  },
+  {
+   "i": 10,
+   "ms": 1276,
+   "kind": "bubble"
+  },
+  {
+   "i": 11,
+   "ms": 2500,
+   "kind": "footer"
+  }
+ ]
+}
