@@ -819,7 +819,14 @@
       "ig_permalink": "https://www.instagram.com/p/DZ5XTFQARkx/",
       "ig_posted_at": "2026-06-22 10:20",
       "tweet_id": "2069108709696086167",
-      "tease_tweet_id": "2069108709696086167"
+      "tease_tweet_id": "2069108709696086167",
+      "reel_superseded_all": [],
+      "reel_fb_video_id": "1012663688401883",
+      "reel_fb_permalink": "https://www.facebook.com/reel/1012663688401883",
+      "reel_ig_post_id": "18608643874029264",
+      "reel_ig_permalink": "https://www.instagram.com/reel/Dbb97QhlXP5/",
+      "reel_posted_at": "2026-07-30 17:23",
+      "reel_note": "build-up reel: centred title card, voice-over, Meta Sound Collection \"Robotz\""
     },
     {
       "story": "HC031",
@@ -946,19 +953,20 @@
         "wss://relay.snort.social"
       ],
       "tweet_id": "2076799368980746302",
-      "reel_fb_video_id": "1571109668038848",
-      "reel_fb_permalink": "https://www.facebook.com/reel/1571109668038848",
-      "reel_ig_post_id": "18127166326578329",
-      "reel_ig_permalink": "https://www.instagram.com/reel/Dbb7gCElBQV/",
-      "reel_posted_at": "2026-07-30 17:02",
-      "reel_note": "build-up reel with title card, voice-over + Meta Sound Collection \"Robotz\"",
-      "reel_superseded": {
-        "fb_video_id": "965543609871285",
-        "ig_post_id": "18133611109612728",
-        "fb_permalink": "https://www.facebook.com/reel/965543609871285",
-        "ig_permalink": "https://www.instagram.com/reel/Dbb4EckCFXJ/",
-        "why": "opened on a blank page; replaced by the version with the title card. DELETE MANUALLY - Meta cannot delete an IG post or swap a Reel cover via API."
-      }
+      "reel_fb_video_id": "1782914706081068",
+      "reel_fb_permalink": "https://www.facebook.com/reel/1782914706081068",
+      "reel_ig_post_id": "18118894228894705",
+      "reel_ig_permalink": "https://www.instagram.com/reel/Dbb9v_VCMUp/",
+      "reel_posted_at": "2026-07-30 17:23",
+      "reel_note": "build-up reel: centred title card, voice-over, Meta Sound Collection \"Robotz\"",
+      "reel_superseded_all": [
+        {
+          "fb": "https://www.facebook.com/reel/1571109668038848",
+          "ig": "https://www.instagram.com/reel/Dbb7gCElBQV/",
+          "why": "older cover layout",
+          "at": "2026-07-30 17:02"
+        }
+      ]
     }
   ],
   "intro_thread": {
@@ -972,7 +980,7 @@
     ]
   },
   "metadata": {
-    "updated": "2026-07-30 17:02",
+    "updated": "2026-07-30 17:23",
     "next_story": "HC014",
     "total_stories": 19,
     "total_posted": 35
