@@ -14,9 +14,15 @@ Inputs
 Output
     videos/HC###.reel.mp4      1080x1920, voice + ducked music, ready to post
 
-ALIGNMENT. The studio records a lead-in (blanked to silence) before the
-animation's first frame, so the voice file's t=lead corresponds to video t=0.
-That offset is read from the .vo.json and trimmed here - do not assume 0.
+ALIGNMENT. Two offsets, both derived, never assumed:
+
+  - the studio records a lead-in (blanked to silence) before the animation's
+    first frame, so the voice file's t=lead is the animation's t=0. Read from
+    the .vo.json and trimmed here.
+  - the Reel now opens on a title card, so the animation no longer starts at
+    video t=0. The card's length is (video duration - the animation length the
+    take was performed to), and the voice is delayed by exactly that. Get this
+    wrong and every line lands early.
 
 MUSIC LEVEL. Flat by default. Sidechain ducking is available via --duck, but it
 is NOT the default: pulling the bed down under each line means it swells back up
@@ -97,15 +103,33 @@ def main():
         except Exception:
             pass
 
+    # the take was performed to the animation alone; anything the video has
+    # beyond that is the title card in front of it
+    anim = 0.0
+    if os.path.exists(meta_p):
+        try:
+            with open(meta_p) as fh:
+                anim = sum(c["ms"] for c in json.load(fh).get("cues", [])) / 1000.0
+        except Exception:
+            anim = 0.0
+    cover = max(0.0, round(vdur - anim, 3)) if anim else 0.0
+
     print(f"{story}")
     print(f"  video  {vdur:6.2f}s   {video}")
+    if cover:
+        print(f"  cover  {cover:6.2f}s   title card in front - voice delayed to match")
     print(f"  voice  {float(probe(voice)):6.2f}s   {voice}   (lead {lead:.2f}s trimmed)")
 
     ins = ["-i", video, "-i", voice]
     # voice: drop the lead so t=0 lines up with the first frame, then fit the video
+    delay_ms = int(round(cover * 1000))
     fc = [f"[1:a]atrim=start={lead:.3f},asetpts=N/SR/TB,"
           f"aresample={SR},aformat=sample_fmts=fltp:channel_layouts=stereo,"
-          f"apad,atrim=0:{vdur:.3f},asetpts=N/SR/TB[vo]"]
+          # reset the timestamps AFTER the delay: adelay shifts PTS, and the
+          # atrim window below is measured on PTS, so without this it swallows
+          # exactly the delay and the track comes up short by the cover length
+          + (f"adelay={delay_ms}|{delay_ms},asetpts=N/SR/TB," if delay_ms else "")
+          + f"apad,atrim=0:{vdur:.3f},asetpts=N/SR/TB[vo]"]
 
     if a.music:
         music = os.path.expanduser(a.music)

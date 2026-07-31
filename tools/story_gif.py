@@ -87,6 +87,10 @@ BOT_FILL_LO = 0.15         # ...and is line art, not a solid block or a thin
 BOT_FILL_HI = 0.50         #    outline (see is_bot for the measured spread)
 BOT_MAX_ASPECT = 1.8       # a bot is squarish; a bubble is wide
 
+COVER_TOP_PAD = 180        # black above the .pre teaser; the last panel sits
+                           # flush on the bottom edge, so it needs no pad
+COVER_MS = 1400            # how long the cover card is held
+
 EMPTY_MS = 550
 HEADER_MS = 2450   # the title needs a real beat to read
 FOOTER_MS = 2600
@@ -120,6 +124,9 @@ class Element:
         self.label = label
         self.ms = 0
         self.punch = False        # the punchline: last bubble of panel 2
+        self.bubble_runs = []     # the bubble alone, without the bot art that
+                                  # gets revealed alongside it (the cover card
+                                  # needs to crop the bubble on its own)
         self.texts = []           # what is said on this frame, in order
         self.speakers = []        # "Left"/"Right" per text - a bubble can
                                   # carry several scripted lines
@@ -465,6 +472,7 @@ def segment(im, script, strict=False, warn=print, pace=1.0):
             if who:
                 label += "  (+%s bot)" % "+".join(who)
             el = Element("bubble", runs, label or f"bubble {j + 1}")
+            el.bubble_runs = list(bub[j])
             el.ms = read_ms(" ".join(texts), pace)
             # kept for the voice tools: what is said here, and by whom
             el.texts = [d.get("text", "") for d in group]
@@ -615,6 +623,60 @@ def save_gif(frames, durs, out, colors=16):
               loop=0, optimize=True, disposal=1)
 
 
+def build_cover(im, seq, story=None, nscenes=3, size=None):
+    """Title card for the first frame - which is what FB and IG use as the cover.
+
+    Two real assets, nothing drawn fresh: the .pre teaser at the top (its header
+    carries the #HC number, the place and the year, and it holds the big chip
+    face), and the WHOLE of the last panel flush along the bottom, bringing its
+    own white background, the reacting bot and the HOLY CHIP bubble. Setup on
+    top, payoff at the foot, black between them doing the separating.
+
+    `size` builds the card at that exact canvas - pass the Reel's 1080x1920 so
+    it fills the frame edge to edge instead of being letterboxed like the comic
+    pages. Omit it for the GIF, which wants the page's own geometry.
+
+    Without a cover the Reel opens on the blank page, and that is what Meta
+    grabs for the thumbnail.
+    """
+    W, H = im.size
+    CW, CH = size or (W, H)
+    page = Image.new("RGB", (CW, CH), (0, 0, 0))
+
+    pre = None
+    if story:
+        pp = os.path.join(STORIES, story + ".pre.png")
+        if os.path.exists(pp):
+            try:
+                pre = Image.open(pp).convert("RGB")
+            except Exception:
+                pre = None
+
+    # the last panel, full width, exactly as it sits on the page
+    panel = None
+    try:
+        rows = make_runs(im.convert("L").load(), W, H)
+        _, panels, _ = page_structure(rows, W, H, nscenes)
+        y0, y1 = panels[-1]
+        panel = im.crop((0, y0, W, y1 + 1))
+    except Exception:
+        bub = [e for e in seq if e.kind == "bubble"]
+        if bub:
+            b = bub[-1]
+            y0 = min(r[0] for r in b.runs)
+            y1 = max(r[0] for r in b.runs)
+            panel = im.crop((0, max(0, y0 - 12), W, min(H, y1 + 13)))
+
+    if pre is not None:
+        ph = round(pre.height * CW / pre.width)
+        page.paste(pre.resize((CW, ph), Image.LANCZOS), (0, COVER_TOP_PAD))
+    if panel is not None:
+        gh = round(panel.height * CW / panel.width)
+        page.paste(panel.resize((CW, gh), Image.LANCZOS), (0, CH - gh))
+
+    return page
+
+
 def reel_canvas(f):
     """Fit a frame onto the 1080x1920 Reel canvas."""
     h = round(f.height * REEL_W / f.width)
@@ -640,7 +702,9 @@ def save_mp4(frames, durs, out, reel=False, fps=REEL_FPS):
         n = 0
         for i, (f, ms) in enumerate(zip(frames, durs)):
             if reel:
-                f = reel_canvas(f)
+                # the cover card is already built at the reel canvas; fitting it
+                # again would letterbox it a second time
+                f = f if f.size == (REEL_W, REEL_H) else reel_canvas(f)
             else:
                 w, h = f.size
                 f = f.convert("RGB").crop((0, 0, w - w % 2, h - h % 2))
@@ -709,6 +773,8 @@ def main():
     ap.add_argument("--colors", type=int, default=16)
     ap.add_argument("--mp4", action="store_true",
                     help="also write an mp4 at the GIF's size")
+    ap.add_argument("--no-cover", action="store_true",
+                    help="skip the title card and open on the blank page")
     ap.add_argument("--reel", action="store_true",
                     help="write a 1080x1920 Reel mp4 for FB/IG into videos/")
     ap.add_argument("--nudge", action="append", default=[], metavar="KEY=MS",
@@ -756,6 +822,24 @@ def main():
             print(f"  {dg:5d}ms  {el.kind:7s} {el.label}{mark}")
 
     frames = build_frames(im, seq, a.width or im.size[0])
+
+    if not a.no_cover:
+        # frame 0 is what Meta uses as the thumbnail, so it must not be blank
+        gif_cover = build_cover(im, seq, hc, len(script["scenes"]))
+        gif_cover = gif_cover.resize(frames[0].size, Image.LANCZOS).convert("L")
+        reel_cover = build_cover(im, seq, hc, len(script["scenes"]),
+                                 size=(REEL_W, REEL_H)).convert("L")
+        frames = [gif_cover] + frames
+        reel_frames = [reel_cover] + frames[1:]
+        durs = [COVER_MS] + durs
+        reel_durs = [COVER_MS] + reel_durs
+        os.makedirs(ANIMDIR, exist_ok=True)
+        cov = os.path.join(ANIMDIR, hc + ".cover.jpg")
+        build_cover(im, seq, hc, len(script["scenes"]),
+                    size=(REEL_W, REEL_H)).save(cov, quality=92)
+        print(f"  cover -> {cov}")
+    else:
+        reel_frames = frames
     os.makedirs(ANIMDIR, exist_ok=True)
     out = a.out or os.path.join(ANIMDIR, hc + ".gif")
     save_gif(frames, durs, out, a.colors)
@@ -770,7 +854,7 @@ def main():
     if a.reel:
         os.makedirs(VIDEODIR, exist_ok=True)
         reel = os.path.join(VIDEODIR, hc + ".buildup.mp4")
-        save_mp4(frames, reel_durs, reel, reel=True)
+        save_mp4(reel_frames, reel_durs, reel, reel=True)
         print(f"-> {reel}  ({os.path.getsize(reel) / 1024:.0f} KB, "
               f"{REEL_W}x{REEL_H} @{REEL_FPS}fps + silent audio)")
         print(f"   public: https://holy-chip.com/videos/{hc}.buildup.mp4")
