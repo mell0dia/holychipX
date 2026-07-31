@@ -57,7 +57,8 @@
     16,
     129,
     106,
-    126
+    126,
+    159
   ],
   "log": [
     {
@@ -455,6 +456,12 @@
       "source": "HC020",
       "thought": "Productivity never moved. The wealth did. In an hour. Somewhere else.",
       "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-30.jpg"
+    },
+    {
+      "nft_id": 159,
+      "source": "HC028",
+      "thought": "We asked it to design the perfect child. It optimized for our comfort, not the child's.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-31.jpg"
     }
   ],
   "posts": [
@@ -1225,6 +1232,24 @@
       "ig": {
         "id": "18024800063850369",
         "permalink": "https://www.instagram.com/p/DbbENT3gUTe/"
+      }
+    },
+    {
+      "date": "2026-07-31",
+      "nft_id": 159,
+      "personality": "ESPIROCADO",
+      "source": "HC028",
+      "thought": "We asked it to design the perfect child. It optimized for our comfort, not the child's.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-07-31.jpg",
+      "nostr_event_id": "66278d602471d0a8fb402bdcb799b5ce558ad4ca077da9c920c0bb1468484c40",
+      "tweet_id": "2083220619907535090",
+      "fb": {
+        "id": "257090621405568_1350863613914730",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1350863613914730"
+      },
+      "ig": {
+        "id": "17876952156685623",
+        "permalink": "https://www.instagram.com/p/Dbdo74dAX2V/"
       }
     }
   ],
