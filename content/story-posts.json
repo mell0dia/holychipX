@@ -946,12 +946,19 @@
         "wss://relay.snort.social"
       ],
       "tweet_id": "2076799368980746302",
-      "reel_fb_video_id": "965543609871285",
-      "reel_fb_permalink": "https://www.facebook.com/reel/965543609871285",
-      "reel_ig_post_id": "18133611109612728",
-      "reel_ig_permalink": "https://www.instagram.com/reel/Dbb4EckCFXJ/",
-      "reel_posted_at": "2026-07-30 16:35",
-      "reel_note": "build-up animation reel with voice-over + Meta Sound Collection \"Robotz\". NOTE: the earlier image post (2026-07-13) shows the OLD art; the comic was regenerated 2026-07-30 with new art and reworded panel-2 dialogue."
+      "reel_fb_video_id": "1571109668038848",
+      "reel_fb_permalink": "https://www.facebook.com/reel/1571109668038848",
+      "reel_ig_post_id": "18127166326578329",
+      "reel_ig_permalink": "https://www.instagram.com/reel/Dbb7gCElBQV/",
+      "reel_posted_at": "2026-07-30 17:02",
+      "reel_note": "build-up reel with title card, voice-over + Meta Sound Collection \"Robotz\"",
+      "reel_superseded": {
+        "fb_video_id": "965543609871285",
+        "ig_post_id": "18133611109612728",
+        "fb_permalink": "https://www.facebook.com/reel/965543609871285",
+        "ig_permalink": "https://www.instagram.com/reel/Dbb4EckCFXJ/",
+        "why": "opened on a blank page; replaced by the version with the title card. DELETE MANUALLY - Meta cannot delete an IG post or swap a Reel cover via API."
+      }
     }
   ],
   "intro_thread": {
@@ -965,7 +972,7 @@
     ]
   },
   "metadata": {
-    "updated": "2026-07-30 16:32",
+    "updated": "2026-07-30 17:02",
     "next_story": "HC014",
     "total_stories": 19,
     "total_posted": 35
