@@ -87,8 +87,8 @@ BOT_FILL_LO = 0.15         # ...and is line art, not a solid block or a thin
 BOT_FILL_HI = 0.50         #    outline (see is_bot for the measured spread)
 BOT_MAX_ASPECT = 1.8       # a bot is squarish; a bubble is wide
 
-COVER_TOP_PAD = 180        # black above the .pre teaser; the last panel sits
-                           # flush on the bottom edge, so it needs no pad
+COVER_GAP = 46             # black between the .pre teaser and the last panel;
+                           # the pair is centred as one block on the card
 COVER_MS = 1400            # how long the cover card is held
 
 EMPTY_MS = 550
@@ -667,12 +667,22 @@ def build_cover(im, seq, story=None, nscenes=3, size=None):
             y1 = max(r[0] for r in b.runs)
             panel = im.crop((0, max(0, y0 - 12), W, min(H, y1 + 13)))
 
+    # Both bands sit as one centred block. Pinning the panel to the bottom edge
+    # left a wide dead gap through the middle of the frame, which read as two
+    # unrelated pictures rather than one card.
+    bands = []
     if pre is not None:
-        ph = round(pre.height * CW / pre.width)
-        page.paste(pre.resize((CW, ph), Image.LANCZOS), (0, COVER_TOP_PAD))
+        bands.append(pre.resize((CW, round(pre.height * CW / pre.width)),
+                                Image.LANCZOS))
     if panel is not None:
-        gh = round(panel.height * CW / panel.width)
-        page.paste(panel.resize((CW, gh), Image.LANCZOS), (0, CH - gh))
+        bands.append(panel.resize((CW, round(panel.height * CW / panel.width)),
+                                  Image.LANCZOS))
+
+    total = sum(b.height for b in bands) + COVER_GAP * max(0, len(bands) - 1)
+    y = max(0, (CH - total) // 2)
+    for b in bands:
+        page.paste(b, (0, y))
+        y += b.height + COVER_GAP
 
     return page
 
