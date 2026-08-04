@@ -69,6 +69,32 @@ def run(cmd, **kw):
     return subprocess.run(cmd, check=True, capture_output=True, text=True, **kw)
 
 
+def run_retry(cmd, tries=5, wait=20, **kw):
+    """Run a command, retrying on failure with a growing pause.
+
+    For `git push` specifically: this job fires just after the Mac wakes, and on
+    1-3 Aug 2026 the push failed all three mornings with exit 128 - no network
+    yet, or the SSH key not unlocked. The card was generated and committed but
+    never went live, and the job reported FAIL. One retry a few seconds later
+    would have caught every one of them.
+    """
+    last = None
+    for i in range(tries):
+        r = subprocess.run(cmd, capture_output=True, text=True, **kw)
+        if r.returncode == 0:
+            if i:
+                print(f"  (succeeded on attempt {i + 1})")
+            return r
+        last = r
+        err = (r.stderr or r.stdout).strip().splitlines()
+        print(f"  attempt {i + 1}/{tries} failed (rc={r.returncode}): "
+              f"{err[-1][:120] if err else '?'}")
+        if i < tries - 1:
+            time.sleep(wait * (i + 1))
+    raise RuntimeError(f"{' '.join(cmd)} failed after {tries} attempts: "
+                       f"{(last.stderr or last.stdout)[-400:] if last else ''}")
+
+
 def parse_gm_output(stdout):
     """Extract NFT id, source story id, personality, and thought from gm_card.py stdout."""
     info = {}
@@ -94,7 +120,7 @@ def push_to_ghpages(filename):
                        capture_output=True, text=True)
     if r.returncode != 0 and "nothing to commit" not in (r.stdout + r.stderr):
         raise RuntimeError(f"commit failed: {r.stdout} {r.stderr}")
-    run(["git", "-C", str(SITE), "push", "origin", "gh-pages"])
+    run_retry(["git", "-C", str(SITE), "push", "origin", "gh-pages"])
 
     import urllib.request
     url = f"{SITE_URL}/{rel}"
