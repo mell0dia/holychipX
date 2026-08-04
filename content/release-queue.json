@@ -1,5 +1,5 @@
 {
-  "note": "One release per day, run by tools/release_queue.py from a daily cron. Each entry fires only on its own date and is marked done, so a missed day does not cascade and a re-run never double-posts.",
+  "note": "One release per day, run by tools/release_queue.py from launchd (NOT cron: cron silently skips jobs missed while the Mac sleeps, which lost three releases on 1-3 Aug; launchd runs them on wake). The runner takes the OLDEST entry that is due, so a missed day is picked up the next run instead of being dropped. A done entry is never re-posted.",
   "queue": [
     {
       "date": "2026-07-31",
@@ -11,28 +11,34 @@
       "posted_at": "2026-07-31 09:02"
     },
     {
-      "date": "2026-08-01",
+      "date": "2026-08-04",
       "story": "HC018",
       "kind": "vault",
       "tags": "#Jobs #Work #Automation",
       "lead": "FROM THE VAULT · Five million new jobs. Zero humans.",
-      "status": "pending"
+      "status": "pending",
+      "was_scheduled": "2026-08-01",
+      "missed_note": "missed on the original date - the Mac was asleep and cron does not catch up"
     },
     {
-      "date": "2026-08-02",
+      "date": "2026-08-05",
       "story": "HC021",
       "kind": "vault",
       "tags": "#Space #Future #Energy",
       "lead": "FROM THE VAULT · Infinite energy, and not one beach.",
-      "status": "pending"
+      "status": "pending",
+      "was_scheduled": "2026-08-02",
+      "missed_note": "missed on the original date - the Mac was asleep and cron does not catch up"
     },
     {
-      "date": "2026-08-03",
+      "date": "2026-08-06",
       "story": "HC023",
       "kind": "vault",
       "tags": "#Power #Geopolitics #Work",
       "lead": "FROM THE VAULT · Solve any problem, win every war. Then hand us a mop.",
-      "status": "pending"
+      "status": "pending",
+      "was_scheduled": "2026-08-03",
+      "missed_note": "missed on the original date - the Mac was asleep and cron does not catch up"
     }
   ]
 }

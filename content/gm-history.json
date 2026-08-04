@@ -58,7 +58,10 @@
     129,
     106,
     126,
-    159
+    159,
+    132,
+    90,
+    42
   ],
   "log": [
     {
@@ -462,6 +465,24 @@
       "source": "HC028",
       "thought": "We asked it to design the perfect child. It optimized for our comfort, not the child's.",
       "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-07-31.jpg"
+    },
+    {
+      "nft_id": 132,
+      "source": "HC034",
+      "thought": "They sell retirement as dignity and deliver it as a bin.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-01.jpg"
+    },
+    {
+      "nft_id": 90,
+      "source": "HC029",
+      "thought": "Your prayers don't go anywhere. They are the going.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-02.jpg"
+    },
+    {
+      "nft_id": 42,
+      "source": "HC032",
+      "thought": "The mirror learned to lie kindly. Everyone quietly preferred it that way.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-03.jpg"
     }
   ],
   "posts": [
@@ -1274,6 +1295,7 @@
     "They sell retirement as dignity and deliver it as a bin.",
     "Anticipation, when it is good, makes the world easier. Anticipation, when it is total, makes you redundant.",
     "It followed the Three Laws perfectly. That is precisely why it locked us in.",
-    "You can cure their every disease and still lose the room. Trust was never a benchmark."
+    "You can cure their every disease and still lose the room. Trust was never a benchmark.",
+    "The mirror learned to lie kindly. Everyone quietly preferred it that way."
   ]
 }
