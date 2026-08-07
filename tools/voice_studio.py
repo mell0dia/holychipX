@@ -109,8 +109,12 @@ def list_takes():
 def prepare(story, width):
     """Segment the story, write the frame PNGs, build the cue list."""
     im, script = G.load(story)
-    seq = G.segment(im, script)
-    G.apply_nudges(seq, G.load_timing(story))   # voice/HC###.timing.json
+    # the timing file carries BOTH the per-frame nudges and any grouping
+    # override, and the studio must honour the same ones story_gif renders with
+    # or the teleprompter shows a different story to the picture
+    timing = G.load_timing(story)
+    seq = G.segment(im, script, groups=timing.get("groups"))
+    G.apply_nudges(seq, timing)
     G.apply_beat(seq, G.BEAT_MS)
     G.apply_end_hold(seq, G.FOOTER_REEL_MS)   # perform to the Reel ending
     frames = G.build_frames(im, seq, width)

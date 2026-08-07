@@ -86,6 +86,8 @@ BOT_FLOOR_FRAC = 0.18      # ...stands this close to the panel floor...
 BOT_FILL_LO = 0.15         # ...and is line art, not a solid block or a thin
 BOT_FILL_HI = 0.50         #    outline (see is_bot for the measured spread)
 BOT_MAX_ASPECT = 1.8       # a bot is squarish; a bubble is wide
+SIDE_ZONE_FRAC = 0.30      # how far in from a panel edge still counts as bot
+                           # territory; past that, leftovers belong to a bubble
 
 COVER_GAP = 46             # black between the .pre teaser and the last panel;
                            # the pair is centred as one block on the card
@@ -380,10 +382,29 @@ def split_panel(rows, W, ya, yb, ndialogs, warn=None):
         else:
             leftovers.append(c)
 
+    # Bot art hugs its side of the panel. A leftover floating in the middle is
+    # almost always a bubble's tail or trim, and handing it to a bot on nothing
+    # more than "its centre is past the midline" makes it appear early - as a
+    # few stray pixels on screen before the bubble it belongs to.
     mid = PAGE + pw / 2
+    side_zone = SIDE_ZONE_FRAC * pw
     left, right = [], []
     for c in leftovers:
-        (left if c.cx < mid else right).extend(c.runs)
+        if min(c.x0 - px0, px1 - c.x1) <= side_zone:
+            (left if c.cx < mid else right).extend(c.runs)
+            continue
+        # nearest bubble by box distance, so tails travel with their bubble
+        best, bd = None, None
+        for j, b in enumerate(bubbles):
+            dx = max(b.x0 - c.x1, c.x0 - b.x1, 0)
+            dy = max(b.y0 - c.y1, c.y0 - b.y1, 0)
+            d = dx * dx + dy * dy
+            if bd is None or d < bd:
+                best, bd = j, d
+        if best is not None:
+            bub[best].extend(c.runs)
+        else:
+            (left if c.cx < mid else right).extend(c.runs)
 
     # a side holding only specks is not a bot - fold it into the other side
     la = sum(e - s + 1 for _, s, e in left)
@@ -409,7 +430,7 @@ def pair_dialogs(bubbles, dialogs):
     return groups
 
 
-def segment(im, script, strict=False, warn=print, pace=1.0):
+def segment(im, script, strict=False, warn=print, pace=1.0, groups=None):
     W, H = im.size
     rows = make_runs(im.convert("L").load(), W, H)
     scenes = script["scenes"]
@@ -453,12 +474,26 @@ def segment(im, script, strict=False, warn=print, pace=1.0):
                 raise SegmentError(msg)
             warn("  ! " + msg)
 
-        groups = pair_dialogs(bub, dialogs)
+        # A per-story override can say which scripted lines share a bubble.
+        # Needed when the art fuses a bubble to a bot: the bubble cannot be
+        # revealed on its own, so its line has to be spoken with whatever else
+        # that bot brings on screen. See voice/HC###.timing.json -> "groups".
+        ov = (groups or {}).get(str(i + 1))
+        if ov and len(ov) == len(bub):
+            dgroups = [[dialogs[k] for k in idxs if k < len(dialogs)] for idxs in ov]
+            warn(f"  · panel {i + 1}: using the grouping override "
+                 f"{ov} from the timing file")
+        else:
+            if ov:
+                warn(f"  ! panel {i + 1}: grouping override has {len(ov)} groups "
+                     f"but {len(bub)} bubbles were found - ignoring it")
+            dgroups = pair_dialogs(bub, dialogs)
+        groups_local = dgroups
         sides = {"Left": left, "Right": right}
         shown = set()
         panel_start = len(seq)
 
-        for j, (runs, group) in enumerate(zip(bub, groups)):
+        for j, (runs, group) in enumerate(zip(bub, groups_local)):
             runs = list(runs)
             texts, who = [], []
             for d in group:
@@ -811,8 +846,9 @@ def main():
 
     hc = a.story.upper()
     im, script = load(hc)
-    seq = segment(im, script, strict=a.strict, pace=a.pace)
     nudges = load_timing(hc)
+    seq = segment(im, script, strict=a.strict, pace=a.pace,
+                  groups=nudges.get("groups"))
     for spec in a.nudge:
         k, _, v = spec.partition("=")
         nudges[k.strip()] = int(v)

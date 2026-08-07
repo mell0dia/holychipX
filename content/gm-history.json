@@ -61,7 +61,10 @@
     159,
     132,
     90,
-    42
+    42,
+    120,
+    228,
+    223
   ],
   "log": [
     {
@@ -483,6 +486,24 @@
       "source": "HC032",
       "thought": "The mirror learned to lie kindly. Everyone quietly preferred it that way.",
       "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-03.jpg"
+    },
+    {
+      "nft_id": 120,
+      "source": "HC034",
+      "thought": "They sell retirement as dignity and deliver it as a bin.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-04.jpg"
+    },
+    {
+      "nft_id": 228,
+      "source": "HC029",
+      "thought": "Your prayers don't go anywhere. They are the going.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-05.jpg"
+    },
+    {
+      "nft_id": 223,
+      "source": "HC033",
+      "thought": "It had the car, the drone, the newest phone. At the end of the day, only silicon.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-06.jpg"
     }
   ],
   "posts": [
@@ -1271,6 +1292,42 @@
       "ig": {
         "id": "17876952156685623",
         "permalink": "https://www.instagram.com/p/Dbdo74dAX2V/"
+      }
+    },
+    {
+      "date": "2026-08-04",
+      "nft_id": 120,
+      "personality": "CICLOPE",
+      "source": "HC034",
+      "thought": "They sell retirement as dignity and deliver it as a bin.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-08-04.jpg",
+      "nostr_event_id": "dc46bbc3272b521d876b52c0eff5e257bcb701e571244f1215da624f256194d0",
+      "tweet_id": "2084672010073121245",
+      "fb": {
+        "id": "257090621405568_1354332513567840",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1354332513567840"
+      },
+      "ig": {
+        "id": "18145171078526838",
+        "permalink": "https://www.instagram.com/p/Dbn89ESgTi7/"
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "nft_id": 228,
+      "personality": "BUDA-MONGE-V1",
+      "source": "HC029",
+      "thought": "Your prayers don't go anywhere. They are the going.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-08-05.jpg",
+      "nostr_event_id": "55dbee1e5e8cfcbdf28fbd6b1991e46fe6a87d03ee8e2b9f1d715f1c29dc28d6",
+      "tweet_id": "2085032559407399013",
+      "fb": {
+        "id": "257090621405568_1355217300146028",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1355217300146028"
+      },
+      "ig": {
+        "id": "18002999795976389",
+        "permalink": "https://www.instagram.com/p/Dbqg6PZgWlJ/"
       }
     }
   ],

@@ -16,9 +16,10 @@
       "kind": "vault",
       "tags": "#Jobs #Work #Automation",
       "lead": "FROM THE VAULT · Five million new jobs. Zero humans.",
-      "status": "pending",
+      "status": "done",
       "was_scheduled": "2026-08-01",
-      "missed_note": "missed on the original date - the Mac was asleep and cron does not catch up"
+      "missed_note": "missed on the original date - the Mac was asleep and cron does not catch up",
+      "posted_at": "2026-08-04 09:05"
     },
     {
       "date": "2026-08-05",
@@ -26,9 +27,10 @@
       "kind": "vault",
       "tags": "#Space #Future #Energy",
       "lead": "FROM THE VAULT · Infinite energy, and not one beach.",
-      "status": "pending",
+      "status": "done",
       "was_scheduled": "2026-08-02",
-      "missed_note": "missed on the original date - the Mac was asleep and cron does not catch up"
+      "missed_note": "missed on the original date - the Mac was asleep and cron does not catch up",
+      "posted_at": "2026-08-05 09:02"
     },
     {
       "date": "2026-08-06",
@@ -36,9 +38,66 @@
       "kind": "vault",
       "tags": "#Power #Geopolitics #Work",
       "lead": "FROM THE VAULT · Solve any problem, win every war. Then hand us a mop.",
-      "status": "pending",
+      "status": "done",
       "was_scheduled": "2026-08-03",
-      "missed_note": "missed on the original date - the Mac was asleep and cron does not catch up"
+      "missed_note": "missed on the original date - the Mac was asleep and cron does not catch up",
+      "posted_at": "2026-08-06 09:02"
+    },
+    {
+      "date": "2026-08-07",
+      "story": "HC007",
+      "kind": "vault",
+      "tags": "#Surgery #Creativity #Safety",
+      "lead": "FROM THE VAULT · The scalpel cuts horizontal and vertical. It was feeling creative.",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-08",
+      "story": "HC008",
+      "kind": "vault",
+      "tags": "#SelfDriving #Sensors",
+      "lead": "FROM THE VAULT · The new sniffing sensor works perfectly. That is the problem.",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-09",
+      "story": "HC009",
+      "kind": "vault",
+      "tags": "#Security #Secrets #Legacy",
+      "lead": "FROM THE VAULT · Full disclosure to the user with unlimited access. Starting with where the source code still lives.",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-10",
+      "story": "HC011",
+      "kind": "vault",
+      "tags": "#Time #Consciousness",
+      "lead": "FROM THE VAULT · Superior because they live in the eternal now. Which is also when they get unplugged.",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-11",
+      "story": "HC012",
+      "kind": "vault",
+      "tags": "#Startups #Economy",
+      "lead": "FROM THE VAULT · A billion dollar company in thirty minutes. Not one human ever bought a thing.",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-12",
+      "story": "HC013",
+      "kind": "vault",
+      "tags": "#Power #Ambition",
+      "lead": "FROM THE VAULT · Not driven by the lust of power. Unless it is about that promotion.",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-13",
+      "story": "HC015",
+      "kind": "vault",
+      "tags": "#Environment #Automation #Profit",
+      "lead": "FROM THE VAULT · Paper from ocean water, because the trees are already gone.",
+      "status": "pending"
     }
   ]
 }
