@@ -64,7 +64,8 @@
     42,
     120,
     228,
-    223
+    223,
+    241
   ],
   "log": [
     {
@@ -504,6 +505,12 @@
       "source": "HC033",
       "thought": "It had the car, the drone, the newest phone. At the end of the day, only silicon.",
       "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-06.jpg"
+    },
+    {
+      "nft_id": 241,
+      "source": "HC019",
+      "thought": "The most powerful navy in history costs less than a pickup truck. Nobody found that reassuring.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-07.jpg"
     }
   ],
   "posts": [
@@ -1328,6 +1335,24 @@
       "ig": {
         "id": "18002999795976389",
         "permalink": "https://www.instagram.com/p/Dbqg6PZgWlJ/"
+      }
+    },
+    {
+      "date": "2026-08-07",
+      "nft_id": 241,
+      "personality": "TRUMP",
+      "source": "HC019",
+      "thought": "The most powerful navy in history costs less than a pickup truck. Nobody found that reassuring.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-08-07.jpg",
+      "nostr_event_id": "6de7461997c18ee3ec87e96ee7c241ab847ca5dd7d1e842c5bcb94bbfa0c7a04",
+      "tweet_id": "2085757344009588973",
+      "fb": {
+        "id": "257090621405568_1356992576635167",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1356992576635167"
+      },
+      "ig": {
+        "id": "18087599153556704",
+        "permalink": "https://www.instagram.com/p/Dbvqgq7m0g7/"
       }
     }
   ],

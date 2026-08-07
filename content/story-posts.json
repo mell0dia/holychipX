@@ -258,23 +258,23 @@
       "date": "2026-04-14 00:55",
       "method": "manual",
       "tweet_id": "2043855153787482594",
-      "fb_post_id": "257090621405568_1291067499894342",
-      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1291067499894342",
-      "fb_posted_at": "2026-05-22 12:08",
+      "fb_post_id": "257090621405568_1356993956635029",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1356993956635029",
+      "fb_posted_at": "2026-08-07 09:00",
       "fb_card_post_id": "257090621405568_1291067623227663",
       "ig_card_post_id": "18017809568684135",
-      "ig_post_id": "18007278095870967",
-      "ig_permalink": "https://www.instagram.com/p/DYpvDa3Abm1/",
+      "ig_post_id": "18442252015127238",
+      "ig_permalink": "https://www.instagram.com/p/Dbvqvc-m7nw/",
       "ig_comment_id": "18164093170386868",
-      "ig_posted_at": "2026-05-22 12:08",
-      "nostr_event_id": "ea6d59fa247050473c3e141150a74aa533906ee2510a8c5bdaad65338b1171d9",
-      "nostr_posted_at": "2026-06-02 15:01",
+      "ig_posted_at": "2026-08-07 09:00",
+      "nostr_event_id": "1fb6eba4fbf5673b579effce05964e5fd966d45f38e2d7fc1a36a39cde0c7fe2",
+      "nostr_posted_at": "2026-08-07 09:00",
       "nostr_relays": [
         "wss://relay.damus.io",
         "wss://nos.lol",
         "wss://relay.primal.net",
-        "wss://relay.snort.social",
-        "wss://relay.nostr.band"
+        "wss://relay.nostr.band",
+        "wss://relay.snort.social"
       ],
       "nostr_card_event_id": "82853a88bbcd98b077cee67545b3339d953e0aa128599567b914be1e79e13c84",
       "nostr_card_posted_at": "2026-06-02 15:01",
@@ -967,6 +967,28 @@
           "at": "2026-07-30 17:02"
         }
       ]
+    },
+    {
+      "story": "HC037",
+      "title": "Math Class",
+      "fb_post_id": "257090621405568_1357052226629202",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1357052226629202",
+      "fb_posted_at": "2026-08-07 10:28",
+      "ig_post_id": "18042476930807079",
+      "ig_permalink": "https://www.instagram.com/p/Dbv00I1gYjP/",
+      "ig_posted_at": "2026-08-07 10:28",
+      "nostr_event_id": "3ddba2f47b5b72322a06c153b28bd7a23639149b65e8c033c40247ab0b5c3165",
+      "nostr_posted_at": "2026-08-07 10:30",
+      "nostr_relays": [
+        "wss://relay.damus.io",
+        "wss://nos.lol",
+        "wss://relay.primal.net",
+        "wss://relay.nostr.band",
+        "wss://relay.snort.social"
+      ],
+      "tweet_id": "2085780628256264450",
+      "tweet_url": "https://x.com/_holychip/status/2085780628256264450",
+      "tweet_posted_at": "2026-08-07 10:30"
     }
   ],
   "intro_thread": {
@@ -980,9 +1002,9 @@
     ]
   },
   "metadata": {
-    "updated": "2026-08-06 09:00",
+    "updated": "2026-08-07 10:30",
     "next_story": "HC014",
     "total_stories": 19,
-    "total_posted": 35
+    "total_posted": 36
   }
 }
