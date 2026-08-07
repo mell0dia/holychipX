@@ -62,43 +62,56 @@
     },
     {
       "date": "2026-08-09",
-      "story": "HC009",
-      "kind": "vault",
-      "tags": "#Security #Secrets #Legacy",
-      "lead": "FROM THE VAULT · Full disclosure to the user with unlimited access. Starting with where the source code still lives.",
+      "story": "HC038",
+      "kind": "story",
+      "tags": "#Compression #AI #Pressure",
+      "lead": "",
       "status": "pending"
     },
     {
       "date": "2026-08-10",
+      "story": "HC009",
+      "kind": "vault",
+      "tags": "#Security #Secrets #Legacy",
+      "lead": "FROM THE VAULT · Full disclosure to the user with unlimited access. Starting with where the source code still lives.",
+      "status": "pending",
+      "shifted_from": "2026-08-09"
+    },
+    {
+      "date": "2026-08-11",
       "story": "HC011",
       "kind": "vault",
       "tags": "#Time #Consciousness",
       "lead": "FROM THE VAULT · Superior because they live in the eternal now. Which is also when they get unplugged.",
-      "status": "pending"
+      "status": "pending",
+      "shifted_from": "2026-08-10"
     },
     {
-      "date": "2026-08-11",
+      "date": "2026-08-12",
       "story": "HC012",
       "kind": "vault",
       "tags": "#Startups #Economy",
       "lead": "FROM THE VAULT · A billion dollar company in thirty minutes. Not one human ever bought a thing.",
-      "status": "pending"
+      "status": "pending",
+      "shifted_from": "2026-08-11"
     },
     {
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "story": "HC013",
       "kind": "vault",
       "tags": "#Power #Ambition",
       "lead": "FROM THE VAULT · Not driven by the lust of power. Unless it is about that promotion.",
-      "status": "pending"
+      "status": "pending",
+      "shifted_from": "2026-08-12"
     },
     {
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "story": "HC015",
       "kind": "vault",
       "tags": "#Environment #Automation #Profit",
       "lead": "FROM THE VAULT · Paper from ocean water, because the trees are already gone.",
-      "status": "pending"
+      "status": "pending",
+      "shifted_from": "2026-08-13"
     }
   ]
 }
