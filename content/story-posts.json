@@ -1007,7 +1007,10 @@
         "wss://relay.primal.net",
         "wss://relay.nostr.band",
         "wss://relay.snort.social"
-      ]
+      ],
+      "tweet_id": "2087964952749596678",
+      "tweet_url": "https://x.com/_holychip/status/2087964952749596678",
+      "tweet_posted_at": "2026-08-13 11:10"
     }
   ],
   "intro_thread": {
