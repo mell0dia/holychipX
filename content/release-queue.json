@@ -58,7 +58,8 @@
       "kind": "vault",
       "tags": "#SelfDriving #Sensors",
       "lead": "FROM THE VAULT · The new sniffing sensor works perfectly. That is the problem.",
-      "status": "pending"
+      "status": "done",
+      "posted_at": "2026-08-08 09:02"
     },
     {
       "date": "2026-08-09",
@@ -66,7 +67,8 @@
       "kind": "story",
       "tags": "#Compression #AI #Pressure",
       "lead": "",
-      "status": "pending"
+      "status": "done",
+      "posted_at": "2026-08-09 09:00"
     },
     {
       "date": "2026-08-10",
@@ -74,8 +76,9 @@
       "kind": "vault",
       "tags": "#Security #Secrets #Legacy",
       "lead": "FROM THE VAULT · Full disclosure to the user with unlimited access. Starting with where the source code still lives.",
-      "status": "pending",
-      "shifted_from": "2026-08-09"
+      "status": "done",
+      "shifted_from": "2026-08-09",
+      "posted_at": "2026-08-10 09:02"
     },
     {
       "date": "2026-08-11",
@@ -83,8 +86,9 @@
       "kind": "vault",
       "tags": "#Time #Consciousness",
       "lead": "FROM THE VAULT · Superior because they live in the eternal now. Which is also when they get unplugged.",
-      "status": "pending",
-      "shifted_from": "2026-08-10"
+      "status": "done",
+      "shifted_from": "2026-08-10",
+      "posted_at": "2026-08-11 09:02"
     },
     {
       "date": "2026-08-12",
@@ -92,8 +96,9 @@
       "kind": "vault",
       "tags": "#Startups #Economy",
       "lead": "FROM THE VAULT · A billion dollar company in thirty minutes. Not one human ever bought a thing.",
-      "status": "pending",
-      "shifted_from": "2026-08-11"
+      "status": "done",
+      "shifted_from": "2026-08-11",
+      "posted_at": "2026-08-12 09:02"
     },
     {
       "date": "2026-08-13",
@@ -101,8 +106,9 @@
       "kind": "vault",
       "tags": "#Power #Ambition",
       "lead": "FROM THE VAULT · Not driven by the lust of power. Unless it is about that promotion.",
-      "status": "pending",
-      "shifted_from": "2026-08-12"
+      "status": "done",
+      "shifted_from": "2026-08-12",
+      "posted_at": "2026-08-13 09:02"
     },
     {
       "date": "2026-08-14",

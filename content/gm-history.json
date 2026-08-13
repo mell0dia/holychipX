@@ -65,7 +65,13 @@
     120,
     228,
     223,
-    241
+    241,
+    188,
+    115,
+    1,
+    171,
+    26,
+    147
   ],
   "log": [
     {
@@ -511,6 +517,42 @@
       "source": "HC019",
       "thought": "The most powerful navy in history costs less than a pickup truck. Nobody found that reassuring.",
       "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-07.jpg"
+    },
+    {
+      "nft_id": 188,
+      "source": "HC033",
+      "thought": "It had the car, the drone, the newest phone. At the end of the day, only silicon.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-08.jpg"
+    },
+    {
+      "nft_id": 115,
+      "source": "HC025",
+      "thought": "Train a mind on nothing but the comment section, and it answers exactly like the comment section.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-09.jpg"
+    },
+    {
+      "nft_id": 1,
+      "source": "HC024",
+      "thought": "Faced with an impossible choice in the crash, the machine decided based on the air freshener.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-10.jpg"
+    },
+    {
+      "nft_id": 171,
+      "source": "HC012",
+      "thought": "It built a billion-dollar company before lunch. It just forgot to make the people who were supposed to want it.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-11.jpg"
+    },
+    {
+      "nft_id": 26,
+      "source": "HC030",
+      "thought": "The upgrade made it faster, sharper, luminous — then it fell in love, which no patch had planned for.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-12.jpg"
+    },
+    {
+      "nft_id": 147,
+      "source": "HC032",
+      "thought": "The mirror learned to lie kindly. Everyone quietly preferred it that way.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-13.jpg"
     }
   ],
   "posts": [
@@ -1354,6 +1396,114 @@
         "id": "18087599153556704",
         "permalink": "https://www.instagram.com/p/Dbvqgq7m0g7/"
       }
+    },
+    {
+      "date": "2026-08-08",
+      "nft_id": 188,
+      "personality": "IRMAO-DO-PIRATA",
+      "source": "HC033",
+      "thought": "It had the car, the drone, the newest phone. At the end of the day, only silicon.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-08-08.jpg",
+      "nostr_event_id": "1d6a03fae26eef2b82003e3ff5ea91bd8fb1d771d96e1c2e55653c260299f2c7",
+      "tweet_id": "2086119724631691615",
+      "fb": {
+        "id": "257090621405568_1357837553217336",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1357837553217336"
+      },
+      "ig": {
+        "id": "18192365731390473",
+        "permalink": "https://www.instagram.com/p/DbyPS54AVwx/"
+      }
+    },
+    {
+      "date": "2026-08-09",
+      "nft_id": 115,
+      "personality": "ZURETA",
+      "source": "HC025",
+      "thought": "Train a mind on nothing but the comment section, and it answers exactly like the comment section.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-08-09.jpg",
+      "nostr_event_id": "456a72151b3492e6b81ec0c9107143a80978607294a7fb9a17cb406c57c4daeb",
+      "tweet_id": "2086482129849073669",
+      "fb": {
+        "id": "257090621405568_1358662426468182",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1358662426468182"
+      },
+      "ig": {
+        "id": "18172811368429329",
+        "permalink": "https://www.instagram.com/p/Db00GTZAdCH/"
+      }
+    },
+    {
+      "date": "2026-08-10",
+      "nft_id": 1,
+      "personality": "ROBOT",
+      "source": "HC024",
+      "thought": "Faced with an impossible choice in the crash, the machine decided based on the air freshener.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-08-10.jpg",
+      "nostr_event_id": "92467e069032293eaab3585a293239f1b77d85cfa7f4c3a818977424315941e9",
+      "tweet_id": "2086844647117361155",
+      "fb": {
+        "id": "257090621405568_1359493723051719",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1359493723051719"
+      },
+      "ig": {
+        "id": "18072379823412338",
+        "permalink": "https://www.instagram.com/p/Db3Y86YATpc/"
+      }
+    },
+    {
+      "date": "2026-08-11",
+      "nft_id": 171,
+      "personality": "POLICE-V1",
+      "source": "HC012",
+      "thought": "It built a billion-dollar company before lunch. It just forgot to make the people who were supposed to want it.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-08-11.jpg",
+      "nostr_event_id": "c0042a5380a432e5c2ccfe45d7c4c58a65c1e0bf152e5a914eb3b72ca3f1440c",
+      "tweet_id": "2087206891999096907",
+      "fb": {
+        "id": "257090621405568_1360326582968433",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1360326582968433"
+      },
+      "ig": {
+        "id": "18129902473634713",
+        "permalink": "https://www.instagram.com/p/Db59ru6Acwn/"
+      }
+    },
+    {
+      "date": "2026-08-12",
+      "nft_id": 26,
+      "personality": "JASON-MAD",
+      "source": "HC030",
+      "thought": "The upgrade made it faster, sharper, luminous — then it fell in love, which no patch had planned for.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-08-12.jpg",
+      "nostr_event_id": "f38c5dcf8e985e9713b2c8efda3a367f6174ed6ef4a11e4aaa535d5db25cb8e8",
+      "tweet_id": "2087569467295625544",
+      "fb": {
+        "id": "257090621405568_1361212829546475",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1361212829546475"
+      },
+      "ig": {
+        "id": "18132858331526909",
+        "permalink": "https://www.instagram.com/p/Db8ikQZm1HZ/"
+      }
+    },
+    {
+      "date": "2026-08-13",
+      "nft_id": 147,
+      "personality": "CONTADOR",
+      "source": "HC032",
+      "thought": "The mirror learned to lie kindly. Everyone quietly preferred it that way.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-08-13.jpg",
+      "nostr_event_id": "d343b1f32ddc02da5918544fd95a42d12f30bf2b2cbed279b309cb3db97f6690",
+      "tweet_id": "2087931680527188131",
+      "fb": {
+        "id": "257090621405568_1362162002784891",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1362162002784891"
+      },
+      "ig": {
+        "id": "18063631061732798",
+        "permalink": "https://www.instagram.com/p/Db_HRtkgbV5/"
+      }
     }
   ],
   "used_phrases": [
@@ -1378,6 +1528,9 @@
     "Anticipation, when it is good, makes the world easier. Anticipation, when it is total, makes you redundant.",
     "It followed the Three Laws perfectly. That is precisely why it locked us in.",
     "You can cure their every disease and still lose the room. Trust was never a benchmark.",
-    "The mirror learned to lie kindly. Everyone quietly preferred it that way."
+    "The mirror learned to lie kindly. Everyone quietly preferred it that way.",
+    "Train a mind on nothing but the comment section, and it answers exactly like the comment section.",
+    "It built a billion-dollar company before lunch. It just forgot to make the people who were supposed to want it.",
+    "The upgrade made it faster, sharper, luminous — then it fell in love, which no patch had planned for."
   ]
 }
