@@ -13,12 +13,13 @@ a human-approved tease.
 
 Prints TWEET_ID:<id> on success (or the assembled tweet text on --dry-run).
 """
-import json, os, re, subprocess, sys, urllib.request
+import datetime, json, os, re, subprocess, sys, urllib.request
 from pathlib import Path
 
 HC = Path.home() / "holy-chip"
 TOOLS = HC / "tools"
 SDIR = HC / "stories"                      # HC###.json + HC###.png live here
+TRACKER = HC / "content" / "story-posts.json"
 OLLAMA = "http://localhost:11434/api/generate"
 MODEL = "gemma4:31b-it-q8_0"               # best local model for creative tease
 BASE_TAGS = "#HolyChip #AI #AGI"
@@ -96,6 +97,40 @@ def assemble(sid, tease, theme):
     return tweet
 
 
+def record_tweet(sid, tid):
+    """Write a posted tweet back into story-posts.json.
+
+    Posting and recording were separate steps until 2026-08-13, so automated
+    releases tweeted without leaving any trace in the tracker — which made it
+    look like X had been skipped when it had not. A vault throwback re-tweets
+    a story that already has a tweet_id, so the original is left alone and the
+    repost is appended to tweet_reposts instead of overwriting it.
+
+    Never raises: the tweet is already public by the time we get here, so a
+    bookkeeping problem must not fail the release.
+    """
+    url = f"https://x.com/_holychip/status/{tid}"
+    now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+    try:
+        d = json.loads(TRACKER.read_text())
+        entry = next((e for e in d["posted"] if e.get("story") == sid), None)
+        if entry is None:
+            print(f"  tracker: no entry for {sid}, not recorded")
+            return
+        if entry.get("tweet_id") and entry["tweet_id"] != tid:
+            entry.setdefault("tweet_reposts", []).append(
+                {"tweet_id": tid, "tweet_url": url, "tweet_posted_at": now})
+            print(f"  tracker: {sid} repost <- {url}")
+        else:
+            entry["tweet_id"] = tid
+            entry["tweet_url"] = url
+            entry["tweet_posted_at"] = now
+            print(f"  tracker: {sid} <- {url}")
+        TRACKER.write_text(json.dumps(d, indent=2, ensure_ascii=False) + "\n")
+    except Exception as exc:
+        print(f"  tracker: could not record {tid} ({exc})")
+
+
 def main():
     args = [a for a in sys.argv[1:] if a != "--dry-run"]
     dry = "--dry-run" in sys.argv
@@ -125,6 +160,7 @@ def main():
     for line in r.stdout.splitlines():
         if line.startswith("TWEET_ID:"):
             print(line)
+            record_tweet(sid, line.split(":", 1)[1].strip())
             return
 
 
