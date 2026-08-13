@@ -27,7 +27,11 @@ import os, sys, json, argparse, subprocess, datetime
 HC = os.path.expanduser("~/holy-chip")
 QUEUE = os.path.join(HC, "content", "release-queue.json")
 THROWBACK = os.path.join(HC, "tools", "throwback_release.sh")
-RELEASE = os.path.join(HC, "tools", "release_social.py")
+# Stories go through scheduled_release.sh, NOT release_social.py directly:
+# release_social.py is FB+IG only, so calling it here silently gave scheduled
+# stories half the reach of a vault throwback (HC038, 2026-08-09, went out to
+# FB+IG with no Nostr and no X). Both wrappers do FB+IG -> Nostr -> X.
+SCHEDULED = os.path.join(HC, "tools", "scheduled_release.sh")
 
 
 def load():
@@ -85,7 +89,7 @@ def main():
     if e["kind"] == "vault":
         cmd = ["bash", THROWBACK, e["story"], e["tags"], e["lead"]]
     else:
-        cmd = ["python3", RELEASE, e["story"], e["tags"]]
+        cmd = ["bash", SCHEDULED, e["story"], e["tags"]]
 
     print(f"{today}: releasing {e['story']} ({e['kind']})")
     print("  " + " ".join(repr(c) if " " in c else c for c in cmd))
