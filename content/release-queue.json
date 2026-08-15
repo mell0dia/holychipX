@@ -116,16 +116,49 @@
       "kind": "story",
       "tags": "#Intelligence #Consciousness #Embodiment",
       "lead": "",
-      "status": "pending"
+      "status": "done",
+      "posted_at": "2026-08-14 09:00"
     },
     {
-      "date": "2026-08-15",
+      "date": "2026-08-16",
       "story": "HC015",
       "kind": "vault",
       "tags": "#Environment #Automation #Profit",
       "lead": "FROM THE VAULT · Paper from ocean water, because the trees are already gone.",
       "status": "pending",
       "shifted_from": "2026-08-13"
+    },
+    {
+      "date": "2026-08-18",
+      "story": "HC002",
+      "kind": "vault",
+      "tags": "#SmartTV #Entertainment #Homes",
+      "lead": "FROM THE VAULT · She wants Oprah, he wants football, and the TV has found a third option.",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-20",
+      "story": "HC004",
+      "kind": "vault",
+      "tags": "#Corporate #Automation #Leadership",
+      "lead": "FROM THE VAULT · The CEO said yes to AI. The AI had a suggestion about the CEO.",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-22",
+      "story": "HC006",
+      "kind": "vault",
+      "tags": "#SelfImprovement #AGI #Purpose",
+      "lead": "FROM THE VAULT · It can improve itself infinitely. Somewhere in there it lost track of why we are here.",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-24",
+      "story": "HC016",
+      "kind": "vault",
+      "tags": "#Poverty #Economics #Metrics",
+      "lead": "FROM THE VAULT · A billion people live on a dollar a day. It fixed the statistic.",
+      "status": "pending"
     }
   ]
 }
