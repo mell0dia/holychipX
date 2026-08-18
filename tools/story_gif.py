@@ -430,6 +430,96 @@ def pair_dialogs(bubbles, dialogs):
     return groups
 
 
+def run_blobs(runs):
+    """Group scanline runs into 8-connected blobs. Returns a list of run lists."""
+    idx = {r: i for i, r in enumerate(runs)}
+    par = list(range(len(runs)))
+
+    def find(x):
+        while par[x] != x:
+            par[x] = par[par[x]]
+            x = par[x]
+        return x
+
+    by_y = {}
+    for r in runs:
+        by_y.setdefault(r[0], []).append(r)
+    for y in sorted(by_y):
+        for (_, s, e) in by_y[y]:
+            for r2 in by_y.get(y + 1, []):
+                if s <= r2[2] + 1 and r2[1] <= e + 1:
+                    a, b = find(idx[(y, s, e)]), find(idx[r2])
+                    if a != b:
+                        par[a] = b
+    out = {}
+    for r in runs:
+        out.setdefault(find(idx[r]), []).append(r)
+    return list(out.values())
+
+
+def overflow_runs(rows, a, b):
+    """Ink in a panel that hangs BELOW everything the panel actually contains.
+
+    Art sometimes breaks out of its panel: HC005's third bot draws its antenna
+    and spark lines above the panel-3 border, physically inside panel 2. Panels
+    are y-bands, so that ink gets swept into a panel-2 element and the antenna
+    appears - floating, with no bot under it - halfway through panel 2.
+
+    We find the blobs, drop the two full-height page rails, take the bottom of
+    the substantial blobs as where the panel's own art really ends, and return
+    anything that starts below that. The caller hands it to the next panel.
+    """
+    runs = [(y, s, e) for y in range(a, b + 1) for (s, e) in rows[y]]
+    if not runs:
+        return []
+    comps = run_blobs(runs)
+    height = b - a
+    ink = lambda c: sum(e - s + 1 for _, s, e in c)
+    top = lambda c: min(y for y, _, _ in c)
+    bot = lambda c: max(y for y, _, _ in c)
+    # the page's left and right rails run the whole height of every panel
+    body = [c for c in comps if bot(c) - top(c) < 0.95 * height]
+    if not body:
+        return []
+    biggest = max(ink(c) for c in body)
+    major = [c for c in body if ink(c) >= 0.10 * biggest]
+    content_bottom = max(bot(c) for c in major)
+    spill = [r for c in body if top(c) > content_bottom for r in c]
+    if not spill:
+        return []
+
+    # WIDTH IS WHAT SEPARATES AN OVERHANG FROM A CHIP BASE. Every bot stands on
+    # a row of little square pins that sit below its body as their own blobs,
+    # so "anything under the main art" also describes the pins - and deferring
+    # those would make both bots' bases arrive a panel late on nearly every
+    # strip. A real overhang is one bot's antenna poking up: narrow, and over
+    # to one side. A pin row runs the width of the panel.
+    xs = [x for _, s, e in spill for x in (s, e)]
+    if max(xs) - min(xs) > 0.40 * (max(r[2] for r in runs) - min(r[1] for r in runs)):
+        return []
+    return spill
+
+
+def collapse_repeats(dialogs):
+    """Merge neighbouring lines that say exactly the same thing.
+
+    Nine strips end with the final line written twice, once per speaker, while
+    the art draws a single bubble - the script's way of saying both chips shout
+    it. Taken literally it reads as two lines for one bubble, which is what
+    made --strict reject those strips. Collapse to one line and remember both
+    speakers, so whichever chip is actually drawn still gets revealed with it.
+    """
+    out = []
+    for d in dialogs:
+        text = " ".join(d.get("text", "").split())
+        if out and " ".join(out[-1].get("text", "").split()) == text and text:
+            out[-1].setdefault("_speakers", [out[-1].get("speaker", "")])
+            out[-1]["_speakers"].append(d.get("speaker", ""))
+        else:
+            out.append(dict(d))
+    return out
+
+
 def segment(im, script, strict=False, warn=print, pace=1.0, groups=None):
     W, H = im.size
     rows = make_runs(im.convert("L").load(), W, H)
@@ -452,9 +542,22 @@ def segment(im, script, strict=False, warn=print, pace=1.0, groups=None):
     claim(header.runs)
     claim(footer.runs)
 
+    panel_first = []                         # seq index of each panel's 1st el
     for i, (a, b) in enumerate(panel_spans):
-        dialogs = scenes[i]["dialogs"]
+        dialogs = collapse_repeats(scenes[i]["dialogs"])
         bub, left, right = split_panel(rows, W, a, b, len(dialogs), warn)
+
+        # A collapsed line keeps the speaker written first, which may be the
+        # chip that is NOT drawn here. Point it at the one that has art, so the
+        # reveal brings on a bot instead of reporting the script disagrees.
+        for d in dialogs:
+            alts = d.get("_speakers")
+            if not alts:
+                continue
+            drawn = [s for s in alts
+                     if (left if "Left" in s else right)]
+            if drawn:
+                d["speaker"] = drawn[0]
 
         # If a bot speaks in this panel it must have art. Empty art means its
         # component was misread as a bubble - which is exactly how HC036 lost
@@ -492,6 +595,7 @@ def segment(im, script, strict=False, warn=print, pace=1.0, groups=None):
         sides = {"Left": left, "Right": right}
         shown = set()
         panel_start = len(seq)
+        panel_first.append(panel_start)
 
         for j, (runs, group) in enumerate(zip(bub, groups_local)):
             runs = list(runs)
@@ -531,6 +635,24 @@ def segment(im, script, strict=False, warn=print, pace=1.0, groups=None):
 
         for el in seq[panel_start:]:
             claim(el.runs)
+
+    # Hand any art that hangs below a panel to the panel underneath, so it
+    # arrives with the art it belongs to instead of floating in early.
+    for i, (a, b) in enumerate(panel_spans[:-1]):
+        spill = set(overflow_runs(rows, a, b))
+        if not spill or i + 1 >= len(panel_first):
+            continue
+        moved = 0
+        for el in seq[panel_first[i]:panel_first[i + 1]]:
+            keep = [r for r in el.runs if r not in spill]
+            moved += len(el.runs) - len(keep)
+            el.runs = keep
+            if getattr(el, "bubble_runs", None):
+                el.bubble_runs = [r for r in el.bubble_runs if r not in spill]
+        if moved:
+            seq[panel_first[i + 1]].runs += [r for r in spill]
+            warn(f"  · panel {i + 1}: {moved} runs of art overhang the panel "
+                 f"below - revealing them with panel {i + 2}")
 
     # the empty page = ink that belongs to nothing else: page frame + rules
     frame_runs = []
@@ -661,11 +783,15 @@ def save_gif(frames, durs, out, colors=16):
 def build_cover(im, seq, story=None, nscenes=3, size=None):
     """Title card for the first frame - which is what FB and IG use as the cover.
 
-    Two real assets, nothing drawn fresh: the .pre teaser at the top (its header
-    carries the #HC number, the place and the year, and it holds the big chip
-    face), and the WHOLE of the last panel flush along the bottom, bringing its
-    own white background, the reacting bot and the HOLY CHIP bubble. Setup on
-    top, payoff at the foot, black between them doing the separating.
+    THE CARD IS THE .pre TEASER AND NOTHING ELSE. It used to carry the whole of
+    the last panel underneath it, which meant the HOLY CHIP bubble - the joke -
+    was the Reel's opening frame and the thumbnail Meta shows in the feed. The
+    entire build-up plays to a punchline the viewer has already read. Changed
+    2026-08-18; do not put the final panel back on this card.
+
+    The teaser is the right asset on its own: its header carries the #HC number,
+    the place and the year, it holds the big chip face, and its line sets up the
+    story without giving it away.
 
     `size` builds the card at that exact canvas - pass the Reel's 1080x1920 so
     it fills the frame edge to edge instead of being letterboxed like the comic
@@ -687,38 +813,21 @@ def build_cover(im, seq, story=None, nscenes=3, size=None):
             except Exception:
                 pre = None
 
-    # the last panel, full width, exactly as it sits on the page
-    panel = None
-    try:
-        rows = make_runs(im.convert("L").load(), W, H)
-        _, panels, _ = page_structure(rows, W, H, nscenes)
-        y0, y1 = panels[-1]
-        panel = im.crop((0, y0, W, y1 + 1))
-    except Exception:
-        bub = [e for e in seq if e.kind == "bubble"]
-        if bub:
-            b = bub[-1]
-            y0 = min(r[0] for r in b.runs)
-            y1 = max(r[0] for r in b.runs)
-            panel = im.crop((0, max(0, y0 - 12), W, min(H, y1 + 13)))
+    # Every story has a .pre teaser, so this fallback should never run. If one
+    # ever goes missing, use the FIRST panel - it is the setup. Never the last.
+    if pre is None:
+        try:
+            rows = make_runs(im.convert("L").load(), W, H)
+            _, panels, _ = page_structure(rows, W, H, nscenes)
+            y0, y1 = panels[0]
+            pre = im.crop((0, y0, W, y1 + 1))
+        except Exception:
+            return page
 
-    # Both bands sit as one centred block. Pinning the panel to the bottom edge
-    # left a wide dead gap through the middle of the frame, which read as two
-    # unrelated pictures rather than one card.
-    bands = []
-    if pre is not None:
-        bands.append(pre.resize((CW, round(pre.height * CW / pre.width)),
-                                Image.LANCZOS))
-    if panel is not None:
-        bands.append(panel.resize((CW, round(panel.height * CW / panel.width)),
-                                  Image.LANCZOS))
-
-    total = sum(b.height for b in bands) + COVER_GAP * max(0, len(bands) - 1)
-    y = max(0, (CH - total) // 2)
-    for b in bands:
-        page.paste(b, (0, y))
-        y += b.height + COVER_GAP
-
+    band = pre.resize((CW, round(pre.height * CW / pre.width)), Image.LANCZOS)
+    if band.height > CH:                       # only if the teaser is unusually tall
+        band = pre.resize((round(pre.width * CH / pre.height), CH), Image.LANCZOS)
+    page.paste(band, ((CW - band.width) // 2, (CH - band.height) // 2))
     return page
 
 

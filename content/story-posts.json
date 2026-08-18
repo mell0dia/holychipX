@@ -32,17 +32,12 @@
         "fr": "22fc7b6630967bf46d23ba5b319747bdd78a528c2299eedb56a98928e09c8b51"
       },
       "rereleased": "2026-06-11 (new visual)",
-      "fb_reel_id": "27200868859587841",
-      "fb_reel_permalink": "https://www.facebook.com/reel/27200868859587841",
-      "fb_reel_posted_at": "2026-08-18 10:34",
-      "ig_reel_id": "18174327010430644",
-      "ig_reel_permalink": "https://www.instagram.com/reel/DcMKXOfDzK_/",
-      "ig_reel_posted_at": "2026-08-18 10:34",
       "reel_tweet_id": "2089768239857594863",
       "reel_tweet_permalink": "https://x.com/_holychip/status/2089768239857594863",
       "reel_tweet_posted_at": "2026-08-18 10:34",
       "nostr_reel_event_id": "5aa4baa95bae1323c9f07638f9240e1ca2497a622939b47ac36202f04887e428",
-      "nostr_reel_posted_at": "2026-08-18 10:34"
+      "nostr_reel_posted_at": "2026-08-18 10:34",
+      "reel_notes": "FB+IG Reels deleted by hand 2026-08-18 (cover showed the punchline; punchline VO spoke the panel tail). Superseded IDs: fb_reel_id=27200868859587841, ig_reel_id=18174327010430644"
     },
     {
       "story": "HC001",
