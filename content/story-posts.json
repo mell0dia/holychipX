@@ -37,7 +37,13 @@
       "reel_tweet_posted_at": "2026-08-18 10:34",
       "nostr_reel_event_id": "5aa4baa95bae1323c9f07638f9240e1ca2497a622939b47ac36202f04887e428",
       "nostr_reel_posted_at": "2026-08-18 10:34",
-      "reel_notes": "FB+IG Reels deleted by hand 2026-08-18 (cover showed the punchline; punchline VO spoke the panel tail). Superseded IDs: fb_reel_id=27200868859587841, ig_reel_id=18174327010430644"
+      "reel_notes": "FB+IG Reels deleted by hand 2026-08-18 (cover showed the punchline; punchline VO spoke the panel tail). Superseded IDs: fb_reel_id=27200868859587841, ig_reel_id=18174327010430644",
+      "fb_reel_id": "1368611501489956",
+      "fb_reel_permalink": "https://www.facebook.com/reel/1368611501489956",
+      "fb_reel_posted_at": "2026-08-18 11:13",
+      "ig_reel_id": "18130794283640356",
+      "ig_reel_permalink": "https://www.instagram.com/reel/DcMOvgAk-TT/",
+      "ig_reel_posted_at": "2026-08-18 11:13"
     },
     {
       "story": "HC001",
@@ -1062,7 +1068,7 @@
     ]
   },
   "metadata": {
-    "updated": "2026-08-18 10:35",
+    "updated": "2026-08-18 11:14",
     "next_story": "HC014",
     "total_stories": 19,
     "total_posted": 36
