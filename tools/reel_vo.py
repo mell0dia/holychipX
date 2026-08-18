@@ -52,9 +52,12 @@ AF = ("aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo")
 
 HDR_PAD_S = 0.35     # silence left at the end of the title card after the VO
 
-# Trailing words on the final bubble that TTS mangles rather than performs.
-# Everything else after "HOLY CHIP" is spoken (UNBEATABLE, DISGUSTING, ...).
-TAIL_SKIP = re.compile(r"^(x\s*x|p+f+t*\.*|\W*)$", re.I)
+# THE PUNCHLINE VOICE IS ALWAYS AND ONLY "HOLY - beep - CHIP!!".
+# Some final panels carry extra words (POOR FISHIES..., UNBEATABLE, DISGUSTING,
+# BEING IS HARD!). We used to speak them; the TTS performs them badly - it reads
+# them flat, right after a line that has been pitched and drenched in echo, so
+# the tail undercuts the punch it is supposed to land. The words stay ON SCREEN
+# where they read fine. Rule set by the user 2026-08-18: ignore them all.
 
 SPOKEN = {"AGI": "A G I", "AI": "A I", "HQ": "Headquarters",
           "DEPTO": "Department", "INC": "Incorporated",
@@ -98,14 +101,6 @@ def header_text(script):
     return f"{spoken_title(b.get('title', ''))}. {spoken_year(b.get('year', ''))}."
 
 
-def chip_tail(script):
-    """Whatever the last bubble says after HOLY CHIP, if it is speakable."""
-    last = [d.get("text", "") for s in script["scenes"] for d in s["dialogs"]][-1]
-    tail = re.sub(r"^\s*holy\s*chip\s*!*", "", last, flags=re.I).strip()
-    tail = " ".join(tail.split())
-    return "" if TAIL_SKIP.match(tail) else tail
-
-
 # --------------------------------------------------------------- TTS ---
 def say(text, out, rate, pbas, pmod, tmp):
     aiff = os.path.join(tmp, os.path.basename(out) + ".aiff")
@@ -128,8 +123,11 @@ def build_header_vo(script, tmp):
     return out, probe(out)
 
 
-def build_chip_vo(tail, tmp):
-    """HOLY - 1kHz censor beep - CHIP!! [- tail], then the drama chain."""
+def build_chip_vo(tmp):
+    """HOLY - 1kHz censor beep - CHIP!!, then the drama chain. Nothing else.
+
+    Identical for every story: the final panel's extra words are never spoken.
+    """
     say("HOLY", os.path.join(tmp, "holy.wav"), 135, 20, 160, tmp)
     say("CHIP!!", os.path.join(tmp, "chip.wav"), 95, 18, 175, tmp)
     beep = os.path.join(tmp, "beep.wav")
@@ -144,13 +142,6 @@ def build_chip_vo(tail, tmp):
         ins += ["-i", src]
         parts.append(f"[{n}:a]{AF}" + (f",apad=pad_dur={pad}" if pad else "") +
                      f"[p{n}];")
-        n += 1
-    if tail:
-        say(tail, os.path.join(tmp, "tail.wav"), 105, 22, 165, tmp)
-        ins += ["-i", os.path.join(tmp, "tail.wav")]
-        parts.insert(n - 1 + 1, f"[{n}:a]{AF}[p{n}];")
-        # the tail follows CHIP after a beat, so pad CHIP instead of the tail
-        parts[n - 1] = f"[{n - 1}:a]{AF},apad=pad_dur=0.35[p{n - 1}];"
         n += 1
 
     labels = "".join(f"[p{i}]" for i in range(n))
@@ -255,8 +246,7 @@ def one(hc, music, music_lufs, out_dir):
         # title card and the footer need to be, so the video is encoded once
         # with the final timings rather than encoded and then patched.
         hdr_wav, hdr_len = build_header_vo(script, tmp)
-        tail = chip_tail(script)
-        chip_wav, chip_len = build_chip_vo(tail, tmp)
+        chip_wav, chip_len = build_chip_vo(tmp)
 
         need = max(0, math.ceil((hdr_len + HDR_PAD_S) * 1000) - sg.HEADER_MS)
 
@@ -266,9 +256,9 @@ def one(hc, music, music_lufs, out_dir):
         chip_i = max(i for i, k in enumerate(kinds) if k == "bubble")
         room = total - starts[chip_i]
 
-        # A story whose last bubble carries extra words ("POOR FISHIES...")
-        # has a longer punchline than the footer can hold. Grow the footer
-        # rather than clip the line - the voice rings out over it by design.
+        # Kept as a guard even though the punchline is now a fixed ~2.7s: a
+        # short final bubble on a future story could still leave less room than
+        # the line needs, and clipping the punch is never the right answer.
         grow = 0
         if chip_len > room:
             grow = math.ceil((chip_len - room + 0.3) * 1000)
@@ -284,8 +274,7 @@ def one(hc, music, music_lufs, out_dir):
         mix(video, total, hdr_wav, hdr_at, chip_wav, chip_at, out,
             music, music_lufs)
 
-        notes = "".join([f"  tail: {tail}" if tail else "",
-                         f"  +{grow}ms footer" if grow else "",
+        notes = "".join([f"  +{grow}ms footer" if grow else "",
                          "  [grouped]" if grouped else ""])
         print(f"  {hc}  {total:5.1f}s   header {hdr_at:5.2f}s ({hdr_len:.2f}s "
               f"vo, +{need}ms card)   chip {chip_at:5.2f}s "
