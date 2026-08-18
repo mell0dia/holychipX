@@ -125,8 +125,9 @@
       "kind": "vault",
       "tags": "#Environment #Automation #Profit",
       "lead": "FROM THE VAULT · Paper from ocean water, because the trees are already gone.",
-      "status": "pending",
-      "shifted_from": "2026-08-13"
+      "status": "done",
+      "shifted_from": "2026-08-13",
+      "posted_at": "2026-08-16 09:02"
     },
     {
       "date": "2026-08-18",
@@ -134,7 +135,8 @@
       "kind": "vault",
       "tags": "#SmartTV #Entertainment #Homes",
       "lead": "FROM THE VAULT · She wants Oprah, he wants football, and the TV has found a third option.",
-      "status": "pending"
+      "status": "done",
+      "posted_at": "2026-08-18 09:02"
     },
     {
       "date": "2026-08-20",
@@ -158,6 +160,310 @@
       "kind": "vault",
       "tags": "#Poverty #Economics #Metrics",
       "lead": "FROM THE VAULT · A billion people live on a dollar a day. It fixed the statistic.",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-25",
+      "story": "HC001",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-26",
+      "story": "HC002",
+      "kind": "reel",
+      "tags": "#SmartTV #Entertainment #Homes",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-27",
+      "story": "HC003",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-28",
+      "story": "HC004",
+      "kind": "reel",
+      "tags": "#Corporate #Automation #Leadership",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-29",
+      "story": "HC005",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-30",
+      "story": "HC006",
+      "kind": "reel",
+      "tags": "#SelfImprovement #AGI #Purpose",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-31",
+      "story": "HC007",
+      "kind": "reel",
+      "tags": "#Surgery #Creativity #Safety",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-01",
+      "story": "HC008",
+      "kind": "reel",
+      "tags": "#SelfDriving #Sensors",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-02",
+      "story": "HC009",
+      "kind": "reel",
+      "tags": "#Security #Secrets #Legacy",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-03",
+      "story": "HC011",
+      "kind": "reel",
+      "tags": "#Time #Consciousness",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-04",
+      "story": "HC012",
+      "kind": "reel",
+      "tags": "#Startups #Economy",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-05",
+      "story": "HC013",
+      "kind": "reel",
+      "tags": "#Power #Ambition",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-06",
+      "story": "HC014",
+      "kind": "reel",
+      "tags": "#Bias #Audit #Fairness",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-07",
+      "story": "HC015",
+      "kind": "reel",
+      "tags": "#Environment #Automation #Profit",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-08",
+      "story": "HC016",
+      "kind": "reel",
+      "tags": "#Poverty #Economics #Metrics",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-09",
+      "story": "HC017",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-10",
+      "story": "HC018",
+      "kind": "reel",
+      "tags": "#Jobs #Work #Automation",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-11",
+      "story": "HC019",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-12",
+      "story": "HC020",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-13",
+      "story": "HC021",
+      "kind": "reel",
+      "tags": "#Space #Future #Energy",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-14",
+      "story": "HC022",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-15",
+      "story": "HC023",
+      "kind": "reel",
+      "tags": "#Power #Geopolitics #Work",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-16",
+      "story": "HC024",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-17",
+      "story": "HC025",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-18",
+      "story": "HC026",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-19",
+      "story": "HC027",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-20",
+      "story": "HC028",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-21",
+      "story": "HC029",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-22",
+      "story": "HC030",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-23",
+      "story": "HC031",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-24",
+      "story": "HC032",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-25",
+      "story": "HC033",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-26",
+      "story": "HC034",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-27",
+      "story": "HC035",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-28",
+      "story": "HC036",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-29",
+      "story": "HC037",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-30",
+      "story": "HC038",
+      "kind": "reel",
+      "tags": "#Compression #AI #Pressure",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-10-01",
+      "story": "HC039",
+      "kind": "reel",
+      "tags": "#Intelligence #Consciousness #Embodiment",
+      "lead": "",
       "status": "pending"
     }
   ]

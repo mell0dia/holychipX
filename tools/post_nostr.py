@@ -77,15 +77,19 @@ def pick_story(tracker, requested=None):
     sys.exit("all FB-released stories already on nostr — nothing to do")
 
 
-def compose(entry):
+def compose(entry, video=False):
     story = entry["story"]
     title = entry.get("title", story)
     origin = f"{SITE}/origins/{story}.html"
-    image = f"{SITE}/stories/{story}.png"
+    # --video posts the animated Reel instead of the still comic. The mp4 must
+    # already be live on the site; nostr clients fetch it themselves.
+    media = (f"{SITE}/videos/{story}.reel.mp4" if video
+             else f"{SITE}/stories/{story}.png")
+    mime = "video/mp4" if video else "image/png"
     # Tease style — same as X: title, drop, link, hashtags. Never the joke.
-    # Image URL FIRST so clients render it as hero at the top, text below.
+    # Media URL FIRST so clients render it as hero at the top, text below.
     content = (
-        f"{image}\n\n"
+        f"{media}\n\n"
         f"HOLY CHIP !! #{story}\n"
         f"{title}\n\n"
         f"Created by a human.\n\n"
@@ -98,9 +102,9 @@ def compose(entry):
         ["t", "comics"],
         ["t", story.lower()],
         ["r", origin],
-        ["imeta", f"url {image}", "m image/png", f"alt Holy Chip {story} — {title}"],
+        ["imeta", f"url {media}", f"m {mime}", f"alt Holy Chip {story} — {title}"],
     ]
-    return content, tags, image
+    return content, tags, media
 
 
 def publish(event, relays, timeout=8):
@@ -137,10 +141,10 @@ def cmd_post(args):
     from pynostr.event import Event
     tracker = load_tracker()
     entry = pick_story(tracker, args.story)
-    content, tags, image = compose(entry)
+    content, tags, media = compose(entry, video=args.video)
     print(f"--- {entry['story']} — {entry.get('title','')} ---")
     print(content)
-    print(f"(image: {image})")
+    print(f"({'video' if args.video else 'image'}: {media})")
     if args.dry_run:
         print("\n[dry-run] not signing or publishing")
         return
@@ -152,8 +156,13 @@ def cmd_post(args):
     event.compute_id()
     event.sign(pk.hex())
     publish(event, RELAYS)
-    entry["nostr_event_id"] = event.id
-    entry["nostr_posted_at"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+    # A Reel post is recorded under its own key. Writing it to nostr_event_id
+    # would make the daily backfill cron think the still comic already went
+    # out, and that story would never get its image note.
+    key = "nostr_reel_event_id" if args.video else "nostr_event_id"
+    entry[key] = event.id
+    entry[key.replace("event_id", "posted_at")] = \
+        datetime.now().strftime("%Y-%m-%d %H:%M")
     entry["nostr_relays"] = RELAYS
     save_tracker(tracker)
     print(f"\nposted: nostr event {event.id}")
@@ -164,6 +173,8 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument("--profile", action="store_true", help="publish kind-0 metadata and exit")
     p.add_argument("--story", help="post specific HC###")
+    p.add_argument("--video", action="store_true",
+                   help="post the Reel mp4 instead of the still comic")
     p.add_argument("--dry-run", action="store_true")
     args = p.parse_args()
     load_env()

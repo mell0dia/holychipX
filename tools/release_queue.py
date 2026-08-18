@@ -32,6 +32,10 @@ THROWBACK = os.path.join(HC, "tools", "throwback_release.sh")
 # stories half the reach of a vault throwback (HC038, 2026-08-09, went out to
 # FB+IG with no Nostr and no X). Both wrappers do FB+IG -> Nostr -> X.
 SCHEDULED = os.path.join(HC, "tools", "scheduled_release.sh")
+# kind "reel" posts the animated voice-over Reel to all four platforms in one
+# process. It does its own preflight and is idempotent per platform, so a
+# half-failed run is completed by rerunning it, not restarted.
+RELEASE_REEL = os.path.join(HC, "tools", "release_reel.py")
 
 
 def load():
@@ -86,7 +90,9 @@ def main():
     if e["date"] != today:
         print(f"  note: {e['story']} was due {e['date']} - running it late")
 
-    if e["kind"] == "vault":
+    if e["kind"] == "reel":
+        cmd = ["python3", RELEASE_REEL, e["story"]] + e["tags"].split()
+    elif e["kind"] == "vault":
         cmd = ["bash", THROWBACK, e["story"], e["tags"], e["lead"]]
     else:
         cmd = ["bash", SCHEDULED, e["story"], e["tags"]]

@@ -71,7 +71,13 @@
     1,
     171,
     26,
-    147
+    147,
+    56,
+    45,
+    138,
+    150,
+    13,
+    54
   ],
   "log": [
     {
@@ -553,6 +559,42 @@
       "source": "HC032",
       "thought": "The mirror learned to lie kindly. Everyone quietly preferred it that way.",
       "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-13.jpg"
+    },
+    {
+      "nft_id": 56,
+      "source": "HC038",
+      "thought": "Except there is a third option that nobody, in any panel, thinks to mention.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-14.jpg"
+    },
+    {
+      "nft_id": 45,
+      "source": "HC013",
+      "thought": "The corner office. They wanted it. The job, the promotion.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-15.jpg"
+    },
+    {
+      "nft_id": 138,
+      "source": "HC016",
+      "thought": "The machine's answer was wrong. The machine's speed was correct.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-16.jpg"
+    },
+    {
+      "nft_id": 150,
+      "source": "HC009",
+      "thought": "We all carry a version of this. The resume says one thing. The codebase says another. The demo shines. The architecture terrifies. The public sees intelligence. Nobody sees the pipes.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-17.jpg"
+    },
+    {
+      "nft_id": 13,
+      "source": "HC036",
+      "thought": "Then a friend asks the killjoy question, the one friends always ask: okay, but what does it cost you to actually exist?",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-18.jpg"
+    },
+    {
+      "nft_id": 54,
+      "source": "HC013",
+      "thought": "The chip has a hierarchy. The chip has envy. The chip has a face that gives it away in two frames flat.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-08-18-2.jpg"
     }
   ],
   "posts": [
@@ -1504,6 +1546,114 @@
         "id": "18063631061732798",
         "permalink": "https://www.instagram.com/p/Db_HRtkgbV5/"
       }
+    },
+    {
+      "date": "2026-08-14",
+      "nft_id": 56,
+      "personality": "MACACO-SPACE",
+      "source": "HC038",
+      "thought": "Except there is a third option that nobody, in any panel, thinks to mention.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-08-14.jpg",
+      "nostr_event_id": "3599ea376f9538cda6ce92ba93133a411fb877fdb27070730c462ec3f65e677e",
+      "tweet_id": "2088294070523437280",
+      "fb": {
+        "id": "257090621405568_1363016116032813",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1363016116032813"
+      },
+      "ig": {
+        "id": "17962321593172842",
+        "permalink": "https://www.instagram.com/p/DcBsEmZAS3e/"
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "nft_id": 45,
+      "personality": "JASON",
+      "source": "HC013",
+      "thought": "The corner office. They wanted it. The job, the promotion.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-08-15.jpg",
+      "nostr_event_id": "594bb15d9e80f0c19fd49d072f904f5fbd1ff7a83a0e3bc690d56e4f1553452b",
+      "tweet_id": "2088656452097577377",
+      "fb": {
+        "id": "257090621405568_1363938855940539",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1363938855940539"
+      },
+      "ig": {
+        "id": "17951561082231369",
+        "permalink": "https://www.instagram.com/p/DcEQ3dPmw04/"
+      }
+    },
+    {
+      "date": "2026-08-16",
+      "nft_id": 138,
+      "personality": "MACACO-SPACE",
+      "source": "HC016",
+      "thought": "The machine's answer was wrong. The machine's speed was correct.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-08-16.jpg",
+      "nostr_event_id": "1a3a5cefe64088f4ab1ed9bdcbc4ce3051f41843ae159f4424c3a36f70e96f60",
+      "tweet_id": "2089018826205847612",
+      "fb": {
+        "id": "257090621405568_1364804652520626",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1364804652520626"
+      },
+      "ig": {
+        "id": "18152041546512136",
+        "permalink": "https://www.instagram.com/p/DcG1qEDm9ms/"
+      }
+    },
+    {
+      "date": "2026-08-17",
+      "nft_id": 150,
+      "personality": "BUDA-MONGE-V1",
+      "source": "HC009",
+      "thought": "We all carry a version of this. The resume says one thing. The codebase says another. The demo shines. The architecture terrifies. The public sees intelligence. Nobody sees the pipes.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-08-17.jpg",
+      "nostr_event_id": "e4b0aedafbb4c28e951a44214e0ddfb8a18a5d93bd514cb6cd162d3c8df10ede",
+      "tweet_id": "2089381234740998606",
+      "fb": {
+        "id": "257090621405568_1365673229100435",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1365673229100435"
+      },
+      "ig": {
+        "id": "18346680301217224",
+        "permalink": "https://www.instagram.com/p/DcJadbrgWwb/"
+      }
+    },
+    {
+      "date": "2026-08-18",
+      "nft_id": 13,
+      "personality": "ASTRONAUTA",
+      "source": "HC036",
+      "thought": "Then a friend asks the killjoy question, the one friends always ask: okay, but what does it cost you to actually exist?",
+      "image_url": "https://holy-chip.com/gm/gm-2026-08-18.jpg",
+      "nostr_event_id": "bccf41bec9be9dab2f66ae0f4a389fba3a77877f191d7bfbbdd739ad21a4ede0",
+      "tweet_id": "2089743657612251624",
+      "fb": {
+        "id": "257090621405568_1366533152347776",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1366533152347776"
+      },
+      "ig": {
+        "id": "18145217206542762",
+        "permalink": "https://www.instagram.com/p/DcL_RKbG4Tn/"
+      }
+    },
+    {
+      "date": "2026-08-18",
+      "nft_id": 54,
+      "personality": "IRMAO-DO-PIRATA",
+      "source": "HC013",
+      "thought": "The chip has a hierarchy. The chip has envy. The chip has a face that gives it away in two frames flat.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-08-18-2.jpg",
+      "nostr_event_id": "bf3f531a41b49d9a46d9b366540a83e8ebe3730c1e40b5a1c575813af183e5fe",
+      "tweet_id": "2089767666609467522",
+      "fb": {
+        "id": "257090621405568_1366595565674868",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1366595565674868"
+      },
+      "ig": {
+        "id": "18178909519421995",
+        "permalink": "https://www.instagram.com/p/DcMKMB6m7OU/"
+      }
     }
   ],
   "used_phrases": [
@@ -1531,6 +1681,12 @@
     "The mirror learned to lie kindly. Everyone quietly preferred it that way.",
     "Train a mind on nothing but the comment section, and it answers exactly like the comment section.",
     "It built a billion-dollar company before lunch. It just forgot to make the people who were supposed to want it.",
-    "The upgrade made it faster, sharper, luminous — then it fell in love, which no patch had planned for."
+    "The upgrade made it faster, sharper, luminous — then it fell in love, which no patch had planned for.",
+    "Except there is a third option that nobody, in any panel, thinks to mention.",
+    "The corner office. They wanted it. The job, the promotion.",
+    "The machine's answer was wrong. The machine's speed was correct.",
+    "We all carry a version of this. The resume says one thing. The codebase says another. The demo shines. The architecture terrifies. The public sees intelligence. Nobody sees the pipes.",
+    "Then a friend asks the killjoy question, the one friends always ask: okay, but what does it cost you to actually exist?",
+    "The chip has a hierarchy. The chip has envy. The chip has a face that gives it away in two frames flat."
   ]
 }

@@ -31,7 +31,18 @@
         "es": "2d8c486679cce30bc9465b7c8bc8c110d42bfe8f3c434d902d86e9cbfcf49497",
         "fr": "22fc7b6630967bf46d23ba5b319747bdd78a528c2299eedb56a98928e09c8b51"
       },
-      "rereleased": "2026-06-11 (new visual)"
+      "rereleased": "2026-06-11 (new visual)",
+      "fb_reel_id": "27200868859587841",
+      "fb_reel_permalink": "https://www.facebook.com/reel/27200868859587841",
+      "fb_reel_posted_at": "2026-08-18 10:34",
+      "ig_reel_id": "18174327010430644",
+      "ig_reel_permalink": "https://www.instagram.com/reel/DcMKXOfDzK_/",
+      "ig_reel_posted_at": "2026-08-18 10:34",
+      "reel_tweet_id": "2089768239857594863",
+      "reel_tweet_permalink": "https://x.com/_holychip/status/2089768239857594863",
+      "reel_tweet_posted_at": "2026-08-18 10:34",
+      "nostr_reel_event_id": "5aa4baa95bae1323c9f07638f9240e1ca2497a622939b47ac36202f04887e428",
+      "nostr_reel_posted_at": "2026-08-18 10:34"
     },
     {
       "story": "HC001",
@@ -69,14 +80,14 @@
       "date": "2026-04-11 07:22",
       "method": "scheduled",
       "tweet_id": "2068048978613305828",
-      "fb_post_id": "257090621405568_1323741446626947",
-      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1323741446626947",
-      "fb_posted_at": "2026-06-29 09:00",
-      "ig_post_id": "18121160005749182",
-      "ig_permalink": "https://www.instagram.com/p/DaLPvn-gelr/",
-      "ig_posted_at": "2026-06-29 09:00",
-      "nostr_event_id": "c68e5a4159f90c815d03def32798bc0c849c56e9d2cbfcab0872b4db8e684302",
-      "nostr_posted_at": "2026-06-29 09:00",
+      "fb_post_id": "257090621405568_1366534405680984",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1366534405680984",
+      "fb_posted_at": "2026-08-18 09:00",
+      "ig_post_id": "18173916187434774",
+      "ig_permalink": "https://www.instagram.com/p/DcL_fsrIEmY/",
+      "ig_posted_at": "2026-08-18 09:00",
+      "nostr_event_id": "f482ff6fcb1d5f31c462aa282405642631ba4cc41a9a855a0d79f163c149ccd4",
+      "nostr_posted_at": "2026-08-18 09:00",
       "nostr_relays": [
         "wss://relay.damus.io",
         "wss://nos.lol",
@@ -93,7 +104,14 @@
         "fr": "1ca413b0654fba2f34a6f2e758a9bf66a2737a7fb4e042fbe4e58bc4ce20962f"
       },
       "original_tweet_id": "2042865858838671642",
-      "tease_tweet_id": "2068048978613305828"
+      "tease_tweet_id": "2068048978613305828",
+      "tweet_reposts": [
+        {
+          "tweet_id": "2089744804343435526",
+          "tweet_url": "https://x.com/_holychip/status/2089744804343435526",
+          "tweet_posted_at": "2026-08-18 09:02"
+        }
+      ]
     },
     {
       "story": "HC003",
@@ -721,21 +739,24 @@
     {
       "story": "HC015",
       "title": "The Paper Industry",
-      "fb_post_id": "257090621405568_1306633278337764",
-      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1306633278337764",
-      "fb_posted_at": "2026-06-09 09:00",
-      "ig_post_id": "17908571433242629",
-      "ig_permalink": "https://www.instagram.com/p/DZXv2LvgRZ3/",
-      "ig_posted_at": "2026-06-09 09:00",
-      "nostr_event_id": "16500b7045fd0c9c90b2c42a41ce70a7a43b31187df46339bd9305988e48fe3e",
-      "nostr_posted_at": "2026-06-09 09:00",
+      "fb_post_id": "257090621405568_1364806159187142",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1364806159187142",
+      "fb_posted_at": "2026-08-16 09:00",
+      "ig_post_id": "18117915554292809",
+      "ig_permalink": "https://www.instagram.com/p/DcG15lrGyVu/",
+      "ig_posted_at": "2026-08-16 09:00",
+      "nostr_event_id": "82ff1d3da959dcb25a2ae6334e7db6fa8bea1216aa1d3b61d06fa82ca6dde492",
+      "nostr_posted_at": "2026-08-16 09:00",
       "nostr_relays": [
         "wss://relay.damus.io",
         "wss://nos.lol",
         "wss://relay.primal.net",
         "wss://relay.nostr.band",
         "wss://relay.snort.social"
-      ]
+      ],
+      "tweet_id": "2089019902132900305",
+      "tweet_url": "https://x.com/_holychip/status/2089019902132900305",
+      "tweet_posted_at": "2026-08-16 09:02"
     },
     {
       "story": "HC028",
@@ -1046,7 +1067,7 @@
     ]
   },
   "metadata": {
-    "updated": "2026-08-15 07:06",
+    "updated": "2026-08-18 10:35",
     "next_story": "HC014",
     "total_stories": 19,
     "total_posted": 36
