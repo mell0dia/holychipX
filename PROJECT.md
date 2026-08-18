@@ -1,6 +1,9 @@
 # Holy Chip — Project Manifest
 # This is the single source of truth for project structure.
-# Updated: 2026-04-03
+# Updated: 2026-08-18 (Reels section + story count). NOTE: the Hermes sections
+# below are STALE — Hermes was killed 2026-04-06 and the runSonnet/runHaiku/
+# runOpus/runLocal shortcuts and ~/.hermes/ skills no longer exist. The cron
+# list is also out of date; CRON-DASHBOARD.md is the live source for jobs.
 
 ## Data Files (~/holy-chip/content/)
 - **dm-tracker.json** — DM outreach tracker: targets, who got what, when
@@ -32,8 +35,34 @@
 - **xcli** — Tweet wrapper (x-cli with correct creds)
 - **x-dm** — Send DMs with image attachments
 
+## Voice-Over Reels (added 2026-08-18)
+Every story has an animated Reel with three audio elements and nothing else:
+a Zarvox TTS header reading the banner title + year over the title card, the
+`audio/robotz.mp4` bed alone through the build-up, and a dramatic TTS
+"HOLY — *beep* — CHIP!!" on the final bubble.
+
+- **tools/reel_vo.py** — builds it. `reel_vo.py HC###` or `--all`. Owns the
+  whole recipe; the approved mix levels are constants at the top of the file.
+- **tools/release_reel.py** — posts one Reel to FB + IG + X + Nostr. Idempotent
+  per platform (a rerun completes a half-failed run rather than duplicating),
+  and preflights the public URL against the local file's size.
+- **tools/tweet_video.py** — X chunked video upload. `tweet_image.py`'s one-shot
+  upload cannot do video.
+- **tools/post_nostr.py --video** — posts the mp4; records `nostr_reel_event_id`
+  so the still-image backfill cron still sees the story as owing a note.
+- **release-queue.json** entries with `kind: "reel"` dispatch to release_reel.py.
+
+Two constraints that are easy to break:
+- The title card is sized from the MEASURED voice-over. Spoken headers run
+  3.2–4.5s depending on the title; a fixed nudge clips the long ones.
+- Offsets are walked frame by frame, replicating `save_mp4`'s per-element
+  rounding. A cumulative millisecond total drifts ~2 frames over a 27s Reel.
+
+**Schedule:** HC000 released by hand 2026-08-18. HC001–HC039 go out one a day
+from **2026-08-25** (after the vault stills finish 08-24) through **2026-10-01**.
+
 ## Comic Assets
-- **~/holy-chip/stories/** — HC000-HC018 (.png, .pre.png, .json)
+- **~/holy-chip/stories/** — HC000-HC039, no HC010 (39 stories: .png, .pre.png, .json)
 - **~/holy-chip/characters/** — Chip 0, Chip 1 base characters
 - **~/holy-chip/campaigns/** — Per-story campaign folders with post tracking
 
