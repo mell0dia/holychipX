@@ -757,7 +757,18 @@
       ],
       "tweet_id": "2089019902132900305",
       "tweet_url": "https://x.com/_holychip/status/2089019902132900305",
-      "tweet_posted_at": "2026-08-16 09:02"
+      "tweet_posted_at": "2026-08-16 09:02",
+      "fb_reel_id": "1657783939014451",
+      "fb_reel_permalink": "https://www.facebook.com/reel/1657783939014451",
+      "fb_reel_posted_at": "2026-08-19 11:41",
+      "ig_reel_id": "17961232095077291",
+      "ig_reel_permalink": "https://www.instagram.com/reel/DcO2y6cAEwl/",
+      "ig_reel_posted_at": "2026-08-19 11:41",
+      "reel_tweet_id": "2090147443182825682",
+      "reel_tweet_permalink": "https://x.com/_holychip/status/2090147443182825682",
+      "reel_tweet_posted_at": "2026-08-19 11:41",
+      "nostr_reel_event_id": "ece99eaf4ac64b3834672b58edb2dd0a7f691a5623059a4d843daaf683d71c18",
+      "nostr_reel_posted_at": "2026-08-19 11:41"
     },
     {
       "story": "HC028",
@@ -1068,7 +1079,7 @@
     ]
   },
   "metadata": {
-    "updated": "2026-08-18 11:14",
+    "updated": "2026-08-19 11:42",
     "next_story": "HC014",
     "total_stories": 19,
     "total_posted": 36
