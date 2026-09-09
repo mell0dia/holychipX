@@ -93,7 +93,10 @@ def main():
     if e["kind"] == "reel":
         cmd = ["python3", RELEASE_REEL, e["story"]] + e["tags"].split()
     elif e["kind"] == "vault":
+        # optional per-entry marker replaces the "FROM THE VAULT" line
         cmd = ["bash", THROWBACK, e["story"], e["tags"], e["lead"]]
+        if e.get("marker"):
+            cmd.append(e["marker"])
     else:
         cmd = ["bash", SCHEDULED, e["story"], e["tags"]]
 

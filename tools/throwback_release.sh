@@ -4,11 +4,13 @@
 # FB/IG caption gets a "FROM THE VAULT" lead line (THROWBACK_LEAD) so it reads as
 # intentional curation, not a duplicate. X uses a freshly-generated tease; Nostr
 # re-broadcasts (reposts are fine there).
-# Usage: throwback_release.sh <SID> "<theme tags>" "<lead line>"
+# Usage: throwback_release.sh <SID> "<theme tags>" "<lead>" ["<marker>"]
 set -uo pipefail
 SID="${1:?usage: throwback_release.sh HC### \"#tags\" \"<lead>\"}"
 THEME="${2:-}"
 export THROWBACK_LEAD="${3:-}"
+# optional 4th arg: overrides the "FROM THE VAULT" marker line
+export THROWBACK_MARKER="${4:-}"
 VENV=/Users/rmello/holy-chip/venv/nostr/bin/python
 cd /Users/rmello/holy-chip || exit 1
 
