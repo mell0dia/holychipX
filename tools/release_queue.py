@@ -58,6 +58,18 @@ def main():
     ap.add_argument("--date", help="YYYY-MM-DD, defaults to today")
     a = ap.parse_args()
 
+    # Top the vault rotation up before choosing today's entry. vault_refill is
+    # a no-op while any vault is still pending, so this costs nothing on a normal
+    # day; on the day the cycle runs dry it starts the next one, and the feed
+    # never silently drops to reels-only.
+    if not a.list and not a.dry_run:
+        try:
+            subprocess.run(["python3", os.path.join(HC, "tools",
+                                                    "vault_refill.py")],
+                           cwd=HC, timeout=120)
+        except Exception as e:
+            print(f"  vault refill skipped: {e}")
+
     d = load()
     today = a.date or datetime.date.today().isoformat()
 

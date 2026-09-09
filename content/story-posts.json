@@ -322,8 +322,8 @@
         "wss://relay.damus.io",
         "wss://nos.lol",
         "wss://relay.primal.net",
-        "wss://relay.snort.social",
-        "wss://relay.nostr.band"
+        "wss://relay.nostr.band",
+        "wss://relay.snort.social"
       ],
       "nostr_card_event_id": "3e395526fe5ba03df131ef3db1ced5b85e6dcd3fb85d231dbcb70caf54f92235",
       "nostr_card_posted_at": "2026-06-02 15:00",
@@ -332,7 +332,18 @@
         "pt": "107a24b9c337501fa706aa5308db8979b9473de77537aa67968b8fa3322fd21e",
         "es": "5474422e8934523006987ec3dcc58784f4ecc0e3e2c8e5a43752d4c337c6a7a6",
         "fr": "f43739ca5984c6d520f4f87b88736371a03ef25596a5060ef49439f69c8fa3ee"
-      }
+      },
+      "fb_reel_id": "1018412644554142",
+      "fb_reel_permalink": "https://www.facebook.com/reel/1018412644554142",
+      "fb_reel_posted_at": "2026-09-09 07:31",
+      "ig_reel_id": "17919549417221132",
+      "ig_reel_permalink": "https://www.instagram.com/reel/DdEe07vjxJy/",
+      "ig_reel_posted_at": "2026-09-09 07:31",
+      "reel_tweet_id": "2097694536936157283",
+      "reel_tweet_permalink": "https://x.com/_holychip/status/2097694536936157283",
+      "reel_tweet_posted_at": "2026-09-09 07:31",
+      "nostr_reel_event_id": "746d5306234e98a58b8d90dbec0c45340c77f54766442e79e7faf89b044cded6",
+      "nostr_reel_posted_at": "2026-09-09 07:31"
     },
     {
       "story": "HC007",
@@ -1248,7 +1259,7 @@
     ]
   },
   "metadata": {
-    "updated": "2026-09-08 15:20",
+    "updated": "2026-09-09 07:32",
     "next_story": "HC014",
     "total_stories": 19,
     "total_posted": 36,
