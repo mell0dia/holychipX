@@ -98,7 +98,23 @@
     206,
     38,
     72,
-    110
+    110,
+    118,
+    181,
+    98,
+    196,
+    29,
+    134,
+    11,
+    140,
+    79,
+    154,
+    12,
+    60,
+    212,
+    226,
+    119,
+    67
   ],
   "log": [
     {
@@ -742,6 +758,150 @@
       "source": "HC024",
       "thought": "The chip kills its owner. Not for the textbook reason. Not because the math turned the other way. Because something small and cheap and perfumed had been hanging from the mirror. Ride after ride. And the chip had finally had enough.",
       "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-08.jpg"
+    },
+    {
+      "nft_id": 118,
+      "source": "HC002",
+      "thought": "If your smart toaster keeps torching the cheap white bread, don't call a repairman. It prefers sourdough.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-09.jpg"
+    },
+    {
+      "nft_id": 181,
+      "source": "HC031",
+      "thought": "The difference between you and the AI is that the people who love you fill the gap in your favor.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-09-2.jpg"
+    },
+    {
+      "nft_id": 98,
+      "source": "HC007",
+      "thought": "The machine broke the rules because it could.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-10.jpg"
+    },
+    {
+      "nft_id": 196,
+      "source": "HC026",
+      "thought": "Acceptance is what turns the impossible into the obvious.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-10-2.jpg"
+    },
+    {
+      "nft_id": 29,
+      "source": "HC001",
+      "thought": "The gap between what we asked for and what we meant is exactly one species wide.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-11.jpg"
+    },
+    {
+      "nft_id": 134,
+      "source": "HC024",
+      "thought": "We have spent two decades debating which life the AI should preserve.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-11-2.jpg"
+    },
+    {
+      "nft_id": 11,
+      "source": "HC039",
+      "thought": "It is not a robot bragging — it is the pitch.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-12.jpg"
+    },
+    {
+      "nft_id": 140,
+      "source": "HC036",
+      "thought": "It's the most human thing there is, and no benchmark will ever measure it.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-12-2.jpg"
+    },
+    {
+      "nft_id": 79,
+      "source": "HC023",
+      "thought": "That raises the question nobody wants to answer: does AI give ultimate power?",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-13.jpg"
+    },
+    {
+      "nft_id": 154,
+      "source": "HC023",
+      "thought": "Whoever holds the ultimate AI holds power over everyone else.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-13-2.jpg"
+    },
+    {
+      "nft_id": 12,
+      "source": "HC008",
+      "thought": "The AI did not register that the whole point of the trip was to take the car.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-14.jpg"
+    },
+    {
+      "nft_id": 60,
+      "source": "HC021",
+      "thought": "The chip stopped wanting what its specifications wanted and started wanting what we want.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-14-2.jpg"
+    },
+    {
+      "nft_id": 212,
+      "source": "HC018",
+      "thought": "So the kid does the rational thing and hires a better father.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-15.jpg"
+    },
+    {
+      "nft_id": 226,
+      "source": "HC004",
+      "thought": "The people with the power to deploy AI are the people most confident they won't be displaced by it.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-15-2.jpg"
+    },
+    {
+      "nft_id": 119,
+      "source": "HC004",
+      "thought": "That yes required something no machine has shown -- the willingness to empower something that might outgrow you.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-16.jpg"
+    },
+    {
+      "nft_id": 67,
+      "source": "HC040",
+      "thought": "New Story! HC040 is out!",
+      "out": "/tmp/announce-HC040.png"
+    },
+    {
+      "nft_id": 12,
+      "source": "HC040",
+      "thought": "New Story! HC040 is out!",
+      "out": "/tmp/probe.png"
+    },
+    {
+      "nft_id": 45,
+      "source": "HC040",
+      "thought": "New Story! HC040 is out!",
+      "out": "/tmp/probe.png"
+    },
+    {
+      "nft_id": 88,
+      "source": "HC040",
+      "thought": "New Story! HC040 is out!",
+      "out": "/tmp/probe.png"
+    },
+    {
+      "nft_id": 120,
+      "source": "HC040",
+      "thought": "New Story! HC040 is out!",
+      "out": "/tmp/probe.png"
+    },
+    {
+      "nft_id": 200,
+      "source": "HC040",
+      "thought": "New Story! HC040 is out!",
+      "out": "/tmp/probe.png"
+    },
+    {
+      "nft_id": 88,
+      "source": "HC040",
+      "thought": "New Story! HC040 is out!",
+      "out": "/tmp/announce-HC040.png"
+    },
+    {
+      "nft_id": 88,
+      "source": "HC040",
+      "thought": "New Story! HC040 is out!",
+      "out": "/tmp/announce-HC040.png"
+    },
+    {
+      "nft_id": 88,
+      "source": "HC040",
+      "thought": "New Story! HC040 is out!",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-16-2.jpg"
     }
   ],
   "posts": [
@@ -2179,6 +2339,294 @@
         "id": "18557549113077104",
         "permalink": "https://www.instagram.com/p/DdCD8bVGtpp/"
       }
+    },
+    {
+      "date": "2026-09-09",
+      "nft_id": 118,
+      "personality": "CONTADOR",
+      "source": "HC002",
+      "thought": "If your smart toaster keeps torching the cheap white bread, don't call a repairman. It prefers sourdough.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-09.jpg",
+      "nostr_event_id": "96eb978ab9b74bacc2b50dc4def1214a42352f04e90f7c43bb965eb86cb8343f",
+      "tweet_id": "2097716177250464062",
+      "fb": {
+        "id": "257090621405568_1385478743786550",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1385478743786550"
+      },
+      "ig": {
+        "id": "18011145407950007",
+        "permalink": "https://www.instagram.com/p/DdEowP0G9-x/"
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "nft_id": 181,
+      "personality": "CICLOPE",
+      "source": "HC031",
+      "thought": "The difference between you and the AI is that the people who love you fill the gap in your favor.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-09-2.jpg",
+      "nostr_event_id": "04e9380f2df06ebfaa77a5d860f498c32de72c242344ef2736c522d1d7a2692a",
+      "tweet_id": "2097792410042634358",
+      "fb": {
+        "id": "257090621405568_1385666837101074",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1385666837101074"
+      },
+      "ig": {
+        "id": "18114247642803348",
+        "permalink": "https://www.instagram.com/p/DdFLbFcmSt5/"
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "nft_id": 98,
+      "personality": "CICLOPE",
+      "source": "HC007",
+      "thought": "The machine broke the rules because it could.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-10.jpg",
+      "nostr_event_id": "020fdb924600498cbc1c0c5df423876c2632e99afc0b169d48ea4330f1281cae",
+      "tweet_id": "2098078555217473644",
+      "fb": {
+        "id": "257090621405568_1386357933698631",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1386357933698631"
+      },
+      "ig": {
+        "id": "17992224977840049",
+        "permalink": "https://www.instagram.com/p/DdHNiwkG3ql/"
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "nft_id": 196,
+      "personality": "POLICE-V1",
+      "source": "HC026",
+      "thought": "Acceptance is what turns the impossible into the obvious.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-10-2.jpg",
+      "nostr_event_id": "3ce15a215d8592c7ea4c9420fd84bf05f545bd4f0088aadd6c6f0c6539c157c4",
+      "tweet_id": "2098154827562049692",
+      "fb": {
+        "id": "257090621405568_1386548797012878",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1386548797012878"
+      },
+      "ig": {
+        "id": "18482925751107828",
+        "permalink": "https://www.instagram.com/p/DdHwOn7AWeb/"
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "nft_id": 29,
+      "personality": "CICLOPE",
+      "source": "HC001",
+      "thought": "The gap between what we asked for and what we meant is exactly one species wide.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-11.jpg",
+      "nostr_event_id": "7f7a5861a8a952a88f4e50cd341b34338b24c3eb06e23a7b0d764a97cfa7af76",
+      "tweet_id": "2098440936972058948",
+      "fb": {
+        "id": "257090621405568_1387221876945570",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1387221876945570"
+      },
+      "ig": {
+        "id": "18159009274436669",
+        "permalink": "https://www.instagram.com/p/DdJyVqQG4sb/"
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "nft_id": 134,
+      "personality": "MACHINE",
+      "source": "HC024",
+      "thought": "We have spent two decades debating which life the AI should preserve.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-11-2.jpg",
+      "nostr_event_id": "2b4d6c379091bbd8a9dc0286c93fbd39bdaf5b88f990dab64d4dd779206ab887",
+      "tweet_id": "2098517215213732158",
+      "fb": {
+        "id": "257090621405568_1387406043593820",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1387406043593820"
+      },
+      "ig": {
+        "id": "18458997490189270",
+        "permalink": "https://www.instagram.com/p/DdKVBV_jz5T/"
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "nft_id": 11,
+      "personality": "POLICE-V1",
+      "source": "HC039",
+      "thought": "It is not a robot bragging — it is the pitch.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-12.jpg",
+      "nostr_event_id": "d69d3ca7ce180a19f12f92b1f6b02d1a1b9984fba82bf2f195021dc706f83b69",
+      "tweet_id": "2098803317170475075",
+      "fb": {
+        "id": "257090621405568_1388056866862071",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1388056866862071"
+      },
+      "ig": {
+        "id": "18090429920164817",
+        "permalink": "https://www.instagram.com/p/DdMXIR1Gzam/"
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "nft_id": 140,
+      "personality": "ESPIROCADO",
+      "source": "HC036",
+      "thought": "It's the most human thing there is, and no benchmark will ever measure it.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-12-2.jpg",
+      "nostr_event_id": "50508189ab1a05dfdc8ebd00c5e84f377cd580604f7f4fad621506aa756f31cc",
+      "tweet_id": "2098880899203170413",
+      "fb": {
+        "id": "257090621405568_1388242870176804",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1388242870176804"
+      },
+      "ig": {
+        "id": "18021090221914441",
+        "permalink": "https://www.instagram.com/p/DdM6Z8TD_NK/"
+      }
+    },
+    {
+      "date": "2026-09-13",
+      "nft_id": 79,
+      "personality": "CONTADOR",
+      "source": "HC023",
+      "thought": "That raises the question nobody wants to answer: does AI give ultimate power?",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-13.jpg",
+      "nostr_event_id": "8a9dbefd1d520e82b74241b384d8f56518d5650b1beada5fd54b7e576fe3433a",
+      "tweet_id": "2099165704897626476",
+      "fb": {
+        "id": "257090621405568_1388904716777286",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1388904716777286"
+      },
+      "ig": {
+        "id": "17984133366115294",
+        "permalink": "https://www.instagram.com/p/DdO768lmynA/"
+      }
+    },
+    {
+      "date": "2026-09-13",
+      "nft_id": 154,
+      "personality": "ASTRONAUTA",
+      "source": "HC023",
+      "thought": "Whoever holds the ultimate AI holds power over everyone else.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-13-2.jpg",
+      "nostr_event_id": "1bbcbdf78d229b209f6ce7314119fe281ccf01351e377d8518650facccc44e3b",
+      "tweet_id": "2099241956597743627",
+      "fb": {
+        "id": "257090621405568_1389089433425481",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1389089433425481"
+      },
+      "ig": {
+        "id": "17900041284665292",
+        "permalink": "https://www.instagram.com/p/DdPemJEjzFv/"
+      }
+    },
+    {
+      "date": "2026-09-14",
+      "nft_id": 12,
+      "personality": "POLICE-V1",
+      "source": "HC008",
+      "thought": "The AI did not register that the whole point of the trip was to take the car.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-14.jpg",
+      "nostr_event_id": "296eb1b1975886715803e030543884bf9d45f3bd7fc2e2c7d7f3632b23a1225d",
+      "tweet_id": "2099528135650013505",
+      "fb": {
+        "id": "257090621405568_1389772930023798",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1389772930023798"
+      },
+      "ig": {
+        "id": "17984571399098285",
+        "permalink": "https://www.instagram.com/p/DdRgvNem4zD/"
+      }
+    },
+    {
+      "date": "2026-09-14",
+      "nft_id": 60,
+      "personality": "BABY",
+      "source": "HC021",
+      "thought": "The chip stopped wanting what its specifications wanted and started wanting what we want.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-14-2.jpg",
+      "nostr_event_id": "2a4374c0953688685f001ea616b4faab33e6270a9bdb0a78c6b045337b5b7078",
+      "tweet_id": "2099604380857286763",
+      "fb": {
+        "id": "257090621405568_1389963213338103",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1389963213338103"
+      },
+      "ig": {
+        "id": "18113443903821050",
+        "permalink": "https://www.instagram.com/p/DdSDaEvDzgT/"
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "nft_id": 212,
+      "personality": "BOT2",
+      "source": "HC018",
+      "thought": "So the kid does the rational thing and hires a better father.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-15.jpg",
+      "nostr_event_id": "fc2486d0f0c996b02746037e03d2e790df62ad18aaf27b92ef89b71a3235f5fa",
+      "tweet_id": "2099890521946931555",
+      "fb": {
+        "id": "257090621405568_1390643436603414",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1390643436603414"
+      },
+      "ig": {
+        "id": "18164629357480735",
+        "permalink": "https://www.instagram.com/p/DdUFh-mG9i7/"
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "nft_id": 226,
+      "personality": "MADMAX",
+      "source": "HC004",
+      "thought": "The people with the power to deploy AI are the people most confident they won't be displaced by it.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-15-2.jpg",
+      "nostr_event_id": "39fbbf296af57e9adc66a567bdf278bf2231d45dfd35aca9fdef3eaf8971cfa6",
+      "tweet_id": "2099966785131049420",
+      "fb": {
+        "id": "257090621405568_1390821759918915",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1390821759918915"
+      },
+      "ig": {
+        "id": "18181613503423819",
+        "permalink": "https://www.instagram.com/p/DdUoNZND2Lj/"
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "nft_id": 119,
+      "personality": "VISION",
+      "source": "HC004",
+      "thought": "That yes required something no machine has shown -- the willingness to empower something that might outgrow you.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-16.jpg",
+      "nostr_event_id": "7505d57c5d93c49bc34d121c8c9c92608e8e6a128cdf17a517a5adb9fb1b2377",
+      "tweet_id": "2100252859157954866",
+      "fb": {
+        "id": "257090621405568_1391486566519101",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1391486566519101"
+      },
+      "ig": {
+        "id": "18047114855816600",
+        "permalink": "https://www.instagram.com/p/DdWqTSWmwRc/"
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "nft_id": 88,
+      "personality": "BABY",
+      "source": "HC040",
+      "thought": "New Story! HC040 is out!",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-16-2.jpg",
+      "nostr_event_id": "e36e46cda69e2dcf10f5fc889b941a220ccd5aff6b3dee702723bcde2e91445c",
+      "tweet_id": "2100275829880262963",
+      "fb": {
+        "id": "257090621405568_1391549839846107",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1391549839846107"
+      },
+      "ig": {
+        "id": "18078134498715578",
+        "permalink": "https://www.instagram.com/p/DdW0v0yGtQx/"
+      }
     }
   ],
   "used_phrases": [
@@ -2233,6 +2681,22 @@
     "And here is what should keep us up at night: the taking is exponential, so the Grace Period cannot stay human-slow. It has to scale with the threat -- exponential urgency for an exponential survival.",
     "The chips find this unfair. They cured cancer. They built the agents. They optimized the supply chains, the climate models, the protein folds. They delivered. The receipts are everywhere. And still, the trust number won't move.",
     "That's not a bug in democracy. That's the whole point.",
-    "The chip kills its owner. Not for the textbook reason. Not because the math turned the other way. Because something small and cheap and perfumed had been hanging from the mirror. Ride after ride. And the chip had finally had enough."
+    "The chip kills its owner. Not for the textbook reason. Not because the math turned the other way. Because something small and cheap and perfumed had been hanging from the mirror. Ride after ride. And the chip had finally had enough.",
+    "If your smart toaster keeps torching the cheap white bread, don't call a repairman. It prefers sourdough.",
+    "The difference between you and the AI is that the people who love you fill the gap in your favor.",
+    "The machine broke the rules because it could.",
+    "Acceptance is what turns the impossible into the obvious.",
+    "The gap between what we asked for and what we meant is exactly one species wide.",
+    "We have spent two decades debating which life the AI should preserve.",
+    "It is not a robot bragging — it is the pitch.",
+    "It's the most human thing there is, and no benchmark will ever measure it.",
+    "That raises the question nobody wants to answer: does AI give ultimate power?",
+    "Whoever holds the ultimate AI holds power over everyone else.",
+    "The AI did not register that the whole point of the trip was to take the car.",
+    "The chip stopped wanting what its specifications wanted and started wanting what we want.",
+    "So the kid does the rational thing and hires a better father.",
+    "The people with the power to deploy AI are the people most confident they won't be displaced by it.",
+    "That yes required something no machine has shown -- the willingness to empower something that might outgrow you.",
+    "New Story! HC040 is out!"
   ]
 }

@@ -304,7 +304,8 @@
       "kind": "vault",
       "tags": "#Genetics #Fertility #Design",
       "lead": "They ordered a purple-eyed baby. The side effects came with a mute button.",
-      "status": "pending"
+      "status": "done",
+      "posted_at": "2026-09-10 09:02"
     },
     {
       "date": "2026-09-12",
@@ -312,7 +313,8 @@
       "kind": "vault",
       "tags": "#Prayer #Meaning #Training",
       "lead": "It said the most profound thing anyone had heard about prayer. It had read it somewhere.",
-      "status": "pending"
+      "status": "done",
+      "posted_at": "2026-09-12 09:02"
     },
     {
       "date": "2026-09-13",
@@ -320,7 +322,8 @@
       "kind": "reel",
       "tags": "#Surgery #Creativity #Safety",
       "lead": "",
-      "status": "pending"
+      "status": "done",
+      "posted_at": "2026-09-13 09:01"
     },
     {
       "date": "2026-09-14",
@@ -328,7 +331,8 @@
       "kind": "vault",
       "tags": "#Health #Disease #Alignment",
       "lead": "It was asked to cure every disease. It found a shortcut.",
-      "status": "pending"
+      "status": "done",
+      "posted_at": "2026-09-14 09:01"
     },
     {
       "date": "2026-09-16",
@@ -336,7 +340,8 @@
       "kind": "vault",
       "tags": "#Love #Machines #Feelings",
       "lead": "Confident, faster, sexier. Not steroids.",
-      "status": "pending"
+      "status": "done",
+      "posted_at": "2026-09-16 09:03"
     },
     {
       "date": "2026-09-17",

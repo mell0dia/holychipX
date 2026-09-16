@@ -195,11 +195,29 @@ def wrap_to_width(text, font, draw, max_w):
 
 
 def main():
+    # --text "..." renders an arbitrary line instead of drawing one from the
+    # approved list. Used by announce_story.py for "New Story! HC### is out!".
+    # The flag pair is removed from argv so the positional args below still line
+    # up. A custom line is not in gm-phrases.md, so post_gm's remove_phrase is a
+    # harmless no-op afterwards and nothing gets consumed.
+    text_override = None
+    if "--text" in sys.argv:
+        i = sys.argv.index("--text")
+        text_override = sys.argv[i + 1]
+        del sys.argv[i:i + 2]
+
     out_path = sys.argv[1] if len(sys.argv) > 1 else "/tmp/gm_card.png"
+    # "-" means "pick an NFT at random" — lets a caller pass a story id in the
+    # third slot without also having to choose a character.
     nft_arg = sys.argv[2] if len(sys.argv) > 2 else None
+    if nft_arg == "-":
+        nft_arg = None
     sid_arg = sys.argv[3] if len(sys.argv) > 3 else None
 
-    thought, source_sid = pick_thought(sid_arg)
+    if text_override is not None:
+        thought, source_sid = text_override, (sid_arg or "")
+    else:
+        thought, source_sid = pick_thought(sid_arg)
 
     if nft_arg is not None:
         nft_id = int(nft_arg)

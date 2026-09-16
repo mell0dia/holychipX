@@ -268,7 +268,30 @@ def main():
         out_path = GM_DIR / f"gm-{today}-{i}.jpg"
 
     print(f"generating {out_path}")
-    r = run([str(HC / "venv/nostr/bin/python"), str(TOOLS / "gm_card.py"), str(out_path)])
+    # --story HC### forces the phrase to come from that story, which also routes
+    # the CTA to that origin page. Used for "new story is out" announcements;
+    # without it the phrase is picked at random from the approved list.
+    story = None
+    if "--story" in sys.argv:
+        story = sys.argv[sys.argv.index("--story") + 1]
+    # --text passes an arbitrary line straight through to gm_card, bypassing the
+    # approved-phrase list entirely (see announce_story.py). Nothing is consumed.
+    text = None
+    if "--text" in sys.argv:
+        text = sys.argv[sys.argv.index("--text") + 1]
+    # --nft pins the character instead of leaving it to chance. That matters on
+    # an announcement: the random pick landed on the TRUMP character for HC040,
+    # a strip about dictators and democracy, which would have made a real-world
+    # political claim the blog deliberately avoids.
+    nft = "-"
+    if "--nft" in sys.argv:
+        nft = sys.argv[sys.argv.index("--nft") + 1]
+    cmd = [str(HC / "venv/nostr/bin/python"), str(TOOLS / "gm_card.py"), str(out_path)]
+    if text:
+        cmd += ["--text", text]
+    if story:
+        cmd += [nft, story]
+    r = run(cmd)
     print(r.stdout)
     info = parse_gm_output(r.stdout)
     if not info.get("nft_id"):

@@ -64,14 +64,14 @@
       "date": "2026-04-11 07:15",
       "method": "scheduled",
       "tweet_id": "2042864197885923741",
-      "fb_post_id": "257090621405568_1325561276444964",
-      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1325561276444964",
-      "fb_posted_at": "2026-07-01 10:15",
-      "ig_post_id": "18114915893506968",
-      "ig_permalink": "https://www.instagram.com/p/DaQgNqrlveM/",
-      "ig_posted_at": "2026-07-01 10:15",
-      "nostr_event_id": "a9aca683ac53291bac7fd12188734f5a3b54cbfbe108c1015a1b19aa4e3a5d78",
-      "nostr_posted_at": "2026-07-01 10:15",
+      "fb_post_id": "257090621405568_1389774303356994",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1389774303356994",
+      "fb_posted_at": "2026-09-14 09:00",
+      "ig_post_id": "18112908284326246",
+      "ig_permalink": "https://www.instagram.com/p/DdRg9BjG41v/",
+      "ig_posted_at": "2026-09-14 09:00",
+      "nostr_event_id": "5e3c5a8bfc2f48284a1d2ab8cec42ffe51db0a91bfaca719bff684469162e79d",
+      "nostr_posted_at": "2026-09-14 09:00",
       "nostr_relays": [
         "wss://relay.damus.io",
         "wss://nos.lol",
@@ -92,7 +92,20 @@
       "fb_reel_posted_at": "2026-08-21 08:59",
       "ig_reel_id": "18123012046808463",
       "ig_reel_permalink": "https://www.instagram.com/reel/DcTt1i4jBi5/",
-      "ig_reel_posted_at": "2026-08-21 08:59"
+      "ig_reel_posted_at": "2026-08-21 08:59",
+      "first_fb_post_id": "257090621405568_1325561276444964",
+      "first_fb_permalink": "https://www.facebook.com/257090621405568/posts/1325561276444964",
+      "first_fb_posted_at": "2026-07-01 10:15",
+      "first_ig_post_id": "18114915893506968",
+      "first_ig_permalink": "https://www.instagram.com/p/DaQgNqrlveM/",
+      "first_ig_posted_at": "2026-07-01 10:15",
+      "tweet_reposts": [
+        {
+          "tweet_id": "2099529092492300497",
+          "tweet_url": "https://x.com/_holychip/status/2099529092492300497",
+          "tweet_posted_at": "2026-09-14 09:01"
+        }
+      ]
     },
     {
       "story": "HC002",
@@ -376,7 +389,18 @@
         "pt": "069e710e63edda76bbbc48d1cf4652271f75042d2ce2d612952fbc1d389630ad",
         "es": "a9cc061442ab9882cefca51ad36b160d778b4cd37b02427dbf0f6d1b23040513",
         "fr": "b458c69604eec9b9eca52185f0ae7ec4b5dcdbd123fecf79d992562779709201"
-      }
+      },
+      "fb_reel_id": "1119506803754305",
+      "fb_reel_permalink": "https://www.facebook.com/reel/1119506803754305",
+      "fb_reel_posted_at": "2026-09-13 09:00",
+      "ig_reel_id": "18121312537906839",
+      "ig_reel_permalink": "https://www.instagram.com/reel/DdO8MGjAQt3/",
+      "ig_reel_posted_at": "2026-09-13 09:00",
+      "reel_tweet_id": "2099166549399699826",
+      "reel_tweet_permalink": "https://x.com/_holychip/status/2099166549399699826",
+      "reel_tweet_posted_at": "2026-09-13 09:00",
+      "nostr_reel_event_id": "76e1df456a0e36c649de7e7a323c631fc20c978d2dcdc596b795cf1f4c967c44",
+      "nostr_reel_posted_at": "2026-09-13 09:00"
     },
     {
       "story": "HC008",
@@ -940,14 +964,14 @@
     {
       "story": "HC028",
       "title": "The Mute Button",
-      "fb_post_id": "257090621405568_1312796051054820",
-      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1312796051054820",
-      "fb_posted_at": "2026-06-16 12:41",
-      "ig_post_id": "18340049311220079",
-      "ig_permalink": "https://www.instagram.com/p/DZqKuWJge5n/",
-      "ig_posted_at": "2026-06-16 12:41",
-      "nostr_event_id": "7ad859fec9f5804b199601a01f7ed35893e5518ce57ded005168c5dac8c2fe8a",
-      "nostr_posted_at": "2026-06-16 12:41",
+      "fb_post_id": "257090621405568_1386359907031767",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1386359907031767",
+      "fb_posted_at": "2026-09-10 09:00",
+      "ig_post_id": "18130297204670627",
+      "ig_permalink": "https://www.instagram.com/p/DdHNxi7m-oB/",
+      "ig_posted_at": "2026-09-10 09:00",
+      "nostr_event_id": "355c0ea76cb6ce73b85ea72dcd2f98c858f518432068704a78250787bbe4202a",
+      "nostr_posted_at": "2026-09-10 09:00",
       "nostr_relays": [
         "wss://relay.damus.io",
         "wss://nos.lol",
@@ -956,7 +980,20 @@
         "wss://relay.snort.social"
       ],
       "tweet_id": "2066970061714432494",
-      "tease_tweet_id": "2066970061714432494"
+      "tease_tweet_id": "2066970061714432494",
+      "first_fb_post_id": "257090621405568_1312796051054820",
+      "first_fb_permalink": "https://www.facebook.com/257090621405568/posts/1312796051054820",
+      "first_fb_posted_at": "2026-06-16 12:41",
+      "first_ig_post_id": "18340049311220079",
+      "first_ig_permalink": "https://www.instagram.com/p/DZqKuWJge5n/",
+      "first_ig_posted_at": "2026-06-16 12:41",
+      "tweet_reposts": [
+        {
+          "tweet_id": "2098079623917846744",
+          "tweet_url": "https://x.com/_holychip/status/2098079623917846744",
+          "tweet_posted_at": "2026-09-10 09:02"
+        }
+      ]
     },
     {
       "story": "HC027",
@@ -995,14 +1032,14 @@
     {
       "story": "HC029",
       "title": "The Widow",
-      "fb_post_id": "257090621405568_1314313107569781",
-      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1314313107569781",
-      "fb_posted_at": "2026-06-18 08:00",
-      "ig_post_id": "17886989622580674",
-      "ig_permalink": "https://www.instagram.com/p/DZu0JBsFPxf/",
-      "ig_posted_at": "2026-06-18 08:00",
-      "nostr_event_id": "49e59a9df806ad0917ef1d621036c6c4dc0e3ba742f08b070cd2547304512bd7",
-      "nostr_posted_at": "2026-06-18 08:00",
+      "fb_post_id": "257090621405568_1388058213528603",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1388058213528603",
+      "fb_posted_at": "2026-09-12 09:00",
+      "ig_post_id": "18132614944641663",
+      "ig_permalink": "https://www.instagram.com/p/DdMXXP0G3US/",
+      "ig_posted_at": "2026-09-12 09:00",
+      "nostr_event_id": "5b6dcbe38553186382cc25bc57e40577a14ed009ac2e493d5435b5c98a19433e",
+      "nostr_posted_at": "2026-09-12 09:00",
       "nostr_relays": [
         "wss://relay.damus.io",
         "wss://nos.lol",
@@ -1011,16 +1048,29 @@
         "wss://relay.snort.social"
       ],
       "tweet_id": "2067627507114037355",
-      "tease_tweet_id": "2067627507114037355"
+      "tease_tweet_id": "2067627507114037355",
+      "first_fb_post_id": "257090621405568_1314313107569781",
+      "first_fb_permalink": "https://www.facebook.com/257090621405568/posts/1314313107569781",
+      "first_fb_posted_at": "2026-06-18 08:00",
+      "first_ig_post_id": "17886989622580674",
+      "first_ig_permalink": "https://www.instagram.com/p/DZu0JBsFPxf/",
+      "first_ig_posted_at": "2026-06-18 08:00",
+      "tweet_reposts": [
+        {
+          "tweet_id": "2098804363569594793",
+          "tweet_url": "https://x.com/_holychip/status/2098804363569594793",
+          "tweet_posted_at": "2026-09-12 09:02"
+        }
+      ]
     },
     {
       "story": "HC030",
       "title": "The Confession",
-      "fb_post_id": "257090621405568_1316922977308794",
-      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1316922977308794",
-      "fb_posted_at": "2026-06-21 09:36",
-      "nostr_event_id": "be0a1d507369f4cfbae5a74aa5bc1bdcc603ec99983151e896f3e7347550d1bf",
-      "nostr_posted_at": "2026-06-22 10:20",
+      "fb_post_id": "257090621405568_1391488099852281",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1391488099852281",
+      "fb_posted_at": "2026-09-16 09:00",
+      "nostr_event_id": "7de3c945a2461ee8788073e9a8bd6573ec67eecca00c0850fabf32dc2ab82421",
+      "nostr_posted_at": "2026-09-16 09:00",
       "nostr_relays": [
         "wss://relay.damus.io",
         "wss://nos.lol",
@@ -1028,9 +1078,9 @@
         "wss://relay.nostr.band",
         "wss://relay.snort.social"
       ],
-      "ig_post_id": "17923907982143437",
-      "ig_permalink": "https://www.instagram.com/p/DZ5XTFQARkx/",
-      "ig_posted_at": "2026-06-22 10:20",
+      "ig_post_id": "18329803186302292",
+      "ig_permalink": "https://www.instagram.com/p/DdWqivxmyUX/",
+      "ig_posted_at": "2026-09-16 09:00",
       "tweet_id": "2069108709696086167",
       "tease_tweet_id": "2069108709696086167",
       "reel_superseded_all": [],
@@ -1039,7 +1089,20 @@
       "reel_ig_post_id": "18608643874029264",
       "reel_ig_permalink": "https://www.instagram.com/reel/Dbb97QhlXP5/",
       "reel_posted_at": "2026-07-30 17:23",
-      "reel_note": "build-up reel: centred title card, voice-over, Meta Sound Collection \"Robotz\""
+      "reel_note": "build-up reel: centred title card, voice-over, Meta Sound Collection \"Robotz\"",
+      "first_fb_post_id": "257090621405568_1316922977308794",
+      "first_fb_permalink": "https://www.facebook.com/257090621405568/posts/1316922977308794",
+      "first_fb_posted_at": "2026-06-21 09:36",
+      "first_ig_post_id": "17923907982143437",
+      "first_ig_permalink": "https://www.instagram.com/p/DZ5XTFQARkx/",
+      "first_ig_posted_at": "2026-06-22 10:20",
+      "tweet_reposts": [
+        {
+          "tweet_id": "2100254211837665376",
+          "tweet_url": "https://x.com/_holychip/status/2100254211837665376",
+          "tweet_posted_at": "2026-09-16 09:03"
+        }
+      ]
     },
     {
       "story": "HC031",
@@ -1246,6 +1309,28 @@
       "tweet_id": "2088628794836058331",
       "tweet_url": "https://x.com/_holychip/status/2088628794836058331",
       "tweet_posted_at": "2026-08-15 07:08"
+    },
+    {
+      "story": "HC040",
+      "title": "The Hustle",
+      "fb_post_id": "257090621405568_1391546453179779",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1391546453179779",
+      "fb_posted_at": "2026-09-16 10:23",
+      "ig_post_id": "17914563162458795",
+      "ig_permalink": "https://www.instagram.com/p/DdW0DWzGmBd/",
+      "ig_posted_at": "2026-09-16 10:23",
+      "nostr_event_id": "9b4e4239b4b5392a8f131ecf59a8ef37b8919413602c1226030fd9d7a1d0ee53",
+      "nostr_posted_at": "2026-09-16 10:23",
+      "nostr_relays": [
+        "wss://relay.damus.io",
+        "wss://nos.lol",
+        "wss://relay.primal.net",
+        "wss://relay.nostr.band",
+        "wss://relay.snort.social"
+      ],
+      "tweet_id": "2100274934996185565",
+      "tweet_url": "https://x.com/_holychip/status/2100274934996185565",
+      "tweet_posted_at": "2026-09-16 10:25"
     }
   ],
   "intro_thread": {
@@ -1259,7 +1344,7 @@
     ]
   },
   "metadata": {
-    "updated": "2026-09-09 07:32",
+    "updated": "2026-09-16 10:23",
     "next_story": "HC014",
     "total_stories": 19,
     "total_posted": 36,
