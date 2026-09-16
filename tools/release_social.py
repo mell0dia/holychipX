@@ -27,7 +27,7 @@ FIRST went out - which is exactly the field the vault rotation uses to decide
 whether something is old enough to be a throwback at all. The first values are
 now moved to first_fb_* / first_ig_* before the new ones are written.
 """
-import argparse, json, os, re, subprocess, sys
+import argparse, json, os, re, subprocess, sys, time, urllib.request
 from datetime import datetime
 from pathlib import Path
 
@@ -95,6 +95,62 @@ def grab(out, key):
     return None
 
 
+
+SITE = HC / "website" / "holy-chip-site"
+CARDS_DIR = SITE / "blogcards"
+
+
+def build_blog_cards(sid, split=2):
+    """Render the English origin blog as carousel panels and publish them.
+
+    Returns ([local paths], [public urls]) - Facebook takes local files,
+    Instagram fetches by URL, so both are needed.
+
+    ALL PANELS ARE 1080x1350. Instagram applies the FIRST slide's aspect ratio to
+    every other slide, so the comic's square crop and the text panels must match
+    or the text gets cropped. It is also IG's tallest allowed ratio; the comic's
+    own 896x1200 is 0.747 and sits below the 0.8 floor.
+
+    ENGLISH ONLY. blog_card.py can render all four languages, but posting each
+    would be four carousels for one story (user, 2026-09-16).
+    """
+    if not (ADIR / f"{sid}.blog.md").exists():
+        return [], []
+    CARDS_DIR.mkdir(exist_ok=True)
+    stem = CARDS_DIR / f"{sid}.jpg"
+    subprocess.run(["python3", str(TOOLS / "blog_card.py"), sid, str(stem),
+                    "--split", str(split), "--width", "1080", "--height", "1350"],
+                   check=True, capture_output=True, text=True)
+    paths = sorted(CARDS_DIR.glob(f"{sid}.[0-9].jpg"))
+    if not paths:
+        return [], []
+
+    subprocess.run(["git", "-C", str(SITE), "add", "blogcards"], check=True)
+    r = subprocess.run(["git", "-C", str(SITE), "commit", "-m",
+                        f"Blog cards for {sid}"], capture_output=True, text=True)
+    if r.returncode != 0 and "nothing to commit" not in (r.stdout + r.stderr):
+        raise RuntimeError(f"blogcards commit failed: {r.stdout} {r.stderr}")
+    subprocess.run(["git", "-C", str(SITE), "push", "origin", "gh-pages"],
+                   check=True, capture_output=True, text=True)
+
+    urls = [f"{SITE_WWW}/blogcards/{p.name}" for p in paths]
+    # GitHub Pages can take minutes to serve; IG fetches by URL, so a post sent
+    # before the CDN catches up fails on a 404. Same 15-minute window post_gm uses.
+    for u in urls:
+        for _ in range(90):
+            try:
+                if urllib.request.urlopen(
+                        urllib.request.Request(u, method="HEAD"),
+                        timeout=10).status == 200:
+                    break
+            except Exception:
+                pass
+            time.sleep(10)
+        else:
+            raise RuntimeError(f"blog card never went live: {u}")
+    return [str(p) for p in paths], urls
+
+
 def preserve_first(entry, plat):
     """Move the ORIGINAL release's ids aside before a re-release overwrites them.
 
@@ -117,6 +173,8 @@ def main():
     ap.add_argument("tags", nargs="*", help="extra #hashtags")
     ap.add_argument("--only", default="fb,ig",
                     help="restrict platforms, e.g. --only ig after a partial failure")
+    ap.add_argument("--no-carousel", action="store_true",
+                    help="post the comic alone, as before the 2026-09-16 change")
     ap.add_argument("--force", action="store_true",
                     help="post even if this platform already went out today")
     a = ap.parse_args()
@@ -129,8 +187,30 @@ def main():
         globals()["HASHTAGS"] = HASHTAGS + " " + extra
     want = {p.strip() for p in a.only.split(",") if p.strip()}
     cap = caption(sid)
-    img_local = str(IMG_DIR / f"{sid}.png")
     ig_url = f"{SITE_WWW}/stories/{sid}.square.jpg"
+
+    # CAROUSEL BY DEFAULT since 2026-09-16: comic first, then the English blog
+    # rendered as readable panels. The caption is deliberately minimal, so
+    # without this the essay is only ever one tap away and most readers never
+    # take it. Falls back to the comic alone if a story has no blog - all 40
+    # currently do, so that path is defensive rather than expected.
+    # FACEBOOK STAYS A SINGLE IMAGE. Multi-photo posts render as a mosaic of all
+    # slides rather than one card you swipe, and the link-carousel format
+    # (child_attachments) navigates away on click instead of opening the image.
+    # Neither reproduces Instagram's behaviour, so FB keeps the comic alone
+    # (user, 2026-09-16). The comic is still the full-size PNG there, not the
+    # square crop - FB has no 4:5 floor and shows it uncropped.
+    fb_targets = [str(IMG_DIR / f"{sid}.png")]
+    ig_targets = [ig_url]
+    if not a.no_carousel:
+        card_paths, card_urls = build_blog_cards(sid)
+        if card_paths:
+            ig_targets += card_urls
+            print(f"  IG carousel: comic + {len(card_paths)} blog panel(s)")
+            print(f"  FB: comic only")
+        else:
+            print(f"  no blog for {sid} — comic only everywhere")
+    img_local = fb_targets[0]
 
     data = json.loads(TRACKER.read_text())
     entry = next((e for e in data["posted"] if e.get("story") == sid), None)
@@ -148,8 +228,8 @@ def main():
                 and str(entry.get(f"{plat}_posted_at", "")).startswith(today))
 
     results = {}
-    for plat, script, target in (("fb", "post_facebook.py", img_local),
-                                 ("ig", "post_instagram.py", ig_url)):
+    for plat, script, targets in (("fb", "post_facebook.py", fb_targets),
+                                  ("ig", "post_instagram.py", ig_targets)):
         if plat not in want:
             print(f"=== {sid}: {plat} not requested, skipping ===")
             results[plat] = entry.get(f"{plat}_post_id")
@@ -161,7 +241,10 @@ def main():
             continue
         print(f"=== {sid}: posting to "
               f"{'Facebook' if plat == 'fb' else 'Instagram'} ===")
-        out = run(["python3", str(TOOLS / script), target, cap])
+        # both posters take "<a> <b> ... -- <caption>" for multiples and
+        # "<one> <caption>" for a single image
+        argv = ([*targets, "--", cap] if len(targets) > 1 else [targets[0], cap])
+        out = run(["python3", str(TOOLS / script), *argv])
         pid = grab(out, "FB_POST_ID:" if plat == "fb" else "IG_POST_ID:")
         link = grab(out, "PERMALINK:")
         results[plat] = pid

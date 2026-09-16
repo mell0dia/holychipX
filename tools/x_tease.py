@@ -150,8 +150,19 @@ def main():
         return
 
     load_env()
-    img = str(SDIR / f"{sid}.png")
-    r = subprocess.run(["python3", str(TOOLS / "tweet_image.py"), img, tweet],
+    # Comic first, then the English blog panels - X shows up to 4 images as a
+    # swipeable set, which is the closest thing to the Instagram carousel.
+    # The panels are built by release_social.build_blog_cards during the FB/IG
+    # step, so by the time X runs they already exist on disk; if they do not
+    # (x_tease run standalone), fall back to the comic alone rather than
+    # blocking on a render and a push.
+    imgs = [str(SDIR / f"{sid}.png")]
+    cards = sorted((HC / "website" / "holy-chip-site" / "blogcards").glob(f"{sid}.[0-9].jpg"))
+    if cards and "--no-cards" not in sys.argv:
+        imgs += [str(c) for c in cards[:3]]      # 4 images max, comic included
+        print(f"  attaching {len(imgs) - 1} blog panel(s)")
+    argv = ([*imgs, "--", tweet] if len(imgs) > 1 else [imgs[0], tweet])
+    r = subprocess.run(["python3", str(TOOLS / "tweet_image.py"), *argv],
                        capture_output=True, text=True)
     print(r.stdout)
     if r.returncode != 0:

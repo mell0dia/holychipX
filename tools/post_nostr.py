@@ -88,12 +88,24 @@ def compose(entry, video=False):
     mime = "video/mp4" if video else "image/png"
     # Tease style — same as X: title, drop, link, hashtags. Never the joke.
     # Media URL FIRST so clients render it as hero at the top, text below.
+    # The English blog rendered as panels, when they exist. Nostr has no carousel
+    # widget: clients render each URL in the content as its own image, stacked.
+    # So the note becomes comic-then-essay in one scroll, which suits the client
+    # better than a swipe would. Skipped for --video; a reel is the content.
+    cards = []
+    if not video:
+        cdir = Path.home() / "holy-chip" / "website" / "holy-chip-site" / "blogcards"
+        cards = [f"{SITE}/blogcards/{p.name}"
+                 for p in sorted(cdir.glob(f"{story}.[0-9].jpg"))]
+
+    extra = ("\n\n" + "\n".join(cards)) if cards else ""
     content = (
         f"{media}\n\n"
         f"HOLY CHIP !! #{story}\n"
         f"{title}\n\n"
         f"Created by a human.\n\n"
-        f"→ {origin}\n\n"
+        f"→ {origin}"
+        f"{extra}\n\n"
         f"#HolyChip #AI #comics"
     )
     tags = [
@@ -104,6 +116,9 @@ def compose(entry, video=False):
         ["r", origin],
         ["imeta", f"url {media}", f"m {mime}", f"alt Holy Chip {story} — {title}"],
     ]
+    for c in cards:
+        tags.append(["imeta", f"url {c}", "m image/jpeg",
+                     f"alt Holy Chip {story} blog panel"])
     return content, tags, media
 
 

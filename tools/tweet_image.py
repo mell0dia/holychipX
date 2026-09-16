@@ -39,21 +39,35 @@ def get_creds():
 
 def main():
     if len(sys.argv) < 3 or sys.argv[1] in ("-h", "--help"):
-        print("Usage: python3 tweet_image.py <image_path> <text> [--reply-to <tweet_id>]")
+        print("Usage: python3 tweet_image.py <image_path> <text> [--reply-to <id>]")
+        print("       python3 tweet_image.py <img1> <img2> [...] -- <text> [--reply-to <id>]")
         sys.exit(0)
 
-    image_path = sys.argv[1]
-    text = sys.argv[2]
+    argv = sys.argv[:]
     reply_to = None
+    if "--reply-to" in argv:
+        idx = argv.index("--reply-to")
+        if idx + 1 < len(argv):
+            reply_to = argv[idx + 1]
+        argv = argv[:idx] + argv[idx + 2:]
 
-    if "--reply-to" in sys.argv:
-        idx = sys.argv.index("--reply-to")
-        if idx + 1 < len(sys.argv):
-            reply_to = sys.argv[idx + 1]
+    # X takes up to FOUR images in one tweet, shown as a swipeable set. The
+    # "<a> <b> ... -- <text>" form matches post_facebook/post_instagram so the
+    # release scripts can treat all three the same way.
+    if "--" in argv:
+        sep = argv.index("--")
+        image_paths = argv[1:sep]
+        text = argv[sep + 1]
+    else:
+        image_paths, text = [argv[1]], argv[2]
 
-    if not os.path.exists(image_path):
-        print(f"Error: Image not found: {image_path}", file=sys.stderr)
+    if len(image_paths) > 4:
+        print(f"Error: X allows at most 4 images, got {len(image_paths)}", file=sys.stderr)
         sys.exit(1)
+    for pth in image_paths:
+        if not os.path.exists(pth):
+            print(f"Error: Image not found: {pth}", file=sys.stderr)
+            sys.exit(1)
 
     OAuth1Session = ensure_oauthlib()
     creds = get_creds()
@@ -65,22 +79,24 @@ def main():
         resource_owner_secret=creds["X_ACCESS_TOKEN_SECRET"],
     )
 
-    # Step 1: Upload media
-    print(f"Uploading: {image_path}")
-    with open(image_path, "rb") as f:
-        resp = oauth.post("https://upload.twitter.com/1.1/media/upload.json", files={"media": f})
-
-    if resp.status_code != 200:
-        print(f"Upload failed: {resp.status_code} {resp.text}", file=sys.stderr)
-        sys.exit(1)
-
-    media_id = resp.json()["media_id_string"]
-    print(f"Media ID: {media_id}")
+    # Step 1: Upload each image; order here is the order shown in the tweet
+    media_ids = []
+    for pth in image_paths:
+        print(f"Uploading: {pth}")
+        with open(pth, "rb") as f:
+            resp = oauth.post("https://upload.twitter.com/1.1/media/upload.json",
+                              files={"media": f})
+        if resp.status_code != 200:
+            print(f"Upload failed: {resp.status_code} {resp.text}", file=sys.stderr)
+            sys.exit(1)
+        mid = resp.json()["media_id_string"]
+        media_ids.append(mid)
+        print(f"Media ID: {mid}")
 
     # Step 2: Post tweet
     payload = {
         "text": text,
-        "media": {"media_ids": [media_id]}
+        "media": {"media_ids": media_ids}
     }
     if reply_to:
         payload["reply"] = {"in_reply_to_tweet_id": reply_to}
