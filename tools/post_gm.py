@@ -157,7 +157,29 @@ def with_cache_bust(url):
     return f"{url}{sep}v={int(time.time())}"
 
 
-def post_to_nostr(image_url, info):
+
+def blog_cards_for(sid):
+    """Build + publish the source story's blog panels; return ([paths],[urls]).
+
+    The gm card's phrase is a line lifted from a story's origin blog, so the
+    blog it came from is the natural companion - see the 2026-09-18 rule that
+    every release (story, vault, and the daily card) carries the text.
+
+    Reuses release_social.build_blog_cards so there is exactly one renderer and
+    one gh-pages publish path. A PROMO-* tag is not a story and has no blog.
+    """
+    if not sid or not sid.upper().startswith("HC"):
+        return [], []
+    try:
+        sys.path.insert(0, str(TOOLS))
+        import release_social as rs
+        return rs.build_blog_cards(sid)
+    except Exception as exc:
+        print(f"  blog cards unavailable for {sid}: {exc}")
+        return [], []
+
+
+def post_to_nostr(image_url, info, card_urls=None):
     image_url = with_cache_bust(image_url)
     from pynostr.key import PrivateKey
     from pynostr.event import Event
@@ -171,10 +193,13 @@ def post_to_nostr(image_url, info):
     blog_url = cta_url(source_sid)
     # Caption — link CTA first, then image URL (so it renders below the CTA),
     # then hashtags. The phrase stays in the bubble inside the image, no repeat.
+    # Nostr has no carousel: clients render each URL as its own image, stacked,
+    # so the note reads card-then-essay in one scroll.
+    extra = ("\n\n" + "\n".join(card_urls)) if card_urls else ""
     content = (
         f"gm 🟧\n\n"
         f"{cta_lines(source_sid)}\n\n"
-        f"{image_url}\n\n"
+        f"{image_url}{extra}\n\n"
         f"#HolyChip #Bitcoin #AI #gm"
     )
     tags = [
@@ -195,16 +220,20 @@ def post_to_nostr(image_url, info):
     return ev.id
 
 
-def post_to_x(local_path, info):
+def post_to_x(local_path, info, card_paths=None):
     """Tweet via tools/tweet_image.py. Tweets are size-capped at 280 chars,
-    so we ship a short caption rather than the full paragraph."""
+    so we ship a short caption rather than the full paragraph.
+
+    X takes 4 images max, so the card plus at most 3 blog panels."""
     sid = info.get("source", "")
     caption = (
         f"{cta_lines(sid)}\n\n"
         f"#HolyChip #Bitcoin #AI"
     )
+    imgs = [str(local_path)] + [str(p) for p in (card_paths or [])[:3]]
+    argv = ([*imgs, "--", caption] if len(imgs) > 1 else [imgs[0], caption])
     r = subprocess.run([str(HC/"venv/nostr/bin/python"), str(TOOLS/"tweet_image.py"),
-                        str(local_path), caption], capture_output=True, text=True)
+                        *argv], capture_output=True, text=True)
     print(r.stdout);
     if r.returncode != 0:
         print(r.stderr); return None
@@ -232,14 +261,16 @@ def post_to_facebook(local_path, info):
     return out
 
 
-def post_to_instagram(image_url, info):
+def post_to_instagram(image_url, info, card_urls=None):
     sid = info.get("source", "")
     caption = (
         f"{cta_lines(sid)}\n\n"
         f"#HolyChip #Bitcoin #AI"
     )
-    r = subprocess.run(["python3", str(TOOLS/"post_instagram.py"),
-                        image_url, caption], capture_output=True, text=True)
+    urls = [image_url] + list(card_urls or [])
+    argv = ([*urls, "--", caption] if len(urls) > 1 else [urls[0], caption])
+    r = subprocess.run(["python3", str(TOOLS/"post_instagram.py"), *argv],
+                       capture_output=True, text=True)
     print(r.stdout)
     if r.returncode != 0:
         print(r.stderr); return None
@@ -301,13 +332,22 @@ def main():
     url = push_to_ghpages(out_path.name)
     print(f"live: {url}")
 
+    # Every release carries the text (user, 2026-09-18) — story, vault AND the
+    # daily card. The phrase came from a story's blog, so that blog is what goes
+    # alongside it. FB is excluded here as it is everywhere else: neither of its
+    # multi-image formats behaves like a carousel.
+    card_paths, card_urls = blog_cards_for(info.get("source", ""))
+    if card_paths:
+        print(f"  attaching {len(card_paths)} blog panel(s) from "
+              f"{info.get('source')}")
+
     print("posting to nostr")
-    event_id = post_to_nostr(url, info)
+    event_id = post_to_nostr(url, info, card_urls)
     print(f"nostr event: {event_id}")
     print(f"njump: https://njump.me/{event_id}")
 
     print("posting to x")
-    tweet_id = post_to_x(out_path, info)
+    tweet_id = post_to_x(out_path, info, card_paths)
     print(f"tweet: {tweet_id}")
 
     print("posting to facebook")
@@ -316,7 +356,7 @@ def main():
 
     print("posting to instagram")
     ig_url = url.replace(SITE_URL, SITE_URL_WWW, 1)
-    ig = post_to_instagram(ig_url, info)
+    ig = post_to_instagram(ig_url, info, card_urls)
     print(f"ig: {ig}")
 
     # log to history
