@@ -57,8 +57,10 @@ check_file "stories/analysis/${SID}.blog.pt.md"
 check_file "stories/analysis/${SID}.blog.fr.md"
 check_file "stories/analysis/${SID}.blog.es.md"
 echo
-echo "Tease (text card source):"
-check_file "stories/analysis/${SID}.tease.md"
+# Tease files are NOT checked. Text cards on social were retired 2026-06-03 and
+# nothing reads stories/analysis/<SID>.tease.md any more - x_tease.py generates
+# its teaser from the model. 25 of 40 stories have no tease file, so checking it
+# failed every release and trained everyone to ignore a red X.
 echo
 echo "Origin page (generated):"
 check_file "origins/${SID}.html"
@@ -80,6 +82,24 @@ else
   printf "  \033[31m✗\033[0m  generate_origins.py STORIES MISSING ${SID}\n"
   BAD=$((BAD+1))
 fi
+echo
+echo "Vault lead (needed for the story to appear in future vault cycles):"
+LEADS="$HOME/holy-chip/content/vault-leads.json"
+if grep -q "\"${SID}\"" "$LEADS" 2>/dev/null; then
+  printf "  \033[32m✓\033[0m  content/vault-leads.json has ${SID}\n"
+  OK=$((OK+1))
+elif grep -q "\"story\": \"${SID}\"" "$HOME/holy-chip/content/release-queue.json" 2>/dev/null \
+     && grep -A3 "\"story\": \"${SID}\"" "$HOME/holy-chip/content/release-queue.json" \
+        | grep -q '"kind": "vault"'; then
+  printf "  \033[32m✓\033[0m  ${SID} already has a vault entry carrying a lead\n"
+  OK=$((OK+1))
+else
+  printf "  \033[31m✗\033[0m  no vault lead for ${SID} — add one to content/vault-leads.json\n"
+  printf "       vault_refill.py can only schedule stories that have a lead,\n"
+  printf "       so without it ${SID} drops out of every future cycle.\n"
+  BAD=$((BAD+1))
+fi
+
 echo
 echo "===================================="
 if [ "$BAD" -eq 0 ]; then
