@@ -112,10 +112,21 @@ def pick_thought(sid=None):
             if paras:
                 return random.choice(paras), s
         return "AI WILL FIGURE IT OUT.", "HC000"
-    if sid:                                   # optional: force a phrase from one story
+    if sid:                                   # explicit story: never drift off it
         filtered = [p for p in phrases if p[1] == sid]
         if filtered:
-            phrases = filtered
+            return random.choice(filtered)
+        # No approved phrase tagged to this story yet — the normal state for one
+        # just released. Fall back to ITS OWN blog, not to the rest of the list:
+        # the caller named this story and the CTA follows source_sid, so drifting
+        # silently pointed "new story is out" cards at another story's origin
+        # page. HC041's announcement card went out sourced to HC012 that way
+        # (2026-09-23).
+        paras = blog_paragraphs(sid)
+        if paras:
+            return random.choice(paras), sid
+        print(f"warning: no approved phrase and no blog for {sid}; "
+              f"falling back to the general list", file=sys.stderr)
     return random.choice(phrases)
 
 
