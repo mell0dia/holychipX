@@ -397,6 +397,14 @@
       "status": "pending"
     },
     {
+      "date": "2026-09-25",
+      "story": "HC011",
+      "kind": "reel",
+      "tags": "#Time #Consciousness",
+      "lead": "",
+      "status": "pending"
+    },
+    {
       "date": "2026-09-26",
       "story": "HC033",
       "kind": "vault",
@@ -410,6 +418,14 @@
       "kind": "vault",
       "tags": "#Elections #Politics #Power",
       "lead": "They assembled the perfect candidate from every president. The final ingredient was not a virtue.",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-29",
+      "story": "HC012",
+      "kind": "reel",
+      "tags": "#Startups #Economy",
+      "lead": "",
       "status": "pending"
     },
     {
@@ -429,6 +445,14 @@
       "status": "pending"
     },
     {
+      "date": "2026-10-03",
+      "story": "HC013",
+      "kind": "reel",
+      "tags": "#Power #Ambition",
+      "lead": "",
+      "status": "pending"
+    },
+    {
       "date": "2026-10-04",
       "story": "HC035",
       "kind": "vault",
@@ -445,250 +469,220 @@
       "status": "pending"
     },
     {
+      "date": "2026-10-07",
+      "story": "HC014",
+      "kind": "reel",
+      "tags": "#Bias #Audit #Fairness",
+      "lead": "",
+      "status": "pending"
+    },
+    {
       "date": "2026-10-08",
       "story": "HC037",
       "kind": "vault",
       "tags": "#Maths #Children #Screens",
       "lead": "King minus man plus woman is a queen. Then they tried it on a child.",
       "status": "pending"
+    },
+    {
+      "date": "2026-10-11",
+      "story": "HC015",
+      "kind": "reel",
+      "tags": "#Paper #Oceans #Sustainability",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-10-15",
+      "story": "HC016",
+      "kind": "reel",
+      "tags": "#Poverty #Economics #Metrics",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-10-19",
+      "story": "HC017",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-10-23",
+      "story": "HC018",
+      "kind": "reel",
+      "tags": "#Jobs #Work #Automation",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-10-27",
+      "story": "HC019",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-10-31",
+      "story": "HC020",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-11-04",
+      "story": "HC021",
+      "kind": "reel",
+      "tags": "#Space #Future #Energy",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-11-08",
+      "story": "HC022",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-11-12",
+      "story": "HC023",
+      "kind": "reel",
+      "tags": "#Power #Geopolitics #Work",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-11-16",
+      "story": "HC024",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-11-20",
+      "story": "HC025",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-11-24",
+      "story": "HC026",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-11-28",
+      "story": "HC027",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-12-02",
+      "story": "HC028",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-12-06",
+      "story": "HC029",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-12-10",
+      "story": "HC030",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-12-14",
+      "story": "HC031",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-12-18",
+      "story": "HC032",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-12-22",
+      "story": "HC033",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-12-26",
+      "story": "HC034",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2026-12-30",
+      "story": "HC035",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2027-01-03",
+      "story": "HC036",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2027-01-07",
+      "story": "HC037",
+      "kind": "reel",
+      "tags": "",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2027-01-11",
+      "story": "HC038",
+      "kind": "reel",
+      "tags": "#Compression #AI #Pressure",
+      "lead": "",
+      "status": "pending"
+    },
+    {
+      "date": "2027-01-15",
+      "story": "HC039",
+      "kind": "reel",
+      "tags": "#Intelligence #Consciousness #Embodiment",
+      "lead": "",
+      "status": "pending"
     }
-  ],
-  "retired_reels": {
-    "note": "Reel releases paused by the user on 2026-09-23 (\"no more reels for now\"). These entries were pulled out of queue[] because release_queue.py runs any entry whose status is not \"done\" -- leaving them in with a cancelled status would still have posted them. Restore by moving them back into queue[] and re-dating them; the reel tooling (release_reel.py, story_gif.py) is untouched.",
-    "pulled_on": "2026-09-23",
-    "entries": [
-      {
-        "date": "2026-09-25",
-        "story": "HC011",
-        "kind": "reel",
-        "tags": "#Time #Consciousness",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-09-29",
-        "story": "HC012",
-        "kind": "reel",
-        "tags": "#Startups #Economy",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-10-03",
-        "story": "HC013",
-        "kind": "reel",
-        "tags": "#Power #Ambition",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-10-07",
-        "story": "HC014",
-        "kind": "reel",
-        "tags": "#Bias #Audit #Fairness",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-10-11",
-        "story": "HC015",
-        "kind": "reel",
-        "tags": "#Paper #Oceans #Sustainability",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-10-15",
-        "story": "HC016",
-        "kind": "reel",
-        "tags": "#Poverty #Economics #Metrics",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-10-19",
-        "story": "HC017",
-        "kind": "reel",
-        "tags": "",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-10-23",
-        "story": "HC018",
-        "kind": "reel",
-        "tags": "#Jobs #Work #Automation",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-10-27",
-        "story": "HC019",
-        "kind": "reel",
-        "tags": "",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-10-31",
-        "story": "HC020",
-        "kind": "reel",
-        "tags": "",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-11-04",
-        "story": "HC021",
-        "kind": "reel",
-        "tags": "#Space #Future #Energy",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-11-08",
-        "story": "HC022",
-        "kind": "reel",
-        "tags": "",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-11-12",
-        "story": "HC023",
-        "kind": "reel",
-        "tags": "#Power #Geopolitics #Work",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-11-16",
-        "story": "HC024",
-        "kind": "reel",
-        "tags": "",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-11-20",
-        "story": "HC025",
-        "kind": "reel",
-        "tags": "",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-11-24",
-        "story": "HC026",
-        "kind": "reel",
-        "tags": "",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-11-28",
-        "story": "HC027",
-        "kind": "reel",
-        "tags": "",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-12-02",
-        "story": "HC028",
-        "kind": "reel",
-        "tags": "",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-12-06",
-        "story": "HC029",
-        "kind": "reel",
-        "tags": "",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-12-10",
-        "story": "HC030",
-        "kind": "reel",
-        "tags": "",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-12-14",
-        "story": "HC031",
-        "kind": "reel",
-        "tags": "",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-12-18",
-        "story": "HC032",
-        "kind": "reel",
-        "tags": "",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-12-22",
-        "story": "HC033",
-        "kind": "reel",
-        "tags": "",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-12-26",
-        "story": "HC034",
-        "kind": "reel",
-        "tags": "",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2026-12-30",
-        "story": "HC035",
-        "kind": "reel",
-        "tags": "",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2027-01-03",
-        "story": "HC036",
-        "kind": "reel",
-        "tags": "",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2027-01-07",
-        "story": "HC037",
-        "kind": "reel",
-        "tags": "",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2027-01-11",
-        "story": "HC038",
-        "kind": "reel",
-        "tags": "#Compression #AI #Pressure",
-        "lead": "",
-        "status": "pending"
-      },
-      {
-        "date": "2027-01-15",
-        "story": "HC039",
-        "kind": "reel",
-        "tags": "#Intelligence #Consciousness #Embodiment",
-        "lead": "",
-        "status": "pending"
-      }
-    ]
-  }
+  ]
 }
