@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Holy Chip daily-gm card — 1080x1080.
+"""Holy Chip daily-gm card — 1080x1350 (4:5).
 
 Picks an NFT (image + personality name) and pairs it with a paragraph
 pulled from a random already-released story blog. Footer shows a 'read more'
@@ -13,10 +13,17 @@ Usage:
 """
 import os, sys, json, random, re
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageChops, ImageDraw, ImageFont
 
-W, H = 1080, 1080
+W, H = 1080, 1350
 PAD = 60
+# 4:5 since 2026-09-23. The GM card is slide 1 of a four-slide carousel
+# (card, comic, text, text) and Instagram renders every slide at the FIRST
+# slide's aspect ratio — at the old 1:1 the comic lost its banner and bottom
+# panel in the feed. 1080x1350 is IG's tallest allowed ratio and is what
+# square_crop.py and blog_card.py already emit, so the whole carousel agrees.
+# Of the 270px this added, the character took 90 and the bubble kept 180.
+CHAR_H = 600
 BG       = (248, 244, 232)   # sage paper
 FG       = (28, 28, 26)      # near-black ink
 ACCENT   = (176, 138, 32)    # gold
@@ -237,7 +244,9 @@ def main():
     footer_top_y = footer_y - 34
 
     # --- character (centered, bottom half) ---
-    # Reduced 15% vs prior layout to give the bubble more vertical room.
+    # Reduced 15% vs the pre-2026-06 layout to give the bubble vertical room;
+    # bumped 510 -> 600 when the card went 4:5, which left the bubble 180px
+    # better off than it was at 1:1.
     # The NFT PNGs have a white square framing the character; flood-fill the
     # outer white to sage so the character blends with the card background.
     chr_img = Image.open(char_path).convert("RGB")
@@ -246,12 +255,24 @@ def main():
                    (chr_img.width - 1, chr_img.height - 1)]:
         if chr_img.getpixel(corner) == (255, 255, 255):
             ImageDraw.floodfill(chr_img, corner, BG, thresh=8)
-    target_h = 510
+    # Crop to the character itself. The NFT PNGs carry a wide margin inside the
+    # frame, so without this CHAR_H sizes the margin as much as the chip and the
+    # character reads far smaller than the number suggests.
+    bg_plate = Image.new("RGB", chr_img.size, BG)
+    bbox = ImageChops.difference(chr_img, bg_plate).convert("L").point(
+        lambda v: 255 if v > 10 else 0).getbbox()
+    if bbox:
+        chr_img = chr_img.crop(bbox)
+    target_h = CHAR_H
     ratio = target_h / chr_img.height
-    chr_resized = chr_img.resize((int(chr_img.width * ratio), target_h), Image.LANCZOS)
+    chr_resized = chr_img.resize((max(1, int(chr_img.width * ratio)), target_h),
+                                 Image.LANCZOS)
     char_x = (W - chr_resized.width) // 2
+    # Bottom-anchored position is only the CEILING the bubble may grow to; the
+    # character is re-centred in the leftover gap once the bubble's real height
+    # is known, further down. Anchoring it here and leaving it there is what put
+    # all 270px of the 4:5 gain into dead sage between tail and chip.
     char_y = footer_top_y - 30 - target_h
-    img.paste(chr_resized, (char_x, char_y))
 
     # --- speech bubble (full width, top half) ---
     bubble_left = PAD
@@ -293,6 +314,12 @@ def main():
     d.polygon([(tail_tip_x - 24, bubble_bottom),
                (tail_tip_x + 24, bubble_bottom),
                (tail_tip_x, tail_tip_y)], fill=BUBBLE_BG)
+
+    # Character goes in now, centred between the tail and the footer rule, so a
+    # short bubble does not strand it at the bottom of the taller 4:5 card.
+    gap_top, gap_bottom = tail_tip_y, footer_top_y - 14
+    char_y = max(gap_top + 10, gap_top + (gap_bottom - gap_top - target_h) // 2)
+    img.paste(chr_resized, (char_x, char_y))
 
     # text inside bubble
     text_y = bubble_top + 40

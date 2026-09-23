@@ -179,6 +179,58 @@ def blog_cards_for(sid):
         return [], []
 
 
+def comic_slide_for(sid):
+    """The source story's comic as a 1080x1350 slide; returns (path, url).
+
+    Slide 2 of the carousel (user, 2026-09-23): card, COMIC, text, text. The
+    story's own 896x1200 is ratio 0.747, under IG's 0.8 floor, so we use the
+    same `stories/<sid>.square.jpg` 4:5 variant release_social already posts —
+    one crop, one URL, shared by both flows. Built and pushed on the spot if a
+    story never went out through post_pipeline.
+    """
+    if not sid or not sid.upper().startswith("HC"):
+        return None, None
+    src = SITE / "stories" / f"{sid}.png"
+    if not src.exists():
+        print(f"  no comic for {sid}: {src.name} missing")
+        return None, None
+    sq = SITE / "stories" / f"{sid}.square.jpg"
+    if not sq.exists():
+        print(f"  building {sq.name} (first time for {sid})")
+        r = subprocess.run(["python3", str(TOOLS / "square_crop.py"),
+                            str(src), str(sq)], capture_output=True, text=True)
+        if r.returncode != 0 or not sq.exists():
+            print(f"  square crop failed for {sid}: {r.stderr.strip()}")
+            return None, None
+        try:
+            push_site_file(f"stories/{sq.name}", f"Square crop for {sid}")
+        except Exception as exc:
+            print(f"  could not publish {sq.name}: {exc}")
+            return None, None
+    return str(sq), f"{SITE_URL_WWW}/stories/{sq.name}"
+
+
+def push_site_file(rel, msg):
+    """Commit + push one gh-pages file and block until it serves."""
+    import urllib.request
+    run(["git", "-C", str(SITE), "add", rel])
+    r = subprocess.run(["git", "-C", str(SITE), "commit", "-m", msg],
+                       capture_output=True, text=True)
+    if r.returncode != 0 and "nothing to commit" not in (r.stdout + r.stderr):
+        raise RuntimeError(f"commit failed: {r.stdout} {r.stderr}")
+    run_retry(["git", "-C", str(SITE), "push", "origin", "gh-pages"])
+    url = f"{SITE_URL_WWW}/{rel}"
+    for _ in range(90):
+        try:
+            if urllib.request.urlopen(urllib.request.Request(url, method="HEAD"),
+                                      timeout=10).status == 200:
+                return url
+        except Exception:
+            pass
+        time.sleep(10)
+    raise RuntimeError(f"never went live: {url}")
+
+
 def post_to_nostr(image_url, info, card_urls=None):
     image_url = with_cache_bust(image_url)
     from pynostr.key import PrivateKey
@@ -224,7 +276,8 @@ def post_to_x(local_path, info, card_paths=None):
     """Tweet via tools/tweet_image.py. Tweets are size-capped at 280 chars,
     so we ship a short caption rather than the full paragraph.
 
-    X takes 4 images max, so the card plus at most 3 blog panels."""
+    X takes 4 images max, so the card plus at most 3 companions —
+    which is exactly the comic and the two text panels."""
     sid = info.get("source", "")
     caption = (
         f"{cta_lines(sid)}\n\n"
@@ -336,10 +389,19 @@ def main():
     # daily card. The phrase came from a story's blog, so that blog is what goes
     # alongside it. FB is excluded here as it is everywhere else: neither of its
     # multi-image formats behaves like a carousel.
-    card_paths, card_urls = blog_cards_for(info.get("source", ""))
+    source_sid = info.get("source", "")
+    card_paths, card_urls = blog_cards_for(source_sid)
     if card_paths:
-        print(f"  attaching {len(card_paths)} blog panel(s) from "
-              f"{info.get('source')}")
+        print(f"  attaching {len(card_paths)} blog panel(s) from {source_sid}")
+
+    # Slide order is card, comic, text, text (user, 2026-09-23). The gm card is
+    # slide 1 everywhere (each poster prepends it), so the comic goes at the
+    # FRONT of the companion list, ahead of the blog panels.
+    comic_path, comic_url = comic_slide_for(source_sid)
+    if comic_path:
+        card_paths = [comic_path] + card_paths
+        card_urls = [comic_url] + card_urls
+        print(f"  slide 2 is the {source_sid} comic")
 
     print("posting to nostr")
     event_id = post_to_nostr(url, info, card_urls)
