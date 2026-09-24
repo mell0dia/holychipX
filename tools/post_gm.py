@@ -294,27 +294,42 @@ def post_to_nostr(image_url, info, card_urls=None):
 
 
 def post_to_x(local_path, info, card_paths=None):
-    """Tweet via tools/tweet_image.py. Tweets are size-capped at 280 chars,
-    so we ship a short caption rather than the full paragraph.
+    """Lead tweet carries the gm card ALONE; the rest follow as a reply.
 
-    X takes 4 images max, so the card plus at most 3 companions —
-    which is exactly the comic and the two text panels."""
+    X lays 2-4 images out as a grid, so a four-image tweet gave the card a
+    quarter of the width. One image gets the full card. Same fix as Nostr
+    (user, 2026-09-24). Tweets are size-capped at 280 chars, so we ship a short
+    caption rather than the full paragraph.
+    """
     sid = info.get("source", "")
     caption = (
         f"{cta_lines(sid)}\n\n"
         f"#HolyChip #Bitcoin #AI"
     )
-    imgs = [str(local_path)] + [str(p) for p in (card_paths or [])[:3]]
-    argv = ([*imgs, "--", caption] if len(imgs) > 1 else [imgs[0], caption])
-    r = subprocess.run([str(HC/"venv/nostr/bin/python"), str(TOOLS/"tweet_image.py"),
-                        *argv], capture_output=True, text=True)
-    print(r.stdout);
-    if r.returncode != 0:
-        print(r.stderr); return None
-    for line in r.stdout.splitlines():
-        if line.startswith("TWEET_ID:"):
-            return line.split(":", 1)[1].strip()
-    return None
+
+    def send(argv):
+        r = subprocess.run([str(HC/"venv/nostr/bin/python"), str(TOOLS/"tweet_image.py"),
+                            *argv], capture_output=True, text=True)
+        print(r.stdout)
+        if r.returncode != 0:
+            print(r.stderr)
+            return None
+        for line in r.stdout.splitlines():
+            if line.startswith("TWEET_ID:"):
+                return line.split(":", 1)[1].strip()
+        return None
+
+    lead = send([str(local_path), caption])
+    if not lead:
+        return None
+    companions = [str(p) for p in (card_paths or [])][:4]
+    if companions:
+        print(f"  replying with {len(companions)} image(s)")
+        reply = send([*companions, "--", "the strip and the essay:",
+                      "--reply-to", lead])
+        if reply:
+            print(f"  reply: https://x.com/_holychip/status/{reply}")
+    return lead
 
 
 def post_to_facebook(local_path, info):

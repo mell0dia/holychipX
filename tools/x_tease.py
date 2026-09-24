@@ -150,29 +150,41 @@ def main():
         return
 
     load_env()
-    # Comic first, then the English blog panels - X shows up to 4 images as a
-    # swipeable set, which is the closest thing to the Instagram carousel.
+    # LEAD TWEET CARRIES THE COMIC ALONE. X lays 2-4 images out as a grid, so
+    # the strip came out at a quarter of the width and unreadable in the
+    # timeline; one image gets the full card. The blog panels follow as a
+    # reply, same shape as the Nostr fix (user, 2026-09-24).
     # The panels are built by release_social.build_blog_cards during the FB/IG
     # step, so by the time X runs they already exist on disk; if they do not
-    # (x_tease run standalone), fall back to the comic alone rather than
-    # blocking on a render and a push.
-    imgs = [str(SDIR / f"{sid}.png")]
+    # (x_tease run standalone), the lead tweet simply goes out alone.
+    comic = str(SDIR / f"{sid}.png")
     cards = sorted((HC / "website" / "holy-chip-site" / "blogcards").glob(f"{sid}.[0-9].jpg"))
-    if cards and "--no-cards" not in sys.argv:
-        imgs += [str(c) for c in cards[:3]]      # 4 images max, comic included
-        print(f"  attaching {len(imgs) - 1} blog panel(s)")
-    argv = ([*imgs, "--", tweet] if len(imgs) > 1 else [imgs[0], tweet])
-    r = subprocess.run(["python3", str(TOOLS / "tweet_image.py"), *argv],
-                       capture_output=True, text=True)
-    print(r.stdout)
-    if r.returncode != 0:
-        print(r.stderr)
-        sys.exit(f"tweet_image failed (rc={r.returncode})")
-    for line in r.stdout.splitlines():
-        if line.startswith("TWEET_ID:"):
-            print(line)
-            record_tweet(sid, line.split(":", 1)[1].strip())
-            return
+    if "--no-cards" in sys.argv:
+        cards = []
+
+    def send(argv):
+        r = subprocess.run(["python3", str(TOOLS / "tweet_image.py"), *argv],
+                           capture_output=True, text=True)
+        print(r.stdout)
+        if r.returncode != 0:
+            print(r.stderr)
+            sys.exit(f"tweet_image failed (rc={r.returncode})")
+        for line in r.stdout.splitlines():
+            if line.startswith("TWEET_ID:"):
+                return line.split(":", 1)[1].strip()
+        sys.exit("tweet_image printed no TWEET_ID")
+
+    lead = send([comic, tweet])
+    print(f"TWEET_ID:{lead}")
+    record_tweet(sid, lead)
+
+    if cards:
+        # 4 images max per tweet, and the lead no longer spends one of them.
+        panels = [str(c) for c in cards[:4]]
+        print(f"  replying with {len(panels)} blog panel(s)")
+        reply = send([*panels, "--", "the essay:", "--reply-to", lead])
+        print(f"  reply: https://x.com/_holychip/status/{reply}")
+    return
 
 
 if __name__ == "__main__":
