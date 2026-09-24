@@ -232,6 +232,14 @@ def push_site_file(rel, msg):
 
 
 def post_to_nostr(image_url, info, card_urls=None):
+    """Root note carries the gm card ALONE; everything else goes in a reply.
+
+    Clients (Damus, Amethyst, Primal) collapse consecutive image URLs in one
+    note into a shared gallery, so four URLs meant the card got a quarter of the
+    width. A note with exactly one image gets rendered full size, so the comic
+    and the essay panels move into a threaded reply (user, 2026-09-24). njump
+    was never the problem — it stacks them — this is client behaviour.
+    """
     image_url = with_cache_bust(image_url)
     from pynostr.key import PrivateKey
     from pynostr.event import Event
@@ -243,33 +251,46 @@ def post_to_nostr(image_url, info, card_urls=None):
     phrase = info["thought"].strip()
     source_sid = info.get("source", "")
     blog_url = cta_url(source_sid)
-    # Caption — link CTA first, then image URL (so it renders below the CTA),
-    # then hashtags. The phrase stays in the bubble inside the image, no repeat.
-    # Nostr has no carousel: clients render each URL as its own image, stacked,
-    # so the note reads card-then-essay in one scroll.
-    extra = ("\n\n" + "\n".join(card_urls)) if card_urls else ""
-    content = (
+
+    def sign(content, tags):
+        ev = Event(content=content, tags=tags)
+        ev.pubkey = my_pub
+        ev.created_at = int(time.time())
+        ev.compute_id()
+        ev.sign(pk.hex())
+        return ev
+
+    root = sign(
         f"gm 🟧\n\n"
         f"{cta_lines(source_sid)}\n\n"
-        f"{image_url}{extra}\n\n"
-        f"#HolyChip #Bitcoin #AI #gm"
+        f"{image_url}\n\n"
+        f"#HolyChip #Bitcoin #AI #gm",
+        [["t", "HolyChip"], ["t", "Bitcoin"], ["t", "AI"], ["t", "gm"], ["t", "nostr"],
+         ["r", blog_url],
+         ["imeta", f"url {image_url}", "m image/jpeg",
+          f"alt Holy Chip gm — {phrase[:80]}"]],
     )
-    tags = [
-        ["t", "HolyChip"], ["t", "Bitcoin"], ["t", "AI"], ["t", "gm"], ["t", "nostr"],
-        ["r", blog_url],
-        ["imeta", f"url {image_url}", "m image/jpeg",
-         f"alt Holy Chip gm — {phrase[:80]}"],
-    ]
-    ev = Event(content=content, tags=tags)
-    ev.pubkey = my_pub
-    ev.created_at = int(time.time())
-    ev.compute_id()
-    ev.sign(pk.hex())
+
+    events = [root]
+    if card_urls:
+        # NIP-10 reply: marked "root" so clients thread it under the card
+        # instead of showing it as a second top-level note.
+        reply_tags = [["e", root.id, RELAYS[0], "root"], ["p", my_pub],
+                      ["r", blog_url]]
+        for u in card_urls:
+            reply_tags.append(["imeta", f"url {u}", "m image/jpeg",
+                               f"alt Holy Chip {source_sid}"])
+        label = f"{source_sid} — the strip and the essay:" if source_sid else "the strip:"
+        events.append(sign(f"{label}\n\n" + "\n".join(card_urls), reply_tags))
 
     rm = RelayManager(timeout=8)
     for r in RELAYS: rm.add_relay(r)
-    rm.publish_event(ev); rm.run_sync(); time.sleep(2); rm.close_all_relay_connections()
-    return ev.id
+    for ev in events:
+        rm.publish_event(ev)
+    rm.run_sync(); time.sleep(2); rm.close_all_relay_connections()
+    if len(events) > 1:
+        print(f"  reply with {len(card_urls)} image(s): {events[1].id}")
+    return root.id
 
 
 def post_to_x(local_path, info, card_paths=None):

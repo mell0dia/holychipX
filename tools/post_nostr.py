@@ -98,14 +98,16 @@ def compose(entry, video=False):
         cards = [f"{SITE}/blogcards/{p.name}"
                  for p in sorted(cdir.glob(f"{story}.[0-9].jpg"))]
 
-    extra = ("\n\n" + "\n".join(cards)) if cards else ""
+    # The comic goes in the root note ALONE. Clients collapse consecutive image
+    # URLs into a shared gallery, which shrank the strip to a third of the
+    # width; a note with one image is rendered full size. The blog panels move
+    # to a threaded reply (user, 2026-09-24).
     content = (
         f"{media}\n\n"
         f"HOLY CHIP !! #{story}\n"
         f"{title}\n\n"
         f"Created by a human.\n\n"
-        f"→ {origin}"
-        f"{extra}\n\n"
+        f"→ {origin}\n\n"
         f"#HolyChip #AI #comics"
     )
     tags = [
@@ -116,10 +118,7 @@ def compose(entry, video=False):
         ["r", origin],
         ["imeta", f"url {media}", f"m {mime}", f"alt Holy Chip {story} — {title}"],
     ]
-    for c in cards:
-        tags.append(["imeta", f"url {c}", "m image/jpeg",
-                     f"alt Holy Chip {story} blog panel"])
-    return content, tags, media
+    return content, tags, media, cards, origin
 
 
 def publish(event, relays, timeout=8):
@@ -156,7 +155,7 @@ def cmd_post(args):
     from pynostr.event import Event
     tracker = load_tracker()
     entry = pick_story(tracker, args.story)
-    content, tags, media = compose(entry, video=args.video)
+    content, tags, media, cards, origin = compose(entry, video=args.video)
     print(f"--- {entry['story']} — {entry.get('title','')} ---")
     print(content)
     print(f"({'video' if args.video else 'image'}: {media})")
@@ -171,6 +170,22 @@ def cmd_post(args):
     event.compute_id()
     event.sign(pk.hex())
     publish(event, RELAYS)
+    if cards:
+        # NIP-10 reply, marked "root" so clients thread it under the comic
+        # rather than showing it as a second top-level note.
+        reply_tags = [["e", event.id, RELAYS[0], "root"],
+                      ["p", event.pubkey], ["r", origin]]
+        for c in cards:
+            reply_tags.append(["imeta", f"url {c}", "m image/jpeg",
+                               f"alt Holy Chip {entry['story']} blog panel"])
+        reply = Event(content=f"the essay:\n\n" + "\n".join(cards),
+                      tags=reply_tags)
+        reply.pubkey = event.pubkey
+        reply.created_at = int(time.time())
+        reply.compute_id()
+        reply.sign(pk.hex())
+        publish(reply, RELAYS)
+        print(f"  reply with {len(cards)} blog panel(s): {reply.id}")
     # A Reel post is recorded under its own key. Writing it to nostr_event_id
     # would make the daily backfill cron think the still comic already went
     # out, and that story would never get its image note.
