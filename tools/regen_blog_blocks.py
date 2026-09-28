@@ -24,6 +24,13 @@ def parse(md):
     return opener, body
 
 
+def inline(t):
+    # The .md uses *word* / **word** for emphasis; the page wants real tags.
+    # Without this a regen printed literal asterisks (HC032, 2026-09-28).
+    t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
+    return re.sub(r"\*(.+?)\*", r"<em>\1</em>", t)
+
+
 def regen(sid):
     page = SITE / f"origins/{sid}.html"
     html = page.read_text()
@@ -34,15 +41,15 @@ def regen(sid):
             if b == "Holy Chip.":
                 ps.append('          <p class="holy-chip">Holy Chip.</p>')
             else:
-                ps.append(f'          <p>{b}</p>')
+                ps.append(f'          <p>{inline(b)}</p>')
         cls = "lang-content active" if lang == "en" else "lang-content"
         block = (f'<div class="{cls}" data-lang="{lang}">\n'
-                 f'        <div class="opener">\n          {opener}\n        </div>\n'
+                 f'        <div class="opener">\n          {inline(opener)}\n        </div>\n'
                  f'        <div class="body-text">\n' + "\n".join(ps) + "\n"
                  f'        </div>\n      </div>')
         pat = re.compile(r'<div class="lang-content[^"]*" data-lang="' + lang + r'">.*?</div>\s*</div>',
                          re.DOTALL)
-        html, n = pat.subn(block, html, count=1)
+        html, n = pat.subn(lambda m: block, html, count=1)
         assert n == 1, f"{sid} {lang}: matched {n} (expected 1)"
     page.write_text(html)
     print(f"{sid}: 4 blog language blocks regenerated")

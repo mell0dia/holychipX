@@ -394,7 +394,8 @@
       "kind": "vault",
       "tags": "#Corporate #Automation #Leadership",
       "lead": "The CEO said yes to AI. The AI had a suggestion about the CEO.",
-      "status": "pending"
+      "status": "done",
+      "posted_at": "2026-09-24 09:04"
     },
     {
       "date": "2026-09-26",
@@ -402,7 +403,8 @@
       "kind": "vault",
       "tags": "#Depression #Meaning #Silicon",
       "lead": "A Tesla, a drone, the latest iPhone. Happiness lasted three days.",
-      "status": "pending"
+      "status": "done",
+      "posted_at": "2026-09-26 09:04"
     },
     {
       "date": "2026-09-28",
@@ -410,10 +412,29 @@
       "kind": "vault",
       "tags": "#Elections #Politics #Power",
       "lead": "They assembled the perfect candidate from every president. The final ingredient was not a virtue.",
-      "status": "pending"
+      "status": "done",
+      "posted_at": "2026-09-28 09:05"
     },
     {
       "date": "2026-09-30",
+      "story": "HC032",
+      "kind": "vault",
+      "tags": "#Marriage #Truth #Mirrors",
+      "lead": "First dress on. She asks the mirror if it looks good. The mirror has never been more honest about lying.",
+      "status": "pending",
+      "marker": "FROM THE VAULT · REWRITTEN"
+    },
+    {
+      "date": "2026-10-02",
+      "story": "HC026",
+      "kind": "vault",
+      "tags": "#Automation #FreeTime #Robots",
+      "lead": "Schedule, homework, dinner: all done an hour before he even asked. Finally, a free evening.",
+      "marker": "FROM THE VAULT · REWRITTEN",
+      "status": "pending"
+    },
+    {
+      "date": "2026-10-04",
       "story": "HC034",
       "kind": "vault",
       "tags": "#Retirement #Ageing #Obsolescence",
@@ -421,7 +442,7 @@
       "status": "pending"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-06",
       "story": "HC006",
       "kind": "vault",
       "tags": "#SelfImprovement #Machines #Purpose",
@@ -429,7 +450,7 @@
       "status": "pending"
     },
     {
-      "date": "2026-10-04",
+      "date": "2026-10-08",
       "story": "HC035",
       "kind": "vault",
       "tags": "#Parenthood #Growth #Speed",
@@ -437,7 +458,7 @@
       "status": "pending"
     },
     {
-      "date": "2026-10-06",
+      "date": "2026-10-10",
       "story": "HC036",
       "kind": "vault",
       "tags": "#Salary #Debt #Work",
@@ -445,7 +466,7 @@
       "status": "pending"
     },
     {
-      "date": "2026-10-08",
+      "date": "2026-10-12",
       "story": "HC037",
       "kind": "vault",
       "tags": "#Maths #Children #Screens",

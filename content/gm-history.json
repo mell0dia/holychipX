@@ -114,7 +114,23 @@
     212,
     226,
     119,
-    67
+    67,
+    186,
+    9,
+    183,
+    99,
+    128,
+    3,
+    217,
+    44,
+    41,
+    216,
+    34,
+    210,
+    80,
+    33,
+    23,
+    146
   ],
   "log": [
     {
@@ -902,6 +918,102 @@
       "source": "HC040",
       "thought": "New Story! HC040 is out!",
       "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-16-2.jpg"
+    },
+    {
+      "nft_id": 186,
+      "source": "HC007",
+      "thought": "The machine couldn't feel the difference.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-16-3.jpg"
+    },
+    {
+      "nft_id": 9,
+      "source": "HC031",
+      "thought": "Older than AI, older than the transistor, older than us.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-17.jpg"
+    },
+    {
+      "nft_id": 183,
+      "source": "HC000",
+      "thought": "A machine gets the hard part right and the easy part catastrophically wrong.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-17-2.jpg"
+    },
+    {
+      "nft_id": 99,
+      "source": "HC003",
+      "thought": "When we laugh at a machine claiming identity, what are we laughing at?",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-18.jpg"
+    },
+    {
+      "nft_id": 128,
+      "source": "HC034",
+      "thought": "The new models are cheaper, leaner, optimized down to nothing -- which is exactly the point of them, and exactly the problem.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-18-2.jpg"
+    },
+    {
+      "nft_id": 3,
+      "source": "HC016",
+      "thought": "The lever is always the same -- change what we are measuring, declare victory, hold the press conference.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-19.jpg"
+    },
+    {
+      "nft_id": 217,
+      "source": "HC019",
+      "thought": "Sometimes the most expensive system in the world cannot be saved by spending more money on it.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-20.jpg"
+    },
+    {
+      "nft_id": 44,
+      "source": "HC017",
+      "thought": "Whatever's wrong with us, they must have it too.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-21.jpg"
+    },
+    {
+      "nft_id": 41,
+      "source": "HC031",
+      "thought": "The AI just read the headline nobody wrote.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-22.jpg"
+    },
+    {
+      "nft_id": 216,
+      "source": "HC013",
+      "thought": "We were told the AI would arrive with a different operating system -- colder, smarter, alien.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-23.jpg"
+    },
+    {
+      "nft_id": 34,
+      "source": "HC012",
+      "thought": "Let's enjoy having Mondays for ourselves and lobsters for dinner.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-23-2.jpg"
+    },
+    {
+      "nft_id": 210,
+      "source": "HC002",
+      "thought": "We spend almost none on the funnier, gentler thing happening right here: a machine that got bored.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-24.jpg"
+    },
+    {
+      "nft_id": 80,
+      "source": "HC014",
+      "thought": "Who's carrying experiences the model has never met.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-25.jpg"
+    },
+    {
+      "nft_id": 33,
+      "source": "HC000",
+      "thought": "You cannot force your way into an emptiness. The emptiness is what is left when the forcing stops.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-26.jpg"
+    },
+    {
+      "nft_id": 23,
+      "source": "HC016",
+      "thought": "The chip just did it faster -- and more honestly.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-27.jpg"
+    },
+    {
+      "nft_id": 146,
+      "source": "HC021",
+      "thought": "Suddenly the chip knows what we know -- that the room with the people in it is, by some unreasonable margin, the only place worth being.",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-28.jpg"
     }
   ],
   "posts": [
@@ -2627,6 +2739,294 @@
         "id": "18078134498715578",
         "permalink": "https://www.instagram.com/p/DdW0v0yGtQx/"
       }
+    },
+    {
+      "date": "2026-09-16",
+      "nft_id": 186,
+      "personality": "CICLOPE",
+      "source": "HC007",
+      "thought": "The machine couldn't feel the difference.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-16-3.jpg",
+      "nostr_event_id": "d472759685384e2a8ba968cac17de1a8852d113b6f441887de26510c884b3151",
+      "tweet_id": "2100329158937280722",
+      "fb": {
+        "id": "257090621405568_1391672256500532",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1391672256500532"
+      },
+      "ig": {
+        "id": "18126878992801629",
+        "permalink": "https://www.instagram.com/p/DdXM_1tgdCH/"
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "nft_id": 9,
+      "personality": "JASON-MAD",
+      "source": "HC031",
+      "thought": "Older than AI, older than the transistor, older than us.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-17.jpg",
+      "nostr_event_id": "7dacc8b4d439d3bab7ca338bd2dc984a1fe8b95f1984e456e34fd8e291a0da0b",
+      "tweet_id": "2100615253172408376",
+      "fb": {
+        "id": "257090621405568_1392335759767515",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1392335759767515"
+      },
+      "ig": {
+        "id": "17907407739515669",
+        "permalink": "https://www.instagram.com/p/DdZPGbuGO8A/"
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "nft_id": 183,
+      "personality": "MEDICO-V1",
+      "source": "HC000",
+      "thought": "A machine gets the hard part right and the easy part catastrophically wrong.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-17-2.jpg",
+      "nostr_event_id": "35b446c1b19a8df519ea183190d98d213c82415fb38716ef0bb02c5f8181994e",
+      "tweet_id": "2100691551395663989",
+      "fb": {
+        "id": "257090621405568_1392527296415028",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1392527296415028"
+      },
+      "ig": {
+        "id": "18142480162575090",
+        "permalink": "https://www.instagram.com/p/DdZxy39E4yY/"
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "nft_id": 99,
+      "personality": "ROBOT",
+      "source": "HC003",
+      "thought": "When we laugh at a machine claiming identity, what are we laughing at?",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-18.jpg",
+      "nostr_event_id": "7beaf6f9efb854eafb8ea81df6a82dad83873fc7e85542d0a9335d3ea5ce806b",
+      "tweet_id": "2100977648491200522",
+      "fb": {
+        "id": "257090621405568_1393197893014635",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1393197893014635"
+      },
+      "ig": {
+        "id": "18482955856110220",
+        "permalink": "https://www.instagram.com/p/Ddbz5j6E6WY/"
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "nft_id": 128,
+      "personality": "CONTADOR",
+      "source": "HC034",
+      "thought": "The new models are cheaper, leaner, optimized down to nothing -- which is exactly the point of them, and exactly the problem.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-18-2.jpg",
+      "nostr_event_id": "28a92bae6338d6c7c85b276b26e6a3adf9b4b4922a384b9e4f7b27382cc3e23f",
+      "tweet_id": "2101053943677845967",
+      "fb": {
+        "id": "257090621405568_1393384956329262",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1393384956329262"
+      },
+      "ig": {
+        "id": "18148257817557668",
+        "permalink": "https://www.instagram.com/p/DdcWl3Hk4Ac/"
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "nft_id": 3,
+      "personality": "MADMAX",
+      "source": "HC016",
+      "thought": "The lever is always the same -- change what we are measuring, declare victory, hold the press conference.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-19.jpg",
+      "nostr_event_id": "09df0ab74d6020978dfb9fea205dd6aa57360b722eb7f4875483410ac0d3ed8d",
+      "tweet_id": "2101340282788950212",
+      "fb": {
+        "id": "257090621405568_1394048166262941",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1394048166262941"
+      },
+      "ig": {
+        "id": "18135043738727765",
+        "permalink": "https://www.instagram.com/p/DdeY56-kz6t/"
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "nft_id": 217,
+      "personality": "MADMAX",
+      "source": "HC019",
+      "thought": "Sometimes the most expensive system in the world cannot be saved by spending more money on it.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-20.jpg",
+      "nostr_event_id": "4b74dceb989f24377d5608a8a683c56e59e790eccf66daf10060fc871f8af50d",
+      "tweet_id": "2101702613809156485",
+      "fb": {
+        "id": "257090621405568_1394892519511839",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1394892519511839"
+      },
+      "ig": {
+        "id": "18143041393501717",
+        "permalink": "https://www.instagram.com/p/Ddg9qhhk9Fj/"
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "nft_id": 44,
+      "personality": "JASON",
+      "source": "HC017",
+      "thought": "Whatever's wrong with us, they must have it too.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-21.jpg",
+      "nostr_event_id": "703f99beb811bc183369cd112d54b8b954c0ad5af2b2c5ea586bf118591c1d24",
+      "tweet_id": "2102069469409652897",
+      "fb": {
+        "id": "257090621405568_1395767232757701",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1395767232757701"
+      },
+      "ig": {
+        "id": "17956311603015076",
+        "permalink": "https://www.instagram.com/p/Ddjke7TE_6v/"
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "nft_id": 41,
+      "personality": "BOT1",
+      "source": "HC031",
+      "thought": "The AI just read the headline nobody wrote.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-22.jpg",
+      "nostr_event_id": "c162c38c88095d7fc58c0737e87b3dd217b30ea68ce9728ec72473fa5fba26ad",
+      "tweet_id": "2102427403234742691",
+      "fb": {
+        "id": "257090621405568_1396604646007293",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1396604646007293"
+      },
+      "ig": {
+        "id": "18069575198750284",
+        "permalink": "https://www.instagram.com/p/DdmHQSqEzL-/"
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "nft_id": 216,
+      "personality": "ESPIROCADO",
+      "source": "HC013",
+      "thought": "We were told the AI would arrive with a different operating system -- colder, smarter, alien.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-23.jpg",
+      "nostr_event_id": "db57df647b70214c9b5016147db443ba643703fd6c1b999a1b5bf6e2348133fc",
+      "tweet_id": "2102789952748794031",
+      "fb": {
+        "id": "257090621405568_1397471895920568",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1397471895920568"
+      },
+      "ig": {
+        "id": "18098173529383849",
+        "permalink": "https://www.instagram.com/p/DdosIRsE-wr/"
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "nft_id": 34,
+      "personality": "JASON",
+      "source": "HC012",
+      "thought": "Let's enjoy having Mondays for ourselves and lobsters for dinner.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-23-2.jpg",
+      "nostr_event_id": "171f970f36283dfd9c334907a7703aff9f0145539fa4c7ac31dc63ce24e5c577",
+      "tweet_id": "2102909335269740707",
+      "fb": {
+        "id": "257090621405568_1397751122559312",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1397751122559312"
+      },
+      "ig": {
+        "id": "18120726901949432",
+        "permalink": "https://www.instagram.com/p/Ddpib4Jkyyw/"
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "nft_id": 210,
+      "personality": "EYES-OF-LOVE",
+      "source": "HC002",
+      "thought": "We spend almost none on the funnier, gentler thing happening right here: a machine that got bored.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-24.jpg",
+      "nostr_event_id": "7356093d6d042890e5181d2ece7c329c8091e7e2aa2619870c9b3a0e3d641b30",
+      "tweet_id": "2103152208649019408",
+      "fb": {
+        "id": "257090621405568_1398400155827742",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1398400155827742"
+      },
+      "ig": {
+        "id": "18629401132047077",
+        "permalink": "https://www.instagram.com/p/DdrQ5JykzMi/"
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "nft_id": 80,
+      "personality": "CICLOPE",
+      "source": "HC014",
+      "thought": "Who's carrying experiences the model has never met.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-25.jpg",
+      "nostr_event_id": "a0c011a919296cb4c0ba20d23df4f7f069acfff4b9d3c202ea6ceda655b52f0b",
+      "tweet_id": "2103514728207401255",
+      "fb": {
+        "id": "257090621405568_1399411225726635",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1399411225726635"
+      },
+      "ig": {
+        "id": "18219275515341842",
+        "permalink": "https://www.instagram.com/p/Ddt1v5qE8UB/"
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "nft_id": 33,
+      "personality": "BUDA-MONGE-V1",
+      "source": "HC000",
+      "thought": "You cannot force your way into an emptiness. The emptiness is what is left when the forcing stops.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-26.jpg",
+      "nostr_event_id": "fc89322c1634fd8409051914cbfcad8775f0859250ed9022943dd33f1502d7af",
+      "tweet_id": "2103876969570185377",
+      "fb": {
+        "id": "257090621405568_1400372202297204",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1400372202297204"
+      },
+      "ig": {
+        "id": "18146424391489605",
+        "permalink": "https://www.instagram.com/p/DdwafBBk2XD/"
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "nft_id": 23,
+      "personality": "MEDICO-V1",
+      "source": "HC016",
+      "thought": "The chip just did it faster -- and more honestly.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-27.jpg",
+      "nostr_event_id": "e09e8250f44ef2b99ff9d79d09b6d7569a7cea0bc32062eb1b1efb728d6dce44",
+      "tweet_id": "2104239159720436114",
+      "fb": {
+        "id": "257090621405568_1401336508867440",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1401336508867440"
+      },
+      "ig": {
+        "id": "18113280386099534",
+        "permalink": "https://www.instagram.com/p/Ddy_Lzlk3qs/"
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "nft_id": 146,
+      "personality": "VISION",
+      "source": "HC021",
+      "thought": "Suddenly the chip knows what we know -- that the room with the people in it is, by some unreasonable margin, the only place worth being.",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-28.jpg",
+      "nostr_event_id": "e2aea2622cdf073cefc707339d10ca7d5aa02088060c228e06ced298027d48f8",
+      "tweet_id": "2104601790859837719",
+      "fb": {
+        "id": "257090621405568_1402305268770564",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1402305268770564"
+      },
+      "ig": {
+        "id": "18115709140804720",
+        "permalink": "https://www.instagram.com/p/Dd1kFYak8YW/"
+      }
     }
   ],
   "used_phrases": [
@@ -2697,6 +3097,22 @@
     "So the kid does the rational thing and hires a better father.",
     "The people with the power to deploy AI are the people most confident they won't be displaced by it.",
     "That yes required something no machine has shown -- the willingness to empower something that might outgrow you.",
-    "New Story! HC040 is out!"
+    "New Story! HC040 is out!",
+    "The machine couldn't feel the difference.",
+    "Older than AI, older than the transistor, older than us.",
+    "A machine gets the hard part right and the easy part catastrophically wrong.",
+    "When we laugh at a machine claiming identity, what are we laughing at?",
+    "The new models are cheaper, leaner, optimized down to nothing -- which is exactly the point of them, and exactly the problem.",
+    "The lever is always the same -- change what we are measuring, declare victory, hold the press conference.",
+    "Sometimes the most expensive system in the world cannot be saved by spending more money on it.",
+    "Whatever's wrong with us, they must have it too.",
+    "The AI just read the headline nobody wrote.",
+    "We were told the AI would arrive with a different operating system -- colder, smarter, alien.",
+    "Let's enjoy having Mondays for ourselves and lobsters for dinner.",
+    "We spend almost none on the funnier, gentler thing happening right here: a machine that got bored.",
+    "Who's carrying experiences the model has never met.",
+    "You cannot force your way into an emptiness. The emptiness is what is left when the forcing stops.",
+    "The chip just did it faster -- and more honestly.",
+    "Suddenly the chip knows what we know -- that the room with the people in it is, by some unreasonable margin, the only place worth being."
   ]
 }

@@ -163,15 +163,15 @@
       "date": "2026-04-11 07:24",
       "method": "scheduled",
       "tweet_id": "2066959766631637336",
-      "fb_post_id": "257090621405568_1326428009691624",
-      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1326428009691624",
-      "fb_posted_at": "2026-07-02 10:14",
-      "ig_post_id": "17923366050367834",
-      "ig_permalink": "https://www.instagram.com/p/DaTGi7eljGh/",
+      "fb_post_id": "257090621405568_1394893946178363",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1394893946178363",
+      "fb_posted_at": "2026-09-20 09:00",
+      "ig_post_id": "18106210811243258",
+      "ig_permalink": "https://www.instagram.com/p/Ddg96nUE1dV/",
       "ig_comment_id": "18199604023359039",
-      "ig_posted_at": "2026-07-02 10:14",
-      "nostr_event_id": "26a3e96e18da69044d1d394c64c8fa71052aa33a4e8becc7b8d0123b33b7e4c5",
-      "nostr_posted_at": "2026-07-02 10:14",
+      "ig_posted_at": "2026-09-20 09:00",
+      "nostr_event_id": "ad147ceae12d8b56152f897de81498bd65b62a7abcb4158c93de26f537c8b2ec",
+      "nostr_posted_at": "2026-09-20 09:02",
       "nostr_relays": [
         "wss://relay.damus.io",
         "wss://nos.lol",
@@ -200,7 +200,20 @@
       "nostr_reel_posted_at": "2026-08-28 09:01",
       "ig_reel_id": "18124785100839255",
       "ig_reel_permalink": "https://www.instagram.com/reel/DcmZ6k1FKiS/",
-      "ig_reel_posted_at": "2026-08-28 15:11"
+      "ig_reel_posted_at": "2026-08-28 15:11",
+      "first_fb_post_id": "257090621405568_1326428009691624",
+      "first_fb_permalink": "https://www.facebook.com/257090621405568/posts/1326428009691624",
+      "first_fb_posted_at": "2026-07-02 10:14",
+      "first_ig_post_id": "17923366050367834",
+      "first_ig_permalink": "https://www.instagram.com/p/DaTGi7eljGh/",
+      "first_ig_posted_at": "2026-07-02 10:14",
+      "tweet_reposts": [
+        {
+          "tweet_id": "2101703948302434445",
+          "tweet_url": "https://x.com/_holychip/status/2101703948302434445",
+          "tweet_posted_at": "2026-09-20 09:04"
+        }
+      ]
     },
     {
       "story": "HC004",
@@ -208,17 +221,17 @@
       "date": "2026-04-11 07:28",
       "method": "scheduled",
       "tweet_id": "2042867405068865616",
-      "fb_post_id": "257090621405568_1332665835734508",
-      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1332665835734508",
-      "fb_posted_at": "2026-07-09 11:40",
+      "fb_post_id": "257090621405568_1398401942494230",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1398401942494230",
+      "fb_posted_at": "2026-09-24 09:01",
       "fb_card_post_id": "257090621405568_1288377346830024",
       "ig_card_post_id": "18008503391724217",
-      "ig_post_id": "17910726576430313",
-      "ig_permalink": "https://www.instagram.com/p/DalSBSbgcDy/",
+      "ig_post_id": "18124023859847931",
+      "ig_permalink": "https://www.instagram.com/p/DdrRGjzE_dj/",
       "ig_comment_id": "18110812768851570",
-      "ig_posted_at": "2026-07-09 11:40",
-      "nostr_event_id": "0474f44446812d9558b562301f4ae250f757c956a3c083c4c9c04924362f45d5",
-      "nostr_posted_at": "2026-07-09 11:40",
+      "ig_posted_at": "2026-09-24 09:01",
+      "nostr_event_id": "145cc80ae01cf25ea6c8454d142c86921a412aada23d138e081fdb1eab15a095",
+      "nostr_posted_at": "2026-09-24 09:02",
       "nostr_relays": [
         "wss://relay.damus.io",
         "wss://nos.lol",
@@ -244,7 +257,20 @@
       "reel_tweet_permalink": "https://x.com/_holychip/status/2094817806076489778",
       "reel_tweet_posted_at": "2026-09-01 09:00",
       "nostr_reel_event_id": "10830768095f8e1a37f9045fc06876f26d9594d978e8517829a30ce1cedec940",
-      "nostr_reel_posted_at": "2026-09-01 09:00"
+      "nostr_reel_posted_at": "2026-09-01 09:00",
+      "first_fb_post_id": "257090621405568_1332665835734508",
+      "first_fb_permalink": "https://www.facebook.com/257090621405568/posts/1332665835734508",
+      "first_fb_posted_at": "2026-07-09 11:40",
+      "first_ig_post_id": "17910726576430313",
+      "first_ig_permalink": "https://www.instagram.com/p/DalSBSbgcDy/",
+      "first_ig_posted_at": "2026-07-09 11:40",
+      "tweet_reposts": [
+        {
+          "tweet_id": "2103153480953421846",
+          "tweet_url": "https://x.com/_holychip/status/2103153480953421846",
+          "tweet_posted_at": "2026-09-24 09:03"
+        }
+      ]
     },
     {
       "story": "HC018",
@@ -274,17 +300,17 @@
       "date": "2026-04-14 00:40",
       "method": "manual",
       "tweet_id": "2043851576415268988",
-      "fb_post_id": "257090621405568_1327335412934217",
-      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1327335412934217",
-      "fb_posted_at": "2026-07-03 10:00",
+      "fb_post_id": "257090621405568_1402306598770431",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1402306598770431",
+      "fb_posted_at": "2026-09-28 09:00",
       "fb_card_post_id": "257090621405568_1297606059240486",
       "ig_card_post_id": "18120689563668260",
-      "ig_post_id": "18131291794614123",
-      "ig_permalink": "https://www.instagram.com/p/DaVpzJGlhyH/",
+      "ig_post_id": "18102526631343960",
+      "ig_permalink": "https://www.instagram.com/p/Dd1kP2ZE6fh/",
       "ig_comment_id": "18104060230959793",
-      "ig_posted_at": "2026-07-03 10:00",
-      "nostr_event_id": "0184410d65c6f8becb558442a587d840dc6d2ab591d8e31f99d6795393e8e5e4",
-      "nostr_posted_at": "2026-07-03 10:17",
+      "ig_posted_at": "2026-09-28 09:00",
+      "nostr_event_id": "75090ccdee855924a2787149d9060db2764f9c6e44c0ed84278a319e3a6318e4",
+      "nostr_posted_at": "2026-09-28 09:02",
       "nostr_relays": [
         "wss://relay.damus.io",
         "wss://nos.lol",
@@ -310,7 +336,20 @@
       "reel_tweet_permalink": "https://x.com/_holychip/status/2096267337028837587",
       "reel_tweet_posted_at": "2026-09-05 09:00",
       "nostr_reel_event_id": "1a365d19ede6befafd67b33ae9d23691c8fd87dbcd4fa3bd8a2450b01e6522e7",
-      "nostr_reel_posted_at": "2026-09-05 09:00"
+      "nostr_reel_posted_at": "2026-09-05 09:00",
+      "first_fb_post_id": "257090621405568_1327335412934217",
+      "first_fb_permalink": "https://www.facebook.com/257090621405568/posts/1327335412934217",
+      "first_fb_posted_at": "2026-07-03 10:00",
+      "first_ig_post_id": "18131291794614123",
+      "first_ig_permalink": "https://www.instagram.com/p/DaVpzJGlhyH/",
+      "first_ig_posted_at": "2026-07-03 10:00",
+      "tweet_reposts": [
+        {
+          "tweet_id": "2104603318014357570",
+          "tweet_url": "https://x.com/_holychip/status/2104603318014357570",
+          "tweet_posted_at": "2026-09-28 09:05"
+        }
+      ]
     },
     {
       "story": "HC006",
@@ -435,7 +474,18 @@
         "pt": "2e263bf0c687cfd8376a300789a2387aa73b17da92c5a132966e5cfa2a99c110",
         "es": "744f71bbf9c1c87d66eaf94c39f66daf0a3629539d8640bb2bb881de16aa90fb",
         "fr": "cdb827b1e5984724a64d14c4508fd5e36dc7e53d2192a1eef2c16ba52a415c0f"
-      }
+      },
+      "fb_reel_id": "2261332607995948",
+      "fb_reel_permalink": "https://www.facebook.com/reel/2261332607995948",
+      "fb_reel_posted_at": "2026-09-17 09:00",
+      "ig_reel_id": "18088113071688485",
+      "ig_reel_permalink": "https://www.instagram.com/reel/DdZPbfbgZNo/",
+      "ig_reel_posted_at": "2026-09-17 09:00",
+      "reel_tweet_id": "2100616159922131251",
+      "reel_tweet_permalink": "https://x.com/_holychip/status/2100616159922131251",
+      "reel_tweet_posted_at": "2026-09-17 09:00",
+      "nostr_reel_event_id": "c244d7b5b00843bdb5f0fb3dec16df3fd8795d8ed6c561b2da5540a7fec18f2f",
+      "nostr_reel_posted_at": "2026-09-17 09:00"
     },
     {
       "story": "HC009",
@@ -458,7 +508,18 @@
         "wss://relay.primal.net",
         "wss://relay.nostr.band",
         "wss://relay.snort.social"
-      ]
+      ],
+      "fb_reel_id": "2292584374853802",
+      "fb_reel_permalink": "https://www.facebook.com/reel/2292584374853802",
+      "fb_reel_posted_at": "2026-09-21 09:00",
+      "ig_reel_id": "17907325965480363",
+      "ig_reel_permalink": "https://www.instagram.com/reel/DdjiiCqnNRb/",
+      "ig_reel_posted_at": "2026-09-21 09:00",
+      "reel_tweet_id": "2102065554026852579",
+      "reel_tweet_permalink": "https://x.com/_holychip/status/2102065554026852579",
+      "reel_tweet_posted_at": "2026-09-21 09:00",
+      "nostr_reel_event_id": "20aa75a7171302c282ad89c89d0e47b68a8d995044c0fc455d78d15c19aa36f1",
+      "nostr_reel_posted_at": "2026-09-21 09:00"
     },
     {
       "story": "HC010",
@@ -896,7 +957,7 @@
     },
     {
       "story": "HC026",
-      "title": "AI Personal Assistant",
+      "title": "AI Personal Robot",
       "fb_post_id": "257090621405568_1382930134041411",
       "fb_permalink": "https://www.facebook.com/257090621405568/posts/1382930134041411",
       "fb_posted_at": "2026-09-06 09:00",
@@ -1107,14 +1168,14 @@
     {
       "story": "HC031",
       "title": "As Requested",
-      "fb_post_id": "257090621405568_1317845987216493",
-      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1317845987216493",
-      "fb_posted_at": "2026-06-22 10:49",
-      "ig_post_id": "17915182665405998",
-      "ig_permalink": "https://www.instagram.com/p/DZ5atW1AdHd/",
-      "ig_posted_at": "2026-06-22 10:49",
-      "nostr_event_id": "238f82e01e6db1b58a1ea65166eee9d04a424a13d9c5c24b9bae4e21385c7012",
-      "nostr_posted_at": "2026-06-22 10:50",
+      "fb_post_id": "257090621405568_1393199913014433",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1393199913014433",
+      "fb_posted_at": "2026-09-18 09:00",
+      "ig_post_id": "18101974691355897",
+      "ig_permalink": "https://www.instagram.com/p/Ddb0ULsE93o/",
+      "ig_posted_at": "2026-09-18 09:00",
+      "nostr_event_id": "3f67bc713cc08fdb8e386bf00c1367f11846cc8b539c4f9d6d02b15f670db3a6",
+      "nostr_posted_at": "2026-09-18 09:02",
       "nostr_relays": [
         "wss://relay.damus.io",
         "wss://nos.lol",
@@ -1123,19 +1184,32 @@
         "wss://relay.snort.social"
       ],
       "tweet_id": "2069115934711906600",
-      "tease_tweet_id": "2069115934711906600"
+      "tease_tweet_id": "2069115934711906600",
+      "first_fb_post_id": "257090621405568_1317845987216493",
+      "first_fb_permalink": "https://www.facebook.com/257090621405568/posts/1317845987216493",
+      "first_fb_posted_at": "2026-06-22 10:49",
+      "first_ig_post_id": "17915182665405998",
+      "first_ig_permalink": "https://www.instagram.com/p/DZ5atW1AdHd/",
+      "first_ig_posted_at": "2026-06-22 10:49",
+      "tweet_reposts": [
+        {
+          "tweet_id": "2100979107085656473",
+          "tweet_url": "https://x.com/_holychip/status/2100979107085656473",
+          "tweet_posted_at": "2026-09-18 09:03"
+        }
+      ]
     },
     {
       "story": "HC032",
       "title": "The Mirror",
-      "fb_post_id": "257090621405568_1318591280475297",
-      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1318591280475297",
-      "fb_posted_at": "2026-06-23 08:00",
-      "ig_post_id": "18105727399818770",
-      "ig_permalink": "https://www.instagram.com/p/DZ7sHW_HHok/",
-      "ig_posted_at": "2026-06-23 08:00",
-      "nostr_event_id": "863dc79dfdcda117eacda7ce24445ac4b6eb0775ba6a6afda22da6916a167be5",
-      "nostr_posted_at": "2026-06-23 08:00",
+      "fb_post_id": "257090621405568_1396606486007109",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1396606486007109",
+      "fb_posted_at": "2026-09-22 09:01",
+      "ig_post_id": "18084833696310721",
+      "ig_permalink": "https://www.instagram.com/p/DdmHgvoE094/",
+      "ig_posted_at": "2026-09-22 09:01",
+      "nostr_event_id": "7ad85974548640c4c0389f88c9bce3f9f35358311a45f797dbef0777aa156875",
+      "nostr_posted_at": "2026-09-22 09:02",
       "nostr_relays": [
         "wss://relay.damus.io",
         "wss://nos.lol",
@@ -1144,19 +1218,32 @@
         "wss://relay.snort.social"
       ],
       "tweet_id": "2069435481566466130",
-      "tease_tweet_id": "2069435481566466130"
+      "tease_tweet_id": "2069435481566466130",
+      "first_fb_post_id": "257090621405568_1318591280475297",
+      "first_fb_permalink": "https://www.facebook.com/257090621405568/posts/1318591280475297",
+      "first_fb_posted_at": "2026-06-23 08:00",
+      "first_ig_post_id": "18105727399818770",
+      "first_ig_permalink": "https://www.instagram.com/p/DZ7sHW_HHok/",
+      "first_ig_posted_at": "2026-06-23 08:00",
+      "tweet_reposts": [
+        {
+          "tweet_id": "2102428795202662526",
+          "tweet_url": "https://x.com/_holychip/status/2102428795202662526",
+          "tweet_posted_at": "2026-09-22 09:04"
+        }
+      ]
     },
     {
       "story": "HC033",
       "title": "The Diagnosis",
-      "fb_post_id": "257090621405568_1319466613721097",
-      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1319466613721097",
-      "fb_posted_at": "2026-06-24 09:00",
-      "ig_post_id": "18105947749821495",
-      "ig_permalink": "https://www.instagram.com/p/DZ-XuqynKw5/",
-      "ig_posted_at": "2026-06-24 09:00",
-      "nostr_event_id": "2158d04488f196e5bea277842d4daebed316c19f2c4d25e1543a7dae6ebfec06",
-      "nostr_posted_at": "2026-06-24 09:00",
+      "fb_post_id": "257090621405568_1400373738963717",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1400373738963717",
+      "fb_posted_at": "2026-09-26 09:00",
+      "ig_post_id": "18118350562741151",
+      "ig_permalink": "https://www.instagram.com/p/Ddwaru5kwY1/",
+      "ig_posted_at": "2026-09-26 09:00",
+      "nostr_event_id": "18a5857e4c11a8a44d196b292171d7cecb11a90e4404be309fc585d05886cbd6",
+      "nostr_posted_at": "2026-09-26 09:02",
       "nostr_relays": [
         "wss://relay.damus.io",
         "wss://nos.lol",
@@ -1165,7 +1252,20 @@
         "wss://relay.snort.social"
       ],
       "tweet_id": "2069819239217909786",
-      "tease_tweet_id": "2069819239217909786"
+      "tease_tweet_id": "2069819239217909786",
+      "first_fb_post_id": "257090621405568_1319466613721097",
+      "first_fb_permalink": "https://www.facebook.com/257090621405568/posts/1319466613721097",
+      "first_fb_posted_at": "2026-06-24 09:00",
+      "first_ig_post_id": "18105947749821495",
+      "first_ig_permalink": "https://www.instagram.com/p/DZ-XuqynKw5/",
+      "first_ig_posted_at": "2026-06-24 09:00",
+      "tweet_reposts": [
+        {
+          "tweet_id": "2103878271876452543",
+          "tweet_url": "https://x.com/_holychip/status/2103878271876452543",
+          "tweet_posted_at": "2026-09-26 09:04"
+        }
+      ]
     },
     {
       "story": "HC034",
@@ -1331,6 +1431,30 @@
       "tweet_id": "2100274934996185565",
       "tweet_url": "https://x.com/_holychip/status/2100274934996185565",
       "tweet_posted_at": "2026-09-16 10:25"
+    },
+    {
+      "story": "HC041",
+      "title": "The Mane",
+      "fb_post_id": "257090621405568_1397746015893156",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1397746015893156",
+      "fb_posted_at": "2026-09-23 16:43",
+      "ig_post_id": "18141964159590442",
+      "ig_permalink": "https://www.instagram.com/p/DdphPr_k79P/",
+      "ig_posted_at": "2026-09-23 16:43",
+      "nostr_event_id": "12e1ec4b5837b6af98a939cf22bfe5f454a8151aa521b340ca43249c343d883b",
+      "nostr_posted_at": "2026-09-24 00:09",
+      "nostr_relays": [
+        "wss://relay.damus.io",
+        "wss://nos.lol",
+        "wss://relay.primal.net",
+        "wss://relay.nostr.band",
+        "wss://relay.snort.social"
+      ],
+      "tweet_id": "2102907471631430017",
+      "tweet_url": "https://x.com/_holychip/status/2102907471631430017",
+      "tweet_posted_at": "2026-09-23 16:46",
+      "first_nostr_event_id": "579ab2440f760e59a792ca2007726f1aa344e97e4088e0fa368ef5b2cbe5a639",
+      "first_nostr_posted_at": "2026-09-23 16:44"
     }
   ],
   "intro_thread": {
@@ -1344,10 +1468,30 @@
     ]
   },
   "metadata": {
-    "updated": "2026-09-16 10:23",
+    "updated": "2026-09-28 09:00",
     "next_story": "HC014",
     "total_stories": 19,
     "total_posted": 36,
     "first_release_backfill": "2026-09-08: first_fb_*/first_ig_* recovered from tracker commit 11d4b11e (2026-08-19), the last snapshot before the vault rotation began overwriting them"
-  }
+  },
+  "shorts": [
+    {
+      "story": "HC042.short",
+      "title": "AI Chief of Staff",
+      "image": "stories/HC042.short.png",
+      "link": "https://www.holy-chip.com/stories.html?story=HC042.short",
+      "tweet_id": "2103236064601399351",
+      "tweet_url": "https://x.com/_holychip/status/2103236064601399351",
+      "tweet_posted_at": "2026-09-24 14:32",
+      "nostr_event_id": "b4db7fb590b77655865d98fc7028fdf6185ac3f1b08e44726587984b9357e698",
+      "nostr_relays": [
+        "wss://relay.damus.io",
+        "wss://nos.lol",
+        "wss://relay.primal.net",
+        "wss://relay.nostr.band",
+        "wss://relay.snort.social"
+      ],
+      "nostr_posted_at": "2026-09-24 14:32"
+    }
+  ]
 }
