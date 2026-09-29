@@ -7,7 +7,7 @@ Nostr note with the phrase in the caption.
 
 Designed to run from cron once per day.
 """
-import json, os, re, subprocess, sys, threading, time
+import asyncio, json, os, re, subprocess, sys, threading, time
 from datetime import datetime
 from pathlib import Path
 
@@ -294,7 +294,14 @@ def post_to_nostr(image_url, info, card_urls=None):
     # relay work now runs in a daemon thread; after NOSTR_LIMIT seconds we move
     # on regardless (the events are almost always already published by then).
     def _publish():
-        rm.run_sync(); time.sleep(2); rm.close_all_relay_connections()
+        # pynostr is tornado underneath; a non-main thread has no event loop
+        # until it is given one, and close_all_relay_connections() raised
+        # "There is no current event loop" without this.
+        asyncio.set_event_loop(asyncio.new_event_loop())
+        try:
+            rm.run_sync(); time.sleep(2); rm.close_all_relay_connections()
+        except Exception as e:
+            print(f"  nostr: relay error after publish: {e}", flush=True)
     t = threading.Thread(target=_publish, daemon=True)
     t.start()
     t.join(NOSTR_LIMIT)
@@ -456,11 +463,6 @@ def main():
         card_urls = [comic_url] + card_urls
         print(f"  slide 2 is the {source_sid} comic")
 
-    print("posting to nostr")
-    event_id = post_to_nostr(url, info, card_urls)
-    print(f"nostr event: {event_id}")
-    print(f"njump: https://njump.me/{event_id}")
-
     print("posting to x")
     tweet_id = post_to_x(out_path, info, card_paths)
     print(f"tweet: {tweet_id}")
@@ -473,6 +475,13 @@ def main():
     ig_url = url.replace(SITE_URL, SITE_URL_WWW, 1)
     ig = post_to_instagram(ig_url, info, card_urls)
     print(f"ig: {ig}")
+
+    # NOSTR GOES LAST (user, 2026-09-29): its relays are the step that has
+    # hung, so nothing else waits behind it any more.
+    print("posting to nostr")
+    event_id = post_to_nostr(url, info, card_urls)
+    print(f"nostr event: {event_id}")
+    print(f"njump: https://njump.me/{event_id}")
 
     # log to history
     log_entry = {
