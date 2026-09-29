@@ -7,7 +7,7 @@ Nostr note with the phrase in the caption.
 
 Designed to run from cron once per day.
 """
-import json, os, re, subprocess, sys, time
+import json, os, re, subprocess, sys, threading, time
 from datetime import datetime
 from pathlib import Path
 
@@ -20,6 +20,7 @@ HISTORY = HC / "content/gm-history.json"
 ENV_FILE = HOME / "claude-agent/.env"
 SITE_URL = "https://holy-chip.com"
 SITE_URL_WWW = "https://www.holy-chip.com"   # IG rejects redirects, needs canonical www host
+NOSTR_LIMIT = 60   # seconds; see post_to_nostr
 
 # House-promo phrases carry a PROMO-* tag instead of an HC### story id. Route
 # each to its real destination so the CTA is never a broken "/origins/" link.
@@ -287,7 +288,19 @@ def post_to_nostr(image_url, info, card_urls=None):
     for r in RELAYS: rm.add_relay(r)
     for ev in events:
         rm.publish_event(ev)
-    rm.run_sync(); time.sleep(2); rm.close_all_relay_connections()
+
+    # HARD TIME LIMIT. On 2026-09-29 run_sync/close hung for 25 minutes AFTER
+    # the events had reached all four relays, and X/FB/IG never went out. The
+    # relay work now runs in a daemon thread; after NOSTR_LIMIT seconds we move
+    # on regardless (the events are almost always already published by then).
+    def _publish():
+        rm.run_sync(); time.sleep(2); rm.close_all_relay_connections()
+    t = threading.Thread(target=_publish, daemon=True)
+    t.start()
+    t.join(NOSTR_LIMIT)
+    if t.is_alive():
+        print(f"  nostr: relays still busy after {NOSTR_LIMIT}s - moving on "
+              f"(check njump for {root.id})", flush=True)
     if len(events) > 1:
         print(f"  reply with {len(card_urls)} image(s): {events[1].id}")
     return root.id
@@ -371,6 +384,10 @@ def post_to_instagram(image_url, info, card_urls=None):
 
 
 def main():
+    # Line-buffered, so the log shows how far a run got. On 2026-09-29 a hung
+    # run left only the pynostr warning in the log: every print was stuck in
+    # the buffer and there was no way to tell which platform it had reached.
+    sys.stdout.reconfigure(line_buffering=True)
     load_env()
     if "NOSTR_NSEC" not in os.environ:
         sys.exit("NOSTR_NSEC not in env")
