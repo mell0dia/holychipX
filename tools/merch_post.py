@@ -103,6 +103,19 @@ def to_jpeg(png):
     return out
 
 
+def wait_live(url, tries=90):
+    import urllib.request
+    for _ in range(tries):
+        try:
+            if urllib.request.urlopen(urllib.request.Request(url, method="HEAD"),
+                                      timeout=10).status == 200:
+                return
+        except Exception:
+            pass
+        time.sleep(10)
+    raise RuntimeError(f"never went live: {url}")
+
+
 def tweet(paths, text, reply_to=None):
     argv = [str(HC / "venv/nostr/bin/python"), str(g.TOOLS / "tweet_image.py")]
     argv += ([str(paths[0]), text] if len(paths) == 1 else [*map(str, paths), "--", text])
@@ -214,10 +227,10 @@ def main():
     rels = [str(j.relative_to(SITE)) for j in jpgs]
     for rel in rels[:-1]:
         g.run(["git", "-C", str(SITE), "add", rel])
-    g.push_site_file(rels[-1], f"Merch post images: {label}")
-    for rel in rels[:-1]:                       # wait for the others too
-        g.push_site_file(rel, f"Merch post images: {label}")
+    g.push_site_file(rels[-1], f"Merch post images: {label}")   # one commit for all
     urls = [f"{g.SITE_URL_WWW}/{rel}" for rel in rels]
+    for u in urls[:-1]:                         # same push - just wait until each serves
+        wait_live(u)
 
     print("posting to facebook")
     fb = meta_post("post_facebook.py",

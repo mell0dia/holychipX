@@ -119,7 +119,7 @@ def push_to_ghpages(filename):
     msg = f"Add daily gm card {filename}"
     r = subprocess.run(["git", "-C", str(SITE), "commit", "-m", msg],
                        capture_output=True, text=True)
-    if r.returncode != 0 and "nothing to commit" not in (r.stdout + r.stderr):
+    if r.returncode != 0 and not re.search(r"nothing (added )?to commit", r.stdout + r.stderr):
         raise RuntimeError(f"commit failed: {r.stdout} {r.stderr}")
     run_retry(["git", "-C", str(SITE), "push", "origin", "gh-pages"])
 
@@ -217,7 +217,7 @@ def push_site_file(rel, msg):
     run(["git", "-C", str(SITE), "add", rel])
     r = subprocess.run(["git", "-C", str(SITE), "commit", "-m", msg],
                        capture_output=True, text=True)
-    if r.returncode != 0 and "nothing to commit" not in (r.stdout + r.stderr):
+    if r.returncode != 0 and not re.search(r"nothing (added )?to commit", r.stdout + r.stderr):
         raise RuntimeError(f"commit failed: {r.stdout} {r.stderr}")
     run_retry(["git", "-C", str(SITE), "push", "origin", "gh-pages"])
     url = f"{SITE_URL_WWW}/{rel}"
