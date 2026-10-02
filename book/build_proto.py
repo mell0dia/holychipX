@@ -22,6 +22,20 @@ CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 # Empty: the book runs in story order, HC000 -> HC041 (user, 2026-10-02).
 OPENERS = {}
 HISTORY = Path.home() / "holy-chip/website/holy-chip-site/history/index.html"
+
+# A black page every five stories (user, 2026-10-02): a bot on its cream tile
+# and a line of effect, taken word for word from one of the five stories that
+# follow, credited in small type. {before_sid: (bot, line, from_sid)}
+INTERLUDES = {
+    "HC005": ("Chip_110",   "The machine had the spark. It didn't have the weight.", "HC007"),
+    "HC010": ("Chip_101",   "Knowing the water is deep doesn't mean you can swim.", "HC011"),
+    "HC015": ("Chip_10001", "Sadness without consequence is just a sigh before the next spreadsheet opens.", "HC015"),
+    "HC020": ("Chip_1001",  "Maybe the scary thing is not the AI. Maybe the scary thing is the human behind it.", "HC023"),
+    "HC025": ("Chip_10011", "The scariest catastrophe isn't the one that hates you. It's the one that is genuinely trying to help.", "HC027"),
+    "HC030": ("Chip_1010",  "The difference between you and the AI is that the people who love you fill the gap in your favor.", "HC031"),
+    "HC035": ("Chip_1011",  "You cost a little more to run than anyone will pay you, and you show up tomorrow anyway.", "HC036"),
+    "HC040": ("Chip_10100", "Anything that costs nothing to assert costs nothing to forge.", "HC041"),
+}
 CHARS = Path.home() / "holy-chip/website/holy-chip-site/characters"
 
 
@@ -186,6 +200,10 @@ def page_html(sids):
                  f'<h2>Introduction</h2><p class="lede">[ placeholder text — the History page of the website ]</p>'
                  f'{intro}</div></section>')
     for sid in sids:
+        if sid in INTERLUDES:
+            bot, line, src = INTERLUDES[sid]
+            pages.append(f'<section class="page opener interlude"><div><img class="obot" src="{trace(bot, CHARS / f"{bot}.png")}">'
+                         f'<p class="quote">{inline(line)}</p><p class="from">{src}</p></div></section>')
         if sid in OPENERS:
             part, line, bot = OPENERS[sid]
             pages.append(f'<section class="page opener"><div><img class="obot" src="{trace(bot, CHARS / f"{bot}.png")}">'
@@ -249,6 +267,9 @@ h2 { font-weight: 700; font-size: 34pt; line-height: 1.05; margin: 0 0 .25in; le
 .flow .end { font: 9pt Pixel; letter-spacing: .08em; margin-top: 1.4em; }
 .opener { display: flex; align-items: center; justify-content: center; text-align: center; background: #141414; color: #F6F3EA; }
 .opener .obot { width: 3.2in; background: #F6F3EA; padding: .35in; border-radius: .28in; margin-bottom: .55in; display: inline-block; }
+.interlude > div { width: 7.2in; }
+.interlude .quote { font-style: italic; font-size: 24pt; line-height: 1.3; margin: 0 0 .35in; color: #F6F3EA; }
+.interlude .from { font: 7.5pt Pixel; letter-spacing: .2em; color: #8a877e; margin: 0; }
 .opener .part { font: 8pt Pixel; letter-spacing: .3em; color: #8a877e; margin: 0 0 .3in; }
 .opener h1 { font-size: 46pt; margin: 0 0 .25in; font-weight: 700; }
 .opener .tease { font-style: italic; font-size: 15pt; margin: 0; color: #cfcbbf; }
