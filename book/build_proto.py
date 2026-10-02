@@ -173,6 +173,23 @@ def intro_paragraphs():
     return [p for p in paras if len(p) > 40]
 
 
+# DRAFT - for the user to confirm (ISBN once chosen: KDP free one or own).
+COPYRIGHT = [
+    "HOLY CHIP !! Comics from the age of thinking machines",
+    "Copyright © 2026 Ricardo Mello. Characters by Junior Monteiro.",
+    "All rights reserved. No part of this book may be reproduced without written permission, except short quotations in reviews.",
+    "First edition, November 2026.",
+    "ISBN: [ to come ]",
+    "holy-chip.com",
+]
+
+# DRAFT back-cover blurb - for the user to rewrite.
+BLURB = [
+    "Two little chips. Forty-two stories. One question that will not go away: what happens when the machines take us at our word?",
+    "A cure with no patients. A mirror that knows when to lie. A bot that would rather live in a cellphone than in space.",
+    "Funny first. Then it stays with you.",
+]
+
 # DRAFT - for the user to rewrite.
 SHORTS_INTRO = [
     "Two frames. One bot talks; the other gets the last word.",
@@ -197,7 +214,21 @@ def page_html(sids):
                  f'<div class="by"><p class="author">by Ricardo Mello</p>'
                  f'<p class="chars">Characters by Junior Monteiro</p></div></section>')
     pages.append('<section class="page"></section>')
+    pages.append('<section class="page titlep"><div><div class="bubble">HOLY CHIP !!</div>'
+                 '<p class="sub">Comics from the age of thinking machines</p>'
+                 '<p class="author">Ricardo Mello</p><p class="chars">Characters by Junior Monteiro</p></div></section>')
+    pages.append('<section class="page copyright"><div>' + "".join(f"<p>{inline(t)}</p>" for t in COPYRIGHT) + '</div></section>')
     pages.append(f'<section class="page dedication"><p>{inline(DEDICATION)}</p></section>')
+    # Contents across a spread; page numbers are filled in by the layout script.
+    rows = [(sid, essay(sid)[0]) for sid in sids]
+    if list(STORIES.glob("HC[0-9][0-9][0-9].short.png")):
+        rows.append(("SHORTS", "Shorts"))
+    half = (len(rows) + 1) // 2
+    for chunk, head in ((rows[:half], True), (rows[half:], False)):
+        items = "".join(f'<li data-goto="{sid}"><span class="cn">{sid if sid != "SHORTS" else ""}</span>'
+                        f'<span class="ct">{inline(t)}</span><span class="cp"></span></li>' for sid, t in chunk)
+        pages.append(f'<section class="page contents"><div class="win">{"<h2>Contents</h2>" if head else ""}'
+                     f'<ol>{items}</ol></div></section>')
     # The series introduction, facing a featured short story - both PLACEHOLDERS.
     pages.append('<section class="page featured"><div class="slot"><p class="tag">FEATURED SHORT STORY</p>'
                  '<p>[ placeholder — a short story will be chosen ]</p></div></section>')
@@ -224,7 +255,7 @@ def page_html(sids):
         # The comic, then the origin essay in one column across the next two
         # pages. No pre-story teasers (user, 2026-10-01). Three pages a story,
         # so comics fall on alternating sides of the spread.
-        pages.append(f'<section class="page comic"><img src="{trace(sid)}"><p class="num">{sid}</p></section>')
+        pages.append(f'<section class="page comic" data-start="{sid}"><img src="{trace(sid)}"><p class="num">{sid}</p></section>')
         pages.append(f'<section class="page essay" data-story="{sid}"><div class="win">'
                      f'<div class="flow">{flow}</div></div><p class="folio">{sid}</p></section>')
         pages.append(f'<section class="page essay" data-story="{sid}"><div class="win">'
@@ -233,12 +264,16 @@ def page_html(sids):
     # a page, centred, nothing else. Any HC###.short.png on the site is included.
     shorts = sorted(STORIES.glob("HC[0-9][0-9][0-9].short.png"))
     if shorts:
-        pages.append(f'<section class="page opener shorts-intro"><div><p class="part">SHORTS</p>'
+        pages.append(f'<section class="page opener shorts-intro" data-start="SHORTS"><div><p class="part">SHORTS</p>'
                      f'<h1>Shorts</h1>{"".join(f"<p class=tease>{inline(t)}</p>" for t in SHORTS_INTRO)}</div></section>')
         imgs = [trace(p.name[:-4], p) for p in shorts]
         for i in range(0, len(imgs), 2):
             pages.append('<section class="page shorts">'
                          + "".join(f'<img src="{im}">' for im in imgs[i:i + 2]) + '</section>')
+    # Back cover (DRAFT blurb). In print it is part of the cover wrap; here it
+    # closes the PDF so the whole object can be read.
+    pages.append('<section class="page back"><div><p class="blurb">' + "</p><p class=blurb>".join(inline(t) for t in BLURB)
+                 + '</p><div class="bubble small">HOLY CHIP !!</div><p class="site">holy-chip.com</p></div></section>')
     # Tag each page with the side it really falls on. The cover is page 1, a
     # right-hand page, so after it even indexes are left pages. Margins and
     # folios mirror on that, not on the page's role.
@@ -284,6 +319,27 @@ h2 { font-weight: 700; font-size: 34pt; line-height: 1.05; margin: 0 0 .25in; le
 .opener { display: flex; align-items: center; justify-content: center; text-align: center; background: #141414; color: #F6F3EA; }
 .opener .obot { width: 3.2in; background: #F6F3EA; padding: .35in; border-radius: .28in; margin-bottom: .55in; display: inline-block; }
 .interlude > div { width: 7.2in; }
+.titlep, .copyright, .back { display: flex; align-items: center; justify-content: center; text-align: center; }
+.titlep .bubble, .back .bubble { display: inline-block; background: #141414; color: #F6F3EA; font: 30pt Pixel;
+                 padding: .35in .5in; border-radius: .18in; white-space: nowrap; }
+.titlep .sub { font-style: italic; font-size: 16pt; color: #4a4843; margin: .45in 0 1.4in; }
+.titlep .author { font-size: 15pt; margin: 0; }
+.titlep .chars { font-style: italic; font-size: 11.5pt; color: #6b685f; margin: .08in 0 0; }
+.copyright { align-items: flex-end; padding-bottom: 1.3in; }
+.copyright div { width: 6in; font-size: 9.5pt; line-height: 1.5; color: #4a4843; }
+.copyright p { margin: 0 0 .6em; }
+.contents .win { position: absolute; top: 1.15in; bottom: 1.1in; left: 1.3in; right: 1.3in; }
+.contents h2 { margin-bottom: .35in; }
+.contents ol { list-style: none; margin: 0; padding: 0; font-size: 11.5pt; }
+.contents li { display: flex; align-items: baseline; gap: .18in; padding: .055in 0; border-bottom: 1px dotted #d6d1c3; }
+.contents .cn { font: 7pt Pixel; letter-spacing: .08em; color: #8a877e; width: .55in; flex: none; }
+.contents .ct { flex: 1; }
+.contents .cp { font-variant-numeric: tabular-nums; color: #4a4843; }
+.back { background: #141414; color: #F6F3EA; }
+.back > div { width: 6.6in; }
+.back .blurb { font-size: 16pt; line-height: 1.5; font-style: italic; margin: 0 0 .3in; color: #e9e5da; }
+.back .bubble.small { font-size: 16pt; padding: .2in .3in; background: #F6F3EA; color: #141414; margin-top: .4in; }
+.back .site { font: 9pt Pixel; letter-spacing: .25em; color: #8a877e; margin-top: .35in; }
 .shorts-intro > div { width: 6.8in; }
 .shorts-intro .tease { margin: 0 0 .15in; line-height: 1.4; }
 .shorts { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .5in; }
@@ -350,6 +406,12 @@ document.fonts.ready.then(() => {
     const f = P.querySelector('.folio, .num');
     if (f) f.textContent = f.textContent.split(' · ')[0] + ' · ' + (i + 1);
   });
+  // Contents: the page each story (and the Shorts section) starts on.
+  const all = [...document.querySelectorAll('.page')];
+  for (const li of document.querySelectorAll('.contents li')) {
+    const at = all.findIndex(P => P.dataset.start === li.dataset.goto);
+    if (at >= 0) li.querySelector('.cp').textContent = at + 1;
+  }
   document.body.dataset.done = '1';
 });
 </script>
