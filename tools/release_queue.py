@@ -104,6 +104,9 @@ def main():
 
     if e["kind"] == "reel":
         cmd = ["python3", RELEASE_REEL, e["story"]] + e["tags"].split()
+    elif e["kind"] == "short":
+        # HC###.short.png -> FB, IG, X, Nostr (release_short.py)
+        cmd = ["python3", os.path.join(HC, "tools", "release_short.py"), e["story"], e["tags"], e["lead"]]
     elif e["kind"] == "vault":
         # optional per-entry marker replaces the "FROM THE VAULT" line
         cmd = ["bash", THROWBACK, e["story"], e["tags"], e["lead"]]

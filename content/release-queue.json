@@ -416,21 +416,33 @@
       "posted_at": "2026-09-28 09:05"
     },
     {
-      "date": "2026-09-30",
+      "date": "2026-09-29",
       "story": "HC032",
       "kind": "vault",
       "tags": "#Marriage #Truth #Mirrors",
       "lead": "First dress on. She asks the mirror if it looks good. The mirror has never been more honest about lying.",
-      "status": "pending",
-      "marker": "FROM THE VAULT · REWRITTEN"
+      "status": "done",
+      "marker": "FROM THE VAULT · REWRITTEN",
+      "shifted_from": "2026-09-30",
+      "posted_at": "2026-09-29 11:58"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-09-30",
       "story": "HC026",
       "kind": "vault",
       "tags": "#Automation #FreeTime #Robots",
       "lead": "Schedule, homework, dinner: all done an hour before he even asked. Finally, a free evening.",
       "marker": "FROM THE VAULT · REWRITTEN",
+      "status": "done",
+      "shifted_from": "2026-10-02",
+      "posted_at": "2026-09-30 09:03"
+    },
+    {
+      "date": "2026-10-03",
+      "story": "HC044",
+      "kind": "short",
+      "tags": "#Coding #Bugs #Automation",
+      "lead": "2027. The first AI to ship code with zero bugs. The team has never been quieter.",
       "status": "pending"
     },
     {
