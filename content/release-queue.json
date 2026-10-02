@@ -447,6 +447,14 @@
     },
     {
       "date": "2026-10-04",
+      "story": "HC045",
+      "kind": "short",
+      "tags": "#Family #Parenting #Automation",
+      "lead": "2028. The AI runs the house. The couple is rested, the dog is walked, the taxes are done. Perfect family, right?",
+      "status": "pending"
+    },
+    {
+      "date": "2026-10-04",
       "story": "HC034",
       "kind": "vault",
       "tags": "#Retirement #Ageing #Obsolescence",

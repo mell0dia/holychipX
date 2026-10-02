@@ -84,24 +84,34 @@ def main():
                 print(f"        posted {e['posted_at']}")
         return 0
 
-    # oldest still-pending entry that has come due; a backlog drains one a day
-    due = sorted([e for e in d["queue"]
-                  if e["status"] != "done" and e["date"] <= today],
-                 key=lambda e: e["date"])
-    if not due:
-        nxt = sorted([e for e in d["queue"] if e["status"] != "done"],
-                     key=lambda e: e["date"])
+    # Two lanes (user, 2026-10-02). SHORTS go out as soon as possible, in order,
+    # whatever else posts that day: each run releases the oldest due short. The
+    # other kinds (vault, reel, story) keep their one-a-day rule. Both lanes run
+    # on the same morning when both have something due.
+    pending = lambda: [e for e in d["queue"] if e["status"] != "done"]
+    lanes = [("short", [e for e in pending() if e["kind"] == "short" and e["date"] <= today]),
+             ("other", [e for e in pending() if e["kind"] != "short" and e["date"] <= today])]
+    if not any(due for _, due in lanes):
+        nxt = sorted(pending(), key=lambda e: e["date"])
         print(f"{today}: nothing due"
               + (f" - next is {nxt[0]['story']} on {nxt[0]['date']}" if nxt else ""))
         return 0
+    rc_all = 0
+    for lane, due in lanes:
+        if not due:
+            continue
+        due.sort(key=lambda e: (e["date"], e["story"]))
+        e = due[0]
+        if len(due) > 1:
+            print(f"{today}: {len(due)} {lane} entries due, releasing the oldest "
+                  f"({e['story']}, due {e['date']}); the rest follow on later runs")
+        if e["date"] != today:
+            print(f"  note: {e['story']} was due {e['date']} - running it late")
+        rc_all |= run_entry(d, e, today, a.dry_run)
+    return rc_all
 
-    e = due[0]
-    if len(due) > 1:
-        print(f"{today}: {len(due)} entries overdue, releasing the oldest "
-              f"({e['story']}, due {e['date']}); the rest follow on later runs")
-    if e["date"] != today:
-        print(f"  note: {e['story']} was due {e['date']} - running it late")
 
+def run_entry(d, e, today, dry_run):
     if e["kind"] == "reel":
         cmd = ["python3", RELEASE_REEL, e["story"]] + e["tags"].split()
     elif e["kind"] == "short":
@@ -117,7 +127,7 @@ def main():
 
     print(f"{today}: releasing {e['story']} ({e['kind']})")
     print("  " + " ".join(repr(c) if " " in c else c for c in cmd))
-    if a.dry_run:
+    if dry_run:
         print("  --dry-run: not executing")
         return 0
 
@@ -130,7 +140,6 @@ def main():
     else:
         print(f"  FAILED rc={rc} - left pending, will retry on a manual run")
     return rc
-
 
 if __name__ == "__main__":
     sys.exit(main())
