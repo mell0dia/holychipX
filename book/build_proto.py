@@ -18,10 +18,10 @@ FONTS = Path.home() / "holy-chip/SGen/public/fonts"
 OUT = HERE / "build" / "proto"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
-# Optional section openers before a story: (part title, line)
-OPENERS = {
-    "HC031": ("To the Letter", "Machines that did exactly what we asked.", "Chip_1001"),
-}
+# Optional section openers before a story: {sid: (part title, line, bot)}.
+# Empty: the book runs in story order, HC000 -> HC041 (user, 2026-10-02).
+OPENERS = {}
+HISTORY = Path.home() / "holy-chip/website/holy-chip-site/history/index.html"
 CHARS = Path.home() / "holy-chip/website/holy-chip-site/characters"
 
 
@@ -126,9 +126,11 @@ def inline(t):
 
 
 def essay(sid):
-    """Parse HC###.blog.md -> title, kicker, lede, paragraphs (credits dropped)."""
+    """Parse HC###.blog.md -> title, kicker, lede, paragraphs. The footer is
+    dropped except an "Idea by ..." credit, which must travel with the story."""
     md = (STORIES / "analysis" / f"{sid}.blog.md").read_text()
-    md = md.split("\n---")[0]
+    md, _, foot = md.partition("\n---")
+    credit = next((l.strip().strip("*") for l in foot.splitlines() if "idea by" in l.lower()), "")
     lines = [l.rstrip() for l in md.splitlines()]
     title = next(l[2:] for l in lines if l.startswith("# "))
     kicker = next((l[3:] for l in lines if l.startswith("## ")), "")
@@ -142,7 +144,19 @@ def essay(sid):
             lede = b.strip("*")
             continue
         paras.append(b)
+    if credit:
+        paras.append("CREDIT:" + credit)
     return title, kicker, lede, paras
+
+
+def intro_paragraphs():
+    """PLACEHOLDER introduction: the website's History page (user: "it will not
+    be that one, but just to position")."""
+    src = re.sub(r"<(script|style)[\s\S]*?</\1>", "", HISTORY.read_text())
+    body = src.split("History</h1>")[-1].split("Original Artwork")[0]
+    paras = [" ".join(html.unescape(re.sub(r"<[^>]+>", " ", m)).split())
+             for m in re.findall(r"<p[^>]*>([\s\S]*?)</p>", body)]
+    return [p for p in paras if len(p) > 40]
 
 
 COVER_BOT = "Chip_1"
@@ -164,6 +178,13 @@ def page_html(sids):
                  f'<p class="chars">Characters by Junior Monteiro</p></div></section>')
     pages.append('<section class="page"></section>')
     pages.append(f'<section class="page dedication"><p>{inline(DEDICATION)}</p></section>')
+    # The series introduction, facing a featured short story - both PLACEHOLDERS.
+    pages.append('<section class="page featured"><div class="slot"><p class="tag">FEATURED SHORT STORY</p>'
+                 '<p>[ placeholder — a short story will be chosen ]</p></div></section>')
+    intro = "".join(f"<p>{inline(t)}</p>" for t in intro_paragraphs())
+    pages.append(f'<section class="page intro"><div class="win"><p class="kicker">HOLY CHIP</p>'
+                 f'<h2>Introduction</h2><p class="lede">[ placeholder text — the History page of the website ]</p>'
+                 f'{intro}</div></section>')
     for sid in sids:
         if sid in OPENERS:
             part, line, bot = OPENERS[sid]
@@ -171,6 +192,7 @@ def page_html(sids):
                          f'<p class="part">PART</p><h1>{inline(part)}</h1><p class="tease">{inline(line)}</p></div></section>')
         title, kicker, lede, paras = essay(sid)
         body = "".join(
+            f'<p class="credit">{inline(p[7:])}</p>' if p.startswith("CREDIT:") else
             f'<p class="end">{inline(p)}</p>' if p.rstrip(".!") == "Holy Chip" else f"<p>{inline(p)}</p>"
             for p in paras)
         flow = (f'<p class="kicker">{inline(kicker)}</p><h2>{inline(title)}</h2>'
@@ -216,6 +238,14 @@ body { font-family: 'Iowan Old Style', Charter, Georgia, serif; color: #141414; 
 h2 { font-weight: 700; font-size: 34pt; line-height: 1.05; margin: 0 0 .25in; letter-spacing: -.01em; }
 .lede { font-style: italic; color: #4a4843; margin: 0 0 .35in; }
 .flow p { margin: 0 0 .75em; hyphens: auto; }
+.flow .credit { font-style: italic; color: #6b685f; margin-top: .8em; }
+.featured { display: flex; align-items: center; justify-content: center; }
+.featured .slot { width: 8.2in; height: 4.6in; border: 2px dashed #b9b4a6; display: flex; flex-direction: column;
+                  align-items: center; justify-content: center; color: #8a877e; font-style: italic; font-size: 14pt; }
+.featured .tag { font: 8pt Pixel; letter-spacing: .2em; font-style: normal; margin: 0 0 .25in; }
+.intro .win { position: absolute; top: 1.15in; bottom: 1.2in; left: 1.15in; right: 1.5in; font-size: 13.5pt; line-height: 1.6; }
+.intro.l .win { left: 1.5in; right: 1.15in; }
+.intro .win p { margin: 0 0 .8em; }
 .flow .end { font: 9pt Pixel; letter-spacing: .08em; margin-top: 1.4em; }
 .opener { display: flex; align-items: center; justify-content: center; text-align: center; background: #141414; color: #F6F3EA; }
 .opener .obot { width: 3.2in; background: #F6F3EA; padding: .35in; border-radius: .28in; margin-bottom: .55in; display: inline-block; }
@@ -244,41 +274,62 @@ h2 { font-weight: 700; font-size: 34pt; line-height: 1.05; margin: 0 0 .25in; le
 # column over. The type size is the largest that fits in those two columns.
 FIT_JS = """
 <script>
+// Each essay flows as ONE column across its pages: page 1 shows column 1 of a
+// multi-column box, the next pages a copy shifted one column at a time. Two
+// pages at the largest size that fits (down to 11.5pt); if an essay cannot fit
+// two pages at a readable size it gets a third page instead of smaller type.
+const FS = 12.5;
 document.fonts.ready.then(() => {
-  const pairs = {};
-  for (const p of document.querySelectorAll('.essay')) (pairs[p.dataset.story] ||= []).push(p);
-  for (const [sid, [L, R]] of Object.entries(pairs)) {
-    const win = L.querySelector('.win'), f1 = L.querySelector('.flow'), f2 = R.querySelector('.flow');
+  const groups = {};
+  for (const p of document.querySelectorAll('.essay')) (groups[p.dataset.story] ||= []).push(p);
+  for (const [sid, [L, R]] of Object.entries(groups)) {
+    const win = L.querySelector('.win'), f1 = L.querySelector('.flow');
     const W = win.clientWidth, G = 200;
     f1.style.width = W + 'px'; f1.style.columnWidth = W + 'px'; f1.style.columnGap = G + 'px';
-    let cols = 9, fs;
-    for (fs = 15; fs >= 10.5; fs -= 0.25) {
-      L.style.setProperty('--fs', fs + 'pt');
-      cols = Math.round((f1.scrollWidth + G) / (W + G));
-      if (cols <= 2) break;
-    }
-    R.style.setProperty('--fs', fs + 'pt');
-    f2.innerHTML = f1.innerHTML;
-    Object.assign(f2.style, { width: W + 'px', columnWidth: W + 'px', columnGap: G + 'px',
-                              transform: `translateX(${-(W + G)}px)` });
-    L.dataset.fit = fs + 'pt/' + cols + 'cols';
+    // ONE type size for the whole book (user wants consistency); the essay
+    // takes as many pages as it needs at that size: 1, 2 or 3.
+    L.style.setProperty('--fs', FS + 'pt');
+    const n = Math.max(1, Math.round((f1.scrollWidth + G) / (W + G))), fs = FS;
+    const pages = [L, R];
+    if (n === 1) { R.remove(); pages.pop(); }
+    for (let k = 3; k <= n; k++) { const X = R.cloneNode(true); pages[pages.length - 1].after(X); pages.push(X); }
+    pages.slice(1).forEach((P, i) => {
+      P.style.setProperty('--fs', fs + 'pt');
+      const f = P.querySelector('.flow');
+      f.innerHTML = f1.innerHTML;
+      Object.assign(f.style, { width: W + 'px', columnWidth: W + 'px', columnGap: G + 'px',
+                               transform: `translateX(${-(i + 1) * (W + G)}px)` });
+    });
+    L.dataset.fit = sid + ' ' + n + 'pages';
   }
+  // Real sides and page numbers, now that the page count is final. The cover
+  // is page 1, a right-hand page.
+  document.querySelectorAll('.page').forEach((P, i) => {
+    P.classList.remove('l', 'r'); P.classList.add(i % 2 ? 'l' : 'r');
+    const f = P.querySelector('.folio, .num');
+    if (f) f.textContent = f.textContent.split(' · ')[0] + ' · ' + (i + 1);
+  });
+  document.body.dataset.done = '1';
 });
 </script>
 """
 
 
 def main():
-    sids = sys.argv[1:] or ["HC021", "HC031"]
+    args = sys.argv[1:] or ["HC021", "HC031"]
+    if args == ["all"]:      # the whole book, in story order
+        args = sorted(p.stem for p in STORIES.glob("HC0[0-9][0-9].png"))
+        args = [a for a in args if (STORIES / "analysis" / f"{a}.blog.md").exists()]
+    sids = args
     OUT.mkdir(parents=True, exist_ok=True)
     pages = page_html(sids)
     doc = (f"<!doctype html><html><head><meta charset='utf-8'><style>{CSS.replace('%(fonts)s', str(FONTS))}</style>"
            f"</head><body>{''.join(pages)}{FIT_JS}</body></html>")
     src = OUT / "book-proto.html"
     src.write_text(doc)
-    pdf = OUT / "book-proto.pdf"
+    pdf = OUT / ("book-review.pdf" if len(sids) > 2 else "book-proto.pdf")
     subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--no-pdf-header-footer",
-                    "--virtual-time-budget=8000", f"--print-to-pdf={pdf}", f"file://{src}"],
+                    "--virtual-time-budget=30000", f"--print-to-pdf={pdf}", f"file://{src}"],
                    check=True, capture_output=True)
     print(pdf)
 
