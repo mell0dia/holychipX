@@ -173,6 +173,12 @@ def intro_paragraphs():
     return [p for p in paras if len(p) > 40]
 
 
+# DRAFT - for the user to rewrite.
+SHORTS_INTRO = [
+    "Two frames. One bot talks; the other gets the last word.",
+    "No setup, no essay, no time to look away. Some things are better said fast.",
+]
+
 COVER_BOT = "Chip_1"
 # The ring behind it, in order round the carousel (front-left ... back ... front-right).
 # None keeps a seat empty: the two at the very back spaced the ring out too
@@ -223,6 +229,16 @@ def page_html(sids):
                      f'<div class="flow">{flow}</div></div><p class="folio">{sid}</p></section>')
         pages.append(f'<section class="page essay" data-story="{sid}"><div class="win">'
                      f'<div class="flow"></div></div><p class="folio">{sid}</p></section>')
+    # SHORTS (user, 2026-10-02): a short introduction, then every short, two to
+    # a page, centred, nothing else. Any HC###.short.png on the site is included.
+    shorts = sorted(STORIES.glob("HC[0-9][0-9][0-9].short.png"))
+    if shorts:
+        pages.append(f'<section class="page opener shorts-intro"><div><p class="part">SHORTS</p>'
+                     f'<h1>Shorts</h1>{"".join(f"<p class=tease>{inline(t)}</p>" for t in SHORTS_INTRO)}</div></section>')
+        imgs = [trace(p.name[:-4], p) for p in shorts]
+        for i in range(0, len(imgs), 2):
+            pages.append('<section class="page shorts">'
+                         + "".join(f'<img src="{im}">' for im in imgs[i:i + 2]) + '</section>')
     # Tag each page with the side it really falls on. The cover is page 1, a
     # right-hand page, so after it even indexes are left pages. Margins and
     # folios mirror on that, not on the page's role.
@@ -268,6 +284,10 @@ h2 { font-weight: 700; font-size: 34pt; line-height: 1.05; margin: 0 0 .25in; le
 .opener { display: flex; align-items: center; justify-content: center; text-align: center; background: #141414; color: #F6F3EA; }
 .opener .obot { width: 3.2in; background: #F6F3EA; padding: .35in; border-radius: .28in; margin-bottom: .55in; display: inline-block; }
 .interlude > div { width: 7.2in; }
+.shorts-intro > div { width: 6.8in; }
+.shorts-intro .tease { margin: 0 0 .15in; line-height: 1.4; }
+.shorts { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .5in; }
+.shorts img { width: 8.4in; display: block; }
 .interlude .quote { font-style: italic; font-size: 24pt; line-height: 1.3; margin: 0 0 .35in; color: #F6F3EA; }
 .interlude .from { font: 7.5pt Pixel; letter-spacing: .2em; color: #8a877e; margin: 0; }
 .opener .part { font: 8pt Pixel; letter-spacing: .3em; color: #8a877e; margin: 0 0 .3in; }
