@@ -22,7 +22,8 @@ SDIR = HC / "stories"                      # HC###.json + HC###.png live here
 TRACKER = HC / "content" / "story-posts.json"
 OLLAMA = "http://localhost:11434/api/generate"
 MODEL = "gemma4:31b-it-q8_0"               # best local model for creative tease
-BASE_TAGS = "#HolyChip #AI #AGI"
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import hashtags                           # core X tags, #Bitcoin rule
 LINK = "holy-chip.com/stories.html?story={sid}"
 MAXLEN = 280
 ENV_FILE = os.path.expanduser("~/claude-agent/.env")
@@ -87,7 +88,7 @@ Teaser line:"""
 
 def assemble(sid, tease, theme):
     link = LINK.format(sid=sid)
-    tags = (BASE_TAGS + " " + theme).strip()
+    tags = hashtags.x_tags(theme, sid=sid)
     tweet = f"{tease}\n\n{link}\n\n{tags}"
     # If over the limit, trim the tease (never the link/tags).
     if len(tweet) > MAXLEN:

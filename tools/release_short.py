@@ -54,7 +54,8 @@ def main():
         sys.exit(f"missing {png}")
     url = f"{WWW}/stories/{key}.png"
     link = f"holy-chip.com/stories.html?story={key}"
-    caption = f"{lead}\n\n{link}\n\n#HolyChip #AI #AGI {tags}".strip()
+    sys.path.insert(0, str(TOOLS)); import hashtags
+    caption = f"{lead}\n\n{link}\n\n{hashtags.join('#HolyChip #AI #AGI', tags, sid=sid)}".strip()
     title = json.loads((SITE / "stories" / f"{key}.json").read_text())["script"]["banner"]["title"]
     print(f"--- {key}: {title}\n{caption}\n")
 
@@ -92,7 +93,9 @@ def main():
         if pid: e.update(ig_post_id=pid, ig_posted_at=now()); save()
         else: failed.append("IG")
     if not e.get("tweet_id"):
-        tid = run(["python3", str(TOOLS / "tweet_image.py"), str(png), caption], "TWEET_ID")
+        sys.path.insert(0, str(TOOLS)); import hashtags
+        xcap = f"{lead}\n\n{link}\n\n{hashtags.x_tags(tags, sid=sid)}"
+        tid = run(["python3", str(TOOLS / "tweet_image.py"), str(png), xcap], "TWEET_ID")
         if tid: e.update(tweet_id=tid, tweet_url=f"https://x.com/_holychip/status/{tid}", tweet_posted_at=now()); save()
         else: failed.append("X")
     if not e.get("nostr_event_id"):

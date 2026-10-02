@@ -8,6 +8,8 @@ Nostr note with the phrase in the caption.
 Designed to run from cron once per day.
 """
 import asyncio, json, os, re, subprocess, sys, threading, time
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import hashtags
 from datetime import datetime
 from pathlib import Path
 
@@ -265,8 +267,9 @@ def post_to_nostr(image_url, info, card_urls=None):
         f"gm 🟧\n\n"
         f"{cta_lines(source_sid)}\n\n"
         f"{image_url}\n\n"
-        f"#HolyChip #Bitcoin #AI #gm",
-        [["t", "HolyChip"], ["t", "Bitcoin"], ["t", "AI"], ["t", "gm"], ["t", "nostr"],
+        f"{hashtags.join('#HolyChip #AI #gm', sid=source_sid)}",
+        [["t", "HolyChip"], ["t", "AI"], ["t", "gm"], ["t", "nostr"]]
+        + ([["t", "Bitcoin"]] if hashtags.is_bitcoin(source_sid) else []) + [
          ["r", blog_url],
          ["imeta", f"url {image_url}", "m image/jpeg",
           f"alt Holy Chip gm — {phrase[:80]}"]],
@@ -324,7 +327,7 @@ def post_to_x(local_path, info, card_paths=None):
     sid = info.get("source", "")
     caption = (
         f"{cta_lines(sid)}\n\n"
-        f"#HolyChip #Bitcoin #AI"
+        f"{hashtags.x_tags(hashtags.story_tags(sid), sid=sid)}"
     )
 
     def send(argv):
@@ -356,7 +359,7 @@ def post_to_facebook(local_path, info):
     sid = info.get("source", "")
     caption = (
         f"{cta_lines(sid)}\n\n"
-        f"#HolyChip #Bitcoin #AI"
+        f"{hashtags.join('#HolyChip #AI', sid=sid)}"
     )
     r = subprocess.run(["python3", str(TOOLS/"post_facebook.py"),
                         str(local_path), caption], capture_output=True, text=True)
@@ -374,7 +377,7 @@ def post_to_instagram(image_url, info, card_urls=None):
     sid = info.get("source", "")
     caption = (
         f"{cta_lines(sid)}\n\n"
-        f"#HolyChip #Bitcoin #AI"
+        f"{hashtags.join('#HolyChip #AI', sid=sid)}"
     )
     urls = [image_url] + list(card_urls or [])
     argv = ([*urls, "--", caption] if len(urls) > 1 else [urls[0], caption])

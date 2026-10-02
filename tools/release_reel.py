@@ -27,7 +27,7 @@ VIDEOS = HC / "website" / "holy-chip-site" / "videos"
 NOSTR_PY = HC / "venv" / "nostr" / "bin" / "python"
 SITE_WWW = "https://www.holy-chip.com"
 
-HASHTAGS = "#HolyChip #AI #AGI #DailyComic"
+HASHTAGS = " ".join(__import__("hashtags").CORE + ["#DailyComic"])
 PLATFORMS = ("fb", "ig", "x", "nostr")
 
 # tracker keys, per platform: (id key, permalink key, timestamp key)

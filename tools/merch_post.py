@@ -25,6 +25,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import post_gm as g   # load_env, run, push_site_file, with_cache_bust, RELAYS, NOSTR_LIMIT
+import hashtags
 
 HC = g.HC
 SITE = g.SITE
@@ -245,7 +246,7 @@ def main():
     print(f"ig: {ig}")
 
     print("posting to x")
-    x = tweet([jpgs[0]], STORE)
+    x = tweet([jpgs[0]], f"{STORE}\n\n{hashtags.x_tags()}")
     if x and len(jpgs) > 1:
         tweet(jpgs[1:5], STORE, reply_to=x)
     print(f"x: {x}")
