@@ -74,14 +74,21 @@ def parse(md):
 
 
 def bots_for(sid):
+    # content/pt-br/bots/HC###/<slot>.png wins over the story JSON, slot by slot -
+    # so one bot can be swapped (e.g. HC027's right bot given a smile).
     j = json.loads((STORIES / f"{sid}.json").read_text())
     keys = ("p1Left", "p1Right", "p2Left", "p2Right")
-    if all(j.get(k) for k in keys):
-        return {k: j[k] for k in keys}
     d = PT / "bots" / sid
-    if not all((d / f"{k}.png").exists() for k in keys):
-        sys.exit(f"no bots for {sid}: not in {sid}.json and not in {d}")
-    return {k: "data:image/png;base64," + base64.b64encode((d / f"{k}.png").read_bytes()).decode() for k in keys}
+    out = {}
+    for k in keys:
+        f = d / f"{k}.png"
+        if f.exists():
+            out[k] = "data:image/png;base64," + base64.b64encode(f.read_bytes()).decode()
+        elif j.get(k):
+            out[k] = j[k]
+        else:
+            sys.exit(f"no {k} for {sid}: not in {sid}.json and not in {d}")
+    return out
 
 
 def main():
