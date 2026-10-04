@@ -2,6 +2,7 @@
 """Render a Brazilian-Portuguese episode: content/pt-br/HC###.pt.dialogo.md -> HC###.pt.png
 
     python3 render_pt.py HC003
+    python3 render_pt.py HC005 --expr "PROUD: ..."    # set the panel-3 expression
 
 Reads the dialogue the user edited in Zettlr (## Banner, ## Painel 1-3 with
 ESQUERDA:/DIREITA: lines), takes the episode's bots from the story's saved JSON
@@ -60,6 +61,8 @@ def main():
     sid = sys.argv[1].upper()
     banner, scenes = parse((PT / f"{sid}.pt.dialogo.md").read_text())
     script = {"banner": banner, "footer": FOOTER, "scenes": [{"dialogs": d} for d in scenes]}
+    if "--expr" in sys.argv:            # fix the panel-3 face, e.g. --expr "PROUD: chin up, smug smile"
+        script["panel3Expression"] = sys.argv[sys.argv.index("--expr") + 1]
     print(json.dumps(script, ensure_ascii=False, indent=1))
     page = SGEN / "zz-render-pt.html"
     page.write_text(f"""<!doctype html><html><head><link rel="stylesheet" href="/src/index.css"></head><body><pre id="out"></pre>
