@@ -23,6 +23,33 @@ FOOTER = "feito por rmello © mellodia"
 WHO = {"ESQUERDA": "Left Bot", "DIREITA": "Right Bot"}
 
 
+def credit_of(md):
+    """Text under '## Crédito' (e.g. IDEIA DE ALDEA) - the idea-by credit, centred in the footer."""
+    m = re.search(r"##\s*Cr[ée]dito\s*\n+([^\n#]+)", md, re.I)
+    return m.group(1).strip() if m else ""
+
+
+def stamp_credit(png, text):
+    """Centre the credit in the footer strip, like the original strips' IDEA BY line."""
+    from PIL import Image, ImageDraw, ImageFont
+    im = Image.open(png).convert("RGB"); W, H = im.size
+    g = im.convert("L")
+    # footer strip = bottom rows below the last panel border (scan up for a dark full-width line)
+    y = H - 2
+    while y > H - 80 and sum(1 for x in range(0, W, 8) if g.getpixel((x, y)) < 60) < W // 8 * 0.8:
+        y -= 1
+    top = y + 1
+    bg = im.getpixel((W // 2, (top + H) // 2))
+    ink = (0, 0, 0) if sum(bg) > 380 else (255, 255, 255)
+    f = ImageFont.truetype(str(HC / "content/pt-br/work/ChakraPetch-Bold.ttf"), 20)
+    tw = f.getlength(text); bb = f.getbbox(text)
+    d = ImageDraw.Draw(im)
+    cy = (top + H) / 2
+    d.rectangle((W / 2 - tw / 2 - 6, top + 2, W / 2 + tw / 2 + 6, H - 1), fill=bg)
+    d.text((W / 2 - tw / 2, cy - (bb[1] + bb[3]) / 2), text, font=f, fill=ink)
+    im.save(png)
+
+
 def parse(md):
     banner, scenes, cur = None, [[], [], []], None
     for line in md.splitlines():
@@ -90,6 +117,9 @@ try {{
         sys.exit(v[:400])
     out = PT / f"{sid}.pt.png"
     out.write_bytes(base64.b64decode(v.split(",", 1)[1]))
+    credit = credit_of((PT / f"{sid}.pt.dialogo.md").read_text())
+    if credit:
+        stamp_credit(out, credit)
     print(out)
 
 
