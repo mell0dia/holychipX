@@ -63,6 +63,8 @@ def main():
     script = {"banner": banner, "footer": FOOTER, "scenes": [{"dialogs": d} for d in scenes]}
     if "--expr" in sys.argv:            # fix the panel-3 face, e.g. --expr "PROUD: chin up, smug smile"
         script["panel3Expression"] = sys.argv[sys.argv.index("--expr") + 1]
+    if "--sub" in sys.argv:             # words after HOLY CHIP !! at this scale, e.g. --sub 0.5
+        script["panel3SubScale"] = float(sys.argv[sys.argv.index("--sub") + 1])
     print(json.dumps(script, ensure_ascii=False, indent=1))
     page = SGEN / "zz-render-pt.html"
     page.write_text(f"""<!doctype html><html><head><link rel="stylesheet" href="/src/index.css"></head><body><pre id="out"></pre>
