@@ -22,7 +22,7 @@ def paste_short_bot(png, art_png, div=962, bot=712):
     tail = low if low < 430 else 360
     bg = im.getpixel((div + 20, bot - 10))
     ImageDraw.Draw(im).rectangle((div + 4, tail + 4, W - 14, bot), fill=bg)
-    a = Image.open(art_png); a = a.crop(a.getchannel("A").getbbox())
+    a = Image.open(art_png).convert("RGBA"); a = a.crop(a.getchannel("A").getbbox())  # large art -> one LANCZOS downscale = smooth edges
     s = (bot - (tail + 14)) / a.height
     a = a.resize((round(a.width * s), round(a.height * s)), Image.LANCZOS)
     im.paste(a, ((div + W - 14) // 2 - a.width // 2, bot - a.height), a)
