@@ -50,6 +50,36 @@ def stamp_credit(png, text):
     im.save(png)
 
 
+def redraw_footer(png, credit=""):
+    """Repaint the footer strip under panel 3 and redraw its text. The model's
+    panel-3 bot is big and overflows the bottom border; its base used to spill
+    into the footer and cut through HOLY-CHIP.COM (HC034)."""
+    from PIL import Image, ImageDraw, ImageFont
+    im = Image.open(png).convert("RGB"); W, H = im.size
+    g = im.convert("L")
+    y = H - 2
+    while y > H - 120 and sum(1 for x in range(0, W, 8) if g.getpixel((x, y)) < 60) < W // 8 * 0.8:
+        y -= 1
+    top = y + 1                                   # first row under panel 3's bottom border
+    bg = im.getpixel((W // 2, min(H - 1, top + 3)))
+    if sum(bg) < 380:
+        bg = (248, 249, 242)
+    d = ImageDraw.Draw(im)
+    d.rectangle((0, top, W, H), fill=bg)
+    F = str(HC / "content/pt-br/work/ChakraPetch-Bold.ttf")
+    f = ImageFont.truetype(F, 20)
+    cy = (top + H) / 2
+    def put(text, x, anchor):
+        bb = f.getbbox(text)
+        tx = x if anchor == "l" else (x - f.getlength(text) if anchor == "r" else x - f.getlength(text) / 2)
+        d.text((tx, cy - (bb[1] + bb[3]) / 2), text, font=f, fill=(0, 0, 0))
+    put("HOLY-CHIP.COM", 6, "l")
+    put(FOOTER, W - 6, "r")
+    if credit:
+        put(credit, W / 2, "c")
+    im.save(png)
+
+
 def parse(md):
     banner, scenes, cur = None, [[], [], []], None
     for line in md.splitlines():
@@ -125,8 +155,7 @@ try {{
     out = PT / f"{sid}.pt.png"
     out.write_bytes(base64.b64decode(v.split(",", 1)[1]))
     credit = credit_of((PT / f"{sid}.pt.dialogo.md").read_text())
-    if credit:
-        stamp_credit(out, credit)
+    redraw_footer(out, credit)
     print(out)
 
 
