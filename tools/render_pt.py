@@ -80,6 +80,61 @@ def redraw_footer(png, credit=""):
     im.save(png)
 
 
+def paste_p3_bot(png, art, side="right"):
+    """Replace the model's panel-3 bot with `art` (an RGBA bot with transparent
+    background, e.g. the panel-2 bot with only its face redrawn). Big, top fully
+    visible, cut at the panel's bottom border. Used when the model keeps cutting
+    the antenna or drifting the face (HC034, HC039)."""
+    from PIL import Image, ImageDraw
+    im = Image.open(png).convert("RGB"); W, H = im.size; g = im.convert("L")
+    full = [y for y in range(H // 2, H) if sum(1 for x in range(0, W, 4) if g.getpixel((x, y)) < 60) > W // 4 * 0.85]
+    bands, start = [], None
+    for y in range(H // 2, H):
+        on = y in full
+        if on and start is None: start = y
+        if not on and start is not None: bands.append((start, y - 1)); start = None
+    if start is not None: bands.append((start, H - 1))
+    bands = [b for b in bands if b[1] - b[0] >= 4]         # real borders only (not text rows)
+    top, bot = bands[-2][1] + 1, bands[-1][0] - 1          # panel 3 interior
+    bg = im.getpixel((W // 2, top + 6))
+    d = ImageDraw.Draw(im)
+    d.rectangle((0, bands[-2][0], W, bands[-2][1]), fill=(0, 0, 0))   # clean border above
+    # Where the punchline bubble (with its tail) ends: walk each row from the
+    # bubble side; the bubble ends at the first light gap wider than any gap
+    # inside it (letters). Past that edge is the model's bot - erase it.
+    GAP = 36
+    xs = range(10, W - 10) if side == "right" else range(W - 10, 10, -1)
+    edges = []
+    for y in range(top + 4, bot - 4, 2):
+        last, run, started = None, 0, False
+        for x in xs:
+            if g.getpixel((x, y)) < 60:
+                # a row whose first ink is far from the bubble side is the bot, not the bubble
+                if not started and (x > W * 0.25 if side == "right" else x < W * 0.75):
+                    break
+                started, last, run = True, x, 0
+            elif started:
+                run += 1
+                if run >= GAP:
+                    break
+        if last is not None:
+            edges.append(last)
+    if side == "right":
+        edge = max(edges) if edges else int(W * 0.66)
+        d.rectangle((edge + 6, top, W - 9, bot), fill=bg)
+    else:
+        edge = min(edges) if edges else int(W * 0.34)
+        d.rectangle((9, top, edge - 6, bot), fill=bg)
+    a = art if isinstance(art, Image.Image) else Image.open(art).convert("RGBA")
+    a = a.crop(a.getchannel("A").point(lambda v: 255 if v > 40 else 0).getbbox())
+    s = min((bot - top) * 1.15 / a.height, (W * 0.30) / a.width)
+    a = a.resize((round(a.width * s), round(a.height * s)), Image.LANCZOS)
+    x = W - 9 - a.width - 12 if side == "right" else 21
+    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0)); layer.paste(a, (x, top + 8), a)
+    layer = layer.crop((0, 0, W, bot + 1)); L = Image.new("RGBA", (W, H), (0, 0, 0, 0)); L.paste(layer, (0, 0))
+    base = im.convert("RGBA"); base.alpha_composite(L); base.convert("RGB").save(png)
+
+
 def parse(md):
     banner, scenes, cur = None, [[], [], []], None
     for line in md.splitlines():
