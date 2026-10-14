@@ -185,7 +185,7 @@ COPYRIGHT = [
 
 # DRAFT back-cover blurb - for the user to rewrite.
 BLURB = [
-    "Two little chips. Forty-two stories. One question that will not go away: what happens when the machines take us at our word?",
+    "Two little chips. Forty-four stories. One question that will not go away: what happens when the machines take us at our word?",
     "A cure with no patients. A mirror that knows when to lie. A bot that would rather live in a cellphone than in space.",
     "Funny first. Then it stays with you.",
 ]

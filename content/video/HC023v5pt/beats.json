@@ -1,0 +1,161 @@
+[
+ {
+  "id": "s01",
+  "bot": "p1Left",
+  "prompt": "a small round island seen at an angle from above, bright green grass and round trees, a white two-story house with an orange roof on top of the hill, a few small cottages with red roofs, one tiny robot on the hill proudly holding up a glowing golden computer chip, calm blue watercolor sea around it, pale blue sky with soft clouds",
+  "color": "the computer chip glowing gold",
+  "say": [
+   "(pause) Imagine acordar em dois mil e vinte e nove.",
+   "Um país minúsculo chamado Nagu acabou de construir a máquina mais inteligente da Terra."
+  ],
+  "shots": [],
+  "img": "m5_408a018af1",
+  "seed": 60485
+ },
+ {
+  "id": "s02",
+  "bot": "p2Left",
+  "prompt": "a gigantic crazy superintelligence machine filling the whole image, a dense wall of thin pipes, tubes, wires, cables, tanks and small control panels drawn in fine ink detail, muted blue-grey tones with orange and yellow pipe accents, one computer in the middle, integrated with the image.",
+  "color": "the computer screen glowing blue",
+  "say": [
+   "A superinteligência é real e poderosa.",
+   "Nagu pode resolver qualquer problema. Pode vencer qualquer guerra. Imbatível!",
+   "E agora... o que vem depois?"
+  ],
+  "shots": [],
+  "img": "m5_964b38fea6",
+  "seed": 78650
+ },
+ {
+  "id": "s03",
+  "bot": "p1Left",
+  "prompt": "[Dictator] reaching his arm toward the viewer with his hand big in the foreground, fist close, one finger pointing to you. He has a stern look, olive peaked cap with gold badge, vintage recruitment poster composition, plain cream background, no text red collar and gold epaulettes",
+  "color": "the red sash",
+  "say": [
+   "O presidente deles já vai logo exigindo: Silêncio. Calem a boca. Obedeçam."
+  ],
+  "shots": [],
+  "img": "m5_1dca3e26ad",
+  "seed": 9681
+ },
+ {
+  "id": "s04",
+  "bot": "p2Left",
+  "prompt": "two robots sitting in two plump bright yellow armchairs side by side, the left one holding a red-and-white box of popcorn, a big cream bowl full of yellow popcorn on the floor between them, popcorn scattered around, a small framed picture on the white wall",
+  "color": "the bowl of popcorn in yellow",
+  "say": [
+   "Em algum lugar, dois chips assistem ao noticiário. Perplexos.",
+   "Eles se perguntam:",
+   "E o que sobra para os humanos?"
+  ],
+  "shots": [],
+  "img": "m5_528772bc5f",
+  "seed": 50963
+ },
+ {
+  "id": "s05",
+  "bot": "p3",
+  "prompt": "seen from above, a large crowd of small robots standing loosely on soft yellow ground around a big empty white speech bubble in the middle, all turned toward it",
+  "color": "yellow, the question mark",
+  "say": [
+   "Todos nós deveríamos estar prontos para um futuro em que alguém é dono da superinteligência.",
+   "Porque eles podem decidir que você é o novo servo deles."
+  ],
+  "shots": [
+   {
+    "line": 1,
+    "prompt": "simple black pencil line drawing with no color at all: a worker in overalls kneeling on a tiled bathroom floor and leaning forward to scrub, a sink on the wall, an open door on the left, seen from the side",
+    "color": "",
+    "img": "m5_4487cc3886",
+    "seed": 49337
+   }
+  ],
+  "img": "m5_8c3b56fb46",
+  "seed": 11953
+ },
+ {
+  "id": "s06",
+  "bot": "p2Left",
+  "prompt": "a robot standing and facing the viewer, its head is a big rectangular screen glowing soft red-pink with two round blue eyes and a small grille mouth, pale blue body with a big cream chest panel with four rivets, short blue legs, small round hands, plain white background",
+  "color": "the big red button",
+  "say": [
+   "Mas espera.",
+   "Vale perguntar: quem é que vence, de verdade, toda e qualquer guerra?",
+   "São as máquinas?",
+   "ou quem mexe os pauzinhos?"
+  ],
+  "shots": [
+   {
+    "line": 1,
+    "prompt": "two robots on sandy ground, one holding a big machine gun in its hands, the other with a machine gun turret mounted on its head",
+    "color": "",
+    "img": "m5_91c470aa8f",
+    "seed": 70711
+   },
+   {
+    "line": 2,
+    "prompt": "an abstract network diagram on white paper: thin grey lines like a circuit board connecting many small colored squares in green, orange, red and blue",
+    "color": "",
+    "img": "m5_8249459f7c",
+    "seed": 48141
+   }
+  ],
+  "img": "m5_e353f98ec8",
+  "seed": 98277
+ },
+ {
+  "id": "s07",
+  "bot": "p1Left",
+  "prompt": "hairy prehistoric cave people in furs sitting around a campfire in a wide valley at dusk, one holding a long stick toward the fire, orange rocky hills behind, bare trees",
+  "color": "the orange flames of the campfire",
+  "say": [
+   "Veja: toda ferramenta da história teve um humano por trás.",
+   "Foi com o fogo, ou a roda ou a imprensa.",
+   "E talvez agora, a superinteligência."
+  ],
+  "shots": [],
+  "img": "m5_fe6f30be95",
+  "seed": 82588
+ },
+ {
+  "id": "s08",
+  "bot": "p2Left",
+  "prompt": "a red boxy robot with big round binoculars as eyes standing on a green hill, a distant city skyline across a blue bay, soft watercolor sky",
+  "color": "the red binoculars",
+  "say": [
+   "Então, aqui vai uma pergunta que a gente deveria fazer:",
+   "Quando a máquina mais inteligente finalmente chegar,",
+   "(ask) quem é que a gente deve vigiar?"
+  ],
+  "shots": [
+   {
+    "line": 1,
+    "prompt": "a big Earth globe painted in blue and green watercolor, a curved wooden banner above it with the word \"SUPERINTELLIGENCE\" clearly written, small cottages with red roofs and round green trees on both sides",
+    "color": "",
+    "img": "m5_bdc402c799",
+    "seed": 8825
+   },
+   {
+    "line": 2,
+    "prompt": "a robot standing and facing the viewer, square head with two round eyes and small orange ear knobs, holding small binoculars in one hand, light green watercolor bushes behind, white background",
+    "color": "",
+    "img": "m5_48fc966874",
+    "seed": 17368
+   }
+  ],
+  "img": "m5_afd854e3b5",
+  "seed": 64602
+ },
+ {
+  "id": "s09",
+  "bot": "p1Left",
+  "prompt": "[Dictator] laughing with his mouth open and eyes squinting, head and shoulders facing the viewer, red peaked cap with gold badge, red collar, gold epaulettes",
+  "color": "the red sash",
+  "say": [
+   "(pause 3s) Vigie o humano."
+  ],
+  "shots": [],
+  "img": "m5_3e3fe799e5",
+  "seed": 37869
+ }
+]

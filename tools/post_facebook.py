@@ -9,9 +9,11 @@ When multiple images are provided, the script uploads each as an unpublished
 photo (published=false), then creates a single feed post that attaches all of
 them — Facebook renders this as a multi-photo "album" post.
 
+  python3 post_facebook.py --pt <image> <caption>     (Portuguese Page)
+
 Reads from ~/claude-agent/.env:
-  FB_PAGE_ID
-  FB_PAGE_ACCESS_TOKEN
+  FB_PAGE_ID, FB_PAGE_ACCESS_TOKEN            (Holy Chip)
+  FB_PT_PAGE_ID, FB_PT_PAGE_ACCESS_TOKEN      (--pt: "Holy Chip - Português", 2026-10-06)
 
 Prints on success:
   FB_POST_ID:<post_id>
@@ -57,6 +59,9 @@ def parse_args(argv):
     die("usage: post_facebook.py <image> <caption>  |  <img1> <img2> [...] -- <caption>")
 
 def main():
+    pt = "--pt" in sys.argv
+    if pt:
+        sys.argv.remove("--pt")
     if len(sys.argv) < 3 or sys.argv[1] in ("-h", "--help"):
         print("Usage: python3 post_facebook.py <image> <caption>")
         print("       python3 post_facebook.py <img1> <img2> [...] -- <caption>")
@@ -68,10 +73,11 @@ def main():
             die(f"image not found: {p}")
 
     load_env()
-    page_id    = os.environ.get("FB_PAGE_ID")
-    page_token = os.environ.get("FB_PAGE_ACCESS_TOKEN")
+    pre = "FB_PT_" if pt else "FB_"
+    page_id    = os.environ.get(pre + "PAGE_ID")
+    page_token = os.environ.get(pre + "PAGE_ACCESS_TOKEN")
     if not page_id or not page_token:
-        die("FB_PAGE_ID and FB_PAGE_ACCESS_TOKEN required in ~/claude-agent/.env")
+        die(f"{pre}PAGE_ID and {pre}PAGE_ACCESS_TOKEN required in ~/claude-agent/.env")
 
     if len(image_paths) == 1:
         # single photo — original path, simplest

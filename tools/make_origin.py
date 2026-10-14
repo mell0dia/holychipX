@@ -140,7 +140,10 @@ def main():
 
     # transcripts
     tstart = out.index('        <div class="lang-content active" data-lang="en">')
-    tend = out.index('      </div>\n    </div>', tstart)
+    # the transcript's own close: the first </div> at 6 spaces after the EN
+    # block (every closing inside the blocks sits deeper; the comic frame or the
+    # column close follows it - the PT edition reshuffled what comes after)
+    tend = tstart + re.search(r'^      </div>\n', out[tstart:], re.M).start()
     tblocks = "\n".join(transcript(script, lg, lg == "en")
                         for lg in ("en", "es", "pt", "fr"))
     out = out[:tstart] + tblocks + "\n" + out[tend:]

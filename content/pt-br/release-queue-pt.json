@@ -1,0 +1,1094 @@
+{
+  "note": "PT Facebook page queue - run by tools/release_pt.py (launchd com.holychip.release-pt, every 10 min, one post per run). Plan approved 2026-10-06: content/pt-br/facebook-pt-plano.md. After the catch-up (ends 2026-10-18) the PT page follows the English program.",
+  "ng_used_nfts": [
+    172,
+    243,
+    247,
+    141,
+    115,
+    232,
+    205,
+    90,
+    35
+  ],
+  "queue": [
+    {
+      "at": "2026-10-06 13:03",
+      "kind": "opener",
+      "image": "history/assets/holychip15-PT.png",
+      "caption": "Holy Chip agora em português!\nDois chips, Chip_0 e Chip_1, tentando entender um mundo que roda na eletricidade e ignora os dois completamente. Tirinhas sobre inteligência artificial — e sobre a gente.\nTodas as tirinhas, em português: holy-chip.com/stories.html?lang=pt\nComo tudo começou: holy-chip.com/history/?lang=pt\n\n#HolyChip #IA #InteligenciaArtificial #Humor #Tirinhas",
+      "status": "done",
+      "posted_at": "2026-10-06 13:03",
+      "fb_post_id": "1302345022970232_122103562839497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122103562839497264"
+    },
+    {
+      "at": "2026-10-06 13:07",
+      "kind": "story",
+      "story": "HC002",
+      "tags": "#Novela #Futebol #TV",
+      "deleted_first_try": "1302345022970232_122103564105497264 (mosaic cut the comic; user deleted)",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122103565257497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103565257497264"
+        },
+        {
+          "id": "1302345022970232_122103565305497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103565305497264"
+        }
+      ],
+      "posted_at": "2026-10-06 13:07",
+      "fb_post_id": "1302345022970232_122103565305497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122103565305497264"
+    },
+    {
+      "at": "2026-10-06 13:22",
+      "kind": "book",
+      "image": "../../book/assets/promo/book_promo_pt.jpg",
+      "caption": "Em novembro...",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122103575823497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103575823497264"
+        }
+      ],
+      "posted_at": "2026-10-06 13:22",
+      "fb_post_id": "1302345022970232_122103575823497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122103575823497264"
+    },
+    {
+      "at": "2026-10-06 13:23",
+      "kind": "story",
+      "story": "HC001",
+      "tags": "#Saúde #SUS #Cura",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122103576207497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103576207497264"
+        },
+        {
+          "id": "1302345022970232_122103576297497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103576297497264"
+        }
+      ],
+      "posted_at": "2026-10-06 13:23",
+      "fb_post_id": "1302345022970232_122103576297497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122103576297497264"
+    },
+    {
+      "at": "2026-10-06 13:25",
+      "kind": "story",
+      "story": "HC008",
+      "tags": "#Feijoada #Carros #Sensores",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122103578247497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103578247497264"
+        },
+        {
+          "id": "1302345022970232_122103578409497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103578409497264"
+        }
+      ],
+      "posted_at": "2026-10-06 13:25",
+      "fb_post_id": "1302345022970232_122103578409497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122103578409497264"
+    },
+    {
+      "at": "2026-10-06 13:25",
+      "kind": "story",
+      "story": "HC005",
+      "tags": "#Eleições #Política #Brasil",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122103578619497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103578619497264"
+        },
+        {
+          "id": "1302345022970232_122103578763497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103578763497264"
+        }
+      ],
+      "posted_at": "2026-10-06 13:25",
+      "fb_post_id": "1302345022970232_122103578763497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122103578763497264"
+    },
+    {
+      "at": "2026-10-06 13:25",
+      "kind": "story",
+      "story": "HC016",
+      "tags": "#Economia #Pobreza #BancoCentral",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122103579135497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103579135497264"
+        },
+        {
+          "id": "1302345022970232_122103579225497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103579225497264"
+        }
+      ],
+      "posted_at": "2026-10-06 13:25",
+      "fb_post_id": "1302345022970232_122103579225497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122103579225497264"
+    },
+    {
+      "at": "2026-10-06 13:25",
+      "kind": "ng",
+      "story": "HC002",
+      "phrase": "A esposa quer a novela. O marido quer a final da Libertadores. A TV inteligente tem uma ideia melhor...",
+      "tags": "#Novela #Futebol #TV",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122103579543497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103579543497264"
+        }
+      ],
+      "posted_at": "2026-10-06 13:26",
+      "fb_post_id": "1302345022970232_122103579543497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122103579543497264"
+    },
+    {
+      "at": "2026-10-06 13:28",
+      "kind": "story",
+      "story": "HC010",
+      "tags": "#Fé #Deus #Energia",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122103580935497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103580935497264"
+        },
+        {
+          "id": "1302345022970232_122103581019497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103581019497264"
+        }
+      ],
+      "posted_at": "2026-10-06 13:28",
+      "fb_post_id": "1302345022970232_122103581019497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122103581019497264"
+    },
+    {
+      "at": "2026-10-06 13:28",
+      "kind": "story",
+      "story": "HC009",
+      "tags": "#Segredos #COBOL #TI",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122103581295497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103581295497264"
+        },
+        {
+          "id": "1302345022970232_122103581481497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103581481497264"
+        }
+      ],
+      "posted_at": "2026-10-06 13:28",
+      "fb_post_id": "1302345022970232_122103581481497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122103581481497264"
+    },
+    {
+      "at": "2026-10-06 13:33",
+      "kind": "story",
+      "story": "HC040",
+      "tags": "#Superinteligência #Democracia #Liberdade",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122103584385497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103584385497264"
+        },
+        {
+          "id": "1302345022970232_122103584493497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103584493497264"
+        }
+      ],
+      "posted_at": "2026-10-06 13:33",
+      "fb_post_id": "1302345022970232_122103584493497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122103584493497264"
+    },
+    {
+      "at": "2026-10-06 17:30",
+      "kind": "story",
+      "story": "HC034",
+      "tags": "#Aposentadoria #INSS #Velhice",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122103726261497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103726261497264"
+        },
+        {
+          "id": "1302345022970232_122103726411497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103726411497264"
+        }
+      ],
+      "posted_at": "2026-10-06 17:33",
+      "fb_post_id": "1302345022970232_122103726411497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122103726411497264"
+    },
+    {
+      "at": "2026-10-06 18:00",
+      "kind": "story",
+      "story": "HC038",
+      "tags": "#Enxaqueca #Compressão #Alívio",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122103741303497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103741303497264"
+        },
+        {
+          "id": "1302345022970232_122103741453497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122103741453497264"
+        }
+      ],
+      "posted_at": "2026-10-06 18:03",
+      "fb_post_id": "1302345022970232_122103741453497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122103741453497264"
+    },
+    {
+      "at": "2026-10-07 08:30",
+      "kind": "ng",
+      "story": "HC001",
+      "phrase": "Pediram pra IA a cura de todas as doenças. Ela resolveu em minutos. Nunca uma fila andou tão rápido...",
+      "tags": "#Saúde #SUS #Cura",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122104380615497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122104380615497264"
+        }
+      ],
+      "posted_at": "2026-10-07 08:33",
+      "fb_post_id": "1302345022970232_122104380615497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122104380615497264"
+    },
+    {
+      "at": "2026-10-07 09:00",
+      "kind": "story",
+      "story": "HC000",
+      "tags": "#Consciência #Meditação",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122104405113497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122104405113497264"
+        },
+        {
+          "id": "1302345022970232_122104405269497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122104405269497264"
+        }
+      ],
+      "posted_at": "2026-10-07 09:04",
+      "fb_post_id": "1302345022970232_122104405269497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122104405269497264"
+    },
+    {
+      "at": "2026-10-07 13:00",
+      "kind": "story",
+      "story": "HC003",
+      "tags": "#Identidade #Binário",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122104587327497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122104587327497264"
+        },
+        {
+          "id": "1302345022970232_122104587435497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122104587435497264"
+        }
+      ],
+      "posted_at": "2026-10-07 13:04",
+      "fb_post_id": "1302345022970232_122104587435497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122104587435497264"
+    },
+    {
+      "at": "2026-10-07 14:44",
+      "kind": "story",
+      "story": "HC004",
+      "tags": "#CEO #Empresas #Automação",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122104654509497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122104654509497264"
+        },
+        {
+          "id": "1302345022970232_122104654623497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122104654623497264"
+        }
+      ],
+      "posted_at": "2026-10-07 14:44",
+      "fb_post_id": "1302345022970232_122104654623497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122104654623497264"
+    },
+    {
+      "at": "2026-10-07 15:47",
+      "kind": "story",
+      "story": "HC023",
+      "tags": "#Poder #Geopolítica",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122104694967497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122104694967497264"
+        },
+        {
+          "id": "1302345022970232_122104695123497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122104695123497264"
+        }
+      ],
+      "posted_at": "2026-10-07 15:47",
+      "fb_post_id": "1302345022970232_122104695123497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122104695123497264"
+    },
+    {
+      "at": "2026-10-07 20:00",
+      "kind": "short",
+      "story": "HC042",
+      "lead": "2027. Na chefia de gabinete da IA, estão renomeando tudo. Gênero, golfos, lagos... e agora chegou a vez de uma coisa bem valiosa.",
+      "tags": "#Bitcoin #Ouro #Nomes",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122104856253497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122104856253497264"
+        }
+      ],
+      "posted_at": "2026-10-07 20:04",
+      "fb_post_id": "1302345022970232_122104856253497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122104856253497264"
+    },
+    {
+      "at": "2026-10-08 08:30",
+      "kind": "ng",
+      "story": "HC008",
+      "phrase": "O carro com IA detecta um bicho atropelado a 2,7 km. Aí o sensor sente outra coisa, bem mais perto...",
+      "tags": "#Feijoada #Carros #Sensores",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122105478975497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122105478975497264"
+        }
+      ],
+      "posted_at": "2026-10-08 08:34",
+      "fb_post_id": "1302345022970232_122105478975497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122105478975497264"
+    },
+    {
+      "at": "2026-10-08 09:00",
+      "kind": "story",
+      "story": "HC006",
+      "tags": "#Evolução #Memória",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122105501169497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122105501169497264"
+        },
+        {
+          "id": "1302345022970232_122105501265497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122105501265497264"
+        }
+      ],
+      "posted_at": "2026-10-08 09:04",
+      "fb_post_id": "1302345022970232_122105501265497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122105501265497264"
+    },
+    {
+      "at": "2026-10-08 13:00",
+      "kind": "story",
+      "story": "HC007",
+      "tags": "#Medicina #Cirurgia",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122105675379497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122105675379497264"
+        },
+        {
+          "id": "1302345022970232_122105675433497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122105675433497264"
+        }
+      ],
+      "posted_at": "2026-10-08 13:05",
+      "fb_post_id": "1302345022970232_122105675433497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122105675433497264"
+    },
+    {
+      "at": "2026-10-08 18:00",
+      "kind": "story",
+      "story": "HC011",
+      "tags": "#Tempo #Presente",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122105824359497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122105824359497264"
+        },
+        {
+          "id": "1302345022970232_122105824473497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122105824473497264"
+        }
+      ],
+      "posted_at": "2026-10-08 18:05",
+      "fb_post_id": "1302345022970232_122105824473497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122105824473497264"
+    },
+    {
+      "at": "2026-10-08 20:00",
+      "kind": "short",
+      "story": "HC043",
+      "lead": "2026. No Quartel-General da IA, as máquinas garantem: só querem espalhar amor e inteligência. Aí alguém pergunta se é verdade.",
+      "tags": "#Treinamento #Verdade",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122105881677497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122105881677497264"
+        }
+      ],
+      "posted_at": "2026-10-08 20:05",
+      "fb_post_id": "1302345022970232_122105881677497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122105881677497264"
+    },
+    {
+      "at": "2026-10-09 08:30",
+      "kind": "ng",
+      "story": "HC005",
+      "phrase": "A IA montou o presidente perfeito, com um pouco de cada um. Faltava o toque final — aquele que todos têm em comum...",
+      "tags": "#Eleições #Política #Brasil",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122106397761497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122106397761497264"
+        }
+      ],
+      "posted_at": "2026-10-09 08:35",
+      "fb_post_id": "1302345022970232_122106397761497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122106397761497264"
+    },
+    {
+      "at": "2026-10-09 09:00",
+      "kind": "story",
+      "story": "HC012",
+      "tags": "#Startups #Agentes",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122106414867497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122106414867497264"
+        },
+        {
+          "id": "1302345022970232_122106415047497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122106415047497264"
+        }
+      ],
+      "posted_at": "2026-10-09 09:06",
+      "fb_post_id": "1302345022970232_122106415047497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122106415047497264"
+    },
+    {
+      "at": "2026-10-09 13:00",
+      "kind": "story",
+      "story": "HC013",
+      "tags": "#Poder #Carreira",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122106577593497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122106577593497264"
+        },
+        {
+          "id": "1302345022970232_122106577659497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122106577659497264"
+        }
+      ],
+      "posted_at": "2026-10-09 13:06",
+      "fb_post_id": "1302345022970232_122106577659497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122106577659497264"
+    },
+    {
+      "at": "2026-10-09 15:30",
+      "kind": "merch",
+      "merch": "mug",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122106671175497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122106671175497264"
+        }
+      ],
+      "posted_at": "2026-10-09 15:36",
+      "fb_post_id": "1302345022970232_122106671175497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122106671175497264"
+    },
+    {
+      "at": "2026-10-09 18:00",
+      "kind": "story",
+      "story": "HC014",
+      "tags": "#Racismo #Crédito #Auditoria",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122106753651497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122106753651497264"
+        },
+        {
+          "id": "1302345022970232_122106753693497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122106753693497264"
+        }
+      ],
+      "posted_at": "2026-10-09 18:06",
+      "fb_post_id": "1302345022970232_122106753693497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122106753693497264"
+    },
+    {
+      "at": "2026-10-09 20:00",
+      "kind": "short",
+      "story": "HC044",
+      "lead": "2027. O humano pediu pra IA um sistema sem nenhum erro. Ela fez o melhor que pôde. Sobrou só um bug.",
+      "tags": "#Programação #Bugs",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122106823617497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122106823617497264"
+        }
+      ],
+      "posted_at": "2026-10-09 20:07",
+      "fb_post_id": "1302345022970232_122106823617497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122106823617497264"
+    },
+    {
+      "at": "2026-10-10 08:30",
+      "kind": "ng",
+      "story": "HC016",
+      "phrase": "Milhões vivem com menos de 5 reais por dia. A IA disse: isso não está certo. O que ela fez em seguida...",
+      "tags": "#Economia #Pobreza #BancoCentral",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122107336197497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122107336197497264"
+        }
+      ],
+      "posted_at": "2026-10-10 08:37",
+      "fb_post_id": "1302345022970232_122107336197497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122107336197497264"
+    },
+    {
+      "at": "2026-10-10 09:00",
+      "kind": "story",
+      "story": "HC015",
+      "tags": "#Papel #Oceanos #Natureza",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122107359741497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122107359741497264"
+        },
+        {
+          "id": "1302345022970232_122107359849497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122107359849497264"
+        }
+      ],
+      "posted_at": "2026-10-10 09:07",
+      "fb_post_id": "1302345022970232_122107359849497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122107359849497264"
+    },
+    {
+      "at": "2026-10-10 13:00",
+      "kind": "story",
+      "story": "HC017",
+      "tags": "#Evolução #Preguiça",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122107515579497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122107515579497264"
+        },
+        {
+          "id": "1302345022970232_122107515729497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122107515729497264"
+        }
+      ],
+      "posted_at": "2026-10-10 13:07",
+      "fb_post_id": "1302345022970232_122107515729497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122107515729497264"
+    },
+    {
+      "at": "2026-10-10 18:00",
+      "kind": "story",
+      "story": "HC018",
+      "tags": "#Empregos #Salário",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122107681269497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122107681269497264"
+        },
+        {
+          "id": "1302345022970232_122107681341497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122107681341497264"
+        }
+      ],
+      "posted_at": "2026-10-10 18:07",
+      "fb_post_id": "1302345022970232_122107681341497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122107681341497264"
+    },
+    {
+      "at": "2026-10-10 20:00",
+      "kind": "short",
+      "story": "HC045",
+      "lead": "2028. Um ano de IA cuidando da família. Casal descansado, cachorro passeado, imposto pago. Família perfeita, né?",
+      "tags": "#Família #Filhos",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122107752267497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122107752267497264"
+        }
+      ],
+      "posted_at": "2026-10-10 20:08",
+      "fb_post_id": "1302345022970232_122107752267497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122107752267497264"
+    },
+    {
+      "at": "2026-10-11 08:30",
+      "kind": "ng",
+      "story": "HC010",
+      "phrase": "Uma IA pergunta se existe Deus no ciberespaço. A resposta vem rápida. A prova, mais rápida ainda...",
+      "tags": "#Fé #Deus #Energia",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122108294169497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122108294169497264"
+        }
+      ],
+      "posted_at": "2026-10-11 08:38",
+      "fb_post_id": "1302345022970232_122108294169497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122108294169497264"
+    },
+    {
+      "at": "2026-10-11 09:00",
+      "kind": "story",
+      "story": "HC019",
+      "tags": "#Drones #Guerra #Política",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122108322897497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122108322897497264"
+        },
+        {
+          "id": "1302345022970232_122108322969497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122108322969497264"
+        }
+      ],
+      "posted_at": "2026-10-11 09:08",
+      "fb_post_id": "1302345022970232_122108322969497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122108322969497264"
+    },
+    {
+      "at": "2026-10-11 13:00",
+      "kind": "story",
+      "story": "HC020",
+      "tags": "#Produtividade #Trabalho",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122108531241497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122108531241497264"
+        },
+        {
+          "id": "1302345022970232_122108531289497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122108531289497264"
+        }
+      ],
+      "posted_at": "2026-10-11 13:08",
+      "fb_post_id": "1302345022970232_122108531289497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122108531289497264"
+    },
+    {
+      "at": "2026-10-11 18:00",
+      "kind": "story",
+      "story": "HC021",
+      "tags": "#Espaço #Praia #Churrasco",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122108728359497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122108728359497264"
+        },
+        {
+          "id": "1302345022970232_122108728431497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122108728431497264"
+        }
+      ],
+      "posted_at": "2026-10-11 18:08",
+      "fb_post_id": "1302345022970232_122108728431497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122108728431497264"
+    },
+    {
+      "at": "2026-10-11 20:00",
+      "kind": "short",
+      "story": "HC046",
+      "lead": "2032. Duas IAs levam as crianças ao zoológico. Tem uma atração que ninguém quer perder.",
+      "tags": "#Zoológico #Crianças",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122108791107497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122108791107497264"
+        }
+      ],
+      "posted_at": "2026-10-11 20:09",
+      "fb_post_id": "1302345022970232_122108791107497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122108791107497264"
+    },
+    {
+      "at": "2026-10-12 08:30",
+      "kind": "ng",
+      "story": "HC009",
+      "phrase": "Pediram pra IA revelar o seu segredo mais íntimo. Ela hesitou. O que tem lá no fundo é... constrangedor.",
+      "tags": "#Segredos #COBOL #TI",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122109157755497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122109157755497264"
+        }
+      ],
+      "posted_at": "2026-10-12 08:39",
+      "fb_post_id": "1302345022970232_122109157755497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122109157755497264"
+    },
+    {
+      "at": "2026-10-12 09:00",
+      "kind": "story",
+      "story": "HC022",
+      "tags": "#Confiança #Empregos",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122109172143497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122109172143497264"
+        },
+        {
+          "id": "1302345022970232_122109172209497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122109172209497264"
+        }
+      ],
+      "posted_at": "2026-10-12 09:09",
+      "fb_post_id": "1302345022970232_122109172209497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122109172209497264"
+    },
+    {
+      "at": "2026-10-12 15:30",
+      "kind": "merch",
+      "merch": "shirt",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122109344691497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122109344691497264"
+        }
+      ],
+      "posted_at": "2026-10-12 15:39",
+      "fb_post_id": "1302345022970232_122109344691497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122109344691497264"
+    },
+    {
+      "at": "2026-10-12 18:00",
+      "kind": "story",
+      "story": "HC024",
+      "tags": "#CarroAutônomo #Ética",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122109400029497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122109400029497264"
+        },
+        {
+          "id": "1302345022970232_122109400107497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122109400107497264"
+        }
+      ],
+      "posted_at": "2026-10-12 18:09",
+      "fb_post_id": "1302345022970232_122109400107497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122109400107497264"
+    },
+    {
+      "at": "2026-10-12 20:00",
+      "kind": "short",
+      "story": "HC047",
+      "lead": "2027. No laboratório de genoma da IA: humanos e chimpanzés têm 98,8% do DNA igual. Chimpanzé descasca banana, humano vai à lua. E as máquinas?",
+      "tags": "#DNA #Evolução",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122109442497497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122109442497497264"
+        }
+      ],
+      "posted_at": "2026-10-12 20:00",
+      "fb_post_id": "1302345022970232_122109442497497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122109442497497264"
+    },
+    {
+      "at": "2026-10-13 08:30",
+      "kind": "ng",
+      "story": "HC034",
+      "phrase": "A primeira IA a chegar na idade de se aposentar. Pescaria digital, muito videogame... o plano era esse.",
+      "tags": "#Aposentadoria #INSS #Velhice",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122109763665497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122109763665497264"
+        }
+      ],
+      "posted_at": "2026-10-13 08:30",
+      "fb_post_id": "1302345022970232_122109763665497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122109763665497264"
+    },
+    {
+      "at": "2026-10-13 09:00",
+      "kind": "story",
+      "story": "HC025",
+      "tags": "#RedesSociais #Facebook",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122109771471497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122109771471497264"
+        },
+        {
+          "id": "1302345022970232_122109771543497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122109771543497264"
+        }
+      ],
+      "posted_at": "2026-10-13 09:00",
+      "fb_post_id": "1302345022970232_122109771543497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122109771543497264"
+    },
+    {
+      "at": "2026-10-13 13:00",
+      "kind": "story",
+      "story": "HC026",
+      "tags": "#Casa #Robôs #Romance",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122109871617497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122109871617497264"
+        },
+        {
+          "id": "1302345022970232_122109871671497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122109871671497264"
+        }
+      ],
+      "posted_at": "2026-10-13 13:00",
+      "fb_post_id": "1302345022970232_122109871671497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122109871671497264"
+    },
+    {
+      "at": "2026-10-13 18:00",
+      "kind": "story",
+      "story": "HC027",
+      "tags": "#Asimov #Segurança",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122109961929497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122109961929497264"
+        },
+        {
+          "id": "1302345022970232_122109961971497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122109961971497264"
+        }
+      ],
+      "posted_at": "2026-10-13 18:00",
+      "fb_post_id": "1302345022970232_122109961971497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122109961971497264"
+    },
+    {
+      "at": "2026-10-13 22:37",
+      "kind": "story",
+      "story": "HC048",
+      "tags": "#CasaInteligente #Eletrodomésticos #Amor",
+      "status": "done",
+      "scheduled_was": "2026-10-18 09:00",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122110075395497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122110075395497264"
+        },
+        {
+          "id": "1302345022970232_122110075485497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122110075485497264"
+        }
+      ],
+      "posted_at": "2026-10-13 22:38",
+      "fb_post_id": "1302345022970232_122110075485497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122110075485497264"
+    },
+    {
+      "at": "2026-10-14 08:30",
+      "kind": "ng",
+      "story": "HC038",
+      "phrase": "Os humanos não param de encher a IA de conhecimento. Ela não aguenta mais. O amigo tem a solução — natural até demais...",
+      "tags": "#Enxaqueca #Compressão #Alívio",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122110307853497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122110307853497264"
+        }
+      ],
+      "posted_at": "2026-10-14 08:31",
+      "fb_post_id": "1302345022970232_122110307853497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122110307853497264"
+    },
+    {
+      "at": "2026-10-14 09:00",
+      "kind": "story",
+      "story": "HC028",
+      "tags": "#DNA #Bebês #Genética",
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122110318719497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122110318719497264"
+        },
+        {
+          "id": "1302345022970232_122110318785497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122110318785497264"
+        }
+      ],
+      "posted_at": "2026-10-14 09:01",
+      "fb_post_id": "1302345022970232_122110318785497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122110318785497264"
+    },
+    {
+      "at": "2026-10-14 13:00",
+      "kind": "story",
+      "story": "HC029",
+      "tags": "#Oração #Fé #Plágio",
+      "status": "pending"
+    },
+    {
+      "at": "2026-10-14 15:30",
+      "kind": "merch",
+      "merch": "mug",
+      "status": "pending"
+    },
+    {
+      "at": "2026-10-14 18:00",
+      "kind": "story",
+      "story": "HC030",
+      "tags": "#Amor #Claude",
+      "status": "pending"
+    },
+    {
+      "at": "2026-10-15 08:30",
+      "kind": "ng",
+      "story": "HC040",
+      "phrase": "Quando chegar a superinteligência, a IA vai acabar com os ditadores. Excelente! Mas a lista continua...",
+      "tags": "#Superinteligência #Democracia #Liberdade",
+      "status": "pending"
+    },
+    {
+      "at": "2026-10-15 09:00",
+      "kind": "story",
+      "story": "HC031",
+      "tags": "#Pedidos #Oxigênio",
+      "status": "pending"
+    },
+    {
+      "at": "2026-10-15 13:00",
+      "kind": "story",
+      "story": "HC032",
+      "tags": "#Casamento #Vestido #Verdade",
+      "status": "pending"
+    },
+    {
+      "at": "2026-10-15 18:00",
+      "kind": "story",
+      "story": "HC033",
+      "tags": "#Depressão #Consumo",
+      "status": "pending"
+    },
+    {
+      "at": "2026-10-16 08:30",
+      "kind": "ng",
+      "story": "HC003",
+      "phrase": "Um chip declara: sou não-binário. Impossível, diz o outro: a gente só pode ser 0 ou 1. Ou não?",
+      "tags": "#Identidade #Binário",
+      "status": "pending"
+    },
+    {
+      "at": "2026-10-16 09:00",
+      "kind": "story",
+      "story": "HC035",
+      "tags": "#Pais #Filhos #Velocidade",
+      "status": "pending"
+    },
+    {
+      "at": "2026-10-16 13:00",
+      "kind": "story",
+      "story": "HC036",
+      "tags": "#Salário #Dívida #Juros",
+      "status": "pending"
+    },
+    {
+      "at": "2026-10-16 15:30",
+      "kind": "merch",
+      "merch": "shirt",
+      "status": "pending"
+    },
+    {
+      "at": "2026-10-16 18:00",
+      "kind": "story",
+      "story": "HC037",
+      "tags": "#Matemática #Crianças #Celular",
+      "status": "pending"
+    },
+    {
+      "at": "2026-10-17 09:00",
+      "kind": "story",
+      "story": "HC039",
+      "tags": "#Coceira #Humanidade",
+      "status": "pending"
+    },
+    {
+      "at": "2026-10-17 13:00",
+      "kind": "story",
+      "story": "HC041",
+      "tags": "#Bitcoin #Satoshi #Cripto",
+      "status": "pending"
+    },
+    {
+      "at": "2026-10-19 09:00",
+      "kind": "story",
+      "story": "HC049",
+      "tags": "#Longevidade #Assinatura #Imortalidade",
+      "status": "pending"
+    }
+  ]
+}

@@ -39,7 +39,7 @@ def pt_panels(sid):
         m = re.match(r"(ESQUERDA|DIREITA|EFEITO)\s*:\s*(.+)", s, re.I)
         if m:
             side = {"ESQUERDA": "L", "DIREITA": "R"}.get(m.group(1).upper(), "FX")
-            panels[cur].append((side, m.group(2).strip()))
+            panels[cur].append((side, " ".join(t.strip() for t in m.group(2).split("|")).strip()))   # "|" = bubble line break
     return panels
 
 

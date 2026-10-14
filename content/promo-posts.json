@@ -1,0 +1,25 @@
+{
+  "trump-nagu-en": {
+    "created": "2026-10-07 15:46",
+    "image": "/Users/rmello/holy-chip/content/promo/trump-nagu/trump-nagu-en-v3.png",
+    "fb": {
+      "id": "257090621405568_1411106521223772",
+      "permalink": "https://www.facebook.com/257090621405568/posts/1411106521223772"
+    },
+    "ig": {
+      "id": "17883502776625281",
+      "permalink": "https://www.instagram.com/p/DeNdzfGk1By/"
+    },
+    "tweet_id": "2107966038696661138",
+    "nostr_event_id": "fb55eae39ca418f839933608119a9060eddc01fe404b1b49e53958530e6c0e75",
+    "posted_at": "2026-10-07 15:47"
+  },
+  "trump-nagu-pt": {
+    "created": "2026-10-07 15:47",
+    "image": "content/promo/trump-nagu/trump-nagu-pt-v3.png",
+    "fb_pt": {
+      "id": "1302345022970232_122104695207497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122104695207497264"
+    }
+  }
+}

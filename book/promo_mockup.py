@@ -8,7 +8,9 @@ every pixel is the cover colour scaled by how the blank board was lit, so the
 light falloff and the linen texture carry over.
 
     python promo_mockup.py   (needs numpy)  -> build/proto/book_promo.jpg
+    python promo_mockup.py COVER.png OUT.jpg     (e.g. the Portuguese cover, 2026-10-06)
 """
+import sys
 from pathlib import Path
 import numpy as np
 from PIL import Image, ImageFilter
@@ -28,7 +30,9 @@ def coeffs(dst, src):
 
 def main():
     photo = Image.open(Path(__file__).parent / "assets" / "promo" / "blank.jpg").convert("RGB"); W, H = photo.size
-    cover = Image.open(D / "cover_hi.png").convert("RGB"); S = cover.size[0]
+    cover_path = Path(sys.argv[1]) if len(sys.argv) > 1 else D / "cover_hi.png"
+    out_path = Path(sys.argv[2]) if len(sys.argv) > 2 else D / "book_promo.jpg"
+    cover = Image.open(cover_path).convert("RGB"); S = cover.size[0]
     cx = sum(p[0] for p in QUAD) / 4; cy = sum(p[1] for p in QUAD) / 4
     quad = [(x + (cx - x) * 0.012, y + (cy - y) * 0.012) for x, y in QUAD]   # off the rounded edge
     c = coeffs(quad, [(0, 0), (S, 0), (S, S), (0, S)])
@@ -39,8 +43,8 @@ def main():
     M = np.asarray(mask, float)[..., None] / 255
     ref = np.median(P[np.asarray(mask) > 250], axis=0)      # the blank board's colour
     out = P * (1 - M) + np.clip(C / PAPER * P, 0, 255) * M  # cover x photo lighting
-    Image.fromarray(out.astype(np.uint8)).save(D / "book_promo.jpg", quality=94)
-    print(D / "book_promo.jpg", "board", ref.round())
+    Image.fromarray(out.astype(np.uint8)).save(out_path, quality=94)
+    print(out_path, "board", ref.round())
 
 
 if __name__ == "__main__":

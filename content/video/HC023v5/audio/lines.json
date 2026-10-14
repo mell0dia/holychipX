@@ -1,0 +1,185 @@
+[
+ {
+  "beat": "s01",
+  "k": 0,
+  "text": "Imagine waking up in twenty twenty-nine.",
+  "file": "audio/s01_0.wav",
+  "dur": 3.0,
+  "pre": 0.8
+ },
+ {
+  "beat": "s01",
+  "k": 1,
+  "text": "A tiny country called Nagu has just built the smartest machine on Earth.",
+  "file": "audio/s01_1.wav",
+  "dur": 5.71,
+  "pre": 0.0
+ },
+ {
+  "beat": "s02",
+  "k": 0,
+  "text": "The superintelligence is now real.",
+  "file": "audio/s02_0.wav",
+  "dur": 3.395,
+  "pre": 0.0
+ },
+ {
+  "beat": "s02",
+  "k": 1,
+  "text": "Nagu can solve any problem. It can win any war",
+  "file": "audio/s02_1.wav",
+  "dur": 4.641,
+  "pre": 0.0
+ },
+ {
+  "beat": "s02",
+  "k": 2,
+  "text": "So... what comes next?",
+  "file": "audio/s02_2.wav",
+  "dur": 2.407,
+  "pre": 0.0
+ },
+ {
+  "beat": "s03",
+  "k": 0,
+  "text": "Their president is quickly demanding:  Be quiet. Shut up. Obey.",
+  "file": "audio/s03_0.wav",
+  "dur": 6.466,
+  "pre": 0.0
+ },
+ {
+  "beat": "s04",
+  "k": 0,
+  "text": "Somewhere, two chips are watching the news. Perplexed.",
+  "file": "audio/s04_0.wav",
+  "dur": 4.292,
+  "pre": 0.0
+ },
+ {
+  "beat": "s04",
+  "k": 1,
+  "text": "They wonder:",
+  "file": "audio/s04_1.wav",
+  "dur": 1.344,
+  "pre": 0.0
+ },
+ {
+  "beat": "s04",
+  "k": 2,
+  "text": "What is next for humans?",
+  "file": "audio/s04_2.wav",
+  "dur": 2.13,
+  "pre": 0.0
+ },
+ {
+  "beat": "s05",
+  "k": 0,
+  "text": "We all should be ready for a future where someone owns superintelligence.",
+  "file": "audio/s05_0.wav",
+  "dur": 4.648,
+  "pre": 0.0
+ },
+ {
+  "beat": "s05",
+  "k": 1,
+  "text": "Because they may decide you're their new servant.",
+  "file": "audio/s05_1.wav",
+  "dur": 2.785,
+  "pre": 0.0
+ },
+ {
+  "beat": "s06",
+  "k": 0,
+  "text": "But wait",
+  "file": "audio/s06_0.wav",
+  "dur": 1.247,
+  "pre": 0.0
+ },
+ {
+  "beat": "s06",
+  "k": 1,
+  "text": "Is it worth to ask who is really winning any and every war?",
+  "file": "audio/s06_1.wav",
+  "dur": 4.56,
+  "pre": 0.0
+ },
+ {
+  "beat": "s06",
+  "k": 2,
+  "text": "is it the machines?",
+  "file": "audio/s06_2.wav",
+  "dur": 2.067,
+  "pre": 0.0
+ },
+ {
+  "beat": "s06",
+  "k": 3,
+  "text": "or the one holding the strings?",
+  "file": "audio/s06_3.wav",
+  "dur": 1.977,
+  "pre": 0.0
+ },
+ {
+  "beat": "s07",
+  "k": 0,
+  "text": "See, every tool in history had a human behind it.",
+  "file": "audio/s07_0.wav",
+  "dur": 3.746,
+  "pre": 0.0
+ },
+ {
+  "beat": "s07",
+  "k": 1,
+  "text": "Fire. The wheel. The printing press.",
+  "file": "audio/s07_1.wav",
+  "dur": 3.574,
+  "pre": 0.0
+ },
+ {
+  "beat": "s07",
+  "k": 2,
+  "text": "And maybe now, the superintelligence.",
+  "file": "audio/s07_2.wav",
+  "dur": 3.223,
+  "pre": 0.0
+ },
+ {
+  "beat": "s08",
+  "k": 0,
+  "text": "So here is a question we should ask:",
+  "file": "audio/s08_0.wav",
+  "dur": 2.871,
+  "pre": 0.0
+ },
+ {
+  "beat": "s08",
+  "k": 1,
+  "text": "When the smartest machine finally arrives,",
+  "file": "audio/s08_1.wav",
+  "dur": 2.976,
+  "pre": 0.0
+ },
+ {
+  "beat": "s08",
+  "k": 2,
+  "text": "who should we be watching?",
+  "file": "audio/s08_2.wav",
+  "dur": 1.406,
+  "pre": 0.0
+ },
+ {
+  "beat": "s09",
+  "k": 0,
+  "text": "Watch the human.",
+  "file": "audio/s09_0.wav",
+  "dur": 2.334,
+  "pre": 3.0
+ },
+ {
+  "beat": "outro",
+  "k": 0,
+  "text": "Holy Chip, number twenty-three. It happens in twenty twenty-nine... so why wait? Read it before it happens.",
+  "file": "audio/outro.wav",
+  "dur": 10.626
+ }
+]

@@ -77,13 +77,13 @@ def pick_story(tracker, requested=None):
     sys.exit("all FB-released stories already on nostr — nothing to do")
 
 
-def compose(entry, video=False):
+def compose(entry, video=False, kind="reel"):
     story = entry["story"]
     title = entry.get("title", story)
     origin = f"{SITE}/origins/{story}.html"
     # --video posts the animated Reel instead of the still comic. The mp4 must
     # already be live on the site; nostr clients fetch it themselves.
-    media = (f"{SITE}/videos/{story}.reel.mp4" if video
+    media = (f"{SITE}/videos/{story}.{kind}.mp4" if video
              else f"{SITE}/stories/{story}.png")
     mime = "video/mp4" if video else "image/png"
     # Tease style — same as X: title, drop, link, hashtags. Never the joke.
@@ -155,7 +155,7 @@ def cmd_post(args):
     from pynostr.event import Event
     tracker = load_tracker()
     entry = pick_story(tracker, args.story)
-    content, tags, media, cards, origin = compose(entry, video=args.video)
+    content, tags, media, cards, origin = compose(entry, video=args.video, kind=args.kind)
     print(f"--- {entry['story']} — {entry.get('title','')} ---")
     print(content)
     print(f"({'video' if args.video else 'image'}: {media})")
@@ -189,7 +189,7 @@ def cmd_post(args):
     # A Reel post is recorded under its own key. Writing it to nostr_event_id
     # would make the daily backfill cron think the still comic already went
     # out, and that story would never get its image note.
-    key = "nostr_reel_event_id" if args.video else "nostr_event_id"
+    key = (f"nostr_{args.kind.replace('.', '_')}_event_id") if args.video else "nostr_event_id"
     entry[key] = event.id
     entry[key.replace("event_id", "posted_at")] = \
         datetime.now().strftime("%Y-%m-%d %H:%M")
@@ -203,6 +203,7 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument("--profile", action="store_true", help="publish kind-0 metadata and exit")
     p.add_argument("--story", help="post specific HC###")
+    p.add_argument("--kind", default="reel", help="video kind: reel (default), doc, doc.pt")
     p.add_argument("--video", action="store_true",
                    help="post the Reel mp4 instead of the still comic")
     p.add_argument("--dry-run", action="store_true")

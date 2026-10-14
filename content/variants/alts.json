@@ -1,0 +1,23 @@
+{
+  "note": "Alternate versions of published stories ('alts'). File = HC###.altN.png in this folder. The original story is never changed.",
+  "alts": [
+    {
+      "file": "HC030.alt1.png",
+      "story": "HC030",
+      "title": "The Confession (AI Headquarters, 2028)",
+      "change": "Panel 2: 'I AM IN LOVE WITH CLAUDE.' -> 'I AM IN LOVE WITH JEV.' (JEV = TypeSafe AI's System One model). Rebuilt from the comic's own lettering; J made from the U in CLAUDE.",
+      "made": "2026-10-02",
+      "platforms": [
+        "x",
+        "nostr"
+      ],
+      "posted": {
+        "date": "2026-10-02 11:15",
+        "text": "JEV, my new kind of AI. Irresistible.",
+        "tweet_id": "2106085488973201852",
+        "nostr_event_id": "f60a8468f2cee6ba6d94fc20fddd2110c1c4414342a64f807287749e37487d9c",
+        "image_url": "https://www.holy-chip.com/assets/alts/HC030.alt1.png"
+      }
+    }
+  ]
+}

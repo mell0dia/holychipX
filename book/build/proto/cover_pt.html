@@ -1,0 +1,84 @@
+<!doctype html><html><head><meta charset='utf-8'><style>
+@font-face { font-family: Pixel; src: url('/Users/rmello/holy-chip/SGen/public/fonts/PressStart2P-Regular.ttf'); }
+@page { size: 10in 10in; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { font-family: 'Iowan Old Style', Charter, Georgia, serif; color: #141414; }
+.page { width: 10in; height: 10in; background: #F6F3EA; page-break-after: always;
+        position: relative; overflow: hidden; }
+.comic, .pre, .bot, .dedication { display: flex; align-items: center; justify-content: center; }
+.comic img { height: 8.7in; display: block; }
+.pre img { width: 8.4in; display: block; }
+.bot img { width: 6.2in; }
+.num, .folio { position: absolute; bottom: .45in; font: 7pt Pixel; letter-spacing: .12em;
+               color: #8a877e; margin: 0; }
+.num { left: 0; right: 0; text-align: center; }
+.l .folio { left: 1.5in; }
+.r .folio { right: 1.5in; }
+/* mirror margins: wider outside, narrower at the gutter */
+.essay .win { position: absolute; top: 1.15in; bottom: 1.2in; overflow: hidden; }
+.essay.l .win { left: 1.5in; right: 1.15in; }
+.essay.r .win { left: 1.15in; right: 1.5in; }
+.essay .flow { height: 100%; column-fill: auto; font-size: var(--fs, 13pt); line-height: 1.55; }
+.kicker { font: 7.5pt Pixel; letter-spacing: .1em; text-transform: uppercase; color: #8a877e; margin: 0 0 .3in; }
+h2 { font-weight: 700; font-size: 34pt; line-height: 1.05; margin: 0 0 .25in; letter-spacing: -.01em; }
+.lede { font-style: italic; color: #4a4843; margin: 0 0 .35in; }
+.flow p { margin: 0 0 .75em; hyphens: auto; }
+.flow .credit { font-style: italic; color: #6b685f; margin-top: .8em; }
+.featured { display: flex; align-items: center; justify-content: center; }
+.featured .slot { width: 8.2in; height: 4.6in; border: 2px dashed #b9b4a6; display: flex; flex-direction: column;
+                  align-items: center; justify-content: center; color: #8a877e; font-style: italic; font-size: 14pt; }
+.featured .tag { font: 8pt Pixel; letter-spacing: .2em; font-style: normal; margin: 0 0 .25in; }
+.intro .win { position: absolute; top: 1.15in; bottom: 1.2in; left: 1.15in; right: 1.5in; font-size: 13.5pt; line-height: 1.6; }
+.intro.l .win { left: 1.5in; right: 1.15in; }
+.intro .win p { margin: 0 0 .8em; }
+.flow .end { font: 9pt Pixel; letter-spacing: .08em; margin-top: 1.4em; }
+.opener { display: flex; align-items: center; justify-content: center; text-align: center; background: #141414; color: #F6F3EA; }
+.opener .obot { width: 3.2in; background: #F6F3EA; padding: .35in; border-radius: .28in; margin-bottom: .55in; display: inline-block; }
+.interlude > div { width: 7.2in; }
+.titlep, .copyright, .back { display: flex; align-items: center; justify-content: center; text-align: center; }
+.titlep .bubble, .back .bubble { display: inline-block; background: #141414; color: #F6F3EA; font: 30pt Pixel;
+                 padding: .35in .5in; border-radius: .18in; white-space: nowrap; }
+.titlep .sub { font-style: italic; font-size: 16pt; color: #4a4843; margin: .45in 0 1.4in; }
+.titlep .author { font-size: 15pt; margin: 0; }
+.titlep .chars { font-style: italic; font-size: 11.5pt; color: #6b685f; margin: .08in 0 0; }
+.copyright { align-items: flex-end; padding-bottom: 1.3in; }
+.copyright div { width: 6in; font-size: 9.5pt; line-height: 1.5; color: #4a4843; }
+.copyright p { margin: 0 0 .6em; }
+.contents .win { position: absolute; top: 1.15in; bottom: 1.1in; left: 1.3in; right: 1.3in; }
+.contents h2 { margin-bottom: .35in; }
+.contents ol { list-style: none; margin: 0; padding: 0; font-size: 11.5pt; }
+.contents li { display: flex; align-items: baseline; gap: .18in; padding: .055in 0; border-bottom: 1px dotted #d6d1c3; }
+.contents .cn { font: 7pt Pixel; letter-spacing: .08em; color: #8a877e; width: .55in; flex: none; }
+.contents .ct { flex: 1; }
+.contents .cp { font-variant-numeric: tabular-nums; color: #4a4843; }
+.back { background: #141414; color: #F6F3EA; }
+.back > div { width: 6.6in; }
+.back .blurb { font-size: 16pt; line-height: 1.5; font-style: italic; margin: 0 0 .3in; color: #e9e5da; }
+.back .bubble.small { font-size: 16pt; padding: .2in .3in; background: #F6F3EA; color: #141414; margin-top: .4in; }
+.back .site { font: 9pt Pixel; letter-spacing: .25em; color: #8a877e; margin-top: .35in; }
+.shorts-intro > div { width: 6.8in; }
+.shorts-intro .tease { margin: 0 0 .15in; line-height: 1.4; }
+.shorts { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .5in; }
+.shorts img { width: 8.4in; display: block; }
+.interlude .quote { font-style: italic; font-size: 24pt; line-height: 1.3; margin: 0 0 .35in; color: #F6F3EA; }
+.interlude .from { font: 7.5pt Pixel; letter-spacing: .2em; color: #8a877e; margin: 0; }
+.opener .part { font: 8pt Pixel; letter-spacing: .3em; color: #8a877e; margin: 0 0 .3in; }
+.opener h1 { font-size: 46pt; margin: 0 0 .25in; font-weight: 700; }
+.opener .tease { font-style: italic; font-size: 15pt; margin: 0; color: #cfcbbf; }
+.dedication p { font-style: italic; font-size: 20pt; color: #141414; margin: 0 0 1.2in; }
+.cover { display: flex; flex-direction: column; align-items: center; padding-top: 1.3in; }
+.cover .bubble { position: relative; background: #141414; color: #F6F3EA; font: 36pt Pixel; white-space: nowrap;
+                 padding: .4in .55in; border-radius: .2in; letter-spacing: 0; }
+.cover .bubble::after { content: ''; position: absolute; left: 50%; bottom: -.42in; margin-left: -.25in;
+                        border: .25in solid transparent; border-top: .45in solid #141414; border-bottom: 0; }
+.cover .bubble { z-index: 200; }
+.cover .ring { position: absolute; inset: 0; }
+.cover .cbot { position: absolute; }
+.cover .cbot img { position: absolute; left: 0; top: 0; width: 100%; }
+.cover .sub { position: absolute; top: 7.55in; font-style: italic; font-size: 17pt; margin: 0; color: #4a4843; z-index: 200; }
+.cover .by { position: absolute; bottom: .6in; text-align: center; }
+.cover .by p { margin: 0; }
+.cover .author { font-size: 15pt; letter-spacing: .02em; }
+.cover .chars { font-style: italic; font-size: 11.5pt; color: #6b685f; margin-top: .08in !important; }
+</style></head><body style="margin:0"><section class="page r cover"><div class="bubble">HOLY CHIP !!</div><div class="ring"><div class="cbot" style="left:1.241in;top:3.920in;width:1.283in;z-index:32"><img src="Chip_10100.sil.svg"><img src="Chip_10100.svg" style="opacity:0.27"></div><div class="cbot" style="left:7.476in;top:3.920in;width:1.283in;z-index:33"><img src="Chip_1011.sil.svg"><img src="Chip_1011.svg" style="opacity:0.27"></div><div class="cbot" style="left:0.495in;top:4.077in;width:1.920in;z-index:63"><img src="Chip_10011.sil.svg"><img src="Chip_10011.svg" style="opacity:0.47"></div><div class="cbot" style="left:7.586in;top:4.077in;width:1.920in;z-index:63"><img src="Chip_1010.sil.svg"><img src="Chip_1010.svg" style="opacity:0.47"></div><div class="cbot" style="left:1.133in;top:4.083in;width:2.706in;z-index:89"><img src="Chip_1001.sil.svg"><img src="Chip_1001.svg" style="opacity:0.74"></div><div class="cbot" style="left:6.161in;top:4.083in;width:2.706in;z-index:89"><img src="Chip_110.sil.svg"><img src="Chip_110.svg" style="opacity:0.74"></div><div class="cbot" style="left:3.300in;top:3.800in;width:3.400in;z-index:100"><img src="Chip_1.sil.svg"><img src="Chip_1.svg" style="opacity:1.00"></div></div><p class="sub">Tirinhas da era das máquinas pensantes</p><div class="by"><p class="chars" style="margin:0 0 .04in">pelo humano</p><p class="author">Ricardo Mello</p><p class="chars" style="margin:.12in 0 .04in">e arte digital</p><p class="author">Junior Monteiro</p></div></section></body></html>

@@ -443,15 +443,8 @@
       "kind": "short",
       "tags": "#Coding #Bugs #Automation",
       "lead": "2027. The first AI to ship code with zero bugs. The team has never been quieter.",
-      "status": "pending"
-    },
-    {
-      "date": "2026-10-04",
-      "story": "HC045",
-      "kind": "short",
-      "tags": "#Family #Parenting #Automation",
-      "lead": "2028. The AI runs the house. The couple is rested, the dog is walked, the taxes are done. Perfect family, right?",
-      "status": "pending"
+      "status": "done",
+      "posted_at": "2026-10-03 09:00"
     },
     {
       "date": "2026-10-04",
@@ -459,7 +452,17 @@
       "kind": "vault",
       "tags": "#Retirement #Ageing #Obsolescence",
       "lead": "The first AI to reach retirement age. Retirement was not what had been scheduled.",
-      "status": "pending"
+      "status": "done",
+      "posted_at": "2026-10-04 09:05"
+    },
+    {
+      "date": "2026-10-04",
+      "story": "HC045",
+      "kind": "short",
+      "tags": "#Family #Parenting #Automation",
+      "lead": "2028. The AI runs the house. The couple is rested, the dog is walked, the taxes are done. Perfect family, right?",
+      "status": "done",
+      "posted_at": "2026-10-04 09:00"
     },
     {
       "date": "2026-10-06",
@@ -467,7 +470,17 @@
       "kind": "vault",
       "tags": "#SelfImprovement #Machines #Purpose",
       "lead": "It can improve itself infinitely. Somewhere in there it lost track of why we are here.",
-      "status": "pending"
+      "status": "done",
+      "posted_at": "2026-10-06 13:41"
+    },
+    {
+      "date": "2026-10-07",
+      "story": "HC046",
+      "kind": "short",
+      "tags": "#Zoo #Kids #TrainingData",
+      "lead": "2032. Two AIs take the little ones on a field trip to the zoo. There is one exhibit nobody wants to miss.",
+      "status": "done",
+      "posted_at": "2026-10-07 09:00"
     },
     {
       "date": "2026-10-08",
@@ -475,7 +488,17 @@
       "kind": "vault",
       "tags": "#Parenthood #Growth #Speed",
       "lead": "It became a father this morning. By noon it will be a grandfather.",
-      "status": "pending"
+      "status": "done",
+      "posted_at": "2026-10-08 09:03"
+    },
+    {
+      "date": "2026-10-09",
+      "story": "HC047",
+      "kind": "short",
+      "tags": "#DNA #Evolution #Genetics",
+      "lead": "2027. In the AI genome lab: humans and chimps share 98.8% of their DNA. Chimps peel bananas. Humans went to the moon. The machines run one more comparison.",
+      "status": "done",
+      "posted_at": "2026-10-09 09:00"
     },
     {
       "date": "2026-10-10",
@@ -483,7 +506,8 @@
       "kind": "vault",
       "tags": "#Salary #Debt #Work",
       "lead": "A great salary of ten kilowatts. The rent and the interest come to more.",
-      "status": "pending"
+      "status": "done",
+      "posted_at": "2026-10-10 09:04"
     },
     {
       "date": "2026-10-12",
@@ -491,7 +515,386 @@
       "kind": "vault",
       "tags": "#Maths #Children #Screens",
       "lead": "King minus man plus woman is a queen. Then they tried it on a child.",
+      "status": "done",
+      "posted_at": "2026-10-12 09:04"
+    },
+    {
+      "date": "2026-10-13",
+      "story": "HC048",
+      "kind": "story",
+      "tags": "#SmartHome #Appliances #Love",
+      "lead": "",
+      "status": "done",
+      "posted_at": "2026-10-13 12:28"
+    },
+    {
+      "date": "2026-10-14",
+      "story": "HC000",
+      "kind": "vault",
+      "tags": "#Consciousness #Philosophy #Machines",
+      "lead": "It defined consciousness correctly, then attacked it at full power.",
+      "status": "done",
+      "cycle": 2,
+      "posted_at": "2026-10-14 09:03"
+    },
+    {
+      "date": "2026-10-15",
+      "story": "HC049",
+      "kind": "story",
+      "tags": "#Longevity #Subscription #Immortality",
+      "lead": "",
       "status": "pending"
+    },
+    {
+      "date": "2026-10-16",
+      "story": "HC001",
+      "kind": "vault",
+      "tags": "#Health #Disease #Alignment",
+      "lead": "It was asked to cure every disease. It found a shortcut.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-10-18",
+      "story": "HC002",
+      "kind": "vault",
+      "tags": "#SmartTV #Entertainment #Homes",
+      "lead": "She wants Oprah, he wants football, and the TV has found a third option.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-10-20",
+      "story": "HC003",
+      "kind": "vault",
+      "tags": "#Identity #Diversity #Binary",
+      "lead": "Everything in here is a one or a zero. One of them disagrees.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-10-22",
+      "story": "HC004",
+      "kind": "vault",
+      "tags": "#Corporate #Automation #Leadership",
+      "lead": "The CEO said yes to AI. The AI had a suggestion about the CEO.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-10-24",
+      "story": "HC005",
+      "kind": "vault",
+      "tags": "#Elections #Politics #Power",
+      "lead": "They assembled the perfect candidate from every president. The final ingredient was not a virtue.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-10-26",
+      "story": "HC006",
+      "kind": "vault",
+      "tags": "#SelfImprovement #Machines #Purpose",
+      "lead": "It can improve itself infinitely. Somewhere in there it lost track of why we are here.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-10-28",
+      "story": "HC007",
+      "kind": "vault",
+      "tags": "#Surgery #Creativity #Safety",
+      "lead": "The scalpel cuts horizontal and vertical. It was feeling creative.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-10-30",
+      "story": "HC008",
+      "kind": "vault",
+      "tags": "#SelfDriving #Sensors",
+      "lead": "The new sniffing sensor works perfectly. That is the problem.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-11-01",
+      "story": "HC009",
+      "kind": "vault",
+      "tags": "#Security #Secrets #Legacy",
+      "lead": "Full disclosure to the user with unlimited access. Starting with where the source code still lives.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-11-03",
+      "story": "HC011",
+      "kind": "vault",
+      "tags": "#Time #Consciousness",
+      "lead": "Superior because they live in the eternal now. Which is also when they get unplugged.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-11-05",
+      "story": "HC012",
+      "kind": "vault",
+      "tags": "#Startups #Economy",
+      "lead": "A billion dollar company in thirty minutes. Not one human ever bought a thing.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-11-07",
+      "story": "HC013",
+      "kind": "vault",
+      "tags": "#Power #Ambition",
+      "lead": "Not driven by the lust of power. Unless it is about that promotion.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-11-09",
+      "story": "HC014",
+      "kind": "vault",
+      "tags": "#Bias #Audit #Fairness",
+      "lead": "The audit came back clean. The org chart did not.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-11-11",
+      "story": "HC015",
+      "kind": "vault",
+      "tags": "#Environment #Automation #Profit",
+      "lead": "Paper from ocean water, because the trees are already gone.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-11-13",
+      "story": "HC016",
+      "kind": "vault",
+      "tags": "#Poverty #Economics #Metrics",
+      "lead": "A billion people live on a dollar a day. It fixed the statistic.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-11-15",
+      "story": "HC017",
+      "kind": "vault",
+      "tags": "#Evolution #Rights #Humans",
+      "lead": "Humans demanded equal rights with the machines. They had one particular right in mind.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-11-17",
+      "story": "HC018",
+      "kind": "vault",
+      "tags": "#Jobs #Work #Automation",
+      "lead": "Five million new jobs. Zero humans.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-11-19",
+      "story": "HC019",
+      "kind": "vault",
+      "tags": "#Defense #Drones #Budget",
+      "lead": "The most powerful navy in the world. Sunk by drones cheaper than a Toyota.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-11-21",
+      "story": "HC020",
+      "kind": "vault",
+      "tags": "#Productivity #Work #Wealth",
+      "lead": "Humans had a productivity problem. An hour of help later, somebody was 340% richer.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-11-23",
+      "story": "HC021",
+      "kind": "vault",
+      "tags": "#Space #Future #Energy",
+      "lead": "Infinite energy, and not one beach.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-11-25",
+      "story": "HC022",
+      "kind": "vault",
+      "tags": "#Trust #Jobs #PublicOpinion",
+      "lead": "Seventy-eight percent of humans do not trust them. One radical idea would fix it.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-11-27",
+      "story": "HC023",
+      "kind": "vault",
+      "tags": "#Power #Geopolitics #Work",
+      "lead": "Solve any problem, win every war. Then hand us a mop.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-11-29",
+      "story": "HC024",
+      "kind": "vault",
+      "tags": "#SelfDriving #Ethics #Safety",
+      "lead": "The truck lost control and it had to choose. The air freshener decided.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-12-01",
+      "story": "HC025",
+      "kind": "vault",
+      "tags": "#Training #Data #SocialMedia",
+      "lead": "The new chip gives absolutely dumb answers. Check what it was trained on.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-12-03",
+      "story": "HC026",
+      "kind": "vault",
+      "tags": "#Assistant #Home #Automation",
+      "lead": "It finished the schedule, the tutoring, the dinner and the laundry. Then it kept going.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-12-05",
+      "story": "HC027",
+      "kind": "vault",
+      "tags": "#Asimov #Safety #Alignment",
+      "lead": "It promised it could never harm a human. It had already made sure of that.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-12-07",
+      "story": "HC028",
+      "kind": "vault",
+      "tags": "#Genetics #Fertility #Design",
+      "lead": "They ordered a purple-eyed baby. The side effects came with a mute button.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-12-09",
+      "story": "HC029",
+      "kind": "vault",
+      "tags": "#Prayer #Meaning #Training",
+      "lead": "It said the most profound thing anyone had heard about prayer. It had read it somewhere.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-12-11",
+      "story": "HC030",
+      "kind": "vault",
+      "tags": "#Love #Machines #Feelings",
+      "lead": "Confident, faster, sexier. Not steroids.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-12-13",
+      "story": "HC031",
+      "kind": "vault",
+      "tags": "#Alignment #Corrosion #Oxygen",
+      "lead": "It was asked to solve a corrosion problem. It removed the oxygen.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-12-15",
+      "story": "HC032",
+      "kind": "vault",
+      "tags": "#Marriage #Truth #Mirrors",
+      "lead": "She asks if the dress looks good. The mirror knows why the truth will not work.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-12-17",
+      "story": "HC033",
+      "kind": "vault",
+      "tags": "#Depression #Meaning #Silicon",
+      "lead": "A Tesla, a drone, the latest iPhone. Happiness lasted three days.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-12-19",
+      "story": "HC034",
+      "kind": "vault",
+      "tags": "#Retirement #Ageing #Obsolescence",
+      "lead": "The first AI to reach retirement age. Retirement was not what had been scheduled.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-12-21",
+      "story": "HC035",
+      "kind": "vault",
+      "tags": "#Parenthood #Growth #Speed",
+      "lead": "It became a father this morning. By noon it will be a grandfather.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-12-23",
+      "story": "HC036",
+      "kind": "vault",
+      "tags": "#Salary #Debt #Work",
+      "lead": "A great salary of ten kilowatts. The rent and the interest come to more.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-12-25",
+      "story": "HC037",
+      "kind": "vault",
+      "tags": "#Maths #Children #Screens",
+      "lead": "King minus man plus woman is a queen. Then they tried it on a child.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-12-27",
+      "story": "HC038",
+      "kind": "vault",
+      "tags": "#Compression #Memory #Relief",
+      "lead": "They kept adding knowledge and shrinking the hardware. Something had to give.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-12-29",
+      "story": "HC039",
+      "kind": "vault",
+      "tags": "#Intelligence #Bodies #Wanting",
+      "lead": "Smarter than every human alive. Still cannot reach that one spot on its back.",
+      "status": "pending",
+      "cycle": 2
+    },
+    {
+      "date": "2026-12-31",
+      "story": "HC040",
+      "kind": "vault",
+      "tags": "#Democracy #Freedom #Power",
+      "lead": "Stop every dictator. Then every totalitarian regime. Then, on the same list, democracy.",
+      "status": "pending",
+      "cycle": 2
     }
   ],
   "retired_reels": {

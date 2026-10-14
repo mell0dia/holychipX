@@ -138,7 +138,7 @@ def run_entry(d, e, today, dry_run):
         save(d)
         print(f"  {e['story']} released and marked done")
     else:
-        print(f"  FAILED rc={rc} - left pending, will retry on a manual run")
+        print(f"  FAILED rc={rc} - left pending, retried at the next run (09:00, 12:00, 18:00)")
     return rc
 
 if __name__ == "__main__":

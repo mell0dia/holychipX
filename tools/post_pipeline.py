@@ -16,6 +16,9 @@ Steps:
   7. Append/update story-posts.json
 """
 import os, sys, re, json, subprocess, time, requests
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import site_git
 from datetime import datetime
 
 HOME = os.path.expanduser("~")
@@ -162,7 +165,7 @@ def main():
                            capture_output=True, text=True)
         if r.returncode != 0 and "nothing to commit" not in (r.stdout + r.stderr):
             log(f"  commit warn: {r.stdout.strip()} {r.stderr.strip()}")
-        subprocess.run(["git", "-C", SITE, "push", "origin", "gh-pages"], check=True)
+        site_git.push(SITE)   # lock + rebase-on-reject (2026-10-06)
         for i in range(30):
             time.sleep(4)
             ok = (requests.head(sq_url, allow_redirects=False).status_code == 200 and

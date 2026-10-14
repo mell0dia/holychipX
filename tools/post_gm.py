@@ -10,6 +10,7 @@ Designed to run from cron once per day.
 import asyncio, json, os, re, subprocess, sys, threading, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import hashtags
+import site_git
 from datetime import datetime
 from pathlib import Path
 
@@ -123,7 +124,7 @@ def push_to_ghpages(filename):
                        capture_output=True, text=True)
     if r.returncode != 0 and not re.search(r"nothing (added )?to commit", r.stdout + r.stderr):
         raise RuntimeError(f"commit failed: {r.stdout} {r.stderr}")
-    run_retry(["git", "-C", str(SITE), "push", "origin", "gh-pages"])
+    site_git.push(SITE)       # lock + rebase-on-reject (2026-10-06)
 
     import urllib.request
     url = f"{SITE_URL}/{rel}"
@@ -147,8 +148,10 @@ def push_to_ghpages(filename):
             subprocess.run(["git", "-C", str(SITE), "commit", "--allow-empty",
                             "-m", f"Retrigger Pages build for {filename}"],
                            capture_output=True, text=True)
-            subprocess.run(["git", "-C", str(SITE), "push", "origin", "gh-pages"],
-                           capture_output=True, text=True)
+            try:
+                site_git.push(SITE)
+            except Exception as exc:
+                print(f"  retrigger push failed: {exc}")
         time.sleep(10)
     raise RuntimeError(f"{check_url} never went live")
 
@@ -221,7 +224,7 @@ def push_site_file(rel, msg):
                        capture_output=True, text=True)
     if r.returncode != 0 and not re.search(r"nothing (added )?to commit", r.stdout + r.stderr):
         raise RuntimeError(f"commit failed: {r.stdout} {r.stderr}")
-    run_retry(["git", "-C", str(SITE), "push", "origin", "gh-pages"])
+    site_git.push(SITE)       # lock + rebase-on-reject (2026-10-06)
     url = f"{SITE_URL_WWW}/{rel}"
     for _ in range(90):
         try:

@@ -82,14 +82,30 @@ def post_instagram_reel(video_url, caption):
     return mid
 
 
+def post_facebook_video(video_url, caption):
+    """A regular feed video post (not a Reel): the same mp4 as a timeline post."""
+    pid = os.environ["FB_PAGE_ID"]; tok = os.environ["FB_PAGE_ACCESS_TOKEN"]
+    r = requests.post(f"{GRAPH}/{pid}/videos", data={"file_url": video_url, "description": caption,
+                                                        "access_token": tok}).json()
+    if "id" not in r:
+        print("FB video post failed:", r); return None
+    print(f"FB_FEEDVIDEO_ID:{r['id']}")
+    print(f"FB_FEEDVIDEO_PERMALINK:https://www.facebook.com/{pid}/videos/{r['id']}")
+    return r["id"]
+
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     if len(args) < 2:
         sys.exit('usage: post_reel.py <public_video_url> "<caption>" [--fb] [--ig]')
     url, caption = args[0], args[1]
     load_env()
-    do_fb = "--fb" in sys.argv or "--ig" not in sys.argv
-    do_ig = "--ig" in sys.argv or "--fb" not in sys.argv
+    flags = [a for a in sys.argv if a.startswith("--")]
+    do_fb = "--fb" in flags or not flags
+    do_ig = "--ig" in flags or not flags
+    if "--fbvideo" in flags:
+        print("=== Facebook feed video ===")
+        post_facebook_video(url, caption)
     if do_fb:
         print("=== Facebook Reel ===")
         post_facebook_reel(url, caption)

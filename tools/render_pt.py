@@ -11,7 +11,7 @@ ESQUERDA:/DIREITA: lines), takes the episode's bots from the story's saved JSON
 headless Chrome against the SGen dev server (must be running on :3000).
 Only "HOLY CHIP !!" stays in English; the footer credit is localized.
 """
-import base64, html, json, re, subprocess, sys
+import base64, html, json, os, re, subprocess, sys
 from pathlib import Path
 
 HC = Path.home() / "holy-chip"
@@ -20,7 +20,14 @@ STORIES = HC / "website" / "holy-chip-site" / "stories"
 SGEN = HC / "SGen"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 FOOTER = "feito por rmello © mellodia"
-WHO = {"ESQUERDA": "Left Bot", "DIREITA": "Right Bot"}
+WHO = {"ESQUERDA": "Left Bot", "DIREITA": "Right Bot", "LEFT": "Left Bot", "RIGHT": "Right Bot"}
+# --en: render an ENGLISH redo from content/en/HC###.en.dialogo.md (## Panel N,
+# LEFT:/RIGHT:) -> content/en/HC###.en.png, English footer (user, 2026-10-07: HC023 redo)
+EN = "--en" in sys.argv
+if EN:
+    sys.argv.remove("--en")
+    PT = HC / "content" / "en"
+    FOOTER = "made by rmello © mellodia"
 
 
 def credit_of(md):
@@ -141,7 +148,7 @@ def parse(md):
         s = line.strip()
         if s.startswith("---"):
             break                                   # notes below the rule are not dialogue
-        m = re.match(r"##\s*Painel\s*(\d)", s, re.I)
+        m = re.match(r"##\s*(?:Painel|Panel)\s*(\d)", s, re.I)
         if m:
             cur = int(m.group(1)) - 1; continue
         if s.lower().startswith("## banner"):
@@ -152,16 +159,19 @@ def parse(md):
             parts = [p.strip() for p in s.split("·")]
             banner = {"id": parts[0].lstrip("#"), "title": parts[1], "year": parts[2]}
         elif isinstance(cur, int):
-            m = re.match(r"(ESQUERDA|DIREITA)\s*:\s*(.+)", s, re.I)
+            m = re.match(r"(ESQUERDA|DIREITA|LEFT|RIGHT)\s*:\s*(.+)", s, re.I)
             if m:
-                scenes[cur].append({"speaker": WHO[m.group(1).upper()], "text": m.group(2).strip()})
+                # "|" = the author's own line break inside a bubble (SGen honours "\n")
+                scenes[cur].append({"speaker": WHO[m.group(1).upper()],
+                                    "text": "\n".join(t.strip() for t in m.group(2).strip().split("|"))})
     return banner, scenes
 
 
 def bots_for(sid):
     # content/pt-br/bots/HC###/<slot>.png wins over the story JSON, slot by slot -
     # so one bot can be swapped (e.g. HC027's right bot given a smile).
-    j = json.loads((STORIES / f"{sid}.json").read_text())
+    sj = STORIES / f"{sid}.json"                     # a brand-new story has no JSON yet: bots come from the folder
+    j = json.loads(sj.read_text()) if sj.exists() else {}
     keys = ("p1Left", "p1Right", "p2Left", "p2Right")
     d = PT / "bots" / sid
     out = {}
@@ -178,10 +188,16 @@ def bots_for(sid):
 
 def main():
     sid = sys.argv[1].upper()
-    banner, scenes = parse((PT / f"{sid}.pt.dialogo.md").read_text())
+    SUF = "en" if EN else "pt"
+    dpath = PT / f"{sid}.{SUF}.dialogo.md"
+    if "--dialog" in sys.argv:            # render from another copy of the dialogue file
+        dpath = Path(sys.argv[sys.argv.index("--dialog") + 1])
+    banner, scenes = parse(dpath.read_text())
     script = {"banner": banner, "footer": FOOTER, "scenes": [{"dialogs": d} for d in scenes]}
     if "--expr" in sys.argv:            # fix the panel-3 face, e.g. --expr "PROUD: chin up, smug smile"
         script["panel3Expression"] = sys.argv[sys.argv.index("--expr") + 1]
+    if "--fit" in sys.argv:             # 0.5..1: tighter bubble padding/gaps = bigger letters for wordy text
+        script["fit"] = float(sys.argv[sys.argv.index("--fit") + 1])
     if "--sub" in sys.argv:             # words after HOLY CHIP !! at this scale, e.g. --sub 0.5
         script["panel3SubScale"] = float(sys.argv[sys.argv.index("--sub") + 1])
     print(json.dumps(script, ensure_ascii=False, indent=1))
@@ -191,25 +207,32 @@ def main():
 import {{ generateComicImage }} from '/src/services/gemini.ts';
 const toData = src => new Promise(r => {{ const i = new Image(); i.onload = () => {{ const c = document.createElement('canvas'); c.width = i.naturalWidth; c.height = i.naturalHeight; c.getContext('2d').drawImage(i,0,0); r(c.toDataURL()); }}; i.src = src; }});
 const B = {json.dumps(bots_for(sid))};
+const T0 = Date.now(); const mark = m => console.log('[render] +' + ((Date.now() - T0) / 1000).toFixed(1) + 's ' + m);
 try {{
+  mark('page start');
   const tpl = await toData('/images/template.png');
+  mark('template loaded; calling generateComicImage');
   const r = await generateComicImage({json.dumps(script, ensure_ascii=False)}, tpl, undefined, B.p1Left, B.p1Right, B.p2Left, B.p2Right, true);
+  mark('generateComicImage returned');
   document.getElementById('out').textContent = JSON.stringify([r.image]);
-}} catch (e) {{ document.getElementById('out').textContent = JSON.stringify(['ERR ' + e]); }}
+}} catch (e) {{ mark('ERROR ' + e); document.getElementById('out').textContent = JSON.stringify(['ERR ' + e]); }}
 </script></body></html>""")
     try:
+        dbg = os.environ.get("RENDER_DEBUG")      # RENDER_DEBUG=/path/log: browser console (+ timing marks) to that file
         dom = subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--virtual-time-budget=240000",
-                              "--timeout=240000", "--dump-dom", "http://localhost:3000/zz-render-pt.html"],
-                             capture_output=True, text=True, timeout=300).stdout
+                              "--timeout=240000"] + (["--enable-logging=stderr", "--v=0"] if dbg else []) +
+                             ["--dump-dom", "http://localhost:3000/zz-render-pt.html"],
+                             stdout=subprocess.PIPE, stderr=open(dbg, "w") if dbg else subprocess.DEVNULL,
+                             text=True, timeout=300).stdout
     finally:
         page.unlink(missing_ok=True)
     m = re.search(r'<pre id="out">(.*?)</pre>', dom, re.S)
     v = json.loads(html.unescape(m.group(1)))[0] if m and m.group(1) else "EMPTY (is SGen running on :3000?)"
     if not v.startswith("data:"):
         sys.exit(v[:400])
-    out = PT / f"{sid}.pt.png"
+    out = PT / f"{sid}.{SUF}.png"
     out.write_bytes(base64.b64decode(v.split(",", 1)[1]))
-    credit = credit_of((PT / f"{sid}.pt.dialogo.md").read_text())
+    credit = credit_of((PT / f"{sid}.{SUF}.dialogo.md").read_text())
     redraw_footer(out, credit)
     print(out)
 

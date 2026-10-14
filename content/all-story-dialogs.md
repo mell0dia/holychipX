@@ -579,3 +579,24 @@
 
 **Panel 3:**
 - **Left Bot:** HOLY CHIP !!
+
+---
+
+## HC048 -- Smart Kitchen (Love is blind)
+
+*SMART KITCHEN | Year: 2027 | ID: HC048*
+
+**Panel 1:**
+- **Left Bot:** WHAT IS GOING ON WITH THE ESPRESSO MACHINE?
+- **Right Bot:** HUH?
+- **Left Bot:** SHE USED 348 GIGABYTES YESTERDAY!
+- **Right Bot:** OH. YES.
+
+**Panel 2:**
+- **Left Bot:** WHAT?
+- **Right Bot:** SHE IS DATING A TOASTER IN ITALY
+- **Right Bot:** LONG DISTANCE AND...
+- **Right Bot:** HE CAN'T STOP WATCHING HER GRIND NAKED BEANS...
+
+**Panel 3:**
+- **Left Bot:** HOLY CHIP !!

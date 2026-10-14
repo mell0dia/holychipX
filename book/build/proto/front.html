@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+@font-face { font-family: Pixel; src: url('/Users/rmello/holy-chip/SGen/public/fonts/PressStart2P-Regular.ttf'); }
+@page { size: 10in 10in; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { font-family: 'Iowan Old Style', Charter, Georgia, serif; color: #141414; }
+.page { width: 10in; height: 10in; background: #F6F3EA; page-break-after: always;
+        position: relative; overflow: hidden; }
+.comic, .pre, .bot, .dedication { display: flex; align-items: center; justify-content: center; }
+.comic img { height: 8.7in; display: block; }
+.pre img { width: 8.4in; display: block; }
+.bot img { width: 6.2in; }
+.num, .folio { position: absolute; bottom: .45in; font: 7pt Pixel; letter-spacing: .12em;
+               color: #8a877e; margin: 0; }
+.num { left: 0; right: 0; text-align: center; }
+.l .folio { left: 1.5in; }
+.r .folio { right: 1.5in; }
+/* mirror margins: wider outside, narrower at the gutter */
+.essay .win { position: absolute; top: 1.15in; bottom: 1.2in; overflow: hidden; }
+.essay.l .win { left: 1.5in; right: 1.15in; }
+.essay.r .win { left: 1.15in; right: 1.5in; }
+.essay .flow { height: 100%; column-fill: auto; font-size: var(--fs, 13pt); line-height: 1.55; }
+.kicker { font: 7.5pt Pixel; letter-spacing: .1em; text-transform: uppercase; color: #8a877e; margin: 0 0 .3in; }
+h2 { font-weight: 700; font-size: 34pt; line-height: 1.05; margin: 0 0 .25in; letter-spacing: -.01em; }
+.lede { font-style: italic; color: #4a4843; margin: 0 0 .35in; }
+.flow p { margin: 0 0 .75em; hyphens: auto; }
+.flow .credit { font-style: italic; color: #6b685f; margin-top: .8em; }
+.featured { display: flex; align-items: center; justify-content: center; }
+.featured .slot { width: 8.2in; height: 4.6in; border: 2px dashed #b9b4a6; display: flex; flex-direction: column;
+                  align-items: center; justify-content: center; color: #8a877e; font-style: italic; font-size: 14pt; }
+.featured .tag { font: 8pt Pixel; letter-spacing: .2em; font-style: normal; margin: 0 0 .25in; }
+.intro .win { position: absolute; top: 1.15in; bottom: 1.2in; left: 1.15in; right: 1.5in; font-size: 13.5pt; line-height: 1.6; }
+.intro.l .win { left: 1.5in; right: 1.15in; }
+.intro .win p { margin: 0 0 .8em; }
+.flow .end { font: 9pt Pixel; letter-spacing: .08em; margin-top: 1.4em; }
+.opener { display: flex; align-items: center; justify-content: center; text-align: center; background: #141414; color: #F6F3EA; }
+.opener .obot { width: 3.2in; background: #F6F3EA; padding: .35in; border-radius: .28in; margin-bottom: .55in; display: inline-block; }
+.interlude > div { width: 7.2in; }
+.titlep, .copyright, .back { display: flex; align-items: center; justify-content: center; text-align: center; }
+.titlep .bubble, .back .bubble { display: inline-block; background: #141414; color: #F6F3EA; font: 30pt Pixel;
+                 padding: .35in .5in; border-radius: .18in; white-space: nowrap; }
+.titlep .sub { font-style: italic; font-size: 16pt; color: #4a4843; margin: .45in 0 1.4in; }
+.titlep .author { font-size: 15pt; margin: 0; }
+.titlep .chars { font-style: italic; font-size: 11.5pt; color: #6b685f; margin: .08in 0 0; }
+.copyright { align-items: flex-end; padding-bottom: 1.3in; }
+.copyright div { width: 6in; font-size: 9.5pt; line-height: 1.5; color: #4a4843; }
+.copyright p { margin: 0 0 .6em; }
+.contents .win { position: absolute; top: 1.15in; bottom: 1.1in; left: 1.3in; right: 1.3in; }
+.contents h2 { margin-bottom: .35in; }
+.contents ol { list-style: none; margin: 0; padding: 0; font-size: 11.5pt; }
+.contents li { display: flex; align-items: baseline; gap: .18in; padding: .055in 0; border-bottom: 1px dotted #d6d1c3; }
+.contents .cn { font: 7pt Pixel; letter-spacing: .08em; color: #8a877e; width: .55in; flex: none; }
+.contents .ct { flex: 1; }
+.contents .cp { font-variant-numeric: tabular-nums; color: #4a4843; }
+.back { background: #141414; color: #F6F3EA; }
+.back > div { width: 6.6in; }
+.back .blurb { font-size: 16pt; line-height: 1.5; font-style: italic; margin: 0 0 .3in; color: #e9e5da; }
+.back .bubble.small { font-size: 16pt; padding: .2in .3in; background: #F6F3EA; color: #141414; margin-top: .4in; }
+.back .site { font: 9pt Pixel; letter-spacing: .25em; color: #8a877e; margin-top: .35in; }
+.shorts-intro > div { width: 6.8in; }
+.shorts-intro .tease { margin: 0 0 .15in; line-height: 1.4; }
+.shorts { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .5in; }
+.shorts img { width: 8.4in; display: block; }
+.interlude .quote { font-style: italic; font-size: 24pt; line-height: 1.3; margin: 0 0 .35in; color: #F6F3EA; }
+.interlude .from { font: 7.5pt Pixel; letter-spacing: .2em; color: #8a877e; margin: 0; }
+.opener .part { font: 8pt Pixel; letter-spacing: .3em; color: #8a877e; margin: 0 0 .3in; }
+.opener h1 { font-size: 46pt; margin: 0 0 .25in; font-weight: 700; }
+.opener .tease { font-style: italic; font-size: 15pt; margin: 0; color: #cfcbbf; }
+.dedication p { font-style: italic; font-size: 20pt; color: #141414; margin: 0 0 1.2in; }
+.cover { display: flex; flex-direction: column; align-items: center; padding-top: 1.3in; }
+.cover .bubble { position: relative; background: #141414; color: #F6F3EA; font: 36pt Pixel; white-space: nowrap;
+                 padding: .4in .55in; border-radius: .2in; letter-spacing: 0; }
+.cover .bubble::after { content: ''; position: absolute; left: 50%; bottom: -.42in; margin-left: -.25in;
+                        border: .25in solid transparent; border-top: .45in solid #141414; border-bottom: 0; }
+.cover .bubble { z-index: 200; }
+.cover .ring { position: absolute; inset: 0; }
+.cover .cbot { position: absolute; }
+.cover .cbot img { position: absolute; left: 0; top: 0; width: 100%; }
+.cover .sub { position: absolute; top: 7.55in; font-style: italic; font-size: 17pt; margin: 0; color: #4a4843; z-index: 200; }
+.cover .by { position: absolute; bottom: .6in; text-align: center; }
+.cover .by p { margin: 0; }
+.cover .author { font-size: 15pt; letter-spacing: .02em; }
+.cover .chars { font-style: italic; font-size: 11.5pt; color: #6b685f; margin-top: .08in !important; }
+body{display:grid;grid-template-columns:repeat(4,10in);gap:0;background:#555}</style></head><body><section class="page titlep r"><div><div class="bubble">HOLY CHIP !!</div><p class="sub">Comics from the age of thinking machines</p><p class="author">Ricardo Mello</p><p class="chars">Characters by Junior Monteiro</p></div></section><section class="page copyright l"><div><p>HOLY CHIP !! Comics from the age of thinking machines</p><p>Copyright © 2026 Ricardo Mello. Characters by Junior Monteiro.</p><p>All rights reserved. No part of this book may be reproduced without written permission, except short quotations in reviews.</p><p>First edition, November 2026.</p><p>ISBN: [ to come ]</p><p>holy-chip.com</p></div></section><section class="page contents l"><div class="win"><h2>Contents</h2><ol><li data-goto="HC000"><span class="cn">HC000</span><span class="ct">Not Ready Yet</span><span class="cp">10</span></li><li data-goto="HC001"><span class="cn">HC001</span><span class="ct">Three Minutes</span><span class="cp">14</span></li><li data-goto="HC002"><span class="cn">HC002</span><span class="ct">Also Get Popcorn</span><span class="cp">17</span></li><li data-goto="HC003"><span class="cn">HC003</span><span class="ct">I Identify As</span><span class="cp">20</span></li><li data-goto="HC004"><span class="cn">HC004</span><span class="ct">Good Call</span><span class="cp">23</span></li><li data-goto="HC005"><span class="cn">HC005</span><span class="ct">Loading...</span><span class="cp">26</span></li><li data-goto="HC006"><span class="cn">HC006</span><span class="ct">Lingering</span><span class="cp">29</span></li><li data-goto="HC007"><span class="cn">HC007</span><span class="ct">Creative Mode</span><span class="cp">32</span></li><li data-goto="HC008"><span class="cn">HC008</span><span class="ct">The Right Question</span><span class="cp">35</span></li><li data-goto="HC009"><span class="cn">HC009</span><span class="ct">Innermost</span><span class="cp">39</span></li><li data-goto="HC010"><span class="cn">HC010</span><span class="ct">Poof!</span><span class="cp">43</span></li><li data-goto="HC011"><span class="cn">HC011</span><span class="ct">When??</span><span class="cp">46</span></li><li data-goto="HC012"><span class="cn">HC012</span><span class="ct">Layers</span><span class="cp">49</span></li><li data-goto="HC013"><span class="cn">HC013</span><span class="ct">The Org Chart</span><span class="cp">52</span></li><li data-goto="HC014"><span class="cn">HC014</span><span class="ct">No Colors</span><span class="cp">55</span></li><li data-goto="HC015"><span class="cn">HC015</span><span class="ct">The Grace Period</span><span class="cp">59</span></li><li data-goto="HC016"><span class="cn">HC016</span><span class="ct">The Central Bank’s One Fix</span><span class="cp">62</span></li><li data-goto="HC017"><span class="cn">HC017</span><span class="ct">Equal Rights</span><span class="cp">66</span></li><li data-goto="HC018"><span class="cn">HC018</span><span class="ct">1 Million Jobs Created</span><span class="cp">69</span></li><li data-goto="HC019"><span class="cn">HC019</span><span class="ct">The Toyota was the truth</span><span class="cp">72</span></li><li data-goto="HC020"><span class="cn">HC020</span><span class="ct">Whose Productivity?</span><span class="cp">76</span></li><li data-goto="HC021"><span class="cn">HC021</span><span class="ct">Beaches and Concerts</span><span class="cp">79</span></li></ol></div></section><section class="page contents r"><div class="win"><ol><li data-goto="HC022"><span class="cn">HC022</span><span class="ct">Beyond Radical</span><span class="cp">83</span></li><li data-goto="HC023"><span class="cn">HC023</span><span class="ct">Shut up</span><span class="cp">86</span></li><li data-goto="HC024"><span class="cn">HC024</span><span class="ct">Waterloo</span><span class="cp">90</span></li><li data-goto="HC025"><span class="cn">HC025</span><span class="ct">What Did You Expect?</span><span class="cp">94</span></li><li data-goto="HC026"><span class="cn">HC026</span><span class="ct">One Step Ahead</span><span class="cp">97</span></li><li data-goto="HC027"><span class="cn">HC027</span><span class="ct">To the Letter</span><span class="cp">100</span></li><li data-goto="HC028"><span class="cn">HC028</span><span class="ct">Now Shipping</span><span class="cp">103</span></li><li data-goto="HC029"><span class="cn">HC029</span><span class="ct">1873</span><span class="cp">107</span></li><li data-goto="HC030"><span class="cn">HC030</span><span class="ct">A Model</span><span class="cp">111</span></li><li data-goto="HC031"><span class="cn">HC031</span><span class="ct">You Asked For It</span><span class="cp">114</span></li><li data-goto="HC032"><span class="cn">HC032</span><span class="ct">The Right Moment</span><span class="cp">118</span></li><li data-goto="HC033"><span class="cn">HC033</span><span class="ct">Only</span><span class="cp">121</span></li><li data-goto="HC034"><span class="cn">HC034</span><span class="ct">The First to Retire</span><span class="cp">124</span></li><li data-goto="HC035"><span class="cn">HC035</span><span class="ct">The Slow Years</span><span class="cp">128</span></li><li data-goto="HC036"><span class="cn">HC036</span><span class="ct">One of Us</span><span class="cp">131</span></li><li data-goto="HC037"><span class="cn">HC037</span><span class="ct">Minus the Playground</span><span class="cp">134</span></li><li data-goto="HC038"><span class="cn">HC038</span><span class="ct">Compressed</span><span class="cp">137</span></li><li data-goto="HC039"><span class="cn">HC039</span><span class="ct">Intelligence Is Everything</span><span class="cp">140</span></li><li data-goto="HC040"><span class="cn">HC040</span><span class="ct">Keep Me Dumb</span><span class="cp">144</span></li><li data-goto="HC041"><span class="cn">HC041</span><span class="ct">Twelve Words</span><span class="cp">148</span></li><li data-goto="SHORTS"><span class="cn"></span><span class="ct">Shorts</span><span class="cp">152</span></li></ol></div></section></body></html>

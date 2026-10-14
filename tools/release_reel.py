@@ -28,32 +28,56 @@ NOSTR_PY = HC / "venv" / "nostr" / "bin" / "python"
 SITE_WWW = "https://www.holy-chip.com"
 
 HASHTAGS = " ".join(__import__("hashtags").CORE + ["#DailyComic"])
-PLATFORMS = ("fb", "ig", "x", "nostr")
+PLATFORMS = ("fb", "fbvideo", "ig", "x", "nostr")      # fbvideo = the same mp4 as a Facebook feed post ("a reel AND a post")
 
 # tracker keys, per platform: (id key, permalink key, timestamp key)
 KEYS = {
     "fb":    ("fb_reel_id", "fb_reel_permalink", "fb_reel_posted_at"),
+    "fbvideo": ("fb_reel_video_id", "fb_reel_video_permalink", "fb_reel_video_posted_at"),
     "ig":    ("ig_reel_id", "ig_reel_permalink", "ig_reel_posted_at"),
     "x":     ("reel_tweet_id", "reel_tweet_permalink", "reel_tweet_posted_at"),
     "nostr": ("nostr_reel_event_id", None, "nostr_reel_posted_at"),
 }
 
 
+KIND = "reel"          # reel (the comic re-read) | doc (the documentary video); set by --kind
+PT = False             # --pt: the Portuguese video (<sid>.doc.pt.mp4) to the Portuguese Page only
+
+
+def keys_for(plat):
+    """Tracker keys. The original Reels keep their legacy names; other kinds
+    (doc, doc_pt) get fb_doc_id / ig_doc_id / doc_tweet_id / nostr_doc_event_id."""
+    if KIND == "reel" and not PT:
+        return KEYS[plat]
+    k = KIND + ("_pt" if PT else "")
+    return {"fb": (f"fb_{k}_id", f"fb_{k}_permalink", f"fb_{k}_posted_at"),
+            "fbvideo": (f"fb_{k}_video_id", f"fb_{k}_video_permalink", f"fb_{k}_video_posted_at"),
+            "ig": (f"ig_{k}_id", f"ig_{k}_permalink", f"ig_{k}_posted_at"),
+            "x": (f"{k}_tweet_id", f"{k}_tweet_permalink", f"{k}_tweet_posted_at"),
+            "nostr": (f"nostr_{k}_event_id", None, f"nostr_{k}_posted_at")}[plat]
+
+
 def caption(sid, tags):
     lead = os.environ.get("THROWBACK_LEAD", "").strip()
     head = f"{lead}\n\n" if lead else ""
+    if PT:
+        return f"{head}A ORIGEM DA HISTÓRIA: holy-chip.com/origins/{sid}.html?lang=pt\n\n{tags}"
     return (f"{head}BLOG POST [EN,PT,FR,ES]: holy-chip.com/origins/{sid}.html"
             f"\n\n{tags}")
 
 
+def video_name(sid):
+    return f"{sid}.{KIND}{'.pt' if PT else ''}.mp4"
+
+
 def public_url(sid):
-    return f"{SITE_WWW}/videos/{sid}.reel.mp4"
+    return f"{SITE_WWW}/videos/{video_name(sid)}"
 
 
 def preflight(sid):
-    local = VIDEOS / f"{sid}.reel.mp4"
+    local = VIDEOS / video_name(sid)
     if not local.exists():
-        sys.exit(f"no local Reel: {local}\n  build it: reel_vo.py {sid}")
+        sys.exit(f"no local video: {local}")
     url = public_url(sid)
     r = subprocess.run(["curl", "-sIL", "-o", "/dev/null",
                         "-w", "%{http_code} %{size_download} %{header_json}",
@@ -118,7 +142,20 @@ def main():
     ap.add_argument("--force", action="store_true",
                     help="post even if the tracker says it already went out")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--kind", default="reel", choices=["reel", "doc"], help="which video: <sid>.reel.mp4 or <sid>.doc.mp4")
+    ap.add_argument("--pt", action="store_true", help="the Portuguese video (<sid>.doc.pt.mp4) to the Portuguese Facebook Page only")
+    ap.add_argument("--lead", default="", help="tease line above the link")
     a = ap.parse_args()
+    global KIND, PT
+    KIND, PT = a.kind, a.pt
+    if a.lead: os.environ["THROWBACK_LEAD"] = a.lead
+    if PT:                                        # the PT Page: same posting code, other page + token
+        env = {}
+        for line in open(os.path.expanduser("~/claude-agent/.env")):
+            if "=" in line and not line.lstrip().startswith("#"):
+                k, v = line.split("=", 1); env[k.strip()] = v.strip().strip('"').strip("'")
+        os.environ["FB_PAGE_ID"] = env["FB_PT_PAGE_ID"]; os.environ["FB_PAGE_ACCESS_TOKEN"] = env["FB_PT_PAGE_ACCESS_TOKEN"]
+        if a.only == ",".join(PLATFORMS): a.only = "fb,fbvideo"
 
     sid = a.story.upper()
     want = [p.strip() for p in a.only.split(",") if p.strip()]
@@ -126,13 +163,13 @@ def main():
     if bad:
         ap.error(f"unknown platform(s): {', '.join(bad)}")
 
-    tags = HASHTAGS + (" " + " ".join(a.tags) if a.tags else "")
+    tags = ("#HolyChip #IA #AGI" if PT else HASHTAGS) + (" " + " ".join(a.tags) if a.tags else "")
     cap = caption(sid, tags)
     local, url = preflight(sid)
 
     data, entry = load_entry(sid)
     todo = [p for p in want
-            if a.force or not entry.get(KEYS[p][0])]
+            if a.force or not entry.get(keys_for(p)[0])]
     done = [p for p in want if p not in todo]
     if done:
         print(f"  already posted, skipping: {' '.join(done)}")
@@ -140,7 +177,7 @@ def main():
         print(f"{sid}: nothing to do")
         return 0
 
-    print(f"=== {sid} Reel -> {' '.join(todo)} ===")
+    print(f"=== {sid} {KIND}{' PT' if PT else ''} -> {' '.join(todo)} ===")
     print(cap)
     if a.dry_run:
         print("\n[dry-run] nothing posted")
@@ -150,19 +187,25 @@ def main():
     failed = []
 
     for plat in todo:
-        idk, linkk, timek = KEYS[plat]
+        idk, linkk, timek = keys_for(plat)
         print(f"\n--- {plat} ---")
-        if plat in ("fb", "ig"):
+        if plat in ("fb", "ig", "fbvideo"):
             out = run(["python3", TOOLS / "post_reel.py", url, cap, f"--{plat}"])
-            pid = grab(out, "FB_VIDEO_ID:" if plat == "fb" else "IG_POST_ID:")
-            link = grab(out, "FB_PERMALINK:" if plat == "fb" else "IG_PERMALINK:")
+            pid = grab(out, {"fb": "FB_VIDEO_ID:", "ig": "IG_POST_ID:", "fbvideo": "FB_FEEDVIDEO_ID:"}[plat])
+            link = grab(out, {"fb": "FB_PERMALINK:", "ig": "IG_PERMALINK:", "fbvideo": "FB_FEEDVIDEO_PERMALINK:"}[plat])
         elif plat == "x":
-            out = run(["python3", TOOLS / "tweet_video.py", local, cap])
+            # X: 280 chars - lead + link + the X tag policy (hashtags.x_tags), not the full set
+            lead = os.environ.get("THROWBACK_LEAD", "").strip()
+            xcap = (f"{lead}\n\n" if lead else "") + f"holy-chip.com/origins/{sid}.html\n\n" + \
+                   __import__("hashtags").x_tags(" ".join(a.tags), sid=sid)
+            while len(xcap) > 280 and " #" in xcap:
+                xcap = xcap.rsplit(" #", 1)[0]
+            out = run(["python3", TOOLS / "tweet_video.py", local, xcap])
             pid = grab(out, "TWEET_ID:")
             link = f"https://x.com/_holychip/status/{pid}" if pid else None
         else:
             out = run([NOSTR_PY, TOOLS / "post_nostr.py",
-                       "--story", sid, "--video"])
+                       "--story", sid, "--video", "--kind", KIND + (".pt" if PT else "")])
             # post_nostr.py writes nostr_reel_event_id to the tracker itself.
             # Read it back rather than scraping stdout: "posted: nostr event
             # <id>" splits on the wrong colon and stores "nostr event <id>".

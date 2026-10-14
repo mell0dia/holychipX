@@ -1,0 +1,94 @@
+{
+  "used_bots": [
+    "Chip_1011",
+    "Chip_1",
+    "Chip_10010",
+    "Chip_101"
+  ],
+  "next_shirt_style": "ringer",
+  "posts": [
+    {
+      "date": "2026-10-01",
+      "kind": "shirt",
+      "bot": "Chip_1011",
+      "product": "Ringer tee",
+      "images": [
+        "assets/merch/Chip_1011_ringer_white_back.jpg",
+        "assets/merch/Chip_1011_ringer_white_front.jpg"
+      ],
+      "fb": {
+        "id": "257090621405568_1405379048463186",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1405379048463186"
+      },
+      "ig": {
+        "id": "18100923449326157",
+        "permalink": "https://www.instagram.com/p/Dd9kPybk6bg/"
+      },
+      "tweet_id": "2105728413407584398",
+      "nostr_event_id": "5b05d16550b6bf6ac7397fe29f8bd3045aadf15ad905043bb0b05b638e8fc8f7"
+    },
+    {
+      "date": "2026-10-06",
+      "kind": "mug",
+      "bot": "Chip_1",
+      "product": "mug",
+      "images": [
+        "assets/merch/Chip_1_mug_context2.jpg",
+        "assets/merch/Chip_1_mug_left.jpg",
+        "assets/merch/Chip_1_mug_front.jpg"
+      ],
+      "fb": {
+        "id": "257090621405568_1410136304654127",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1410136304654127"
+      },
+      "ig": {
+        "id": "18078088595711511",
+        "permalink": "https://www.instagram.com/p/DeKqwcQk-if/"
+      },
+      "tweet_id": "2107572329102578064",
+      "nostr_event_id": "8b067d17683d2ad370086aa0f7a5c05534e2228d33a5aa65ff69f7c60f353800",
+      "note": "Monday 10/05 run failed (images not live while the Mac slept); posted 10/06 by hand"
+    },
+    {
+      "date": "2026-10-08",
+      "kind": "shirt",
+      "bot": "Chip_10010",
+      "product": "Fitted tee",
+      "images": [
+        "assets/merch/Chip_10010_style5_white_front.jpg",
+        "assets/merch/Chip_10010_style5_white_back.jpg"
+      ],
+      "fb": {
+        "id": "257090621405568_1411977911136633",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1411977911136633"
+      },
+      "ig": {
+        "id": "18225797647334556",
+        "permalink": "https://www.instagram.com/p/DeP2hhMAR0N/"
+      },
+      "tweet_id": "2108301876769050958",
+      "nostr_event_id": "7784c82a7b9eb19167f068543c06c5ed6f252cb0a5f7b01611d608ee93da2ddc"
+    },
+    {
+      "date": "2026-10-12",
+      "kind": "mug",
+      "bot": "Chip_101",
+      "product": "mug",
+      "images": [
+        "assets/merch/Chip_101_mug_context2.jpg",
+        "assets/merch/Chip_101_mug_left.jpg",
+        "assets/merch/Chip_101_mug_front.jpg"
+      ],
+      "fb": {
+        "id": "257090621405568_1415741890760235",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1415741890760235"
+      },
+      "ig": {
+        "id": "18124566202898773",
+        "permalink": "https://www.instagram.com/p/DeaJutlgQwI/"
+      },
+      "tweet_id": "2109751490860773528",
+      "nostr_event_id": "1d8c84d8abea6d7359fa681b879a2e3b9d7a1a143f462b61327205d86871d4e1"
+    }
+  ]
+}

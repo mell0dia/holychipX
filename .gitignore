@@ -24,3 +24,26 @@ logs/
 # and IS tracked; the raw studio takes are large intermediates (~20 MB for two
 # stories) and are not worth keeping in history.
 voice/studio/
+
+# Video pipeline: scripts, screenplays and JSON are versioned; renders, caches, drawings and clips are not
+content/video/**/*.wav
+content/video/**/*.mp3
+content/video/**/*.mp4
+content/video/**/*.png
+content/video/**/*.pcm
+content/video/**/*.log
+content/video/**/*.map
+content/video/**/audio/cache/
+content/video/**/bg/
+content/video/**/clips/
+content/video/m5_wan/
+content/video/pilot_wan/
+content/video/s2s_test/
+content/video/style_test/
+content/video/casting/
+
+# local environments and vendored repos (never versioned here)
+venv/
+vendor/
+*.bak-*
+content/video-archive/

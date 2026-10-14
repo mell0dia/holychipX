@@ -218,6 +218,11 @@ def main():
     # The flag pair is removed from argv so the positional args below still line
     # up. A custom line is not in gm-phrases.md, so post_gm's remove_phrase is a
     # harmless no-op afterwards and nothing gets consumed.
+    # --no-record: don't log this card in gm-history.json (the PT Facebook page
+    # keeps its own history; the English rotation must not lose NFTs to it).
+    no_record = "--no-record" in sys.argv
+    if no_record:
+        sys.argv.remove("--no-record")
     text_override = None
     if "--text" in sys.argv:
         i = sys.argv.index("--text")
@@ -346,7 +351,8 @@ def main():
     fmt = "JPEG" if str(out_path).lower().endswith((".jpg", ".jpeg")) else "PNG"
     save_kw = {"quality": 92, "optimize": True} if fmt == "JPEG" else {"optimize": True}
     img.save(out_path, fmt, **save_kw)
-    record_use(nft_id, thought, source_sid, out_path)
+    if not no_record:
+        record_use(nft_id, thought, source_sid, out_path)
     print(f"OK:{out_path}")
     print(f"NFT:{nft_id} ({personality})")
     print(f"SOURCE:{source_sid}")

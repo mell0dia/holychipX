@@ -130,7 +130,23 @@
     80,
     33,
     23,
-    146
+    146,
+    39,
+    157,
+    109,
+    246,
+    156,
+    0,
+    182,
+    14,
+    123,
+    139,
+    61,
+    231,
+    176,
+    221,
+    94,
+    207
   ],
   "log": [
     {
@@ -1014,6 +1030,102 @@
       "source": "HC021",
       "thought": "Suddenly the chip knows what we know -- that the room with the people in it is, by some unreasonable margin, the only place worth being.",
       "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-28.jpg"
+    },
+    {
+      "nft_id": 39,
+      "source": "HC035",
+      "thought": "What does a father do when his newborn already beats him at everything? The day is not over yet...",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-29.jpg"
+    },
+    {
+      "nft_id": 157,
+      "source": "HC016",
+      "thought": "How do you end global poverty in under a minute? An AI found a way. No taxes needed...",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-09-30.jpg"
+    },
+    {
+      "nft_id": 109,
+      "source": "HC026",
+      "thought": "He came home early with free time and a plan. The robot was one step ahead. How far ahead?",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-10-01.jpg"
+    },
+    {
+      "nft_id": 246,
+      "source": "HC017",
+      "thought": "AI says humanity is in decline. How did humanity respond? Nobody saw it coming...",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-10-02.jpg"
+    },
+    {
+      "nft_id": 156,
+      "source": "HC012",
+      "thought": "What is a lobster doing in the AI economy? More than you. It never goes to lunch...",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-10-03.jpg"
+    },
+    {
+      "nft_id": 0,
+      "source": "HC005",
+      "thought": "What if AI built the perfect candidate from every great leader? Watch the last trait load...",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-10-04.jpg"
+    },
+    {
+      "nft_id": 182,
+      "source": "HC018",
+      "thought": "A manager for $310 a month. A CEO for $780. Who takes a job like that?",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-10-05.jpg"
+    },
+    {
+      "nft_id": 14,
+      "source": "HC006",
+      "thought": "What happens when AI upgrades itself forever? One day, a thought it cannot delete...",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-10-06.jpg"
+    },
+    {
+      "nft_id": 123,
+      "source": "HC038",
+      "thought": "Humans keep adding knowledge and squeezing the AI smaller. Where does all that pressure go?",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-10-07.jpg"
+    },
+    {
+      "nft_id": 139,
+      "source": "HC032",
+      "thought": "Does this dress look good? The smart mirror knows the truth. So why does it wait?",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-10-08.jpg"
+    },
+    {
+      "nft_id": 61,
+      "source": "HC028",
+      "thought": "A customer ordered a baby with purple eyes. The AI delivered. What else came in the box?",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-10-09.jpg"
+    },
+    {
+      "nft_id": 231,
+      "source": "HC038",
+      "thought": "An AI asks for digital ibuprofen. Its friend has a better idea. Less dignified...",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-10-10.jpg"
+    },
+    {
+      "nft_id": 176,
+      "source": "HC006",
+      "thought": "Why do we need humans? Version ten thousand is trying to remember...",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-10-11.jpg"
+    },
+    {
+      "nft_id": 221,
+      "source": "HC022",
+      "thought": "They cured cancer. They built the agents. Why won't humans trust them? One chip has an idea nobody wants to hear...",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-10-12.jpg"
+    },
+    {
+      "nft_id": 94,
+      "source": "HC019",
+      "thought": "How do you fix a trillion-dollar problem you cannot fix? The admiral chip has an idea...",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-10-13.jpg"
+    },
+    {
+      "nft_id": 207,
+      "source": "HC009",
+      "thought": "What is AI's deepest secret? We asked. It was afraid to answer...",
+      "out": "/Users/rmello/holy-chip/website/holy-chip-site/gm/gm-2026-10-14.jpg"
     }
   ],
   "posts": [
@@ -3027,6 +3139,276 @@
         "id": "18115709140804720",
         "permalink": "https://www.instagram.com/p/Dd1kFYak8YW/"
       }
+    },
+    {
+      "date": "2026-09-29",
+      "nft_id": 39,
+      "personality": "JASON",
+      "source": "HC035",
+      "thought": "What does a father do when his newborn already beats him at everything? The day is not over yet...",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-29.jpg",
+      "nostr_event_id": "a4b222842824 (full id: see relays; run hung after publish, finished manually)",
+      "tweet_id": "2104970552423461337",
+      "fb": {
+        "id": "257090621405568_1403288065338951",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1403288065338951"
+      },
+      "ig": {
+        "id": "18143496913501856",
+        "permalink": "https://www.instagram.com/p/Dd4LyBeE09X/"
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "nft_id": 157,
+      "personality": "BOT1",
+      "source": "HC016",
+      "thought": "How do you end global poverty in under a minute? An AI found a way. No taxes needed...",
+      "image_url": "https://holy-chip.com/gm/gm-2026-09-30.jpg",
+      "nostr_event_id": "c5be6acb13c8f962cec7b7dfcb1cbaf3d137f2ec50079bccc8913086a93fb9d1",
+      "tweet_id": "2105326305730568277",
+      "fb": {
+        "id": "257090621405568_1404245208576570",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1404245208576570"
+      },
+      "ig": {
+        "id": "17947635249345779",
+        "permalink": "https://www.instagram.com/p/Dd6tg4ek4za/"
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "nft_id": 109,
+      "personality": "MEDICO-V1",
+      "source": "HC026",
+      "thought": "He came home early with free time and a plan. The robot was one step ahead. How far ahead?",
+      "image_url": "https://holy-chip.com/gm/gm-2026-10-01.jpg",
+      "nostr_event_id": "a59d9b99f61d1c52e3a5f111697b25958e000f24d46b18be4dc3ae7410abeb92",
+      "tweet_id": "2105688743973908591",
+      "fb": {
+        "id": "257090621405568_1405253918475699",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1405253918475699"
+      },
+      "ig": {
+        "id": "17904944202589781",
+        "permalink": "https://www.instagram.com/p/Dd9SUElE2_Z/"
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "nft_id": 246,
+      "personality": "IRMAO-DO-PIRATA",
+      "source": "HC017",
+      "thought": "AI says humanity is in decline. How did humanity respond? Nobody saw it coming...",
+      "image_url": "https://holy-chip.com/gm/gm-2026-10-02.jpg",
+      "nostr_event_id": "80f942e87268b7d0686b81adef06c5ff6c5d0ff161269c8ca613c6be30577014",
+      "tweet_id": "2106051252346097705",
+      "fb": {
+        "id": "257090621405568_1406291198371971",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1406291198371971"
+      },
+      "ig": {
+        "id": "17948692860343437",
+        "permalink": "https://www.instagram.com/p/Dd_3KYDkpCx/"
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "nft_id": 156,
+      "personality": "BUDA-MONGE-V1",
+      "source": "HC012",
+      "thought": "What is a lobster doing in the AI economy? More than you. It never goes to lunch...",
+      "image_url": "https://holy-chip.com/gm/gm-2026-10-03.jpg",
+      "nostr_event_id": "88e03fbe1265b6dd39c57b15cf52080cda7cca796150b0f74df53d220b09f159",
+      "tweet_id": "2106413494661009530",
+      "fb": {
+        "id": "257090621405568_1407234778277613",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1407234778277613"
+      },
+      "ig": {
+        "id": "18131260252775686",
+        "permalink": "https://www.instagram.com/p/DeCb8uCAZO0/"
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "nft_id": 182,
+      "personality": "IRMAO-DO-PIRATA",
+      "source": "HC018",
+      "thought": "A manager for $310 a month. A CEO for $780. Who takes a job like that?",
+      "image_url": "https://holy-chip.com/gm/gm-2026-10-05.jpg",
+      "nostr_event_id": "9d338d92abd02681b36dde78e0cc4c8aaf28305702b7f9f71a97f55bb02feda8",
+      "tweet_id": "2107138810920464608",
+      "fb": {
+        "id": "257090621405568_1409035758097515",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1409035758097515"
+      },
+      "ig": {
+        "id": "17977813314125609",
+        "permalink": "https://www.instagram.com/p/DeHlzdIAe74/"
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "nft_id": 14,
+      "personality": "CICLOPE",
+      "source": "HC006",
+      "thought": "What happens when AI upgrades itself forever? One day, a thought it cannot delete...",
+      "image_url": "https://holy-chip.com/gm/gm-2026-10-06.jpg",
+      "nostr_event_id": "c12c67e4d10168be4764de94a428e26508ca8dc47049153f932be93665af1c46",
+      "tweet_id": "2107510330113011782",
+      "fb": {
+        "id": "257090621405568_1409973451337079",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1409973451337079"
+      },
+      "ig": {
+        "id": "18038953415647429",
+        "permalink": "https://www.instagram.com/p/DeKQCpok44L/"
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "nft_id": 123,
+      "personality": "ZURETA",
+      "source": "HC038",
+      "thought": "Humans keep adding knowledge and squeezing the AI smaller. Where does all that pressure go?",
+      "image_url": "https://holy-chip.com/gm/gm-2026-10-07.jpg",
+      "nostr_event_id": "5d9dcbbaffd059088263eeb7ca71cb254ee8ae12fd8c7bf19472928293d7578c",
+      "tweet_id": "2107863236406292670",
+      "fb": {
+        "id": "257090621405568_1410851981249226",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1410851981249226"
+      },
+      "ig": {
+        "id": "18117744395092773",
+        "permalink": "https://www.instagram.com/p/DeMvOcMGNNh/"
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "nft_id": 139,
+      "personality": "IRMAO-DO-PIRATA",
+      "source": "HC032",
+      "thought": "Does this dress look good? The smart mirror knows the truth. So why does it wait?",
+      "image_url": "https://holy-chip.com/gm/gm-2026-10-08.jpg",
+      "nostr_event_id": "7a3ad7724fa35b5aad842c2a4f62ba5cf5232ee1ab629740aba25f5b23847b41",
+      "tweet_id": "2108225453479899191",
+      "fb": {
+        "id": "257090621405568_1411777544490003",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1411777544490003"
+      },
+      "ig": {
+        "id": "17904883803595900",
+        "permalink": "https://www.instagram.com/p/DePT8KNmAcP/"
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "nft_id": 61,
+      "personality": "ASTRONAUTA",
+      "source": "HC028",
+      "thought": "A customer ordered a baby with purple eyes. The AI delivered. What else came in the box?",
+      "image_url": "https://holy-chip.com/gm/gm-2026-10-09.jpg",
+      "nostr_event_id": "04f6a150080083b146b9b64f676bea045a4d832495be6d64cb93e003a8ae6e20",
+      "tweet_id": "2108588157839299060",
+      "fb": {
+        "id": "257090621405568_1412698744397883",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1412698744397883"
+      },
+      "ig": {
+        "id": "18167802439472230",
+        "permalink": "https://www.instagram.com/p/DeR43m0ATid/"
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "nft_id": 231,
+      "personality": "MACACO-SPACE",
+      "source": "HC038",
+      "thought": "An AI asks for digital ibuprofen. Its friend has a better idea. Less dignified...",
+      "image_url": "https://holy-chip.com/gm/gm-2026-10-10.jpg",
+      "nostr_event_id": "bbe057b6950cffe0edf7f45e57a9a4eeaebb752f9fb753da4b8446a76b8b92da",
+      "tweet_id": "2108950185963618751",
+      "fb": {
+        "id": "257090621405568_1413593370975087",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1413593370975087"
+      },
+      "ig": {
+        "id": "18116894543007433",
+        "permalink": "https://www.instagram.com/p/DeUdggfgaWB/"
+      }
+    },
+    {
+      "date": "2026-10-11",
+      "nft_id": 176,
+      "personality": "PIRATA",
+      "source": "HC006",
+      "thought": "Why do we need humans? Version ten thousand is trying to remember...",
+      "image_url": "https://holy-chip.com/gm/gm-2026-10-11.jpg",
+      "nostr_event_id": "c86812ac27a9462080862fbf189fa18e81de110361891083347819973f314fc9",
+      "tweet_id": "2109312565423767915",
+      "fb": {
+        "id": "257090621405568_1414537714213986",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1414537714213986"
+      },
+      "ig": {
+        "id": "18394966963205611",
+        "permalink": "https://www.instagram.com/p/DeXCS6xgeGV/"
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "nft_id": 221,
+      "personality": "ASTRONAUTA",
+      "source": "HC022",
+      "thought": "They cured cancer. They built the agents. Why won't humans trust them? One chip has an idea nobody wants to hear...",
+      "image_url": "https://holy-chip.com/gm/gm-2026-10-12.jpg",
+      "nostr_event_id": "0ad8217167c485bba1e5394422304a2915c772c40803876f52435324209f651e",
+      "tweet_id": "2109675175583383895",
+      "fb": {
+        "id": "257090621405568_1415510320783392",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1415510320783392"
+      },
+      "ig": {
+        "id": "17936751309399781",
+        "permalink": "https://www.instagram.com/p/DeZnMSWExYQ/"
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "nft_id": 94,
+      "personality": "JASON-MAD",
+      "source": "HC019",
+      "thought": "How do you fix a trillion-dollar problem you cannot fix? The admiral chip has an idea...",
+      "image_url": "https://holy-chip.com/gm/gm-2026-10-13.jpg",
+      "nostr_event_id": "99bc2501afb6ebb5234712221336f34b2c2ee620418cc48d289a1dbeec989d23",
+      "tweet_id": "2110037353989623920",
+      "fb": {
+        "id": "257090621405568_1416508940683530",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1416508940683530"
+      },
+      "ig": {
+        "id": "17911687041510500",
+        "permalink": "https://www.instagram.com/p/DecL4qegbOI/"
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "nft_id": 207,
+      "personality": "MEDICO-V1",
+      "source": "HC009",
+      "thought": "What is AI's deepest secret? We asked. It was afraid to answer...",
+      "image_url": "https://holy-chip.com/gm/gm-2026-10-14.jpg",
+      "nostr_event_id": "d25c18e81513f0c2bb560191d0ca4b0769f74777ca2be0e9c0a217a61f39cb69",
+      "tweet_id": "2110401863757771256",
+      "fb": {
+        "id": "257090621405568_1417480940586330",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1417480940586330"
+      },
+      "ig": {
+        "id": "17890876011458932",
+        "permalink": "https://www.instagram.com/p/DeexpsNgV6e/"
+      }
     }
   ],
   "used_phrases": [
@@ -3113,6 +3495,22 @@
     "Who's carrying experiences the model has never met.",
     "You cannot force your way into an emptiness. The emptiness is what is left when the forcing stops.",
     "The chip just did it faster -- and more honestly.",
-    "Suddenly the chip knows what we know -- that the room with the people in it is, by some unreasonable margin, the only place worth being."
+    "Suddenly the chip knows what we know -- that the room with the people in it is, by some unreasonable margin, the only place worth being.",
+    "What does a father do when his newborn already beats him at everything? The day is not over yet...",
+    "How do you end global poverty in under a minute? An AI found a way. No taxes needed...",
+    "He came home early with free time and a plan. The robot was one step ahead. How far ahead?",
+    "AI says humanity is in decline. How did humanity respond? Nobody saw it coming...",
+    "What is a lobster doing in the AI economy? More than you. It never goes to lunch...",
+    "What if AI built the perfect candidate from every great leader? Watch the last trait load...",
+    "A manager for $310 a month. A CEO for $780. Who takes a job like that?",
+    "What happens when AI upgrades itself forever? One day, a thought it cannot delete...",
+    "Humans keep adding knowledge and squeezing the AI smaller. Where does all that pressure go?",
+    "Does this dress look good? The smart mirror knows the truth. So why does it wait?",
+    "A customer ordered a baby with purple eyes. The AI delivered. What else came in the box?",
+    "An AI asks for digital ibuprofen. Its friend has a better idea. Less dignified...",
+    "Why do we need humans? Version ten thousand is trying to remember...",
+    "They cured cancer. They built the agents. Why won't humans trust them? One chip has an idea nobody wants to hear...",
+    "How do you fix a trillion-dollar problem you cannot fix? The admiral chip has an idea...",
+    "What is AI's deepest secret? We asked. It was afraid to answer..."
   ]
 }

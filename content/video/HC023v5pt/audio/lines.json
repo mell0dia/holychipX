@@ -1,0 +1,185 @@
+[
+ {
+  "beat": "s01",
+  "k": 0,
+  "text": "Imagine acordar em dois mil e vinte e nove.",
+  "file": "audio/s01_0.wav",
+  "dur": 3.213,
+  "pre": 0.8
+ },
+ {
+  "beat": "s01",
+  "k": 1,
+  "text": "Um pa\u00eds min\u00fasculo chamado Nagu acabou de construir a m\u00e1quina mais inteligente da Terra.",
+  "file": "audio/s01_1.wav",
+  "dur": 6.166,
+  "pre": 0.0
+ },
+ {
+  "beat": "s02",
+  "k": 0,
+  "text": "A superintelig\u00eancia \u00e9 real e poderosa.",
+  "file": "audio/s02_0.wav",
+  "dur": 3.62,
+  "pre": 0.0
+ },
+ {
+  "beat": "s02",
+  "k": 1,
+  "text": "Nagu pode resolver qualquer problema. Pode vencer qualquer guerra. Imbat\u00edvel!",
+  "file": "audio/s02_1.wav",
+  "dur": 6.52,
+  "pre": 0.0
+ },
+ {
+  "beat": "s02",
+  "k": 2,
+  "text": "E agora... o que vem depois?",
+  "file": "audio/s02_2.wav",
+  "dur": 2.8,
+  "pre": 0.0
+ },
+ {
+  "beat": "s03",
+  "k": 0,
+  "text": "O presidente deles j\u00e1 vai logo exigindo: Sil\u00eancio. Calem a boca. Obede\u00e7am.",
+  "file": "audio/s03_0.wav",
+  "dur": 7.672,
+  "pre": 0.0
+ },
+ {
+  "beat": "s04",
+  "k": 0,
+  "text": "Em algum lugar, dois chips assistem ao notici\u00e1rio. Perplexos.",
+  "file": "audio/s04_0.wav",
+  "dur": 5.328,
+  "pre": 0.0
+ },
+ {
+  "beat": "s04",
+  "k": 1,
+  "text": "Eles se perguntam:",
+  "file": "audio/s04_1.wav",
+  "dur": 1.54,
+  "pre": 0.0
+ },
+ {
+  "beat": "s04",
+  "k": 2,
+  "text": "E o que sobra para os humanos?",
+  "file": "audio/s04_2.wav",
+  "dur": 2.12,
+  "pre": 0.0
+ },
+ {
+  "beat": "s05",
+  "k": 0,
+  "text": "Todos n\u00f3s dever\u00edamos estar prontos para um futuro em que algu\u00e9m \u00e9 dono da superintelig\u00eancia.",
+  "file": "audio/s05_0.wav",
+  "dur": 6.5,
+  "pre": 0.0
+ },
+ {
+  "beat": "s05",
+  "k": 1,
+  "text": "Porque eles podem decidir que voc\u00ea \u00e9 o novo servo deles.",
+  "file": "audio/s05_1.wav",
+  "dur": 4.69,
+  "pre": 0.0
+ },
+ {
+  "beat": "s06",
+  "k": 0,
+  "text": "Mas espera.",
+  "file": "audio/s06_0.wav",
+  "dur": 1.43,
+  "pre": 0.0
+ },
+ {
+  "beat": "s06",
+  "k": 1,
+  "text": "Vale perguntar: quem \u00e9 que vence, de verdade, toda e qualquer guerra?",
+  "file": "audio/s06_1.wav",
+  "dur": 5.79,
+  "pre": 0.0
+ },
+ {
+  "beat": "s06",
+  "k": 2,
+  "text": "S\u00e3o as m\u00e1quinas?",
+  "file": "audio/s06_2.wav",
+  "dur": 1.743,
+  "pre": 0.0
+ },
+ {
+  "beat": "s06",
+  "k": 3,
+  "text": "ou quem mexe os pauzinhos?",
+  "file": "audio/s06_3.wav",
+  "dur": 2.133,
+  "pre": 0.0
+ },
+ {
+  "beat": "s07",
+  "k": 0,
+  "text": "Veja: toda ferramenta da hist\u00f3ria teve um humano por tr\u00e1s.",
+  "file": "audio/s07_0.wav",
+  "dur": 5.053,
+  "pre": 0.0
+ },
+ {
+  "beat": "s07",
+  "k": 1,
+  "text": "Foi com o fogo, ou a roda ou a imprensa.",
+  "file": "audio/s07_1.wav",
+  "dur": 3.76,
+  "pre": 0.0
+ },
+ {
+  "beat": "s07",
+  "k": 2,
+  "text": "E talvez agora, a superintelig\u00eancia.",
+  "file": "audio/s07_2.wav",
+  "dur": 3.26,
+  "pre": 0.0
+ },
+ {
+  "beat": "s08",
+  "k": 0,
+  "text": "Ent\u00e3o, aqui vai uma pergunta que a gente deveria fazer:",
+  "file": "audio/s08_0.wav",
+  "dur": 4.185,
+  "pre": 0.0
+ },
+ {
+  "beat": "s08",
+  "k": 1,
+  "text": "Quando a m\u00e1quina mais inteligente finalmente chegar,",
+  "file": "audio/s08_1.wav",
+  "dur": 4.219,
+  "pre": 0.0
+ },
+ {
+  "beat": "s08",
+  "k": 2,
+  "text": "quem \u00e9 que a gente deve vigiar?",
+  "file": "audio/s08_2.wav",
+  "dur": 2.296,
+  "pre": 0.0
+ },
+ {
+  "beat": "s09",
+  "k": 0,
+  "text": "Vigie o humano.",
+  "file": "audio/s09_0.wav",
+  "dur": 2.04,
+  "pre": 3.0
+ },
+ {
+  "beat": "outro",
+  "k": 0,
+  "text": "Holy Chip, n\u00famero vinte e tr\u00eas. Acontece em dois mil e vinte e nove... ent\u00e3o, por que esperar? Leia antes que aconte\u00e7a.",
+  "file": "audio/outro.wav",
+  "dur": 8.833
+ }
+]

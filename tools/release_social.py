@@ -28,6 +28,9 @@ whether something is old enough to be a throwback at all. The first values are
 now moved to first_fb_* / first_ig_* before the new ones are written.
 """
 import argparse, json, os, re, subprocess, sys, time, urllib.request
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import site_git
 from datetime import datetime
 from pathlib import Path
 
@@ -130,8 +133,7 @@ def build_blog_cards(sid, split=2):
                         f"Blog cards for {sid}"], capture_output=True, text=True)
     if r.returncode != 0 and "nothing to commit" not in (r.stdout + r.stderr):
         raise RuntimeError(f"blogcards commit failed: {r.stdout} {r.stderr}")
-    subprocess.run(["git", "-C", str(SITE), "push", "origin", "gh-pages"],
-                   check=True, capture_output=True, text=True)
+    site_git.push(SITE)       # lock + rebase-on-reject (2026-10-06: HC006 lost to a push race)
 
     urls = [f"{SITE_WWW}/blogcards/{p.name}" for p in paths]
     # GitHub Pages can take minutes to serve; IG fetches by URL, so a post sent
