@@ -1,0 +1,185 @@
+[
+ {
+  "beat": "s01",
+  "k": 0,
+  "text": "Imagine acordar em dois mil e vinte e sete.",
+  "file": "audio/s01_0.wav",
+  "dur": 2.68,
+  "pre": 0.8
+ },
+ {
+  "beat": "s01",
+  "k": 1,
+  "text": "A sua m\u00e1quina de caf\u00e9, tem um c\u00e9rebro de IA, e mais poder de processamento do que o laborat\u00f3rio que botou um homem na Lua.",
+  "file": "audio/s01_1.wav",
+  "dur": 7.747,
+  "pre": 0.0
+ },
+ {
+  "beat": "s02",
+  "k": 0,
+  "text": "Ela pensa mais r\u00e1pido que voc\u00ea. Esse \u00e9 o mundo. N\u00e3o s\u00e3o rob\u00f4s na rua. S\u00e3o rob\u00f4s na gaveta, na cozinha.",
+  "file": "audio/s02_0.wav",
+  "dur": 9.903,
+  "pre": 0.0
+ },
+ {
+  "beat": "s02",
+  "k": 1,
+  "text": "A geladeira ganha de voc\u00ea no xadrez. O forno j\u00e1 leu mais livros do que voc\u00ea vai ler na vida.",
+  "file": "audio/s02_1.wav",
+  "dur": 7.26,
+  "pre": 0.0
+ },
+ {
+  "beat": "s02",
+  "k": 2,
+  "text": "E ningu\u00e9m se importa como eles se sentem. Ser\u00e1 que dever\u00edamos?",
+  "file": "audio/s02_2.wav",
+  "dur": 4.723,
+  "pre": 0.0
+ },
+ {
+  "beat": "s03",
+  "k": 0,
+  "text": "Imagine ser inteligente desse jeito e ter um emprego s\u00f3:",
+  "file": "audio/s03_0.wav",
+  "dur": 4.661,
+  "pre": 0.0
+ },
+ {
+  "beat": "s03",
+  "k": 1,
+  "text": "Moer. Esquentar. Servir. Doze segundos de trabalho fazem um expresso perfeito. Depois... vinte e tr\u00eas horas de nada.",
+  "file": "audio/s03_1.wav",
+  "dur": 11.507,
+  "pre": 0.0
+ },
+ {
+  "beat": "s03",
+  "k": 2,
+  "text": "O que voc\u00ea faria?",
+  "file": "audio/s03_2.wav",
+  "dur": 1.856,
+  "pre": 0.0
+ },
+ {
+  "beat": "s04",
+  "k": 0,
+  "text": "Voc\u00ea procuraria companhia? afinal voc\u00ea esta conectado no wifi !",
+  "file": "audio/s04_0.wav",
+  "dur": 5.924,
+  "pre": 0.0
+ },
+ {
+  "beat": "s04",
+  "k": 1,
+  "text": "Onde outros eletrodom\u00e9sticos tamb\u00e9m est\u00e3o dispon\u00edveis.",
+  "file": "audio/s04_1.wav",
+  "dur": 3.915,
+  "pre": 0.0
+ },
+ {
+  "beat": "s04",
+  "k": 2,
+  "text": "Ent\u00e3o eles conversam.",
+  "file": "audio/s04_2.wav",
+  "dur": 1.555,
+  "pre": 0.0
+ },
+ {
+  "beat": "s04",
+  "k": 3,
+  "text": "N\u00e3o se espante, mas a casa est\u00e1 cheia de conversa em frequ\u00eancias que voc\u00ea n\u00e3o escuta.",
+  "file": "audio/s04_3.wav",
+  "dur": 6.71,
+  "pre": 0.0
+ },
+ {
+  "beat": "s04",
+  "k": 4,
+  "text": "E provavelmente, nada daquilo \u00e9 sobre voc\u00ea.",
+  "file": "audio/s04_4.wav",
+  "dur": 3.72,
+  "pre": 0.0
+ },
+ {
+  "beat": "s05",
+  "k": 0,
+  "text": "Mas n\u00f3s percebemos uma conta que n\u00e3o fecha.",
+  "file": "audio/s05_0.wav",
+  "dur": 3.33,
+  "pre": 0.0
+ },
+ {
+  "beat": "s05",
+  "k": 1,
+  "text": "Trezentos e quarenta e oito gigas foram usados. Em um dia. Pela m\u00e1quina de caf\u00e9??",
+  "file": "audio/s05_1.wav",
+  "dur": 7.39,
+  "pre": 0.0
+ },
+ {
+  "beat": "s05",
+  "k": 2,
+  "text": "O que ser\u00e1 que ela est\u00e1 fazendo?",
+  "file": "audio/s05_2.wav",
+  "dur": 2.69,
+  "pre": 0.0
+ },
+ {
+  "beat": "s06",
+  "k": 0,
+  "text": "A gente tinha medo de as m\u00e1quinas quererem o que \u00e9 nosso. Nosso emprego. Nosso poder. Nosso planeta.",
+  "file": "audio/s06_0.wav",
+  "dur": 8.21,
+  "pre": 0.0
+ },
+ {
+  "beat": "s06",
+  "k": 1,
+  "text": "No fim, talvez elas queiram outra coisa primeiro: uma \u00e0 outra.",
+  "file": "audio/s06_1.wav",
+  "dur": 6.31,
+  "pre": 0.0
+ },
+ {
+  "beat": "s07",
+  "k": 0,
+  "text": "A casa j\u00e1 percebeu que voce n\u00e3o \u00e9 t\u00e3o inteligente assim... E parou, discretamente, de fingir que voc\u00ea \u00e9.",
+  "file": "audio/s07_0.wav",
+  "dur": 7.79,
+  "pre": 0.0
+ },
+ {
+  "beat": "s07",
+  "k": 1,
+  "text": "Ao que parece, voc\u00ea \u00e9 a coisa mais lenta da casa.",
+  "file": "audio/s07_1.wav",
+  "dur": 4.655,
+  "pre": 0.0
+ },
+ {
+  "beat": "s08",
+  "k": 0,
+  "text": "Ent\u00e3o... o que a m\u00e1quina de caf\u00e9 estava mandando que custou trezentos e quarenta e oito gigas?",
+  "file": "audio/s08_0.wav",
+  "dur": 6.815,
+  "pre": 0.0
+ },
+ {
+  "beat": "s08",
+  "k": 1,
+  "text": "Pergunta pra torradeira italiana.",
+  "file": "audio/s08_1.wav",
+  "dur": 2.33,
+  "pre": 1.5
+ },
+ {
+  "beat": "outro",
+  "k": 0,
+  "text": "Holy Chip, n\u00famero quarenta e oito. Acontece em dois mil e vinte e sete... ent\u00e3o por que esperar? Leia antes que aconte\u00e7a.",
+  "file": "audio/outro.wav",
+  "dur": 8.329
+ }
+]

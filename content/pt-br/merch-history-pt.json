@@ -1,7 +1,8 @@
 {
   "used_bots": [
     "Chip_1",
-    "Chip_1011"
+    "Chip_1011",
+    "Chip_1101"
   ],
   "next_shirt_style": "style5",
   "posts": [
@@ -18,6 +19,13 @@
       "bot": "Chip_1011",
       "style": "ringer",
       "fb_post_id": "1302345022970232_122109344691497264"
+    },
+    {
+      "date": "2026-10-14 15:31",
+      "kind": "mug",
+      "bot": "Chip_1101",
+      "style": null,
+      "fb_post_id": "1302345022970232_122110444047497264"
     }
   ]
 }

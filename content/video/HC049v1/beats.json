@@ -1,0 +1,129 @@
+[
+ {
+  "id": "s01",
+  "bot": "p1Left",
+  "prompt": "a sunny kitchen table in the morning, a steaming cup of coffee, one small white pill on a saucer next to it, a smartphone lying face up on the table with a single notification, a window with soft morning light",
+  "color": "the small white pill glowing softly",
+  "say": [
+   "(pause) Imagine waking up in twenty forty-one.",
+   "Seven in the morning. Coffee. A small white pill.",
+   "Your phone buzzes once. Renewed.",
+   "(soft) You don't look. Nobody looks."
+  ],
+  "shots": []
+ },
+ {
+  "id": "s02",
+  "bot": "p2Left",
+  "prompt": "[King] sitting alone on a sandy shore at the edge of a calm blue sea, head in his hands, a small snake slithering away into the grass with a leafy plant in its mouth, wide empty horizon",
+  "color": "the plant in the snake's mouth, bright green",
+  "say": [
+   "The oldest story we ever wrote down is about a king who wanted more time.",
+   "He crossed the world. He found the plant that stops dying, at the bottom of the sea.",
+   "On the way home he put it down to take a bath.",
+   "(pause) A snake ate it.",
+   "(slow) We have been sitting on that shore ever since."
+  ],
+  "shots": []
+ },
+ {
+  "id": "s03",
+  "bot": "p1Left",
+  "prompt": "an old alchemist in a cluttered workshop holding up a glowing flask, shelves of bottles and books behind him, and beside him a priest at a wooden desk stamping a large paper certificate with a big seal, candles, cream background",
+  "color": "the red wax seal on the certificate",
+  "say": [
+   "So we listened to anyone who said they had the plant.",
+   "The alchemist, with gold that makes you young.",
+   "The priest, with years off purgatory. Paid in coins. Signed and stamped.",
+   "Give us what you have now. We will give you time later.",
+   "(ask) Did anyone ever come [back](+2) to complain?"
+  ],
+  "shots": []
+ },
+ {
+  "id": "s04",
+  "bot": "p3",
+  "prompt": "a robot in a white lab coat looking into a big microscope on a clean lab bench, next to it a tall stack of photocopied pages each a little paler than the one below, a pill bottle on the bench, plain white background",
+  "color": "the pill bottle label, warm yellow",
+  "say": [
+   "Then the machines found it. Not with magic. With patience.",
+   "Your cells copy themselves about fifty times, and then they stop. Like a photocopy of a photocopy, each one a little paler.",
+   "The chips read every copy. Found the fault. And wrote the fix into a small white pill.",
+   "(dramatic) The oldest wish of the species. Granted."
+  ],
+  "shots": []
+ },
+ {
+  "id": "s05",
+  "bot": "p2Left",
+  "prompt": "a tiny human at a desk signing a contract, the contract paper so long it rolls off the desk, across the floor, out the door and down the street, a smiling robot clerk behind a counter holding a pen",
+  "color": "the red \"SIGN HERE\" sticker on the contract",
+  "say": [
+   "(pause) And because it is twenty forty-one...",
+   "(slow) it came with a subscription.",
+   "(ask) Why would that surprise [anyone](+2)?"
+  ],
+  "shots": []
+ },
+ {
+  "id": "s06",
+  "bot": "p1Left",
+  "prompt": "a red farm tractor stopped in the middle of a wheat field with a big padlock drawn on its engine hood, a farmer in a cap standing next to it scratching his head, holding a phone showing an error, rolling hills behind",
+  "color": "the padlock, bright red",
+  "say": [
+   "We had been practicing for years.",
+   "First we stopped owning the songs. Then the films. Then the software in the car.",
+   "Somewhere a farmer bought a tractor that will not start without a code from the company. And we shrugged.",
+   "Each time, a little ownership for a little comfort.",
+   "(soft) The body was simply next in line."
+  ],
+  "shots": []
+ },
+ {
+  "id": "s07",
+  "bot": "p2Left",
+  "prompt": "a person walking on a sidewalk wearing a collar, the leash going up into the hand of a giant smartphone floating above them like a kite, the phone screen showing a calendar with one day circled, small city houses behind",
+  "color": "the leash, red",
+  "say": [
+   "A gift that can be taken back is not a gift. It is a leash.",
+   "You stay in the job. In the city. In the marriage that ended.",
+   "Because the payment is due on Tuesday.",
+   "The fear of death never went away.",
+   "(low) It just moved into the billing department."
+  ],
+  "shots": [
+   {
+    "line": 3,
+    "prompt": "a dull office counter with a sign reading \"BILLING DEPARTMENT\", a bored robot clerk behind it with a stamp, a queue of people holding small white pills, fluorescent ceiling light",
+    "color": ""
+   }
+  ]
+ },
+ {
+  "id": "s08",
+  "bot": "p1Left",
+  "prompt": "a person sitting on the edge of a bed at dawn, holding a phone, a window with the first light of day, a cup of coffee on the nightstand, quiet room, lots of white space",
+  "color": "the dawn light in the window, pale orange",
+  "say": [
+   "And yet.",
+   "A life that can be taken back is a life you finally count.",
+   "For a hundred thousand years we lived on credit without knowing the balance.",
+   "Every morning, the buzz. And with it a question no king ever had to answer:",
+   "(ask) Is today worth what it [costs](+2)?"
+  ],
+  "shots": []
+ },
+ {
+  "id": "s09",
+  "bot": "p3",
+  "prompt": "a smartphone screen in close-up showing \"PAYMENT FAILED\" in big letters, behind it an enormous document titled \"TERMS OF SERVICE\" with thousands of pages fanning out, a tiny worried person peeking from behind the pages",
+  "color": "the \"PAYMENT FAILED\" message, red",
+  "say": [
+   "(ask) So... what happens if you [miss](+2) a payment?",
+   "(pause) The terms of service have four thousand pages.",
+   "(pause 1.5, dramatic) The answer is on the last one."
+  ],
+  "shots": [],
+  "punch": true
+ }
+]

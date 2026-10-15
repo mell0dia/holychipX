@@ -51,8 +51,7 @@ def with_glow(bot, target_w):
     return c
 
 
-SRC = {k: Image.open(f'{HC}/content/video/HC023/assets/{k}.png') for k in ('p1Left', 'p2Left')}
-SRC['p3'] = Image.open(HC + '/content/en/HC023.p3bot.png')
+SRC = {k: Image.open(f'assets/{k}.png') for k in ('p1Left', 'p2Left', 'p3')}   # the episode's own chip (assets/ in the workspace)
 BOT = {k: with_glow(cutout(v), 700) for k, v in SRC.items()}
 
 def cover(im):

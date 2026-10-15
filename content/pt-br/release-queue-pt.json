@@ -9,7 +9,8 @@
     232,
     205,
     90,
-    35
+    35,
+    43
   ],
   "queue": [
     {
@@ -990,20 +991,55 @@
       "kind": "story",
       "story": "HC029",
       "tags": "#Oração #Fé #Plágio",
-      "status": "pending"
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122110395663497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122110395663497264"
+        },
+        {
+          "id": "1302345022970232_122110395729497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122110395729497264"
+        }
+      ],
+      "posted_at": "2026-10-14 13:01",
+      "fb_post_id": "1302345022970232_122110395729497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122110395729497264"
     },
     {
       "at": "2026-10-14 15:30",
       "kind": "merch",
       "merch": "mug",
-      "status": "pending"
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122110444047497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122110444047497264"
+        }
+      ],
+      "posted_at": "2026-10-14 15:31",
+      "fb_post_id": "1302345022970232_122110444047497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122110444047497264"
     },
     {
       "at": "2026-10-14 18:00",
       "kind": "story",
       "story": "HC030",
       "tags": "#Amor #Claude",
-      "status": "pending"
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122110500261497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122110500261497264"
+        },
+        {
+          "id": "1302345022970232_122110500327497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122110500327497264"
+        }
+      ],
+      "posted_at": "2026-10-14 18:02",
+      "fb_post_id": "1302345022970232_122110500327497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122110500327497264"
     },
     {
       "at": "2026-10-15 08:30",
@@ -1011,14 +1047,36 @@
       "story": "HC040",
       "phrase": "Quando chegar a superinteligência, a IA vai acabar com os ditadores. Excelente! Mas a lista continua...",
       "tags": "#Superinteligência #Democracia #Liberdade",
-      "status": "pending"
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122110774113497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122110774113497264"
+        }
+      ],
+      "posted_at": "2026-10-15 08:32",
+      "fb_post_id": "1302345022970232_122110774113497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122110774113497264"
     },
     {
       "at": "2026-10-15 09:00",
       "kind": "story",
       "story": "HC031",
       "tags": "#Pedidos #Oxigênio",
-      "status": "pending"
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122110781559497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122110781559497264"
+        },
+        {
+          "id": "1302345022970232_122110781601497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122110781601497264"
+        }
+      ],
+      "posted_at": "2026-10-15 09:02",
+      "fb_post_id": "1302345022970232_122110781601497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122110781601497264"
     },
     {
       "at": "2026-10-15 13:00",

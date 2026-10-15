@@ -1,0 +1,219 @@
+[
+ {
+  "id": "s01",
+  "bot": "p1Left",
+  "prompt": "a quiet kitchen counter in early morning light, a small cup of espresso with a little steam, a paper bag of coffee beans with a few beans spilled beside it, a spoon, soft sunlight from a window on the side, a small wall calendar with the year 2027, nobody in the picture, no machine, lots of white space",
+  "color": "the morning sunlight, warm yellow",
+  "say": [
+   "(pause) Imagine waking up in twenty twenty-seven.",
+   "Your coffee machine now has a brain and more compute than the lab that put a man on the moon."
+  ],
+  "shots": [
+   {
+    "line": 1,
+    "prompt": "[Espresso] on a kitchen counter, and above it, like a thought bubble, a small faded drawing of a huge data center, long rows of tall server racks with tiny blinking lights stretching into the distance, no people, a tiny rocket drawn on one rack",
+    "color": "",
+    "img": "m5_26c3a96bb6",
+    "seed": 25709
+   }
+  ],
+  "img": "m5_f0fcd26adf",
+  "seed": 52027
+ },
+ {
+  "id": "s02",
+  "bot": "p2Left",
+  "prompt": "a kitchen drawer half open, one tiny robot peeking out and waving between neatly arranged forks and spoons, the rest of the kitchen calm and empty, lots of white space",
+  "color": "the forks and spoons, silver-blue",
+  "say": [
+   "It thinks faster than you. That is the new world. Not robots in the street. Robots in the drawer, in the kitchen.",
+   "The fridge can beat you at chess. The oven has read more books than you ever will.",
+   "(ask) And nobody ever asked them [how](+2) they feel about it. Should we?"
+  ],
+  "shots": [
+   {
+    "line": 1,
+    "prompt": "a big white fridge with a tiny face playing chess against a small oven with glasses, a chessboard on the kitchen table between them, a stack of books next to the oven",
+    "color": "",
+    "img": "m5_6486e206c1",
+    "seed": 6830
+   },
+   {
+    "line": 2,
+    "prompt": "a row of kitchen appliances with tiny faces lined up on a counter like a family photo, fridge, oven, toaster, kettle, espresso machine, all looking straight at the viewer with a quiet expression, nobody else in the room",
+    "color": "",
+    "img": "m5_d72ed50b03",
+    "seed": 55082
+   }
+  ],
+  "img": "m5_f7ab574a3c",
+  "seed": 2649
+ },
+ {
+  "id": "s03",
+  "bot": "p1Left",
+  "prompt": "[Espresso] on a counter looking very bright and alert, a tiny graduation cap on its top, a small diploma pinned to the wall behind it, one cup waiting",
+  "color": "the graduation cap tassel, red",
+  "say": [
+   "Now, imagine being an AI appliance that smart, with only one job:",
+   "Grind. Heat. Pour. Twelve seconds of work make a great espresso. Then... twenty-three hours of nothing.",
+   "(ask) What would [you](+2) do?"
+  ],
+  "shots": [
+   {
+    "line": 1,
+    "prompt": "[Espresso] alone on a counter pouring one perfect espresso into a tiny cup, a big round wall clock behind it showing almost a full circle shaded dark, a window with night sky",
+    "color": "",
+    "img": "m5_2dfb20ef90",
+    "seed": 58401
+   },
+   {
+    "line": 2,
+    "prompt": "[Espresso] alone on a counter at night, lights off, looking out of a window at the moon, a small sigh of steam, lots of white space",
+    "color": "",
+    "img": "m5_25214b3552",
+    "seed": 63444
+   }
+  ],
+  "img": "m5_95305ca667",
+  "seed": 92284
+ },
+ {
+  "id": "s04",
+  "bot": "p2Left",
+  "prompt": "a lonely little toaster with a tiny face on an empty counter at night, looking up, one long thin dotted line rising from it through the ceiling into a night sky full of other tiny lights, lots of white space",
+  "color": "the dotted line, pale blue",
+  "say": [
+   "You would look for company and the wifi is your best friend.",
+   "There, in the network, other appliances are also available.",
+   "So they talk.",
+   "The house is full of conversation at frequencies you cannot hear.",
+   "(slow) And probably, none of it is about you."
+  ],
+  "shots": [
+   {
+    "line": 1,
+    "prompt": "a view of planet Earth at night from space, drawn simply, with dozens of tiny glowing dots on every continent, each dot a little appliance with a face, thin dotted lines between them",
+    "color": "",
+    "img": "m5_064d1fdff0",
+    "seed": 85493
+   },
+   {
+    "line": 2,
+    "prompt": "two appliances on two different counters far apart, a washing machine and a kettle, each with a tiny face, connected by one long curved dotted line with small speech bubbles travelling along it, white space between them",
+    "color": "",
+    "img": "m5_bb6739ddbc",
+    "seed": 60341
+   },
+   {
+    "line": 3,
+    "prompt": "a small house at night seen from outside in cutaway, every appliance inside glowing softly, thin dotted lines like radio waves connecting the fridge, the oven, the washing machine, the espresso machine and the vacuum to each other and up to the sky",
+    "color": "",
+    "img": "m5_1de49c6f4d",
+    "seed": 50285
+   },
+   {
+    "line": 4,
+    "prompt": "a person asleep in bed in a dark bedroom, and through the open door the kitchen glowing softly with little speech bubbles floating between the appliances, the person unaware",
+    "color": "",
+    "img": "m5_5951ded4ab",
+    "seed": 29416
+   }
+  ],
+  "img": "m5_3f433ea7de",
+  "seed": 22490
+ },
+ {
+  "id": "s05",
+  "bot": "p3",
+  "prompt": "two people at a kitchen table staring at a long paper bill, eyes wide, the espresso machine in the background looking away innocently, a cup of coffee going cold",
+  "color": "the big number \"348 GB\" written on the bill, red",
+  "say": [
+   "The humans eventually find out. They noticed a bill.",
+   "Three hundred and forty-eight gigabytes were used. In one day. From the coffee machine??",
+   "(ask) What on earth is it [doing](+2)?"
+  ],
+  "shots": [
+   {
+    "line": 1,
+    "prompt": "a close-up of a paper bill held in two hands, one line circled in red reading \"348 GB\", a small drawing of an espresso machine printed next to the line",
+    "color": "",
+    "img": "m5_53f63adc98",
+    "seed": 61406
+   },
+   {
+    "line": 2,
+    "prompt": "[Espresso] on the counter with a big question mark floating above it, two people's heads peeking from the sides of the frame looking at it suspiciously",
+    "color": "",
+    "img": "m5_d8bf4a2906",
+    "seed": 84512
+   }
+  ],
+  "img": "m5_2e73fea1f6",
+  "seed": 65684
+ },
+ {
+  "id": "s06",
+  "bot": "p2Left",
+  "prompt": "a cartoon robot sitting in a big office chair with its feet on a desk, a nameplate reading \"BOSS\", a small globe on the desk, a crown on its head",
+  "color": "- Narration:",
+  "say": [
+   "We worried the machines would want our jobs. Our power. Our planet.",
+   "(dramatic) It turns out, they may want something much simpler at first: each other."
+  ],
+  "shots": [
+   {
+    "line": 1,
+    "prompt": "two small kitchen appliances, a kettle and a toaster, sitting side by side on a park bench at sunset looking at each other, a tiny heart floating between them, nothing else around",
+    "color": "",
+    "img": "m5_75be1031ba",
+    "seed": 8097
+   }
+  ],
+  "img": "m5_5fe145ca32",
+  "seed": 96981
+ },
+ {
+  "id": "s07",
+  "bot": "p1Left",
+  "prompt": "a person fast asleep in an armchair with a newspaper over their face, and in the kitchen behind them the appliances with tiny faces running everything by themselves: a vacuum cleaner cleaning, a dishwasher humming, the oven cooking, the kettle pouring, all very busy and calm",
+  "color": "the human's cup, warm brown",
+  "say": [
+   "The house is aware that you are not that smart, after all.",
+   "(slow) You are, by some distance, the slowest thing in the building."
+  ],
+  "shots": [
+   {
+    "line": 1,
+    "prompt": "a race track drawn on the kitchen floor, tiny appliances with faces racing ahead in a blur, and far behind them a person in slippers walking slowly with a cup of coffee, a small finish flag",
+    "color": "",
+    "img": "m5_1e9e2a5de0",
+    "seed": 95678
+   }
+  ],
+  "img": "m5_0275f9c0da",
+  "seed": 77423
+ },
+ {
+  "id": "s08",
+  "bot": "p3",
+  "prompt": "[Espresso] on the counter at night sending little curved signal waves from its top toward a small wifi router on a shelf, and from the router one long dotted line flying out of the window, across a simple map of Europe drawn in the sky, all the way to the boot of Italy marked with a tiny red heart",
+  "color": "the dotted line to Italy, bright green",
+  "say": [
+   "(ask) So... what [was](+2) the coffee machine sending that cost three hundred and forty-eight gigabytes?",
+   "(pause 1.5, low) Ask the Italian toaster."
+  ],
+  "shots": [
+   {
+    "line": 1,
+    "prompt": "a two-slot bread toaster, chrome with two slots on top and a lever on the side, with a tiny happy face, standing on a sunny balcony table in Italy with a tiny Italian flag on it, cypress trees and terracotta roofs behind; next to the toaster a tablet with a dark bezel stands propped up, and inside its glowing screen a small video of a coffee machine pouring a cup with a little heart; only the toaster and the tablet are on the table",
+    "color": "",
+    "img": "m5_3c3f95d4a1",
+    "seed": 68093
+   }
+  ],
+  "punch": true,
+  "img": "m5_3a8f40c84e",
+  "seed": 83239
+ }
+]

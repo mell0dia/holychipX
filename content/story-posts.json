@@ -1589,7 +1589,49 @@
       ],
       "tweet_id": "2110090243022180430",
       "tweet_url": "https://x.com/_holychip/status/2110090243022180430",
-      "tweet_posted_at": "2026-10-13 12:28"
+      "tweet_posted_at": "2026-10-13 12:28",
+      "fb_doc_id": "1383113330703845",
+      "fb_doc_permalink": "https://www.facebook.com/reel/1383113330703845",
+      "fb_doc_posted_at": "2026-10-15 10:17",
+      "fb_doc_video_id": "2311000996313685",
+      "fb_doc_video_permalink": "https://www.facebook.com/257090621405568/videos/2311000996313685",
+      "fb_doc_video_posted_at": "2026-10-15 10:17",
+      "ig_doc_id": "18356771152222635",
+      "ig_doc_permalink": "https://www.instagram.com/reel/Deheo9eFSaN/",
+      "ig_doc_posted_at": "2026-10-15 10:17",
+      "nostr_doc_event_id": "fccf17c1cad09b42ce6bde4c845d3574b64f5a1ec524d0d3eb102d08aa35718c",
+      "nostr_doc_posted_at": "2026-10-15 10:17",
+      "fb_doc_pt_id": "1631595995033742",
+      "fb_doc_pt_permalink": "https://www.facebook.com/reel/1631595995033742",
+      "fb_doc_pt_posted_at": "2026-10-15 10:20",
+      "fb_doc_pt_video_id": "1437618251676170",
+      "fb_doc_pt_video_permalink": "https://www.facebook.com/1302345022970232/videos/1437618251676170",
+      "fb_doc_pt_video_posted_at": "2026-10-15 10:20",
+      "doc_tweet_id": "2110783420712530010",
+      "doc_tweet_permalink": "https://x.com/_holychip/status/2110783420712530010",
+      "doc_tweet_posted_at": "2026-10-15 10:22"
+    },
+    {
+      "story": "HC049",
+      "title": "AI Longevity Dept.",
+      "fb_post_id": "257090621405568_1418435590490865",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1418435590490865",
+      "fb_posted_at": "2026-10-15 09:03",
+      "ig_post_id": "18108511673263333",
+      "ig_permalink": "https://www.instagram.com/p/DehWEzbAY5d/",
+      "ig_posted_at": "2026-10-15 09:03",
+      "nostr_event_id": "6dd916f1e544eafd6a804c3a429f788def20eb094cabd4ae7c45932aa54f7c34",
+      "nostr_posted_at": "2026-10-15 09:04",
+      "nostr_relays": [
+        "wss://relay.damus.io",
+        "wss://nos.lol",
+        "wss://relay.primal.net",
+        "wss://relay.nostr.band",
+        "wss://relay.snort.social"
+      ],
+      "tweet_id": "2110764364278194258",
+      "tweet_url": "https://x.com/_holychip/status/2110764364278194258",
+      "tweet_posted_at": "2026-10-15 09:06"
     }
   ],
   "intro_thread": {
@@ -1603,7 +1645,7 @@
     ]
   },
   "metadata": {
-    "updated": "2026-10-14 10:57",
+    "updated": "2026-10-15 10:21",
     "next_story": "HC014",
     "total_stories": 19,
     "total_posted": 36,

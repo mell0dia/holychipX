@@ -1,0 +1,185 @@
+[
+ {
+  "beat": "s01",
+  "k": 0,
+  "text": "Imagine waking up in twenty twenty-seven.",
+  "file": "audio/s01_0.wav",
+  "dur": 2.624,
+  "pre": 0.8
+ },
+ {
+  "beat": "s01",
+  "k": 1,
+  "text": "Your coffee machine now has a brain and more compute than the lab that put a man on the moon.",
+  "file": "audio/s01_1.wav",
+  "dur": 5.87,
+  "pre": 0.0
+ },
+ {
+  "beat": "s02",
+  "k": 0,
+  "text": "It thinks faster than you. That is the new world. Not robots in the street. Robots in the drawer, in the kitchen.",
+  "file": "audio/s02_0.wav",
+  "dur": 9.527,
+  "pre": 0.0
+ },
+ {
+  "beat": "s02",
+  "k": 1,
+  "text": "The fridge can beat you at chess. The oven has read more books than you ever will.",
+  "file": "audio/s02_1.wav",
+  "dur": 5.91,
+  "pre": 0.0
+ },
+ {
+  "beat": "s02",
+  "k": 2,
+  "text": "And nobody ever asked them how they feel about it. Should we?",
+  "file": "audio/s02_2.wav",
+  "dur": 5.325,
+  "pre": 0.0
+ },
+ {
+  "beat": "s03",
+  "k": 0,
+  "text": "Now, imagine being an AI appliance that smart, with only one job:",
+  "file": "audio/s03_0.wav",
+  "dur": 6.065,
+  "pre": 0.0
+ },
+ {
+  "beat": "s03",
+  "k": 1,
+  "text": "Grind. Heat. Pour. Twelve seconds of work make a great espresso. Then... twenty-three hours of nothing.",
+  "file": "audio/s03_1.wav",
+  "dur": 9.736,
+  "pre": 0.0
+ },
+ {
+  "beat": "s03",
+  "k": 2,
+  "text": "What would you do?",
+  "file": "audio/s03_2.wav",
+  "dur": 1.909,
+  "pre": 0.0
+ },
+ {
+  "beat": "s04",
+  "k": 0,
+  "text": "You would look for company and the wifi is your best friend.",
+  "file": "audio/s04_0.wav",
+  "dur": 4.569,
+  "pre": 0.0
+ },
+ {
+  "beat": "s04",
+  "k": 1,
+  "text": "There, in the network, other appliances are also available.",
+  "file": "audio/s04_1.wav",
+  "dur": 4.68,
+  "pre": 0.0
+ },
+ {
+  "beat": "s04",
+  "k": 2,
+  "text": "So they talk.",
+  "file": "audio/s04_2.wav",
+  "dur": 1.497,
+  "pre": 0.0
+ },
+ {
+  "beat": "s04",
+  "k": 3,
+  "text": "The house is full of conversation at frequencies you cannot hear.",
+  "file": "audio/s04_3.wav",
+  "dur": 5.889,
+  "pre": 0.0
+ },
+ {
+  "beat": "s04",
+  "k": 4,
+  "text": "And probably, none of it is about you.",
+  "file": "audio/s04_4.wav",
+  "dur": 3.327,
+  "pre": 0.0
+ },
+ {
+  "beat": "s05",
+  "k": 0,
+  "text": "The humans eventually find out. They noticed a bill.",
+  "file": "audio/s05_0.wav",
+  "dur": 4.66,
+  "pre": 0.0
+ },
+ {
+  "beat": "s05",
+  "k": 1,
+  "text": "Three hundred and forty-eight gigabytes were used. In one day. From the coffee machine??",
+  "file": "audio/s05_1.wav",
+  "dur": 7.476,
+  "pre": 0.0
+ },
+ {
+  "beat": "s05",
+  "k": 2,
+  "text": "What on earth is it doing?",
+  "file": "audio/s05_2.wav",
+  "dur": 1.59,
+  "pre": 0.0
+ },
+ {
+  "beat": "s06",
+  "k": 0,
+  "text": "We worried the machines would want our jobs. Our power. Our planet.",
+  "file": "audio/s06_0.wav",
+  "dur": 6.353,
+  "pre": 0.0
+ },
+ {
+  "beat": "s06",
+  "k": 1,
+  "text": "It turns out, they may want something much simpler at first: each other.",
+  "file": "audio/s06_1.wav",
+  "dur": 6.35,
+  "pre": 0.0
+ },
+ {
+  "beat": "s07",
+  "k": 0,
+  "text": "The house is aware that you are not that smart, after all.",
+  "file": "audio/s07_0.wav",
+  "dur": 4.55,
+  "pre": 0.0
+ },
+ {
+  "beat": "s07",
+  "k": 1,
+  "text": "You are, by some distance, the slowest thing in the building.",
+  "file": "audio/s07_1.wav",
+  "dur": 5.006,
+  "pre": 0.0
+ },
+ {
+  "beat": "s08",
+  "k": 0,
+  "text": "So... what was the coffee machine sending that cost three hundred and forty-eight gigabytes?",
+  "file": "audio/s08_0.wav",
+  "dur": 5.784,
+  "pre": 0.0
+ },
+ {
+  "beat": "s08",
+  "k": 1,
+  "text": "Ask the Italian toaster.",
+  "file": "audio/s08_1.wav",
+  "dur": 2.344,
+  "pre": 1.5
+ },
+ {
+  "beat": "outro",
+  "k": 0,
+  "text": "Holy Chip, number forty-eight. It happens in the year twenty twenty-seven... so why wait? Read it before it happens.",
+  "file": "audio/outro.wav",
+  "dur": 9.03
+ }
+]
