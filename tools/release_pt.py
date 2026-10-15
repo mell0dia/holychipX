@@ -137,7 +137,9 @@ def _build(e, q):
         card, nft = ng_card(e["phrase"], sid, q)
         e["_nft"] = nft
         imgs = [card]          # Facebook: the card alone, like the English ng (no mosaic)
-        cap = f"{e['phrase']}\n\nLEIA A ORIGEM: {WWW}/origins/{sid}.html?lang=pt\n\n{BASE_TAGS} {e.get('tags', '')}".rstrip()
+        link = (f"LEIA O SHORT: {WWW}/stories.html?story={sid}&lang=pt" if sid.endswith(".short")
+                else f"LEIA A ORIGEM: {WWW}/origins/{sid}.html?lang=pt")       # shorts have no origin page
+        cap = f"{e['phrase']}\n\n{link}\n\n{BASE_TAGS} {e.get('tags', '')}".rstrip()
         return imgs, cap
     raise ValueError(f"unknown kind {k}")
 

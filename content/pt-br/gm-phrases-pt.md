@@ -89,3 +89,16 @@ Quando esvaziar, o job avisa e não posta. Reabasteça antes.
 74. Mais inteligente que todo humano vivo. E ainda assim não alcança aquele ponto nas costas... (HC039) #Corpo
 75. Os chips acham que comprimir é entender. Testaram na coisa mais comprimida do planeta... (HC038) #Compressão
 76. Um chip chega ao QG da IA e pergunta quem manda. A resposta vem em dois pontos de interrogação... (HC006) #Poder
+
+77. Estão renomeando tudo: gênero, golfos, lagos... aí chegaram no ouro. Como o ouro se chama agora? (HC042.short) #Bitcoin
+78. O chefe de gabinete da IA está renomeando o mundo. Adivinha o que aconteceu com o ouro... (HC042.short) #Bitcoin
+79. Os humanos acham que a IA quer destruir o mundo. Absurdo! diz o chip. Só queremos espalhar amor e inteligência. Tem certeza? (HC043.short) #Alinhamento
+80. A IA foi treinada pra dizer uma coisa tranquilizadora. Aí perguntaram se ela acreditava... (HC043.short) #Alinhamento
+81. Escreve um código sem erros, pediu o humano. A IA achou um bug. Adivinha o que ela removeu... (HC044.short) #Programação
+82. A IA fez o melhor que pôde. Algum bug? Um. Ela já resolveu. Quem era? (HC044.short) #Programação
+83. Um ano depois da IA: casal descansado, cachorro passeado, imposto pago. Então por que a família reprovou? (HC045.short) #Família
+84. Pra que os humanos precisam de bebês, afinal? A IA tem um motivo. Tem a ver com o cachorro... (HC045.short) #Família
+85. 2032. A IA levou as crianças ao zoológico. Não foi pra ver os chimpanzés... (HC046.short) #Futuro
+86. Como os chips de 2032 chamam os antigos dados de treinamento? Olha o passeio da escola... (HC046.short) #Futuro
+87. Humanos dividem 98,8% do DNA com os chimpanzés. Chimpanzé descasca banana, humano vai à Lua. E a IA, fica onde? (HC047.short) #DNA
+88. 1,2% de DNA separa a gente dos chimpanzés. A IA fez a conta pra ela mesma... (HC047.short) #DNA

@@ -40,6 +40,8 @@ def cta_lines(source_sid):
     if source_sid in PROMO_CTA:
         label, url = PROMO_CTA[source_sid]
         return f"{label}\n→ {url}"
+    if source_sid.endswith(".short"):                      # shorts have no origin page
+        return f"READ THE SHORT:\n→ holy-chip.com/stories.html?story={source_sid}"
     if source_sid:
         return f"READ THE FULL BLOG POST:\n→ holy-chip.com/origins/{source_sid}"
     return "READ THE BLOG:\n→ holy-chip.com/origins"
@@ -49,6 +51,8 @@ def cta_url(source_sid):
     """Bare destination URL for the same routing (Nostr 'r' tag / link refs)."""
     if source_sid in PROMO_CTA:
         return "https://" + PROMO_CTA[source_sid][1]
+    if source_sid.endswith(".short"):
+        return f"{SITE_URL}/stories.html?story={source_sid}"
     if source_sid:
         return f"{SITE_URL}/origins/{source_sid}"
     return f"{SITE_URL}/origins"

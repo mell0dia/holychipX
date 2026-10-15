@@ -91,7 +91,7 @@ def load_phrases():
             continue
         text = m.group(1).strip()
         sid = ""
-        sm = re.search(r"\s*\((HC\d+|PROMO-[A-Z]+)\)\s*$", text)
+        sm = re.search(r"\s*\((HC\d+(?:\.short)?|PROMO-[A-Z]+)\)\s*$", text)
         if sm:
             sid = sm.group(1)
             text = text[:sm.start()].strip()
@@ -166,7 +166,7 @@ def remove_phrase(text):
         m = re.match(r"^\s*\d+\.\s+(.*\S)\s*$", line)
         if m:
             body = m.group(1).strip()
-            core = re.sub(r"\s*\((?:HC\d+|PROMO-[A-Z]+)\)\s*$", "", body).strip()
+            core = re.sub(r"\s*\((?:HC\d+(?:\.short)?|PROMO-[A-Z]+)\)\s*$", "", body).strip()
             if not removed and core == target:
                 removed = True
                 continue                      # drop the used phrase

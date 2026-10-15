@@ -39,7 +39,7 @@ def main():
     if any(e["kind"] == "ng" and e["at"].startswith(today) for e in q["queue"]):
         print(f"{today}: ng already queued"); return 0
     text = BANK.read_text()
-    m = re.search(r"^\s*\d+\.\s+(.+?)\s+\((HC\d{3})\)\s*((?:#\S+\s*)*)$", text, re.M)
+    m = re.search(r"^\s*\d+\.\s+(.+?)\s+\((HC\d{3}(?:\.short)?)\)\s*((?:#\S+\s*)*)$", text, re.M)
     if not m:
         warn("phrase bank is EMPTY - refill content/pt-br/gm-phrases-pt.md"); return 1
     phrase, sid, tags = m.group(1).strip(), m.group(2), m.group(3).strip()
@@ -50,7 +50,7 @@ def main():
     q["queue"].append(entry); q["queue"].sort(key=lambda e: e["at"])
     QUEUE.write_text(json.dumps(q, indent=1, ensure_ascii=False) + "\n")
     BANK.write_text(text[:m.start()] + text[m.end():].lstrip("\n") if text[m.end():m.end()+1] == "\n" else text[:m.start()] + text[m.end():])
-    left = len(re.findall(r"^\s*\d+\.\s+.+\(HC\d{3}\)", BANK.read_text(), re.M))
+    left = len(re.findall(r"^\s*\d+\.\s+.+\(HC\d{3}(?:\.short)?\)", BANK.read_text(), re.M))
     LOG.parent.mkdir(parents=True, exist_ok=True)
     LOG.open("a").write(f"{datetime.now():%Y-%m-%d %H:%M} queued {sid} | {phrase[:60]} | {left} left\n")
     if left <= 7:
