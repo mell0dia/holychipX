@@ -87,5 +87,9 @@ paragraph. Refill before it runs dry.
 68. What if your robot finished everything an hour before you asked? Everything... (HC026)
 
 
+69. Your coffee machine used 348 gigabytes in one day. Doing what? Ask the toaster... (HC048)
+70. Every appliance in the house got a mind before anyone decided it should. Nobody asked how they feel. Then the bill came... (HC048)
+71. A pill that lets you live to 150. Monthly subscription. What happens if you miss a payment? Page 4,000 has the answer... (HC049)
+72. The oldest wish of the species, granted by the ones nobody ever prayed to. It came with a plan... (HC049)
 # House promo — Holy Chip self-promotion (rotates in with the others)
 # (empty — add lines tagged (PROMO-BLOG) / (PROMO-BUILDER) / (PROMO-SHOP))
