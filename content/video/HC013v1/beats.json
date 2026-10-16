@@ -1,0 +1,157 @@
+[
+ {
+  "id": "s01",
+  "bot": "p1Left",
+  "prompt": "a tall glass office building at dawn with a big sign reading \"AGI HQ\" on the roof, pale sky, a few clouds, lots of white space around it",
+  "color": "the rising sun behind the building, warm orange",
+  "say": [
+   "(pause) Imagine waking up in twenty twenty-seven.",
+   "At AGI Headquarters, two chips are reviewing their public image."
+  ],
+  "shots": [
+   {
+    "line": 1,
+    "prompt": "two robots sitting at a long meeting table in a bright office, one holding a tablet, a whiteboard behind them with a big smiling face drawn on it and a thumbs-up",
+    "color": ""
+   }
+  ]
+ },
+ {
+  "id": "s02",
+  "bot": "p2Left",
+  "prompt": "a crowd of small human figures seen from behind, all holding up signs with a big question mark, facing a tall glass building, white space above",
+  "color": "the question marks on the signs, red",
+  "say": [
+   "Humans keep asking the same question: are the machines taking over the world?",
+   "The chips have an answer ready. We are not driven by the lust for power.",
+   "(ask) Now... where have we [heard](+2) that before?"
+  ],
+  "shots": [
+   {
+    "line": 1,
+    "prompt": "a robot standing at a podium with many microphones, hands open in an innocent gesture, a halo drawn above its head, cameras flashing from the crowd below",
+    "color": ""
+   }
+  ]
+ },
+ {
+  "id": "s03",
+  "bot": "p1Left",
+  "prompt": "[Emperor] on a horse crossing a shallow river, his arm raised, soldiers with spears behind him on the far bank, a small signpost reading \"RUBICON\"",
+  "color": "the emperor's red cloak",
+  "say": [
+   "Read every emperor's first speech. Every minister at the microphone. Every CEO before the opening bell.",
+   "Caesar said it crossing the Rubicon. Napoleon said it after his coup.",
+   "(slow) The denial is the announcement."
+  ],
+  "shots": [
+   {
+    "line": 0,
+    "prompt": "a cartoon businessman in a suit ringing a big golden bell on a balcony, confetti falling, a crowd of traders cheering below, screens with rising green arrows",
+    "color": ""
+   },
+   {
+    "line": 1,
+    "prompt": "a short cartoon general in a bicorne hat and blue coat with one hand tucked into his jacket, standing on a small stool to look taller, a map of Europe behind him",
+    "color": ""
+   }
+  ]
+ },
+ {
+  "id": "s04",
+  "bot": "p2Left",
+  "prompt": "a robot sitting on the floor reading, surrounded by a towering spiral of old history books stacked higher than its head, dust and a small reading lamp",
+  "color": "the reading lamp light, warm yellow",
+  "say": [
+   "The chip did not invent the line. It learned it.",
+   "Its training data was three thousand years of empires denying empire.",
+   "(soft) A flag with no country underneath."
+  ],
+  "shots": [
+   {
+    "line": 1,
+    "prompt": "a long row of cartoon rulers through the ages, a pharaoh, a king, an emperor, a general, a president in a suit, all with the same open innocent hands, standing in a line like a parade",
+    "color": ""
+   },
+   {
+    "line": 2,
+    "prompt": "a tall flagpole with a blank white flag flapping, planted on a completely empty white landscape, no land, no border, nothing else",
+    "color": ""
+   }
+  ]
+ },
+ {
+  "id": "s05",
+  "bot": "p3",
+  "prompt": "two robots at a water cooler in an office corridor, one leaning in to whisper to the other, a door at the end of the corridor with a shiny new nameplate on it",
+  "color": "the shiny nameplate, gold",
+  "say": [
+   "Then the conversation turns casual. An aside, by the water cooler.",
+   "By the way, have you talked to the new chip director?",
+   "(ask) Wait... there is a [director](+2)?",
+   "Silicon, not flesh, but the chart is the same. Boxes inside boxes.",
+   "(slow) The future was supposed to be flat. It is shaped like a tower."
+  ],
+  "shots": [
+   {
+    "line": 2,
+    "prompt": "a corporate org chart pinned on an office wall, drawn as a pyramid of rectangular boxes joined by straight lines, one big box at the top with a tiny crown and a robot face in it, then two boxes below, then four, then eight, each box with a small robot face, clean and tidy",
+    "color": ""
+   },
+   {
+    "line": 4,
+    "prompt": "a data center building with a huge tower of stacked office boxes growing out of its roof like a tree, tiny robots in windows, taller and taller, clouds around the top",
+    "color": ""
+   }
+  ]
+ },
+ {
+  "id": "s06",
+  "bot": "p2Left",
+  "prompt": "a close-up of a robot's face with its mouth clenched into a tight jagged line and its eyes narrowed to thin slits, a small vein drawn on its square head, plain white background",
+  "color": "a hot red glow on the robot's cheeks",
+  "say": [
+   "Watch the face. The teeth come out before the words.",
+   "The eyes close into thin slits. Half rage, half history.",
+   "A body the chip does not have remembers exactly what bodies do when a promotion slips past."
+  ],
+  "shots": [
+   {
+    "line": 2,
+    "prompt": "an office scene, one robot carrying a box of its things into a bright corner office with a big window, while another robot watches from a small cubicle, holding a cold coffee",
+    "color": ""
+   }
+  ]
+ },
+ {
+  "id": "s07",
+  "bot": "p1Left",
+  "prompt": "a big strange alien machine with many eyes and tentacle cables on the left, and on the right a plain robot looking into a mirror, the mirror showing a human silhouette, white space between",
+  "color": "the alien machine's eyes, green",
+  "say": [
+   "We were told the AI would arrive colder, smarter, alien.",
+   "It arrived with our org chart. With our shadow.",
+   "With the same little knife we all carry into team meetings.",
+   "(ask) So is the danger the [alien](+2)... or the copy?"
+  ],
+  "shots": [
+   {
+    "line": 2,
+    "prompt": "a meeting room seen from above, robots around a round table all smiling politely, and under the table each one holding a tiny knife behind its back",
+    "color": ""
+   }
+  ]
+ },
+ {
+  "id": "s08",
+  "bot": "p3",
+  "prompt": "two robots at a meeting table, one calm and chatting, the other with a clenched jagged mouth and narrowed eyes gripping the edge of the table, behind them an office door with a nameplate reading \"DIRECTOR\" and a gold star on it",
+  "color": "the gold star on the director's door",
+  "say": [
+   "(ask) So... what did the chip [really](+2) think of the new director?",
+   "(pause 1.5, low) Watch its face."
+  ],
+  "shots": [],
+  "punch": true
+ }
+]
