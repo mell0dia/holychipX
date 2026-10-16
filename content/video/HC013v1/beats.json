@@ -30,21 +30,29 @@
  {
   "id": "s03",
   "bot": "p1Left",
-  "prompt": "[Emperor] on a horse crossing a shallow river, his arm raised, soldiers with spears behind him on the far bank, a small signpost reading \"RUBICON\"",
-  "color": "the emperor's red cloak",
+  "prompt": "a long row of cartoon rulers through the ages, a pharaoh, a king, an emperor, a general, a president in a suit, all with the same open innocent hands, standing in a line like a parade",
+  "color": "the president's red tie",
   "say": [
-   "Read every emperor's first speech. Every minister at the microphone. Every CEO before the opening bell.",
-   "Caesar said it crossing the Rubicon. Napoleon said it after his coup.",
+   "Read every emperor's first speech. Every minister at the microphone.",
+   "Every CEO",
+   "before the opening bell.",
+   "Caesar said it crossing the Rubicon.",
+   "Napoleon said it after his coup.",
    "(slow) The denial is the announcement."
   ],
   "shots": [
    {
-    "line": 0,
+    "line": 2,
     "prompt": "a cartoon businessman in a suit ringing a big golden bell on a balcony, confetti falling, a crowd of traders cheering below, screens with rising green arrows",
     "color": ""
    },
    {
-    "line": 1,
+    "line": 3,
+    "prompt": "[Emperor] on a horse crossing a shallow river, his arm raised, soldiers with spears behind him on the far bank, a small signpost reading \"RUBICON\"",
+    "color": ""
+   },
+   {
+    "line": 4,
     "prompt": "a short cartoon general in a bicorne hat and blue coat with one hand tucked into his jacket, standing on a small stool to look taller, a map of Europe behind him",
     "color": ""
    }
@@ -59,13 +67,7 @@
    "The chip did not invent the line. It learned it.",
    "Its training data was three thousand years of empires telling their own stories."
   ],
-  "shots": [
-   {
-    "line": 1,
-    "prompt": "a long row of cartoon rulers through the ages, a pharaoh, a king, an emperor, a general, a president in a suit, all with the same open innocent hands, standing in a line like a parade",
-    "color": ""
-   }
-  ]
+  "shots": []
  },
  {
   "id": "s05",
@@ -73,9 +75,9 @@
   "prompt": "two robots at a water cooler in an office corridor, one leaning in to whisper to the other, a door at the end of the corridor with a shiny new nameplate on it",
   "color": "the shiny nameplate, gold",
   "say": [
-   "While this conversation is going on,",
+   "After the answer to the humans,",
    "one chip mentions the new director.",
-   "(ask) I guess even AI needs a [hierarchy](+2)?"
+   "It seems even AI needs a hierarchy."
   ],
   "shots": [
    {
@@ -93,7 +95,7 @@
   "say": [
    "The other chip, hearing about the new director,",
    "loses its cool.",
-   "The eyes go red. Half rage, half history.",
+   "Its silicon face changes. Half rage, half envy.",
    "(low) It was supposed to be the new director."
   ],
   "shots": [
@@ -110,8 +112,8 @@
   "prompt": "a big strange alien machine with many eyes and tentacle cables on the left, and on the right a plain robot looking into a mirror, the mirror showing a human silhouette, white space between",
   "color": "the alien machine's eyes, green",
   "say": [
-   "We were told the AI would arrive colder, smarter, alien.",
-   "It arrived with our org chart. With our shadow.",
+   "We were told the AI would arrive colder, smarter, almost like an alien.",
+   "It actually arrived with our org chart. With our shadow.",
    "With the same little knife we all carry into team meetings."
   ],
   "shots": [
@@ -128,8 +130,8 @@
   "prompt": "two robots at a meeting table, one calm and chatting, the other with a clenched jagged mouth and narrowed eyes gripping the edge of the table, behind them an office door with a nameplate reading \"DIRECTOR\" and a gold star on it",
   "color": "the gold star on the director's door",
   "say": [
-   "(ask) After all, the AI [mirrors](+2) the human.",
-   "(pause 1.5, low) And... the lust for power can also be learned."
+   "(ask) After all, if the AI is a [mirror](+2) of the human...",
+   "(pause 1.5, low) the lust for power can also be learned."
   ],
   "shots": [],
   "punch": true

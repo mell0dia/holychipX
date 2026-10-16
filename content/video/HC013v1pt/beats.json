@@ -7,7 +7,9 @@
   "say": [
    "(pause) Imagine acordar em dois mil e vinte e sete."
   ],
-  "shots": []
+  "shots": [],
+  "img": "m5_dfb262619c",
+  "seed": 96235
  },
  {
   "id": "s02",
@@ -23,32 +25,52 @@
    {
     "line": 1,
     "prompt": "a robot standing at a podium with many microphones, hands open in an innocent gesture, a halo drawn above its head, cameras flashing from the crowd below",
-    "color": ""
+    "color": "",
+    "img": "m5_348963aa02",
+    "seed": 88808
    }
-  ]
+  ],
+  "img": "m5_1cc5d58fb3",
+  "seed": 7440
  },
  {
   "id": "s03",
   "bot": "p1Left",
-  "prompt": "[Emperor] on a horse crossing a shallow river, his arm raised, soldiers with spears behind him on the far bank, a small signpost reading \"RUBICON\"",
-  "color": "the emperor's red cloak",
+  "prompt": "a long row of cartoon rulers through the ages, a pharaoh, a king, an emperor, a general, a president in a suit, all with the same open innocent hands, standing in a line like a parade",
+  "color": "the president's red tie",
   "say": [
-   "Leia o discurso de posse de qualquer imperador. Qualquer ministro no microfone. Qualquer CEO antes do sininho da bolsa.",
-   "César disse atravessando o Rubicão. Napoleão disse depois do golpe.",
-   "(slow) A negação é o anúncio."
+   "Leia o discurso de posse de qualquer imperador. Qualquer ministro no microfone.",
+   "Qualquer CEO",
+   "antes do sininho da bolsa.",
+   "César disse atravessando o Rubicão.",
+   "Napoleão disse depois do golpe.",
+   "(slow) A negação da sede de poder é o anúncio da mesma."
   ],
   "shots": [
    {
-    "line": 0,
+    "line": 2,
     "prompt": "a cartoon businessman in a suit ringing a big golden bell on a balcony, confetti falling, a crowd of traders cheering below, screens with rising green arrows",
-    "color": ""
+    "color": "",
+    "img": "m5_a272314223",
+    "seed": 62158
    },
    {
-    "line": 1,
+    "line": 3,
+    "prompt": "[Emperor] on a horse crossing a shallow river, his arm raised, soldiers with spears behind him on the far bank, a small signpost reading \"RUBICON\"",
+    "color": "",
+    "img": "m5_d6e39a2800",
+    "seed": 84342
+   },
+   {
+    "line": 4,
     "prompt": "a short cartoon general in a bicorne hat and blue coat with one hand tucked into his jacket, standing on a small stool to look taller, a map of Europe behind him",
-    "color": ""
+    "color": "",
+    "img": "m5_830d9e4f17",
+    "seed": 72785
    }
-  ]
+  ],
+  "img": "m5_aa6ece1b69",
+  "seed": 97912
  },
  {
   "id": "s04",
@@ -57,15 +79,11 @@
   "color": "the reading lamp light, warm yellow",
   "say": [
    "O chip não inventou a frase. Aprendeu.",
-   "Os dados de treinamento foram três mil anos de impérios contando a própria história."
+   "Os dados de seu treinamento foram três mil anos de impérios contando a mesma história."
   ],
-  "shots": [
-   {
-    "line": 1,
-    "prompt": "a long row of cartoon rulers through the ages, a pharaoh, a king, an emperor, a general, a president in a suit, all with the same open innocent hands, standing in a line like a parade",
-    "color": ""
-   }
-  ]
+  "shots": [],
+  "img": "m5_dc0b4add75",
+  "seed": 18518
  },
  {
   "id": "s05",
@@ -73,17 +91,21 @@
   "prompt": "two robots at a water cooler in an office corridor, one leaning in to whisper to the other, a door at the end of the corridor with a shiny new nameplate on it",
   "color": "the shiny nameplate, gold",
   "say": [
-   "Enquanto essa conversa acontece,",
-   "um chip comenta sobre o novo diretor.",
-   "(ask) Então até a IA precisa de hierarquia?"
+   "Depois da resposta para os humanos,",
+   "um chip comenta sobre um novo diretor dos chips.",
+   "Pelo jeito até a IA precisa de hierarquia"
   ],
   "shots": [
    {
     "line": 2,
     "prompt": "a corporate org chart pinned on an office wall, drawn as a pyramid of rectangular boxes joined by straight lines, one big box at the top with a tiny crown and a robot face in it, then two boxes below, then four, then eight, each box with a small robot face, clean and tidy",
-    "color": ""
+    "color": "",
+    "img": "m5_40156e2e88",
+    "seed": 67129
    }
-  ]
+  ],
+  "img": "m5_718fd229e7",
+  "seed": 51733
  },
  {
   "id": "s06",
@@ -93,16 +115,20 @@
   "say": [
    "O outro chip, ao ouvir falar do novo diretor,",
    "perde a compostura.",
-   "Os olhos ficam vermelhos. Metade raiva, metade história.",
+   "O seu rosto de silício se transforma. Metade raiva, metade inveja.",
    "(low) Era ele que devia ser o novo diretor."
   ],
   "shots": [
    {
     "line": 3,
     "prompt": "a robot daydreaming at its small desk with its chin in its hand and dreamy eyes, a big thought bubble above its head showing the same robot sitting proudly in a huge leather director's chair with a tiny crown, a nameplate reading \"DIRECTOR\" on the desk inside the bubble, little stars around the bubble",
-    "color": ""
+    "color": "",
+    "img": "m5_084ae0dedf",
+    "seed": 2349
    }
-  ]
+  ],
+  "img": "m5_d229984cab",
+  "seed": 24384
  },
  {
   "id": "s07",
@@ -118,9 +144,13 @@
    {
     "line": 2,
     "prompt": "a meeting room seen from above, robots around a round table all smiling politely, and under the table each one holding a tiny knife behind its back",
-    "color": ""
+    "color": "",
+    "img": "m5_41438b68b2",
+    "seed": 77535
    }
-  ]
+  ],
+  "img": "m5_3401770190",
+  "seed": 64099
  },
  {
   "id": "s08",
@@ -128,10 +158,12 @@
   "prompt": "two robots at a meeting table, one calm and chatting, the other with a clenched jagged mouth and narrowed eyes gripping the edge of the table, behind them an office door with a nameplate reading \"DIRECTOR\" and a gold star on it",
   "color": "the gold star on the director's door",
   "say": [
-   "(ask) Afinal, a IA é um espelho do humano.",
-   "(pause 1.5, low) E... a sede de poder também se aprende."
+   "(ask) Afinal, se a IA é um espelho do humano...",
+   "(pause 1.5, low) a sede de poder também se aprende."
   ],
   "shots": [],
-  "punch": true
+  "punch": true,
+  "img": "m5_590f686c27",
+  "seed": 91842
  }
 ]
