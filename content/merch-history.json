@@ -3,9 +3,10 @@
     "Chip_1011",
     "Chip_1",
     "Chip_10010",
-    "Chip_101"
+    "Chip_101",
+    "Chip_100"
   ],
-  "next_shirt_style": "ringer",
+  "next_shirt_style": "style5",
   "posts": [
     {
       "date": "2026-10-01",
@@ -89,6 +90,26 @@
       },
       "tweet_id": "2109751490860773528",
       "nostr_event_id": "1d8c84d8abea6d7359fa681b879a2e3b9d7a1a143f462b61327205d86871d4e1"
+    },
+    {
+      "date": "2026-10-15",
+      "kind": "shirt",
+      "bot": "Chip_100",
+      "product": "Ringer tee",
+      "images": [
+        "assets/merch/Chip_100_ringer_white_back.jpg",
+        "assets/merch/Chip_100_ringer_white_front.jpg"
+      ],
+      "fb": {
+        "id": "257090621405568_1418639140470510",
+        "permalink": "https://www.facebook.com/257090621405568/posts/1418639140470510"
+      },
+      "ig": {
+        "id": "18075908312556141",
+        "permalink": "https://www.instagram.com/p/Deh4KPGAW14/"
+      },
+      "tweet_id": "2110838808904372388",
+      "nostr_event_id": "d291262e41988dd69a1122c382e991366d979f8b1b221c59358645dd69e01cb4"
     }
   ]
 }

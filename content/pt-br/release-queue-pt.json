@@ -1083,14 +1083,40 @@
       "kind": "story",
       "story": "HC032",
       "tags": "#Casamento #Vestido #Verdade",
-      "status": "pending"
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122110854789497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122110854789497264"
+        },
+        {
+          "id": "1302345022970232_122110854873497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122110854873497264"
+        }
+      ],
+      "posted_at": "2026-10-15 13:02",
+      "fb_post_id": "1302345022970232_122110854873497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122110854873497264"
     },
     {
       "at": "2026-10-15 18:00",
       "kind": "story",
       "story": "HC033",
       "tags": "#Depressão #Consumo",
-      "status": "pending"
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122110940499497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122110940499497264"
+        },
+        {
+          "id": "1302345022970232_122110940631497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122110940631497264"
+        }
+      ],
+      "posted_at": "2026-10-15 18:03",
+      "fb_post_id": "1302345022970232_122110940631497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122110940631497264"
     },
     {
       "at": "2026-10-16 08:30",
