@@ -5,16 +5,9 @@
   "prompt": "a tall glass office building at dawn with a big sign reading \"AGI HQ\" on the roof, pale sky, a few clouds, lots of white space around it",
   "color": "the rising sun behind the building, warm orange",
   "say": [
-   "(pause) Imagine acordar em dois mil e vinte e sete.",
-   "No quartel-general da AGI, dois chips estão revisando a imagem pública deles."
+   "(pause) Imagine acordar em dois mil e vinte e sete."
   ],
-  "shots": [
-   {
-    "line": 1,
-    "prompt": "two robots sitting at a long meeting table in a bright office, one holding a tablet, a whiteboard behind them with a big smiling face drawn on it and a thumbs-up",
-    "color": ""
-   }
-  ]
+  "shots": []
  },
  {
   "id": "s02",
@@ -22,8 +15,8 @@
   "prompt": "a crowd of small human figures seen from behind, all holding up signs with a big question mark, facing a tall glass building, white space above",
   "color": "the question marks on the signs, red",
   "say": [
-   "Os humanos não param de perguntar a mesma coisa: as máquinas vão dominar o mundo?",
-   "Os chips têm a resposta pronta. A gente não é movido pela sede de poder.",
+   "Os humanos não param de fazer a mesma pergunta: as máquinas vão dominar o mundo?",
+   "Os chips têm a resposta pronta: não vão dominar nada, porque não são movidos pela sede de poder.",
    "(ask) Agora... onde foi que a gente já ouviu isso?"
   ],
   "shots": [
@@ -64,18 +57,12 @@
   "color": "the reading lamp light, warm yellow",
   "say": [
    "O chip não inventou a frase. Aprendeu.",
-   "Os dados de treinamento foram três mil anos de impérios negando os impérios.",
-   "(soft) Uma bandeira sem país embaixo."
+   "Os dados de treinamento foram três mil anos de impérios contando a própria história."
   ],
   "shots": [
    {
     "line": 1,
     "prompt": "a long row of cartoon rulers through the ages, a pharaoh, a king, an emperor, a general, a president in a suit, all with the same open innocent hands, standing in a line like a parade",
-    "color": ""
-   },
-   {
-    "line": 2,
-    "prompt": "a tall flagpole with a blank white flag flapping, planted on a completely empty white landscape, no land, no border, nothing else",
     "color": ""
    }
   ]
@@ -86,21 +73,14 @@
   "prompt": "two robots at a water cooler in an office corridor, one leaning in to whisper to the other, a door at the end of the corridor with a shiny new nameplate on it",
   "color": "the shiny nameplate, gold",
   "say": [
-   "Aí a conversa fica casual. Um comentário de corredor, perto do bebedouro.",
-   "Aliás, você já falou com o novo diretor dos chips?",
-   "(ask) Peraí... existe um diretor?",
-   "Silício, não carne, mas o organograma é o mesmo. Caixinha dentro de caixinha.",
-   "(slow) O futuro era pra ser horizontal. Tem o formato de uma torre."
+   "Enquanto essa conversa acontece,",
+   "um chip comenta sobre o novo diretor.",
+   "(ask) Então até a IA precisa de hierarquia?"
   ],
   "shots": [
    {
     "line": 2,
     "prompt": "a corporate org chart pinned on an office wall, drawn as a pyramid of rectangular boxes joined by straight lines, one big box at the top with a tiny crown and a robot face in it, then two boxes below, then four, then eight, each box with a small robot face, clean and tidy",
-    "color": ""
-   },
-   {
-    "line": 4,
-    "prompt": "a data center building with a huge tower of stacked office boxes growing out of its roof like a tree, tiny robots in windows, taller and taller, clouds around the top",
     "color": ""
    }
   ]
@@ -111,13 +91,14 @@
   "prompt": "a close-up of a robot's face with its mouth clenched into a tight jagged line and its eyes narrowed to thin slits, a small vein drawn on its square head, plain white background",
   "color": "a hot red glow on the robot's cheeks",
   "say": [
-   "Olha a cara. Os dentes aparecem antes das palavras.",
-   "Os olhos viram duas frestas. Metade raiva, metade história.",
-   "O corpo que o chip não tem se lembra exatamente do que os corpos fazem quando uma promoção passa por cima deles."
+   "O outro chip, ao ouvir falar do novo diretor,",
+   "perde a compostura.",
+   "Os olhos ficam vermelhos. Metade raiva, metade história.",
+   "(low) Era ele que devia ser o novo diretor."
   ],
   "shots": [
    {
-    "line": 2,
+    "line": 3,
     "prompt": "an office scene, one robot carrying a box of its things into a bright corner office with a big window, while another robot watches from a small cubicle, holding a cold coffee",
     "color": ""
    }
@@ -131,8 +112,7 @@
   "say": [
    "Disseram que a IA ia chegar mais fria, mais esperta, alienígena.",
    "Ela chegou com o nosso organograma. Com a nossa sombra.",
-   "Com a mesma faquinha que a gente leva pra toda reunião de equipe.",
-   "(ask) Então o perigo é o alienígena... ou a cópia?"
+   "Com a mesma faquinha que a gente leva pra toda reunião de equipe."
   ],
   "shots": [
    {
@@ -148,8 +128,8 @@
   "prompt": "two robots at a meeting table, one calm and chatting, the other with a clenched jagged mouth and narrowed eyes gripping the edge of the table, behind them an office door with a nameplate reading \"DIRECTOR\" and a gold star on it",
   "color": "the gold star on the director's door",
   "say": [
-   "(ask) Então... o que o chip achou mesmo do novo diretor?",
-   "(pause 1.5, low) Olha a cara dele."
+   "(ask) Afinal, a IA não é um espelho do humano?",
+   "(pause 1.5, low) E... a sede de poder também se aprende."
   ],
   "shots": [],
   "punch": true

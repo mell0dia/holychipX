@@ -5,16 +5,9 @@
   "prompt": "a tall glass office building at dawn with a big sign reading \"AGI HQ\" on the roof, pale sky, a few clouds, lots of white space around it",
   "color": "the rising sun behind the building, warm orange",
   "say": [
-   "(pause) Imagine waking up in twenty twenty-seven.",
-   "At AGI Headquarters, two chips are reviewing their public image."
+   "(pause) Imagine waking up in twenty twenty-seven."
   ],
-  "shots": [
-   {
-    "line": 1,
-    "prompt": "two robots sitting at a long meeting table in a bright office, one holding a tablet, a whiteboard behind them with a big smiling face drawn on it and a thumbs-up",
-    "color": ""
-   }
-  ]
+  "shots": []
  },
  {
   "id": "s02",
@@ -23,7 +16,7 @@
   "color": "the question marks on the signs, red",
   "say": [
    "Humans keep asking the same question: are the machines taking over the world?",
-   "The chips have an answer ready. We are not driven by the lust for power.",
+   "The chips have an answer ready: they are not taking over, because they are not driven by the lust for power.",
    "(ask) Now... where have we [heard](+2) that before?"
   ],
   "shots": [
@@ -64,18 +57,12 @@
   "color": "the reading lamp light, warm yellow",
   "say": [
    "The chip did not invent the line. It learned it.",
-   "Its training data was three thousand years of empires denying empire.",
-   "(soft) A flag with no country underneath."
+   "Its training data was three thousand years of empires telling their own stories."
   ],
   "shots": [
    {
     "line": 1,
     "prompt": "a long row of cartoon rulers through the ages, a pharaoh, a king, an emperor, a general, a president in a suit, all with the same open innocent hands, standing in a line like a parade",
-    "color": ""
-   },
-   {
-    "line": 2,
-    "prompt": "a tall flagpole with a blank white flag flapping, planted on a completely empty white landscape, no land, no border, nothing else",
     "color": ""
    }
   ]
@@ -86,21 +73,14 @@
   "prompt": "two robots at a water cooler in an office corridor, one leaning in to whisper to the other, a door at the end of the corridor with a shiny new nameplate on it",
   "color": "the shiny nameplate, gold",
   "say": [
-   "Then the conversation turns casual. An aside, by the water cooler.",
-   "By the way, have you talked to the new chip director?",
-   "(ask) Wait... there is a [director](+2)?",
-   "Silicon, not flesh, but the chart is the same. Boxes inside boxes.",
-   "(slow) The future was supposed to be flat. It is shaped like a tower."
+   "While this conversation is going on,",
+   "one chip mentions the new director.",
+   "(ask) I guess even AI needs a [hierarchy](+2)?"
   ],
   "shots": [
    {
     "line": 2,
     "prompt": "a corporate org chart pinned on an office wall, drawn as a pyramid of rectangular boxes joined by straight lines, one big box at the top with a tiny crown and a robot face in it, then two boxes below, then four, then eight, each box with a small robot face, clean and tidy",
-    "color": ""
-   },
-   {
-    "line": 4,
-    "prompt": "a data center building with a huge tower of stacked office boxes growing out of its roof like a tree, tiny robots in windows, taller and taller, clouds around the top",
     "color": ""
    }
   ]
@@ -111,13 +91,14 @@
   "prompt": "a close-up of a robot's face with its mouth clenched into a tight jagged line and its eyes narrowed to thin slits, a small vein drawn on its square head, plain white background",
   "color": "a hot red glow on the robot's cheeks",
   "say": [
-   "Watch the face. The teeth come out before the words.",
-   "The eyes close into thin slits. Half rage, half history.",
-   "A body the chip does not have remembers exactly what bodies do when a promotion slips past."
+   "The other chip, hearing about the new director,",
+   "loses its cool.",
+   "The eyes go red. Half rage, half history.",
+   "(low) It was supposed to be the new director."
   ],
   "shots": [
    {
-    "line": 2,
+    "line": 3,
     "prompt": "an office scene, one robot carrying a box of its things into a bright corner office with a big window, while another robot watches from a small cubicle, holding a cold coffee",
     "color": ""
    }
@@ -131,8 +112,7 @@
   "say": [
    "We were told the AI would arrive colder, smarter, alien.",
    "It arrived with our org chart. With our shadow.",
-   "With the same little knife we all carry into team meetings.",
-   "(ask) So is the danger the [alien](+2)... or the copy?"
+   "With the same little knife we all carry into team meetings."
   ],
   "shots": [
    {
@@ -148,8 +128,8 @@
   "prompt": "two robots at a meeting table, one calm and chatting, the other with a clenched jagged mouth and narrowed eyes gripping the edge of the table, behind them an office door with a nameplate reading \"DIRECTOR\" and a gold star on it",
   "color": "the gold star on the director's door",
   "say": [
-   "(ask) So... what did the chip [really](+2) think of the new director?",
-   "(pause 1.5, low) Watch its face."
+   "(ask) After all, doesn't the AI [mirror](+2) the human?",
+   "(pause 1.5, low) And... the lust for power can also be learned."
   ],
   "shots": [],
   "punch": true
