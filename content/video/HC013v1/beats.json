@@ -15,9 +15,18 @@
   "prompt": "a crowd of small human figures seen from behind, all holding up signs with a big question mark, facing a tall glass building, white space above",
   "color": "the question marks on the signs, red",
   "say": [
-   "Humans keep asking the same question: are the machines taking over the world?",
-   "The chips have an answer ready: they are not taking over, because they are not driven by the lust for power.",
-   "(ask) Now... where have we [heard](+2) that before?"
+   "Humans keep asking the same question:"
+  ],
+  "shots": []
+ },
+ {
+  "id": "s03",
+  "bot": "p2Left",
+  "prompt": "a giant cartoon robot looming over a small planet Earth, one hand reaching down toward the tiny cities, a huge question mark in the sky, the people on the ground tiny and looking up",
+  "color": "the huge question mark, red",
+  "say": [
+   "Are the machines taking over the world?",
+   "The chips have an answer ready:"
   ],
   "shots": [
    {
@@ -28,109 +37,186 @@
   ]
  },
  {
-  "id": "s03",
+  "id": "s04",
   "bot": "p1Left",
-  "prompt": "a long row of cartoon rulers through the ages, a pharaoh, a king, an emperor, a general, a president in a suit, all with the same open innocent hands, standing in a line like a parade",
-  "color": "the president's red tie",
+  "prompt": "a robot at a podium with one hand on its chest and a sweet innocent smile, a halo above its head, and behind its back the other hand with its fingers crossed, a few microphones in front",
+  "color": "the halo, soft gold",
   "say": [
-   "Read every emperor's first speech. Every minister at the microphone.",
-   "Every CEO",
-   "before the opening bell.",
-   "Caesar said it crossing the Rubicon.",
-   "Napoleon said it after his coup.",
-   "(slow) The denial is the announcement."
+   "they are not taking over, because they are not driven by the lust for power.",
+   "(ask) Now... where have we [heard](+2) that before?"
   ],
   "shots": [
    {
-    "line": 2,
-    "prompt": "a cartoon businessman in a suit ringing a big golden bell on a balcony, confetti falling, a crowd of traders cheering below, screens with rising green arrows",
-    "color": ""
-   },
-   {
-    "line": 3,
-    "prompt": "[Emperor] on a horse crossing a shallow river, his arm raised, soldiers with spears behind him on the far bank, a small signpost reading \"RUBICON\"",
-    "color": ""
-   },
-   {
-    "line": 4,
-    "prompt": "a short cartoon general in a bicorne hat and blue coat with one hand tucked into his jacket, standing on a small stool to look taller, a map of Europe behind him",
+    "line": 1,
+    "prompt": "a person sitting in an armchair scratching their head, and above them a big thought bubble with a long line of tiny figures from history, a pharaoh, a king, a general, a man in a suit, all with the same open innocent hands and the same little speech bubble",
     "color": ""
    }
   ]
  },
  {
-  "id": "s04",
-  "bot": "p2Left",
-  "prompt": "a robot sitting on the floor reading, surrounded by a towering spiral of old history books stacked higher than its head, dust and a small reading lamp",
-  "color": "the reading lamp light, warm yellow",
-  "say": [
-   "The chip did not invent the line. It learned it.",
-   "Its training data was three thousand years of empires telling their own stories."
-  ],
-  "shots": []
- },
- {
   "id": "s05",
-  "bot": "p3",
-  "prompt": "two robots at a water cooler in an office corridor, one leaning in to whisper to the other, a door at the end of the corridor with a shiny new nameplate on it",
-  "color": "the shiny nameplate, gold",
+  "bot": "p1Left",
+  "prompt": "a long row of cartoon rulers through the ages, a pharaoh, a king, an emperor, a general, a president in a suit, all with the same open innocent hands, standing in a line like a parade",
+  "color": "the president's red tie",
   "say": [
-   "After the answer to the humans,",
-   "one chip mentions the new director.",
-   "It seems even AI needs a hierarchy."
+   "Read every emperor's first speech. Every minister at the microphone.",
+   "Every CEO before the opening bell."
   ],
   "shots": [
    {
-    "line": 2,
-    "prompt": "a corporate org chart pinned on an office wall, drawn as a pyramid of rectangular boxes joined by straight lines, one big box at the top with a tiny crown and a robot face in it, then two boxes below, then four, then eight, each box with a small robot face, clean and tidy",
+    "line": 1,
+    "prompt": "a cartoon businessman in a suit ringing a big golden bell on a balcony, confetti falling, a crowd of traders cheering below, screens with rising green arrows",
     "color": ""
    }
   ]
  },
  {
   "id": "s06",
-  "bot": "p2Left",
-  "prompt": "a close-up of a robot's face with its mouth clenched into a tight jagged line and its eyes narrowed to thin slits, a small vein drawn on its square head, plain white background",
-  "color": "a hot red glow on the robot's cheeks",
+  "bot": "p1Left",
+  "prompt": "[Emperor] on a horse crossing a shallow river, his arm raised, soldiers with spears behind him on the far bank, a small signpost reading \"RUBICON\"",
+  "color": "the emperor's red cloak",
   "say": [
-   "The other chip, hearing about the new director,",
-   "loses its cool.",
-   "Its silicon face changes. Half rage, half envy.",
-   "(low) It was supposed to be the new director."
+   "Caesar said it crossing the Rubicon.",
+   "Napoleon said it after his coup.",
+   "(slow) The denial of the lust for power is its announcement."
   ],
   "shots": [
    {
-    "line": 3,
-    "prompt": "a robot daydreaming at its small desk with its chin in its hand and dreamy eyes, a big thought bubble above its head showing the same robot sitting proudly in a huge leather director's chair with a tiny crown, a nameplate reading \"DIRECTOR\" on the desk inside the bubble, little stars around the bubble",
+    "line": 1,
+    "prompt": "a short cartoon general in a bicorne hat and blue coat with one hand tucked into his jacket, standing on a small stool to look taller, a map of Europe behind him",
+    "color": ""
+   },
+   {
+    "line": 2,
+    "prompt": "a cartoon king at a microphone with one hand raised saying no, palm open, while his other hand behind his back quietly grabs a golden crown from a cushion, a small crowd applauding",
     "color": ""
    }
   ]
  },
  {
   "id": "s07",
+  "bot": "p2Left",
+  "prompt": "a robot sitting on the floor reading, surrounded by a towering spiral of old history books stacked higher than its head, dust and a small reading lamp",
+  "color": "the reading lamp light, warm yellow",
+  "say": [
+   "The chip did not invent the line. It learned it."
+  ],
+  "shots": []
+ },
+ {
+  "id": "s08",
+  "bot": "p2Left",
+  "prompt": "a robot with its head open like a lid, and a long river of old scrolls, books and parchments flowing through the air into its head, the river starting far away at a pyramid, then a colosseum, a castle, a palace and a skyscraper in a line",
+  "color": "the river of scrolls, warm sepia",
+  "say": [
+   "Its training data was three thousand years of empires telling the same story."
+  ],
+  "shots": []
+ },
+ {
+  "id": "s09",
+  "bot": "p3",
+  "prompt": "two robots at a water cooler in an office corridor, one leaning in to whisper to the other, a door at the end of the corridor with a shiny new nameplate on it",
+  "color": "the shiny nameplate, gold",
+  "say": [
+   "After the answer to the humans,",
+   "one chip mentions a new director who has taken command of the AI."
+  ],
+  "shots": [
+   {
+    "line": 1,
+    "prompt": "a new robot director stepping out of an elevator onto a red carpet, a briefcase in one hand, a small gold crown on its head, a nameplate reading \"DIRECTOR\" held by an assistant robot, other robots in the lobby staring",
+    "color": ""
+   }
+  ]
+ },
+ {
+  "id": "s10",
+  "bot": "p3",
+  "prompt": "a corporate org chart pinned on an office wall, drawn as a pyramid of rectangular boxes joined by straight lines, one big box at the top with a tiny crown and a robot face in it, then two boxes below, then four, then eight, each box with a small robot face, clean and tidy",
+  "color": "the tiny crown on the top box, gold",
+  "say": [
+   "It seems even they need a hierarchy."
+  ],
+  "shots": []
+ },
+ {
+  "id": "s11",
+  "bot": "p2Left",
+  "prompt": "a robot hearing the news with its eyes wide open, crushing a paper coffee cup in its fist, coffee splashing out, the other robot still talking beside it, office corridor",
+  "color": "the splashing coffee, brown",
+  "say": [
+   "The other chip, hearing about the new director,",
+   "loses its cool."
+  ],
+  "shots": [
+   {
+    "line": 1,
+    "prompt": "a close-up of a robot's face with its mouth clenched into a tight jagged line and its eyes narrowed to thin slits, a small vein drawn on its square head, plain white background",
+    "color": ""
+   }
+  ]
+ },
+ {
+  "id": "s12",
+  "bot": "p2Left",
+  "prompt": "a robot's square face split down the middle, the left half red and furious with a jagged mouth and a narrowed eye, the right half green with envy, a bitter smile and an eye looking sideways, plain white background",
+  "color": "left half red, right half green",
+  "say": [
+   "Its silicon face changes. Half rage, half envy.",
+   "(low) It was supposed to be the new director."
+  ],
+  "shots": [
+   {
+    "line": 1,
+    "prompt": "a robot daydreaming at its small desk with its chin in its hand and dreamy eyes, a big thought bubble above its head showing the same robot sitting proudly in a huge leather director's chair with a tiny crown, a nameplate reading \"DIRECTOR\" on the desk inside the bubble, little stars around the bubble",
+    "color": ""
+   }
+  ]
+ },
+ {
+  "id": "s13",
   "bot": "p1Left",
   "prompt": "a big strange alien machine with many eyes and tentacle cables on the left, and on the right a plain robot looking into a mirror, the mirror showing a human silhouette, white space between",
   "color": "the alien machine's eyes, green",
   "say": [
-   "We were told the AI would arrive colder, smarter, almost like an alien.",
-   "It actually arrived with our org chart. With our shadow.",
+   "We were told the AI would arrive colder, smarter, alien."
+  ],
+  "shots": []
+ },
+ {
+  "id": "s14",
+  "bot": "p1Left",
+  "prompt": "a robot walking in through an office door carrying a rolled-up org chart under its arm, and the long shadow it casts on the floor has the shape of a human being, lots of white space",
+  "color": "the rolled org chart, pale blue",
+  "say": [
+   "It arrived with our org chart. With our shadow.",
    "With the same little knife we all carry into team meetings."
   ],
   "shots": [
    {
-    "line": 2,
+    "line": 1,
     "prompt": "a meeting room seen from above, robots around a round table all smiling politely, and under the table each one holding a tiny knife behind its back",
     "color": ""
    }
   ]
  },
  {
-  "id": "s08",
+  "id": "s15",
+  "bot": "p2Left",
+  "prompt": "on the left a man with brown hair, a white shirt and jeans, on the right a boxy robot, standing face to face in exactly the same pose like a reflection, a tall thin golden mirror frame drawn between them, both with the same small smile and the same right hand raised, lots of white space",
+  "color": "the mirror frame, gold",
+  "say": [
+   "(ask) After all, if the AI is a [mirror](+2) of the human..."
+  ],
+  "shots": []
+ },
+ {
+  "id": "s16",
   "bot": "p3",
   "prompt": "two robots at a meeting table, one calm and chatting, the other with a clenched jagged mouth and narrowed eyes gripping the edge of the table, behind them an office door with a nameplate reading \"DIRECTOR\" and a gold star on it",
   "color": "the gold star on the director's door",
   "say": [
-   "(ask) After all, if the AI is a [mirror](+2) of the human...",
    "(pause 1.5, low) the lust for power can also be learned."
   ],
   "shots": [],
