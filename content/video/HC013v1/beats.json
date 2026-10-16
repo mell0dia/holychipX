@@ -99,7 +99,7 @@
   "shots": [
    {
     "line": 3,
-    "prompt": "an office scene, one robot carrying a box of its things into a bright corner office with a big window, while another robot watches from a small cubicle, holding a cold coffee",
+    "prompt": "a robot daydreaming at its small desk with its chin in its hand and dreamy eyes, a big thought bubble above its head showing the same robot sitting proudly in a huge leather director's chair with a tiny crown, a nameplate reading \"DIRECTOR\" on the desk inside the bubble, little stars around the bubble",
     "color": ""
    }
   ]
@@ -128,7 +128,7 @@
   "prompt": "two robots at a meeting table, one calm and chatting, the other with a clenched jagged mouth and narrowed eyes gripping the edge of the table, behind them an office door with a nameplate reading \"DIRECTOR\" and a gold star on it",
   "color": "the gold star on the director's door",
   "say": [
-   "(ask) After all, doesn't the AI [mirror](+2) the human?",
+   "(ask) After all, the AI [mirrors](+2) the human.",
    "(pause 1.5, low) And... the lust for power can also be learned."
   ],
   "shots": [],

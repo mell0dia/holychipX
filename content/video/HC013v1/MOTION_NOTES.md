@@ -1,4 +1,4 @@
-# HC013 — motion notes (one per drawing, in order)
+# HC013 — motion notes
 
 1. the rising sun climbs slowly behind the building, the clouds drift, the windows catch the light one by one
 2. the crowd sways gently and lifts the question-mark signs higher, a few signs bob up and down
@@ -11,7 +11,7 @@
 9. one robot leans in and whispers, the other robot's eyes widen, the gold nameplate on the door glints
 10. the org chart boxes light up one by one from the top down, the tiny crown on the top box sparkles
 11. the robot's jagged mouth clenches tighter, its narrowed eyes twitch, the red glow on its cheeks pulses, a small vein throbs
-12. the robot with the box walks into the corner office, the other robot in the cubicle slowly lowers its coffee and stares
+12. the robot's eyes go dreamy and it sighs, the thought bubble grows slowly, inside it the robot in the director's chair spins once and the tiny crown sparkles, little stars twinkle
 13. the alien machine's many green eyes blink out of sync and its tentacle cables sway, the robot in front of the mirror tilts its head and the reflection tilts too
 14. the robots around the table keep smiling politely while their hands tighten on the tiny knives behind their backs
 15. the angry robot grips the table edge harder and its jagged mouth trembles, the calm robot keeps chatting, the gold star on the DIRECTOR door glints
