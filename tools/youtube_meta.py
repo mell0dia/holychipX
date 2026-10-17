@@ -66,12 +66,14 @@ def meta(sid, lang="en", kind="doc"):
     pt = lang == "pt"
     origin = f"https://holy-chip.com/origins/{base}.html" + ("?lang=pt" if pt else "")
     story = f"https://holy-chip.com/stories.html?story={sid}" + ("&lang=pt" if pt else "")
+    # TITLE RULE (user, 2026-10-17): always `HolyChip AI Humour - "<story title>"` (PT: `HolyChip Humor de IA - "<título>"`)
+    story_title = name or banner['title'].title()
+    brand = 'HolyChip Humor de IA' if pt else 'HolyChip AI Humour'
     if kind == "doc":
-        head = (f"{sid} · {name or banner['title'].title()} — a história por trás, em dois minutos" if pt
-                else f"{sid} · {name or banner['title'].title()} — the story behind, in two minutes")
-        yt_title = f"{head} | Holy Chip {'(quadrinhos de IA)' if pt else '(AI comic)'}"
+        tail = f"A história por trás, em 2 minutos (#{sid})" if pt else f"The story behind, in 2 minutes (#{sid})"
     else:
-        yt_title = f"{sid} · {name or banner['title'].title()} | Holy Chip {'— tirinha de IA' if pt else '— AI comic strip'}"
+        tail = f"Tirinha (#{sid})" if pt else f"Comic strip (#{sid})"
+    yt_title = f'{brand} - "{story_title}" | {tail}'
     links = (f"LEIA A ORIGEM COMPLETA: {origin}\nA TIRINHA: {story}\nTODAS AS HISTÓRIAS: https://holy-chip.com/stories.html?lang=pt\nLOJA: https://holy-chip.com/store.html"
              if pt else f"READ THE FULL ORIGIN: {origin}\nTHE STRIP: {story}\nALL STORIES: https://holy-chip.com/stories.html\nSHOP: https://holy-chip.com/store.html")
     about = ("Holy Chip: dois chips de IA vivendo nos anos logo à nossa frente. Toda tirinha termina com Holy Chip!! — o momento em que a máquina entende alguma coisa sobre os humanos que os humanos prefeririam não dizer em voz alta."
