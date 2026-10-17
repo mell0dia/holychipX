@@ -209,8 +209,9 @@ def main():
             # the description IS the origin essay in the video's language (user, 2026-10-17); see youtube_meta.py
             sys.path.insert(0, str(TOOLS)); import youtube_meta as ym
             m = ym.meta(sid, "pt" if PT else "en", KIND)
+            pl = json.loads((HC / "content" / "youtube.json").read_text())["playlists"]["pt" if PT else "en"]   # EN / PT playlists (user, 2026-10-17)
             out = run([HC / "venv" / "yt" / "bin" / "python", TOOLS / "youtube_upload.py", local, "--title", m["title"],
-                       "--description", m["description"], "--tags", ",".join(m["tags"]), "--lang", "pt" if PT else "en"])
+                       "--description", m["description"], "--tags", ",".join(m["tags"]), "--lang", "pt" if PT else "en", "--playlist", pl])
             pid = grab(out, "YT_VIDEO_ID:")
             link = f"https://youtube.com/shorts/{pid}" if pid else None
         else:
