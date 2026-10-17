@@ -69,11 +69,13 @@ def meta(sid, lang="en", kind="doc"):
     # TITLE RULE (user, 2026-10-17): always `Holy-Chip AI Humour - "<story title>"` (PT: `Holy-Chip Humor de IA - "<título>"`)
     story_title = name or banner['title'].title()
     brand = 'Holy-Chip Humor de IA' if pt else 'Holy-Chip AI Humour'
-    if kind == "doc":
-        tail = f"A história por trás, em 2 minutos (#{sid})" if pt else f"The story behind, in 2 minutes (#{sid})"
-    else:
-        tail = f"Tirinha (#{sid})" if pt else f"Comic strip (#{sid})"
-    yt_title = f'{brand} - "{story_title}" | {tail}'
+    # after the title: a QUESTION, never a format label (user, 2026-10-17) - content/youtube-questions.json
+    try:
+        q = json.loads((HC / "content" / "youtube-questions.json").read_text()).get(sid, {}).get("pt" if pt else "en")
+    except Exception:
+        q = None
+    q = q or (f"O que a IA faz com isso?" if pt else "What does the AI do with this?")
+    yt_title = f'{brand} - "{story_title}" | {q} (#{sid})'
     links = (f"LEIA A ORIGEM COMPLETA: {origin}\nA TIRINHA: {story}\nTODAS AS HISTÓRIAS: https://holy-chip.com/stories.html?lang=pt\nLOJA: https://holy-chip.com/store.html"
              if pt else f"READ THE FULL ORIGIN: {origin}\nTHE STRIP: {story}\nALL STORIES: https://holy-chip.com/stories.html\nSHOP: https://holy-chip.com/store.html")
     follow = ("SIGA O HOLY-CHIP:\nSite: https://holy-chip.com\nYouTube: https://youtube.com/@holy-chip\nFacebook (Português): https://www.facebook.com/1302345022970232\nFacebook: https://www.facebook.com/hlchip\nInstagram: https://www.instagram.com/holychipcomics\nX: https://x.com/_holychip\nNostr: npub15sgeyma2d3xzptx0fj20zfq55pc967zzu0tqx6hn00thn7mng5zqjp3ms3 (NIP-05 _@holy-chip.com)\nLoja: https://holy-chip.com/store.html"
