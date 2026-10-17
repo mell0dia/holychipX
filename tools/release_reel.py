@@ -28,7 +28,7 @@ NOSTR_PY = HC / "venv" / "nostr" / "bin" / "python"
 SITE_WWW = "https://www.holy-chip.com"
 
 HASHTAGS = " ".join(__import__("hashtags").CORE + ["#DailyComic"])
-PLATFORMS = ("fb", "fbvideo", "ig", "x", "nostr")      # fbvideo = the same mp4 as a Facebook feed post ("a reel AND a post")
+PLATFORMS = ("fb", "fbvideo", "ig", "x", "nostr", "youtube")      # fbvideo = the same mp4 as a Facebook feed post ("a reel AND a post"); youtube = Short on @holy-chip
 
 # tracker keys, per platform: (id key, permalink key, timestamp key)
 KEYS = {
@@ -37,6 +37,7 @@ KEYS = {
     "ig":    ("ig_reel_id", "ig_reel_permalink", "ig_reel_posted_at"),
     "x":     ("reel_tweet_id", "reel_tweet_permalink", "reel_tweet_posted_at"),
     "nostr": ("nostr_reel_event_id", None, "nostr_reel_posted_at"),
+    "youtube": ("yt_reel_id", "yt_reel_url", "yt_reel_posted_at"),
 }
 
 
@@ -54,7 +55,8 @@ def keys_for(plat):
             "fbvideo": (f"fb_{k}_video_id", f"fb_{k}_video_permalink", f"fb_{k}_video_posted_at"),
             "ig": (f"ig_{k}_id", f"ig_{k}_permalink", f"ig_{k}_posted_at"),
             "x": (f"{k}_tweet_id", f"{k}_tweet_permalink", f"{k}_tweet_posted_at"),
-            "nostr": (f"nostr_{k}_event_id", None, f"nostr_{k}_posted_at")}[plat]
+            "nostr": (f"nostr_{k}_event_id", None, f"nostr_{k}_posted_at"),
+            "youtube": (f"yt_{k}_id", f"yt_{k}_url", f"yt_{k}_posted_at")}[plat]
 
 
 def caption(sid, tags):
@@ -155,7 +157,7 @@ def main():
             if "=" in line and not line.lstrip().startswith("#"):
                 k, v = line.split("=", 1); env[k.strip()] = v.strip().strip('"').strip("'")
         os.environ["FB_PAGE_ID"] = env["FB_PT_PAGE_ID"]; os.environ["FB_PAGE_ACCESS_TOKEN"] = env["FB_PT_PAGE_ACCESS_TOKEN"]
-        if a.only == ",".join(PLATFORMS): a.only = "fb,fbvideo"
+        if a.only == ",".join(PLATFORMS): a.only = "fb,fbvideo,youtube"
 
     sid = a.story.upper()
     want = [p.strip() for p in a.only.split(",") if p.strip()]
@@ -203,6 +205,14 @@ def main():
             out = run(["python3", TOOLS / "tweet_video.py", local, xcap])
             pid = grab(out, "TWEET_ID:")
             link = f"https://x.com/_holychip/status/{pid}" if pid else None
+        elif plat == "youtube":
+            # the description IS the origin essay in the video's language (user, 2026-10-17); see youtube_meta.py
+            sys.path.insert(0, str(TOOLS)); import youtube_meta as ym
+            m = ym.meta(sid, "pt" if PT else "en", KIND)
+            out = run([HC / "venv" / "yt" / "bin" / "python", TOOLS / "youtube_upload.py", local, "--title", m["title"],
+                       "--description", m["description"], "--tags", ",".join(m["tags"]), "--lang", "pt" if PT else "en"])
+            pid = grab(out, "YT_VIDEO_ID:")
+            link = f"https://youtube.com/shorts/{pid}" if pid else None
         else:
             out = run([NOSTR_PY, TOOLS / "post_nostr.py",
                        "--story", sid, "--video", "--kind", KIND + (".pt" if PT else "")])
