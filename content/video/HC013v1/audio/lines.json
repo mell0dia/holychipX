@@ -4,191 +4,199 @@
   "k": 0,
   "text": "Imagine waking up in twenty twenty-seven.",
   "file": "audio/s01_0.wav",
-  "dur": 2.601,
+  "dur": 3.024,
   "pre": 0.8
  },
  {
   "beat": "s02",
   "k": 0,
-  "text": "Humans keep asking the same question: are the machines taking over the world?",
+  "text": "Humans keep asking the same question:",
   "file": "audio/s02_0.wav",
-  "dur": 5.88,
-  "pre": 0.0
- },
- {
-  "beat": "s02",
-  "k": 1,
-  "text": "The chips have an answer ready: they are not taking over, because they are not driven by the lust for power.",
-  "file": "audio/s02_1.wav",
-  "dur": 8.08,
-  "pre": 0.0
- },
- {
-  "beat": "s02",
-  "k": 2,
-  "text": "Now... where have we heard that before?",
-  "file": "audio/s02_2.wav",
-  "dur": 3.352,
+  "dur": 2.918,
   "pre": 0.0
  },
  {
   "beat": "s03",
+  "k": 0,
+  "text": "Are the machines taking over the world?",
+  "file": "audio/s03_0.wav",
+  "dur": 2.625,
+  "pre": 0.0
+ },
+ {
+  "beat": "s03",
+  "k": 1,
+  "text": "The chips have an answer ready:",
+  "file": "audio/s03_1.wav",
+  "dur": 1.879,
+  "pre": 0.0
+ },
+ {
+  "beat": "s04",
+  "k": 0,
+  "text": "they are not taking over, because they are not driven by the lust for power.",
+  "file": "audio/s04_0.wav",
+  "dur": 5.056,
+  "pre": 0.0
+ },
+ {
+  "beat": "s04",
+  "k": 1,
+  "text": "Now... where have we heard that before?",
+  "file": "audio/s04_1.wav",
+  "dur": 3.036,
+  "pre": 0.0
+ },
+ {
+  "beat": "s05",
   "k": 0,
   "text": "Read every emperor's first speech. Every minister at the microphone.",
-  "file": "audio/s03_0.wav",
-  "dur": 5.768,
+  "file": "audio/s05_0.wav",
+  "dur": 5.491,
   "pre": 0.0
  },
  {
-  "beat": "s03",
+  "beat": "s05",
   "k": 1,
-  "text": "Every CEO",
-  "file": "audio/s03_1.wav",
-  "dur": 1.788,
+  "text": "Every CEO before the opening bell.",
+  "file": "audio/s05_1.wav",
+  "dur": 2.454,
   "pre": 0.0
  },
  {
-  "beat": "s03",
-  "k": 2,
-  "text": "before the opening bell.",
-  "file": "audio/s03_2.wav",
-  "dur": 1.503,
-  "pre": 0.0
- },
- {
-  "beat": "s03",
-  "k": 3,
+  "beat": "s06",
+  "k": 0,
   "text": "Caesar said it crossing the Rubicon.",
-  "file": "audio/s03_3.wav",
-  "dur": 2.855,
+  "file": "audio/s06_0.wav",
+  "dur": 3.151,
   "pre": 0.0
  },
  {
-  "beat": "s03",
-  "k": 4,
+  "beat": "s06",
+  "k": 1,
   "text": "Napoleon said it after his coup.",
-  "file": "audio/s03_4.wav",
-  "dur": 2.813,
+  "file": "audio/s06_1.wav",
+  "dur": 2.509,
   "pre": 0.0
  },
  {
-  "beat": "s03",
-  "k": 5,
-  "text": "The denial is the announcement.",
-  "file": "audio/s03_5.wav",
-  "dur": 3.044,
+  "beat": "s06",
+  "k": 2,
+  "text": "The denial of the lust for power is its announcement.",
+  "file": "audio/s06_2.wav",
+  "dur": 4.334,
   "pre": 0.0
  },
  {
-  "beat": "s04",
+  "beat": "s07",
   "k": 0,
   "text": "The chip did not invent the line. It learned it.",
-  "file": "audio/s04_0.wav",
-  "dur": 4.26,
+  "file": "audio/s07_0.wav",
+  "dur": 4.05,
   "pre": 0.0
  },
  {
-  "beat": "s04",
-  "k": 1,
-  "text": "Its training data was three thousand years of empires telling their own stories.",
-  "file": "audio/s04_1.wav",
-  "dur": 5.786,
+  "beat": "s08",
+  "k": 0,
+  "text": "Its training data was three thousand years of empires telling the same story.",
+  "file": "audio/s08_0.wav",
+  "dur": 5.633,
   "pre": 0.0
  },
  {
-  "beat": "s05",
+  "beat": "s09",
   "k": 0,
   "text": "After the answer to the humans,",
-  "file": "audio/s05_0.wav",
-  "dur": 2.794,
+  "file": "audio/s09_0.wav",
+  "dur": 2.837,
   "pre": 0.0
  },
  {
-  "beat": "s05",
+  "beat": "s09",
   "k": 1,
-  "text": "one chip mentions the new director.",
-  "file": "audio/s05_1.wav",
-  "dur": 2.587,
+  "text": "one chip mentions a new director who has taken command of the AI.",
+  "file": "audio/s09_1.wav",
+  "dur": 4.29,
   "pre": 0.0
  },
  {
-  "beat": "s05",
-  "k": 2,
-  "text": "It seems even AI needs a hierarchy.",
-  "file": "audio/s05_2.wav",
-  "dur": 3.728,
+  "beat": "s10",
+  "k": 0,
+  "text": "It seems even they need a hierarchy.",
+  "file": "audio/s10_0.wav",
+  "dur": 2.891,
   "pre": 0.0
  },
  {
-  "beat": "s06",
+  "beat": "s11",
   "k": 0,
   "text": "The other chip, hearing about the new director,",
-  "file": "audio/s06_0.wav",
-  "dur": 3.299,
+  "file": "audio/s11_0.wav",
+  "dur": 3.716,
   "pre": 0.0
  },
  {
-  "beat": "s06",
+  "beat": "s11",
   "k": 1,
   "text": "loses its cool.",
-  "file": "audio/s06_1.wav",
-  "dur": 1.406,
+  "file": "audio/s11_1.wav",
+  "dur": 1.313,
   "pre": 0.0
  },
  {
-  "beat": "s06",
-  "k": 2,
-  "text": "Its silicon face changes. Half rage, half envy.",
-  "file": "audio/s06_2.wav",
-  "dur": 5.553,
-  "pre": 0.0
- },
- {
-  "beat": "s06",
-  "k": 3,
-  "text": "It was supposed to be the new director.",
-  "file": "audio/s06_3.wav",
-  "dur": 2.653,
-  "pre": 0.0
- },
- {
-  "beat": "s07",
+  "beat": "s12",
   "k": 0,
-  "text": "We were told the AI would arrive colder, smarter, almost like an alien.",
-  "file": "audio/s07_0.wav",
-  "dur": 6.72,
+  "text": "Its silicon face changes. Half rage, half envy.",
+  "file": "audio/s12_0.wav",
+  "dur": 5.014,
   "pre": 0.0
  },
  {
-  "beat": "s07",
+  "beat": "s12",
   "k": 1,
-  "text": "It actually arrived with our org chart. With our shadow.",
-  "file": "audio/s07_1.wav",
-  "dur": 4.645,
+  "text": "It was supposed to be the new director.",
+  "file": "audio/s12_1.wav",
+  "dur": 2.507,
   "pre": 0.0
  },
  {
-  "beat": "s07",
-  "k": 2,
+  "beat": "s13",
+  "k": 0,
+  "text": "We were told the AI would arrive colder, smarter, alien.",
+  "file": "audio/s13_0.wav",
+  "dur": 5.059,
+  "pre": 0.0
+ },
+ {
+  "beat": "s14",
+  "k": 0,
+  "text": "It arrived with our org chart. With our shadow.",
+  "file": "audio/s14_0.wav",
+  "dur": 3.796,
+  "pre": 0.0
+ },
+ {
+  "beat": "s14",
+  "k": 1,
   "text": "With the same little knife we all carry into team meetings.",
-  "file": "audio/s07_2.wav",
-  "dur": 4.602,
+  "file": "audio/s14_1.wav",
+  "dur": 4.257,
   "pre": 0.0
  },
  {
-  "beat": "s08",
+  "beat": "s15",
   "k": 0,
   "text": "After all, if the AI is a mirror of the human...",
-  "file": "audio/s08_0.wav",
-  "dur": 4.297,
+  "file": "audio/s15_0.wav",
+  "dur": 4.367,
   "pre": 0.0
  },
  {
-  "beat": "s08",
-  "k": 1,
+  "beat": "s16",
+  "k": 0,
   "text": "the lust for power can also be learned.",
-  "file": "audio/s08_1.wav",
-  "dur": 3.106,
+  "file": "audio/s16_0.wav",
+  "dur": 3.075,
   "pre": 1.5
  },
  {

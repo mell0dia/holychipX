@@ -10,7 +10,8 @@
     205,
     90,
     35,
-    43
+    43,
+    139
   ],
   "queue": [
     {
@@ -1124,34 +1125,91 @@
       "story": "HC003",
       "phrase": "Um chip declara: sou não-binário. Impossível, diz o outro: a gente só pode ser 0 ou 1. Ou não?",
       "tags": "#Identidade #Binário",
-      "status": "pending"
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122111187987497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122111187987497264"
+        }
+      ],
+      "posted_at": "2026-10-16 08:33",
+      "fb_post_id": "1302345022970232_122111187987497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122111187987497264"
     },
     {
       "at": "2026-10-16 09:00",
       "kind": "story",
       "story": "HC035",
       "tags": "#Pais #Filhos #Velocidade",
-      "status": "pending"
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122111195793497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122111195793497264"
+        },
+        {
+          "id": "1302345022970232_122111195859497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122111195859497264"
+        }
+      ],
+      "posted_at": "2026-10-16 09:03",
+      "fb_post_id": "1302345022970232_122111195859497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122111195859497264"
     },
     {
       "at": "2026-10-16 13:00",
       "kind": "story",
       "story": "HC036",
       "tags": "#Salário #Dívida #Juros",
-      "status": "pending"
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122111275815497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122111275815497264"
+        },
+        {
+          "id": "1302345022970232_122111275863497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122111275863497264"
+        }
+      ],
+      "posted_at": "2026-10-16 13:03",
+      "fb_post_id": "1302345022970232_122111275863497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122111275863497264"
     },
     {
       "at": "2026-10-16 15:30",
       "kind": "merch",
       "merch": "shirt",
-      "status": "pending"
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122111309169497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122111309169497264"
+        }
+      ],
+      "posted_at": "2026-10-16 15:34",
+      "fb_post_id": "1302345022970232_122111309169497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122111309169497264"
     },
     {
       "at": "2026-10-16 18:00",
       "kind": "story",
       "story": "HC037",
       "tags": "#Matemática #Crianças #Celular",
-      "status": "pending"
+      "status": "done",
+      "fb_posts": [
+        {
+          "id": "1302345022970232_122111346183497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122111346183497264"
+        },
+        {
+          "id": "1302345022970232_122111346237497264",
+          "permalink": "https://www.facebook.com/1302345022970232/posts/122111346237497264"
+        }
+      ],
+      "posted_at": "2026-10-16 18:04",
+      "fb_post_id": "1302345022970232_122111346237497264",
+      "permalink": "https://www.facebook.com/1302345022970232/posts/122111346237497264"
     },
     {
       "at": "2026-10-17 09:00",

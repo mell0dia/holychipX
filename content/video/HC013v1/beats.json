@@ -7,7 +7,9 @@
   "say": [
    "(pause) Imagine waking up in twenty twenty-seven."
   ],
-  "shots": []
+  "shots": [],
+  "img": "m5_dfb262619c",
+  "seed": 96235
  },
  {
   "id": "s02",
@@ -17,7 +19,9 @@
   "say": [
    "Humans keep asking the same question:"
   ],
-  "shots": []
+  "shots": [],
+  "img": "m5_1cc5d58fb3",
+  "seed": 7440
  },
  {
   "id": "s03",
@@ -32,9 +36,13 @@
    {
     "line": 1,
     "prompt": "a robot standing at a podium with many microphones, hands open in an innocent gesture, a halo drawn above its head, cameras flashing from the crowd below",
-    "color": ""
+    "color": "",
+    "img": "m5_348963aa02",
+    "seed": 88808
    }
-  ]
+  ],
+  "img": "m5_0b8922331a",
+  "seed": 99483
  },
  {
   "id": "s04",
@@ -49,9 +57,13 @@
    {
     "line": 1,
     "prompt": "a person sitting in an armchair scratching their head, and above them a big thought bubble with a long line of tiny figures from history, a pharaoh, a king, a general, a man in a suit, all with the same open innocent hands and the same little speech bubble",
-    "color": ""
+    "color": "",
+    "img": "m5_494f4b8f35",
+    "seed": 34446
    }
-  ]
+  ],
+  "img": "m5_3d441923f5",
+  "seed": 78424
  },
  {
   "id": "s05",
@@ -66,9 +78,13 @@
    {
     "line": 1,
     "prompt": "a cartoon businessman in a suit ringing a big golden bell on a balcony, confetti falling, a crowd of traders cheering below, screens with rising green arrows",
-    "color": ""
+    "color": "",
+    "img": "m5_a272314223",
+    "seed": 62158
    }
-  ]
+  ],
+  "img": "m5_aa6ece1b69",
+  "seed": 97912
  },
  {
   "id": "s06",
@@ -84,14 +100,20 @@
    {
     "line": 1,
     "prompt": "a short cartoon general in a bicorne hat and blue coat with one hand tucked into his jacket, standing on a small stool to look taller, a map of Europe behind him",
-    "color": ""
+    "color": "",
+    "img": "m5_830d9e4f17",
+    "seed": 72785
    },
    {
     "line": 2,
     "prompt": "a cartoon king at a microphone with one hand raised saying no, palm open, while his other hand behind his back quietly grabs a golden crown from a cushion, a small crowd applauding",
-    "color": ""
+    "color": "",
+    "img": "m5_ede2abe057",
+    "seed": 62827
    }
-  ]
+  ],
+  "img": "m5_21bf24a99f",
+  "seed": 55871
  },
  {
   "id": "s07",
@@ -101,7 +123,9 @@
   "say": [
    "The chip did not invent the line. It learned it."
   ],
-  "shots": []
+  "shots": [],
+  "img": "m5_dc0b4add75",
+  "seed": 18518
  },
  {
   "id": "s08",
@@ -111,7 +135,9 @@
   "say": [
    "Its training data was three thousand years of empires telling the same story."
   ],
-  "shots": []
+  "shots": [],
+  "img": "m5_3af8238d76",
+  "seed": 6859
  },
  {
   "id": "s09",
@@ -126,9 +152,13 @@
    {
     "line": 1,
     "prompt": "a new robot director stepping out of an elevator onto a red carpet, a briefcase in one hand, a small gold crown on its head, a nameplate reading \"DIRECTOR\" held by an assistant robot, other robots in the lobby staring",
-    "color": ""
+    "color": "",
+    "img": "m5_574a9c4758",
+    "seed": 18278
    }
-  ]
+  ],
+  "img": "m5_718fd229e7",
+  "seed": 51733
  },
  {
   "id": "s10",
@@ -138,7 +168,9 @@
   "say": [
    "It seems even they need a hierarchy."
   ],
-  "shots": []
+  "shots": [],
+  "img": "m5_308e5c9788",
+  "seed": 89694
  },
  {
   "id": "s11",
@@ -153,9 +185,13 @@
    {
     "line": 1,
     "prompt": "a close-up of a robot's face with its mouth clenched into a tight jagged line and its eyes narrowed to thin slits, a small vein drawn on its square head, plain white background",
-    "color": ""
+    "color": "",
+    "img": "m5_e6755d6c8d",
+    "seed": 21331
    }
-  ]
+  ],
+  "img": "m5_7d474b9372",
+  "seed": 8433
  },
  {
   "id": "s12",
@@ -170,9 +206,13 @@
    {
     "line": 1,
     "prompt": "a robot daydreaming at its small desk with its chin in its hand and dreamy eyes, a big thought bubble above its head showing the same robot sitting proudly in a huge leather director's chair with a tiny crown, a nameplate reading \"DIRECTOR\" on the desk inside the bubble, little stars around the bubble",
-    "color": ""
+    "color": "",
+    "img": "m5_084ae0dedf",
+    "seed": 2349
    }
-  ]
+  ],
+  "img": "m5_bd8f8aec30",
+  "seed": 64179
  },
  {
   "id": "s13",
@@ -182,7 +222,9 @@
   "say": [
    "We were told the AI would arrive colder, smarter, alien."
   ],
-  "shots": []
+  "shots": [],
+  "img": "m5_3401770190",
+  "seed": 64099
  },
  {
   "id": "s14",
@@ -197,9 +239,13 @@
    {
     "line": 1,
     "prompt": "a meeting room seen from above, robots around a round table all smiling politely, and under the table each one holding a tiny knife behind its back",
-    "color": ""
+    "color": "",
+    "img": "m5_41438b68b2",
+    "seed": 77535
    }
-  ]
+  ],
+  "img": "m5_c37b2023d9",
+  "seed": 65751
  },
  {
   "id": "s15",
@@ -209,7 +255,9 @@
   "say": [
    "(ask) After all, if the AI is a [mirror](+2) of the human..."
   ],
-  "shots": []
+  "shots": [],
+  "img": "m5_76c94d1942",
+  "seed": 33387
  },
  {
   "id": "s16",
@@ -220,6 +268,8 @@
    "(pause 1.5, low) the lust for power can also be learned."
   ],
   "shots": [],
-  "punch": true
+  "punch": true,
+  "img": "m5_590f686c27",
+  "seed": 91842
  }
 ]

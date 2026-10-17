@@ -53,7 +53,15 @@ def animate(image, prompt, out, seed=42, frames=None, timeout=3 * 3600, poll=15)
             urllib.request.urlretrieve(_abs(j["data"][0]["url"]), out)
             return out
         if st in ("failed", "error", "cancelled"):
-            raise RuntimeError(f"M5 video job {st}: {j.get('error') or j}")
+            err = str(j.get("error") or j)
+            # The M5 now loads the video model on demand but yields to the LLM: while Gemma
+            # has requests in flight the job comes back "video model unavailable ... retry
+            # later" (2026-10-16). That is a queue, not a failure: wait and resubmit.
+            if any(w in err for w in ("busy", "unavailable", "retry later")):
+                print(f"  M5 busy ({err[:80]}) - retrying in 90s", flush=True); time.sleep(90)
+                job = _req(URL, body); status_url = _abs(job.get("status_url") or f"{URL}/{job['id']}")
+                print(f"  job {job.get('id')} resubmitted", flush=True); last = None; continue
+            raise RuntimeError(f"M5 video job {st}: {err}")
     raise TimeoutError(f"M5 video job not done after {timeout}s: {status_url}")
 
 

@@ -4,191 +4,199 @@
   "k": 0,
   "text": "Imagine acordar em dois mil e vinte e sete.",
   "file": "audio/s01_0.wav",
-  "dur": 2.386,
+  "dur": 2.354,
   "pre": 0.8
  },
  {
   "beat": "s02",
   "k": 0,
-  "text": "Os humanos n\u00e3o param de fazer a mesma pergunta: as m\u00e1quinas v\u00e3o dominar o mundo?",
+  "text": "Os humanos n\u00e3o param de fazer a mesma pergunta:",
   "file": "audio/s02_0.wav",
-  "dur": 5.854,
-  "pre": 0.0
- },
- {
-  "beat": "s02",
-  "k": 1,
-  "text": "Os chips t\u00eam a resposta pronta: n\u00e3o v\u00e3o dominar nada, porque n\u00e3o s\u00e3o movidos pela sede de poder.",
-  "file": "audio/s02_1.wav",
-  "dur": 7.386,
-  "pre": 0.0
- },
- {
-  "beat": "s02",
-  "k": 2,
-  "text": "Agora... onde foi que a gente j\u00e1 ouviu isso?",
-  "file": "audio/s02_2.wav",
-  "dur": 4.389,
+  "dur": 3.7,
   "pre": 0.0
  },
  {
   "beat": "s03",
   "k": 0,
-  "text": "Leia o discurso de posse de qualquer imperador. Qualquer ministro no microfone.",
+  "text": "As m\u00e1quinas v\u00e3o dominar o mundo?",
   "file": "audio/s03_0.wav",
-  "dur": 6.344,
+  "dur": 2.013,
   "pre": 0.0
  },
  {
   "beat": "s03",
   "k": 1,
-  "text": "Qualquer CEO",
+  "text": "Os chips t\u00eam a resposta pronta:",
   "file": "audio/s03_1.wav",
-  "dur": 1.2,
-  "pre": 0.0
- },
- {
-  "beat": "s03",
-  "k": 2,
-  "text": "antes do sininho da bolsa.",
-  "file": "audio/s03_2.wav",
-  "dur": 2.0,
-  "pre": 0.0
- },
- {
-  "beat": "s03",
-  "k": 3,
-  "text": "C\u00e9sar disse atravessando o Rubic\u00e3o.",
-  "file": "audio/s03_3.wav",
-  "dur": 2.95,
-  "pre": 0.0
- },
- {
-  "beat": "s03",
-  "k": 4,
-  "text": "Napole\u00e3o disse depois do golpe.",
-  "file": "audio/s03_4.wav",
-  "dur": 3.26,
-  "pre": 0.0
- },
- {
-  "beat": "s03",
-  "k": 5,
-  "text": "A nega\u00e7\u00e3o da sede de poder \u00e9 o an\u00fancio da mesma.",
-  "file": "audio/s03_5.wav",
-  "dur": 4.505,
+  "dur": 2.508,
   "pre": 0.0
  },
  {
   "beat": "s04",
+  "k": 0,
+  "text": "n\u00e3o v\u00e3o dominar nada, porque n\u00e3o s\u00e3o movidos pela sede de poder.",
+  "file": "audio/s04_0.wav",
+  "dur": 4.252,
+  "pre": 0.0
+ },
+ {
+  "beat": "s04",
+  "k": 1,
+  "text": "Agora... onde foi que a gente j\u00e1 ouviu isso?",
+  "file": "audio/s04_1.wav",
+  "dur": 4.094,
+  "pre": 0.0
+ },
+ {
+  "beat": "s05",
+  "k": 0,
+  "text": "Leia o discurso de posse de qualquer imperador.",
+  "file": "audio/s05_0.wav",
+  "dur": 3.32,
+  "pre": 0.0
+ },
+ {
+  "beat": "s05",
+  "k": 1,
+  "text": "Qualquer CEO antes do sininho da bolsa.",
+  "file": "audio/s05_1.wav",
+  "dur": 3.34,
+  "pre": 0.0
+ },
+ {
+  "beat": "s06",
+  "k": 0,
+  "text": "C\u00e9sar disse atravessando o Rubic\u00e3o.",
+  "file": "audio/s06_0.wav",
+  "dur": 2.69,
+  "pre": 0.0
+ },
+ {
+  "beat": "s06",
+  "k": 1,
+  "text": "Napole\u00e3o disse depois do golpe.",
+  "file": "audio/s06_1.wav",
+  "dur": 3.15,
+  "pre": 0.0
+ },
+ {
+  "beat": "s06",
+  "k": 2,
+  "text": "A nega\u00e7\u00e3o da sede de poder \u00e9 o an\u00fancio da mesma.",
+  "file": "audio/s06_2.wav",
+  "dur": 4.35,
+  "pre": 0.0
+ },
+ {
+  "beat": "s07",
   "k": 0,
   "text": "O chip n\u00e3o inventou a frase. Aprendeu.",
-  "file": "audio/s04_0.wav",
-  "dur": 3.393,
+  "file": "audio/s07_0.wav",
+  "dur": 3.556,
   "pre": 0.0
  },
  {
-  "beat": "s04",
-  "k": 1,
+  "beat": "s08",
+  "k": 0,
   "text": "Os dados de seu treinamento foram tr\u00eas mil anos de imp\u00e9rios contando a mesma hist\u00f3ria.",
-  "file": "audio/s04_1.wav",
-  "dur": 6.069,
+  "file": "audio/s08_0.wav",
+  "dur": 5.904,
   "pre": 0.0
  },
  {
-  "beat": "s05",
+  "beat": "s09",
   "k": 0,
   "text": "Depois da resposta para os humanos,",
-  "file": "audio/s05_0.wav",
-  "dur": 2.919,
+  "file": "audio/s09_0.wav",
+  "dur": 2.796,
   "pre": 0.0
  },
  {
-  "beat": "s05",
+  "beat": "s09",
   "k": 1,
-  "text": "um chip comenta sobre um novo diretor dos chips.",
-  "file": "audio/s05_1.wav",
-  "dur": 3.106,
+  "text": "um chip comenta sobre um novo diretor que assumiu o comando da IA.",
+  "file": "audio/s09_1.wav",
+  "dur": 4.273,
   "pre": 0.0
  },
  {
-  "beat": "s05",
-  "k": 2,
-  "text": "Pelo jeito at\u00e9 a IA precisa de hierarquia",
-  "file": "audio/s05_2.wav",
+  "beat": "s10",
+  "k": 0,
+  "text": "Pelo jeito at\u00e9 eles precisam de hierarquia",
+  "file": "audio/s10_0.wav",
+  "dur": 3.68,
+  "pre": 0.0
+ },
+ {
+  "beat": "s11",
+  "k": 0,
+  "text": "O outro chip, ao ouvir falar do novo diretor,",
+  "file": "audio/s11_0.wav",
   "dur": 4.04,
   "pre": 0.0
  },
  {
-  "beat": "s06",
-  "k": 0,
-  "text": "O outro chip, ao ouvir falar do novo diretor,",
-  "file": "audio/s06_0.wav",
-  "dur": 4.15,
-  "pre": 0.0
- },
- {
-  "beat": "s06",
+  "beat": "s11",
   "k": 1,
   "text": "perde a compostura.",
-  "file": "audio/s06_1.wav",
-  "dur": 1.45,
+  "file": "audio/s11_1.wav",
+  "dur": 1.36,
   "pre": 0.0
  },
  {
-  "beat": "s06",
-  "k": 2,
+  "beat": "s12",
+  "k": 0,
   "text": "O seu rosto de sil\u00edcio se transforma. Metade raiva, metade inveja.",
-  "file": "audio/s06_2.wav",
-  "dur": 6.02,
+  "file": "audio/s12_0.wav",
+  "dur": 5.64,
   "pre": 0.0
  },
  {
-  "beat": "s06",
-  "k": 3,
+  "beat": "s12",
+  "k": 1,
   "text": "Era ele que devia ser o novo diretor.",
-  "file": "audio/s06_3.wav",
-  "dur": 3.08,
+  "file": "audio/s12_1.wav",
+  "dur": 3.06,
   "pre": 0.0
  },
  {
-  "beat": "s07",
+  "beat": "s13",
   "k": 0,
   "text": "Disseram que a IA ia chegar mais fria, mais esperta, alien\u00edgena.",
-  "file": "audio/s07_0.wav",
-  "dur": 5.82,
+  "file": "audio/s13_0.wav",
+  "dur": 5.334,
   "pre": 0.0
  },
  {
-  "beat": "s07",
-  "k": 1,
+  "beat": "s14",
+  "k": 0,
   "text": "Ela chegou com o nosso organograma. Com a nossa sombra.",
-  "file": "audio/s07_1.wav",
-  "dur": 5.125,
+  "file": "audio/s14_0.wav",
+  "dur": 4.507,
   "pre": 0.0
  },
  {
-  "beat": "s07",
-  "k": 2,
+  "beat": "s14",
+  "k": 1,
   "text": "Com a mesma faquinha que a gente leva pra toda reuni\u00e3o de equipe.",
-  "file": "audio/s07_2.wav",
-  "dur": 4.525,
+  "file": "audio/s14_1.wav",
+  "dur": 4.62,
   "pre": 0.0
  },
  {
-  "beat": "s08",
+  "beat": "s15",
   "k": 0,
   "text": "Afinal, se a IA \u00e9 um espelho do humano...",
-  "file": "audio/s08_0.wav",
-  "dur": 4.29,
+  "file": "audio/s15_0.wav",
+  "dur": 3.89,
   "pre": 0.0
  },
  {
-  "beat": "s08",
-  "k": 1,
-  "text": "a sede de poder tamb\u00e9m se aprende.",
-  "file": "audio/s08_1.wav",
-  "dur": 2.538,
+  "beat": "s16",
+  "k": 0,
+  "text": "A sede de poder tamb\u00e9m se aprende.",
+  "file": "audio/s16_0.wav",
+  "dur": 2.77,
   "pre": 1.5
  },
  {

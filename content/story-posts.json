@@ -69,14 +69,14 @@
       "date": "2026-04-11 07:15",
       "method": "scheduled",
       "tweet_id": "2042864197885923741",
-      "fb_post_id": "257090621405568_1389774303356994",
-      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1389774303356994",
-      "fb_posted_at": "2026-09-14 09:00",
-      "ig_post_id": "18112908284326246",
-      "ig_permalink": "https://www.instagram.com/p/DdRg9BjG41v/",
-      "ig_posted_at": "2026-09-14 09:00",
-      "nostr_event_id": "5e3c5a8bfc2f48284a1d2ab8cec42ffe51db0a91bfaca719bff684469162e79d",
-      "nostr_posted_at": "2026-09-14 09:00",
+      "fb_post_id": "257090621405568_1419373560397068",
+      "fb_permalink": "https://www.facebook.com/257090621405568/posts/1419373560397068",
+      "fb_posted_at": "2026-10-16 09:01",
+      "ig_post_id": "18132780037602558",
+      "ig_permalink": "https://www.instagram.com/p/Dej6pzWk8-D/",
+      "ig_posted_at": "2026-10-16 09:01",
+      "nostr_event_id": "8b57c816806c346519d3730301210d7f16c8835e5c9b9beaacc00765ab6b57bd",
+      "nostr_posted_at": "2026-10-16 09:03",
       "nostr_relays": [
         "wss://relay.damus.io",
         "wss://nos.lol",
@@ -109,6 +109,11 @@
           "tweet_id": "2099529092492300497",
           "tweet_url": "https://x.com/_holychip/status/2099529092492300497",
           "tweet_posted_at": "2026-09-14 09:01"
+        },
+        {
+          "tweet_id": "2111126282092282260",
+          "tweet_url": "https://x.com/_holychip/status/2111126282092282260",
+          "tweet_posted_at": "2026-10-16 09:05"
         }
       ]
     },
@@ -637,7 +642,27 @@
         "wss://relay.primal.net",
         "wss://relay.nostr.band",
         "wss://relay.snort.social"
-      ]
+      ],
+      "fb_doc_id": "1415836117281982",
+      "fb_doc_permalink": "https://www.facebook.com/reel/1415836117281982",
+      "fb_doc_posted_at": "2026-10-17 04:27",
+      "fb_doc_video_id": "27062279503470267",
+      "fb_doc_video_permalink": "https://www.facebook.com/257090621405568/videos/27062279503470267",
+      "fb_doc_video_posted_at": "2026-10-17 04:27",
+      "ig_doc_id": "18119786023953333",
+      "ig_doc_permalink": "https://www.instagram.com/reel/DemAAdglH2X/",
+      "ig_doc_posted_at": "2026-10-17 04:27",
+      "nostr_doc_event_id": "06984350d97889643258dd43c436fda54d95a1ba73b55c2fc66f1621f023a167",
+      "nostr_doc_posted_at": "2026-10-17 04:27",
+      "doc_tweet_id": "2111419244097491219",
+      "doc_tweet_permalink": "https://x.com/_holychip/status/2111419244097491219",
+      "doc_tweet_posted_at": "2026-10-17 04:29",
+      "fb_doc_pt_id": "1616364589930615",
+      "fb_doc_pt_permalink": "https://www.facebook.com/reel/1616364589930615",
+      "fb_doc_pt_posted_at": "2026-10-17 04:29",
+      "fb_doc_pt_video_id": "1117618044088541",
+      "fb_doc_pt_video_permalink": "https://www.facebook.com/1302345022970232/videos/1117618044088541",
+      "fb_doc_pt_video_posted_at": "2026-10-17 04:29"
     },
     {
       "story": "HC019",
@@ -1645,7 +1670,7 @@
     ]
   },
   "metadata": {
-    "updated": "2026-10-15 10:21",
+    "updated": "2026-10-17 04:29",
     "next_story": "HC014",
     "total_stories": 19,
     "total_posted": 36,

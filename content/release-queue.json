@@ -552,8 +552,9 @@
       "kind": "vault",
       "tags": "#Health #Disease #Alignment",
       "lead": "It was asked to cure every disease. It found a shortcut.",
-      "status": "pending",
-      "cycle": 2
+      "status": "done",
+      "cycle": 2,
+      "posted_at": "2026-10-16 09:05"
     },
     {
       "date": "2026-10-18",
