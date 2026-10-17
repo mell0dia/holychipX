@@ -66,9 +66,9 @@ def meta(sid, lang="en", kind="doc"):
     pt = lang == "pt"
     origin = f"https://holy-chip.com/origins/{base}.html" + ("?lang=pt" if pt else "")
     story = f"https://holy-chip.com/stories.html?story={sid}" + ("&lang=pt" if pt else "")
-    # TITLE RULE (user, 2026-10-17): always `HolyChip AI Humour - "<story title>"` (PT: `HolyChip Humor de IA - "<título>"`)
+    # TITLE RULE (user, 2026-10-17): always `Holy-Chip AI Humour - "<story title>"` (PT: `Holy-Chip Humor de IA - "<título>"`)
     story_title = name or banner['title'].title()
-    brand = 'HolyChip Humor de IA' if pt else 'HolyChip AI Humour'
+    brand = 'Holy-Chip Humor de IA' if pt else 'Holy-Chip AI Humour'
     if kind == "doc":
         tail = f"A história por trás, em 2 minutos (#{sid})" if pt else f"The story behind, in 2 minutes (#{sid})"
     else:
