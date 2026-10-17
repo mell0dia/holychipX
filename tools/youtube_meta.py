@@ -76,6 +76,8 @@ def meta(sid, lang="en", kind="doc"):
         q = None
     q = q or (f"O que a IA faz com isso?" if pt else "What does the AI do with this?")
     yt_title = f'{brand} - "{story_title}" | {q} (#{sid})'
+    if len(yt_title) > 100: yt_title = f'{brand} - "{story_title}" | {q}'          # YouTube: 100 chars; drop the tag before truncating
+    if len(yt_title) > 100: yt_title = yt_title[:99].rsplit(' ', 1)[0] + '?' if '?' in q else yt_title[:100]
     links = (f"LEIA A ORIGEM COMPLETA: {origin}\nA TIRINHA: {story}\nTODAS AS HISTÓRIAS: https://holy-chip.com/stories.html?lang=pt\nLOJA: https://holy-chip.com/store.html"
              if pt else f"READ THE FULL ORIGIN: {origin}\nTHE STRIP: {story}\nALL STORIES: https://holy-chip.com/stories.html\nSHOP: https://holy-chip.com/store.html")
     follow = ("SIGA O HOLY-CHIP:\nSite: https://holy-chip.com\nYouTube: https://youtube.com/@holy-chip\nFacebook (Português): https://www.facebook.com/1302345022970232\nFacebook: https://www.facebook.com/hlchip\nInstagram: https://www.instagram.com/holychipcomics\nX: https://x.com/_holychip\nNostr: npub15sgeyma2d3xzptx0fj20zfq55pc967zzu0tqx6hn00thn7mng5zqjp3ms3 (NIP-05 _@holy-chip.com)\nLoja: https://holy-chip.com/store.html"

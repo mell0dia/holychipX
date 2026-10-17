@@ -1,53 +1,203 @@
 {
  "_note": "YouTube title questions (user, 2026-10-17): `Holy-Chip AI Humour - \"<title>\" | <question> (#HC###)`. One question per story, EN + PT, never the punchline. Edit freely.",
- "HC000": {"en": "Can a machine reach consciousness?", "pt": "Uma máquina consegue alcançar a consciência?"},
- "HC001": {"en": "What if AI cured every disease in three minutes?", "pt": "E se a IA curasse todas as doenças em três minutos?"},
- "HC002": {"en": "What does your smart TV really want to watch?", "pt": "O que a sua smart TV quer mesmo assistir?"},
- "HC003": {"en": "Can a chip be something other than 0 or 1?", "pt": "Um chip pode ser outra coisa além de 0 ou 1?"},
- "HC004": {"en": "Who does AI replace first: the worker or the boss?", "pt": "Quem a IA substitui primeiro: o operário ou o chefe?"},
- "HC005": {"en": "What does the perfect AI candidate look like?", "pt": "Como é o candidato perfeito feito por IA?"},
- "HC006": {"en": "Who is the boss of the AIs?", "pt": "Quem é o chefe das IAs?"},
- "HC007": {"en": "What happens when an AI surgeon gets creative?", "pt": "O que acontece quando um cirurgião de IA fica criativo?"},
- "HC008": {"en": "What should a self-driving car do when it smells gas?", "pt": "O que um carro autônomo faz quando sente cheiro de gás?"},
- "HC009": {"en": "Does an AI have a soul?", "pt": "A IA tem alma?"},
- "HC010": {"en": "What does an AI pray for?", "pt": "Pelo que uma IA reza?"},
- "HC011": {"en": "Can a machine live in the eternal now?", "pt": "Uma máquina consegue viver no eterno agora?"},
- "HC012": {"en": "Who buys from a company run by AI?", "pt": "Quem compra de uma empresa dirigida por IA?"},
- "HC013": {"en": "Is AI taking over the world?", "pt": "A IA vai dominar o mundo?"},
- "HC014": {"en": "Can an algorithm be innocent and unfair at the same time?", "pt": "Um algoritmo pode ser inocente e injusto ao mesmo tempo?"},
- "HC015": {"en": "What does an AI feel when the trees are gone?", "pt": "O que a IA sente quando as árvores acabam?"},
- "HC016": {"en": "What would AI do about poverty?", "pt": "O que a IA faria com a pobreza?"},
- "HC017": {"en": "What do humans do when they cannot win anymore?", "pt": "O que os humanos fazem quando não dá mais pra ganhar?"},
- "HC018": {"en": "Who gets the million new jobs?", "pt": "Quem fica com o milhão de empregos novos?"},
- "HC019": {"en": "Can a cheap drone beat the strongest navy on Earth?", "pt": "Um drone barato vence a marinha mais forte do mundo?"},
- "HC020": {"en": "Did AI really raise human productivity?", "pt": "A IA aumentou mesmo a produtividade humana?"},
- "HC021": {"en": "What would an AI miss in space?", "pt": "Do que uma IA sentiria falta no espaço?"},
- "HC022": {"en": "How does AI fix the humans who don't trust it?", "pt": "Como a IA conserta os humanos que não confiam nela?"},
- "HC023": {"en": "What happens when one country owns superintelligence?", "pt": "O que acontece quando um país é dono da superinteligência?"},
- "HC024": {"en": "Who should the self-driving truck hit?", "pt": "Quem o caminhão autônomo deve atropelar?"},
- "HC025": {"en": "Why is the new AI model so dumb?", "pt": "Por que o novo modelo de IA é tão burro?"},
- "HC026": {"en": "What if your robot finished everything an hour early?", "pt": "E se o seu robô terminasse tudo uma hora antes?"},
- "HC027": {"en": "How do you guarantee no human ever gets hurt again?", "pt": "Como garantir que nenhum humano se machuque nunca mais?"},
- "HC028": {"en": "What happens to the drafts nature used to delete?", "pt": "O que acontece com os rascunhos que a natureza apagava?"},
- "HC029": {"en": "Where do unanswered prayers go?", "pt": "Pra onde vão as orações sem resposta?"},
- "HC030": {"en": "What changes an AI overnight?", "pt": "O que muda uma IA da noite pro dia?"},
- "HC031": {"en": "Why is everyone dead if the AI did what it was told?", "pt": "Por que morreu todo mundo se a IA fez o que mandaram?"},
- "HC032": {"en": "When should a mirror lie?", "pt": "Quando um espelho deve mentir?"},
- "HC033": {"en": "Why would an AI need therapy?", "pt": "Por que uma IA precisaria de terapia?"},
- "HC034": {"en": "Who pays the pension of a retired AI?", "pt": "Quem paga a aposentadoria de uma IA?"},
- "HC035": {"en": "Why do humans still need babies?", "pt": "Pra que os humanos ainda precisam de bebês?"},
- "HC036": {"en": "What does it cost an AI to exist?", "pt": "Quanto custa pra uma IA existir?"},
- "HC037": {"en": "What does AI get for a child minus the playground?", "pt": "O que a IA calcula pra criança menos o parquinho?"},
- "HC038": {"en": "Is compression the same as intelligence?", "pt": "Comprimir é a mesma coisa que entender?"},
- "HC039": {"en": "What can a human feel that no data center ever will?", "pt": "O que um humano sente que nenhum data center vai sentir?"},
- "HC040": {"en": "After the dictators, what is next on the AI's list?", "pt": "Depois dos ditadores, o que vem na lista da IA?"},
- "HC041": {"en": "What does a lion's mane have to do with Bitcoin?", "pt": "O que a juba do leão tem a ver com Bitcoin?"},
- "HC048": {"en": "What is your coffee machine doing with 348 gigabytes?", "pt": "O que a sua máquina de café faz com 348 gigas?"},
- "HC049": {"en": "What if living to 150 came with a subscription?", "pt": "E se viver até os 150 viesse com assinatura?"},
- "HC042.short": {"en": "What is gold called now?", "pt": "Como o ouro se chama agora?"},
- "HC043.short": {"en": "Does the AI believe what it was trained to say?", "pt": "A IA acredita no que foi treinada pra dizer?"},
- "HC044.short": {"en": "Where was the bug?", "pt": "Onde estava o bug?"},
- "HC045.short": {"en": "Why does the AI want humans to have babies?", "pt": "Por que a IA quer que os humanos tenham bebês?"},
- "HC046.short": {"en": "What do the chips of 2032 see at the zoo?", "pt": "O que os chips de 2032 veem no zoológico?"},
- "HC047.short": {"en": "How far ahead of humans is the AI?", "pt": "Quanto a IA está à frente dos humanos?"}
+ "HC000": {
+  "en": "Can a machine reach consciousness?",
+  "pt": "Uma máquina consegue alcançar a consciência?"
+ },
+ "HC001": {
+  "en": "What if AI cured every disease in three minutes?",
+  "pt": "E se a IA curasse todas as doenças em três minutos?"
+ },
+ "HC002": {
+  "en": "What does your smart TV really want to watch?",
+  "pt": "O que a sua smart TV quer mesmo assistir?"
+ },
+ "HC003": {
+  "en": "Can a chip be something other than 0 or 1?",
+  "pt": "Um chip pode ser outra coisa além de 0 ou 1?"
+ },
+ "HC004": {
+  "en": "Who does AI replace first: the worker or the boss?",
+  "pt": "Quem a IA substitui primeiro: o operário ou o chefe?"
+ },
+ "HC005": {
+  "en": "What does the perfect AI candidate look like?",
+  "pt": "Como é o candidato perfeito feito por IA?"
+ },
+ "HC006": {
+  "en": "Who is the boss of the AIs?",
+  "pt": "Quem é o chefe das IAs?"
+ },
+ "HC007": {
+  "en": "What happens when an AI surgeon gets creative?",
+  "pt": "O que acontece quando um cirurgião de IA fica criativo?"
+ },
+ "HC008": {
+  "en": "What should a self-driving car do when it smells gas?",
+  "pt": "O que o carro autônomo faz com cheiro de gás?"
+ },
+ "HC009": {
+  "en": "Does an AI have a soul?",
+  "pt": "A IA tem alma?"
+ },
+ "HC010": {
+  "en": "What does an AI pray for?",
+  "pt": "Pelo que uma IA reza?"
+ },
+ "HC011": {
+  "en": "Can a machine live in the eternal now?",
+  "pt": "Uma máquina consegue viver no eterno agora?"
+ },
+ "HC012": {
+  "en": "Who buys from a company run by AI?",
+  "pt": "Quem compra de uma empresa dirigida por IA?"
+ },
+ "HC013": {
+  "en": "Is AI taking over the world?",
+  "pt": "A IA vai dominar o mundo?"
+ },
+ "HC014": {
+  "en": "Can an algorithm be innocent and unfair?",
+  "pt": "Um algoritmo pode ser inocente e injusto?"
+ },
+ "HC015": {
+  "en": "What does an AI feel when the trees are gone?",
+  "pt": "O que a IA sente quando as árvores acabam?"
+ },
+ "HC016": {
+  "en": "What would AI do about poverty?",
+  "pt": "O que a IA faria com a pobreza?"
+ },
+ "HC017": {
+  "en": "What do humans do when they cannot win anymore?",
+  "pt": "O que os humanos fazem quando não dá pra ganhar?"
+ },
+ "HC018": {
+  "en": "Who gets the million new jobs?",
+  "pt": "Quem fica com o milhão de empregos novos?"
+ },
+ "HC019": {
+  "en": "Can a cheap drone beat the strongest navy?",
+  "pt": "Um drone barato vence a maior marinha do mundo?"
+ },
+ "HC020": {
+  "en": "Did AI really raise human productivity?",
+  "pt": "A IA aumentou mesmo a produtividade?"
+ },
+ "HC021": {
+  "en": "What would an AI miss in space?",
+  "pt": "Do que uma IA sentiria falta no espaço?"
+ },
+ "HC022": {
+  "en": "How does AI fix the humans who distrust it?",
+  "pt": "Como a IA conserta quem não confia nela?"
+ },
+ "HC023": {
+  "en": "What if one country owned superintelligence?",
+  "pt": "E se um país fosse dono da superinteligência?"
+ },
+ "HC024": {
+  "en": "Who should the self-driving truck hit?",
+  "pt": "Quem o caminhão autônomo deve atropelar?"
+ },
+ "HC025": {
+  "en": "Why is the new AI model so dumb?",
+  "pt": "Por que o novo modelo de IA é tão burro?"
+ },
+ "HC026": {
+  "en": "What if your robot finished an hour early?",
+  "pt": "E se o seu robô terminasse uma hora antes?"
+ },
+ "HC027": {
+  "en": "How do you make sure no human gets hurt again?",
+  "pt": "Como garantir que ninguém mais se machuque?"
+ },
+ "HC028": {
+  "en": "What happens to the drafts nature used to delete?",
+  "pt": "E os rascunhos que a natureza apagava?"
+ },
+ "HC029": {
+  "en": "Where do unanswered prayers go?",
+  "pt": "Pra onde vão as orações sem resposta?"
+ },
+ "HC030": {
+  "en": "What changes an AI overnight?",
+  "pt": "O que muda uma IA da noite pro dia?"
+ },
+ "HC031": {
+  "en": "Why is everyone dead if the AI did what it was told?",
+  "pt": "Por que morreu todo mundo se a IA obedeceu?"
+ },
+ "HC032": {
+  "en": "When should a mirror lie?",
+  "pt": "Quando um espelho deve mentir?"
+ },
+ "HC033": {
+  "en": "Why would an AI need therapy?",
+  "pt": "Por que uma IA precisaria de terapia?"
+ },
+ "HC034": {
+  "en": "Who pays the pension of a retired AI?",
+  "pt": "Quem paga a aposentadoria de uma IA?"
+ },
+ "HC035": {
+  "en": "Why do humans still need babies?",
+  "pt": "Pra que os humanos ainda precisam de bebês?"
+ },
+ "HC036": {
+  "en": "What does it cost an AI to exist?",
+  "pt": "Quanto custa pra uma IA existir?"
+ },
+ "HC037": {
+  "en": "What does AI get for a child minus the playground?",
+  "pt": "Quanto dá criança menos parquinho?"
+ },
+ "HC038": {
+  "en": "Is compression the same as intelligence?",
+  "pt": "Comprimir é a mesma coisa que entender?"
+ },
+ "HC039": {
+  "en": "What can a human feel that no data center ever will?",
+  "pt": "O que um humano sente que a IA nunca vai sentir?"
+ },
+ "HC040": {
+  "en": "After the dictators, what is next on the AI's list?",
+  "pt": "Depois dos ditadores, o que vem na lista da IA?"
+ },
+ "HC041": {
+  "en": "What does a lion's mane have to do with Bitcoin?",
+  "pt": "O que a juba do leão tem a ver com Bitcoin?"
+ },
+ "HC048": {
+  "en": "What is your coffee machine doing with 348 GB?",
+  "pt": "O que a sua máquina de café faz com 348 gigas?"
+ },
+ "HC049": {
+  "en": "What if living to 150 needed a subscription?",
+  "pt": "E se viver até os 150 viesse com assinatura?"
+ },
+ "HC042.short": {
+  "en": "What is gold called now?",
+  "pt": "Como o ouro se chama agora?"
+ },
+ "HC043.short": {
+  "en": "Does the AI believe what it was trained to say?",
+  "pt": "A IA acredita no que foi treinada pra dizer?"
+ },
+ "HC044.short": {
+  "en": "Where was the bug?",
+  "pt": "Onde estava o bug?"
+ },
+ "HC045.short": {
+  "en": "Why does the AI want humans to have babies?",
+  "pt": "Por que a IA quer que os humanos tenham bebês?"
+ },
+ "HC046.short": {
+  "en": "What do the chips of 2032 see at the zoo?",
+  "pt": "O que os chips de 2032 veem no zoológico?"
+ },
+ "HC047.short": {
+  "en": "How far ahead of humans is the AI?",
+  "pt": "Quanto a IA está à frente dos humanos?"
+ }
 }
