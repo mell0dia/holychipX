@@ -173,7 +173,7 @@ def eleven_script(beats, voice):
                 n = re.findall(r'[\d.]+', t); pause += float(n[0]) if n else 0.8
         out.append({'beat': bid, 'k': k, 'text': line, 'file': fn, 'dur': round(c1 - c0, 3), 'pre': pause}); print(' ', bid, k, round(c1 - c0, 2), flush=True)
     return out
-SAY = {'Nagu': 'Nagú'}                                   # pronunciation fixes: spoken text only, captions unchanged (user picked na-GÚ)
+SAY = {'Nagu': 'Nagú', 'IA': 'I.A.'}                                   # pronunciation fixes: spoken text only, captions unchanged (user picked na-GÚ)
 def say_fix(t):
     for a, b in SAY.items(): t = re.sub(rf'\b{a}\b', b, t)
     return t
