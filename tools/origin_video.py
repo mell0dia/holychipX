@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """Origin pages: the documentary video at the top of the essay (user, 2026-10-14).
+SUPERSEDED 2026-10-19: NO_VIDEOS = True — the user wants no videos on the origin pages
+(the videos are a different visual element); running this now REMOVES every player.
 
 For every origins/HC###.html whose videos/HC###.doc.mp4 exists, a player goes
 in above the text column's first language block: the English video for
@@ -14,6 +16,7 @@ from pathlib import Path
 
 SITE = Path.home() / "holy-chip" / "website" / "holy-chip-site"
 MARK = "<!-- doc-video -->"
+NO_VIDEOS = True        # user, 2026-10-19: "no videos at all. The videos have a different visual element." Run = strips every player.
 TRACKER = Path.home() / "holy-chip" / "content" / "story-posts.json"
 
 
@@ -71,11 +74,14 @@ JS = """    // doc-video: the Portuguese video while PT is selected
 
 def apply(page):
     sid = page.stem
-    en, pt = yt_full(sid)
-    local = (SITE / "videos" / f"{sid}.doc.mp4").exists()
     s = page.read_text()
     had = MARK in s
     s = re.sub(rf"{re.escape(MARK)}.*?{re.escape(MARK)}\n", "", s, flags=re.S)          # idempotent
+    if NO_VIDEOS:                                            # RULE (user, 2026-10-19): NO videos on the origin pages at all
+        if had: page.write_text(s); return "removed"
+        return "no video"
+    en, pt = yt_full(sid)
+    local = (SITE / "videos" / f"{sid}.doc.mp4").exists()
     if not en and not local:
         if had: page.write_text(s); return "removed"
         return "no video"
